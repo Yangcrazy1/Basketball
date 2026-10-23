@@ -1,18 +1,17 @@
 {
   "name": "世界上另一个我",
-  "version": 6,
-  "edition": "海克斯名场面",
-  "source_commit": "fbe166bd33c98bdeec84052c7dbe92c959adfe16",
-  "html_sha256": "d2f77da1960e6a9d39e96849358ef3435b6d947a180d638f7f29c59dfbbe73eb",
-  "html_bytes": 4430561,
-  "league_questions": 84,
-  "total_questions": 156,
+  "version": 7,
+  "edition": "神人海克斯 · 网友脑洞风",
+  "source_commit": "490aed9954255c1a5849d68382b2e9b8acfcef34",
+  "html_sha256": "640493b2e599507b556746f09c01e605cf807e50a02513f17bea7d01e83a0ffe",
+  "html_bytes": 5427541,
+  "league_questions": 100,
+  "league_chapters": 25,
+  "total_questions": 172,
   "people": 42,
   "themed_entries": 44,
-  "real_aram_augments": 16,
+  "parody_cards": 25,
+  "official_augments": 0,
   "three_dimensional_model": false,
-  "removed_people": [
-    "美国讲师"
-  ],
-  "built_at": "2026-10-23T08:33:03.113806+00:00"
+  "built_at": "2026-10-23T09:34:17.778083+00:00"
 }
