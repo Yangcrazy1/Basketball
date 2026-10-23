@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "checks": [
+    "V8 boots with Hex default and the main start button visible within a 390x844 first screen",
+    "both redesigned palettes fit 320/390/430/768/1440px with no horizontal overflow",
+    "all 27 real game PNGs decode offline and the Collector sample actually renders five copies",
+    "four Collector sample reactions reveal four distinct illustrated parody cards; all 36 cards can be browsed",
+    "Collector follow-up question actually branches for AFK versus inting, follows edits, and resumes the same shuffled run",
+    "full AFK-oriented answers reveal PDD plus Fountain Owner with actual evidence, parody notes and stable alternatives",
+    "economy-focused full answers reveal Uzi/Fifth Collector, the alternate S8 ending and card-specific teammate duties",
+    "result, floating share controls and expandable six-axis/answer detail fit both palettes at every tested viewport",
+    "new Uzi plus real-icon parody-card/five-member PNG actually downloads and decodes at 1080x1920",
+    "meme entry links start real scored episodes; laughing matches Xiaohu/Double Laugh, pressure play matches JackeyLove/TES Top",
+    "all 8/16/24 modes finish in Hex and Rift with five legal roles; secondary themes retain parody results",
+    "V8 identity/card/team history reproduces after reload while older-version storage remains separate",
+    "downloaded single HTML works offline with denied storage, original card art, a complete run and its poster",
+    "malformed records are ignored and all tested flows make zero external asset requests with no JavaScript errors"
+  ],
+  "passed": 14,
+  "failure": null,
+  "html_sha256": "d99f312ab22eb6463cd8ce12a55dff4c8c6f6d80a54702f5c3cdab5e7c74c7b3",
+  "html_bytes": 6253650,
+  "javascript_errors": [],
+  "external_requests": [],
+  "file_url_check": {
+    "status": "blocked_by_environment_policy",
+    "error": "Chromium managed policy blocks file:// navigation; no policy bypass attempted. Offline exported-content execution is tested separately."
+  },
+  "duration_seconds": 46.83,
+  "scope": "Chromium responsive viewport, exact semantic answer cases, actual PNG/HTML downloads and offline execution; no physical phone test"
+}

@@ -1,986 +1,2013 @@
-[
-  {
-    "id": "table-flip",
-    "name": "掀桌",
-    "icon": 0,
-    "category": "心态",
-    "rarity": "kPrismatic",
-    "effect": "队友第三次说“这把能赢”时，\n将整张桌子刷新到下一局。",
-    "punchline": "赢不了比赛，就改变比赛用的家具。",
-    "line": "赢不了比赛，就改变比赛用的家具。",
-    "vector": [
-      95,
-      35,
-      90,
-      15,
-      35,
-      5
-    ],
-    "behaviorWeights": {
-      "chaos": 5,
-      "blame": 3,
-      "reset": 2,
-      "int": 1
+{
+  "lol": [
+    {
+      "id": "table-flip",
+      "name": "团灭别急着开",
+      "icon": 0,
+      "category": "心态",
+      "rarity": "kPrismatic",
+      "effect": "每次零换五后，获得一次冷静读秒。\n队友的“能赢”自动延迟到人齐再播。",
+      "punchline": "团可以重打，五个人别分五次到。",
+      "line": "团可以重打，五个人别分五次到。",
+      "vector": [
+        20,
+        35,
+        35,
+        80,
+        55,
+        95
+      ],
+      "behaviorWeights": {
+        "plan": 5,
+        "calm": 4,
+        "control": 2
+      },
+      "affinities": [
+        "xiaohu",
+        "clearlove"
+      ],
+      "kind": "plan",
+      "bias": [
+        -0.6,
+        -0.3,
+        -0.3,
+        0.6,
+        0.1,
+        0.9
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "SummonerHeal",
+          "item-3190",
+          "item-3075"
+        ],
+        "label": "人齐再开"
+      }
     },
-    "affinities": [
-      "pdd",
-      "ning"
-    ],
-    "kind": "chaos",
-    "bias": [
-      0.9,
-      -0.3,
-      0.8,
-      -0.7,
-      -0.3,
-      -0.9
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "collector-union",
-    "name": "第五位收集者",
-    "icon": 1,
-    "category": "经济",
-    "rarity": "kPrismatic",
-    "effect": "当四名队友都出收集者时，\n你的商店只剩收集者。",
-    "punchline": "全队伤害可以共享，最后一口绝不共享。",
-    "line": "全队伤害可以共享，最后一口绝不共享。",
-    "vector": [
-      58,
-      98,
-      65,
-      25,
-      65,
-      25
-    ],
-    "behaviorWeights": {
-      "collector": 5,
-      "gold": 2
+    {
+      "id": "collector-union",
+      "name": "第五位收集者",
+      "icon": 1,
+      "category": "经济",
+      "rarity": "kPrismatic",
+      "effect": "获得五把收集者的视觉排面。\n最后一口只有一个，抢的人有五个。",
+      "punchline": "装备可以复制，击杀不能平均分。",
+      "line": "装备可以复制，击杀不能平均分。",
+      "vector": [
+        58,
+        98,
+        65,
+        25,
+        65,
+        25
+      ],
+      "behaviorWeights": {
+        "collector": 5,
+        "gold": 2
+      },
+      "affinities": [
+        "uzi",
+        "jackeylove"
+      ],
+      "kind": "economy",
+      "bias": [
+        0.16,
+        0.96,
+        0.3,
+        -0.5,
+        0.3,
+        -0.5
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "item-6676",
+          "item-6676",
+          "item-6676",
+          "item-6676",
+          "item-6676"
+        ],
+        "label": "收集者 ×5"
+      }
     },
-    "affinities": [
-      "uzi",
-      "jackeylove"
-    ],
-    "kind": "economy",
-    "bias": [
-      0.16,
-      0.96,
-      0.3,
-      -0.5,
-      0.3,
-      -0.5
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "basic-duty",
-    "name": "回归基本功",
-    "icon": 2,
-    "category": "操作",
-    "rarity": "kPrismatic",
-    "effect": "你的 R 键进入年假。\n每次阵亡，复盘时长翻倍。",
-    "punchline": "技能少了一个，解释多了八百字。",
-    "line": "技能少了一个，解释多了八百字。",
-    "vector": [
-      25,
-      40,
-      35,
-      50,
-      95,
-      80
-    ],
-    "behaviorWeights": {
-      "mechanics": 5,
-      "explain": 3,
-      "plan": 1
+    {
+      "id": "basic-duty",
+      "name": "回归基本功",
+      "icon": 2,
+      "category": "操作",
+      "rarity": "kPrismatic",
+      "effect": "关闭“一键甩锅”，开启走A训练。\n每空一个技能，追加一句“先练基本功”。",
+      "punchline": "技能少了一个，解释多了八百字。",
+      "line": "技能少了一个，解释多了八百字。",
+      "vector": [
+        25,
+        40,
+        35,
+        50,
+        95,
+        80
+      ],
+      "behaviorWeights": {
+        "mechanics": 5,
+        "explain": 3,
+        "plan": 1
+      },
+      "affinities": [
+        "dasima",
+        "knight",
+        "faker"
+      ],
+      "kind": "basic",
+      "bias": [
+        -0.5,
+        -0.2,
+        -0.3,
+        0.0,
+        0.9,
+        0.6
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "item-1036",
+          "item-1036",
+          "item-1036",
+          "item-1036"
+        ],
+        "label": "长剑 ×4"
+      }
     },
-    "affinities": [
-      "dasima",
-      "knight",
-      "faker"
-    ],
-    "kind": "basic",
-    "bias": [
-      -0.5,
-      -0.2,
-      -0.3,
-      0.0,
-      0.9,
-      0.6
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "square-lecture",
-    "name": "正方形讲解",
-    "icon": 4,
-    "category": "嘴硬",
-    "rarity": "kGold",
-    "effect": "把打野路线画成正方形。\n每绕一圈，获得一次“我有说法”。",
-    "punchline": "先别急，等我把第四条边讲完。",
-    "line": "先别急，等我把第四条边讲完。",
-    "vector": [
-      35,
-      45,
-      25,
-      50,
-      55,
-      98
-    ],
-    "behaviorWeights": {
-      "explain": 5,
-      "plan": 3,
-      "retreat": 1
+    {
+      "id": "square-lecture",
+      "name": "正方形讲解",
+      "icon": 4,
+      "category": "嘴硬",
+      "rarity": "kGold",
+      "effect": "把打野路线画成正方形。\n每绕一圈，获得一次“我有说法”。",
+      "punchline": "先别急，等我把第四条边讲完。",
+      "line": "先别急，等我把第四条边讲完。",
+      "vector": [
+        35,
+        45,
+        25,
+        50,
+        55,
+        98
+      ],
+      "behaviorWeights": {
+        "explain": 5,
+        "plan": 3,
+        "retreat": 1
+      },
+      "affinities": [
+        "dasima",
+        "clearlove"
+      ],
+      "kind": "plan",
+      "bias": [
+        -0.3,
+        -0.1,
+        -0.5,
+        0.0,
+        0.1,
+        0.96
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "square",
+        "icons": [
+          "item-3364",
+          "item-3364",
+          "item-3364",
+          "item-3364"
+        ],
+        "label": "四条边都扫过"
+      }
     },
-    "affinities": [
-      "dasima",
-      "clearlove"
-    ],
-    "kind": "plan",
-    "bias": [
-      -0.3,
-      -0.1,
-      -0.5,
-      0.0,
-      0.1,
-      0.96
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "fountain-owner",
-    "name": "泉水股东",
-    "icon": 7,
-    "category": "摆烂",
-    "rarity": "kPrismatic",
-    "effect": "挂机期间，泉水算你的房产。\n队友每次路过都得听你点评。",
-    "punchline": "人没出泉水，已经指挥了三个战区。",
-    "line": "人没出泉水，已经指挥了三个战区。",
-    "vector": [
-      75,
-      25,
-      5,
-      5,
-      20,
-      15
-    ],
-    "behaviorWeights": {
-      "afk": 5,
-      "retreat": 1,
-      "blame": 1
+    {
+      "id": "fountain-owner",
+      "name": "泉水观战席",
+      "icon": 7,
+      "category": "摆烂",
+      "rarity": "kPrismatic",
+      "effect": "阵亡时自动切入四位队友视角。\n复活以后，观战权限还想续杯。",
+      "punchline": "地图看得最全，走出去最晚。",
+      "line": "地图看得最全，走出去最晚。",
+      "vector": [
+        75,
+        25,
+        5,
+        5,
+        20,
+        15
+      ],
+      "behaviorWeights": {
+        "afk": 5,
+        "retreat": 1,
+        "blame": 1
+      },
+      "affinities": [
+        "pdd",
+        "dasima"
+      ],
+      "kind": "retreat",
+      "bias": [
+        0.5,
+        -0.5,
+        -0.9,
+        -0.9,
+        -0.6,
+        -0.7
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [
+        "afk"
+      ],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "item-3363",
+          "item-3363",
+          "item-3363"
+        ],
+        "label": "远见改造 ×3"
+      }
     },
-    "affinities": [
-      "pdd",
-      "dasima"
-    ],
-    "kind": "retreat",
-    "bias": [
-      0.5,
-      -0.5,
-      -0.9,
-      -0.9,
-      -0.6,
-      -0.7
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": [
-      "afk"
-    ]
-  },
-  {
-    "id": "feeding-license",
-    "name": "开送驾驶证",
-    "icon": 8,
-    "category": "上头",
-    "rarity": "kPrismatic",
-    "effect": "闪现自动规划最短送达路线。\n复活后可无缝续订下一单。",
-    "punchline": "对面全是五星好评，队友正在申请退款。",
-    "line": "对面全是五星好评，队友正在申请退款。",
-    "vector": [
-      98,
-      20,
-      100,
-      8,
-      35,
-      5
-    ],
-    "behaviorWeights": {
-      "int": 5,
-      "chaos": 1
+    {
+      "id": "feeding-license",
+      "name": "开送驾驶证",
+      "icon": 8,
+      "category": "上头",
+      "rarity": "kPrismatic",
+      "effect": "闪现自动规划最短送达路线。\n复活后可无缝续订下一单。",
+      "punchline": "对面全是五星好评，队友正在申请退款。",
+      "line": "对面全是五星好评，队友正在申请退款。",
+      "vector": [
+        98,
+        20,
+        100,
+        8,
+        35,
+        5
+      ],
+      "behaviorWeights": {
+        "int": 5,
+        "chaos": 1
+      },
+      "affinities": [
+        "ning",
+        "jackeylove",
+        "theshy"
+      ],
+      "kind": "chaos",
+      "bias": [
+        0.96,
+        -0.6,
+        1.0,
+        -0.84,
+        -0.3,
+        -0.9
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "SummonerSnowball",
+          "SummonerSnowball",
+          "SummonerSnowball"
+        ],
+        "label": "雪球 ×3"
+      }
     },
-    "affinities": [
-      "ning",
-      "jackeylove",
-      "theshy"
-    ],
-    "kind": "chaos",
-    "bias": [
-      0.96,
-      -0.6,
-      1.0,
-      -0.84,
-      -0.3,
-      -0.9
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "all-aboard",
-    "name": "全队上车",
-    "icon": 13,
-    "category": "开团",
-    "rarity": "kGold",
-    "effect": "你的雪球新增四个乘客座位。\n按下第二段时，车门自动焊死。",
-    "punchline": "来不来另说，反正倒数已经开始。",
-    "line": "来不来另说，反正倒数已经开始。",
-    "vector": [
-      60,
-      35,
-      95,
-      90,
-      55,
-      35
-    ],
-    "behaviorWeights": {
-      "engage": 5,
-      "protect": 1,
-      "control": 1
+    {
+      "id": "all-aboard",
+      "name": "全队上车",
+      "icon": 13,
+      "category": "开团",
+      "rarity": "kGold",
+      "effect": "你的雪球新增四个乘客座位。\n按下第二段时，车门自动焊死。",
+      "punchline": "来不来另说，反正倒数已经开始。",
+      "line": "来不来另说，反正倒数已经开始。",
+      "vector": [
+        60,
+        35,
+        95,
+        90,
+        55,
+        35
+      ],
+      "behaviorWeights": {
+        "engage": 5,
+        "protect": 1,
+        "control": 1
+      },
+      "affinities": [
+        "ming",
+        "doinb",
+        "ning"
+      ],
+      "kind": "engage",
+      "bias": [
+        0.2,
+        -0.3,
+        0.9,
+        0.8,
+        0.1,
+        -0.3
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "SummonerSnowball",
+          "SummonerFlash",
+          "SummonerTeleport"
+        ],
+        "label": "三个都能赶路"
+      }
     },
-    "affinities": [
-      "ming",
-      "doinb",
-      "ning"
-    ],
-    "kind": "engage",
-    "bias": [
-      0.2,
-      -0.3,
-      0.9,
-      0.8,
-      0.1,
-      -0.3
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "where-team",
-    "name": "队友呢？",
-    "icon": 3,
-    "category": "上头",
-    "rarity": "kGold",
-    "effect": "突进后暂时关闭小地图。\n阵亡回放时，自动恢复视野。",
-    "punchline": "刚才说跟我，现在怎么只有我？",
-    "line": "刚才说跟我，现在怎么只有我？",
-    "vector": [
-      80,
-      45,
-      96,
-      12,
-      65,
-      15
-    ],
-    "behaviorWeights": {
-      "int": 4,
-      "engage": 3,
-      "blame": 2
+    {
+      "id": "where-team",
+      "name": "队友呢？",
+      "icon": 3,
+      "category": "上头",
+      "rarity": "kGold",
+      "effect": "突进后暂时关闭小地图。\n阵亡回放时，自动恢复视野。",
+      "punchline": "刚才说跟我，现在怎么只有我？",
+      "line": "刚才说跟我，现在怎么只有我？",
+      "vector": [
+        80,
+        45,
+        96,
+        12,
+        65,
+        15
+      ],
+      "behaviorWeights": {
+        "int": 4,
+        "engage": 3,
+        "blame": 2
+      },
+      "affinities": [
+        "jackeylove",
+        "theshy"
+      ],
+      "kind": "chaos",
+      "bias": [
+        0.6,
+        -0.1,
+        0.92,
+        -0.76,
+        0.3,
+        -0.7
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "ring",
+        "icons": [
+          "item-3363",
+          "item-3363",
+          "item-3363",
+          "item-3363"
+        ],
+        "label": "四个队友在哪"
+      }
     },
-    "affinities": [
-      "jackeylove",
-      "theshy"
-    ],
-    "kind": "chaos",
-    "bias": [
-      0.6,
-      -0.1,
-      0.92,
-      -0.76,
-      0.3,
-      -0.7
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "spring-heater",
-    "name": "春季恒温器",
-    "icon": 9,
-    "category": "运营",
-    "rarity": "kPrismatic",
-    "effect": "把日历的十二个月改成春天。\n逆风时，可申请一次室温复核。",
-    "punchline": "不是只会打春天，是我负责定义春天。",
-    "line": "不是只会打春天，是我负责定义春天。",
-    "vector": [
-      25,
-      50,
-      40,
-      70,
-      65,
-      95
-    ],
-    "behaviorWeights": {
-      "plan": 5,
-      "control": 3,
-      "stack": 1
+    {
+      "id": "spring-heater",
+      "name": "春季恒温器",
+      "icon": 9,
+      "category": "运营",
+      "rarity": "kPrismatic",
+      "effect": "把日历的十二个月改成春天。\n逆风时，可申请一次室温复核。",
+      "punchline": "不是只会打春天，是我负责定义春天。",
+      "line": "不是只会打春天，是我负责定义春天。",
+      "vector": [
+        25,
+        50,
+        40,
+        70,
+        65,
+        95
+      ],
+      "behaviorWeights": {
+        "plan": 5,
+        "control": 3,
+        "stack": 1
+      },
+      "affinities": [
+        "xiaohu"
+      ],
+      "kind": "plan",
+      "bias": [
+        -0.5,
+        0.0,
+        -0.2,
+        0.4,
+        0.3,
+        0.9
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "item-3087",
+          "item-3087",
+          "item-3087"
+        ],
+        "label": "电刀 ×3"
+      }
     },
-    "affinities": [
-      "xiaohu"
-    ],
-    "kind": "plan",
-    "bias": [
-      -0.5,
-      0.0,
-      -0.2,
-      0.4,
-      0.3,
-      0.9
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "four-stay-alive",
-    "name": "你们四个别死",
-    "icon": 10,
-    "category": "队友",
-    "rarity": "kPrismatic",
-    "effect": "当队友集体上头时，\n你自动获得四个血压监测窗口。",
-    "punchline": "这队可以没脑子，不能没有售后。",
-    "line": "这队可以没脑子，不能没有售后。",
-    "vector": [
-      15,
-      20,
-      50,
-      100,
-      55,
-      75
-    ],
-    "behaviorWeights": {
-      "protect": 5,
-      "heal": 3,
-      "control": 1
+    {
+      "id": "four-stay-alive",
+      "name": "你们四个别死",
+      "icon": 10,
+      "category": "队友",
+      "rarity": "kPrismatic",
+      "effect": "当队友集体上头时，\n你自动获得四个血压监测窗口。",
+      "punchline": "这队可以没脑子，不能没有售后。",
+      "line": "这队可以没脑子，不能没有售后。",
+      "vector": [
+        15,
+        20,
+        50,
+        100,
+        55,
+        75
+      ],
+      "behaviorWeights": {
+        "protect": 5,
+        "heal": 3,
+        "control": 1
+      },
+      "affinities": [
+        "letme",
+        "meiko",
+        "ming"
+      ],
+      "kind": "protect",
+      "bias": [
+        -0.7,
+        -0.6,
+        0.0,
+        1.0,
+        0.1,
+        0.5
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3190",
+          "SummonerHeal",
+          "item-3075"
+        ],
+        "label": "前排售后套餐"
+      }
     },
-    "affinities": [
-      "letme",
-      "meiko",
-      "ming"
-    ],
-    "kind": "protect",
-    "bias": [
-      -0.7,
-      -0.6,
-      0.0,
-      1.0,
-      0.1,
-      0.5
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "economy-brain",
-    "name": "经济头脑",
-    "icon": 5,
-    "category": "经济",
-    "rarity": "kGold",
-    "effect": "每漏一个兵，\n脑内自动播放余额不足提示音。",
-    "punchline": "团可以等，炮车不能等。",
-    "line": "团可以等，炮车不能等。",
-    "vector": [
-      25,
-      98,
-      25,
-      35,
-      55,
-      85
-    ],
-    "behaviorWeights": {
-      "gold": 5,
-      "stack": 3,
-      "collector": 1
+    {
+      "id": "economy-brain",
+      "name": "经济头脑",
+      "icon": 5,
+      "category": "经济",
+      "rarity": "kGold",
+      "effect": "每漏一个兵，\n脑内自动播放余额不足提示音。",
+      "punchline": "团可以等，炮车不能等。",
+      "line": "团可以等，炮车不能等。",
+      "vector": [
+        25,
+        98,
+        25,
+        35,
+        55,
+        85
+      ],
+      "behaviorWeights": {
+        "gold": 5,
+        "stack": 3,
+        "collector": 1
+      },
+      "affinities": [
+        "uzi",
+        "clearlove"
+      ],
+      "kind": "economy",
+      "bias": [
+        -0.5,
+        0.96,
+        -0.5,
+        -0.3,
+        0.1,
+        0.7
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "item-1083",
+          "item-1083",
+          "item-1083",
+          "item-1083"
+        ],
+        "label": "萃取 ×4"
+      }
     },
-    "affinities": [
-      "uzi",
-      "clearlove"
-    ],
-    "kind": "economy",
-    "bias": [
-      -0.5,
-      0.96,
-      -0.5,
-      -0.3,
-      0.1,
-      0.7
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "borrowed-growth",
-    "name": "贷款式发育",
-    "icon": 5,
-    "category": "经济",
-    "rarity": "kPrismatic",
-    "effect": "立即购买下一件梦想装备。\n利息从队友的精神状态里扣。",
-    "punchline": "别问经济哪来的，先把高光录下来。",
-    "line": "别问经济哪来的，先把高光录下来。",
-    "vector": [
-      65,
-      98,
-      75,
-      15,
-      65,
-      20
-    ],
-    "behaviorWeights": {
-      "collector": 4,
-      "gold": 3,
-      "chaos": 1
+    {
+      "id": "borrowed-growth",
+      "name": "贷款式发育",
+      "icon": 5,
+      "category": "经济",
+      "rarity": "kPrismatic",
+      "effect": "立即购买下一件梦想装备。\n利息从队友的精神状态里扣。",
+      "punchline": "别问经济哪来的，先把高光录下来。",
+      "line": "别问经济哪来的，先把高光录下来。",
+      "vector": [
+        65,
+        98,
+        75,
+        15,
+        65,
+        20
+      ],
+      "behaviorWeights": {
+        "collector": 4,
+        "gold": 3,
+        "chaos": 1
+      },
+      "affinities": [
+        "uzi",
+        "pdd"
+      ],
+      "kind": "economy",
+      "bias": [
+        0.3,
+        0.96,
+        0.5,
+        -0.7,
+        0.3,
+        -0.6
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "item-6676",
+          "item-3031",
+          "item-3089"
+        ],
+        "label": "梦想先装满"
+      }
     },
-    "affinities": [
-      "uzi",
-      "pdd"
-    ],
-    "kind": "economy",
-    "bias": [
-      0.3,
-      0.96,
-      0.5,
-      -0.7,
-      0.3,
-      -0.6
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "blame-master",
-    "name": "甩锅宗师",
-    "icon": 6,
-    "category": "嘴硬",
-    "rarity": "kPrismatic",
-    "effect": "阵亡后生成一口可转移的锅。\n连续说三次“不是我的”，锅会镀金。",
-    "punchline": "伤害排名第五，责任归属第一。",
-    "line": "伤害排名第五，责任归属第一。",
-    "vector": [
-      85,
-      35,
-      35,
-      3,
-      30,
-      20
-    ],
-    "behaviorWeights": {
-      "blame": 5,
-      "explain": 2,
-      "afk": 1
+    {
+      "id": "blame-master",
+      "name": "甩锅宗师",
+      "icon": 6,
+      "category": "嘴硬",
+      "rarity": "kPrismatic",
+      "effect": "阵亡后解锁全队装备检查。\n每找出一处问题，自己的回放延后十秒。",
+      "punchline": "伤害排名第五，责任归属第一。",
+      "line": "伤害排名第五，责任归属第一。",
+      "vector": [
+        85,
+        35,
+        35,
+        3,
+        30,
+        20
+      ],
+      "behaviorWeights": {
+        "blame": 5,
+        "explain": 2,
+        "afk": 1
+      },
+      "affinities": [
+        "pdd",
+        "dasima"
+      ],
+      "kind": "blame",
+      "bias": [
+        0.7,
+        -0.3,
+        -0.3,
+        -0.94,
+        -0.4,
+        -0.6
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [
+        "blame"
+      ],
+      "visual": {
+        "layout": "ring",
+        "icons": [
+          "item-3364",
+          "item-3364",
+          "item-3364"
+        ],
+        "label": "复活后开始扫描"
+      }
     },
-    "affinities": [
-      "pdd",
-      "dasima"
-    ],
-    "kind": "blame",
-    "bias": [
-      0.7,
-      -0.3,
-      -0.3,
-      -0.94,
-      -0.4,
-      -0.6
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": [
-      "blame"
-    ]
-  },
-  {
-    "id": "not-a-loss",
-    "name": "这波不亏",
-    "icon": 4,
-    "category": "嘴硬",
-    "rarity": "kGold",
-    "effect": "每次阵亡，自动生成一份收益报告。\n亏得越多，PPT 页数越多。",
-    "punchline": "人头可以掉，逻辑闭环不能掉。",
-    "line": "人头可以掉，逻辑闭环不能掉。",
-    "vector": [
-      50,
-      55,
-      35,
-      40,
-      45,
-      90
-    ],
-    "behaviorWeights": {
-      "explain": 5,
-      "plan": 1,
-      "reset": 1
+    {
+      "id": "not-a-loss",
+      "name": "这波不亏",
+      "icon": 4,
+      "category": "嘴硬",
+      "rarity": "kGold",
+      "effect": "阵亡后自动报出逼掉的闪现。\n若下一波没利用，系统追加一句“那还是亏了”。",
+      "punchline": "嘴可以说不亏，下一波得把资源拿回来。",
+      "line": "嘴可以说不亏，下一波得把资源拿回来。",
+      "vector": [
+        50,
+        55,
+        35,
+        40,
+        45,
+        90
+      ],
+      "behaviorWeights": {
+        "explain": 5,
+        "plan": 1,
+        "reset": 1
+      },
+      "affinities": [
+        "dasima"
+      ],
+      "kind": "plan",
+      "bias": [
+        0.0,
+        0.1,
+        -0.3,
+        -0.2,
+        -0.1,
+        0.8
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "SummonerFlash",
+          "SummonerFlash",
+          "item-1036"
+        ],
+        "label": "逼了两个闪现"
+      }
     },
-    "affinities": [
-      "dasima"
-    ],
-    "kind": "plan",
-    "bias": [
-      0.0,
-      0.1,
-      -0.3,
-      -0.2,
-      -0.1,
-      0.8
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "life-reroll",
-    "name": "人生重开器",
-    "icon": 14,
-    "category": "随机",
-    "rarity": "kPrismatic",
-    "effect": "对当前人生点击一次刷新。\n保留战绩，重新抽取嘴硬理由。",
-    "punchline": "旧的我已经下班，这锅找新的我。",
-    "line": "旧的我已经下班，这锅找新的我。",
-    "vector": [
-      55,
-      40,
-      60,
-      35,
-      45,
-      15
-    ],
-    "behaviorWeights": {
-      "reset": 5,
-      "chaos": 2,
-      "blame": 1
+    {
+      "id": "life-reroll",
+      "name": "人生重开器",
+      "icon": 14,
+      "category": "随机",
+      "rarity": "kPrismatic",
+      "effect": "对当前人生点击一次刷新。\n保留战绩，重新抽取嘴硬理由。",
+      "punchline": "旧的我已经下班，这锅找新的我。",
+      "line": "旧的我已经下班，这锅找新的我。",
+      "vector": [
+        55,
+        40,
+        60,
+        35,
+        45,
+        15
+      ],
+      "behaviorWeights": {
+        "reset": 5,
+        "chaos": 2,
+        "blame": 1
+      },
+      "affinities": [
+        "pdd",
+        "doinb"
+      ],
+      "kind": "reset",
+      "bias": [
+        0.1,
+        -0.2,
+        0.2,
+        -0.3,
+        -0.1,
+        -0.7
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "ring",
+        "icons": [
+          "item-3364",
+          "item-3363",
+          "item-2055"
+        ],
+        "label": "再看一次命运"
+      }
     },
-    "affinities": [
-      "pdd",
-      "doinb"
-    ],
-    "kind": "reset",
-    "bias": [
-      0.1,
-      -0.2,
-      0.2,
-      -0.3,
-      -0.1,
-      -0.7
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "clown-self",
-    "name": "小丑竟是我",
-    "icon": 15,
-    "category": "抽象",
-    "rarity": "kPrismatic",
-    "effect": "进场前播放主角音乐。\n阵亡后，音乐自动改成马戏团。",
-    "punchline": "本想剪燃向混剪，最后成了鬼畜素材。",
-    "line": "本想剪燃向混剪，最后成了鬼畜素材。",
-    "vector": [
-      85,
-      35,
-      85,
-      20,
-      55,
-      15
-    ],
-    "behaviorWeights": {
-      "chaos": 5,
-      "int": 2,
-      "reset": 1
+    {
+      "id": "clown-self",
+      "name": "小丑竟是我",
+      "icon": 15,
+      "category": "抽象",
+      "rarity": "kPrismatic",
+      "effect": "进场前播放主角音乐。\n阵亡后，音乐自动改成马戏团。",
+      "punchline": "本想剪燃向混剪，最后成了鬼畜素材。",
+      "line": "本想剪燃向混剪，最后成了鬼畜素材。",
+      "vector": [
+        85,
+        35,
+        85,
+        20,
+        55,
+        15
+      ],
+      "behaviorWeights": {
+        "chaos": 5,
+        "int": 2,
+        "reset": 1
+      },
+      "affinities": [
+        "pdd",
+        "ning"
+      ],
+      "kind": "chaos",
+      "bias": [
+        0.7,
+        -0.3,
+        0.7,
+        -0.6,
+        0.1,
+        -0.7
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "SummonerFlash",
+          "SummonerSnowball",
+          "SummonerDot"
+        ],
+        "label": "主角进场三件套"
+      }
     },
-    "affinities": [
-      "pdd",
-      "ning"
-    ],
-    "kind": "chaos",
-    "bias": [
-      0.7,
-      -0.3,
-      0.7,
-      -0.6,
-      0.1,
-      -0.7
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "fountain-range",
-    "name": "泉水射程",
-    "icon": 12,
-    "category": "拉扯",
-    "rarity": "kGold",
-    "effect": "把攻击距离延长到安全感以外。\n每后退一步，获得一句“我在输出”。",
-    "punchline": "输出先别急，先保证没人碰到我。",
-    "line": "输出先别急，先保证没人碰到我。",
-    "vector": [
-      15,
-      50,
-      5,
-      35,
-      85,
-      75
-    ],
-    "behaviorWeights": {
-      "poke": 5,
-      "retreat": 3,
-      "mechanics": 1
+    {
+      "id": "fountain-range",
+      "name": "泉水射程",
+      "icon": 12,
+      "category": "拉扯",
+      "rarity": "kGold",
+      "effect": "把攻击距离延长到安全感以外。\n每后退一步，获得一句“我在输出”。",
+      "punchline": "输出先别急，先保证没人碰到我。",
+      "line": "输出先别急，先保证没人碰到我。",
+      "vector": [
+        15,
+        50,
+        5,
+        35,
+        85,
+        75
+      ],
+      "behaviorWeights": {
+        "poke": 5,
+        "retreat": 3,
+        "mechanics": 1
+      },
+      "affinities": [
+        "uzi",
+        "knight"
+      ],
+      "kind": "range",
+      "bias": [
+        -0.7,
+        0.0,
+        -0.9,
+        -0.3,
+        0.7,
+        0.5
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "item-3363",
+          "item-3363",
+          "item-3363",
+          "item-3363",
+          "item-3363"
+        ],
+        "label": "看得见不等于打得到"
+      }
     },
-    "affinities": [
-      "uzi",
-      "knight"
-    ],
-    "kind": "range",
-    "bias": [
-      -0.7,
-      0.0,
-      -0.9,
-      -0.3,
-      0.7,
-      0.5
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "ultimate-installment",
-    "name": "大招分期付款",
-    "icon": 2,
-    "category": "操作",
-    "rarity": "kPrismatic",
-    "effect": "今天先交第一个 R。\n第二个 R 从下一局预支。",
-    "punchline": "大招可以分期，镜头必须全款。",
-    "line": "大招可以分期，镜头必须全款。",
-    "vector": [
-      55,
-      45,
-      75,
-      55,
-      85,
-      35
-    ],
-    "behaviorWeights": {
-      "ult": 5,
-      "mechanics": 1,
-      "engage": 1
+    {
+      "id": "ultimate-installment",
+      "name": "大招分期付款",
+      "icon": 2,
+      "category": "操作",
+      "rarity": "kPrismatic",
+      "effect": "今天先交第一个 R。\n第二个 R 从下一局预支。",
+      "punchline": "大招可以分期，镜头必须全款。",
+      "line": "大招可以分期，镜头必须全款。",
+      "vector": [
+        55,
+        45,
+        75,
+        55,
+        85,
+        35
+      ],
+      "behaviorWeights": {
+        "ult": 5,
+        "mechanics": 1,
+        "engage": 1
+      },
+      "affinities": [
+        "xiaohu",
+        "faker"
+      ],
+      "kind": "basic",
+      "bias": [
+        0.1,
+        -0.1,
+        0.5,
+        0.1,
+        0.7,
+        -0.3
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "SummonerDot",
+          "SummonerDot"
+        ],
+        "label": "今天先按一次"
+      }
     },
-    "affinities": [
-      "xiaohu",
-      "faker"
-    ],
-    "kind": "basic",
-    "bias": [
-      0.1,
-      -0.1,
-      0.5,
-      0.1,
-      0.7,
-      -0.3
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "cosmic-pension",
-    "name": "宇宙养老保险",
-    "icon": 5,
-    "category": "发育",
-    "rarity": "kGold",
-    "effect": "叠一层，存一笔养老金。\n直到基地爆炸，都在等待强势期。",
-    "punchline": "别催，恐龙退休以后轮到我发力。",
-    "line": "别催，恐龙退休以后轮到我发力。",
-    "vector": [
-      10,
-      85,
-      15,
-      35,
-      45,
-      100
-    ],
-    "behaviorWeights": {
-      "stack": 5,
-      "gold": 2,
-      "plan": 1
+    {
+      "id": "cosmic-pension",
+      "name": "宇宙养老保险",
+      "icon": 5,
+      "category": "发育",
+      "rarity": "kGold",
+      "effect": "叠一层，存一笔养老金。\n直到基地爆炸，都在等待强势期。",
+      "punchline": "别催，恐龙退休以后轮到我发力。",
+      "line": "别催，恐龙退休以后轮到我发力。",
+      "vector": [
+        10,
+        85,
+        15,
+        35,
+        45,
+        100
+      ],
+      "behaviorWeights": {
+        "stack": 5,
+        "gold": 2,
+        "plan": 1
+      },
+      "affinities": [
+        "clearlove",
+        "knight"
+      ],
+      "kind": "economy",
+      "bias": [
+        -0.8,
+        0.7,
+        -0.7,
+        -0.3,
+        -0.1,
+        1.0
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "item-3084",
+          "item-3084",
+          "item-3084"
+        ],
+        "label": "心之钢 ×3"
+      }
     },
-    "affinities": [
-      "clearlove",
-      "knight"
-    ],
-    "kind": "economy",
-    "bias": [
-      -0.8,
-      0.7,
-      -0.7,
-      -0.3,
-      -0.1,
-      1.0
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "bridge-clinic",
-    "name": "桥头医务室",
-    "icon": 10,
-    "category": "治疗",
-    "rarity": "kPrismatic",
-    "effect": "队友喊一次“奶我”，挂号一次。\n喊得太响，自动转精神科。",
-    "punchline": "奶量有限，求生欲请自行充值。",
-    "line": "奶量有限，求生欲请自行充值。",
-    "vector": [
-      5,
-      15,
-      20,
-      100,
-      65,
-      80
-    ],
-    "behaviorWeights": {
-      "heal": 5,
-      "protect": 2
+    {
+      "id": "bridge-clinic",
+      "name": "桥头医务室",
+      "icon": 10,
+      "category": "治疗",
+      "rarity": "kPrismatic",
+      "effect": "队友喊一次“奶我”，挂号一次。\n喊得太响，自动转精神科。",
+      "punchline": "奶量有限，求生欲请自行充值。",
+      "line": "奶量有限，求生欲请自行充值。",
+      "vector": [
+        5,
+        15,
+        20,
+        100,
+        65,
+        80
+      ],
+      "behaviorWeights": {
+        "heal": 5,
+        "protect": 2
+      },
+      "affinities": [
+        "meiko",
+        "baolan"
+      ],
+      "kind": "protect",
+      "bias": [
+        -0.9,
+        -0.7,
+        -0.6,
+        1.0,
+        0.3,
+        0.6
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "SummonerHeal",
+          "SummonerHeal",
+          "SummonerHeal",
+          "SummonerHeal"
+        ],
+        "label": "治疗术 ×4"
+      }
     },
-    "affinities": [
-      "meiko",
-      "baolan"
-    ],
-    "kind": "protect",
-    "bias": [
-      -0.9,
-      -0.7,
-      -0.6,
-      1.0,
-      0.3,
-      0.6
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "last-last-game",
-    "name": "真·最后一把",
-    "icon": 14,
-    "category": "续杯",
-    "rarity": "kGold",
-    "effect": "每说一次“最后一把”，\n自动新增一个平行宇宙。",
-    "punchline": "不是不睡，是这个宇宙还没赢过。",
-    "line": "不是不睡，是这个宇宙还没赢过。",
-    "vector": [
-      60,
-      40,
-      65,
-      65,
-      40,
-      20
-    ],
-    "behaviorWeights": {
-      "reset": 5,
-      "chaos": 1,
-      "protect": 1
+    {
+      "id": "last-last-game",
+      "name": "真·最后一把",
+      "icon": 14,
+      "category": "续杯",
+      "rarity": "kGold",
+      "effect": "每说一次“最后一把”，\n自动新增一个平行宇宙。",
+      "punchline": "不是不睡，是这个宇宙还没赢过。",
+      "line": "不是不睡，是这个宇宙还没赢过。",
+      "vector": [
+        60,
+        40,
+        65,
+        65,
+        40,
+        20
+      ],
+      "behaviorWeights": {
+        "reset": 5,
+        "chaos": 1,
+        "protect": 1
+      },
+      "affinities": [
+        "doinb",
+        "pdd"
+      ],
+      "kind": "reset",
+      "bias": [
+        0.2,
+        -0.2,
+        0.3,
+        0.3,
+        -0.2,
+        -0.6
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "ring",
+        "icons": [
+          "item-3006",
+          "item-3006",
+          "item-3006",
+          "item-3006"
+        ],
+        "label": "再跑最后一趟"
+      }
     },
-    "affinities": [
-      "doinb",
-      "pdd"
-    ],
-    "kind": "reset",
-    "bias": [
-      0.2,
-      -0.2,
-      0.3,
-      0.3,
-      -0.2,
-      -0.6
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "revive-cinema",
-    "name": "复活电影院",
-    "icon": 7,
-    "category": "观战",
-    "rarity": "kSilver",
-    "effect": "灰屏时解锁全队第一视角。\n观影结束可发表一条高质量弹幕。",
-    "punchline": "操作没看到，问题已经看明白了。",
-    "line": "操作没看到，问题已经看明白了。",
-    "vector": [
-      50,
-      20,
-      5,
-      20,
-      35,
-      50
-    ],
-    "behaviorWeights": {
-      "afk": 4,
-      "blame": 2,
-      "explain": 2,
-      "retreat": 1
+    {
+      "id": "revive-cinema",
+      "name": "复活电影院",
+      "icon": 7,
+      "category": "观战",
+      "rarity": "kSilver",
+      "effect": "灰屏时解锁全队第一视角。\n观影结束可发表一条高质量弹幕。",
+      "punchline": "操作没看到，问题已经看明白了。",
+      "line": "操作没看到，问题已经看明白了。",
+      "vector": [
+        50,
+        20,
+        5,
+        20,
+        35,
+        50
+      ],
+      "behaviorWeights": {
+        "afk": 4,
+        "blame": 2,
+        "explain": 2,
+        "retreat": 1
+      },
+      "affinities": [
+        "dasima",
+        "pdd"
+      ],
+      "kind": "retreat",
+      "bias": [
+        0.0,
+        -0.6,
+        -0.9,
+        -0.6,
+        -0.3,
+        0.0
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [
+        "afk"
+      ],
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3363",
+          "item-3364",
+          "item-3363"
+        ],
+        "label": "灰屏导播三机位"
+      }
     },
-    "affinities": [
-      "dasima",
-      "pdd"
-    ],
-    "kind": "retreat",
-    "bias": [
-      0.0,
-      -0.6,
-      -0.9,
-      -0.6,
-      -0.3,
-      0.0
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": [
-      "afk"
-    ]
-  },
-  {
-    "id": "champion-script",
-    "name": "冠军剧本",
-    "icon": 11,
-    "category": "名场面",
-    "rarity": "kPrismatic",
-    "effect": "把“当年要是”兑换成一次决胜局。\n这一回，金色的雨由你签收。",
-    "punchline": "历史可以架空，走位必须自己走。",
-    "line": "历史可以架空，走位必须自己走。",
-    "vector": [
-      35,
-      65,
-      70,
-      65,
-      100,
-      65
-    ],
-    "behaviorWeights": {
-      "mechanics": 5,
-      "ult": 2,
-      "plan": 1
+    {
+      "id": "champion-script",
+      "name": "冠军剧本",
+      "icon": 11,
+      "category": "名场面",
+      "rarity": "kPrismatic",
+      "effect": "把“当年要是”兑换成一次决胜局。\n这一回，金色的雨由你签收。",
+      "punchline": "历史可以架空，走位必须自己走。",
+      "line": "历史可以架空，走位必须自己走。",
+      "vector": [
+        35,
+        65,
+        70,
+        65,
+        100,
+        65
+      ],
+      "behaviorWeights": {
+        "mechanics": 5,
+        "ult": 2,
+        "plan": 1
+      },
+      "affinities": [
+        "uzi",
+        "faker"
+      ],
+      "kind": "basic",
+      "bias": [
+        -0.3,
+        0.3,
+        0.4,
+        0.3,
+        1.0,
+        0.3
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "item-3031",
+          "item-3031",
+          "item-3031"
+        ],
+        "label": "无尽之刃 ×3"
+      }
     },
-    "affinities": [
-      "uzi",
-      "faker"
-    ],
-    "kind": "basic",
-    "bias": [
-      -0.3,
-      0.3,
-      0.4,
-      0.3,
-      1.0,
-      0.3
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "snowball-hearse",
-    "name": "雪球灵车",
-    "icon": 13,
-    "category": "开团",
-    "rarity": "kPrismatic",
-    "effect": "雪球命中后，导航直达对面泉水。\n乘客可在复活后补交车费。",
-    "punchline": "上车前是五排，上车后是五个省略号。",
-    "line": "上车前是五排，上车后是五个省略号。",
-    "vector": [
-      85,
-      30,
-      100,
-      30,
-      45,
-      5
-    ],
-    "behaviorWeights": {
-      "int": 4,
-      "engage": 3,
-      "chaos": 2
+    {
+      "id": "snowball-hearse",
+      "name": "雪球灵车",
+      "icon": 13,
+      "category": "开团",
+      "rarity": "kPrismatic",
+      "effect": "雪球命中后，导航直达对面泉水。\n乘客可在复活后补交车费。",
+      "punchline": "上车前是五排，上车后是五个省略号。",
+      "line": "上车前是五排，上车后是五个省略号。",
+      "vector": [
+        85,
+        30,
+        100,
+        30,
+        45,
+        5
+      ],
+      "behaviorWeights": {
+        "int": 4,
+        "engage": 3,
+        "chaos": 2
+      },
+      "affinities": [
+        "ning",
+        "jackeylove"
+      ],
+      "kind": "chaos",
+      "bias": [
+        0.7,
+        -0.4,
+        1.0,
+        -0.4,
+        -0.1,
+        -0.9
+      ],
+      "fanMade": true,
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "requires": [],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "SummonerSnowball",
+          "SummonerSnowball",
+          "SummonerSnowball",
+          "SummonerSnowball",
+          "SummonerSnowball"
+        ],
+        "label": "雪球 ×5"
+      }
     },
-    "affinities": [
-      "ning",
-      "jackeylove"
-    ],
-    "kind": "chaos",
-    "bias": [
-      0.7,
-      -0.4,
-      1.0,
-      -0.4,
-      -0.1,
-      -0.9
-    ],
-    "fanMade": true,
-    "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
-    "requires": []
-  },
-  {
-    "id": "good-enough",
-    "name": "得过且过",
-    "icon": 7,
-    "category": "摆烂",
-    "rarity": "kSilver",
-    "effect": "进入本局省电模式。\n队友问你在哪，自动回复“在混了”。",
-    "punchline": "不当最亮的星，先当最稳的在线状态。",
-    "line": "不当最亮的星，先当最稳的在线状态。",
-    "vector": [
-      30,
-      35,
-      5,
-      25,
-      30,
-      55
-    ],
-    "behaviorWeights": {
-      "afk": 3,
-      "retreat": 5,
-      "reset": 1
+    {
+      "id": "good-enough",
+      "name": "得过且过",
+      "icon": 7,
+      "category": "摆烂",
+      "rarity": "kSilver",
+      "effect": "进入本局省电模式。\n队友问你在哪，自动回复“在混了”。",
+      "punchline": "不当最亮的星，先当最稳的在线状态。",
+      "line": "不当最亮的星，先当最稳的在线状态。",
+      "vector": [
+        30,
+        35,
+        5,
+        25,
+        30,
+        55
+      ],
+      "behaviorWeights": {
+        "afk": 3,
+        "retreat": 5,
+        "reset": 1
+      },
+      "affinities": [
+        "pdd",
+        "baolan"
+      ],
+      "kind": "retreat",
+      "bias": [
+        -0.4,
+        -0.3,
+        -0.9,
+        -0.5,
+        -0.4,
+        0.1
+      ],
+      "fanMade": true,
+      "requires": [],
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "referenceTitle": "金铲铲之战：网友 DIY 彩色海克斯，打破玩家认知！",
+      "sourcePage": "https://mmbiz.qpic.cn/mmbiz_jpg/eutmxn8eXtLC9Sob7XUfyQj85zBiaBv4wTEXrNogU7ibWVsqjrlu1IxZRicTib7buYjwibhWfXu5h3ENTG8wiczthZ5w/0?wx_fmt=jpeg",
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3083",
+          "item-3111"
+        ],
+        "label": "活着也是输出"
+      }
     },
-    "affinities": [
-      "pdd",
-      "baolan"
-    ],
-    "kind": "retreat",
-    "bias": [
-      -0.4,
-      -0.3,
-      -0.9,
-      -0.5,
-      -0.4,
-      0.1
-    ],
-    "fanMade": true,
-    "requires": [],
-    "creation": "参考已查看网络 DIY 卡“得过且过”的命名方向，效果与图标由本作重新创作",
-    "referenceTitle": "金铲铲之战：网友 DIY 彩色海克斯，打破玩家认知！",
-    "sourcePage": "https://mmbiz.qpic.cn/mmbiz_jpg/eutmxn8eXtLC9Sob7XUfyQj85zBiaBv4wTEXrNogU7ibWVsqjrlu1IxZRicTib7buYjwibhWfXu5h3ENTG8wiczthZ5w/0?wx_fmt=jpeg"
-  }
-]
+    {
+      "id": "double-laugh",
+      "name": "二段笑启动器",
+      "category": "名场面",
+      "rarity": "kPrismatic",
+      "effect": "第一次笑获得信心。\n第二次笑之前，强制确认基地还在。",
+      "punchline": "先别把胜利笑出来，把团先打完。",
+      "line": "先别把胜利笑出来，把团先打完。",
+      "vector": [
+        55,
+        35,
+        60,
+        40,
+        40,
+        20
+      ],
+      "behaviorWeights": {
+        "laugh": 5,
+        "chaos": 1
+      },
+      "affinities": [
+        "xiaohu"
+      ],
+      "kind": "chaos",
+      "icon": 0,
+      "fanMade": true,
+      "requires": [
+        "laugh"
+      ],
+      "bias": [
+        0.1,
+        -0.3,
+        0.2,
+        -0.2,
+        -0.2,
+        -0.6
+      ],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "item-3089",
+          "item-3089"
+        ],
+        "label": "帽子 ×2，笑两段"
+      },
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+    },
+    {
+      "id": "tes-top",
+      "name": "滔博陀螺",
+      "category": "名场面",
+      "rarity": "kPrismatic",
+      "effect": "受到连续开团时，启动抗压旋转。\n转出一次安全站位，才算真正停稳。",
+      "punchline": "这次别只顾着转，找个机会打回去。",
+      "line": "这次别只顾着转，找个机会打回去。",
+      "vector": [
+        65,
+        35,
+        70,
+        45,
+        65,
+        35
+      ],
+      "behaviorWeights": {
+        "spin": 5,
+        "engage": 1
+      },
+      "affinities": [
+        "jackeylove",
+        "knight"
+      ],
+      "kind": "engage",
+      "icon": 0,
+      "fanMade": true,
+      "requires": [
+        "spin"
+      ],
+      "bias": [
+        0.3,
+        -0.3,
+        0.4,
+        -0.1,
+        0.3,
+        -0.3
+      ],
+      "visual": {
+        "layout": "ring",
+        "icons": [
+          "item-3087",
+          "item-3087",
+          "item-3087",
+          "item-3087"
+        ],
+        "label": "电刀 ×4，环形梗改"
+      },
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+    },
+    {
+      "id": "flash-wall",
+      "name": "闪现贴墙检测",
+      "category": "操作",
+      "rarity": "kPrismatic",
+      "effect": "闪现撞墙时，获得一次近距离地形考察。\n队友截图速度提高到全队第一。",
+      "punchline": "闪现没过墙，笑话能过年。",
+      "line": "闪现没过墙，笑话能过年。",
+      "vector": [
+        75,
+        45,
+        95,
+        30,
+        60,
+        12
+      ],
+      "behaviorWeights": {
+        "flash": 5,
+        "chaos": 1
+      },
+      "affinities": [
+        "pdd",
+        "ning"
+      ],
+      "kind": "chaos",
+      "icon": 0,
+      "fanMade": true,
+      "requires": [
+        "flash"
+      ],
+      "bias": [
+        0.5,
+        -0.1,
+        0.9,
+        -0.4,
+        0.2,
+        -0.76
+      ],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "SummonerFlash",
+          "SummonerFlash",
+          "SummonerFlash"
+        ],
+        "label": "闪现 ×3"
+      },
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+    },
+    {
+      "id": "double-zhonya",
+      "name": "两段金身",
+      "category": "操作",
+      "rarity": "kPrismatic",
+      "effect": "获得两尊金色雕像的排面。\n队友围观两秒半，你围观队友两秒半。",
+      "punchline": "买的是金身，按的是人情世故。",
+      "line": "买的是金身，按的是人情世故。",
+      "vector": [
+        25,
+        35,
+        35,
+        55,
+        85,
+        80
+      ],
+      "behaviorWeights": {
+        "stasis": 5,
+        "mechanics": 1
+      },
+      "affinities": [
+        "faker",
+        "knight"
+      ],
+      "kind": "basic",
+      "icon": 0,
+      "fanMade": true,
+      "requires": [
+        "stasis"
+      ],
+      "bias": [
+        -0.5,
+        -0.3,
+        -0.3,
+        0.1,
+        0.7,
+        0.6
+      ],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "item-3157",
+          "item-3157"
+        ],
+        "label": "中娅沙漏 ×2"
+      },
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+    },
+    {
+      "id": "six-infinity",
+      "name": "六把无尽",
+      "category": "装备",
+      "rarity": "kPrismatic",
+      "effect": "装备栏复制六把无尽之刃。\n重复效果不叠，群友的问号可以叠。",
+      "punchline": "这是梗图出装，别真照着买。",
+      "line": "这是梗图出装，别真照着买。",
+      "vector": [
+        60,
+        90,
+        65,
+        25,
+        60,
+        25
+      ],
+      "behaviorWeights": {
+        "collector": 4,
+        "chaos": 2,
+        "gold": 1
+      },
+      "affinities": [
+        "uzi",
+        "jackeylove"
+      ],
+      "kind": "economy",
+      "icon": 0,
+      "fanMade": true,
+      "requires": [
+        "collector"
+      ],
+      "bias": [
+        0.2,
+        0.8,
+        0.3,
+        -0.5,
+        0.2,
+        -0.5
+      ],
+      "visual": {
+        "layout": "grid",
+        "icons": [
+          "item-3031",
+          "item-3031",
+          "item-3031",
+          "item-3031",
+          "item-3031",
+          "item-3031"
+        ],
+        "label": "无尽之刃 ×6"
+      },
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+    },
+    {
+      "id": "triple-deathcap",
+      "name": "帽上加帽",
+      "category": "装备",
+      "rarity": "kPrismatic",
+      "effect": "三顶帽子同时上岗。\n法强没有三倍，头围先领先版本。",
+      "punchline": "帽子够高，站位也得够稳。",
+      "line": "帽子够高，站位也得够稳。",
+      "vector": [
+        50,
+        90,
+        45,
+        30,
+        65,
+        45
+      ],
+      "behaviorWeights": {
+        "gold": 4,
+        "collector": 2
+      },
+      "affinities": [
+        "knight",
+        "faker"
+      ],
+      "kind": "economy",
+      "icon": 0,
+      "fanMade": true,
+      "requires": [
+        "gold"
+      ],
+      "bias": [
+        0.0,
+        0.8,
+        -0.1,
+        -0.4,
+        0.3,
+        -0.1
+      ],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "item-3089",
+          "item-3089",
+          "item-3089"
+        ],
+        "label": "灭世者的死亡之帽 ×3"
+      },
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+    },
+    {
+      "id": "calm-before-win",
+      "name": "先别开香槟",
+      "category": "心态",
+      "rarity": "kPrismatic",
+      "effect": "基地没爆炸前，自动屏蔽“稳了”。\n结算后才解锁完整版笑容。",
+      "punchline": "提前庆祝的手，先放回键盘上。",
+      "line": "提前庆祝的手，先放回键盘上。",
+      "vector": [
+        8,
+        45,
+        25,
+        75,
+        65,
+        95
+      ],
+      "behaviorWeights": {
+        "calm": 5,
+        "plan": 2
+      },
+      "affinities": [
+        "xiaohu",
+        "faker"
+      ],
+      "kind": "plan",
+      "icon": 0,
+      "fanMade": true,
+      "requires": [
+        "calm"
+      ],
+      "bias": [
+        -0.84,
+        -0.1,
+        -0.5,
+        0.5,
+        0.3,
+        0.9
+      ],
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "SummonerBarrier",
+          "item-3190",
+          "SummonerHeal"
+        ],
+        "label": "先把这一波守完"
+      },
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+    },
+    {
+      "id": "brush-five",
+      "name": "草里真有五个",
+      "category": "视野",
+      "rarity": "kPrismatic",
+      "effect": "探草时额外获得一次“先别走过去”。\n拿脸探草的，自动成为一枚临时眼位。",
+      "punchline": "眼可以排，人别先没了。",
+      "line": "眼可以排，人别先没了。",
+      "vector": [
+        10,
+        15,
+        25,
+        92,
+        55,
+        95
+      ],
+      "behaviorWeights": {
+        "vision": 5,
+        "control": 1
+      },
+      "affinities": [
+        "ming",
+        "meiko"
+      ],
+      "kind": "protect",
+      "icon": 0,
+      "fanMade": true,
+      "requires": [
+        "vision"
+      ],
+      "bias": [
+        -0.8,
+        -0.7,
+        -0.5,
+        0.84,
+        0.1,
+        0.9
+      ],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "item-2055",
+          "item-2055",
+          "item-2055",
+          "item-2055",
+          "item-2055"
+        ],
+        "label": "控制守卫 ×5"
+      },
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+    },
+    {
+      "id": "steel-orchestra",
+      "name": "心之钢交响乐",
+      "category": "成长",
+      "rarity": "kPrismatic",
+      "effect": "每叮一声，全队语音安静零点五秒。\n层数继续涨，耳机音量先投降。",
+      "punchline": "团可以慢一点，叮不能少一下。",
+      "line": "团可以慢一点，叮不能少一下。",
+      "vector": [
+        20,
+        85,
+        30,
+        45,
+        50,
+        95
+      ],
+      "behaviorWeights": {
+        "stack": 5,
+        "protect": 1
+      },
+      "affinities": [
+        "letme",
+        "theshy"
+      ],
+      "kind": "protect",
+      "icon": 0,
+      "fanMade": true,
+      "requires": [
+        "stack"
+      ],
+      "bias": [
+        -0.6,
+        0.7,
+        -0.4,
+        -0.1,
+        0.0,
+        0.9
+      ],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "item-3084",
+          "item-3084",
+          "item-3084",
+          "item-3084",
+          "item-3084"
+        ],
+        "label": "心之钢 ×5"
+      },
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+    },
+    {
+      "id": "mercury-notice",
+      "name": "水银使用须知",
+      "category": "拉扯",
+      "rarity": "kPrismatic",
+      "effect": "解除的控制写在装备说明里。\n没按出来的理由写在聊天记录里。",
+      "punchline": "装备先看说明，失误别怪键盘。",
+      "line": "装备先看说明，失误别怪键盘。",
+      "vector": [
+        25,
+        35,
+        25,
+        55,
+        90,
+        85
+      ],
+      "behaviorWeights": {
+        "mechanics": 4,
+        "plan": 2
+      },
+      "affinities": [
+        "uzi",
+        "faker"
+      ],
+      "kind": "basic",
+      "icon": 0,
+      "fanMade": true,
+      "requires": [
+        "mechanics"
+      ],
+      "bias": [
+        -0.5,
+        -0.3,
+        -0.5,
+        0.1,
+        0.8,
+        0.7
+      ],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "item-3140",
+          "item-3140",
+          "item-3140"
+        ],
+        "label": "水银饰带 ×3"
+      },
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+    },
+    {
+      "id": "five-knives",
+      "name": "电刀连锁反应",
+      "category": "消耗",
+      "rarity": "kPrismatic",
+      "effect": "第一刀弹向兵线。\n第二刀弹向对手，第三刀弹向队友血压。",
+      "punchline": "弹得很热闹，先看打到了谁。",
+      "line": "弹得很热闹，先看打到了谁。",
+      "vector": [
+        25,
+        55,
+        25,
+        45,
+        90,
+        70
+      ],
+      "behaviorWeights": {
+        "poke": 5,
+        "mechanics": 1
+      },
+      "affinities": [
+        "uzi",
+        "knight"
+      ],
+      "kind": "retreat",
+      "icon": 0,
+      "fanMade": true,
+      "requires": [
+        "poke"
+      ],
+      "bias": [
+        -0.5,
+        0.1,
+        -0.5,
+        -0.1,
+        0.8,
+        0.4
+      ],
+      "visual": {
+        "layout": "fan",
+        "icons": [
+          "item-3087",
+          "item-3087",
+          "item-3087",
+          "item-3087",
+          "item-3087"
+        ],
+        "label": "斯塔缇克电刃 ×5"
+      },
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+    }
+  ],
+  "basket": [
+    {
+      "id": "kneel",
+      "name": "膝盖情绪增幅器",
+      "line": "裁判名场面担当，开麦和出手都敢接。",
+      "bias": [
+        0.4,
+        0,
+        0.3,
+        0.8,
+        0,
+        1
+      ],
+      "accessory": "情绪护膝",
+      "fanMade": true,
+      "icon": 11,
+      "category": "主题整活",
+      "effect": "裁判名场面担当，开麦和出手都敢接。",
+      "punchline": "裁判名场面担当，开麦和出手都敢接。",
+      "creation": "本作原创恶搞补给"
+    },
+    {
+      "id": "logo",
+      "name": "停车场算三分",
+      "line": "射程之外，先给想象力留个位。",
+      "bias": [
+        0,
+        1,
+        0,
+        0.7,
+        0,
+        0.5
+      ],
+      "accessory": "超远护目镜",
+      "fanMade": true,
+      "icon": 12,
+      "category": "主题整活",
+      "effect": "射程之外，先给想象力留个位。",
+      "punchline": "射程之外，先给想象力留个位。",
+      "creation": "本作原创恶搞补给"
+    },
+    {
+      "id": "board",
+      "name": "篮板吸尘器",
+      "line": "不抢话筒，先把落点照顾明白。",
+      "bias": [
+        0,
+        0,
+        0.5,
+        0.4,
+        1,
+        -0.2
+      ],
+      "accessory": "吸尘背包",
+      "fanMade": true,
+      "icon": 5,
+      "category": "主题整活",
+      "effect": "不抢话筒，先把落点照顾明白。",
+      "punchline": "不抢话筒，先把落点照顾明白。",
+      "creation": "本作原创恶搞补给"
+    },
+    {
+      "id": "coffee",
+      "name": "关键球加浓咖啡",
+      "line": "冷静与果断，这杯都加满。",
+      "bias": [
+        0,
+        0,
+        0,
+        1,
+        0.8,
+        0
+      ],
+      "accessory": "咖啡能量罐",
+      "fanMade": true,
+      "icon": 6,
+      "category": "主题整活",
+      "effect": "冷静与果断，这杯都加满。",
+      "punchline": "冷静与果断，这杯都加满。",
+      "creation": "本作原创恶搞补给"
+    },
+    {
+      "id": "meme",
+      "name": "虎扑式满分评委",
+      "line": "比赛可以有输赢，节目不能没效果。",
+      "bias": [
+        0.7,
+        0.7,
+        0,
+        0,
+        0,
+        1
+      ],
+      "accessory": "评分手牌",
+      "fanMade": true,
+      "icon": 10,
+      "category": "主题整活",
+      "effect": "比赛可以有输赢，节目不能没效果。",
+      "punchline": "比赛可以有输赢，节目不能没效果。",
+      "creation": "本作原创恶搞补给"
+    },
+    {
+      "id": "team",
+      "name": "更衣室粘合剂",
+      "line": "把五个人变成愿意一起跑的一队。",
+      "bias": [
+        1,
+        0,
+        1,
+        0,
+        0.3,
+        0
+      ],
+      "accessory": "团队臂章",
+      "fanMade": true,
+      "icon": 15,
+      "category": "主题整活",
+      "effect": "把五个人变成愿意一起跑的一队。",
+      "punchline": "把五个人变成愿意一起跑的一队。",
+      "creation": "本作原创恶搞补给"
+    }
+  ],
+  "abstract": [
+    {
+      "id": "juice",
+      "name": "好果汁补给箱",
+      "line": "现场温度与节目能量，一次补齐。",
+      "bias": [
+        0.8,
+        0,
+        1,
+        0.2,
+        0,
+        0.4
+      ],
+      "accessory": "果汁背包",
+      "fanMade": true,
+      "icon": 11,
+      "category": "主题整活",
+      "effect": "现场温度与节目能量，一次补齐。",
+      "punchline": "现场温度与节目能量，一次补齐。",
+      "creation": "本作原创恶搞补给"
+    },
+    {
+      "id": "commentator",
+      "name": "复盘解说体验证",
+      "line": "离谱之前，先把自己的逻辑讲完整。",
+      "bias": [
+        0,
+        0.4,
+        0,
+        0,
+        1,
+        0.9
+      ],
+      "accessory": "复盘眼镜",
+      "fanMade": true,
+      "icon": 12,
+      "category": "主题整活",
+      "effect": "离谱之前，先把自己的逻辑讲完整。",
+      "punchline": "离谱之前，先把自己的逻辑讲完整。",
+      "creation": "本作原创恶搞补给"
+    },
+    {
+      "id": "portal",
+      "name": "平行宇宙通行证",
+      "line": "选一条没人替你试过的路线。",
+      "bias": [
+        0.2,
+        1,
+        0,
+        0.7,
+        -0.2,
+        0.4
+      ],
+      "accessory": "传送门耳饰",
+      "fanMade": true,
+      "icon": 5,
+      "category": "主题整活",
+      "effect": "选一条没人替你试过的路线。",
+      "punchline": "选一条没人替你试过的路线。",
+      "creation": "本作原创恶搞补给"
+    },
+    {
+      "id": "sofa",
+      "name": "葛优节能模式",
+      "line": "稳住场面与队友，暂缓无效冲刺。",
+      "bias": [
+        0,
+        0,
+        1,
+        -0.4,
+        0.5,
+        -0.2
+      ],
+      "accessory": "舒适靠垫",
+      "fanMade": true,
+      "icon": 6,
+      "category": "主题整活",
+      "effect": "稳住场面与队友，暂缓无效冲刺。",
+      "punchline": "稳住场面与队友，暂缓无效冲刺。",
+      "creation": "本作原创恶搞补给"
+    },
+    {
+      "id": "micro",
+      "name": "麦克风永动机",
+      "line": "这场可以冷，但不能在你这里冷。",
+      "bias": [
+        1,
+        0.3,
+        0,
+        0.4,
+        0,
+        1
+      ],
+      "accessory": "超大话筒",
+      "fanMade": true,
+      "icon": 10,
+      "category": "主题整活",
+      "effect": "这场可以冷，但不能在你这里冷。",
+      "punchline": "这场可以冷，但不能在你这里冷。",
+      "creation": "本作原创恶搞补给"
+    },
+    {
+      "id": "clipboard",
+      "name": "发癫也要排班",
+      "line": "抽象有很多种，今天选有章法这一种。",
+      "bias": [
+        0,
+        0.3,
+        0.3,
+        0,
+        1,
+        0.3
+      ],
+      "accessory": "计划板",
+      "fanMade": true,
+      "icon": 15,
+      "category": "主题整活",
+      "effect": "抽象有很多种，今天选有章法这一种。",
+      "punchline": "抽象有很多种，今天选有章法这一种。",
+      "creation": "本作原创恶搞补给"
+    }
+  ]
+}

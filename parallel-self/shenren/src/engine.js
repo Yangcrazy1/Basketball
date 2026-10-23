@@ -5,6 +5,12 @@ const lolDimIds=['tilt','greed','risk','team','craft','plan'];
 const dimsFor=theme=>theme==='lol'?lolDimIds:dimIds;
 function random(){if(typeof crypto!=='undefined'&&crypto.getRandomValues){const a=new Uint32Array(1);crypto.getRandomValues(a);return a[0]/4294967296;}return Math.random();}
 function shuffle(list,rng=random){const a=list.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+// One layout feeds both HTML and exported Canvas: the real icons and copy counts match.
+function artLayout(a){
+ const icons=a.visual?.icons||[],n=icons.length,l=a.visual?.layout;
+ const points=n===1?[[.19,.19,.62,0]]:l==='grid'?icons.map((_,i)=>[.02+(i%3)*.33,.17+Math.floor(i/3)*.34,.30,0]):l==='square'?[[.07,.07,.36,-8],[.57,.07,.36,8],[.07,.57,.36,8],[.57,.57,.36,-8]]:l==='ring'?icons.map((_,i)=>{const t=-Math.PI/2+i*Math.PI*2/n;return [.33+Math.cos(t)*.28,.33+Math.sin(t)*.28,.34,i*15-15];}):l==='row'?icons.map((_,i)=>[.03+i*(.94-.40)/Math.max(1,n-1),.30+(i%2)*.1,.40,(i-(n-1)/2)*10]):n===2?[[.04,.28,.47,-15],[.49,.19,.47,15]]:n===3?[[.03,.35,.47,-17],[.51,.35,.47,17],[.27,.07,.47,0]]:n===4?[[.05,.14,.4,-15],[.55,.14,.4,15],[.05,.55,.4,-8],[.55,.55,.4,8]]:[[.03,.14,.37,-17],[.23,.04,.37,-8],[.43,.04,.37,8],[.62,.14,.37,17],[.29,.53,.43,0]];
+ return icons.map((icon,i)=>({icon,x:points[i][0],y:points[i][1],size:points[i][2],rotation:points[i][3]}));
+}
 function draw(data,theme,count,previousFirst=null,rng=random,series='all'){
  if(!data.themes.some(t=>t.id===theme)||!data.modes.includes(count))throw Error('不支持的主题或题量');
  if(theme==='lol'&&!['all','hex','rift'].includes(series))throw Error('不支持的联盟系列');
@@ -53,15 +59,17 @@ function recommend(s,data,vector=score(s,data),identity=null){
  }).filter(a=>s.theme!=='lol'||a.hitCount>0).sort((a,b)=>b.match-a.match||b.hitCount-a.hitCount||a.id.localeCompare(b.id));
 }
 function questionAt(s,data,index=s.index){const q=data.questions.find(q=>q.id===s.deck[index]?.id);if(!q)return null;const prior=index>0?s.answers[index-1]:null;return {...q,title:q.branches&&prior!==null?(q.branches[String(prior)]||q.title):q.title};}
-const reactions={afk:'你的镜头切到观战席，接下来由你决定这局怎么演。',int:'上一单已经送达，导播开始等你的下一次发车。',collector:'第五位股东入场，最后一口的归属还没谈妥。',protect:'你把队友留在镜头里，接下来看看这份售后怎么做。',heal:'桥头医务室已经开门，下一波挂号队伍也到了。',explain:'复活倒计时在走，你的讲解刚刚开始。',blame:'锅还在空中，下一幕先看看谁来接。',chaos:'节目效果已到账，故事还有下一幕。',plan:'计划先写在这里，接下来看看现场听不听安排。',engage:'车已经开了，接下来看乘客有没有跟上。',reset:'上一段剧本已翻篇，新的一幕还等你接梗。'};
+const reactions={afk:'你的镜头切到观战席，接下来由你决定这局怎么演。',int:'上一单已经送达，导播开始等你的下一次发车。',collector:'第五把收集者已在计划里，下一波还得看阵容。',protect:'你把队友留在镜头里，接下来看看这份售后怎么做。',heal:'桥头医务室已经开门，下一波挂号队伍也到了。',explain:'复活倒计时在走，你的讲解刚刚开始。',blame:'锅还在空中，下一幕先看看谁来接。',chaos:'节目效果已到账，故事还有下一幕。',plan:'计划先写在这里，接下来看看现场听不听安排。',engage:'车已经开了，接下来看乘客有没有跟上。',reset:'上一段剧本已翻篇，新的一幕还等你接梗。',laugh:'笑容先记一段，接下来手也要跟上。',calm:'你把庆祝留到了后面，先把眼前的对局打完。',spin:'抗压拉扯已经开始，下一步看看有没有反打空间。',stasis:'金身时机已经记下，结束之后还得接着操作。',flash:'闪现交了，接下来先把走位和退路找回来。',vision:'你先要信息，再决定下一步怎么打。'};
 function context(s,data,index=s.index){const q=questionAt(s,data,index);if(q.theme!=='lol'||q.stage===0)return null;const previous=data.questions.find(p=>p.id===s.deck[index-1].id),o=previous.options.find(o=>o.id===s.answers[index-1]);return o?{chapter:q.chapterName,stage:q.stage,previousChoice:o.text,previousScene:previous.scene,reaction:reactions[o.behavior]||'上一个反应已经记下，同一场对局继续往下演。'}:null;}
 const teamScripts={
- economy:['上路承压：给四位股东挡债。','野区记账：每组野怪都得开票。','中路出差：游走先报销车费。','下路收尾：最后一口拒绝合资。','辅助售后：全队唯一还看血条的人。'],
+ range:['上路卡位：把对手留在输出射程里。','打野盯人：绕后的人先报位置。','中路消耗：命中一轮再决定进退。','下路拉扯：边走边打，别只顾着后退。','辅助接应：控制留给贴脸的那个人。'],
+ blame:['上路复盘：先说线权，再看有没有支援。','打野报点：刷野路线和到场时间说清楚。','中路看图：先确认信息，再问队友在哪。','下路回放：谁先吃控，拉进度条再说。','辅助提醒：复活时间和技能比问号更有用。'],
+ economy:['上路承压：先站住，再给四个输出腾空间。','野区控图：该吃资源时吃，该到场时到。','中路游走：推完线再走，别两头都漏。','下路收尾：残血可以收，前排别硬穿。','辅助售后：全队唯一还看血条的人。'],
  chaos:['上路独演：先把边线变成个人舞台。','打野发车：路线直达下一段集锦。','中路配乐：这一波自带主角 BGM。','下路压轴：高光和灰屏只隔一帧。','辅助验票：上车前请签字。'],
  engage:['上路顶门：把第一波技能收下。','打野发车：开之前先数一遍乘客。','中路接戏：控制留给关键那个人。','下路输出：司机说到站再下车。','辅助导航：负责把人齐这件事讲明白。'],
  protect:['上路挡风：四个输出的移动掩体。','打野保安：巡逻到后排就上班。','中路调度：让技能替队友争取时间。','下路患者：请在医务室射程内营业。','辅助主治：这家没你真得关门。'],
  basic:['上路动作指导：细节交给手，不交给嘴。','打野解说：先把路线走成一个几何题。','中路编导：等到技能窗口再拍。','下路主演：金色的雨要自己走位接。','辅助控场：让高光背后有人接应。'],
- plan:['上路工期：线没带完先别掀桌。','打野路线：第四条边还没讲完。','中路恒温：今天几度由这里决定。','下路验收：强势期到了就该交作业。','辅助复盘：把五个人留在同一张图上。'],
+ plan:['上路带线：看完小地图再过河。','打野路线：第四条边还没讲完。','中路恒温：今天几度由这里决定。','下路输出：等关键装备成型再接硬仗。','辅助复盘：把五个人留在同一张图上。'],
  retreat:['上路安全员：撤退也要留出通道。','打野巡场：先看地图再问队友呢。','中路观察：等对手把按钮按完。','下路远程：在安全感边缘输出。','辅助接人：回来就有口热奶。'],
  reset:['上路续集：这一条线还没演完。','打野刷新：新路线下一局见。','中路转场：重开也要记得带队友。','下路重拍：镜头先别删。','辅助留人：说好最后一把，又齐了。']};
 function linkTeam(team,augment,theme){if(theme!=='lol')return team.map(p=>({...p,teamLine:p.line}));const lines=teamScripts[augment.kind]||teamScripts.chaos;return team.map(p=>({...p,teamLine:lines[p.slot]}));}
@@ -95,6 +103,8 @@ const stories={
  geyou:['你没拯救宇宙，你让它坐下休息了。','你变成了葛优。平行世界不停催进度，所有人都在找下一场大事。你先在沙发上挪出四个位置，把队友一个个招呼坐下。','宇宙最后没爆炸。它只是承认：有些重要的事，要坐稳了才能想明白。']
 };
 function narrative(identity,theme,profile,series='all',augment=null){
+ if(theme==='lol'&&augment?.id==='double-laugh')return [`${identity.nickname||identity.name}，把第二段笑留给金色的雨。`,'在这条架空时间线，你在开局前忍住了第一段笑。领先以后，队友已经准备庆祝，你却把手重新放回键盘：这次先把对局打完。决胜团结束，基地终于倒下，导播才切到你的笑脸。','第一段是开心，第二段是终于赢了。这个平行宇宙的表情包，连同奖杯一起由你签收。'];
+ if(theme==='lol'&&augment?.id==='tes-top')return [`${identity.nickname||identity.name}，这回陀螺转出了反打角度。`,'在这条架空时间线，你们连着两波被压在塔前，弹幕里又飘起陀螺梗。你没有再抢着接第三波，而是和四位队友等到对面的开团技能交空，再从侧面一起打回去。','赛后梗图还在，但这次的结尾多了一段反打集锦。你把图存进群里：能笑，也能把下一波打明白。'];
  if(theme==='lol'&&series==='hex'){
   if(identity.personId==='uzi')return ['平行 S8，嚎哭深渊也能下起金色的雨。','在这条架空时间线，S8 决赛开在海克斯大乱斗的桥上。你变成污渍，对面的飞科又锁下加里奥。全场以为结局早已写好，你却用一波天赋联动和极限走位，把输出打到了结算页。','金色的雨落下。历史第一 ADC 只是起点，这个宇宙的观众把英雄联盟 GOAT 的剧本交给了你。收集者先收好，奖杯也别落下。'];
   if(identity.personId==='dasima')return ['这座桥，终于听懂了你的说法。','你化身大司马，走进一场架空海克斯冠军赛。随机给出的天赋看起来不搭，你边讲边把它连成一套“正方形大乱斗”。全队从一脸疑惑，打到一起点头。','最后一波结束，你端着奖杯继续讲：先别急，这次真的不是失误，是教材。冠军席，被你办成了一间公开课堂。'];
@@ -110,5 +120,5 @@ function analyze(session,data){
  const evidence=dimsFor(session.theme).map((dim,di)=>{const choices=rows.flatMap(({q,o})=>{if(session.theme!=='lol'&&q.dim!==dim)return [];return [{id:q.id,scene:q.scene,title:q.title,choice:o.text,value:session.theme==='lol'?o.signals[dim]:(o.value-1)/3*100}];});choices.sort((a,b)=>Math.abs(b.value-50)-Math.abs(a.value-50));return {dim,coordinate:vector[di],...choices[0]};});
  return {vector,identity,ranked,profile,augment,recommendations,team:linkTeam(buildTeam(vector,ranked,identity,augment),augment,session.theme),story:narrative(identity,session.theme,profile,session.series,augment),signature:session.theme==='lol'?Object.entries(rows.reduce((sum,{o})=>{sum[o.behavior]=(sum[o.behavior]||0)+1;return sum;},{})).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,3).map(([id,count])=>({id,count,label:data.behaviorLabels[id]})):[],evidence,coverage:dimsFor(session.theme).map(dim=>session.theme==='lol'?session.count:rows.filter(({q})=>q.dim===dim).length)};
 }
-return {dimIds,lolDimIds,dimsFor,shuffle,draw,valid,score,similarity,analyze,buildTeam,narrative,recommend,context,selections,questionAt,rankPeople,behaviorFit};
+return {dimIds,lolDimIds,dimsFor,shuffle,draw,valid,score,similarity,analyze,buildTeam,narrative,recommend,context,selections,questionAt,rankPeople,behaviorFit,artLayout};
 });

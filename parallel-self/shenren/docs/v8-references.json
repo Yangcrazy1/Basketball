@@ -1,0 +1,53 @@
+{
+  "version": 8,
+  "checked_at": "2026-10-23T11:09:26.372874+00:00",
+  "equipment_source": {
+    "provider": "Riot Data Dragon",
+    "version": "16.21.1",
+    "documentation": "https://developer.riotgames.com/docs/lol#data-dragon",
+    "item_metadata": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/item.json",
+    "summoner_metadata": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/summoner.json",
+    "verified_icons": 27,
+    "manifest": "../assets/game-icon-sources.json",
+    "use": "Use original PNGs in repeated compositions in HTML and exported Canvas. All 36 League effects are authored parody, not official augment data or equipment build recommendations."
+  },
+  "memes": [
+    {
+      "id": "double-laugh",
+      "title": "小虎·二段笑",
+      "personId": "xiaohu",
+      "chapter": "double-laugh",
+      "series": "rift",
+      "card": "double-laugh",
+      "description": "参考小虎休息室笑容逐步放大的经典表情梗；这里改编成“笑可以，先打完”的对局情境。",
+      "sourcePage": "https://www.ji-cloud.cn/news.info.php?id=5764",
+      "sourceTitle": "极云：二段哭二段笑什么梗（2022-11-01）"
+    },
+    {
+      "id": "tes-top",
+      "title": "滔博·陀螺抗压",
+      "personId": "jackeylove",
+      "chapter": "tes-top",
+      "series": "rift",
+      "card": "tes-top",
+      "description": "参考 TES 队标像陀螺、被动挨打的网友二创；这里改编成逆风拉扯。电刀环形图为本作梗改，非原队标。",
+      "sourcePage": "https://www.ali213.net/news/html/2025-4/921573.html",
+      "sourceTitle": "游侠网：滔博陀螺是什么梗（2025-04-07）"
+    }
+  ],
+  "content_interpretation": {
+    "double_laugh": "Xiaohu expression meme; avoid assigning unverified exact match chronology. Quiz situations are adaptations, not claims about a real game.",
+    "tes_top": "Verified article describes TES logo resembling a spinning top and passive First Stand performance, not a specific player spinning in game. Quiz pressure-play situations are adaptations."
+  },
+  "banner": {
+    "asset": "../assets/equipment-meme-banner-v8.webp",
+    "method": "image_gen creative reference redraw, WebP format compression only",
+    "reference_icons": [
+      "item-6676",
+      "item-3031",
+      "item-3089",
+      "item-3157"
+    ],
+    "purpose": "Decorative illustration; exact copy counts are provided by original PNG compositions, not this generated image."
+  }
+}
