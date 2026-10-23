@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "checks": [
+    "name retained, League is primary and Hex ARAM is the default series",
+    "both palettes fit 320/390/430/768/1440px; real-reference avatars render",
+    "intro previews the requested alternative Uzi S8/Galio/GOAT story, clearly labeled fiction",
+    "random Hex-only deck enforces answering, updates progress, and resumes with identical questions/options",
+    "three random talents can be rerolled exactly once, with persistent choices and reroll state",
+    "true 3D mesh supports a full 360-degree rotation, pointer orbit, reset and actual PNG snapshot download",
+    "changing talent preserves identity; a fresh run changes the first question and deck",
+    "16/24-question journeys finish independently in both Hex ARAM and ranked-Rift series, with five legal positions",
+    "actual completed target answers reveal Uzi, the alternate S8 ending and a roster containing you plus four teammates",
+    "the full story/3D/five-member result fits both palettes at all five viewport widths",
+    "actual answers can be reviewed and a full 1080x1740 identity/team PNG downloads and decodes",
+    "secondary basketball/network themes retain independent questions, five positions and themed 3D avatars",
+    "completed identities and five-member teams remain reproducible after history reload",
+    "downloaded single-file HTML boots offline with storage denied, completes a run, renders 3D and generates its poster",
+    "invalid stored records are ignored; all tested flows run with zero JS errors or external asset requests"
+  ],
+  "passed": 15,
+  "failure": null,
+  "html_sha256": "4373abc0d544ce9f4ec5e907b0d5f0619e7c95ef5500cb7dbc4c1a20cdeebf3d",
+  "html_bytes": 1822194,
+  "javascript_errors": [],
+  "external_requests": [],
+  "duration_seconds": 32.02,
+  "scope": "Chromium mobile viewport and actual downloads; no physical-phone hardware installation check"
+}

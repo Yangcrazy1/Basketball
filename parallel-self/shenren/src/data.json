@@ -1,0 +1,6181 @@
+{
+  "version": 5,
+  "name": "世界上另一个我",
+  "dimensions": [
+    {
+      "id": "social",
+      "name": "社交能量",
+      "low": "独处充电",
+      "high": "人群充电",
+      "color": "#8270df"
+    },
+    {
+      "id": "explore",
+      "name": "探索欲",
+      "low": "熟悉安心",
+      "high": "未知着迷",
+      "color": "#5d91b6"
+    },
+    {
+      "id": "empathy",
+      "name": "共情力",
+      "low": "理性解题",
+      "high": "感受先行",
+      "color": "#d28caa"
+    },
+    {
+      "id": "action",
+      "name": "行动力",
+      "low": "深思熟虑",
+      "high": "即刻启程",
+      "color": "#c99b62"
+    },
+    {
+      "id": "order",
+      "name": "秩序感",
+      "low": "随性流动",
+      "high": "计划有序",
+      "color": "#6d9e92"
+    },
+    {
+      "id": "express",
+      "name": "表达欲",
+      "low": "留给自己",
+      "high": "让世界看见",
+      "color": "#9980bc"
+    }
+  ],
+  "themes": [
+    {
+      "id": "lol",
+      "name": "峡谷整活局",
+      "label": "英雄联盟主题",
+      "icon": "⚔",
+      "accent": "#b7a2ff",
+      "slogan": "这波别急，先看你的五人阵容。",
+      "description": "上 / 野 / 中 / 下 / 辅 · 收集者与海克斯风格天赋",
+      "roles": [
+        "上单",
+        "打野",
+        "中单",
+        "下路",
+        "辅助"
+      ],
+      "dims": [
+        "开麦能量",
+        "整活脑洞",
+        "队友温度",
+        "开团冲劲",
+        "运营意识",
+        "名场面欲"
+      ]
+    },
+    {
+      "id": "basket",
+      "name": "野球名场面",
+      "label": "篮球主题",
+      "icon": "◉",
+      "accent": "#ffac71",
+      "slogan": "不是巨星凑一起，是节目效果凑齐了。",
+      "description": "控卫到中锋 · 乐邦詹士与虎扑式赛后评分",
+      "roles": [
+        "控卫",
+        "分卫",
+        "小前锋",
+        "大前锋",
+        "中锋"
+      ],
+      "dims": [
+        "更衣室能量",
+        "骚操作欲",
+        "队友温度",
+        "出手果断",
+        "战术脑袋",
+        "庆祝浓度"
+      ]
+    },
+    {
+      "id": "abstract",
+      "name": "抽象宇宙队",
+      "label": "抽象网络主题",
+      "icon": "✳",
+      "accent": "#dfff75",
+      "slogan": "五个人，至少得有一个负责关直播。",
+      "description": "峰哥 / 讲师 / 虎刀 · 一起把宇宙聊明白",
+      "roles": [
+        "发言人",
+        "行动派",
+        "军师",
+        "气氛组",
+        "场控"
+      ],
+      "dims": [
+        "摇人能力",
+        "离谱脑洞",
+        "人间温度",
+        "说干就干",
+        "整活章法",
+        "出镜浓度"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "lol-social-1",
+      "theme": "lol",
+      "dim": "social",
+      "scene": "五排摇人",
+      "title": "队友说“来个活的”，你怎么证明自己活着？",
+      "options": [
+        {
+          "id": 0,
+          "text": "只打一个句号",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "发张表情后潜水",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "开麦报到顺便认人",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "直接拉满五人开团",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-social-2",
+      "theme": "lol",
+      "dim": "social",
+      "scene": "峡谷年会",
+      "title": "大龙突然组织团建，你坐哪一桌？",
+      "options": [
+        {
+          "id": 0,
+          "text": "河道边自己吃",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "熟悉的辅助那桌",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "哪桌热闹去哪桌",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "上台主持大龙年会",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-social-3",
+      "theme": "lol",
+      "dim": "social",
+      "scene": "泉水社交",
+      "title": "全队复活还剩四十秒，你通常？",
+      "options": [
+        {
+          "id": 0,
+          "text": "安静看装备",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "跟熟人小聊两句",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "主动聊这波怎么打",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把泉水聊成脱口秀",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-social-4",
+      "theme": "lol",
+      "dim": "social",
+      "scene": "一局结束",
+      "title": "对面发来好友申请，你的动作？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先放申请列表",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "有下次双排再加",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "通过后聊聊这局",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "顺便把两队拉成群",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-social-5",
+      "theme": "lol",
+      "dim": "social",
+      "scene": "峡谷婚礼",
+      "title": "炮车邀请你当伴郎，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "送红包不坐主桌",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "陪熟悉的近战兵",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "挨桌聊聊兵线人生",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "主持“现在可以补刀”仪式",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-social-6",
+      "theme": "lol",
+      "dim": "social",
+      "scene": "全员失语",
+      "title": "队伍麦里安静得像图书馆，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "舒服，专注操作",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只报必要信号",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "主动问问大家状态",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "带头给每条线起外号",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-explore-1",
+      "theme": "lol",
+      "dim": "explore",
+      "scene": "收集者质检",
+      "title": "商店只剩最后一把收集者，你买吗？",
+      "options": [
+        {
+          "id": 0,
+          "text": "按熟悉出装走",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先看这局合不合适",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "买来试试新路线",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "给猫也出一把看看",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-explore-2",
+      "theme": "lol",
+      "dim": "explore",
+      "scene": "海克斯抽奖",
+      "title": "三个天赋都没见过，你怎么选？",
+      "options": [
+        {
+          "id": 0,
+          "text": "找最像老套路的",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先认真读一遍",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "挑一个没玩过的",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "选字最多最离谱的",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-explore-3",
+      "theme": "lol",
+      "dim": "explore",
+      "scene": "提莫转行",
+      "title": "提莫申请打大龙的心理咨询师，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "让他回熟悉岗位",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先做一个小试点",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "给他一条新工作线",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把峡谷改成职业介绍所",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-explore-4",
+      "theme": "lol",
+      "dim": "explore",
+      "scene": "冷门英雄",
+      "title": "排位里出现你完全不认识的英雄，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "继续用最熟的应对",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先问问有什么技能",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "研究能不能整活",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "马上开训练场复刻",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-explore-5",
+      "theme": "lol",
+      "dim": "explore",
+      "scene": "装备会说话",
+      "title": "无尽突然说想开奶茶店，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先让它回装备栏",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "让它周末先摆摊",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "帮它设计暴击奶盖",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "加入“每口都暴击”创业",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-explore-6",
+      "theme": "lol",
+      "dim": "explore",
+      "scene": "大乱斗传送门",
+      "title": "桥下出现从没见过的传送门，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "继续在桥上打",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先让侦查技能看看",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "进去探一圈就回",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "跳进去还问能不能包月",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-empathy-1",
+      "theme": "lol",
+      "dim": "empathy",
+      "scene": "零杠八现场",
+      "title": "队友战绩像个电话号码，你第一句？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先算下一波怎么止损",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只说关键提醒",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "说没事一起守一波",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先问他是不是打得难受",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-empathy-2",
+      "theme": "lol",
+      "dim": "empathy",
+      "scene": "辅助破防",
+      "title": "辅助说“我做眼做到眼前一黑”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "给他规划眼位",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "提醒他别太勉强",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "主动陪他一起排眼",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先安慰再承担一段视野",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-empathy-3",
+      "theme": "lol",
+      "dim": "empathy",
+      "scene": "龙坑失手",
+      "title": "打野抢龙失败，队友都在打问号，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "客观复盘惩戒时机",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "让大家先处理兵线",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "说这波本来也很悬",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先替他挡住情绪再聊",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-empathy-4",
+      "theme": "lol",
+      "dim": "empathy",
+      "scene": "小兵请假",
+      "title": "一个小兵说自己今天不想送，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "分析岗位与兵线需求",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "给它换到后排",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "让它休息这一波",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "陪它聊聊为什么累了",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-empathy-5",
+      "theme": "lol",
+      "dim": "empathy",
+      "scene": "销户沉默",
+      "title": "队友突然不说话，只剩一声长叹，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先给一套翻盘思路",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "留点空间等他缓缓",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "主动问是不是心态炸了",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "陪他缓一局再决定打不打",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-empathy-6",
+      "theme": "lol",
+      "dim": "empathy",
+      "scene": "败方结算",
+      "title": "朋友说“今天全怪我”，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "指出实际失误在哪",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "说下次注意就好",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "告诉他大家都有失误",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先接住情绪再一起复盘",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-action-1",
+      "theme": "lol",
+      "dim": "action",
+      "scene": "龙坑开会",
+      "title": "大龙只剩一丝血，队友还在讨论责任，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "等信息齐了再决策",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先确认谁有惩戒",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "边报点边找机会",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先动手把会开在结算页",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-action-2",
+      "theme": "lol",
+      "dim": "action",
+      "scene": "闪现冷却",
+      "title": "闪现刚好，机会只剩半秒，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "宁愿稳一点等下波",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "再确认一下落点",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "看到窗口就试",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "已经闪了，落地再解释",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-action-3",
+      "theme": "lol",
+      "dim": "action",
+      "scene": "门牙警报",
+      "title": "对面门牙只剩一击，你的脑子？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先想失败后的防守",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "算清撤退路径再上",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "抓一个时机去点",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "鞋带还没系好已冲进去",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-action-4",
+      "theme": "lol",
+      "dim": "action",
+      "scene": "海克斯快递",
+      "title": "外卖送到了，团战也开始了，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先完整判断局势",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "问能不能等一小会",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "先打关键技能再拿",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "边冲边喊外卖放门口",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-action-5",
+      "theme": "lol",
+      "dim": "action",
+      "scene": "残血诱惑",
+      "title": "一个残血从你面前慢慢走过，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先怀疑后面有五个人",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "等视野再跟两步",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "有把握就试着追",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "行动比我的理由先到",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-action-6",
+      "theme": "lol",
+      "dim": "action",
+      "scene": "桥头抢座",
+      "title": "大乱斗草丛只剩一个空位，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先看整条桥的局势",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "确认安全再进去",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "边探边占住位置",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先坐下再贴工位牌",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-order-1",
+      "theme": "lol",
+      "dim": "order",
+      "scene": "出装备忘",
+      "title": "打局游戏，你的装备计划像什么？",
+      "options": [
+        {
+          "id": 0,
+          "text": "买到哪儿算哪儿",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "留一个大概方向",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "有主线也会调整",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先规划好几套应对方案",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-order-2",
+      "theme": "lol",
+      "dim": "order",
+      "scene": "打野闹钟",
+      "title": "红蓝野怪都给你发来会议邀请，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "看到谁就先去谁",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "记个大概先后",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "按局势排出路线",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把刷新与资源都进日程",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-order-3",
+      "theme": "lol",
+      "dim": "order",
+      "scene": "兵线装修",
+      "title": "一波兵要在中路安家，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先搭个能住的棚",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "缺什么再添什么",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "先分好前后排",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "按功能区完整画施工图",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-order-4",
+      "theme": "lol",
+      "dim": "order",
+      "scene": "眼位旅行",
+      "title": "地图全黑，队友问下一步去哪，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "走着看机会",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先探附近再决定",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "按两三个目标推进",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把视野、线权、撤退都安排好",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-order-5",
+      "theme": "lol",
+      "dim": "order",
+      "scene": "团战说明书",
+      "title": "队友问这波怎么配合，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "临场看着来",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "定个大概目标",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "明确谁先谁后",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把技能顺序与备选都说清",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-order-6",
+      "theme": "lol",
+      "dim": "order",
+      "scene": "赛前十分钟",
+      "title": "五排还有十分钟开始，你的桌面？",
+      "options": [
+        {
+          "id": 0,
+          "text": "还在找鼠标",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先把游戏开起来",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "设备与饮料都备好",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "连备用战术与时间都排好",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-express-1",
+      "theme": "lol",
+      "dim": "express",
+      "scene": "五杀文案",
+      "title": "五杀后给你十秒钟发朋友圈，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "截图只存自己相册",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "发个表情给熟人",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "配一段小得意文案",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "当场连发九宫格战报",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-express-2",
+      "theme": "lol",
+      "dim": "express",
+      "scene": "大司马讲台",
+      "title": "麦克风递给你：“这波怎么说？”你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "简单说两字就过",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "小声讲一个细节",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "完整解释自己的操作",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "配慢动作讲成年度公开课",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-express-3",
+      "theme": "lol",
+      "dim": "express",
+      "scene": "弹幕采访",
+      "title": "弹幕问你刚才那波在想什么，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "不太想展开",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只回答关键点",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "认真聊聊整局想法",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "给这波起名并现场复现",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-express-4",
+      "theme": "lol",
+      "dim": "express",
+      "scene": "胜利表情",
+      "title": "胜利后系统奖励无限表情额度，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "没必要发",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "对熟人发一个",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "和队友互动一轮",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "在泉水开表情艺术展",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-express-5",
+      "theme": "lol",
+      "dim": "express",
+      "scene": "失败发布会",
+      "title": "队伍输完被要求发表感言，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "把感言留在心里",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "一句话结束",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "说一段自己的感受",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把失败讲成下一季预告",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "lol-express-6",
+      "theme": "lol",
+      "dim": "express",
+      "scene": "收集者命名",
+      "title": "要给你的收集者改名，你选？",
+      "options": [
+        {
+          "id": 0,
+          "text": "沿用默认名字",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只改成自己懂的简称",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "改成带个人风格的称号",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "取名并办一场命名发布会",
+          "value": 4
+        }
+      ],
+      "series": "rift"
+    },
+    {
+      "id": "basket-social-1",
+      "theme": "basket",
+      "dim": "social",
+      "scene": "野球摇人",
+      "title": "球场缺个人，群里只有一个“在”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "等别人来组织",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "问问两个熟人",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "主动开始凑局",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把小区群都摇成联赛",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-social-2",
+      "theme": "basket",
+      "dim": "social",
+      "scene": "替补席晚会",
+      "title": "全队坐板凳，气氛像等体检，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "安静休息挺好",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "跟旁边人聊两句",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "主动带大家聊球",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把替补席办成全明星周末",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-social-3",
+      "theme": "basket",
+      "dim": "social",
+      "scene": "公园选队",
+      "title": "十个陌生人等着分队，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "等别人分好",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先找一个认识的人",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "主动认识几个队友",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "边分队边给大家起绰号",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-social-4",
+      "theme": "basket",
+      "dim": "social",
+      "scene": "赛后饭局",
+      "title": "打完球有人喊撸串，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "自己回家充电",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "熟人去我就去",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "跟大家一起聊一会",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "负责订桌并加群续摊",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-social-5",
+      "theme": "basket",
+      "dim": "social",
+      "scene": "球鞋社交",
+      "title": "有人夸你的球鞋像拖拉机，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "笑一下继续热身",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "跟他聊两句来源",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "拉着他讨论鞋款",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "召集全场鞋评大会",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-social-6",
+      "theme": "basket",
+      "dim": "social",
+      "scene": "虎扑圆桌",
+      "title": "帖子说缺一位现场观察员，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "只看不发言",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "偶尔回复认识的人",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "参与几个讨论串",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "直接组织线下观赛团",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-explore-1",
+      "theme": "basket",
+      "dim": "explore",
+      "scene": "五个中锋",
+      "title": "教练说今天全队五个中锋打控卫，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "还是坚持熟悉阵容",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先试一两个回合",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "觉得值得认真试试",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "加一条全员背后传球规则",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-explore-2",
+      "theme": "basket",
+      "dim": "explore",
+      "scene": "篮筐改行",
+      "title": "篮筐说想当呼啦圈，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "劝它安心做篮筐",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "让它兼职一下午",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "设计双用途新球场",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把球馆改成宇宙马戏团",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-explore-3",
+      "theme": "basket",
+      "dim": "explore",
+      "scene": "乐邦选择",
+      "title": "给“乐邦詹士”配新技能，你先想？",
+      "options": [
+        {
+          "id": 0,
+          "text": "保留现有打法",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "微调一项熟悉技能",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "试试从没用过的路线",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "给篮球装上方向盘",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-explore-4",
+      "theme": "basket",
+      "dim": "explore",
+      "scene": "三分线搬家",
+      "title": "三分线半夜搬到了停车场，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "去熟悉的另一块场地",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先量量距离再决定",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "带个球去试手感",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "直接设计停车场新联赛",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-explore-5",
+      "theme": "basket",
+      "dim": "explore",
+      "scene": "约老师马术",
+      "title": "训练营突然改成骑木马运球，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "正常运球练好再说",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "当个短暂热身",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "认真找出新训练思路",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "要求把木马升级为旋转木马",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-explore-6",
+      "theme": "basket",
+      "dim": "explore",
+      "scene": "收集球衣",
+      "title": "一件从没见过的联名球衣摆你面前，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "继续穿最舒服那件",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "了解设计后再考虑",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "愿意试一次新风格",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "穿上就给它编一整季故事",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-empathy-1",
+      "theme": "basket",
+      "dim": "empathy",
+      "scene": "连续打铁",
+      "title": "队友投篮声已经能报时，你先？",
+      "options": [
+        {
+          "id": 0,
+          "text": "分析他的出手选择",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "提醒下一球别勉强",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "说下一球我给你传",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先安慰再陪他找回手感",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-empathy-2",
+      "theme": "basket",
+      "dim": "empathy",
+      "scene": "裁判漏判",
+      "title": "队友指着手臂，一脸不可置信，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先研究接下来怎么打",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "让他先回防冷静",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "拍拍他说明我看到了",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先接住情绪再陪他沟通",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-empathy-3",
+      "theme": "basket",
+      "dim": "empathy",
+      "scene": "替补烦恼",
+      "title": "队友说“我今天只负责递毛巾吗”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "解释轮换与位置需求",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "告诉他下次也有机会",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "主动争取让他参与战术",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先听他委屈再一起找办法",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-empathy-4",
+      "theme": "basket",
+      "dim": "empathy",
+      "scene": "中锋迷路",
+      "title": "中锋说自己连方向感都被晃没了，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "画一张站位图",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "提醒别钻牛角尖",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "陪他慢慢走一遍",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先听他吐槽再一起练习",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-empathy-5",
+      "theme": "basket",
+      "dim": "empathy",
+      "scene": "赛后低分",
+      "title": "朋友在虎扑式评分里只得到两分，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "逐项找发挥问题",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "说这类评分看看就好",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "举出他这场做好的地方",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先问问他是不是被评论伤到了",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-empathy-6",
+      "theme": "basket",
+      "dim": "empathy",
+      "scene": "队友迟到",
+      "title": "队友迟到后说今天状态很差，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先确认是否影响阵容",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "调整一下上场时间",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "问他要不要休息",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先听听发生了什么再安排",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-action-1",
+      "theme": "basket",
+      "dim": "action",
+      "scene": "最后一攻",
+      "title": "还剩三秒，球到了你手里，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先完整判断最好选择",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "再看一眼空位",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "找到窗口就出手",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "球先出手，战术随后补上",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-action-2",
+      "theme": "basket",
+      "dim": "action",
+      "scene": "乐邦名场面",
+      "title": "裁判漏了一个球，全队表情加载失败，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先想好怎么沟通",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "等暂停再表达",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "立刻上前说明",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "瞬间跪出“这也没看见？”的默剧",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-action-3",
+      "theme": "basket",
+      "dim": "action",
+      "scene": "地板争球",
+      "title": "球朝场边饮水机滚去，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先判断值不值得救",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "看到安全空间再追",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "快步冲去试着救",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "人已出发，杯子集体起立",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-action-4",
+      "theme": "basket",
+      "dim": "action",
+      "scene": "空位三分",
+      "title": "对方说“放他投”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先重新评估这球",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "再调整一下节奏",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "有空间就出手",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "让球替我回答这句话",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-action-5",
+      "theme": "basket",
+      "dim": "action",
+      "scene": "快攻早餐",
+      "title": "你一边啃包子一边看到快攻，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先把节奏看清楚",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "放好早餐再跟上",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "咬一口赶紧加入",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "包子还在嘴里人已到篮下",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-action-6",
+      "theme": "basket",
+      "dim": "action",
+      "scene": "暂停竞速",
+      "title": "教练问谁能马上完成这个新配合，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先弄懂全套细节",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "脑中过一遍再试",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "先做一遍找问题",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "已经把人站到演示位了",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-order-1",
+      "theme": "basket",
+      "dim": "order",
+      "scene": "球包考古",
+      "title": "赛前打开你的球包，会看到？",
+      "options": [
+        {
+          "id": 0,
+          "text": "东西大致都在就行",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "用到什么再翻什么",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "鞋袜护具大概有区",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "按出场顺序收好每一件",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-order-2",
+      "theme": "basket",
+      "dim": "order",
+      "scene": "战术板涂鸦",
+      "title": "战术板突然变成儿童画，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "顺着现有图临场发挥",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先圈一个重点",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "重新安排几条路线",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把每人站位与备选都画清",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-order-3",
+      "theme": "basket",
+      "dim": "order",
+      "scene": "训练自由",
+      "title": "有一小时空场，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "哪儿有兴致练哪儿",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "给自己一个大概目标",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "分几个训练小段",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "时间、次数、复盘全安排好",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-order-4",
+      "theme": "basket",
+      "dim": "order",
+      "scene": "轮换名单",
+      "title": "五个人都说自己必须首发，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先打一会再说",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "临场轮流换",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "先沟通一个大概轮换",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把位置、时间和替代都写好",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-order-5",
+      "theme": "basket",
+      "dim": "order",
+      "scene": "裁判会议",
+      "title": "裁判邀请你制定“野球不吵架守则”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "大家开心就行",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "约定几条底线",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "列出常见争议的处理",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "连超时、补罚与复核都写好",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-order-6",
+      "theme": "basket",
+      "dim": "order",
+      "scene": "赛程突然改",
+      "title": "比赛提前半小时，你的反应？",
+      "options": [
+        {
+          "id": 0,
+          "text": "走一步算一步",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先抓住最必要几件事",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "快速改一下原计划",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "调整整张时间表与备选路线",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-express-1",
+      "theme": "basket",
+      "dim": "express",
+      "scene": "跪地热梗",
+      "title": "要给刚才那场裁判名场面配文，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "不发，自己记得",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只给熟人发个表情",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "配一段自己的吐槽",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "剪成“乐邦詹士年度默剧”",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-express-2",
+      "theme": "basket",
+      "dim": "express",
+      "scene": "虎扑打分",
+      "title": "轮到你给自己这场表现打分，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "不想公开打分",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "写一个很短的备注",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "认真写一段自评",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "配图配梗写成赛后专栏",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-express-3",
+      "theme": "basket",
+      "dim": "express",
+      "scene": "绝杀庆祝",
+      "title": "你在野球场投进绝杀，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "安静回去喝水",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "跟队友碰个拳",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "绕场庆祝一小圈",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把全场变成自己的退役仪式",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-express-4",
+      "theme": "basket",
+      "dim": "express",
+      "scene": "球衣号码",
+      "title": "为什么你选这个号码？",
+      "options": [
+        {
+          "id": 0,
+          "text": "自己知道就好",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只跟熟人解释",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "愿意讲它的小故事",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "开一场号码背后故事发布会",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-express-5",
+      "theme": "basket",
+      "dim": "express",
+      "scene": "赛后采访",
+      "title": "镜头问“今天什么水平”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "一句还行就结束",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "简单讲一个回合",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "聊聊这场的心情",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "给五名队友都安排一个名场面",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "basket-express-6",
+      "theme": "basket",
+      "dim": "express",
+      "scene": "场边表情包",
+      "title": "有人把你的上篮做成表情包，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "自己存着不发",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只发小群玩一下",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "大方转发配个回应",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "亲自创作续集并现场演示",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-social-1",
+      "theme": "abstract",
+      "dim": "social",
+      "scene": "鸽子入职",
+      "title": "你进了两百只鸽子的工作群，先做什么？",
+      "options": [
+        {
+          "id": 0,
+          "text": "潜水观察谁是领导",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "给认识的鸽子私信",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "自我介绍顺便打招呼",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "组织全群喊一次收到",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-social-2",
+      "theme": "abstract",
+      "dim": "social",
+      "scene": "电梯年会",
+      "title": "电梯邀请你主持楼层年会，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "帮后台，不上台",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只负责自己那一层",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "愿意和大家一起组织",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "一口气串场到地下车库",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-social-3",
+      "theme": "abstract",
+      "dim": "social",
+      "scene": "虎刀聊天室",
+      "title": "两位朋友同时说“来，聊两句”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "留在边上安静听",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只跟熟悉的人说",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "加入大家聊一轮",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "顺手搭个直播间圆桌",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-social-4",
+      "theme": "abstract",
+      "dim": "social",
+      "scene": "孤独路灯",
+      "title": "一盏路灯说今晚想找人组局，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "陪它亮一小会",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "叫一位熟人来",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "拉几位邻居一起聊",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把整条街的灯都摇起来",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-social-5",
+      "theme": "abstract",
+      "dim": "social",
+      "scene": "外卖群主",
+      "title": "外卖袋里多出一张群主聘书，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先不接这个活",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只管熟悉几个人",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "试着组织一下大家",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "立刻开群并设计欢迎仪式",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-social-6",
+      "theme": "abstract",
+      "dim": "social",
+      "scene": "月球邻居",
+      "title": "搬上月球第一晚，你准备？",
+      "options": [
+        {
+          "id": 0,
+          "text": "自己看地球发呆",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "和隔壁打个招呼",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "约邻居一起喝东西",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "举办全月球入住派对",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-explore-1",
+      "theme": "abstract",
+      "dim": "explore",
+      "scene": "电饭煲破防",
+      "title": "电饭煲突然问“没人问我熟不熟”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "按熟悉程序继续煮",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先排查哪里出了问题",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "试着聊聊新烹饪模式",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "提议它转行做情感电台",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-explore-2",
+      "theme": "abstract",
+      "dim": "explore",
+      "scene": "月亮装修",
+      "title": "月亮招募一名装修顾问，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "保持现在的样子",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只补几个坑",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "设计一片会变色的月海",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把整个月亮改成床头灯",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-explore-3",
+      "theme": "abstract",
+      "dim": "explore",
+      "scene": "冰箱星期一",
+      "title": "冰箱门后又是一个星期一，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "关门回到熟悉生活",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先记下它出现的规律",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "进去看看另一种上班法",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "推着冰箱去申请时区专利",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-explore-4",
+      "theme": "abstract",
+      "dim": "explore",
+      "scene": "五百元宇宙",
+      "title": "峰哥递给你一张平行宇宙体验券，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "挑最像现在的宇宙",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先看看使用说明",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "选个没体验过的人生",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "跳进“所有人都是插座”那一栏",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-explore-5",
+      "theme": "abstract",
+      "dim": "explore",
+      "scene": "讲师换课",
+      "title": "讲师说今天教“如何与拖鞋谈判”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先把正常课程学完",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "当成课间小练习",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "认真试着设计谈判法",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "顺便给袜子开一个研究所",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-explore-6",
+      "theme": "abstract",
+      "dim": "explore",
+      "scene": "东北传送门",
+      "title": "门口出现通往平行小卖部的门，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "还是去熟悉那家",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先问清能不能返回",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "进去看看卖什么",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "带着购物车直奔宇宙批发区",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-empathy-1",
+      "theme": "abstract",
+      "dim": "empathy",
+      "scene": "虎哥掉线",
+      "title": "朋友突然说“今天不想整活了”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "分析为什么状态差",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "给他一点安静空间",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "陪他做点轻松的事",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先听他说今天经历了什么",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-empathy-2",
+      "theme": "abstract",
+      "dim": "empathy",
+      "scene": "讲师失业",
+      "title": "讲师的粉笔说自己被电子笔替代了，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "分析粉笔还有哪些用途",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "建议它学一门新技能",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "陪它找一个能发挥的地方",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先听它讲完被替代的难受",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-empathy-3",
+      "theme": "abstract",
+      "dim": "empathy",
+      "scene": "东北板凳",
+      "title": "板凳说“大家只在累了才找我”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "说明它的功能价值",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "给它换个显眼位置",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "平时也来陪它坐坐",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先认可它被忽略的感受",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-empathy-4",
+      "theme": "abstract",
+      "dim": "empathy",
+      "scene": "好果汁现场",
+      "title": "朋友整活翻车被群里刷屏，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "帮他分析哪里出了问题",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "提醒大家别扩大事情",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "替他说句大家留点空间",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先私聊确认他还好吗",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-empathy-5",
+      "theme": "abstract",
+      "dim": "empathy",
+      "scene": "电梯叹气",
+      "title": "电梯每下一层就叹一口气，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "检查是不是设备故障",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "提醒它注意休息",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "陪它跑几趟慢速模式",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先问它是不是最近很累",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-empathy-6",
+      "theme": "abstract",
+      "dim": "empathy",
+      "scene": "平行自己",
+      "title": "另一个你说“他们都觉得我没用”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "一起列清还能做什么",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "提醒评价不等于事实",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "说出你看见的优点",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先陪它说完所有委屈",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-action-1",
+      "theme": "abstract",
+      "dim": "action",
+      "scene": "地球催更",
+      "title": "地球突然问“你到底什么时候开始”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "再想清楚完整方案",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "把最关键一步准备好",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "先做一小段试试",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "边开始边问它要不要搭把手",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-action-2",
+      "theme": "abstract",
+      "dim": "action",
+      "scene": "虎刀开门",
+      "title": "门外朋友喊“就差你一个了”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先确认完整安排",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "把手头事收尾再走",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "拿上东西就出发",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "鞋穿反了也先跨出门",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-action-3",
+      "theme": "abstract",
+      "dim": "action",
+      "scene": "楼道传送",
+      "title": "楼道出现十秒限时入口，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "宁愿不去也先弄懂",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "看清返程条件再进",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "抓住最后几秒进去",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "人进去了才问目的地",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-action-4",
+      "theme": "abstract",
+      "dim": "action",
+      "scene": "拖鞋起义",
+      "title": "拖鞋说现在就要环游世界，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先研究是否走得通",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "帮它备好必要用品",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "愿意跟着试一小段",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "已经穿上另一只出门了",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-action-5",
+      "theme": "abstract",
+      "dim": "action",
+      "scene": "灵感降落",
+      "title": "一个离谱创意砸在你头上，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "放进清单慢慢想",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先确认最关键的问题",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "做个最小版本试试",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "立刻拉张纸开始整活",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-action-6",
+      "theme": "abstract",
+      "dim": "action",
+      "scene": "银河末班",
+      "title": "最后一班银河公交还有十五秒，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先确认去哪再说",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "有把握才开始追",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "加速追一段试试",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "人在飞，目的地等上车再看",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-order-1",
+      "theme": "abstract",
+      "dim": "order",
+      "scene": "群规草稿",
+      "title": "两百只鸽子请你写群规，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "别太多，开心就行",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先写几个基本约定",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "分几个清楚的主题",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把发言、值班和异常都安排好",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-order-2",
+      "theme": "abstract",
+      "dim": "order",
+      "scene": "宇宙背包",
+      "title": "出发去平行宇宙，你怎么打包？",
+      "options": [
+        {
+          "id": 0,
+          "text": "抓到什么带什么",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "带最必要的几件",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "按用途分成几袋",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "连返程与意外清单都准备好",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-order-3",
+      "theme": "abstract",
+      "dim": "order",
+      "scene": "刀哥作息",
+      "title": "朋友邀请你制定整活时间表，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "看当天有没有兴致",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "约一个大概时间",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "提前排好主要环节",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "热身、主菜和收尾都精确安排",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-order-4",
+      "theme": "abstract",
+      "dim": "order",
+      "scene": "会计月亮",
+      "title": "月亮问它的圆缺怎么报销，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先报上去再说",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "找个大致能用的类目",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "按情况整理几项依据",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把每一阶段的单据与说明列齐",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-order-5",
+      "theme": "abstract",
+      "dim": "order",
+      "scene": "抽象施工",
+      "title": "你负责盖一栋会打嗝的楼，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "边盖边解决",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先明确能住人",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "把几个关键阶段排好",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把结构、节奏和应急方案都画好",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-order-6",
+      "theme": "abstract",
+      "dim": "order",
+      "scene": "平行周末",
+      "title": "突然多出一个只有你能用的周末，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "醒了看心情安排",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只定一件最想做的事",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "分出休息与活动几段",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "提前排好路线、时间与备选",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-express-1",
+      "theme": "abstract",
+      "dim": "express",
+      "scene": "户外发言",
+      "title": "你的矿泉水突然给你递来麦克风，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "摇头把话留给自己",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只说一句近况",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "分享一段自己的观察",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把便利店讲成个人专场",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-express-2",
+      "theme": "abstract",
+      "dim": "express",
+      "scene": "讲师结业",
+      "title": "让你总结“今天整活水平”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "心里有数就好",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只给熟人讲个梗",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "写一段自己的感受",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "现场开一节复盘公开课",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-express-3",
+      "theme": "abstract",
+      "dim": "express",
+      "scene": "虎刀片尾",
+      "title": "朋友请你给刚才的名场面配音，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "不太想被录下来",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "轻轻补一句",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "认真配出几个角色",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "连预告和片尾彩蛋一起录",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-express-4",
+      "theme": "abstract",
+      "dim": "express",
+      "scene": "峰哥日记",
+      "title": "平行人生第一天，你怎么记下来？",
+      "options": [
+        {
+          "id": 0,
+          "text": "只写给自己",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "发给一位熟人",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "分享一篇有画面的日记",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把第一天剪成开服纪录片",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-express-5",
+      "theme": "abstract",
+      "dim": "express",
+      "scene": "孙哥截图",
+      "title": "一张离谱截图急需配文，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "自己笑一笑就好",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "发一个简短表情",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "配句自己的原创吐槽",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "做成连载并现场讲解",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "abstract-express-6",
+      "theme": "abstract",
+      "dim": "express",
+      "scene": "宇宙介绍",
+      "title": "星际广播只给你一分钟介绍自己，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "说个名字就结束",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "用一句话简单介绍",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "讲一个自己的小故事",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把一分钟讲成新节目开场",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-social-1",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "social",
+      "scene": "开局抽签",
+      "title": "海克斯大乱斗开局，四个队友全在沉默选天赋，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "自己认真看完就好",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只问一个熟人怎么选",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "主动交流大家的路线",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "直接开一个全队天赋说明会",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-social-2",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "social",
+      "scene": "桥上饭局",
+      "title": "嚎哭深渊突然办团圆饭，你坐哪儿？",
+      "options": [
+        {
+          "id": 0,
+          "text": "桥边安静吃饭",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "坐熟悉的队友旁边",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "哪桌缺人去哪桌",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "拿起话筒给五人逐个介绍",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-social-3",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "social",
+      "scene": "重掷互助",
+      "title": "队友说“谁懂这个天赋”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先看自己的选择",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "知道就简短回一句",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "主动和他讨论配合",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把全队拉进桥上研讨会",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-social-4",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "social",
+      "scene": "共享雪球",
+      "title": "系统发一个能拉全队的雪球，你先？",
+      "options": [
+        {
+          "id": 0,
+          "text": "确认自己的路线",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先问问熟人意见",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "主动约一波配合",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "喊齐五个人来一场集体飞行",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-social-5",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "social",
+      "scene": "桥头等待",
+      "title": "队友复活时，语音里没人说话，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "安静看着地图",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "偶尔报个时间",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "讲讲接下来能怎么打",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "顺便办一场桥头即兴相声",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-social-6",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "social",
+      "scene": "海克斯群聊",
+      "title": "本局天赋竟然是“自动建群”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "建完就静音",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只留熟人的通知",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "主动在群里互动",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把敌方五人也拉来赛后联欢",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-social-7",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "social",
+      "scene": "抱团提醒",
+      "title": "队友问“桥这么窄还要单走吗”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "自己找个舒服站位",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先跟一位熟人走",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "主动和大家对齐节奏",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把五个人喊成一个行走方阵",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-social-8",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "social",
+      "scene": "赛后加时",
+      "title": "一局结束，四个陌生队友想续一把，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "这一把够了想休息",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "有熟悉的人再续",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "觉得投缘就再来",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "已经给这个车队起好名字",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-explore-1",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "explore",
+      "scene": "收集者判决",
+      "title": "海克斯三选一：稳定伤害、奇怪被动、给收集者加戏，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "选最熟悉的稳定路线",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "读完说明再稳一点选",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "想试试那个奇怪被动",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "收集者也配拥有个人纪录片",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-explore-2",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "explore",
+      "scene": "天赋新大陆",
+      "title": "三个海克斯都没玩过，还剩五秒，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "挑最接近老玩法的",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "迅速比较基础效果",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "挑最能改变玩法的",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "选那个看名字就不太对劲的",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-explore-3",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "explore",
+      "scene": "随机技能",
+      "title": "你拿到一个会随机变技能的海克斯，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "更想换回熟悉技能",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先在安全处试一轮",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "围绕随机结果想套路",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "希望下一次直接变成投影仪",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-explore-4",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "explore",
+      "scene": "桥下商店",
+      "title": "桥下多了一个神秘海克斯商店，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先走正常出装路线",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "等知道规则再进去",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "逛一圈试试新组合",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "拿收集者去问能不能以旧换新",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-explore-5",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "explore",
+      "scene": "巨人天赋",
+      "title": "一个天赋会把你变成桥一样大的巨人，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "体型正常比较安心",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先看会不会影响操作",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "愿意试一局新体验",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "开始研究桥能不能骑着我走",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-explore-6",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "explore",
+      "scene": "雪球转职",
+      "title": "雪球说它不想开团，想当辅助，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "还是让它做好原本工作",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先试一小段保护路线",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "设计一个雪球保人流派",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "帮它申请桥上医疗机构执照",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-explore-7",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "explore",
+      "scene": "离谱联动",
+      "title": "装备和海克斯能拼出没见过的联动，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先把成熟套路玩好",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "试一个风险小的组合",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "愿意围绕它整套重配",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "给这个套路起名并开宗立派",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-explore-8",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "explore",
+      "scene": "随机换装",
+      "title": "天赋允许每次复活随机换一身装备，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "拒绝，自己的套路更稳",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先算清可接受的范围",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "试着适应每一身新衣服",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把复活点当成海克斯时装周",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-empathy-1",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "empathy",
+      "scene": "天赋歪了",
+      "title": "队友说“我三个选项全是反向定制”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "分析哪个损失最小",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "让他先挑个能用的",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "帮他找一条适配路线",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先安慰再一起把离谱玩出花",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-empathy-2",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "empathy",
+      "scene": "一桥之隔",
+      "title": "队友刚想出门就被秒，说“不想玩了”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "找出站位与天赋问题",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "提醒先缓一下节奏",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "说等我复活一起出去",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先听他吐槽再一起找玩法",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-empathy-3",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "empathy",
+      "scene": "雪球失误",
+      "title": "队友雪球进了五个人，语音瞬间凝固，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "客观分析这波没法跟",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先安排大家守住位置",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "说没事下一次一起配合",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先替他解围别让气氛炸掉",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-empathy-4",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "empathy",
+      "scene": "辅助天赋",
+      "title": "队友本想当输出，却抽到全是保护天赋，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "解释保护也能赢的道理",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "说这把先试试另一种路线",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "主动和他商量一起打配合",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先理解他的失落再帮他找乐趣",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-empathy-5",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "empathy",
+      "scene": "桥上道歉",
+      "title": "一个队友每次阵亡都在说对不起，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "告诉他哪些点可以改",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "说不用每波都道歉",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "主动肯定他做好的配合",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先问是不是被这局压力压住了",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-empathy-6",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "empathy",
+      "scene": "被动说明书",
+      "title": "队友读半天仍没看懂海克斯效果，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "直接给出最简使用方法",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "指出最关键的一句",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "耐心举几个具体例子",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先说没事再陪他一起慢慢试",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-empathy-7",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "empathy",
+      "scene": "复活室",
+      "title": "队友说自己整局只见过灰色屏幕，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "重新分析他的打法",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "建议先换一种出门节奏",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "主动陪他打一次安全进场",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先哄他笑一下再重新配合",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-empathy-8",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "empathy",
+      "scene": "玩法不同",
+      "title": "你想冲，队友想稳，双方都开始上头，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "把风险收益摆出来",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先暂停争论各自冷静",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "找一个两边都能接受的节奏",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先听懂彼此在担心什么再讨论",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-action-1",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "action",
+      "scene": "雪球已命中",
+      "title": "你的雪球标到对面后排，只剩半秒选择，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先完整确认敌我技能",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "再看一眼队友位置",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "有窗口就跟过去",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "人已经飞了，报点在路上",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-action-2",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "action",
+      "scene": "四人等你",
+      "title": "五人海克斯连招，只缺你按下第一步，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "再核对一次整套衔接",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "确认大家都准备好",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "看到时机就开始",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先开起来再边打边喊",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-action-3",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "action",
+      "scene": "收集者残血",
+      "title": "桥对面一个残血，收集者正在喊“老板”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先确认追击值不值",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "等技能条件再动",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "找到空当就尝试",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "装备还没说完，人已经出发",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-action-4",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "action",
+      "scene": "海克斯倒计时",
+      "title": "新天赋只有十秒爆发窗口，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先判断最佳时机",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "等一个更可靠的目标",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "抓住当下机会就用",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "立刻把十秒当成开场烟花",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-action-5",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "action",
+      "scene": "桥头拆家",
+      "title": "对面全倒，队友还在讨论战利品，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先判断复活与撤退",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "确认一条稳妥推进线",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "一边报点一边推",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "人已站到水晶前面催结算",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-action-6",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "action",
+      "scene": "复活一条龙",
+      "title": "复活后队友问先出门还是先看装备，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先想清整套计划",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "把必要信息确认好",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "边走边看关键项",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "先上桥，装备名字路上读",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-action-7",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "action",
+      "scene": "天赋突变",
+      "title": "刚拿到的新天赋能马上改变团战，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先研究明白边界",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "找安全机会试一次",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "当场尝试一个小配合",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "开麦一句“看我”就开始实验",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-action-8",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "action",
+      "scene": "雪球机会",
+      "title": "对面五个人刚好站成一条线，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先想可能的反打",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "再确认关键控制还在不在",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "看到配合点就出手",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "雪球已经把台词写在飞行轨迹里",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-order-1",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "order",
+      "scene": "天赋路线图",
+      "title": "选完第一个海克斯，你会怎么想后续？",
+      "options": [
+        {
+          "id": 0,
+          "text": "以后抽到什么再说",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "心里留一个大致方向",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "想好两三条可转路线",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把装备、天赋与站位完整连起来",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-order-2",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "order",
+      "scene": "桥上运营",
+      "title": "嚎哭深渊没那么多路，你怎么规划回合？",
+      "options": [
+        {
+          "id": 0,
+          "text": "有机会就打",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先抓住最紧要一件事",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "分清压线、消耗、进场",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把技能、复活和推进节奏排齐",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-order-3",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "order",
+      "scene": "出装分歧",
+      "title": "队伍三个收集者，但没人看阵容，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先让大家打着试试",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "提醒一个明显短板",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "分配几条互补路线",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "按职责把出装和天赋一起规划",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-order-4",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "order",
+      "scene": "重掷之前",
+      "title": "重掷按钮还剩一次，你先做什么？",
+      "options": [
+        {
+          "id": 0,
+          "text": "手感到了就按",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "扫一眼现有选择",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "比较当前与可能路线",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把本局目标和备选都想清楚",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-order-5",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "order",
+      "scene": "海克斯笔记",
+      "title": "系统让你保存一条本局心得，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "以后碰到了再回忆",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只记一个关键词",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "记下组合与适用场景",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "连触发顺序和失效条件都整理",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-order-6",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "order",
+      "scene": "连招会议",
+      "title": "五个人的天赋可以连锁触发，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "临场看谁先动",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "约一个大概发起人",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "明确几步关键配合",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "连失败时的备用顺序都说好",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-order-7",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "order",
+      "scene": "商店五秒",
+      "title": "倒计时五秒，你的购买计划通常？",
+      "options": [
+        {
+          "id": 0,
+          "text": "看到什么合眼缘就买",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先补最急需的一件",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "按已有路线快速补齐",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "主线与临时替代都提前想好",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-order-8",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "order",
+      "scene": "桥头撤退",
+      "title": "这波团战不顺，下一步怎么组织？",
+      "options": [
+        {
+          "id": 0,
+          "text": "各自找能做的事",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "先把最明显问题处理掉",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "明确谁守谁等复活",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把站位、时间和反打条件排完整",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-express-1",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "express",
+      "scene": "海克斯五杀",
+      "title": "天赋连锁打出五杀，你的第一反应？",
+      "options": [
+        {
+          "id": 0,
+          "text": "自己默默爽一下",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "发个表情给熟人",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "和队友一起庆祝",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把触发过程讲成五集连续剧",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-express-2",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "express",
+      "scene": "收藏家宣言",
+      "title": "你出了收集者，系统要求发表感言，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "不用感言继续打",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只说一句顺手",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "讲讲自己这局的想法",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "为这件装备召开加盟发布会",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-express-3",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "express",
+      "scene": "大司马讲海克斯",
+      "title": "让你解释这套神秘天赋联动，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "一句话概括就好",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只给熟人讲关键点",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "认真讲完整个思路",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "配图配动作讲成冠军公开课",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-express-4",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "express",
+      "scene": "桥上名场面",
+      "title": "队友把你的操作称为“年度整活”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "不太想让大家一直说",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "私下笑一笑",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "大方接梗讲讲当时想法",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "亲自命名并策划下次返场",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-express-5",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "express",
+      "scene": "技能配音",
+      "title": "天赋允许你给每个技能配一句话，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "还是默认声音好",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "只留一句自己懂的梗",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "设计一套个人风格配音",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "连队友的开场白都一起包办",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-express-6",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "express",
+      "scene": "结算采访",
+      "title": "记者问“这把海克斯怎么选的”，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "简单说运气还好",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "回答一个关键选择",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "把自己的纠结和决定讲清",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "把三选一讲出一部史诗电影",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-express-7",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "express",
+      "scene": "天赋起外号",
+      "title": "全队请你给这个离谱组合起名，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "原本名字够用了",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "用一个内部简称",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "取个大家能记住的名字",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "命名后连队服与口号都设计",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "id": "hex-express-8",
+      "theme": "lol",
+      "series": "hex",
+      "dim": "express",
+      "scene": "桥头谢幕",
+      "title": "这场离谱大乱斗终于结束，你？",
+      "options": [
+        {
+          "id": 0,
+          "text": "安静关掉结算页",
+          "value": 1
+        },
+        {
+          "id": 1,
+          "text": "给熟人发一句还行",
+          "value": 2
+        },
+        {
+          "id": 2,
+          "text": "发一段本局感想",
+          "value": 3
+        },
+        {
+          "id": 3,
+          "text": "剪出预告：下一座桥还等着我",
+          "value": 4
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "lol-uzi",
+      "personId": "uzi",
+      "theme": "lol",
+      "name": "Uzi",
+      "sub": "污渍 · 下路输出核",
+      "vector": [
+        75,
+        55,
+        65,
+        95,
+        70,
+        85
+      ],
+      "roles": [
+        3
+      ],
+      "line": "收集者先别讨论，兵线先吃明白。",
+      "number": "UZ"
+    },
+    {
+      "id": "lol-xiaohu",
+      "personId": "xiaohu",
+      "theme": "lol",
+      "name": "小虎",
+      "sub": "销户 · 中路季节观察员",
+      "vector": [
+        70,
+        65,
+        75,
+        70,
+        85,
+        65
+      ],
+      "roles": [
+        2,
+        0
+      ],
+      "line": "春天已经写进战术板。",
+      "number": "XI"
+    },
+    {
+      "id": "lol-dasima",
+      "personId": "dasima",
+      "theme": "lol",
+      "name": "大司马",
+      "sub": "金牌讲师 · 理论流打野",
+      "vector": [
+        65,
+        85,
+        60,
+        50,
+        85,
+        95
+      ],
+      "roles": [
+        1
+      ],
+      "line": "不是失误，是教学素材提前上班。",
+      "number": "DA"
+    },
+    {
+      "id": "lol-theshy",
+      "personId": "theshy",
+      "theme": "lol",
+      "name": "TheShy",
+      "sub": "上路独立项目组",
+      "vector": [
+        45,
+        95,
+        50,
+        95,
+        40,
+        70
+      ],
+      "roles": [
+        0
+      ],
+      "line": "边线可以安静，操作不能太安静。",
+      "number": "TH"
+    },
+    {
+      "id": "lol-faker",
+      "personId": "faker",
+      "theme": "lol",
+      "name": "Faker",
+      "sub": "中路时间管理师",
+      "vector": [
+        40,
+        65,
+        80,
+        70,
+        100,
+        40
+      ],
+      "roles": [
+        2
+      ],
+      "line": "先把每一波该做的事做好。",
+      "number": "FA"
+    },
+    {
+      "id": "lol-clearlove",
+      "personId": "clearlove",
+      "theme": "lol",
+      "name": "厂长",
+      "sub": "野区路线规划员",
+      "vector": [
+        40,
+        55,
+        65,
+        55,
+        95,
+        55
+      ],
+      "roles": [
+        1
+      ],
+      "line": "养猪场也要讲资源调度。",
+      "number": "CL"
+    },
+    {
+      "id": "lol-jackeylove",
+      "personId": "jackeylove",
+      "theme": "lol",
+      "name": "JackeyLove",
+      "sub": "水子哥 · 下路冒险家",
+      "vector": [
+        85,
+        90,
+        55,
+        100,
+        40,
+        85
+      ],
+      "roles": [
+        3
+      ],
+      "line": "这条路线险，但节目效果很好。",
+      "number": "JA"
+    },
+    {
+      "id": "lol-doinb",
+      "personId": "doinb",
+      "theme": "lol",
+      "name": "Doinb",
+      "sub": "中路麦克风持有人",
+      "vector": [
+        100,
+        85,
+        75,
+        90,
+        70,
+        100
+      ],
+      "roles": [
+        2
+      ],
+      "line": "地图的每个角落都得听见报点。",
+      "number": "DO"
+    },
+    {
+      "id": "lol-pdd",
+      "personId": "pdd",
+      "theme": "lol",
+      "name": "PDD",
+      "sub": "上路故事批发商",
+      "vector": [
+        95,
+        90,
+        75,
+        75,
+        50,
+        100
+      ],
+      "roles": [
+        0
+      ],
+      "line": "对线是支线，讲故事才是隐藏副本。",
+      "number": "PD"
+    },
+    {
+      "id": "lol-ming",
+      "personId": "ming",
+      "theme": "lol",
+      "name": "小明",
+      "sub": "辅助队伍连接器",
+      "vector": [
+        75,
+        65,
+        100,
+        70,
+        85,
+        55
+      ],
+      "roles": [
+        4
+      ],
+      "line": "你往前走，后面有人帮你接住。",
+      "number": "MI"
+    },
+    {
+      "id": "lol-meiko",
+      "personId": "meiko",
+      "theme": "lol",
+      "name": "Meiko",
+      "sub": "辅助秩序管理员",
+      "vector": [
+        70,
+        60,
+        95,
+        65,
+        95,
+        55
+      ],
+      "roles": [
+        4
+      ],
+      "line": "路可以乱，队伍不能散。",
+      "number": "ME"
+    },
+    {
+      "id": "lol-letme",
+      "personId": "letme",
+      "theme": "lol",
+      "name": "Letme",
+      "sub": "上路稳健合伙人",
+      "vector": [
+        60,
+        40,
+        80,
+        50,
+        90,
+        55
+      ],
+      "roles": [
+        0
+      ],
+      "line": "对面花里胡哨，我先把防线站住。",
+      "number": "LE"
+    },
+    {
+      "id": "lol-ning",
+      "personId": "ning",
+      "theme": "lol",
+      "name": "宁王",
+      "sub": "打野出发按钮",
+      "vector": [
+        90,
+        85,
+        55,
+        100,
+        45,
+        90
+      ],
+      "roles": [
+        1
+      ],
+      "line": "路线可以等会儿复盘，人已经到场。",
+      "number": "NI"
+    },
+    {
+      "id": "lol-knight",
+      "personId": "knight",
+      "theme": "lol",
+      "name": "Knight",
+      "sub": "左手 · 中路静音输出",
+      "vector": [
+        35,
+        75,
+        65,
+        75,
+        85,
+        35
+      ],
+      "roles": [
+        2
+      ],
+      "line": "话少一点，技能多中一点。",
+      "number": "KN"
+    },
+    {
+      "id": "lol-baolan",
+      "personId": "baolan",
+      "theme": "lol",
+      "name": "宝蓝",
+      "sub": "辅助冷静观察员",
+      "vector": [
+        45,
+        55,
+        90,
+        50,
+        80,
+        45
+      ],
+      "roles": [
+        4
+      ],
+      "line": "把镜头外的小事安顿好。",
+      "number": "BA"
+    },
+    {
+      "id": "basket-lebron",
+      "personId": "lebron",
+      "theme": "basket",
+      "name": "乐邦詹士",
+      "sub": "勒布朗 · 暂停表情艺术家",
+      "vector": [
+        95,
+        80,
+        80,
+        90,
+        90,
+        100
+      ],
+      "roles": [
+        2,
+        3
+      ],
+      "line": "这一跪是名场面，下一球还得接着打。",
+      "number": "23"
+    },
+    {
+      "id": "basket-curry",
+      "personId": "curry",
+      "theme": "basket",
+      "name": "库里",
+      "sub": "超远三分与晚安服务",
+      "vector": [
+        90,
+        100,
+        80,
+        90,
+        75,
+        90
+      ],
+      "roles": [
+        0
+      ],
+      "line": "停车场也在今天的出手范围。",
+      "number": "30"
+    },
+    {
+      "id": "basket-jordan",
+      "personId": "jordan",
+      "theme": "basket",
+      "name": "乔丹",
+      "sub": "最后一攻质量监督员",
+      "vector": [
+        80,
+        70,
+        50,
+        100,
+        100,
+        95
+      ],
+      "roles": [
+        1
+      ],
+      "line": "如果只剩一球，那就把这球认真打完。",
+      "number": "23"
+    },
+    {
+      "id": "basket-kobe",
+      "personId": "kobe",
+      "theme": "basket",
+      "name": "科比",
+      "sub": "凌晨训练计划发起人",
+      "vector": [
+        50,
+        65,
+        45,
+        100,
+        100,
+        85
+      ],
+      "roles": [
+        1
+      ],
+      "line": "闹钟还没响，训练已经开始。",
+      "number": "24"
+    },
+    {
+      "id": "basket-durant",
+      "personId": "durant",
+      "theme": "basket",
+      "name": "杜兰特",
+      "sub": "小前锋与评论区观察员",
+      "vector": [
+        45,
+        80,
+        55,
+        85,
+        80,
+        75
+      ],
+      "roles": [
+        2
+      ],
+      "line": "这球能投，评论也能看两眼。",
+      "number": "35"
+    },
+    {
+      "id": "basket-jokic",
+      "personId": "jokic",
+      "theme": "basket",
+      "name": "约基奇",
+      "sub": "中锋传球与木马办公室",
+      "vector": [
+        45,
+        95,
+        85,
+        65,
+        95,
+        40
+      ],
+      "roles": [
+        4
+      ],
+      "line": "眼睛看左边，球已经去另一边。",
+      "number": "15"
+    },
+    {
+      "id": "basket-westbrook",
+      "personId": "westbrook",
+      "theme": "basket",
+      "name": "威斯布鲁克",
+      "sub": "快攻一键启动器",
+      "vector": [
+        95,
+        75,
+        65,
+        100,
+        50,
+        100
+      ],
+      "roles": [
+        0
+      ],
+      "line": "人已经到前场，理由在路上。",
+      "number": "0"
+    },
+    {
+      "id": "basket-harden",
+      "personId": "harden",
+      "theme": "basket",
+      "name": "哈登",
+      "sub": "节奏管理与后撤步协会",
+      "vector": [
+        75,
+        85,
+        65,
+        70,
+        85,
+        80
+      ],
+      "roles": [
+        0,
+        1
+      ],
+      "line": "先变个速，再把选择权拿回来。",
+      "number": "13"
+    },
+    {
+      "id": "basket-yaoming",
+      "personId": "yaoming",
+      "theme": "basket",
+      "name": "姚明",
+      "sub": "禁区礼貌但不太好进",
+      "vector": [
+        65,
+        65,
+        100,
+        60,
+        100,
+        60
+      ],
+      "roles": [
+        4
+      ],
+      "line": "可以聊，篮下的位置先站稳。",
+      "number": "11"
+    },
+    {
+      "id": "basket-shaq",
+      "personId": "shaq",
+      "theme": "basket",
+      "name": "奥尼尔",
+      "sub": "禁区施工与赛后喜剧",
+      "vector": [
+        100,
+        80,
+        75,
+        95,
+        50,
+        100
+      ],
+      "roles": [
+        4
+      ],
+      "line": "篮筐承重测试现在开始。",
+      "number": "34"
+    },
+    {
+      "id": "basket-duncan",
+      "personId": "duncan",
+      "theme": "basket",
+      "name": "邓肯",
+      "sub": "基本功与表情节能部门",
+      "vector": [
+        30,
+        35,
+        85,
+        55,
+        100,
+        20
+      ],
+      "roles": [
+        3
+      ],
+      "line": "两分也是两分，先把回合打好。",
+      "number": "21"
+    },
+    {
+      "id": "basket-garnett",
+      "personId": "garnett",
+      "theme": "basket",
+      "name": "加内特",
+      "sub": "防守麦克风总工程师",
+      "vector": [
+        95,
+        65,
+        70,
+        100,
+        85,
+        100
+      ],
+      "roles": [
+        3
+      ],
+      "line": "气氛靠喊，防守靠每一步。",
+      "number": "21"
+    },
+    {
+      "id": "basket-doncic",
+      "personId": "doncic",
+      "theme": "basket",
+      "name": "东契奇",
+      "sub": "慢动作快递员",
+      "vector": [
+        75,
+        90,
+        75,
+        70,
+        90,
+        85
+      ],
+      "roles": [
+        0,
+        2
+      ],
+      "line": "看着不快，包裹已经送到篮下。",
+      "number": "77"
+    },
+    {
+      "id": "basket-butler",
+      "personId": "butler",
+      "theme": "basket",
+      "name": "巴特勒",
+      "sub": "关键时刻咖啡供应商",
+      "vector": [
+        70,
+        70,
+        65,
+        100,
+        95,
+        75
+      ],
+      "roles": [
+        2,
+        1
+      ],
+      "line": "咖啡先放一边，这个回合我来。",
+      "number": "22"
+    },
+    {
+      "id": "basket-rodman",
+      "personId": "rodman",
+      "theme": "basket",
+      "name": "罗德曼",
+      "sub": "篮板与配色实验室",
+      "vector": [
+        90,
+        100,
+        65,
+        95,
+        40,
+        100
+      ],
+      "roles": [
+        3
+      ],
+      "line": "球可以不投，篮板得先拿住。",
+      "number": "91"
+    },
+    {
+      "id": "abstract-fengge",
+      "personId": "fengge",
+      "theme": "abstract",
+      "name": "峰哥",
+      "sub": "平行宇宙考察员",
+      "vector": [
+        80,
+        100,
+        70,
+        85,
+        45,
+        95
+      ],
+      "roles": [
+        0,
+        2
+      ],
+      "line": "先别下结论，我去另一个宇宙看看。",
+      "number": "FE"
+    },
+    {
+      "id": "abstract-huchenfeng",
+      "personId": "huchenfeng",
+      "theme": "abstract",
+      "name": "户晨风",
+      "sub": "现场观察与提问小组",
+      "vector": [
+        65,
+        70,
+        70,
+        70,
+        95,
+        85
+      ],
+      "roles": [
+        0,
+        2
+      ],
+      "line": "今天先把看到的现象聊明白。",
+      "number": "HU"
+    },
+    {
+      "id": "abstract-lecturer",
+      "personId": "lecturer",
+      "theme": "abstract",
+      "name": "美国讲师",
+      "sub": "流动课堂负责人",
+      "vector": [
+        95,
+        90,
+        75,
+        90,
+        55,
+        100
+      ],
+      "roles": [
+        0,
+        3
+      ],
+      "line": "这不是绕路，是加了一节选修课。",
+      "number": "LE"
+    },
+    {
+      "id": "abstract-huge",
+      "personId": "huge",
+      "theme": "abstract",
+      "name": "东北虎哥",
+      "sub": "现场开机按钮",
+      "vector": [
+        100,
+        75,
+        65,
+        100,
+        35,
+        100
+      ],
+      "roles": [
+        1,
+        3
+      ],
+      "line": "大家先别走，下一幕正在加载。",
+      "number": "HU"
+    },
+    {
+      "id": "abstract-daoge",
+      "personId": "daoge",
+      "theme": "abstract",
+      "name": "东北刀哥",
+      "sub": "好果汁质量监督员",
+      "vector": [
+        85,
+        70,
+        70,
+        90,
+        45,
+        95
+      ],
+      "roles": [
+        1,
+        3
+      ],
+      "line": "这瓶好果汁先放这，节目继续。",
+      "number": "DA"
+    },
+    {
+      "id": "abstract-dasima",
+      "personId": "dasima",
+      "theme": "abstract",
+      "name": "大司马",
+      "sub": "讲解型军师",
+      "vector": [
+        65,
+        85,
+        65,
+        55,
+        90,
+        95
+      ],
+      "roles": [
+        2,
+        0
+      ],
+      "line": "你看不懂很正常，我再讲一遍。",
+      "number": "DA"
+    },
+    {
+      "id": "abstract-sunxiaochuan",
+      "personId": "sunxiaochuan",
+      "theme": "abstract",
+      "name": "孙笑川",
+      "sub": "评论区阅读理解委员",
+      "vector": [
+        80,
+        85,
+        45,
+        60,
+        60,
+        100
+      ],
+      "roles": [
+        0,
+        3
+      ],
+      "line": "这张截图，至少还有三个版本。",
+      "number": "SU"
+    },
+    {
+      "id": "abstract-geyou",
+      "personId": "geyou",
+      "theme": "abstract",
+      "name": "葛优",
+      "sub": "沙发节能总设计师",
+      "vector": [
+        35,
+        45,
+        85,
+        25,
+        45,
+        55
+      ],
+      "roles": [
+        4,
+        2
+      ],
+      "line": "先坐一会儿，宇宙不会马上关门。",
+      "number": "GE"
+    },
+    {
+      "id": "abstract-jackie",
+      "personId": "jackie",
+      "theme": "abstract",
+      "name": "成龙",
+      "sub": "疑惑表情与现场应变",
+      "vector": [
+        75,
+        90,
+        85,
+        95,
+        80,
+        90
+      ],
+      "roles": [
+        1,
+        4
+      ],
+      "line": "我有很多问题，但先把现场稳住。",
+      "number": "JA"
+    },
+    {
+      "id": "abstract-yaoming",
+      "personId": "yaoming",
+      "theme": "abstract",
+      "name": "姚明",
+      "sub": "笑脸与场面稳定器",
+      "vector": [
+        75,
+        70,
+        100,
+        65,
+        95,
+        65
+      ],
+      "roles": [
+        4,
+        3
+      ],
+      "line": "先笑一下，再把事情说清楚。",
+      "number": "11"
+    },
+    {
+      "id": "abstract-wanglaoju",
+      "personId": "wanglaoju",
+      "theme": "abstract",
+      "name": "王老菊",
+      "sub": "离谱方案测试员",
+      "vector": [
+        65,
+        100,
+        70,
+        80,
+        65,
+        95
+      ],
+      "roles": [
+        2,
+        3
+      ],
+      "line": "这个方案正常得有点不够放心。",
+      "number": "WA"
+    },
+    {
+      "id": "abstract-luobenwei",
+      "personId": "luobenwei",
+      "theme": "abstract",
+      "name": "卢本伟",
+      "sub": "开麦气氛发电站",
+      "vector": [
+        100,
+        85,
+        65,
+        95,
+        45,
+        100
+      ],
+      "roles": [
+        3,
+        0
+      ],
+      "line": "语音频道电量已充满。",
+      "number": "LU"
+    },
+    {
+      "id": "abstract-zhouyi",
+      "personId": "zhouyi",
+      "theme": "abstract",
+      "name": "周淑怡",
+      "sub": "现场接话与反应小组",
+      "vector": [
+        100,
+        80,
+        75,
+        85,
+        50,
+        100
+      ],
+      "roles": [
+        0,
+        3
+      ],
+      "line": "这句话我得接，不然场子要掉线。",
+      "number": "ZH"
+    },
+    {
+      "id": "abstract-papi",
+      "personId": "papi",
+      "theme": "abstract",
+      "name": "papi酱",
+      "sub": "生活观察与剪辑室",
+      "vector": [
+        80,
+        90,
+        85,
+        70,
+        90,
+        95
+      ],
+      "roles": [
+        2,
+        0
+      ],
+      "line": "把日常捋一遍，节目自己就来了。",
+      "number": "PA"
+    },
+    {
+      "id": "abstract-baike",
+      "personId": "baike",
+      "theme": "abstract",
+      "name": "白客",
+      "sub": "一本正经整活专员",
+      "vector": [
+        50,
+        90,
+        80,
+        55,
+        70,
+        85
+      ],
+      "roles": [
+        4,
+        2
+      ],
+      "line": "表情可以很正经，事情未必。",
+      "number": "BA"
+    }
+  ],
+  "augments": {
+    "lol": [
+      {
+        "id": "collector",
+        "name": "收集者质检员",
+        "line": "负责把犹豫变成一次果断的输出。",
+        "bias": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0.6
+        ],
+        "accessory": "准星配件"
+      },
+      {
+        "id": "lecture",
+        "name": "先别急，我有说法",
+        "line": "运营与讲解站上同一张战术板。",
+        "bias": [
+          0,
+          0,
+          0,
+          -0.2,
+          1,
+          0.5
+        ],
+        "accessory": "讲师眼镜"
+      },
+      {
+        "id": "lotus",
+        "name": "珠光整活莲花",
+        "line": "每一波尝试都带一点离谱灵感。",
+        "bias": [
+          0,
+          1,
+          0,
+          0.5,
+          0,
+          0.6
+        ],
+        "accessory": "发光王冠"
+      },
+      {
+        "id": "support",
+        "name": "辅助也要上桌",
+        "line": "温度与保护，今天也是队伍主角。",
+        "bias": [
+          0.5,
+          0,
+          1,
+          0,
+          0.4,
+          0
+        ],
+        "accessory": "护盾背包"
+      },
+      {
+        "id": "spring",
+        "name": "春之虎帝体验卡",
+        "line": "先布局，再找属于自己的发力季。",
+        "bias": [
+          0,
+          0.4,
+          0,
+          0,
+          1,
+          0.2
+        ],
+        "accessory": "春日耳饰"
+      },
+      {
+        "id": "flash",
+        "name": "闪现进食堂",
+        "line": "这局不缺的就是先冲一步。",
+        "bias": [
+          0.5,
+          0.4,
+          0,
+          1,
+          -0.3,
+          0.3
+        ],
+        "accessory": "加速靴"
+      },
+      {
+        "id": "goliath",
+        "name": "巨人上桥许可证",
+        "line": "先把体型放大，再把进场理由讲明白。",
+        "bias": [
+          0.3,
+          0.8,
+          0,
+          1,
+          -0.1,
+          0.7
+        ],
+        "accessory": "巨人肩甲"
+      },
+      {
+        "id": "range",
+        "name": "万用整活瞄准镜",
+        "line": "距离不只是距离，也是发挥空间。",
+        "bias": [
+          0,
+          1,
+          0,
+          0.3,
+          0.5,
+          0.6
+        ],
+        "accessory": "战术护目镜"
+      },
+      {
+        "id": "missile",
+        "name": "魔法飞弹营业中",
+        "line": "技能可以有冷却，脑洞先别下班。",
+        "bias": [
+          0,
+          1,
+          0,
+          0.7,
+          0.3,
+          0.7
+        ],
+        "accessory": "飞弹背包"
+      },
+      {
+        "id": "quantum",
+        "name": "量子嘴硬计算器",
+        "line": "讲解、规划与临场应变全部在线。",
+        "bias": [
+          0.3,
+          0.6,
+          0,
+          0,
+          1,
+          0.9
+        ],
+        "accessory": "量子计划板"
+      },
+      {
+        "id": "revive",
+        "name": "复活后还讲这波",
+        "line": "没讲完的故事，下一次出门接着讲。",
+        "bias": [
+          0.6,
+          0.4,
+          0.8,
+          0.6,
+          0,
+          0.5
+        ],
+        "accessory": "复活光环"
+      },
+      {
+        "id": "snowball",
+        "name": "雪球快递员",
+        "line": "全队的出发按钮，今天由你保管。",
+        "bias": [
+          1,
+          0.5,
+          0.5,
+          1,
+          0,
+          0.3
+        ],
+        "accessory": "雪球手套"
+      }
+    ],
+    "basket": [
+      {
+        "id": "kneel",
+        "name": "膝盖情绪增幅器",
+        "line": "裁判名场面担当，开麦和出手都敢接。",
+        "bias": [
+          0.4,
+          0,
+          0.3,
+          0.8,
+          0,
+          1
+        ],
+        "accessory": "情绪护膝"
+      },
+      {
+        "id": "logo",
+        "name": "停车场算三分",
+        "line": "射程之外，先给想象力留个位。",
+        "bias": [
+          0,
+          1,
+          0,
+          0.7,
+          0,
+          0.5
+        ],
+        "accessory": "超远护目镜"
+      },
+      {
+        "id": "board",
+        "name": "篮板吸尘器",
+        "line": "不抢话筒，先把落点照顾明白。",
+        "bias": [
+          0,
+          0,
+          0.5,
+          0.4,
+          1,
+          -0.2
+        ],
+        "accessory": "吸尘背包"
+      },
+      {
+        "id": "coffee",
+        "name": "关键球加浓咖啡",
+        "line": "冷静与果断，这杯都加满。",
+        "bias": [
+          0,
+          0,
+          0,
+          1,
+          0.8,
+          0
+        ],
+        "accessory": "咖啡能量罐"
+      },
+      {
+        "id": "meme",
+        "name": "虎扑式满分评委",
+        "line": "比赛可以有输赢，节目不能没效果。",
+        "bias": [
+          0.7,
+          0.7,
+          0,
+          0,
+          0,
+          1
+        ],
+        "accessory": "评分手牌"
+      },
+      {
+        "id": "team",
+        "name": "更衣室粘合剂",
+        "line": "把五个人变成愿意一起跑的一队。",
+        "bias": [
+          1,
+          0,
+          1,
+          0,
+          0.3,
+          0
+        ],
+        "accessory": "团队臂章"
+      }
+    ],
+    "abstract": [
+      {
+        "id": "juice",
+        "name": "好果汁补给箱",
+        "line": "现场温度与节目能量，一次补齐。",
+        "bias": [
+          0.8,
+          0,
+          1,
+          0.2,
+          0,
+          0.4
+        ],
+        "accessory": "果汁背包"
+      },
+      {
+        "id": "teacher",
+        "name": "讲师资格体验证",
+        "line": "离谱之前，先把自己的逻辑讲完整。",
+        "bias": [
+          0,
+          0.4,
+          0,
+          0,
+          1,
+          0.9
+        ],
+        "accessory": "讲师眼镜"
+      },
+      {
+        "id": "portal",
+        "name": "平行宇宙通行证",
+        "line": "选一条没人替你试过的路线。",
+        "bias": [
+          0.2,
+          1,
+          0,
+          0.7,
+          -0.2,
+          0.4
+        ],
+        "accessory": "传送门耳饰"
+      },
+      {
+        "id": "sofa",
+        "name": "葛优节能模式",
+        "line": "稳住场面与队友，暂缓无效冲刺。",
+        "bias": [
+          0,
+          0,
+          1,
+          -0.4,
+          0.5,
+          -0.2
+        ],
+        "accessory": "舒适靠垫"
+      },
+      {
+        "id": "micro",
+        "name": "麦克风永动机",
+        "line": "这场可以冷，但不能在你这里冷。",
+        "bias": [
+          1,
+          0.3,
+          0,
+          0.4,
+          0,
+          1
+        ],
+        "accessory": "超大话筒"
+      },
+      {
+        "id": "clipboard",
+        "name": "发癫也要排班",
+        "line": "抽象有很多种，今天选有章法这一种。",
+        "bias": [
+          0,
+          0.3,
+          0.3,
+          0,
+          1,
+          0.3
+        ],
+        "accessory": "计划板"
+      }
+    ]
+  },
+  "modes": [
+    8,
+    16,
+    24
+  ],
+  "profiles": [
+    {
+      "id": "voyager",
+      "name": "星海开拓者",
+      "en": "THE VOYAGER",
+      "planet": "拓荒星",
+      "color": "#8270df",
+      "vector": [
+        85,
+        95,
+        45,
+        90,
+        25,
+        80
+      ],
+      "line": "世界的边界，是你故事的起点。",
+      "story": "在另一个宇宙，你驾驶一艘小小的探索飞船，为尚未命名的星球绘制第一张地图。你会在陌生港口交到朋友，也会把一次意外改道变成最值得讲述的故事。",
+      "strength": "你能把好奇变成第一步，也容易带动身边的人。",
+      "growth": "出发前给自己留一个补给点，会让探索走得更远。"
+    },
+    {
+      "id": "dreamer",
+      "name": "云端造梦师",
+      "en": "THE DREAMER",
+      "planet": "浮想星",
+      "color": "#9c80bf",
+      "vector": [
+        30,
+        95,
+        75,
+        40,
+        20,
+        70
+      ],
+      "line": "你看见的世界，比地图上多一层。",
+      "story": "在另一个宇宙，你住在一座漂浮的画室里，把夜里的梦编成能进入的世界。旅人带来一个念头，你就替它搭起一座通往可能性的桥。",
+      "strength": "你擅长连接看似无关的灵感，为日常赋予新意义。",
+      "growth": "为最喜欢的那个想法做一个小样，它就能离现实近一点。"
+    },
+    {
+      "id": "guardian",
+      "name": "温柔引力场",
+      "en": "THE GUARDIAN",
+      "planet": "暖光星",
+      "color": "#c588a0",
+      "vector": [
+        60,
+        35,
+        95,
+        45,
+        65,
+        30
+      ],
+      "line": "你所在的地方，总有人愿意靠岸。",
+      "story": "在另一个宇宙，你经营一间星际深夜食堂。每个匆忙经过的人都能在那里吃到热饭，也能把没说出口的话轻轻放下。你不需要站在最亮的地方，也能成为坐标。",
+      "strength": "你对细微的情绪很敏感，能够建立稳定而有温度的关系。",
+      "growth": "照顾别人之前，也为自己的边界留一把椅子。"
+    },
+    {
+      "id": "observer",
+      "name": "边界观察员",
+      "en": "THE OBSERVER",
+      "planet": "深蓝星",
+      "color": "#608da8",
+      "vector": [
+        15,
+        80,
+        30,
+        25,
+        80,
+        15
+      ],
+      "line": "你不急着回答，因为问题也值得凝视。",
+      "story": "在另一个宇宙，你是边境天文台的研究员。别人急着穿过虫洞，你更想知道虫洞为什么出现。那些缓慢而专注的夜晚，让你发现了星空里被忽略的规律。",
+      "strength": "你能独立思考、深入观察，在复杂的信息中找到结构。",
+      "growth": "把尚未完成的想法说给可信任的人听，也是一种探索。"
+    },
+    {
+      "id": "spark",
+      "name": "破晓行动派",
+      "en": "THE SPARK",
+      "planet": "晨曦星",
+      "color": "#bb8a54",
+      "vector": [
+        80,
+        30,
+        35,
+        95,
+        60,
+        75
+      ],
+      "line": "当别人还在等待，你已经点亮第一束光。",
+      "story": "在另一个宇宙，你是救援飞行队的队长。天色还暗时，你已经检查完引擎。你喜欢把困难拆成下一步、再下一步，让真正重要的事开始发生。",
+      "strength": "你面对目标有推进力，能在不完美的条件下完成第一版。",
+      "growth": "偶尔问问队友的感受，会让队伍和你走得一样远。"
+    },
+    {
+      "id": "architect",
+      "name": "秩序建筑师",
+      "en": "THE ARCHITECT",
+      "planet": "棱镜星",
+      "color": "#669c92",
+      "vector": [
+        30,
+        45,
+        35,
+        65,
+        95,
+        35
+      ],
+      "line": "你把纷乱的星尘，排成可抵达的未来。",
+      "story": "在另一个宇宙，你为漂浮城市设计轨道和花园。你相信美好的生活需要想象，也需要可靠的基础。那些别人看不见的细节，正是城市安稳运行的秘密。",
+      "strength": "你擅长规划、拆解与兑现承诺，能把长期目标变成路径。",
+      "growth": "给计划留一块空白，有时意外也能成为设计的一部分。"
+    },
+    {
+      "id": "storyteller",
+      "name": "共鸣叙事者",
+      "en": "THE STORYTELLER",
+      "planet": "回声星",
+      "color": "#b77ab4",
+      "vector": [
+        90,
+        70,
+        90,
+        65,
+        30,
+        95
+      ],
+      "line": "你说出自己的故事，也让别人听见自己。",
+      "story": "在另一个宇宙，你主持一档跨星系的夜间电台。来自不同星球的人，在你的声音里发现彼此并不遥远。你把情绪编成故事，让一句话拥有穿越光年的力量。",
+      "strength": "你善于表达、理解与连接，让团队拥有共同的情感方向。",
+      "growth": "不必回应每一道回声，安静也可以是你的一种表达。"
+    },
+    {
+      "id": "strategist",
+      "name": "静水策划家",
+      "en": "THE STRATEGIST",
+      "planet": "静潮星",
+      "color": "#7485aa",
+      "vector": [
+        20,
+        45,
+        80,
+        35,
+        90,
+        20
+      ],
+      "line": "看似安静的水面，藏着你的深远航线。",
+      "story": "在另一个宇宙，你管理一座收藏记忆的档案馆。你记得每个人的来处，也认真安排每一次重逢。你的力量不在声量，而在于把重要的事长期放在心上。",
+      "strength": "你能兼顾深度、细节和他人的需要，为关系提供可靠的支持。",
+      "growth": "允许自己偶尔即兴，不用等到万事周全才享受旅程。"
+    }
+  ],
+  "familyCodes": {
+    "000": "architect",
+    "001": "strategist",
+    "010": "observer",
+    "011": "dreamer",
+    "100": "spark",
+    "101": "guardian",
+    "110": "voyager",
+    "111": "storyteller"
+  },
+  "lolSeries": [
+    {
+      "id": "hex",
+      "name": "海克斯大乱斗",
+      "line": "随机天赋、桥上开团与离谱联动",
+      "count": 48
+    },
+    {
+      "id": "rift",
+      "name": "峡谷排位",
+      "line": "上野中下辅，改写决胜局",
+      "count": 36
+    }
+  ]
+}

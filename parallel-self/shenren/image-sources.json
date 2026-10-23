@@ -1,0 +1,118 @@
+[
+  {
+    "id": "dasima",
+    "asset": "dasima.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E8%8A%9C%E6%B9%96%E5%A4%A7%E5%8F%B8%E9%A9%AC",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/5/57/%E8%8A%9C%E6%B9%96%E5%A4%A7%E5%8F%B8%E9%A9%AC.jpg",
+    "rights": "来源图片的商业授权未全部确认；原型参考，不冒充官方头像",
+    "kind": "真实参考原图",
+    "sha256": "ab996e20c7132a198e6b608944a22b87360ba32e5c6c4686691ccd841319fe37",
+    "derivative": {
+      "kind": "AI cartoon based on inspected real reference",
+      "sheet": "assets/portraits-v5.webp",
+      "cell": 0,
+      "sheetSize": [
+        1254,
+        1254
+      ],
+      "referenceEdited": false,
+      "generatedOn": "2026-10-23"
+    }
+  },
+  {
+    "id": "uzi",
+    "asset": "uzi.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Uzi_(gamer)",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Uzi_in_Journey_to_the_Top_-_2022_LPL_Spring_Split.jpg/250px-Uzi_in_Journey_to_the_Top_-_2022_LPL_Spring_Split.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "来源图片的商业授权未全部确认；原型参考，不冒充官方头像",
+    "kind": "真实参考原图",
+    "sha256": "29c4502a9314b650b0aefd33c05334956830ea6af0bab0730e253c01b4801c78",
+    "derivative": {
+      "kind": "AI cartoon based on inspected real reference",
+      "sheet": "assets/portraits-v5.webp",
+      "cell": 1,
+      "sheetSize": [
+        1254,
+        1254
+      ],
+      "referenceEdited": false,
+      "generatedOn": "2026-10-23"
+    }
+  },
+  {
+    "id": "xiaohu",
+    "asset": "xiaohu.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E6%9D%8E%E5%85%83%E6%B5%A9",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/6/63/%E9%94%80%E6%88%B7%E7%BB%8F%E5%85%B8%E7%AC%91.jpg!/fw/280?v=20210715101512",
+    "rights": "来源图片的商业授权未全部确认；原型参考，不冒充官方头像",
+    "kind": "真实参考原图",
+    "sha256": "c825acc55ba4b68a2b9a5dbdeb43aff77399d7faa524e10f12cf97e4fa4d685a",
+    "derivative": {
+      "kind": "AI cartoon based on inspected real reference",
+      "sheet": "assets/portraits-v5.webp",
+      "cell": 2,
+      "sheetSize": [
+        1254,
+        1254
+      ],
+      "referenceEdited": false,
+      "generatedOn": "2026-10-23"
+    }
+  },
+  {
+    "id": "huge",
+    "asset": "huge.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E4%B8%9C%E7%99%BE%E5%BE%80%E4%BA%8B",
+    "rights": "未确认图片的独立商用/改作授权。",
+    "kind": "名场面原图"
+  },
+  {
+    "id": "daoge",
+    "asset": "daoge.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E4%B8%9C%E7%99%BE%E5%BE%80%E4%BA%8B",
+    "rights": "未确认图片的独立商用/改作授权，不能把百科页面文字许可当图片授权。",
+    "kind": "名场面原图"
+  },
+  {
+    "id": "huchenfeng",
+    "asset": "huchenfeng.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Portrait_photograph_of_content_creator_Hu_Chenfeng_(%E6%88%B7%E6%99%A8%E9%A3%8E).jpg",
+    "rights": "Commons 文件实际模板为 Copyrighted free use：权利人允许任意目的、再分发、商业使用与修改；文件页给出本人放弃版权声明链接。肖像/人格权独立，不宣称官方背书。",
+    "kind": "参考肖像原图"
+  },
+  {
+    "id": "lebron",
+    "asset": "lebron.jpg",
+    "sourcePage": "https://imgflip.com/meme/140080740/lebron-james--jr-smith",
+    "rights": "Unverified. User-uploaded meme template host is not proof of commercial reuse rights. Keep source provenance and do not distribute original as licensed stock.",
+    "kind": "名场面原图"
+  },
+  {
+    "id": "jackie",
+    "asset": "jackie.jpg",
+    "sourcePage": "https://imgflip.com/meme/44529090/Jackie-Chan-Confused",
+    "rights": "Unverified. Public user-uploaded meme template is not proof of commercial/photo-license permission.",
+    "kind": "名场面原图"
+  },
+  {
+    "id": "yaoming",
+    "asset": "yaoming.jpg",
+    "sourcePage": "https://imgflip.com/meme/Yao-Ming",
+    "rights": "Unverified. Public user-uploaded meme template is not proof of commercial/photo-license permission.",
+    "kind": "已有线稿表情"
+  },
+  {
+    "id": "sunxiaochuan",
+    "asset": "sunxiaochuan.jpg",
+    "sourcePage": "https://imgflip.com/meme/338239859/Sun-Xiaochuan",
+    "rights": "Unverified. Public user-uploaded meme template is not proof of commercial/photo-license permission.",
+    "kind": "参考肖像原图"
+  },
+  {
+    "id": "geyou",
+    "asset": "geyou.png",
+    "sourcePage": "https://zh.moegirl.org.cn/%E8%91%9B%E4%BC%98%E8%BA%BA",
+    "rights": "Television screenshot; separate commercial reuse/adaptation permission not verified. Article text licensing is not proof of screenshot licensing.",
+    "kind": "名场面原图"
+  }
+]
