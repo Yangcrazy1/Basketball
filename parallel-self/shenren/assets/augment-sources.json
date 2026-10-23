@@ -1,0 +1,558 @@
+[
+  {
+    "id": "ARAM_BacktoBasics",
+    "clientId": 1004,
+    "name": "回归基本功",
+    "rarity": "kPrismatic",
+    "effect": "强化基础技能的伤害、治疗与护盾，并提供技能急速；无法施放大招。",
+    "line": "你愿意把胜负交给小技能和基本功，连R键都可以放假。",
+    "vector": [
+      25,
+      45,
+      50,
+      50,
+      98,
+      75
+    ],
+    "tags": [
+      "basic",
+      "mechanics"
+    ],
+    "bias": [
+      -0.5,
+      -0.1,
+      0.0,
+      0.0,
+      0.96,
+      0.5
+    ],
+    "asset": "augments/ARAM_BacktoBasics.png",
+    "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Back_to_Basics_mayhem_augment.png?6679d",
+    "sha256": "fc6fa7be5f10e91a2f027966cdef9e8cafdceb29f15695e5f2dfa9f8c9da26e0",
+    "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
+    "pool": "KIWI",
+    "patch": "16.21",
+    "officialReference": true
+  },
+  {
+    "id": "ARAM_Upgrade_Collector",
+    "clientId": 1320,
+    "name": "升级：收集者",
+    "rarity": "kSilver",
+    "effect": "升级收集者的处决能力；参与击杀可提升处决阈值至上限，并提供额外金币收益。",
+    "line": "你看见的不只是残血，还有闪着金光的下一件装备。",
+    "vector": [
+      65,
+      98,
+      70,
+      25,
+      65,
+      30
+    ],
+    "tags": [
+      "collector",
+      "gold"
+    ],
+    "bias": [
+      0.3,
+      0.96,
+      0.4,
+      -0.5,
+      0.3,
+      -0.4
+    ],
+    "asset": "augments/ARAM_Upgrade_Collector.png",
+    "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Upgrade_Collector_mayhem_augment.png?43345",
+    "sha256": "bae92a38c03b1ac64f4ba72abd1b0770d49f41f5657fad82ed881e00f1b92235",
+    "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
+    "pool": "KIWI",
+    "patch": "16.21",
+    "officialReference": true
+  },
+  {
+    "id": "ARAM_ClownCollege",
+    "clientId": 1310,
+    "name": "小丑学院",
+    "rarity": "kPrismatic",
+    "effect": "获得萨科式的背刺和欺诈玩法；阵亡时还会留下爆炸与恐惧盒子。",
+    "line": "你会把一局普通对战拍成悬疑喜剧，背后总还有下一幕。",
+    "vector": [
+      90,
+      35,
+      90,
+      20,
+      65,
+      15
+    ],
+    "tags": [
+      "chaos"
+    ],
+    "bias": [
+      0.8,
+      -0.3,
+      0.8,
+      -0.6,
+      0.3,
+      -0.7
+    ],
+    "asset": "augments/ARAM_ClownCollege.png",
+    "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Clown_College_mayhem_augment.png?54037",
+    "sha256": "afdc8a654eb4ac907899eb8e0b62d7e42457ed03f4d2566ca59b6705b5a9ae13",
+    "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
+    "pool": "KIWI",
+    "patch": "16.21",
+    "officialReference": true
+  },
+  {
+    "id": "ARAM_PandorasBox",
+    "clientId": 12317,
+    "name": "潘朵拉的盒子",
+    "rarity": "kPrismatic",
+    "effect": "获得一个随机棱彩强化，并将已有强化转换为同数量的随机棱彩强化。",
+    "line": "你愿意改写已经成形的剧本，重抽一次也是一种人生选择。",
+    "vector": [
+      60,
+      40,
+      60,
+      45,
+      50,
+      25
+    ],
+    "tags": [
+      "reroll",
+      "reset"
+    ],
+    "bias": [
+      0.2,
+      -0.2,
+      0.2,
+      -0.1,
+      0.0,
+      -0.5
+    ],
+    "asset": "augments/ARAM_PandorasBox.png",
+    "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Pandora%27s_Box_mayhem_augment.png?a6edd",
+    "sha256": "90141c6e952e29ec576aad7cc86744dd426d836d9a1a7034d657432d4b1f695a",
+    "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
+    "pool": "KIWI",
+    "patch": "16.21",
+    "officialReference": true
+  },
+  {
+    "id": "ARAM_Goliath",
+    "clientId": 1041,
+    "name": "歌利亚巨人",
+    "rarity": "kPrismatic",
+    "effect": "获得额外生命值和自适应之力，并显著增大体型。",
+    "line": "你更像往前站的那个人，把自己变成队伍的移动掩体。",
+    "vector": [
+      45,
+      35,
+      85,
+      80,
+      50,
+      45
+    ],
+    "tags": [
+      "engage",
+      "team"
+    ],
+    "bias": [
+      -0.1,
+      -0.3,
+      0.7,
+      0.6,
+      0.0,
+      -0.1
+    ],
+    "asset": "augments/ARAM_Goliath.png",
+    "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Goliath_mayhem_augment.png?fe02e",
+    "sha256": "3aa0f71e764e90ccb1cca8c2b9646c3c024b7ca36c1ce97557ff2089feadfabe",
+    "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
+    "pool": "KIWI",
+    "patch": "16.21",
+    "officialReference": true
+  },
+  {
+    "id": "ARAM_MagicMissile",
+    "clientId": 1133,
+    "name": "魔法飞弹",
+    "rarity": "kGold",
+    "effect": "技能命中敌方英雄后发射飞弹；飞弹造成基于目标生命值的真实伤害，距离会影响效果。",
+    "line": "你偏爱隔着半座桥把每一发技能送到，距离就是发挥空间。",
+    "vector": [
+      25,
+      55,
+      30,
+      50,
+      85,
+      65
+    ],
+    "tags": [
+      "range",
+      "spell"
+    ],
+    "bias": [
+      -0.5,
+      0.1,
+      -0.4,
+      0.0,
+      0.7,
+      0.3
+    ],
+    "asset": "augments/ARAM_MagicMissile.png",
+    "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Magic_Missile_mayhem_augment.png?b0bab",
+    "sha256": "ab82ab63409628e5ea6bae39297074973062e08a3433df5cce94921a781cdc06",
+    "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
+    "pool": "KIWI",
+    "patch": "16.21",
+    "officialReference": true
+  },
+  {
+    "id": "ARAM_AllForYou",
+    "clientId": 1141,
+    "name": "全心为你",
+    "rarity": "kGold",
+    "effect": "提升你对友方英雄施加的治疗与护盾效果。",
+    "line": "比起独占镜头，你更在意让五个人一起走到下一波。",
+    "vector": [
+      15,
+      20,
+      35,
+      98,
+      65,
+      80
+    ],
+    "tags": [
+      "heal",
+      "protect"
+    ],
+    "bias": [
+      -0.7,
+      -0.6,
+      -0.3,
+      0.96,
+      0.3,
+      0.6
+    ],
+    "asset": "augments/ARAM_AllForYou.png",
+    "iconSource": "https://wiki.leagueoflegends.com/en-us/images/All_For_You_mayhem_augment.png?6679d",
+    "sha256": "6f78270cdc8baeb05e1a4d10ea6ffcc92560ba46b9710d7493c25d80c6538549",
+    "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
+    "pool": "KIWI",
+    "patch": "16.21",
+    "officialReference": true
+  },
+  {
+    "id": "ARAM_FirstAidKit",
+    "clientId": 1037,
+    "name": "急救用具",
+    "rarity": "kSilver",
+    "effect": "获得治疗与护盾强度加成。",
+    "line": "你会先看谁需要被接住，桥头医务室已经为队友开门。",
+    "vector": [
+      20,
+      25,
+      25,
+      90,
+      60,
+      80
+    ],
+    "tags": [
+      "heal"
+    ],
+    "bias": [
+      -0.6,
+      -0.5,
+      -0.5,
+      0.8,
+      0.2,
+      0.6
+    ],
+    "asset": "augments/ARAM_FirstAidKit.png",
+    "iconSource": "https://wiki.leagueoflegends.com/en-us/images/First-Aid_Kit_mayhem_augment.png?680f2",
+    "sha256": "e3e4c49adf4b1ab0d5c8f10200af3da50742170d6ad979f915a43f6f458b8b00",
+    "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
+    "pool": "KIWI",
+    "patch": "16.21",
+    "officialReference": true
+  },
+  {
+    "id": "ARAM_JeweledGauntlet",
+    "clientId": 1048,
+    "name": "珠光护手",
+    "rarity": "kPrismatic",
+    "effect": "技能可以产生暴击，并获得暴击几率加成。",
+    "line": "你相信准确落下的技能值得一个更响亮的结算。",
+    "vector": [
+      55,
+      70,
+      65,
+      40,
+      95,
+      40
+    ],
+    "tags": [
+      "mechanics",
+      "spell"
+    ],
+    "bias": [
+      0.1,
+      0.4,
+      0.3,
+      -0.2,
+      0.9,
+      -0.2
+    ],
+    "asset": "augments/ARAM_JeweledGauntlet.png",
+    "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Jeweled_Gauntlet_mayhem_augment.png?65116",
+    "sha256": "4d667638975af1305bb08a4db7768b88bc5337abc9782cd660dedd24d6acd480",
+    "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
+    "pool": "KIWI",
+    "patch": "16.21",
+    "officialReference": true
+  },
+  {
+    "id": "ARAM_ScopedWeapons",
+    "clientId": 1170,
+    "name": "万用瞄准镜",
+    "rarity": "kSilver",
+    "effect": "增加普通攻击射程，近战与远程英雄的收益不同。",
+    "line": "你会先找安全位置，再把稳定输出打成自己的名场面。",
+    "vector": [
+      15,
+      55,
+      20,
+      50,
+      80,
+      75
+    ],
+    "tags": [
+      "range",
+      "retreat"
+    ],
+    "bias": [
+      -0.7,
+      0.1,
+      -0.6,
+      0.0,
+      0.6,
+      0.5
+    ],
+    "asset": "augments/ARAM_ScopedWeapons.png",
+    "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Scoped_Weapons_mayhem_augment.png?6ffad",
+    "sha256": "be29dbbe6227eedb931553e2bec425d53e2f60bfc93936dc9cce39c89981c550",
+    "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
+    "pool": "KIWI",
+    "patch": "16.21",
+    "officialReference": true
+  },
+  {
+    "id": "ARAM_StackosaurusRex",
+    "clientId": 1204,
+    "name": "叠角龙",
+    "rarity": "kSilver",
+    "effect": "增加从技能获取的永久层数。",
+    "line": "你愿意等成长兑现，层数像存款一样一笔笔积累。",
+    "vector": [
+      15,
+      90,
+      25,
+      45,
+      55,
+      98
+    ],
+    "tags": [
+      "stack",
+      "plan"
+    ],
+    "bias": [
+      -0.7,
+      0.8,
+      -0.5,
+      -0.1,
+      0.1,
+      0.96
+    ],
+    "asset": "augments/ARAM_StackosaurusRex.png",
+    "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Stackosaurus_Rex_mayhem_augment.png?9018e",
+    "sha256": "eed67b9bc392eeee8d450a7c25c9cc179ff16a8f4f062e589e9ab534f17c0bed",
+    "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
+    "pool": "KIWI",
+    "patch": "16.21",
+    "officialReference": true
+  },
+  {
+    "id": "ARAM_UltimateRevolution",
+    "clientId": 1088,
+    "name": "终极刷新",
+    "rarity": "kPrismatic",
+    "effect": "施放大招后可触发一次大招冷却重置；该效果自身有冷却。",
+    "line": "你希望关键镜头再来一遍，第二次按下大招才是高潮。",
+    "vector": [
+      60,
+      50,
+      80,
+      60,
+      85,
+      40
+    ],
+    "tags": [
+      "ultimate"
+    ],
+    "bias": [
+      0.2,
+      0.0,
+      0.6,
+      0.2,
+      0.7,
+      -0.2
+    ],
+    "asset": "augments/ARAM_UltimateRevolution.png",
+    "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Ultimate_Revolution_mayhem_augment.png?3f1b2",
+    "sha256": "5701f80880766b1d8568f6c7ae31c79fdefb65803f9e4eb93ebb70bfa7d2430b",
+    "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
+    "pool": "KIWI",
+    "patch": "16.21",
+    "officialReference": true
+  },
+  {
+    "id": "ARAM_IceCold",
+    "clientId": 1044,
+    "name": "冰寒",
+    "rarity": "kSilver",
+    "effect": "你的减速效果会额外降低目标的移动速度。",
+    "line": "你习惯先让场面慢下来，再替队伍把节奏接好。",
+    "vector": [
+      20,
+      35,
+      40,
+      80,
+      75,
+      90
+    ],
+    "tags": [
+      "control",
+      "plan"
+    ],
+    "bias": [
+      -0.6,
+      -0.3,
+      -0.2,
+      0.6,
+      0.5,
+      0.8
+    ],
+    "asset": "augments/ARAM_IceCold.png",
+    "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Ice_Cold_mayhem_augment.png?65116",
+    "sha256": "b74551b3b0a82bf8b017440618733f00858d6e1c69f9edd250876f41a775f37d",
+    "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
+    "pool": "KIWI",
+    "patch": "16.21",
+    "officialReference": true
+  },
+  {
+    "id": "EscapePlan",
+    "clientId": 1333,
+    "name": "逃跑计划",
+    "rarity": "kSilver",
+    "effect": "生命值较低时提供会衰减的护盾与移速，并缩小体型；效果有冷却。",
+    "line": "你总留着离场按钮，活到下一幕也能写出新结局。",
+    "vector": [
+      35,
+      30,
+      10,
+      35,
+      50,
+      55
+    ],
+    "tags": [
+      "retreat",
+      "reset"
+    ],
+    "bias": [
+      -0.3,
+      -0.4,
+      -0.8,
+      -0.3,
+      0.0,
+      0.1
+    ],
+    "asset": "augments/EscapePlan.png",
+    "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Escape_Plan_mayhem_augment.png?eda3c",
+    "sha256": "d8b45646ce6a9e78a69b1af09f62cc8b028bbcef1e8df9fbf418982e4979676d",
+    "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
+    "pool": "KIWI",
+    "patch": "16.21",
+    "officialReference": true
+  },
+  {
+    "id": "KingMe",
+    "clientId": 1337,
+    "name": "尊我为王",
+    "rarity": "kPrismatic",
+    "effect": "首次进入敌方基地附近的传送入口或发射装置，可获得随机棱彩强化并升级一件装备。",
+    "line": "对方家门在你眼里像领奖入口，越离谱的路线越想试。",
+    "vector": [
+      75,
+      55,
+      98,
+      45,
+      65,
+      20
+    ],
+    "tags": [
+      "engage",
+      "chaos"
+    ],
+    "bias": [
+      0.5,
+      0.1,
+      0.96,
+      -0.1,
+      0.3,
+      -0.6
+    ],
+    "asset": "augments/KingMe.png",
+    "iconSource": "https://wiki.leagueoflegends.com/en-us/images/King_Me_mayhem_augment.png?cbebc",
+    "sha256": "2f8442055b45f7f8d64c25dfd8244ce45ce9eb84785de32e3f30849656b4da09",
+    "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
+    "pool": "KIWI",
+    "patch": "16.21",
+    "officialReference": true
+  },
+  {
+    "id": "Goldrend",
+    "clientId": 1335,
+    "name": "夺金",
+    "rarity": "kPrismatic",
+    "effect": "攻击或技能伤害敌方英雄可触发额外伤害，并给予金币与移速；有触发冷却。",
+    "line": "你会把每次试探都变成收入，金币到账的声音最好听。",
+    "vector": [
+      35,
+      95,
+      45,
+      35,
+      60,
+      65
+    ],
+    "tags": [
+      "gold"
+    ],
+    "bias": [
+      -0.3,
+      0.9,
+      -0.1,
+      -0.3,
+      0.2,
+      0.3
+    ],
+    "asset": "augments/Goldrend.png",
+    "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Goldrend_mayhem_augment.png?56732",
+    "sha256": "a84ddccef0c4cd3197ec479d4dc6fa4e5976ad157311101ebe77f68c55ae5d0e",
+    "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
+    "pool": "KIWI",
+    "patch": "16.21",
+    "officialReference": true
+  }
+]

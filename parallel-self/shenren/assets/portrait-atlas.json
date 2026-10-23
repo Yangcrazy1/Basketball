@@ -1,0 +1,255 @@
+{
+  "sheets": [
+    {
+      "asset": "portraits-v6-0.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "8ec3034a6d618830d829791267e9298ca6ca2b32a198f0d7343bb7cab2d0b5b6",
+      "generatedOriginalName": "exec-3476e45d-81c2-4f87-87ac-67271c2ed345.png"
+    },
+    {
+      "asset": "portraits-v6-1.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "93ed401f2852b064e64fdd1135d279833f9a76ac231ee04cccecc8687e7cfd1c",
+      "generatedOriginalName": "exec-b2363383-8837-43c2-b5cf-261f2f74b2ce.png"
+    },
+    {
+      "asset": "portraits-v6-2.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "76d32a795299f1244d2d22515ebebcae3f801f7af69fe3269b132a867a8ae7ef",
+      "generatedOriginalName": "exec-cc74dc20-4760-4a15-8e11-0c68fa5d5d3d.png"
+    },
+    {
+      "asset": "portraits-v6-3.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "170646b129fc35174b520cac303b879c9f3120fd056523f4e9d942f124d58207",
+      "generatedOriginalName": "exec-a49fd950-2450-4996-97df-b0c062c04cbe.png"
+    },
+    {
+      "asset": "portraits-v6-4.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "684453afbbe229ab44a9a333dbe0647802acd1729403070d78ea424968122d98",
+      "generatedOriginalName": "exec-49294dcf-d077-4a0f-a43c-31caf7554595.png"
+    },
+    {
+      "asset": "portraits-v6-5.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6b49443a063b594291b79549041615a86c8ba4a6bf9805b59ba5070e5763e890",
+      "generatedOriginalName": "exec-fd48a3dd-2b21-4c9c-b89e-213025d3f5de.png"
+    },
+    {
+      "asset": "portraits-v6-6.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "920eae0e892df1ca5c09f45321256b02907fd006650cf94df016704822fa5c3d",
+      "generatedOriginalName": "exec-7d76110f-1303-4620-bfe2-8bf90550935e.png"
+    },
+    {
+      "asset": "portraits-v6-7.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "44abacf76c4fd4a2c0193c84b66fd02bf64569b4826ea7301530bc0658a98160",
+      "generatedOriginalName": "exec-ebe7a209-b08c-494b-9442-31803ce119a0.png"
+    },
+    {
+      "asset": "portraits-v6-8.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "0d70a04f9d7d1bb78e890fc49469aae32993bdf8af1450c5aee35cabbd652ae9",
+      "generatedOriginalName": "exec-6740d4d6-4c88-4d36-aa2d-c8ce7c9d26cb.png"
+    },
+    {
+      "asset": "portraits-v6-9.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b53d25de70227b6c99c6eca5c627ad6bd96b0f494a277dda041ae9f7a6a02fbc",
+      "generatedOriginalName": "exec-922841c4-e240-448e-8950-c8d0e639fd0f.png"
+    },
+    {
+      "asset": "portraits-v6-10.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b3f884bfe648f865b736a9b1efa7ae52e68555c4795760eb921267f95b60e6c8",
+      "generatedOriginalName": "exec-74b29561-18ca-4623-930f-2d8583aeb470.png"
+    }
+  ],
+  "portraits": {
+    "uzi": {
+      "sheet": 0,
+      "cell": 0
+    },
+    "dasima": {
+      "sheet": 0,
+      "cell": 1
+    },
+    "xiaohu": {
+      "sheet": 0,
+      "cell": 2
+    },
+    "theshy": {
+      "sheet": 0,
+      "cell": 3
+    },
+    "faker": {
+      "sheet": 1,
+      "cell": 0
+    },
+    "clearlove": {
+      "sheet": 1,
+      "cell": 1
+    },
+    "jackeylove": {
+      "sheet": 1,
+      "cell": 2
+    },
+    "doinb": {
+      "sheet": 1,
+      "cell": 3
+    },
+    "pdd": {
+      "sheet": 2,
+      "cell": 0
+    },
+    "ming": {
+      "sheet": 2,
+      "cell": 1
+    },
+    "ning": {
+      "sheet": 2,
+      "cell": 2
+    },
+    "knight": {
+      "sheet": 2,
+      "cell": 3
+    },
+    "lebron": {
+      "sheet": 3,
+      "cell": 0
+    },
+    "curry": {
+      "sheet": 3,
+      "cell": 1
+    },
+    "jordan": {
+      "sheet": 3,
+      "cell": 2
+    },
+    "kobe": {
+      "sheet": 3,
+      "cell": 3
+    },
+    "durant": {
+      "sheet": 4,
+      "cell": 0
+    },
+    "jokic": {
+      "sheet": 4,
+      "cell": 1
+    },
+    "westbrook": {
+      "sheet": 4,
+      "cell": 2
+    },
+    "harden": {
+      "sheet": 4,
+      "cell": 3
+    },
+    "yaoming": {
+      "sheet": 5,
+      "cell": 0
+    },
+    "shaq": {
+      "sheet": 5,
+      "cell": 1
+    },
+    "duncan": {
+      "sheet": 5,
+      "cell": 2
+    },
+    "garnett": {
+      "sheet": 5,
+      "cell": 3
+    },
+    "doncic": {
+      "sheet": 6,
+      "cell": 0
+    },
+    "butler": {
+      "sheet": 6,
+      "cell": 1
+    },
+    "rodman": {
+      "sheet": 6,
+      "cell": 2
+    },
+    "baolan": {
+      "sheet": 6,
+      "cell": 3
+    },
+    "huchenfeng": {
+      "sheet": 7,
+      "cell": 0
+    },
+    "huge": {
+      "sheet": 7,
+      "cell": 1
+    },
+    "daoge": {
+      "sheet": 7,
+      "cell": 2
+    },
+    "sunxiaochuan": {
+      "sheet": 7,
+      "cell": 3
+    },
+    "geyou": {
+      "sheet": 8,
+      "cell": 0
+    },
+    "jackie": {
+      "sheet": 8,
+      "cell": 1
+    },
+    "wanglaoju": {
+      "sheet": 8,
+      "cell": 2
+    },
+    "luobenwei": {
+      "sheet": 8,
+      "cell": 3
+    },
+    "zhouyi": {
+      "sheet": 9,
+      "cell": 0
+    },
+    "papi": {
+      "sheet": 9,
+      "cell": 1
+    },
+    "baike": {
+      "sheet": 9,
+      "cell": 2
+    },
+    "fengge": {
+      "sheet": 9,
+      "cell": 3
+    },
+    "meiko": {
+      "sheet": 10,
+      "cell": 0
+    },
+    "letme": {
+      "sheet": 10,
+      "cell": 1
+    },
+    "mascot": {
+      "sheet": 10,
+      "cell": 3
+    }
+  }
+}

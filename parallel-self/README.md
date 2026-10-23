@@ -1,4 +1,4 @@
-> 最新网页为 [V5「世界上另一个我」海克斯优先版](shenren/README.md)，含五人战队、156 题、真实参考新头像和 360° 分身。以下是保留的 V4 说明。
+> 最新网页为 [V6「世界上另一个我」海克斯名场面版](shenren/README.md)，含五人战队、连贯随机情境、新卡通头像、真实强化参考与可导出海报。手机直达 https://yangcrazy1.github.io/Basketball/?v=6-hex 。以下是保留的 V4 说明。
 
 # 另一个我 · ELSEWHERE V4
 

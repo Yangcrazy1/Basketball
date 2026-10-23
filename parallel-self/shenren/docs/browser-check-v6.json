@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "checks": [
+    "V6 boots with League/Hex ARAM as default; all 3D UI and runtime are absent",
+    "both palettes fit 320/390/430/768/1440px without horizontal overflow",
+    "11 new atlases decode; all 44 themed entries have distinct assigned cartoon cells; 5 illustrative avatars are disclosed",
+    "Uzi introduction retains the fictional S8/Galio/GOAT alternate ending",
+    "four-act context quotes actual previous choice, responds to edits, and resumes identical shuffled questions/options",
+    "completing answers directly reveals a person and a real automatic augment with two alternatives and a source dialog",
+    "identity, real augment card, narrative, five-member team and six-axis result fit both palettes at all viewport widths",
+    "new 1080x1920 character/real-augment/five-person PNG actually downloads and decodes",
+    "fresh runs change the first episode; 8/16/24 modes work; both LoL series and secondary themes finish with five legal positions",
+    "history reload reproduces the identity, automatically recommended augment and five-member team",
+    "downloaded complete HTML works offline with storage denied, shows real icons and generates the new poster",
+    "malformed local records are ignored; all tested flows have zero JavaScript errors and no external asset requests"
+  ],
+  "passed": 12,
+  "failure": null,
+  "html_sha256": "d2f77da1960e6a9d39e96849358ef3435b6d947a180d638f7f29c59dfbbe73eb",
+  "html_bytes": 4430561,
+  "javascript_errors": [],
+  "external_requests": [],
+  "duration_seconds": 47.62,
+  "scope": "Chromium responsive viewport, real PNG/HTML downloads, offline execution; no physical phone test"
+}

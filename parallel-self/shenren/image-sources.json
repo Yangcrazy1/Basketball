@@ -1,118 +1,591 @@
 [
   {
-    "id": "dasima",
-    "asset": "dasima.jpg",
-    "sourcePage": "https://zh.moegirl.org.cn/%E8%8A%9C%E6%B9%96%E5%A4%A7%E5%8F%B8%E9%A9%AC",
-    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/5/57/%E8%8A%9C%E6%B9%96%E5%A4%A7%E5%8F%B8%E9%A9%AC.jpg",
-    "rights": "来源图片的商业授权未全部确认；原型参考，不冒充官方头像",
-    "kind": "真实参考原图",
-    "sha256": "ab996e20c7132a198e6b608944a22b87360ba32e5c6c4686691ccd841319fe37",
-    "derivative": {
-      "kind": "AI cartoon based on inspected real reference",
-      "sheet": "assets/portraits-v5.webp",
-      "cell": 0,
-      "sheetSize": [
-        1254,
-        1254
-      ],
-      "referenceEdited": false,
-      "generatedOn": "2026-10-23"
-    }
-  },
-  {
     "id": "uzi",
-    "asset": "uzi.jpg",
+    "asset": "v6-references/uzi.jpg",
     "sourcePage": "https://en.wikipedia.org/wiki/Uzi_(gamer)",
     "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Uzi_in_Journey_to_the_Top_-_2022_LPL_Spring_Split.jpg/250px-Uzi_in_Journey_to_the_Top_-_2022_LPL_Spring_Split.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
     "rights": "来源图片的商业授权未全部确认；原型参考，不冒充官方头像",
-    "kind": "真实参考原图",
+    "kind": "AI卡通重绘",
     "sha256": "29c4502a9314b650b0aefd33c05334956830ea6af0bab0730e253c01b4801c78",
-    "derivative": {
-      "kind": "AI cartoon based on inspected real reference",
-      "sheet": "assets/portraits-v5.webp",
-      "cell": 1,
-      "sheetSize": [
-        1254,
-        1254
-      ],
-      "referenceEdited": false,
-      "generatedOn": "2026-10-23"
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 0,
+      "cell": 0
     }
   },
   {
     "id": "xiaohu",
-    "asset": "xiaohu.jpg",
+    "asset": "v6-references/xiaohu.jpg",
     "sourcePage": "https://zh.moegirl.org.cn/%E6%9D%8E%E5%85%83%E6%B5%A9",
     "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/6/63/%E9%94%80%E6%88%B7%E7%BB%8F%E5%85%B8%E7%AC%91.jpg!/fw/280?v=20210715101512",
     "rights": "来源图片的商业授权未全部确认；原型参考，不冒充官方头像",
-    "kind": "真实参考原图",
+    "kind": "AI卡通重绘",
     "sha256": "c825acc55ba4b68a2b9a5dbdeb43aff77399d7faa524e10f12cf97e4fa4d685a",
-    "derivative": {
-      "kind": "AI cartoon based on inspected real reference",
-      "sheet": "assets/portraits-v5.webp",
-      "cell": 2,
-      "sheetSize": [
-        1254,
-        1254
-      ],
-      "referenceEdited": false,
-      "generatedOn": "2026-10-23"
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 0,
+      "cell": 2
+    }
+  },
+  {
+    "id": "dasima",
+    "asset": "v6-references/dasima.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E8%8A%9C%E6%B9%96%E5%A4%A7%E5%8F%B8%E9%A9%AC",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/5/57/%E8%8A%9C%E6%B9%96%E5%A4%A7%E5%8F%B8%E9%A9%AC.jpg",
+    "rights": "来源图片的商业授权未全部确认；原型参考，不冒充官方头像",
+    "kind": "AI卡通重绘",
+    "sha256": "ab996e20c7132a198e6b608944a22b87360ba32e5c6c4686691ccd841319fe37",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 0,
+      "cell": 1
+    }
+  },
+  {
+    "id": "theshy",
+    "name": "TheShy",
+    "asset": "v6-references/theshy.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E5%A7%9C%E6%89%BF%E9%8C%B2",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/e/eb/WBGtheshy_%E6%98%A5%E5%AD%A3%E8%B5%9B%E7%AC%AC%E4%BA%94%E5%91%A8.jpg",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "c9b37010188fdf1267ed62898656491063c8cfe69fe4b293d1af9370ae60847b",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 0,
+      "cell": 3
+    }
+  },
+  {
+    "id": "faker",
+    "name": "Faker",
+    "asset": "v6-references/faker.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E6%9D%8E%E7%9B%B8%E8%B5%AB",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/b/b0/Faker%E5%8D%83%E5%9C%BALCK%E8%B4%BA%E5%9B%BE.jpg",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "de148a1486b3d6f58fa034eadf63c7b86e6ad0ba64c76d92edb6d135103df437",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 1,
+      "cell": 0
+    }
+  },
+  {
+    "id": "clearlove",
+    "name": "厂长",
+    "asset": "v6-references/clearlove.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E6%98%8E%E5%87%AF",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/0/09/%E6%98%8E%E5%87%AF2022%E7%9B%91%E7%9D%A3%E8%A5%BF%E8%A3%85.jpg",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "e48008ceb6d21bbcd24914cc878b47d12c1f0b4412c349d1476a69dd483d1d85",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 1,
+      "cell": 1
+    }
+  },
+  {
+    "id": "jackeylove",
+    "name": "JackeyLove",
+    "asset": "v6-references/jackeylove.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E5%96%BB%E6%96%87%E6%B3%A2",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/3/36/JKLS11%E5%AE%9A%E5%A6%86%E7%85%A7.jpg",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "e5c9aa1a1b33dd0372f1019f6195ae00a10f357d472be591fbfeb315dc56c82c",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 1,
+      "cell": 2
+    }
+  },
+  {
+    "id": "doinb",
+    "name": "Doinb",
+    "asset": "v6-references/doinb.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E9%87%91%E6%B3%B0%E7%9B%B8",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/9/9c/%E8%93%9D%E7%8C%B4%E5%92%86%E5%93%AE.jpg!/fw/1200/watermark/url/L21vZWdpcmwvd2F0ZXJtYXJrLnBuZw==/align/southeast/margin/10x10/opacity/50?v=20220107134742",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "e4622b0ea7b17bea7d3d59be0396b16635cf26ff528757c6206e8f754ed118ea",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 1,
+      "cell": 3
+    }
+  },
+  {
+    "id": "pdd",
+    "name": "PDD",
+    "asset": "v6-references/pdd.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E5%88%98%E8%B0%8B",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/a/ac/Pdd.jpg",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "54face526e83e712553753ef1d9f0e69c0706b57a5af71af247ecc27e6c7e58a",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 2,
+      "cell": 0
+    }
+  },
+  {
+    "id": "ming",
+    "name": "小明",
+    "asset": "v6-references/ming.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E5%8F%B2%E6%A3%AE%E6%98%8E",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/6/61/%E5%B0%8F%E6%98%8E2021%E6%98%A5%E5%AD%A3%E8%B5%9B%E5%AE%9A%E5%A6%86%E7%85%A7.jpg",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "713e050b8698e120c253f55d83d452f9d1eeb8ccb46c06afd090c830c7fefb26",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 2,
+      "cell": 1
+    },
+    "note": "参考图为两人合影，仅取左侧持扩音器的小明。"
+  },
+  {
+    "id": "meiko",
+    "name": "Meiko",
+    "verifiedReference": false,
+    "kind": "AI角色示意",
+    "atlas": {
+      "sheet": 10,
+      "cell": 0
+    },
+    "rights": "AI示意图，无已核实本人照片参考；非官方头像或人物背书。"
+  },
+  {
+    "id": "letme",
+    "name": "Letme",
+    "verifiedReference": false,
+    "kind": "AI角色示意",
+    "atlas": {
+      "sheet": 10,
+      "cell": 1
+    },
+    "rights": "AI示意图，无已核实本人照片参考；非官方头像或人物背书。"
+  },
+  {
+    "id": "ning",
+    "name": "宁王",
+    "asset": "v6-references/ning.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E9%AB%98%E6%8C%AF%E5%AE%81",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/c/c7/Ning.jpg",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "b26d53a05de576fd99cc628e1b342037af0b8ec9d2bbc0d6a4ce2d4a1ff54cd1",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 2,
+      "cell": 2
+    }
+  },
+  {
+    "id": "knight",
+    "name": "Knight",
+    "asset": "v6-references/knight.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E5%8D%93%E5%AE%9A",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/c/c7/%E5%8D%93%E5%AE%9A_%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F_BLG_2025.jpg!/fw/1200/watermark/url/L21vZWdpcmwvd2F0ZXJtYXJrLnBuZw==/align/southeast/margin/10x10/opacity/50?v=20250921153038",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "889aff32cdf504c02468c0c9aa18182e9d4ea0d62f79fdf7d8fd126c2f80464e",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 2,
+      "cell": 3
+    }
+  },
+  {
+    "id": "baolan",
+    "name": "宝蓝",
+    "asset": "v6-references/baolan.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E7%8E%8B%E6%9F%B3%E7%BE%BF",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/2/22/Baolan.jpg",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "9fb47ae4ca7c3ecbfb912db8fa46fda482426a6bfb115f9570355fa659d5fffd",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 6,
+      "cell": 3
+    }
+  },
+  {
+    "id": "lebron",
+    "asset": "v6-references/lebron.jpg",
+    "sourcePage": "https://imgflip.com/meme/140080740/lebron-james--jr-smith",
+    "rights": "Unverified. User-uploaded meme template host is not proof of commercial reuse rights. Keep source provenance and do not distribute original as licensed stock.",
+    "kind": "AI卡通重绘",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 3,
+      "cell": 0
+    }
+  },
+  {
+    "id": "curry",
+    "name": "库里",
+    "asset": "v6-references/curry.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Stephen_Curry",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Stephen_Curry%2C_Olympic_Games_2024_%28cropped%29.jpg/250px-Stephen_Curry%2C_Olympic_Games_2024_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "ba016c1f8efb6998fd4976de3306aea2d2aee34aa83afb281f20faaafe523020",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 3,
+      "cell": 1
+    }
+  },
+  {
+    "id": "jordan",
+    "name": "乔丹",
+    "asset": "v6-references/jordan.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Michael_Jordan",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Michael_jordan_admad_rashad_%2851276390562%29_%28cropped%29.jpg/250px-Michael_jordan_admad_rashad_%2851276390562%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "ac6806faf84d6a11f6b4b311eb01822faad10fd9ed9ddb294f1ee8a4355b1126",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 3,
+      "cell": 2
+    }
+  },
+  {
+    "id": "kobe",
+    "name": "科比",
+    "asset": "v6-references/kobe.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Kobe_Bryant",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Kobe_Bryant_Dec_2014.jpg/250px-Kobe_Bryant_Dec_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "fc03b5ff9cb1ed1623a5af6034f5d0bc7e68adbc7bfdf0ec8d64d2aad09a1f83",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 3,
+      "cell": 3
+    }
+  },
+  {
+    "id": "durant",
+    "name": "杜兰特",
+    "asset": "v6-references/durant.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Kevin_Durant",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Kevin_Durant%2C_Paris_2024_%28cropped%29.jpg/250px-Kevin_Durant%2C_Paris_2024_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "4902998748e941e376077eb395cbe07758ffc4ec4d9c2dd859872af4cc69bd9f",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 4,
+      "cell": 0
+    }
+  },
+  {
+    "id": "jokic",
+    "name": "约基奇",
+    "asset": "v6-references/jokic.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Nikola_Joki%C4%87",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Nikola_Jokic_free_throw_%28cropped%29.jpg/250px-Nikola_Jokic_free_throw_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "84aa4ff8b92ef5b6b8b61ee1a841a701c882fe963301d8535472cc2a3dba8f1d",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 4,
+      "cell": 1
+    }
+  },
+  {
+    "id": "westbrook",
+    "name": "威斯布鲁克",
+    "asset": "v6-references/westbrook.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Russell_Westbrook",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Russell_Westbrook_%28March_21%2C_2022%29_%28cropped%29.jpg/250px-Russell_Westbrook_%28March_21%2C_2022%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "7537fbef6ac3e39b8298b22c58c0f47efd34d5d594b45cb6bfa771ba127191a7",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 4,
+      "cell": 2
+    }
+  },
+  {
+    "id": "harden",
+    "name": "哈登",
+    "asset": "v6-references/harden.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/James_Harden",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Harden_dribbling_midcourt%2C_Cavaliers_vs_Nets_on_January_17%2C_2022_%28cropped%29.jpg/250px-Harden_dribbling_midcourt%2C_Cavaliers_vs_Nets_on_January_17%2C_2022_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "1e31722b21c683a6606516142125fabe437bdab6379b96875b0be39208557a70",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 4,
+      "cell": 3
+    }
+  },
+  {
+    "id": "yaoming",
+    "name": "姚明",
+    "asset": "v6-references/yaoming.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Yao_Ming",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Yao_Ming_in_2014_%28cropped%29.jpg/250px-Yao_Ming_in_2014_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "a3adbf52ba2d2d2fa59e937876433aed9c7e31bde4ff204ad57386248e714db2",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 5,
+      "cell": 0
+    }
+  },
+  {
+    "id": "shaq",
+    "name": "奥尼尔",
+    "asset": "v6-references/shaq.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Shaquille_O%27Neal",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/TechCrunch_Disrupt_2023_-_Day_1_%28cropped%29.jpg/250px-TechCrunch_Disrupt_2023_-_Day_1_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "26b4c325c9a655cdc071815ed44ba761fbeb2a0ec939b6da9050751a023e6057",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 5,
+      "cell": 1
+    }
+  },
+  {
+    "id": "duncan",
+    "name": "邓肯",
+    "asset": "v6-references/duncan.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Tim_Duncan",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Tim_Duncan_Walks_Verizon_Center%27s_Floor_%28cropped%29_%28cropped%29.jpg/250px-Tim_Duncan_Walks_Verizon_Center%27s_Floor_%28cropped%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "19e9ea2fffcfbcd5d4156d906e94322fc966d6acd11265812db4c745ff90d260",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 5,
+      "cell": 2
+    }
+  },
+  {
+    "id": "garnett",
+    "name": "加内特",
+    "asset": "v6-references/garnett.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Kevin_Garnett",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Kevin_Garnett_2008-01-13.jpg/250px-Kevin_Garnett_2008-01-13.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "0978cebbd6b35f629b2adbeeed31382d73251c558a8d7c99c1cbf3cf97b58c70",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 5,
+      "cell": 3
+    }
+  },
+  {
+    "id": "doncic",
+    "name": "东契奇",
+    "asset": "v6-references/doncic.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Luka_Don%C4%8Di%C4%87",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Luka_Don%C4%8Di%C4%87_and_Marines%2C_2026_%28cropped%29.jpg/250px-Luka_Don%C4%8Di%C4%87_and_Marines%2C_2026_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "80f4fec5d013e30587a56bec0ab9a8a53c61126ed647dfce9ad29ec8d3954144",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 6,
+      "cell": 0
+    }
+  },
+  {
+    "id": "butler",
+    "name": "巴特勒",
+    "asset": "v6-references/butler.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Jimmy_Butler",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/CES_2026_-_Jimmy_Butler_01_%28cropped%29.jpg/250px-CES_2026_-_Jimmy_Butler_01_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "221aabbe9f109403b66f0963cb9b7e503aaa0b84758feecb0f185a1e5f3c4df9",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 6,
+      "cell": 1
+    }
+  },
+  {
+    "id": "rodman",
+    "name": "罗德曼",
+    "asset": "v6-references/rodman.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Dennis_Rodman",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Dennis_Rodman_02_%2834649289162%29_%28cropped%29.jpg/250px-Dennis_Rodman_02_%2834649289162%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "8f839f693f5f19212da62eb50a9b31af35fee88d34edede1c274246fae310133",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 6,
+      "cell": 2
+    }
+  },
+  {
+    "id": "fengge",
+    "name": "峰哥",
+    "verifiedReference": false,
+    "kind": "AI角色示意",
+    "atlas": {
+      "sheet": 9,
+      "cell": 3
+    },
+    "rights": "AI示意图，无已核实本人照片参考；非官方头像或人物背书。"
+  },
+  {
+    "id": "huchenfeng",
+    "asset": "v6-references/huchenfeng.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Portrait_photograph_of_content_creator_Hu_Chenfeng_(%E6%88%B7%E6%99%A8%E9%A3%8E).jpg",
+    "rights": "Commons 文件实际模板为 Copyrighted free use：权利人允许任意目的、再分发、商业使用与修改；文件页给出本人放弃版权声明链接。肖像/人格权独立，不宣称官方背书。",
+    "kind": "AI卡通重绘",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 7,
+      "cell": 0
     }
   },
   {
     "id": "huge",
-    "asset": "huge.jpg",
+    "asset": "v6-references/huge.jpg",
     "sourcePage": "https://zh.moegirl.org.cn/%E4%B8%9C%E7%99%BE%E5%BE%80%E4%BA%8B",
     "rights": "未确认图片的独立商用/改作授权。",
-    "kind": "名场面原图"
+    "kind": "AI卡通重绘",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 7,
+      "cell": 1
+    }
   },
   {
     "id": "daoge",
-    "asset": "daoge.jpg",
+    "asset": "v6-references/daoge.jpg",
     "sourcePage": "https://zh.moegirl.org.cn/%E4%B8%9C%E7%99%BE%E5%BE%80%E4%BA%8B",
     "rights": "未确认图片的独立商用/改作授权，不能把百科页面文字许可当图片授权。",
-    "kind": "名场面原图"
-  },
-  {
-    "id": "huchenfeng",
-    "asset": "huchenfeng.jpg",
-    "sourcePage": "https://commons.wikimedia.org/wiki/File:Portrait_photograph_of_content_creator_Hu_Chenfeng_(%E6%88%B7%E6%99%A8%E9%A3%8E).jpg",
-    "rights": "Commons 文件实际模板为 Copyrighted free use：权利人允许任意目的、再分发、商业使用与修改；文件页给出本人放弃版权声明链接。肖像/人格权独立，不宣称官方背书。",
-    "kind": "参考肖像原图"
-  },
-  {
-    "id": "lebron",
-    "asset": "lebron.jpg",
-    "sourcePage": "https://imgflip.com/meme/140080740/lebron-james--jr-smith",
-    "rights": "Unverified. User-uploaded meme template host is not proof of commercial reuse rights. Keep source provenance and do not distribute original as licensed stock.",
-    "kind": "名场面原图"
-  },
-  {
-    "id": "jackie",
-    "asset": "jackie.jpg",
-    "sourcePage": "https://imgflip.com/meme/44529090/Jackie-Chan-Confused",
-    "rights": "Unverified. Public user-uploaded meme template is not proof of commercial/photo-license permission.",
-    "kind": "名场面原图"
-  },
-  {
-    "id": "yaoming",
-    "asset": "yaoming.jpg",
-    "sourcePage": "https://imgflip.com/meme/Yao-Ming",
-    "rights": "Unverified. Public user-uploaded meme template is not proof of commercial/photo-license permission.",
-    "kind": "已有线稿表情"
+    "kind": "AI卡通重绘",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 7,
+      "cell": 2
+    },
+    "note": "参考图为虎刀合影，仅取右侧抬手的刀哥。"
   },
   {
     "id": "sunxiaochuan",
-    "asset": "sunxiaochuan.jpg",
+    "asset": "v6-references/sunxiaochuan.jpg",
     "sourcePage": "https://imgflip.com/meme/338239859/Sun-Xiaochuan",
     "rights": "Unverified. Public user-uploaded meme template is not proof of commercial/photo-license permission.",
-    "kind": "参考肖像原图"
+    "kind": "AI卡通重绘",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 7,
+      "cell": 3
+    }
   },
   {
     "id": "geyou",
-    "asset": "geyou.png",
+    "asset": "v6-references/geyou.png",
     "sourcePage": "https://zh.moegirl.org.cn/%E8%91%9B%E4%BC%98%E8%BA%BA",
     "rights": "Television screenshot; separate commercial reuse/adaptation permission not verified. Article text licensing is not proof of screenshot licensing.",
-    "kind": "名场面原图"
+    "kind": "AI卡通重绘",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 8,
+      "cell": 0
+    }
+  },
+  {
+    "id": "jackie",
+    "asset": "v6-references/jackie.jpg",
+    "sourcePage": "https://imgflip.com/meme/44529090/Jackie-Chan-Confused",
+    "rights": "Unverified. Public user-uploaded meme template is not proof of commercial/photo-license permission.",
+    "kind": "AI卡通重绘",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 8,
+      "cell": 1
+    }
+  },
+  {
+    "id": "wanglaoju",
+    "name": "王老菊",
+    "asset": "v6-references/wanglaoju.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E7%8E%8B%E8%80%81%E8%8F%8A",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/9/9a/Wanglaoju.jpg",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "e6179afb2edf8a249afa24d5636e66e7620cd2761f3c3ad9eeb7d7bb7a0e666a",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 8,
+      "cell": 2
+    },
+    "note": "参考账号使用的红发卡通形象，非本人照片。"
+  },
+  {
+    "id": "luobenwei",
+    "name": "卢本伟",
+    "asset": "v6-references/luobenwei.png",
+    "sourcePage": "https://zh.moegirl.org.cn/%E5%8D%A2%E6%9C%AC%E4%BC%9F",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/1/19/%E5%8D%A2%E6%9C%AC%E4%BC%9F.png",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "68adaff110452961c5d3e16fd2df82a1350cb8fe52c418d37d0950491370becd",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 8,
+      "cell": 3
+    }
+  },
+  {
+    "id": "zhouyi",
+    "name": "周淑怡",
+    "asset": "v6-references/zhouyi.jpg",
+    "sourcePage": "https://zh.moegirl.org.cn/%E5%91%A8%E6%B7%91%E6%80%A1",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/9/91/%E5%91%A8%E6%B7%91%E6%80%A1.jpg",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "e350b9639e63536f865126defaaa5b3d51ab655773d64a93b34d4a4c10d5d05e",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 9,
+      "cell": 0
+    }
+  },
+  {
+    "id": "papi",
+    "name": "papi酱",
+    "verifiedReference": false,
+    "kind": "AI角色示意",
+    "atlas": {
+      "sheet": 9,
+      "cell": 1
+    },
+    "rights": "AI示意图，无已核实本人照片参考；非官方头像或人物背书。"
+  },
+  {
+    "id": "baike",
+    "name": "白客",
+    "verifiedReference": false,
+    "kind": "AI角色示意",
+    "atlas": {
+      "sheet": 9,
+      "cell": 2
+    },
+    "rights": "AI示意图，无已核实本人照片参考；非官方头像或人物背书。"
   }
 ]

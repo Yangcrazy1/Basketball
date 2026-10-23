@@ -1,15 +1,15 @@
-"""Build the complete offline web app using only the Python standard library."""
+"""Build one self-contained HTML. No third-party runtime, CDN or backend required."""
 from pathlib import Path
-import json,base64
+import json,base64,hashlib
 root=Path(__file__).resolve().parent
-sources=json.loads((root/'image-sources.json').read_text())
-images={}
-for item in sources:
- p=root/'assets'/item['asset'];mime='image/png' if p.suffix.lower()=='.png' else 'image/jpeg'
- images[item['id']]='data:'+mime+';base64,'+base64.b64encode(p.read_bytes()).decode()
-def js(value):return json.dumps(value,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
-values={'__CSS__':(root/'src/style.css').read_text(),'__ENGINE__':(root/'src/engine.js').read_text(),'__TOY__':(root/'src/toy3d.js').read_text(),'__APP__':(root/'src/app.js').read_text(),'__DATA__':js(json.loads((root/'src/data.json').read_text())),'__IMAGES__':js(images),'__SOURCES__':js(sources),'__SHEET__':js('data:image/webp;base64,'+base64.b64encode((root/'assets/portraits-v5.webp').read_bytes()).decode())}
+def js(v):return json.dumps(v,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')
+def data_url(asset,mime):return 'data:'+mime+';base64,'+base64.b64encode((root/'assets'/asset).read_bytes()).decode()
+sources=json.loads((root/'image-sources.json').read_text());atlas=json.loads((root/'assets/portrait-atlas.json').read_text());data=json.loads((root/'src/data.json').read_text())
+sheets=[dict(s,url=data_url(s['asset'],'image/webp')) for s in atlas['sheets']]
+icons={a['id']:data_url(a['asset'],'image/png') for a in data['augments']['lol']}
+values={'__CSS__':(root/'src/style.css').read_text(),'__ENGINE__':(root/'src/engine.js').read_text(),'__APP__':(root/'src/app.js').read_text(),'__DATA__':js(data),'__ATLASES__':js(sheets),'__PORTRAITS__':js(atlas['portraits']),'__AUGMENTS__':js(icons),'__SOURCES__':js(sources)}
 html=(root/'src/template.html').read_text()
-for token,value in values.items():html=html.replace(token,value)
-(root/'dist').mkdir(exist_ok=True)
-p=root/'dist/world-another-me.html';p.write_text(html);print(f'{p}: {p.stat().st_size:,} bytes')
+for k,v in values.items():html=html.replace(k,v)
+assert '__TOY__' not in html and 'Toy3D' not in html and 'toy-canvas' not in html
+for p in data['characters']:assert p['personId'] in atlas['portraits']
+(root/'dist').mkdir(exist_ok=True);p=root/'dist/world-another-me.html';p.write_text(html);print(f'{p}: {p.stat().st_size:,} bytes; sha256 {hashlib.sha256(p.read_bytes()).hexdigest()}')

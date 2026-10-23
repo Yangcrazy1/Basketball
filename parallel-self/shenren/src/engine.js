@@ -1,25 +1,59 @@
 (function(root,factory){if(typeof module==='object'&&module.exports)module.exports=factory();else root.ShenrenEngine=factory();})(typeof globalThis!=='undefined'?globalThis:this,function(){
 'use strict';
 const dimIds=['social','explore','empathy','action','order','express'];
+const lolDimIds=['tilt','greed','risk','team','craft','plan'];
+const dimsFor=theme=>theme==='lol'?lolDimIds:dimIds;
 function random(){if(typeof crypto!=='undefined'&&crypto.getRandomValues){const a=new Uint32Array(1);crypto.getRandomValues(a);return a[0]/4294967296;}return Math.random();}
 function shuffle(list,rng=random){const a=list.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(rng()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
 function draw(data,theme,count,previousFirst=null,rng=random,series='all'){
  if(!data.themes.some(t=>t.id===theme)||!data.modes.includes(count))throw Error('不支持的主题或题量');
  if(theme==='lol'&&!['all','hex','rift'].includes(series))throw Error('不支持的联盟系列');
- const extra=new Set(shuffle(dimIds,rng).slice(0,count%6));let chosen=[];
- dimIds.forEach(dim=>{const bank=data.questions.filter(q=>q.theme===theme&&q.dim===dim&&(theme!=='lol'||series==='all'||q.series===series)),n=Math.floor(count/6)+(extra.has(dim)?1:0);if(bank.length<n)throw Error('题库不足');chosen.push(...shuffle(bank,rng).slice(0,n));});
- chosen=shuffle(chosen,rng);if(chosen[0].id===previousFirst){[chosen[0],chosen[1]]=[chosen[1],chosen[0]];}
- return {version:data.version,theme,series:theme==='lol'?series:'all',count,augmentRerolls:0,deck:chosen.map(q=>({id:q.id,order:shuffle(q.options.map(o=>o.id),rng)})),answers:Array(count).fill(null),index:0,phase:'quiz',augmentOptions:shuffle(data.augments[theme],rng).slice(0,3).map(a=>a.id),date:new Date().toISOString()};
+ let chosen=[];
+ if(theme==='lol'){
+  const bank=data.questions.filter(q=>q.theme===theme&&(series==='all'||q.series===series));
+  const chapters=shuffle([...new Set(bank.map(q=>q.series+':'+q.chapter))],rng);
+  if(chapters.length<count/4)throw Error('章节题库不足');
+  if(bank.some(q=>q.id===previousFirst&&chapters[0]===q.series+':'+q.chapter))[chapters[0],chapters[1]]=[chapters[1],chapters[0]];
+  chosen=chapters.slice(0,count/4).flatMap(c=>bank.filter(q=>q.series+':'+q.chapter===c).sort((a,b)=>a.stage-b.stage));
+ }else{
+  const extra=new Set(shuffle(dimIds,rng).slice(0,count%6));
+  dimIds.forEach(dim=>{const bank=data.questions.filter(q=>q.theme===theme&&q.dim===dim),n=Math.floor(count/6)+(extra.has(dim)?1:0);if(bank.length<n)throw Error('题库不足');chosen.push(...shuffle(bank,rng).slice(0,n));});
+  chosen=shuffle(chosen,rng);if(chosen[0].id===previousFirst)[chosen[0],chosen[1]]=[chosen[1],chosen[0]];
+ }
+ return {version:data.version,theme,series:theme==='lol'?series:'all',count,deck:chosen.map(q=>({id:q.id,order:shuffle(q.options.map(o=>o.id),rng)})),answers:Array(count).fill(null),index:0,phase:'quiz',date:new Date().toISOString()};
 }
-function valid(session,data,complete=false){
- if(!session||session.version!==data.version||!data.themes.some(t=>t.id===session.theme)||!data.modes.includes(session.count)||!Array.isArray(session.deck)||session.deck.length!==session.count||!Array.isArray(session.answers)||session.answers.length!==session.count)return false;
- if(new Set(session.deck.map(d=>d&&d.id)).size!==session.count)return false;
- if(!dimIds.every(dim=>session.deck.some(d=>data.questions.some(q=>q.id===d?.id&&q.dim===dim))))return false;
- if(!Array.isArray(session.augmentOptions)||session.augmentOptions.length!==3||new Set(session.augmentOptions).size!==3||!session.augmentOptions.every(id=>data.augments[session.theme].some(a=>a.id===id)))return false;
- return session.deck.every((item,i)=>{const q=data.questions.find(q=>q.id===item?.id&&q.theme===session.theme&&(session.theme!=='lol'||!session.series||session.series==='all'||q.series===session.series));return q&&Array.isArray(item.order)&&item.order.length===4&&new Set(item.order).size===4&&item.order.every(v=>q.options.some(o=>o.id===v))&&((!complete&&session.answers[i]===null)||q.options.some(o=>o.id===session.answers[i]));});
+function valid(s,data,complete=false){
+ if(!s||s.version!==data.version||!data.themes.some(t=>t.id===s.theme)||!data.modes.includes(s.count)||!Array.isArray(s.deck)||s.deck.length!==s.count||!Array.isArray(s.answers)||s.answers.length!==s.count||!Number.isInteger(s.index)||s.index<0||s.index>=s.count)return false;
+ if(s.theme==='lol'&&!['hex','rift','all'].includes(s.series))return false;
+ if(new Set(s.deck.map(d=>d&&d.id)).size!==s.count)return false;
+ const questions=s.deck.map(d=>data.questions.find(q=>q.id===d?.id&&q.theme===s.theme&&(s.theme!=='lol'||s.series==='all'||q.series===s.series)));
+ if(questions.some(q=>!q))return false;
+ if(s.theme==='lol'){
+  for(let i=0;i<questions.length;i+=4){const group=questions.slice(i,i+4);if(group.some((q,j)=>q.chapter!==group[0].chapter||q.series!==group[0].series||q.stage!==j))return false;}
+ }else if(!dimIds.every(dim=>questions.some(q=>q.dim===dim)))return false;
+ return s.deck.every((d,i)=>Array.isArray(d.order)&&d.order.length===4&&new Set(d.order).size===4&&d.order.every(v=>questions[i].options.some(o=>o.id===v))&&((!complete&&s.answers[i]===null)||questions[i].options.some(o=>o.id===s.answers[i])));
 }
-function score(session,data){if(!valid(session,data,true))throw Error('请完成本轮全部题目');return dimIds.map(dim=>{const values=session.deck.flatMap((d,i)=>{const q=data.questions.find(q=>q.id===d.id);return q.dim===dim?[q.options.find(o=>o.id===session.answers[i]).value]:[];});if(!values.length)throw Error('维度覆盖不足');return Math.round((values.reduce((a,b)=>a+b,0)/values.length-1)/3*100);});}
+function selections(s,data){return s.deck.map((d,i)=>{const q=data.questions.find(q=>q.id===d.id);return {q,o:q.options.find(o=>o.id===s.answers[i])};});}
+function score(s,data){
+ if(!valid(s,data,true))throw Error('请完成本轮全部题目');const rows=selections(s,data);
+ return dimsFor(s.theme).map(dim=>{if(s.theme==='lol'){const total=rows.reduce((sum,{o})=>sum+o.signals[dim],0),neutral=rows.reduce((sum,{q})=>sum+q.options.reduce((n,o)=>n+o.signals[dim],0)/4,0),lo=rows.reduce((sum,{q})=>sum+Math.min(...q.options.map(o=>o.signals[dim])),0),hi=rows.reduce((sum,{q})=>sum+Math.max(...q.options.map(o=>o.signals[dim])),0),delta=total-neutral;return Math.max(0,Math.min(100,Math.round(50+50*delta/Math.max(1,delta>=0?hi-neutral:neutral-lo))));}const values=rows.filter(({q})=>q.dim===dim).map(({o})=>o.value);return Math.round((values.reduce((a,b)=>a+b,0)/values.length-1)/3*100);});
+}
 function similarity(a,b){return Math.round(100*(1-a.reduce((s,v,i)=>s+Math.abs(v-b[i]),0)/600));}
+function recommend(s,data,vector=score(s,data)){
+ const rows=selections(s,data),tags={};for(const {o} of rows)for(const tag of o.tags||[])tags[tag]=(tags[tag]||0)+1;
+ return data.augments[s.theme].map(a=>{
+  const v=a.vector||a.bias.map(n=>Math.max(0,Math.min(100,50+n*40)));
+  const hitRows=rows.filter(({o})=>(o.tags||[]).some(t=>(a.tags||[]).includes(t)));
+  const match=s.theme==='lol'?Math.round(.78*similarity(vector,v)+22*hitRows.length/rows.length):similarity(vector,v);
+  return {...a,match,evidence:hitRows.slice(0,2).map(({q,o})=>({id:q.id,scene:q.scene,choice:o.text})),hitCount:hitRows.length};
+ }).sort((a,b)=>b.match-a.match||a.id.localeCompare(b.id));
+}
+function context(s,data,index=s.index){
+ const q=data.questions.find(q=>q.id===s.deck[index].id);
+ if(q.theme!=='lol'||q.stage===0)return null;
+ const previous=data.questions.find(p=>p.id===s.deck[index-1].id),o=previous.options.find(o=>o.id===s.answers[index-1]);
+ return o?{chapter:q.chapterName,stage:q.stage,previousChoice:o.text,previousScene:previous.scene}:null;
+}
 function buildTeam(vector,characters,identity,augment){
  let best=null;
  for(const myRole of identity.roles){
@@ -47,7 +81,6 @@ const stories={
  fengge:['你去过的地方，地图还没来得及加载。','你变成了峰哥，揣着一张平行宇宙通行证出发。路边一间小卖部卖的是“如果当年”，你没急着买，而是拉老板聊完了另一个人生。','最后你带回来五个人和一大串故事。宇宙没被你讲明白，但你的这一集已经够好看。'],
  huge:['来，整个宇宙先别关。','你变成了虎哥。平行东北的路灯突然集体熄灭，你一抬手，现场五个人自带开机音效。围观群众还没弄清第一幕，第二幕已经顺着街口开过去了。','城市把“节目效果维护员”奖章发给你。你问：奖章能不能再配一瓶好果汁？'],
  daoge:['好果汁，这回送到了银河边上。','你变成了刀哥。一封星际补给单把你带到银河边，你发现全宇宙都在排队等下一段名场面。你把好果汁放上桌，先把五个队友招呼齐。','这场没有既定台词，只有现场反应。你的平行身份，是让离谱故事继续发生的人。'],
- lecturer:['讲台很小，宇宙很大。','你变成了美国讲师。平行世界里每条街都能临时开课，你把一次普通的绕路讲成了跨宇宙社会观察。五名队友听着听着，竟然真的找到了一条回家的路。','毕业证只有一句话：人生没有白走的路，有时候只是又加了一节课。'],
  geyou:['你没拯救宇宙，你让它坐下休息了。','你变成了葛优。平行世界不停催进度，所有人都在找下一场大事。你先在沙发上挪出四个位置，把队友一个个招呼坐下。','宇宙最后没爆炸。它只是承认：有些重要的事，要坐稳了才能想明白。']
 };
 function narrative(identity,theme,profile,series='all',augment=null){
@@ -58,11 +91,13 @@ function narrative(identity,theme,profile,series='all',augment=null){
   return [identity.name+'，这一座桥由你改写。','你化身'+identity.name+'，站上平行宇宙的海克斯大乱斗冠军桥。随机天赋没有给你标准答案，你用'+profile.name+'的反应，把一次普通抽签变成了自己的打法。'+(augment?'这一局，'+augment.name+'也写进了你的名场面。':''),'对手记住的也许是连招，队友记住的是这一局有人敢把可能性试出来。奖杯旁边，还有一枚属于这个宇宙的 GOAT 彩蛋。'];
  }
  const own=stories[identity.personId];if(own)return own;return theme==='lol'?[`${identity.name}，这次由你接下决胜局。`,`你化身${identity.name}，走进一条结局尚未写下的平行赛道。对手准备好了熟悉的套路，你用${profile.name}的打法把这一局带到了新的节奏。`,'奖杯不是剧本的终点。五个人愿意再开一局，才是这个宇宙最好的彩蛋。']:theme==='basket'?[`${identity.name}，今天的名场面由你签收。`,`你化身${identity.name}。平行总决赛把所有戏剧性都留到了末节，你把熟悉的动作和没试过的选择拼成了自己的答案。`,'这个宇宙的虎扑式搞笑评分给出满分：有人负责数据，有人负责让整场值得重看。']:[`${identity.name}，你在另一个宇宙上线了。`,`你化身${identity.name}。普通的一天被平行宇宙拧开了一个口子，你用${profile.name}的方式，把五个看似不搭的人放进同一段故事。`,'故事没有标准答案。能把自己的那一集过得有声有色，也是一种隐藏天赋。'];}
-function analyze(session,data,augmentId=null){
+function analyze(session,data){
  const vector=score(session,data),pool=data.characters.filter(p=>p.theme===session.theme),ranked=pool.map(p=>({...p,match:similarity(vector,p.vector)})).sort((a,b)=>b.match-a.match||a.id.localeCompare(b.id));
- const identity=ranked[0],code=[0,1,2].map(i=>vector[i]>=50?'1':'0').join(''),profile=data.profiles.find(p=>p.id===data.familyCodes[code]),augment=data.augments[session.theme].find(a=>a.id===augmentId)||null;
- const evidence=dimIds.map((dim,di)=>{const choices=session.deck.flatMap((d,i)=>{const q=data.questions.find(q=>q.id===d.id),o=q.options.find(o=>o.id===session.answers[i]);return q.dim===dim?[{id:q.id,scene:q.scene,title:q.title,choice:o.text,value:o.value}]:[];});choices.sort((a,b)=>Math.abs(b.value-2.5)-Math.abs(a.value-2.5));return {dim,coordinate:vector[di],...choices[0]};});
- return {vector,identity,ranked,profile,augment,team:buildTeam(vector,pool,identity,augment),story:narrative(identity,session.theme,profile,session.series,augment),evidence,coverage:dimIds.map(dim=>session.deck.filter(d=>data.questions.find(q=>q.id===d.id).dim===dim).length)};
+ const identity=ranked[0],code=[0,1,2].map(i=>vector[i]>=50?'1':'0').join('');let profile=data.profiles.find(p=>p.id===data.familyCodes[code]);
+ if(session.theme==='lol'){const hi=vector.indexOf(Math.max(...vector));profile={...profile,name:['上头编剧','金币合伙人','雪球发车人','全队保护伞','基本功信徒','桥上运营师'][hi]};}
+ const recommendations=recommend(session,data,vector),augment=recommendations[0],rows=selections(session,data);
+ const evidence=dimsFor(session.theme).map((dim,di)=>{const choices=rows.flatMap(({q,o})=>{if(session.theme!=='lol'&&q.dim!==dim)return [];return [{id:q.id,scene:q.scene,title:q.title,choice:o.text,value:session.theme==='lol'?o.signals[dim]:(o.value-1)/3*100}];});choices.sort((a,b)=>Math.abs(b.value-50)-Math.abs(a.value-50));return {dim,coordinate:vector[di],...choices[0]};});
+ return {vector,identity,ranked,profile,augment,recommendations,team:buildTeam(vector,pool,identity,augment),story:narrative(identity,session.theme,profile,session.series,augment),evidence,coverage:dimsFor(session.theme).map(dim=>session.theme==='lol'?session.count:rows.filter(({q})=>q.dim===dim).length)};
 }
-return {dimIds,shuffle,draw,valid,score,similarity,analyze,buildTeam,narrative};
+return {dimIds,lolDimIds,dimsFor,shuffle,draw,valid,score,similarity,analyze,buildTeam,narrative,recommend,context,selections};
 });
