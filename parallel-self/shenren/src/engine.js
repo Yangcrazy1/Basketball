@@ -63,17 +63,17 @@ function score(s,data){
 function similarity(a,b){return Math.round(100*(1-a.reduce((s,v,i)=>s+Math.abs(v-b[i]),0)/600));}
 function responseWeight(q){return q.importance||1;}
 function behaviorFit(rows,weights={}){const total=rows.reduce((sum,{q})=>sum+responseWeight(q),0);return total?100*rows.reduce((sum,{q,o})=>sum+(weights[o.behavior]||0)*responseWeight(q),0)/(5*total):0;}
-function cardEvidence(rows,card){return rows.map(({q,o},index)=>({id:q.id,scene:q.scene,choice:o.text,behavior:o.behavior,strength:((card.behaviorWeights&&card.behaviorWeights[o.behavior])||0)*responseWeight(q),index})).filter(e=>e.strength>0).sort((a,b)=>b.strength-a.strength||a.index-b.index);}
+function cardEvidence(rows,card){return rows.map(({q,o},index)=>({id:q.id,scene:q.scene,choice:o.text,behavior:o.behavior,strength:((card.behaviorWeights&&card.behaviorWeights[o.behavior])||0)*responseWeight(q),index})).filter(e=>e.strength>0&&(!card.evidenceQuestionIds||!card.evidenceQuestionIds.length||card.evidenceQuestionIds.includes(e.id))).sort((a,b)=>b.strength-a.strength||a.index-b.index);}
 function rankPeople(s,data,vector){const rows=selections(s,data);return applyExposure(enabledPeople(data,s.theme).map(p=>Object.assign({},p,{rawMatch:Math.round(.65*similarity(vector,p.vector)+.35*behaviorFit(rows,p.behaviorWeights))})),data.rosterPolicy);}
 
 function recommend(s,data,vector=score(s,data),identity=null){
  const rows=selections(s,data);if(!identity)identity=rankPeople(s,data,vector)[0];
- return enabledCards(data,s.theme).filter(a=>!a.personOnly||(a.signatureFor||[]).includes(identity.personId)).filter(a=>!(a.requires||[]).length||(a.requires||[]).some(b=>rows.some(({o})=>o.behavior===b))).map(a=>{
+ return enabledCards(data,s.theme).filter(a=>a.activationMode!=='identity').filter(a=>!a.personOnly||(a.signatureFor||[]).includes(identity.personId)).filter(a=>!(a.requires||[]).length||(a.requires||[]).some(b=>rows.some(({o})=>o.behavior===b))).map(a=>{
   const v=a.vector||a.bias.map(n=>Math.max(0,Math.min(100,50+n*40))),evidence=cardEvidence(rows,a);
   const behavior=behaviorFit(rows,a.behaviorWeights),bonus=(a.affinities||[]).includes(identity.personId)?5:0;
   const match=Math.round(.42*similarity(vector,v)+.53*behavior+bonus);
   return Object.assign({},a,{match,evidence:evidence.slice(0,2),hitCount:evidence.length,personLink:bonus>0});
- }).filter(a=>a.hitCount>0).sort((a,b)=>b.match-a.match||b.hitCount-a.hitCount||a.id.localeCompare(b.id));
+ }).filter(a=>a.hitCount>0).sort((a,b)=>Number(Boolean(b.exclusive&&b.personLink))-Number(Boolean(a.exclusive&&a.personLink))||b.match-a.match||b.hitCount-a.hitCount||a.id.localeCompare(b.id));
 }
 function questionAt(s,data,index=s.index){const q=data.questions.find(q=>q.id===(s.deck[index]&&s.deck[index].id));if(!q)return null;const prior=index>0?s.answers[index-1]:null;return Object.assign({},q,{title:q.branches&&prior!==null?(q.branches[String(prior)]||q.title):q.title});}
 const reactions={afk:'你的镜头切到观战席，接下来由你决定这局怎么演。',int:'上一单已经送达，导播开始等你的下一次发车。',collector:'第五把收集者已在计划里，下一波还得看阵容。',protect:'你把队友留在镜头里，接下来看看这份售后怎么做。',heal:'桥头医务室已经开门，下一波挂号队伍也到了。',explain:'复活倒计时在走，你的讲解刚刚开始。',blame:'锅还在空中，下一幕先看看谁来接。',chaos:'节目效果已到账，故事还有下一幕。',plan:'计划先写在这里，接下来看看现场听不听安排。',engage:'车已经开了，接下来看乘客有没有跟上。',reset:'上一段剧本已翻篇，新的一幕还等你接梗。',laugh:'笑容先记一段，接下来手也要跟上。',calm:'你把庆祝留到了后面，先把眼前的对局打完。',spin:'抗压拉扯已经开始，下一步看看有没有反打空间。',stasis:'金身时机已经记下，结束之后还得接着操作。',flash:'闪现交了，接下来先把走位和退路找回来。',vision:'你先要信息，再决定下一步怎么打。'};
@@ -155,6 +155,7 @@ function narrative(identity,theme,profile,series='all',augment=null){
  if(theme==='abstract'&&identity.personId==='liziqi')return ['慢一点，普通日常也有自己的主角镜头。','在这条架空时间线，你化身李子柒，和四位搭档把一件普通手作拍成了温柔的小故事。你没有急着追下一个热点，而是把材料、过程和做完后的笑容都留下。','视频有自己的呼吸，更新也有自己的节奏。这个宇宙的专属海克斯，是认真生活时一点点积累的光。'];
  if(theme==='basket'&&identity.personId==='wemby')return ['文班长臂服务区，今天正式营业。','平行总决赛里，你化身文班亚马。对手还在寻找上篮角度，你已经和四位队友把篮下照顾明白。一次干净封盖之后，你没有忙着庆祝，转身就把球传向跑起来的队友。','外星人梗可以接，位置还得认真站。这个宇宙的冠军合照里，五个人都在你的服务范围。'];
  if(theme==='basket'&&identity.personId==='edwards')return ['华子准备起飞，回防也在飞行计划里。','平行总决赛最后一节，你化身华子。队友传来一个舒服的球，你抓住合适机会完成上篮，笑着和传球的人击掌。镜头想留住你的庆祝，你已经回到防守的位置。','篮球梦之队把高光留给你，也把下一球继续交给你。这场比赛的节目效果，有冲劲，也有靠谱的下一步。'];
+ if(theme==='basket'&&identity.roleType==='commentator')return [identity.name+'，这场比赛由你来讲。','你化身'+identity.name+'，坐进平行宇宙的解说席。朋友们在场上拼出一个精彩回合，你把前因后果讲成大家都听得懂的故事。暂停时球员喝水，你还在认真接住观众的问题。','五人队采用本作娱乐角色设定；这里的你是解说员，没有虚构球员履历。'];
  const own=stories[identity.personId];if(own)return own;return theme==='lol'?[`${identity.name}，这次由你接下决胜局。`,`你化身${identity.name}，走进一条结局尚未写下的平行赛道。对手准备好了熟悉的套路，你用${profile.name}的打法把这一局带到了新的节奏。`,'奖杯不是剧本的终点。五个人愿意再开一局，才是这个宇宙最好的彩蛋。']:theme==='basket'?[`${identity.name}，今天的名场面由你签收。`,`你化身${identity.name}。平行总决赛把所有戏剧性都留到了末节，你把熟悉的动作和没试过的选择拼成了自己的答案。`,'这个宇宙的虎扑式搞笑评分给出满分：有人负责数据，有人负责让整场值得重看。']:[`${identity.name}，你在另一个宇宙上线了。`,`你化身${identity.name}。普通的一天被平行宇宙拧开了一个口子，你用${profile.name}的方式，把五个看似不搭的人放进同一段故事。`,'故事没有标准答案。能把自己的那一集过得有声有色，也是一种隐藏天赋。'];}
 function analyze(session,data){
  const vector=score(session,data),pool=data.characters.filter(p=>p.theme===session.theme),ranked=rankPeople(session,data,vector);
@@ -163,7 +164,7 @@ function analyze(session,data){
  const recommendations=recommend(session,data,vector,identity),augment=recommendations[0],rows=selections(session,data);
  const evidence=dimsFor(session.theme).map((dim,di)=>{const choices=[].concat(...rows.map(({q,o})=>{if(session.theme!=='lol'&&q.dim!==dim)return [];return [{id:q.id,scene:q.scene,title:q.title,choice:o.text,value:session.theme==='lol'?o.signals[dim]:(o.value-1)/3*100}];}));choices.sort((a,b)=>Math.abs(b.value-50)-Math.abs(a.value-50));return Object.assign({dim,coordinate:vector[di]},choices[0]);});
  const bond=recommendations.find(a=>(a.signatureFor||[]).includes(identity.personId))||null;
- return {vector,identity,ranked,profile,augment,recommendations,bond,team:linkTeam(buildTeam(vector,ranked,identity,augment),augment,session.theme),story:narrative(identity,session.theme,profile,session.series,augment),signature:Object.entries(rows.reduce((sum,{o})=>{sum[o.behavior]=(sum[o.behavior]||0)+1;return sum;},{})).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,3).map(([id,count])=>({id,count,label:data.behaviorLabels[id]})),evidence,coverage:dimsFor(session.theme).map(dim=>session.theme==='lol'?session.count:rows.filter(({q})=>q.dim===dim).length)};
+ return {inherentCards:(identity.signaturePerks||[]).map(id=>data.augments[session.theme].find(a=>a.id===id)).filter(Boolean),triggeredPersonal:recommendations.filter(a=>a.exclusive&&a.personLink),vector,identity,ranked,profile,augment,recommendations,bond,team:linkTeam(buildTeam(vector,ranked,identity,augment),augment,session.theme),story:narrative(identity,session.theme,profile,session.series,augment),signature:Object.entries(rows.reduce((sum,{o})=>{sum[o.behavior]=(sum[o.behavior]||0)+1;return sum;},{})).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,3).map(([id,count])=>({id,count,label:data.behaviorLabels[id]})),evidence,coverage:dimsFor(session.theme).map(dim=>session.theme==='lol'?session.count:rows.filter(({q})=>q.dim===dim).length)};
 }
 return {enabledPeople,enabledCards,searchPeople,resolvePerson,applyExposure,exposureSample,dimIds,lolDimIds,dimsFor,shuffle,draw,valid,score,similarity,analyze,buildTeam,narrative,recommend,context,selections,questionAt,rankPeople,behaviorFit,artLayout,recordAnswer,squadError,fillSquad,customSquad};
 });

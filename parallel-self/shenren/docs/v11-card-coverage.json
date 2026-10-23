@@ -1,0 +1,1482 @@
+[
+  {
+    "card": "collector-union",
+    "name": "必须出收集者",
+    "person": "uzi",
+    "mode": "answers",
+    "questions": [
+      "hex-collector-0",
+      "hex-collector-1",
+      "hex-collector-3"
+    ]
+  },
+  {
+    "card": "economy-brain",
+    "name": "兵线独立账户",
+    "person": "uzi",
+    "mode": "answers",
+    "questions": [
+      "hex-collector-1",
+      "hex-collector-3"
+    ]
+  },
+  {
+    "card": "v11-uzi-3",
+    "name": "红温散热器",
+    "person": "uzi",
+    "mode": "answers",
+    "questions": [
+      "rift-bro-flash-3",
+      "v11-water-0",
+      "v11-water-1",
+      "v11-water-2",
+      "v11-review-home-0",
+      "v11-review-home-1",
+      "v11-review-home-2"
+    ]
+  },
+  {
+    "card": "spring-heater",
+    "name": "春季恒温器",
+    "person": "xiaohu",
+    "mode": "answers",
+    "questions": [
+      "rift-spring-0",
+      "rift-spring-1",
+      "rift-spring-3",
+      "rift-double-laugh-0",
+      "rift-double-laugh-1",
+      "rift-double-laugh-2",
+      "rift-double-laugh-3",
+      "v11-watchparty-0",
+      "v11-watchparty-1",
+      "v11-watchparty-3"
+    ]
+  },
+  {
+    "card": "double-laugh",
+    "name": "二段笑启动器",
+    "person": "xiaohu",
+    "mode": "answers",
+    "questions": [
+      "rift-spring-3",
+      "rift-double-laugh-0",
+      "rift-double-laugh-1",
+      "rift-double-laugh-2",
+      "rift-double-laugh-3",
+      "v11-watchparty-0",
+      "v11-watchparty-1",
+      "v11-watchparty-2",
+      "v11-watchparty-3"
+    ]
+  },
+  {
+    "card": "v11-xiaohu-3",
+    "name": "世界赛先存档",
+    "person": "xiaohu",
+    "mode": "answers",
+    "questions": [
+      "rift-spring-0",
+      "rift-spring-1",
+      "rift-spring-3",
+      "rift-double-laugh-0",
+      "rift-double-laugh-3",
+      "v11-watchparty-0",
+      "v11-watchparty-1",
+      "v11-watchparty-3"
+    ]
+  },
+  {
+    "card": "v11-jackeylove-1",
+    "name": "向前闪现体验券",
+    "person": "jackeylove",
+    "mode": "answers",
+    "questions": [
+      "rift-bro-flash-0",
+      "rift-bro-flash-2",
+      "rift-bro-flash-3",
+      "v11-clip-1",
+      "v11-water-0",
+      "v11-water-1",
+      "v11-water-3"
+    ]
+  },
+  {
+    "card": "v11-jackeylove-2",
+    "name": "暴毙也有节目",
+    "person": "jackeylove",
+    "mode": "answers",
+    "questions": [
+      "v11-clip-0",
+      "v11-clip-2",
+      "v11-clip-3",
+      "v11-water-0",
+      "v11-water-2",
+      "v11-water-3"
+    ]
+  },
+  {
+    "card": "v11-jackeylove-3",
+    "name": "水温检测仪",
+    "person": "jackeylove",
+    "mode": "answers",
+    "questions": [
+      "rift-bro-flash-0",
+      "rift-bro-flash-1",
+      "rift-bro-flash-3",
+      "v11-clip-0",
+      "v11-clip-1",
+      "v11-clip-3",
+      "v11-water-0",
+      "v11-water-1",
+      "v11-water-2",
+      "v11-water-3"
+    ]
+  },
+  {
+    "card": "lane-umbrella",
+    "name": "上路独立宇宙",
+    "person": "theshy",
+    "mode": "answers",
+    "questions": [
+      "hex-range-0",
+      "hex-range-2",
+      "rift-ig-memory-1",
+      "rift-ig-memory-2",
+      "v11-top-alone-0",
+      "v11-top-alone-1",
+      "v11-top-alone-3"
+    ]
+  },
+  {
+    "card": "v11-theshy-2",
+    "name": "抓我就能赢吗",
+    "person": "theshy",
+    "mode": "answers",
+    "questions": [
+      "hex-range-0",
+      "hex-range-2",
+      "rift-ig-memory-1",
+      "rift-ig-memory-2",
+      "v11-top-alone-0",
+      "v11-top-alone-1",
+      "v11-top-alone-3"
+    ]
+  },
+  {
+    "card": "where-team",
+    "name": "我队友呢",
+    "person": "theshy",
+    "mode": "answers",
+    "questions": [
+      "hex-range-1",
+      "v11-top-alone-1",
+      "v11-top-alone-2"
+    ]
+  },
+  {
+    "card": "v11-vincent-1",
+    "name": "德莱文收款码",
+    "person": "vincent",
+    "mode": "answers",
+    "questions": [
+      "v11-netcafe-0",
+      "v11-netcafe-2",
+      "v11-clip-0",
+      "v11-clip-2",
+      "v11-boss-1",
+      "v11-boss-3"
+    ]
+  },
+  {
+    "card": "v11-vincent-2",
+    "name": "双斧接单系统",
+    "person": "vincent",
+    "mode": "answers",
+    "questions": [
+      "v11-netcafe-0",
+      "v11-netcafe-1",
+      "v11-netcafe-2",
+      "v11-clip-0",
+      "v11-clip-2",
+      "v11-boss-0",
+      "v11-boss-1"
+    ]
+  },
+  {
+    "card": "v11-vincent-3",
+    "name": "网吧老板先别走",
+    "person": "vincent",
+    "mode": "answers",
+    "questions": [
+      "v11-netcafe-1",
+      "v11-netcafe-3",
+      "v11-clip-0",
+      "v11-clip-2",
+      "v11-clip-3",
+      "v11-boss-0",
+      "v11-boss-1",
+      "v11-boss-2",
+      "v11-boss-3"
+    ]
+  },
+  {
+    "card": "personal-rookie",
+    "name": "中路急诊室",
+    "person": "rookie",
+    "mode": "answers",
+    "questions": [
+      "v11-netcafe-0",
+      "v11-netcafe-2",
+      "v11-clinic-0",
+      "v11-clinic-1",
+      "v11-clinic-2",
+      "v11-clinic-3",
+      "v11-review-home-1",
+      "v11-review-home-3"
+    ]
+  },
+  {
+    "card": "extra-rookie-1",
+    "name": "院长加班通知",
+    "person": "rookie",
+    "mode": "answers",
+    "questions": [
+      "v11-netcafe-0",
+      "v11-netcafe-2",
+      "v11-clinic-0",
+      "v11-clinic-1",
+      "v11-clinic-2",
+      "v11-clinic-3",
+      "v11-review-home-1",
+      "v11-review-home-2",
+      "v11-review-home-3"
+    ]
+  },
+  {
+    "card": "v11-rookie-3",
+    "name": "队友叫号系统",
+    "person": "rookie",
+    "mode": "answers",
+    "questions": [
+      "v11-netcafe-1",
+      "v11-clinic-0",
+      "v11-clinic-2",
+      "v11-review-home-2"
+    ]
+  },
+  {
+    "card": "ultimate-installment",
+    "name": "闪现还在",
+    "person": "faker",
+    "mode": "answers",
+    "questions": [
+      "rift-galio-0",
+      "rift-galio-2",
+      "rift-galio-3",
+      "rift-worlds-party-1",
+      "rift-worlds-party-2",
+      "rift-worlds-party-3",
+      "v11-salary-0",
+      "v11-salary-1",
+      "v11-salary-2",
+      "v11-salary-3"
+    ]
+  },
+  {
+    "card": "v11-faker-2",
+    "name": "冠军展柜扩容",
+    "person": "faker",
+    "mode": "answers",
+    "questions": [
+      "rift-galio-0",
+      "rift-galio-2",
+      "rift-galio-3",
+      "rift-worlds-party-1",
+      "rift-worlds-party-2",
+      "rift-worlds-party-3",
+      "v11-salary-0",
+      "v11-salary-1",
+      "v11-salary-3"
+    ]
+  },
+  {
+    "card": "v11-faker-3",
+    "name": "切屏查岗器",
+    "person": "faker",
+    "mode": "answers",
+    "questions": [
+      "rift-galio-0",
+      "rift-galio-1",
+      "rift-galio-3",
+      "rift-worlds-party-0",
+      "rift-worlds-party-2",
+      "rift-worlds-party-3",
+      "v11-salary-0",
+      "v11-salary-2",
+      "v11-salary-3"
+    ]
+  },
+  {
+    "card": "v11-xiaoxiao-1",
+    "name": "空大预留席",
+    "person": "xiaoxiao",
+    "mode": "answers",
+    "questions": [
+      "rift-deyunse-0",
+      "rift-deyunse-2",
+      "rift-deyunse-3",
+      "v11-duo-0",
+      "v11-duo-1",
+      "v11-duo-2",
+      "v11-duo-3",
+      "v11-watchparty-0",
+      "v11-watchparty-1",
+      "v11-watchparty-2",
+      "v11-watchparty-3"
+    ]
+  },
+  {
+    "card": "personal-xiaoxiao",
+    "name": "德云色双声道",
+    "person": "xiaoxiao",
+    "mode": "answers",
+    "questions": [
+      "rift-deyunse-0",
+      "rift-deyunse-1",
+      "rift-deyunse-2",
+      "rift-deyunse-3",
+      "v11-duo-0",
+      "v11-duo-1",
+      "v11-duo-2",
+      "v11-duo-3",
+      "v11-watchparty-0",
+      "v11-watchparty-1",
+      "v11-watchparty-2",
+      "v11-watchparty-3"
+    ]
+  },
+  {
+    "card": "v11-xiaoxiao-3",
+    "name": "老IG回忆放映机",
+    "person": "xiaoxiao",
+    "mode": "answers",
+    "questions": [
+      "rift-deyunse-1",
+      "rift-deyunse-2",
+      "rift-deyunse-3",
+      "v11-duo-0",
+      "v11-duo-1",
+      "v11-duo-2",
+      "v11-duo-3",
+      "v11-watchparty-0",
+      "v11-watchparty-1",
+      "v11-watchparty-2",
+      "v11-watchparty-3"
+    ]
+  },
+  {
+    "card": "personal-xika",
+    "name": "西卡接话器",
+    "person": "xika",
+    "mode": "answers",
+    "questions": [
+      "rift-deyunse-1",
+      "rift-deyunse-2",
+      "rift-deyunse-3",
+      "v11-duo-0",
+      "v11-duo-1",
+      "v11-duo-2",
+      "v11-duo-3",
+      "v11-watchparty-0",
+      "v11-watchparty-1",
+      "v11-watchparty-2",
+      "v11-watchparty-3"
+    ]
+  },
+  {
+    "card": "v11-xika-2",
+    "name": "这波我先锐评",
+    "person": "xika",
+    "mode": "answers",
+    "questions": [
+      "rift-deyunse-2",
+      "rift-deyunse-3",
+      "v11-duo-0",
+      "v11-duo-1",
+      "v11-duo-2",
+      "v11-watchparty-0",
+      "v11-watchparty-1",
+      "v11-watchparty-2",
+      "v11-watchparty-3"
+    ]
+  },
+  {
+    "card": "v11-xika-3",
+    "name": "双人相声不下播",
+    "person": "xika",
+    "mode": "answers",
+    "questions": [
+      "rift-deyunse-0",
+      "rift-deyunse-1",
+      "rift-deyunse-2",
+      "rift-deyunse-3",
+      "v11-duo-0",
+      "v11-duo-1",
+      "v11-duo-2",
+      "v11-duo-3",
+      "v11-watchparty-0",
+      "v11-watchparty-1",
+      "v11-watchparty-2",
+      "v11-watchparty-3"
+    ]
+  },
+  {
+    "card": "life-reroll",
+    "name": "反向冲分计划",
+    "person": "pdd",
+    "mode": "answers",
+    "questions": [
+      "v11-netcafe-1",
+      "v11-netcafe-3",
+      "v11-clip-0",
+      "v11-clip-2",
+      "v11-clip-3",
+      "v11-boss-0",
+      "v11-boss-1",
+      "v11-boss-2",
+      "v11-boss-3"
+    ]
+  },
+  {
+    "card": "v11-pdd-2",
+    "name": "骚话保险箱",
+    "person": "pdd",
+    "mode": "answers",
+    "questions": [
+      "v11-netcafe-1",
+      "v11-netcafe-2",
+      "v11-netcafe-3",
+      "v11-clip-0",
+      "v11-clip-1",
+      "v11-clip-2",
+      "v11-clip-3",
+      "v11-boss-0",
+      "v11-boss-1",
+      "v11-boss-2",
+      "v11-boss-3"
+    ]
+  },
+  {
+    "card": "v11-pdd-3",
+    "name": "网吧包间董事长",
+    "person": "pdd",
+    "mode": "answers",
+    "questions": [
+      "v11-netcafe-0",
+      "v11-netcafe-2",
+      "v11-clip-0",
+      "v11-clip-2",
+      "v11-boss-0",
+      "v11-boss-1",
+      "v11-boss-3"
+    ]
+  },
+  {
+    "card": "square-lecture",
+    "name": "正方形讲解",
+    "person": "dasima",
+    "mode": "answers",
+    "questions": [
+      "hex-office-0",
+      "hex-office-2",
+      "hex-office-3",
+      "hex-review-0",
+      "hex-review-1",
+      "hex-review-2",
+      "hex-review-3",
+      "v11-jungle-date-0",
+      "v11-jungle-date-1",
+      "v11-jungle-date-2",
+      "v11-jungle-date-3",
+      "v11-review-home-0",
+      "v11-review-home-1",
+      "v11-review-home-2"
+    ]
+  },
+  {
+    "card": "not-a-loss",
+    "name": "这波不亏计算器",
+    "person": "dasima",
+    "mode": "answers",
+    "questions": [
+      "hex-office-0",
+      "hex-office-2",
+      "hex-office-3",
+      "hex-review-0",
+      "hex-review-1",
+      "hex-review-2",
+      "hex-review-3",
+      "v11-jungle-date-0",
+      "v11-jungle-date-1",
+      "v11-jungle-date-2",
+      "v11-jungle-date-3",
+      "v11-review-home-0",
+      "v11-review-home-1",
+      "v11-review-home-2"
+    ]
+  },
+  {
+    "card": "v11-dasima-3",
+    "name": "复活期间公开课",
+    "person": "dasima",
+    "mode": "answers",
+    "questions": [
+      "hex-office-0",
+      "hex-office-1",
+      "hex-office-3",
+      "hex-review-0",
+      "hex-review-1",
+      "hex-review-3",
+      "v11-jungle-date-1",
+      "v11-jungle-date-2",
+      "v11-review-home-0",
+      "v11-review-home-1",
+      "v11-review-home-2"
+    ]
+  },
+  {
+    "card": "v11-clearlove-1",
+    "name": "野区路线规划",
+    "person": "clearlove",
+    "mode": "answers",
+    "questions": [
+      "hex-office-1",
+      "hex-office-2",
+      "hex-office-3",
+      "v11-netcafe-1",
+      "v11-jungle-date-0",
+      "v11-jungle-date-1",
+      "v11-jungle-date-2",
+      "v11-jungle-date-3"
+    ]
+  },
+  {
+    "card": "v11-clearlove-2",
+    "name": "七点准时发车",
+    "person": "clearlove",
+    "mode": "answers",
+    "questions": [
+      "hex-office-0",
+      "hex-office-1",
+      "hex-office-2",
+      "hex-office-3",
+      "v11-netcafe-0",
+      "v11-netcafe-2",
+      "v11-jungle-date-0",
+      "v11-jungle-date-1",
+      "v11-jungle-date-3"
+    ]
+  },
+  {
+    "card": "v11-clearlove-3",
+    "name": "对面野区是我家",
+    "person": "clearlove",
+    "mode": "answers",
+    "questions": [
+      "v11-netcafe-0",
+      "v11-netcafe-1",
+      "v11-jungle-date-1",
+      "v11-jungle-date-2"
+    ]
+  },
+  {
+    "card": "v11-ning-1",
+    "name": "打野提速档",
+    "person": "ning",
+    "mode": "answers",
+    "questions": [
+      "v11-netcafe-0",
+      "v11-netcafe-1",
+      "v11-netcafe-2",
+      "v11-mic-0",
+      "v11-jungle-date-0",
+      "v11-jungle-date-1",
+      "v11-jungle-date-2"
+    ]
+  },
+  {
+    "card": "v11-ning-2",
+    "name": "这波必须跟我",
+    "person": "ning",
+    "mode": "answers",
+    "questions": [
+      "v11-netcafe-0",
+      "v11-netcafe-1",
+      "v11-netcafe-2",
+      "v11-mic-0",
+      "v11-mic-2",
+      "v11-mic-3",
+      "v11-jungle-date-0",
+      "v11-jungle-date-1",
+      "v11-jungle-date-2",
+      "v11-jungle-date-3"
+    ]
+  },
+  {
+    "card": "v11-ning-3",
+    "name": "野区临时起意",
+    "person": "ning",
+    "mode": "answers",
+    "questions": [
+      "v11-netcafe-1",
+      "v11-netcafe-3",
+      "v11-mic-0",
+      "v11-mic-2",
+      "v11-mic-3",
+      "v11-jungle-date-0",
+      "v11-jungle-date-2",
+      "v11-jungle-date-3"
+    ]
+  },
+  {
+    "card": "v11-kid-1",
+    "name": "野区熟人局",
+    "person": "kid",
+    "mode": "answers",
+    "questions": [
+      "rift-ig-memory-1",
+      "rift-ig-memory-3",
+      "v11-duo-1",
+      "v11-duo-3",
+      "v11-jungle-date-0",
+      "v11-jungle-date-1",
+      "v11-jungle-date-2",
+      "v11-jungle-date-3"
+    ]
+  },
+  {
+    "card": "v11-kid-2",
+    "name": "下路回忆录",
+    "person": "kid",
+    "mode": "answers",
+    "questions": [
+      "rift-ig-memory-0",
+      "rift-ig-memory-1",
+      "rift-ig-memory-2",
+      "rift-ig-memory-3",
+      "v11-duo-0",
+      "v11-duo-1",
+      "v11-duo-2",
+      "v11-duo-3",
+      "v11-jungle-date-0",
+      "v11-jungle-date-1",
+      "v11-jungle-date-2",
+      "v11-jungle-date-3"
+    ]
+  },
+  {
+    "card": "v11-kid-3",
+    "name": "老IG点名器",
+    "person": "kid",
+    "mode": "answers",
+    "questions": [
+      "rift-ig-memory-0",
+      "rift-ig-memory-1",
+      "rift-ig-memory-2",
+      "rift-ig-memory-3",
+      "v11-duo-1",
+      "v11-duo-2",
+      "v11-duo-3",
+      "v11-jungle-date-0",
+      "v11-jungle-date-1",
+      "v11-jungle-date-3"
+    ]
+  },
+  {
+    "card": "personal-luobenwei",
+    "name": "最后一把永动机",
+    "person": "luobenwei",
+    "mode": "answers",
+    "questions": [
+      "v11-netcafe-1",
+      "v11-netcafe-3",
+      "v11-mic-0",
+      "v11-mic-2",
+      "v11-mic-3",
+      "v11-review-home-1",
+      "v11-review-home-3"
+    ]
+  },
+  {
+    "card": "v11-luobenwei-2",
+    "name": "五五开概率学",
+    "person": "luobenwei",
+    "mode": "answers",
+    "questions": [
+      "v11-netcafe-0",
+      "v11-netcafe-2",
+      "v11-netcafe-3",
+      "v11-mic-3",
+      "v11-review-home-1",
+      "v11-review-home-3"
+    ]
+  },
+  {
+    "card": "v11-luobenwei-3",
+    "name": "全体起立按钮",
+    "person": "luobenwei",
+    "mode": "answers",
+    "questions": [
+      "v11-netcafe-0",
+      "v11-netcafe-1",
+      "v11-netcafe-3",
+      "v11-mic-0",
+      "v11-mic-2",
+      "v11-mic-3",
+      "v11-review-home-1",
+      "v11-review-home-2",
+      "v11-review-home-3"
+    ]
+  },
+  {
+    "card": "v11-baolan-1",
+    "name": "视野灯光师",
+    "person": "baolan",
+    "mode": "answers",
+    "questions": [
+      "hex-heal-0",
+      "hex-heal-1",
+      "hex-heal-2",
+      "hex-heal-3",
+      "hex-office-0",
+      "hex-office-1",
+      "hex-office-2",
+      "v11-ad-insurance-0",
+      "v11-ad-insurance-1",
+      "v11-ad-insurance-3"
+    ]
+  },
+  {
+    "card": "v11-baolan-2",
+    "name": "辅助免打扰",
+    "person": "baolan",
+    "mode": "answers",
+    "questions": [
+      "hex-heal-0",
+      "hex-heal-1",
+      "hex-heal-2",
+      "hex-heal-3",
+      "hex-office-0",
+      "hex-office-1",
+      "hex-office-2",
+      "v11-ad-insurance-0",
+      "v11-ad-insurance-1",
+      "v11-ad-insurance-3"
+    ]
+  },
+  {
+    "card": "v11-baolan-3",
+    "name": "一口奶救回来",
+    "person": "baolan",
+    "mode": "answers",
+    "questions": [
+      "hex-heal-0",
+      "hex-heal-1",
+      "hex-heal-2",
+      "hex-heal-3",
+      "hex-office-0",
+      "hex-office-1",
+      "hex-office-2",
+      "v11-ad-insurance-0",
+      "v11-ad-insurance-1",
+      "v11-ad-insurance-2",
+      "v11-ad-insurance-3"
+    ]
+  },
+  {
+    "card": "personal-otto",
+    "name": "稳健先缓一缓",
+    "person": "otto",
+    "mode": "answers",
+    "questions": [
+      "v11-mic-0",
+      "v11-mic-2",
+      "v11-mic-3",
+      "v11-keyboards-0",
+      "v11-keyboards-1",
+      "v11-keyboards-2",
+      "v11-keyboards-3",
+      "v11-review-home-1",
+      "v11-review-home-2",
+      "v11-review-home-3"
+    ]
+  },
+  {
+    "card": "v11-otto-2",
+    "name": "语音压缩失败",
+    "person": "otto",
+    "mode": "answers",
+    "questions": [
+      "v11-mic-1",
+      "v11-mic-2",
+      "v11-keyboards-1",
+      "v11-keyboards-2",
+      "v11-keyboards-3",
+      "v11-review-home-0",
+      "v11-review-home-1",
+      "v11-review-home-2"
+    ]
+  },
+  {
+    "card": "v11-otto-3",
+    "name": "轮到我解释了",
+    "person": "otto",
+    "mode": "answers",
+    "questions": [
+      "v11-mic-1",
+      "v11-mic-2",
+      "v11-keyboards-1",
+      "v11-keyboards-2",
+      "v11-keyboards-3",
+      "v11-review-home-0",
+      "v11-review-home-1",
+      "v11-review-home-2"
+    ]
+  },
+  {
+    "card": "personal-zztai",
+    "name": "直播间笑场险",
+    "person": "zztai",
+    "mode": "answers",
+    "questions": [
+      "v11-clip-0",
+      "v11-clip-1",
+      "v11-clip-2",
+      "v11-clip-3",
+      "v11-duo-0",
+      "v11-duo-1",
+      "v11-duo-2",
+      "v11-duo-3",
+      "v11-watchparty-0",
+      "v11-watchparty-1",
+      "v11-watchparty-2",
+      "v11-watchparty-3"
+    ]
+  },
+  {
+    "card": "v11-zztai-2",
+    "name": "老队友召回术",
+    "person": "zztai",
+    "mode": "answers",
+    "questions": [
+      "v11-clip-0",
+      "v11-clip-2",
+      "v11-clip-3",
+      "v11-duo-1",
+      "v11-duo-2",
+      "v11-duo-3",
+      "v11-watchparty-0",
+      "v11-watchparty-2",
+      "v11-watchparty-3"
+    ]
+  },
+  {
+    "card": "v11-zztai-3",
+    "name": "二路观赛遥控器",
+    "person": "zztai",
+    "mode": "answers",
+    "questions": [
+      "v11-clip-1",
+      "v11-clip-3",
+      "v11-duo-0",
+      "v11-duo-1",
+      "v11-duo-2",
+      "v11-duo-3",
+      "v11-watchparty-0",
+      "v11-watchparty-1",
+      "v11-watchparty-2",
+      "v11-watchparty-3"
+    ]
+  },
+  {
+    "card": "all-aboard",
+    "name": "全队上车",
+    "person": "doinb",
+    "mode": "answers",
+    "questions": [
+      "v11-mic-0",
+      "v11-mic-2",
+      "v11-mic-3",
+      "v11-jungle-date-0",
+      "v11-jungle-date-1",
+      "v11-jungle-date-2",
+      "v11-jungle-date-3",
+      "v11-ad-insurance-0",
+      "v11-ad-insurance-1",
+      "v11-ad-insurance-2",
+      "v11-ad-insurance-3"
+    ]
+  },
+  {
+    "card": "v11-doinb-2",
+    "name": "中路麦克风永动机",
+    "person": "doinb",
+    "mode": "answers",
+    "questions": [
+      "v11-mic-0",
+      "v11-mic-1",
+      "v11-mic-2",
+      "v11-jungle-date-1",
+      "v11-jungle-date-2",
+      "v11-ad-insurance-0",
+      "v11-ad-insurance-1",
+      "v11-ad-insurance-2"
+    ]
+  },
+  {
+    "card": "v11-doinb-3",
+    "name": "队友点名器",
+    "person": "doinb",
+    "mode": "answers",
+    "questions": [
+      "v11-mic-0",
+      "v11-mic-2",
+      "v11-mic-3",
+      "v11-jungle-date-0",
+      "v11-jungle-date-2",
+      "v11-jungle-date-3",
+      "v11-ad-insurance-0",
+      "v11-ad-insurance-1",
+      "v11-ad-insurance-3"
+    ]
+  },
+  {
+    "card": "v11-ming-1",
+    "name": "下路全险套餐",
+    "person": "ming",
+    "mode": "answers",
+    "questions": [
+      "hex-collector-0",
+      "hex-collector-2",
+      "hex-collector-3",
+      "hex-heal-0",
+      "hex-heal-1",
+      "hex-heal-2",
+      "hex-heal-3",
+      "v11-ad-insurance-0",
+      "v11-ad-insurance-1",
+      "v11-ad-insurance-2",
+      "v11-ad-insurance-3"
+    ]
+  },
+  {
+    "card": "v11-ming-2",
+    "name": "这钩先不收钱",
+    "person": "ming",
+    "mode": "answers",
+    "questions": [
+      "hex-collector-1",
+      "hex-heal-2",
+      "v11-ad-insurance-0",
+      "v11-ad-insurance-2"
+    ]
+  },
+  {
+    "card": "v11-ming-3",
+    "name": "自家AD接送车",
+    "person": "ming",
+    "mode": "answers",
+    "questions": [
+      "hex-collector-0",
+      "hex-collector-2",
+      "hex-heal-0",
+      "hex-heal-1",
+      "hex-heal-2",
+      "hex-heal-3",
+      "v11-ad-insurance-0",
+      "v11-ad-insurance-1",
+      "v11-ad-insurance-3"
+    ]
+  },
+  {
+    "card": "kneel",
+    "name": "膝盖情绪增幅器",
+    "person": "lebron",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-lebron-0",
+      "v11-owner-lebron-1"
+    ]
+  },
+  {
+    "card": "v11-lebron-2",
+    "name": "我这赛季第几年",
+    "person": "lebron",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "team",
+    "name": "更衣室群主",
+    "person": "lebron",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-durant-1",
+    "name": "拔起来就有",
+    "person": "durant",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-durant-0",
+      "v11-owner-durant-1"
+    ]
+  },
+  {
+    "card": "v11-durant-2",
+    "name": "我先聊聊这球",
+    "person": "durant",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-durant-3",
+    "name": "中距离免排队",
+    "person": "durant",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "coffee",
+    "name": "关键球加浓咖啡",
+    "person": "jordan",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-jordan-0",
+      "v11-owner-jordan-1"
+    ]
+  },
+  {
+    "card": "v11-jordan-2",
+    "name": "这句话我记下了",
+    "person": "jordan",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-jordan-3",
+    "name": "训练赛也得赢",
+    "person": "jordan",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "mamba-clock",
+    "name": "凌晨四点自动打卡",
+    "person": "kobe",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-kobe-0",
+      "v11-owner-kobe-1"
+    ]
+  },
+  {
+    "card": "v11-kobe-2",
+    "name": "再投最后一百个",
+    "person": "kobe",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-kobe-3",
+    "name": "曼巴作业本",
+    "person": "kobe",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "personal-yangyi",
+    "name": "解说席故事会",
+    "person": "yangyi",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-yangyi-0",
+      "v11-owner-yangyi-1"
+    ]
+  },
+  {
+    "card": "v11-yangyi-2",
+    "name": "这事得从头说起",
+    "person": "yangyi",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-yangyi-3",
+    "name": "比赛暂停我不停",
+    "person": "yangyi",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "personal-xujingyu",
+    "name": "立棍单打复读机",
+    "person": "xujingyu",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-xujingyu-0",
+      "v11-owner-xujingyu-1"
+    ]
+  },
+  {
+    "card": "v11-xujingyu-2",
+    "name": "这球我能聊半宿",
+    "person": "xujingyu",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-xujingyu-3",
+    "name": "解说席暂停键",
+    "person": "xujingyu",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "personal-zhouqi",
+    "name": "边线球先对暗号",
+    "person": "zhouqi",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-zhouqi-0",
+      "v11-owner-zhouqi-1"
+    ]
+  },
+  {
+    "card": "v11-zhouqi-2",
+    "name": "传球导航重算",
+    "person": "zhouqi",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-zhouqi-3",
+    "name": "篮下信号接收站",
+    "person": "zhouqi",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-yaoming-1",
+    "name": "巨人表情包",
+    "person": "yaoming",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-yaoming-0",
+      "v11-owner-yaoming-1"
+    ]
+  },
+  {
+    "card": "v11-yaoming-2",
+    "name": "今天轮到我俯视",
+    "person": "yaoming",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-yaoming-3",
+    "name": "篮下门禁卡",
+    "person": "yaoming",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "logo",
+    "name": "停车场算三分",
+    "person": "curry",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-curry-0",
+      "v11-owner-curry-1"
+    ]
+  },
+  {
+    "card": "goodnight-three",
+    "name": "晚安提前预约",
+    "person": "curry",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-curry-3",
+    "name": "运球别看脚",
+    "person": "curry",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "stepback-route",
+    "name": "后撤步脑内导航",
+    "person": "harden",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-harden-0",
+      "v11-owner-harden-1"
+    ]
+  },
+  {
+    "card": "v11-harden-2",
+    "name": "罚球线常旅客",
+    "person": "harden",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-harden-3",
+    "name": "造犯规体验课",
+    "person": "harden",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-dailanzi-1",
+    "name": "吃饱喝足启动器",
+    "person": "dailanzi",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-dailanzi-0",
+      "v11-owner-dailanzi-1"
+    ]
+  },
+  {
+    "card": "v11-dailanzi-2",
+    "name": "学士帽Plus",
+    "person": "dailanzi",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "personal-dailanzi",
+    "name": "带文学翻译机",
+    "person": "dailanzi",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "extra-fengge-1",
+    "name": "路边采访通行证",
+    "person": "fengge",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-fengge-0",
+      "v11-owner-fengge-1"
+    ]
+  },
+  {
+    "card": "extra-fengge-2",
+    "name": "宇宙路费已到账",
+    "person": "fengge",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-fengge-3",
+    "name": "返程票先买好",
+    "person": "fengge",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "extra-daoge-1",
+    "name": "好果汁五人装",
+    "person": "daoge",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-daoge-0",
+      "v11-owner-daoge-1"
+    ]
+  },
+  {
+    "card": "v11-daoge-2",
+    "name": "出场气势借用券",
+    "person": "daoge",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "extra-daoge-2",
+    "name": "街头场面维护员",
+    "person": "daoge",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "juice",
+    "name": "好果汁补给箱",
+    "person": "huge",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-huge-0",
+      "v11-owner-huge-1"
+    ]
+  },
+  {
+    "card": "v11-huge-2",
+    "name": "东北往事开机键",
+    "person": "huge",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "micro",
+    "name": "麦克风永动机",
+    "person": "huge",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-huchenfeng-1",
+    "name": "购物清单对线器",
+    "person": "huchenfeng",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-huchenfeng-0",
+      "v11-owner-huchenfeng-1"
+    ]
+  },
+  {
+    "card": "v11-huchenfeng-2",
+    "name": "价格标签放大镜",
+    "person": "huchenfeng",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "one-at-time",
+    "name": "做完你的做你的",
+    "person": "huchenfeng",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-us-lecturer-1",
+    "name": "今日补给已刷新",
+    "person": "us-lecturer",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-us-lecturer-0",
+      "v11-owner-us-lecturer-1"
+    ]
+  },
+  {
+    "card": "v11-us-lecturer-2",
+    "name": "免费午餐路线图",
+    "person": "us-lecturer",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-us-lecturer-3",
+    "name": "先吃饭再开讲",
+    "person": "us-lecturer",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "punchline-shield",
+    "name": "吐槽弹幕保护罩",
+    "person": "sunxiaochuan",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-sunxiaochuan-0",
+      "v11-owner-sunxiaochuan-1"
+    ]
+  },
+  {
+    "card": "v11-sunxiaochuan-2",
+    "name": "这锅怎么又到我",
+    "person": "sunxiaochuan",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-sunxiaochuan-3",
+    "name": "开播前先解释",
+    "person": "sunxiaochuan",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-yaoshuige-1",
+    "name": "对视挑战加载中",
+    "person": "yaoshuige",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-yaoshuige-0",
+      "v11-owner-yaoshuige-1"
+    ]
+  },
+  {
+    "card": "v11-yaoshuige-2",
+    "name": "复读机暂停失败",
+    "person": "yaoshuige",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-yaoshuige-3",
+    "name": "沉默也是节目",
+    "person": "yaoshuige",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "personal-leijun",
+    "name": "Are you OK开场音",
+    "person": "leijun",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-leijun-0",
+      "v11-owner-leijun-1"
+    ]
+  },
+  {
+    "card": "v11-leijun-2",
+    "name": "预算翻倍启动器",
+    "person": "leijun",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-leijun-3",
+    "name": "连夜开发布会",
+    "person": "leijun",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "personal-luoyonghao",
+    "name": "交个队友",
+    "person": "luoyonghao",
+    "mode": "answers",
+    "questions": [
+      "v11-owner-luoyonghao-0",
+      "v11-owner-luoyonghao-1"
+    ]
+  },
+  {
+    "card": "v11-luoyonghao-2",
+    "name": "下次一定还嘴",
+    "person": "luoyonghao",
+    "mode": "identity",
+    "questions": []
+  },
+  {
+    "card": "v11-luoyonghao-3",
+    "name": "产品经理上头了",
+    "person": "luoyonghao",
+    "mode": "identity",
+    "questions": []
+  }
+]

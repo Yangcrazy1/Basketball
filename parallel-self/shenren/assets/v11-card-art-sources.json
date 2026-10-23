@@ -1,0 +1,877 @@
+[
+  {
+    "id": "square-lecture",
+    "svg": "v11-card-art/square-lecture.svg",
+    "asset": "v11-card-art/square-lecture.webp",
+    "sha256": "9f69f074872378dfe7126a9459b5dd11fcb7981c6b53b25fb72efe2187dc4e97",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "all-aboard",
+    "svg": "v11-card-art/all-aboard.svg",
+    "asset": "v11-card-art/all-aboard.webp",
+    "sha256": "f8288d8f80389752fd7d8abeac57bd24c07e78c051a9e69d527dcc57197b39c3",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "where-team",
+    "svg": "v11-card-art/where-team.svg",
+    "asset": "v11-card-art/where-team.webp",
+    "sha256": "6d2d7c38724e0907a4dce8abf042d11acbfb889067d6ba5e2e6634514f195682",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "spring-heater",
+    "svg": "v11-card-art/spring-heater.svg",
+    "asset": "v11-card-art/spring-heater.webp",
+    "sha256": "ff020befd5f16ce2e54090027af4dcf51951b07edf80c70aa4eb134cc0479e9d",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "economy-brain",
+    "svg": "v11-card-art/economy-brain.svg",
+    "asset": "v11-card-art/economy-brain.webp",
+    "sha256": "e8504f3f8fa2a6af476c06da03f0f96af08a5518025f99f5b2326e775e90660b",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "not-a-loss",
+    "svg": "v11-card-art/not-a-loss.svg",
+    "asset": "v11-card-art/not-a-loss.webp",
+    "sha256": "a3d0c6228174b0e8d45bb9e7e2b2bfa8eda564a1d8f4896200f7bb53ef2a06bb",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "life-reroll",
+    "svg": "v11-card-art/life-reroll.svg",
+    "asset": "v11-card-art/life-reroll.webp",
+    "sha256": "3c8ae15cc29cf1db83832a9f2715d4f28c36b769d0ec60c993a8c4aba4e64b5f",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "ultimate-installment",
+    "svg": "v11-card-art/ultimate-installment.svg",
+    "asset": "v11-card-art/ultimate-installment.webp",
+    "sha256": "6b5a772d1b286bed6c425d80f7fdf4866ba028adaf3cb85e24e924de09a1239f",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "double-laugh",
+    "svg": "v11-card-art/double-laugh.svg",
+    "asset": "v11-card-art/double-laugh.webp",
+    "sha256": "4f8a7c70c4dbe35ca44287bc99578f351997cfed12ed491f903cd978e7ac42d2",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "lane-umbrella",
+    "svg": "v11-card-art/lane-umbrella.svg",
+    "asset": "v11-card-art/lane-umbrella.webp",
+    "sha256": "0bdebc8ff92bdebe031bce4d7266cba4e38d3619c6ad9876b6585e6804116cd9",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "personal-xiaoxiao",
+    "svg": "v11-card-art/personal-xiaoxiao.svg",
+    "asset": "v11-card-art/personal-xiaoxiao.webp",
+    "sha256": "db4e269dcfcbb1756724911105fc3f0d4221408c8233c74cb2b82d9b63dde9c8",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "personal-xika",
+    "svg": "v11-card-art/personal-xika.svg",
+    "asset": "v11-card-art/personal-xika.webp",
+    "sha256": "887d4b42aa3955ca1a9178ba7ab5d2600eaf86bd9a8672a7c18b2be1eb2fcf4f",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "personal-rookie",
+    "svg": "v11-card-art/personal-rookie.svg",
+    "asset": "v11-card-art/personal-rookie.webp",
+    "sha256": "86009494cdb75241633b18d64acd78c7c2df71711c7584775a0311c8fa7dcadf",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "personal-otto",
+    "svg": "v11-card-art/personal-otto.svg",
+    "asset": "v11-card-art/personal-otto.webp",
+    "sha256": "79838cdcafa621e4bead65e1fb9fbf351bbbc8b8f3c361a67ff0a0c90cbfc5f5",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "personal-zztai",
+    "svg": "v11-card-art/personal-zztai.svg",
+    "asset": "v11-card-art/personal-zztai.webp",
+    "sha256": "04d15aa6790e2e38075cf97bdde54a89fc149628b7a363bdc88078be0e21f255",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "personal-luobenwei",
+    "svg": "v11-card-art/personal-luobenwei.svg",
+    "asset": "v11-card-art/personal-luobenwei.webp",
+    "sha256": "5525898adbb75569e995daae333f71c4110cf85a16bba66ecee8c324a1ce25e7",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "extra-rookie-1",
+    "svg": "v11-card-art/extra-rookie-1.svg",
+    "asset": "v11-card-art/extra-rookie-1.webp",
+    "sha256": "4fde1f9494f532be8c2439e93fd3143e57ae0b3de4021ff4517eff7cde00560d",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-uzi-3",
+    "svg": "v11-card-art/v11-uzi-3.svg",
+    "asset": "v11-card-art/v11-uzi-3.webp",
+    "sha256": "d8f0aa3bcbfeb188d4af43d7b2012d39ca742bab4d5b966f00d11b34e0c71bc0",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-xiaohu-3",
+    "svg": "v11-card-art/v11-xiaohu-3.svg",
+    "asset": "v11-card-art/v11-xiaohu-3.webp",
+    "sha256": "0cae3adf58126105fd49b7d0c409a828a1cacc6a97164f847ee71aad2c1353d5",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-jackeylove-1",
+    "svg": "v11-card-art/v11-jackeylove-1.svg",
+    "asset": "v11-card-art/v11-jackeylove-1.webp",
+    "sha256": "38ddccc77a5aee28eb77921d1f1e577f7485d71cc6f1ff68e0aad0e3029ae258",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-jackeylove-2",
+    "svg": "v11-card-art/v11-jackeylove-2.svg",
+    "asset": "v11-card-art/v11-jackeylove-2.webp",
+    "sha256": "a603c2083152ef239351ce2cef173db52d5dc517b37ee362da5c722b5daf94ab",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-jackeylove-3",
+    "svg": "v11-card-art/v11-jackeylove-3.svg",
+    "asset": "v11-card-art/v11-jackeylove-3.webp",
+    "sha256": "be88858951393bc2c84e0873dce913ab7df1c6eac0a7a7c54cc0d73615b13c6a",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-theshy-2",
+    "svg": "v11-card-art/v11-theshy-2.svg",
+    "asset": "v11-card-art/v11-theshy-2.webp",
+    "sha256": "9ce0d3c8051cd294d4ccdad25355b2f957b22a8ddb94bdc909b86224010547d1",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-vincent-1",
+    "svg": "v11-card-art/v11-vincent-1.svg",
+    "asset": "v11-card-art/v11-vincent-1.webp",
+    "sha256": "351b07c70f536047ac2c4039adbab6fc0857b7befb5ff3b793d757d82c6d8de6",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-vincent-2",
+    "svg": "v11-card-art/v11-vincent-2.svg",
+    "asset": "v11-card-art/v11-vincent-2.webp",
+    "sha256": "cc5b95d76b3bab36e039932fed14cbeea3662496784204f954db348f63fefbcf",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-vincent-3",
+    "svg": "v11-card-art/v11-vincent-3.svg",
+    "asset": "v11-card-art/v11-vincent-3.webp",
+    "sha256": "29a7a225fccc1dc33f30e3050a3fdf51030a40005c58e16f4fc88d6257a86434",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-rookie-3",
+    "svg": "v11-card-art/v11-rookie-3.svg",
+    "asset": "v11-card-art/v11-rookie-3.webp",
+    "sha256": "a68b8f1e046c3a5993a52d5ae3fac0eea694196e96fbfe113528fe0b2ed91ece",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-faker-2",
+    "svg": "v11-card-art/v11-faker-2.svg",
+    "asset": "v11-card-art/v11-faker-2.webp",
+    "sha256": "239a627ca0d0b2f6c1170b66d3a07167de8c711798190768a5f363df47a83b0b",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-faker-3",
+    "svg": "v11-card-art/v11-faker-3.svg",
+    "asset": "v11-card-art/v11-faker-3.webp",
+    "sha256": "1b712decdb9d56aa6fdff4d7ce0cd8d9b4e7c3653e0b69c6a4873aaa7d1de6ce",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-xiaoxiao-1",
+    "svg": "v11-card-art/v11-xiaoxiao-1.svg",
+    "asset": "v11-card-art/v11-xiaoxiao-1.webp",
+    "sha256": "fb7f890af572d12d999c79f7be54adee3c3bfa778235f1fe1ba1f06742207df1",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-xiaoxiao-3",
+    "svg": "v11-card-art/v11-xiaoxiao-3.svg",
+    "asset": "v11-card-art/v11-xiaoxiao-3.webp",
+    "sha256": "abb897e119f6d537746db54908c1cb5ae2c1a93184adaeec3daa5b725412eeb6",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-xika-2",
+    "svg": "v11-card-art/v11-xika-2.svg",
+    "asset": "v11-card-art/v11-xika-2.webp",
+    "sha256": "3d48286044e3316f9bfb0d2b79a378ee320f79626f6beaee95f85fa967afd00c",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-xika-3",
+    "svg": "v11-card-art/v11-xika-3.svg",
+    "asset": "v11-card-art/v11-xika-3.webp",
+    "sha256": "8fd01fada52470587aaad74cbcca16356dea9e4313839f0d14f2b157bee82654",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-pdd-2",
+    "svg": "v11-card-art/v11-pdd-2.svg",
+    "asset": "v11-card-art/v11-pdd-2.webp",
+    "sha256": "9291a80fb5b6c25ba708b1628bfba9842fa79d66ff28f7d16c306f014a75efd3",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-pdd-3",
+    "svg": "v11-card-art/v11-pdd-3.svg",
+    "asset": "v11-card-art/v11-pdd-3.webp",
+    "sha256": "0247f1155183e7be02899208c77978a20d089d943ebe66b9562606b1dd9cac7a",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-dasima-3",
+    "svg": "v11-card-art/v11-dasima-3.svg",
+    "asset": "v11-card-art/v11-dasima-3.webp",
+    "sha256": "8ef64e539745b153b929666205d385e76e06512f2720c28152d246ac83c07a45",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-clearlove-1",
+    "svg": "v11-card-art/v11-clearlove-1.svg",
+    "asset": "v11-card-art/v11-clearlove-1.webp",
+    "sha256": "d352854ae116d7baa8dc6327cb2c2cba7272033b4f255ff6360f8ad46d9056be",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-clearlove-2",
+    "svg": "v11-card-art/v11-clearlove-2.svg",
+    "asset": "v11-card-art/v11-clearlove-2.webp",
+    "sha256": "852e68bb37913c91d4020500e9314d835e74e818bedaa1cd54c78e56337db5c7",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-clearlove-3",
+    "svg": "v11-card-art/v11-clearlove-3.svg",
+    "asset": "v11-card-art/v11-clearlove-3.webp",
+    "sha256": "6120cf9da652dc6352b11ddf08a253915960577ec9e1c58fc3dfbe66f849d898",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-ning-1",
+    "svg": "v11-card-art/v11-ning-1.svg",
+    "asset": "v11-card-art/v11-ning-1.webp",
+    "sha256": "52fef7fff08ef9380ef6fafdecbf459666e1ffe796f4f6fcf62fe4993a14dbef",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-ning-2",
+    "svg": "v11-card-art/v11-ning-2.svg",
+    "asset": "v11-card-art/v11-ning-2.webp",
+    "sha256": "e87bfebdbbb91d294c069ea948d5ec3d79597adbf2dc426c0a01b6b134225d87",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-ning-3",
+    "svg": "v11-card-art/v11-ning-3.svg",
+    "asset": "v11-card-art/v11-ning-3.webp",
+    "sha256": "03cc21bcc19d7c3dd7fc11d62da348262c13c9a8ba3ecc2e719e77b5f9ac2c10",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-kid-1",
+    "svg": "v11-card-art/v11-kid-1.svg",
+    "asset": "v11-card-art/v11-kid-1.webp",
+    "sha256": "767a0306e583f36a1aace58c5a5fc0440995d4980fef38cc104b8c49f317b911",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-kid-2",
+    "svg": "v11-card-art/v11-kid-2.svg",
+    "asset": "v11-card-art/v11-kid-2.webp",
+    "sha256": "556c3b0e835ee307f38b19e58ed8807a78c17bfc18bca01705686f81c116aae9",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-kid-3",
+    "svg": "v11-card-art/v11-kid-3.svg",
+    "asset": "v11-card-art/v11-kid-3.webp",
+    "sha256": "be12b4f2430f873348e1ba8af74659bf8528ec2e43e5e4c344c570ebe4b4f365",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-luobenwei-2",
+    "svg": "v11-card-art/v11-luobenwei-2.svg",
+    "asset": "v11-card-art/v11-luobenwei-2.webp",
+    "sha256": "d4ea2ddffbdd45fc28ba5b60203f8ebc7093146049384a97498a6a3367c9c556",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-luobenwei-3",
+    "svg": "v11-card-art/v11-luobenwei-3.svg",
+    "asset": "v11-card-art/v11-luobenwei-3.webp",
+    "sha256": "bcb3a3402bb3d6dfd8dcf8248c9c1b6395ee4556202468b8ab28b86b483bc848",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-baolan-1",
+    "svg": "v11-card-art/v11-baolan-1.svg",
+    "asset": "v11-card-art/v11-baolan-1.webp",
+    "sha256": "27848da3f6aaccb884fc345baf4c8071551cfd96cd91d0aac02c6165acd31db1",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-baolan-2",
+    "svg": "v11-card-art/v11-baolan-2.svg",
+    "asset": "v11-card-art/v11-baolan-2.webp",
+    "sha256": "314ca7539366084da250a28e6fca3175fb370511a695113a8ae4c9b7af36ac86",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-baolan-3",
+    "svg": "v11-card-art/v11-baolan-3.svg",
+    "asset": "v11-card-art/v11-baolan-3.webp",
+    "sha256": "7c60ac60ca5d09f70f417872b02a0b916185b98dbd14bf7c508940c194ef0033",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-otto-2",
+    "svg": "v11-card-art/v11-otto-2.svg",
+    "asset": "v11-card-art/v11-otto-2.webp",
+    "sha256": "1f52a51f836e611fbc440156738d322214c987edaf20b2ea8ba39299c9a9292b",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-otto-3",
+    "svg": "v11-card-art/v11-otto-3.svg",
+    "asset": "v11-card-art/v11-otto-3.webp",
+    "sha256": "2a24f387b21ab9e88502ac7fd9e4461cf9657ecaf33390315c8739e6ce84856a",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-zztai-2",
+    "svg": "v11-card-art/v11-zztai-2.svg",
+    "asset": "v11-card-art/v11-zztai-2.webp",
+    "sha256": "e9e5f589ce7b2d6023aa349c01c63795caa58172339f167349763836cf00ce5c",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-zztai-3",
+    "svg": "v11-card-art/v11-zztai-3.svg",
+    "asset": "v11-card-art/v11-zztai-3.webp",
+    "sha256": "93c6b251b6549ae87d53aad255810890a0d41eb89846a6893cc69e202aaee638",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-doinb-2",
+    "svg": "v11-card-art/v11-doinb-2.svg",
+    "asset": "v11-card-art/v11-doinb-2.webp",
+    "sha256": "3e6cad98c8a698ae6668b8ada9b5a5df10501c5b634ccd2dc9f0192b5256d0fa",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-doinb-3",
+    "svg": "v11-card-art/v11-doinb-3.svg",
+    "asset": "v11-card-art/v11-doinb-3.webp",
+    "sha256": "c18836e7f563d585c43621c630c7effb10d391695639617029231b04c2d2328d",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-ming-1",
+    "svg": "v11-card-art/v11-ming-1.svg",
+    "asset": "v11-card-art/v11-ming-1.webp",
+    "sha256": "61b2c3037a46f9b213fd7e058188809b52d2d100989bbdda4dbf6d9e9700f6f4",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-ming-2",
+    "svg": "v11-card-art/v11-ming-2.svg",
+    "asset": "v11-card-art/v11-ming-2.webp",
+    "sha256": "51381d4a93b95aacf190ee6e18367cebed2d5d1115fddc5e73688f1df7e1c3ee",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-ming-3",
+    "svg": "v11-card-art/v11-ming-3.svg",
+    "asset": "v11-card-art/v11-ming-3.webp",
+    "sha256": "1bf29c719be0b40c00532c7a3c8a73f888186ce95d357e9e78cd385f8d00b83d",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "kneel",
+    "svg": "v11-card-art/kneel.svg",
+    "asset": "v11-card-art/kneel.webp",
+    "sha256": "e3eeb72e5c995f939a569ce3d05368498bb2991bf7883cf6164138045c38b440",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "logo",
+    "svg": "v11-card-art/logo.svg",
+    "asset": "v11-card-art/logo.webp",
+    "sha256": "ca926c6015f174bcfb4bb2c89ed53f852ff9f4a0950a0054641a709ffd71578f",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "coffee",
+    "svg": "v11-card-art/coffee.svg",
+    "asset": "v11-card-art/coffee.webp",
+    "sha256": "33415cc5cce881fa1f2c070bcbe8f5c85a7c85d22f6e33aacecbd209741cfec6",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "team",
+    "svg": "v11-card-art/team.svg",
+    "asset": "v11-card-art/team.webp",
+    "sha256": "31a03f2b8bcb2e64175c292ac50042aa8baea9b5e2ac4f8ec3316805891a55ee",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "mamba-clock",
+    "svg": "v11-card-art/mamba-clock.svg",
+    "asset": "v11-card-art/mamba-clock.webp",
+    "sha256": "6f1fed06fc9c989d22546eebdc0459bcf68113b3076ef6ca5a5c414a5edef77c",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "goodnight-three",
+    "svg": "v11-card-art/goodnight-three.svg",
+    "asset": "v11-card-art/goodnight-three.webp",
+    "sha256": "d65f03477bdcf1cd0992fd4de0eb37b2259c16ddd9131fbed6d2846db9343ea8",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "stepback-route",
+    "svg": "v11-card-art/stepback-route.svg",
+    "asset": "v11-card-art/stepback-route.webp",
+    "sha256": "4ee12379fe30a68c0bf3fb28e467c839d718d605a829645f65bb86ba419acc85",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "personal-xujingyu",
+    "svg": "v11-card-art/personal-xujingyu.svg",
+    "asset": "v11-card-art/personal-xujingyu.webp",
+    "sha256": "70d80456237783e4da9e3b579ecef599f8a221575d7911593c2ff6b93e293cc5",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "personal-yangyi",
+    "svg": "v11-card-art/personal-yangyi.svg",
+    "asset": "v11-card-art/personal-yangyi.webp",
+    "sha256": "c7bb950bf1c0f2cd54783996e809a30c1302242b3b7d79a82f5dd244e9463a3d",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "personal-zhouqi",
+    "svg": "v11-card-art/personal-zhouqi.svg",
+    "asset": "v11-card-art/personal-zhouqi.webp",
+    "sha256": "917f016190048ecad7208052cbcf78394033d1728e8ab4f90a9e8714184fb72c",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-lebron-2",
+    "svg": "v11-card-art/v11-lebron-2.svg",
+    "asset": "v11-card-art/v11-lebron-2.webp",
+    "sha256": "1abded42b4b32199a967c3f6c8e7d3ab5af54065d6f288c7e69b43c7d99644a5",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-durant-1",
+    "svg": "v11-card-art/v11-durant-1.svg",
+    "asset": "v11-card-art/v11-durant-1.webp",
+    "sha256": "40ee69a6b9743a565f2b6802a6c10a706fd330421aefd4810581605bdbd448e7",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-durant-2",
+    "svg": "v11-card-art/v11-durant-2.svg",
+    "asset": "v11-card-art/v11-durant-2.webp",
+    "sha256": "8343dd514a296ab7476e1da30e7caa4649f768002f22aaca9d3aa53d5c8a613c",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-durant-3",
+    "svg": "v11-card-art/v11-durant-3.svg",
+    "asset": "v11-card-art/v11-durant-3.webp",
+    "sha256": "bb9c97a5f8103552f51edef1f6f65c06bdca55e4ebb7aad22980bfc5082615d1",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-jordan-2",
+    "svg": "v11-card-art/v11-jordan-2.svg",
+    "asset": "v11-card-art/v11-jordan-2.webp",
+    "sha256": "e09b3fbdca62c7d0400169a7cc8719cd5ab83681ed3a8a2488b675b86ec310a1",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-jordan-3",
+    "svg": "v11-card-art/v11-jordan-3.svg",
+    "asset": "v11-card-art/v11-jordan-3.webp",
+    "sha256": "db970de90b0f2d1365f1ff7a9f9a1e66d34f0949b248ed9100d235da212b7ad6",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-kobe-2",
+    "svg": "v11-card-art/v11-kobe-2.svg",
+    "asset": "v11-card-art/v11-kobe-2.webp",
+    "sha256": "ca7118c11bc8bf5a2ef8888d1b72f9b27fa2de8d664d512a34f55ddbd0ba128c",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-kobe-3",
+    "svg": "v11-card-art/v11-kobe-3.svg",
+    "asset": "v11-card-art/v11-kobe-3.webp",
+    "sha256": "a69639d6be218245778c7a280bb1608e3826f612e0743c345f26c9a356ddc30b",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-yangyi-2",
+    "svg": "v11-card-art/v11-yangyi-2.svg",
+    "asset": "v11-card-art/v11-yangyi-2.webp",
+    "sha256": "06f8dbfdfff3c6f82bcbb97b1d57df02eafad38c5ff155245ddf0b3877288efd",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-yangyi-3",
+    "svg": "v11-card-art/v11-yangyi-3.svg",
+    "asset": "v11-card-art/v11-yangyi-3.webp",
+    "sha256": "42729fa4e75fca4ce1c5b6a1a7782d27a02dcde646460e64e79f77859181a2e0",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-xujingyu-2",
+    "svg": "v11-card-art/v11-xujingyu-2.svg",
+    "asset": "v11-card-art/v11-xujingyu-2.webp",
+    "sha256": "b139a3b477ac6cd413d797097976f0234e8ac194f20464abc3801fbd22555e4f",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-xujingyu-3",
+    "svg": "v11-card-art/v11-xujingyu-3.svg",
+    "asset": "v11-card-art/v11-xujingyu-3.webp",
+    "sha256": "4cf702b395a0f68e120e60b0340b4688fa1eabbf1af3b666c7f3b6db4cf58d0e",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-zhouqi-2",
+    "svg": "v11-card-art/v11-zhouqi-2.svg",
+    "asset": "v11-card-art/v11-zhouqi-2.webp",
+    "sha256": "34ad9e31f61159e1aa95744df9eb3d8168d12027fd0ad37d2581985418025c1c",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-zhouqi-3",
+    "svg": "v11-card-art/v11-zhouqi-3.svg",
+    "asset": "v11-card-art/v11-zhouqi-3.webp",
+    "sha256": "5be8bd4f62da5cb46507737ae3feebf6ec114a237f016e3c50ba4db6e7c4dea9",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-yaoming-1",
+    "svg": "v11-card-art/v11-yaoming-1.svg",
+    "asset": "v11-card-art/v11-yaoming-1.webp",
+    "sha256": "7eb5f23d32dde8832df4fdff2752054331418f8bb7e51546f9e33e833cc684ee",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-yaoming-2",
+    "svg": "v11-card-art/v11-yaoming-2.svg",
+    "asset": "v11-card-art/v11-yaoming-2.webp",
+    "sha256": "6d17b8d74a4873202b6ab49dacbbd58de6ca2cb3c3b0b5a0b91489f2a07b539f",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-yaoming-3",
+    "svg": "v11-card-art/v11-yaoming-3.svg",
+    "asset": "v11-card-art/v11-yaoming-3.webp",
+    "sha256": "836c747d01b36d4e856541ecd40285882d8cbc80e822defbf54ef1ddba44a336",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-curry-3",
+    "svg": "v11-card-art/v11-curry-3.svg",
+    "asset": "v11-card-art/v11-curry-3.webp",
+    "sha256": "e1262786c173efca53514030f2e05d1e8403ef063de835049b10d812016a6ff8",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-harden-2",
+    "svg": "v11-card-art/v11-harden-2.svg",
+    "asset": "v11-card-art/v11-harden-2.webp",
+    "sha256": "c07f901450a2d86c70f5fc3fbb2672cf883bfd5b02722ac81c4fba02ab07ff91",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-harden-3",
+    "svg": "v11-card-art/v11-harden-3.svg",
+    "asset": "v11-card-art/v11-harden-3.webp",
+    "sha256": "1230508fb108466a9be2df49cfa95c2cba81327c0312f1f1a75baa1432b920b2",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "street-pass",
+    "svg": "v11-card-art/street-pass.svg",
+    "asset": "v11-card-art/street-pass.webp",
+    "sha256": "6007c43f7c5b30cf13fa693edae711163619d7fa33b945ba665f37d9132ec0cf",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "shot-retry",
+    "svg": "v11-card-art/shot-retry.svg",
+    "asset": "v11-card-art/shot-retry.webp",
+    "sha256": "a307ca57c199a1a77a8e725961751cfd3b884af1aca348fce5370668ad5d058d",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "court-replay",
+    "svg": "v11-card-art/court-replay.svg",
+    "asset": "v11-card-art/court-replay.webp",
+    "sha256": "833ce51a643fac215f2a5ae5930a6e920c7537e92112ae8b92c3660bdcb297a5",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "juice",
+    "svg": "v11-card-art/juice.svg",
+    "asset": "v11-card-art/juice.webp",
+    "sha256": "1808d0ee21640c61032ce97b5b22880b0b7e223ed94af86490ab665b96f8fc6e",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "micro",
+    "svg": "v11-card-art/micro.svg",
+    "asset": "v11-card-art/micro.webp",
+    "sha256": "e32237a3dd313ed41d9ec7850906b0372129d9774ab0f36547e855a3732e81c3",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "one-at-time",
+    "svg": "v11-card-art/one-at-time.svg",
+    "asset": "v11-card-art/one-at-time.webp",
+    "sha256": "c83cf98d1fe889e494f6f65ad4da87884810897f8c4f7f17b6afbaef83e3858d",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "punchline-shield",
+    "svg": "v11-card-art/punchline-shield.svg",
+    "asset": "v11-card-art/punchline-shield.webp",
+    "sha256": "ce28be763cfc7a0b26891eb487daf61de851d5fb2805cec04780e3d394968121",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "personal-leijun",
+    "svg": "v11-card-art/personal-leijun.svg",
+    "asset": "v11-card-art/personal-leijun.webp",
+    "sha256": "add79f76cc88af05eab3cf2730c4d374acfa26816aa9407f60b7c359efa36082",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "personal-luoyonghao",
+    "svg": "v11-card-art/personal-luoyonghao.svg",
+    "asset": "v11-card-art/personal-luoyonghao.webp",
+    "sha256": "971a2ede45b835e21606c532be076a476ea8afd1abb079038dc6c9f1e91a4629",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "personal-dailanzi",
+    "svg": "v11-card-art/personal-dailanzi.svg",
+    "asset": "v11-card-art/personal-dailanzi.webp",
+    "sha256": "5059fe9a05a1f56af9a3a15bea86f221f9fe0f5e1c55baa588f2e9572ba0b20b",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "extra-fengge-1",
+    "svg": "v11-card-art/extra-fengge-1.svg",
+    "asset": "v11-card-art/extra-fengge-1.webp",
+    "sha256": "382a516c976c2c39974002339e897a1c831987b8988d31ab9a2dd1a4166d2aa3",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "extra-fengge-2",
+    "svg": "v11-card-art/extra-fengge-2.svg",
+    "asset": "v11-card-art/extra-fengge-2.webp",
+    "sha256": "2885e4a474108a8de10710dffb11890ec31c01ee87eecf66ec8b40915b8a4636",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "extra-daoge-1",
+    "svg": "v11-card-art/extra-daoge-1.svg",
+    "asset": "v11-card-art/extra-daoge-1.webp",
+    "sha256": "23fa717e0668c5c74d6ae214fac59ee1747a5a283a10bd2a0ed65756e3b4714b",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "extra-daoge-2",
+    "svg": "v11-card-art/extra-daoge-2.svg",
+    "asset": "v11-card-art/extra-daoge-2.webp",
+    "sha256": "db7594f5e1589f09f2ed8b0e1dd2e88965dce616f111e9a33b9b832b8800aece",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-dailanzi-1",
+    "svg": "v11-card-art/v11-dailanzi-1.svg",
+    "asset": "v11-card-art/v11-dailanzi-1.webp",
+    "sha256": "2175b85125cdb9410c232e2074ee10c649d2e320299c8acc3a4ba8b3c3db9cbf",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-dailanzi-2",
+    "svg": "v11-card-art/v11-dailanzi-2.svg",
+    "asset": "v11-card-art/v11-dailanzi-2.webp",
+    "sha256": "063c26f986c2b36af99d46f21d87f2e2f5657bd451245039774627f74c3de958",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-fengge-3",
+    "svg": "v11-card-art/v11-fengge-3.svg",
+    "asset": "v11-card-art/v11-fengge-3.webp",
+    "sha256": "e605890176079d8838948cf32cdf427ed5f69be298b1832a938fda7e857c9ba0",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-daoge-2",
+    "svg": "v11-card-art/v11-daoge-2.svg",
+    "asset": "v11-card-art/v11-daoge-2.webp",
+    "sha256": "15d880a1f0a65895a9b39f052b81f587aa2560e0f02d06379951c45fcb8c9425",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-huge-2",
+    "svg": "v11-card-art/v11-huge-2.svg",
+    "asset": "v11-card-art/v11-huge-2.webp",
+    "sha256": "d28b2f1eb0b3b2ccb9a22a7f09a7edd925d9a051d0bd624aa8e32563b445c04f",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-huchenfeng-1",
+    "svg": "v11-card-art/v11-huchenfeng-1.svg",
+    "asset": "v11-card-art/v11-huchenfeng-1.webp",
+    "sha256": "a91238914ea068085f692d8ad2dd48c46562a8fdc82df06096ba309bcbcd006e",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-huchenfeng-2",
+    "svg": "v11-card-art/v11-huchenfeng-2.svg",
+    "asset": "v11-card-art/v11-huchenfeng-2.webp",
+    "sha256": "fbc5338976584fb1c61c84d88658d48f84a85ad02db84b13405307dfea6bd7d6",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-us-lecturer-1",
+    "svg": "v11-card-art/v11-us-lecturer-1.svg",
+    "asset": "v11-card-art/v11-us-lecturer-1.webp",
+    "sha256": "30a7479f047331bb169d99504a4e4adeb9378151e85fd0da3e6d2e37cf3ea0ac",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-us-lecturer-2",
+    "svg": "v11-card-art/v11-us-lecturer-2.svg",
+    "asset": "v11-card-art/v11-us-lecturer-2.webp",
+    "sha256": "f3a38f19ecda6801856e26f57ffb9f54a46ec579329d3f7c087e2fdc9162bfa3",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-us-lecturer-3",
+    "svg": "v11-card-art/v11-us-lecturer-3.svg",
+    "asset": "v11-card-art/v11-us-lecturer-3.webp",
+    "sha256": "5cb2430d35ca1ba5bcf8b99e825377d08bede9af9b965110646a24b95a773446",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-sunxiaochuan-2",
+    "svg": "v11-card-art/v11-sunxiaochuan-2.svg",
+    "asset": "v11-card-art/v11-sunxiaochuan-2.webp",
+    "sha256": "b845dbb2d25871651b6fa91aa2674028cce99c55171f05db2f250b69110dd0d5",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-sunxiaochuan-3",
+    "svg": "v11-card-art/v11-sunxiaochuan-3.svg",
+    "asset": "v11-card-art/v11-sunxiaochuan-3.webp",
+    "sha256": "46e96f7fbb595634ab8054d69e8cb5592f49956faff257a9a8d5521ac374f989",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-yaoshuige-1",
+    "svg": "v11-card-art/v11-yaoshuige-1.svg",
+    "asset": "v11-card-art/v11-yaoshuige-1.webp",
+    "sha256": "239736b10a04d30263525d00ca375f55048d5a38e37dca5f851452cb377ae136",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-yaoshuige-2",
+    "svg": "v11-card-art/v11-yaoshuige-2.svg",
+    "asset": "v11-card-art/v11-yaoshuige-2.webp",
+    "sha256": "266a64b7f82d4152ee3e3357d45eac1267380325a86010d9105a7ff01f1a6c92",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-yaoshuige-3",
+    "svg": "v11-card-art/v11-yaoshuige-3.svg",
+    "asset": "v11-card-art/v11-yaoshuige-3.webp",
+    "sha256": "d8539ca53a84c90ac7e9e37f1ed5fb419b65727524e7b827f4b1aae794c3add6",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-leijun-2",
+    "svg": "v11-card-art/v11-leijun-2.svg",
+    "asset": "v11-card-art/v11-leijun-2.webp",
+    "sha256": "27f21474ca84b249bfb9ab120c6c28f46bdb4ccdf0843ab79f7ab9efd761fba5",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-leijun-3",
+    "svg": "v11-card-art/v11-leijun-3.svg",
+    "asset": "v11-card-art/v11-leijun-3.webp",
+    "sha256": "ea517a3d8391c663a594774ef3ab9466a014d1930f828b50d6e221b2345baa6d",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-luoyonghao-2",
+    "svg": "v11-card-art/v11-luoyonghao-2.svg",
+    "asset": "v11-card-art/v11-luoyonghao-2.webp",
+    "sha256": "0ea26b76d5da44ee51ae766e2918d51461d19fc4cd1cc67e2afe98b76e0f9ab8",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "v11-luoyonghao-3",
+    "svg": "v11-card-art/v11-luoyonghao-3.svg",
+    "asset": "v11-card-art/v11-luoyonghao-3.webp",
+    "sha256": "977eeca6b9e51396c76d11a71d359096039df78ff39fde47d1c377ec2b93b0cb",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "route-friend",
+    "svg": "v11-card-art/route-friend.svg",
+    "asset": "v11-card-art/route-friend.webp",
+    "sha256": "cb7318f33510efb39c5666358d46fc20c3544240ff50a778612b95423235fd83",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "camera-day",
+    "svg": "v11-card-art/camera-day.svg",
+    "asset": "v11-card-art/camera-day.webp",
+    "sha256": "a03a8231c2e6cf1b612bd0c73a9db2ed3d6e92ed5becd9cde1d382966c7b92ba",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  },
+  {
+    "id": "meme-share",
+    "svg": "v11-card-art/meme-share.svg",
+    "asset": "v11-card-art/meme-share.webp",
+    "sha256": "0a630762c376239ad4210e6e2aa3e8a97ad76c9d47f535e60045537d6569cb77",
+    "kind": "本作原创矢量物件组合；非官方海克斯图标"
+  }
+]
