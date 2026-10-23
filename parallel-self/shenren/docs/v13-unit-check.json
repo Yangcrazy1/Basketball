@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "releaseVersion": 13,
+  "schemaVersion": 12,
+  "appName": "平行宇宙的另一个我",
+  "dataSha256": "785c19aef9429ba9b1fdc3c67099bd1a6d111932fb52fe5da5d3bb109a730430",
+  "checkedAt": "2026-10-24T07:24:46.099705+08:00",
+  "command": "node --test tests/engine.test.cjs tests/legacy-engine.test.cjs tests/xhs-platform.test.cjs tests/v13-content.test.cjs tests/v13-priority-history.test.cjs",
+  "fullSuite": {
+    "tests": 49,
+    "suites": 0,
+    "pass": 49,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "exitCode": 0,
+    "durationMs": 3125.924937,
+    "logSha256": "95393ec55d9fb75a42ccf86209394e7120080ec11e3e9db9f7a4eda1897e6b71",
+    "snapshot": "完整49项在审阅前运行通过；之后只修正v13-nida-2的一格合法图标映射，未更改匹配计分或题目，修正后已做定向检查。"
+  },
+  "postReviewTargetedChecks": [
+    {
+      "check": "v13-nida-2 uses sheet4/cell7 reply microphone rather than Wang Sicong hotdog camera",
+      "status": "passed"
+    },
+    {
+      "check": "new sprite is preferred by rendering path, exists in a 4x4 atlas, and atlas file matches its SHA256",
+      "status": "passed"
+    },
+    {
+      "check": "all 17 added/reactivated characters still have three signature perks",
+      "status": "passed"
+    }
+  ],
+  "contentReview": {
+    "newPeopleReviewed": 17,
+    "newSignatureCardsReviewed": 51,
+    "atlasFilesViewed": [
+      "assets/parody-icons-v13-basket.webp",
+      "assets/parody-icons-v13-memes.webp"
+    ],
+    "focus": [
+      {
+        "subject": "麦迪",
+        "finding": "最美小腿奖明确为本宇宙自设奖项，靴形奖杯与腿部/鞋带镜头一致；三十五秒卡使用计时器篮球。"
+      },
+      {
+        "subject": "小狗洗澡",
+        "finding": "花洒与红温温度计图标匹配小狗洗澡冷却器；收集者仍是五个真实装备图标，店内只有收集者的文案保持。"
+      },
+      {
+        "subject": "热狗校长",
+        "finding": "热狗+奖杯、热狗定格相机、五人框分别对应观赛补给、导播抓拍、冠军看台合照。"
+      },
+      {
+        "subject": "张伯伦",
+        "finding": "纪录簿和卡册图标分别匹配两张卡；2000后宫作为虚构抽卡/纸片人梗，没有把传闻当真人私生活事实。"
+      },
+      {
+        "subject": "尼达与伊利",
+        "finding": "双椅对话、接话麦克风、五人同框均对应双人接梗；不擅自把金角银角固定到其中某位。尼达第二张的热狗相机误配已由root修正。"
+      }
+    ],
+    "runtimeFilesModifiedByReviewer": false,
+    "remainingBlockingIssues": []
+  },
+  "scope": "Node逻辑/数据/原生契约模拟与人工文案-图标对应审阅；不等于实体手机或小红书容器验收。"
+}

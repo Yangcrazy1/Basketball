@@ -1,0 +1,159 @@
+{
+  "sheets": [
+    [
+      "basket",
+      "exec-cad4cd80-da4c-4e2e-8452-696e5894a00f.png"
+    ],
+    [
+      "memes",
+      "exec-f6cee1ae-b4d8-4109-96fa-509222a1c4bc.png"
+    ]
+  ],
+  "sheetIds": {
+    "basket": 3,
+    "memes": 4
+  },
+  "people": {
+    "wuyou": [
+      "basket",
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "xire": [
+      "basket",
+      [
+        2,
+        3,
+        2
+      ]
+    ],
+    "tmac": [
+      "basket",
+      [
+        4,
+        5,
+        4
+      ]
+    ],
+    "shaq": [
+      "basket",
+      [
+        6,
+        7,
+        6
+      ]
+    ],
+    "doncic": [
+      "basket",
+      [
+        8,
+        9,
+        8
+      ]
+    ],
+    "shai": [
+      "basket",
+      [
+        10,
+        11,
+        10
+      ]
+    ],
+    "rodman": [
+      "basket",
+      [
+        12,
+        13,
+        12
+      ]
+    ],
+    "wilt": [
+      "basket",
+      [
+        14,
+        15,
+        14
+      ]
+    ],
+    "yujie": [
+      "memes",
+      [
+        0,
+        12,
+        0
+      ]
+    ],
+    "musk": [
+      "memes",
+      [
+        1,
+        13,
+        13
+      ]
+    ],
+    "trump": [
+      "memes",
+      [
+        2,
+        14,
+        2
+      ]
+    ],
+    "renzhengfei": [
+      "memes",
+      [
+        3,
+        3,
+        3
+      ]
+    ],
+    "yuchengdong": [
+      "memes",
+      [
+        4,
+        4,
+        4
+      ]
+    ],
+    "jensen": [
+      "memes",
+      [
+        5,
+        15,
+        5
+      ]
+    ],
+    "nida": [
+      "memes",
+      [
+        6,
+        7,
+        6
+      ]
+    ],
+    "yili": [
+      "memes",
+      [
+        7,
+        7,
+        10
+      ]
+    ],
+    "wangsicong": [
+      "memes",
+      [
+        8,
+        9,
+        10
+      ]
+    ]
+  },
+  "uziShower": {
+    "sheet": 4,
+    "cell": 11
+  },
+  "collector": "保留五把真实装备图标；未被原创漫画图标覆盖。"
+}

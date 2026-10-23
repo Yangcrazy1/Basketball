@@ -15,7 +15,11 @@ function enabledPeople(data,theme=null){return data.characters.filter(p=>p.enabl
 function enabledCards(data,theme=null){return [].concat(...Object.keys(data.augments).filter(t=>!theme||t===theme).map(t=>data.augments[t])).filter(a=>a.enabled!==false);}
 function searchPeople(data,theme,query=''){const q=query.trim().toLowerCase();return enabledPeople(data,theme==='all'?null:theme).filter(p=>[p.name,p.nickname].concat(p.aliases||[],p.tags||[]).join(' ').toLowerCase().includes(q));}
 function resolvePerson(data,value){const q=String(value).toLowerCase();return data.characters.find(p=>p.id===value||p.personId===value||(p.aliases||[p.name,p.nickname]).some(a=>a&&a.toLowerCase()===q))||null;}
-function applyExposure(candidates,policy={}){const top=Math.max(...candidates.map(p=>p.rawMatch)),near=policy.nearTop===undefined?5:Math.min(5,policy.nearTop),max=policy.maxBonus===undefined?4:Math.min(4,Math.max(0,policy.maxBonus));return candidates.map(p=>Object.assign({},p,{match:p.rawMatch,editorialBonus:p.tier==='featured'&&top-p.rawMatch<=near?max:0})).sort((a,b)=>(b.rawMatch+b.editorialBonus)-(a.rawMatch+a.editorialBonus)||b.rawMatch-a.rawMatch||a.id.localeCompare(b.id));}
+function applyExposure(candidates,policy={}){
+ if(!candidates.length)return [];
+ const top=Math.max(...candidates.map(p=>p.rawMatch)),near=Math.max(0,Math.min(8,policy.nearTop===undefined?5:policy.nearTop)),bonus=Math.max(0,Math.min(6,policy.maxBonus===undefined?4:policy.maxBonus)),starNear=Math.max(0,Math.min(15,policy.flagshipNearTop===undefined?12:policy.flagshipNearTop)),starBonus=Math.max(0,Math.min(12,policy.flagshipBonus===undefined?9:policy.flagshipBonus));
+ return candidates.map(p=>{const flagship=p.tier==='flagship',featured=p.tier==='featured',gap=top-p.rawMatch,add=flagship&&gap<=starNear?starBonus:featured&&gap<=near?bonus:0;return Object.assign({},p,{match:p.rawMatch,editorialBonus:add});}).sort((a,b)=>(b.rawMatch+b.editorialBonus)-(a.rawMatch+a.editorialBonus)||b.rawMatch-a.rawMatch||a.id.localeCompare(b.id));
+}
 function exposureSample(data,theme,n=1,rng=random){const pool=enabledPeople(data,theme).slice(),out=[];while(pool.length&&out.length<n){let x=rng()*pool.reduce((sum,p)=>sum+p.exposureWeight,0),i=0;for(;i<pool.length-1;i++){x-=pool[i].exposureWeight;if(x<0)break;}out.push(pool.splice(i,1)[0]);}return out;}
 function draw(data,theme,count,previousFirst=null,rng=random,series='all'){
  if(!data.themes.some(t=>t.id===theme)||!data.modes.includes(count))throw Error('不支持的主题或题量');
@@ -143,6 +147,7 @@ const stories={
  geyou:['你没拯救宇宙，你让它坐下休息了。','你变成了葛优。平行世界不停催进度，所有人都在找下一场大事。你先在沙发上挪出四个位置，把队友一个个招呼坐下。','宇宙最后没爆炸。它只是承认：有些重要的事，要坐稳了才能想明白。']
 };
 function narrative(identity,theme,profile,series='all',augment=null){
+ if(Array.isArray(identity.parallelStory)&&identity.parallelStory.length===3)return identity.parallelStory.slice();
  if(theme==='lol'&&(augment&&augment.id)==='double-laugh')return [`${identity.nickname||identity.name}，把第二段笑留给金色的雨。`,'在这条架空时间线，你在开局前忍住了第一段笑。领先以后，队友已经准备庆祝，你却把手重新放回键盘：这次先把对局打完。决胜团结束，基地终于倒下，导播才切到你的笑脸。','第一段是开心，第二段是终于赢了。这个平行宇宙的表情包，连同奖杯一起由你签收。'];
  if(theme==='lol'&&(augment&&augment.id)==='tes-top')return [`${identity.nickname||identity.name}，这回陀螺转出了反打角度。`,'在这条架空时间线，你们连着两波被压在塔前，弹幕里又飘起陀螺梗。你没有再抢着接第三波，而是和四位队友等到对面的开团技能交空，再从侧面一起打回去。','赛后梗图还在，但这次的结尾多了一段反打集锦。你把图存进群里：能笑，也能把下一波打明白。'];
  if(theme==='lol'&&series==='hex'){
@@ -156,7 +161,7 @@ function narrative(identity,theme,profile,series='all',augment=null){
  if(theme==='basket'&&identity.personId==='wemby')return ['文班长臂服务区，今天正式营业。','平行总决赛里，你化身文班亚马。对手还在寻找上篮角度，你已经和四位队友把篮下照顾明白。一次干净封盖之后，你没有忙着庆祝，转身就把球传向跑起来的队友。','外星人梗可以接，位置还得认真站。这个宇宙的冠军合照里，五个人都在你的服务范围。'];
  if(theme==='basket'&&identity.personId==='edwards')return ['华子准备起飞，回防也在飞行计划里。','平行总决赛最后一节，你化身华子。队友传来一个舒服的球，你抓住合适机会完成上篮，笑着和传球的人击掌。镜头想留住你的庆祝，你已经回到防守的位置。','篮球梦之队把高光留给你，也把下一球继续交给你。这场比赛的节目效果，有冲劲，也有靠谱的下一步。'];
  if(theme==='basket'&&identity.roleType==='commentator')return [identity.name+'，这场比赛由你来讲。','你化身'+identity.name+'，坐进平行宇宙的解说席。朋友们在场上拼出一个精彩回合，你把前因后果讲成大家都听得懂的故事。暂停时球员喝水，你还在认真接住观众的问题。','五人队采用本作娱乐角色设定；这里的你是解说员，没有虚构球员履历。'];
- const own=stories[identity.personId];if(own)return own;return theme==='lol'?[`${identity.name}，这次由你接下决胜局。`,`你化身${identity.name}，走进一条结局尚未写下的平行赛道。对手准备好了熟悉的套路，你用${profile.name}的打法把这一局带到了新的节奏。`,'奖杯不是剧本的终点。五个人愿意再开一局，才是这个宇宙最好的彩蛋。']:theme==='basket'?[`${identity.name}，今天的名场面由你签收。`,`你化身${identity.name}。平行总决赛把所有戏剧性都留到了末节，你把熟悉的动作和没试过的选择拼成了自己的答案。`,'这个宇宙的虎扑式搞笑评分给出满分：有人负责数据，有人负责让整场值得重看。']:[`${identity.name}，你在另一个宇宙上线了。`,`你化身${identity.name}。普通的一天被平行宇宙拧开了一个口子，你用${profile.name}的方式，把五个看似不搭的人放进同一段故事。`,'故事没有标准答案。能把自己的那一集过得有声有色，也是一种隐藏天赋。'];}
+ const own=stories[identity.personId];if(own)return own;const u=identity.universe;if(u)return [(identity.nickname||identity.name)+'，'+u.title+'正式上岗。',u.arrival+' 这条时间线交给你的任务是：'+u.mission,u.passive+' 队友给你的评价是：'+u.teamHook];return theme==='lol'?[`${identity.name}，这次由你接下决胜局。`,`你化身${identity.name}，走进一条结局尚未写下的平行赛道。对手准备好了熟悉的套路，你用${profile.name}的打法把这一局带到了新的节奏。`,'奖杯不是剧本的终点。五个人愿意再开一局，才是这个宇宙最好的彩蛋。']:theme==='basket'?[`${identity.name}，今天的名场面由你签收。`,`你化身${identity.name}。平行总决赛把所有戏剧性都留到了末节，你把熟悉的动作和没试过的选择拼成了自己的答案。`,'这个宇宙的虎扑式搞笑评分给出满分：有人负责数据，有人负责让整场值得重看。']:[`${identity.name}，你在另一个宇宙上线了。`,`你化身${identity.name}。普通的一天被平行宇宙拧开了一个口子，你用${profile.name}的方式，把五个看似不搭的人放进同一段故事。`,'故事没有标准答案。能把自己的那一集过得有声有色，也是一种隐藏天赋。'];}
 function analyze(session,data){
  const vector=score(session,data),pool=data.characters.filter(p=>p.theme===session.theme),ranked=rankPeople(session,data,vector);
  const identity=ranked[0],code=[0,1,2].map(i=>vector[i]>=50?'1':'0').join('');let profile=data.profiles.find(p=>p.id===data.familyCodes[code]);

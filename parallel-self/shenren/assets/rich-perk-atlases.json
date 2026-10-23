@@ -29,5 +29,25 @@
     "sha256": "913565eb8e82d369161719925252138829e4a1018f20da53b3164a10b6890694",
     "kind": "本作原创AI棱彩漫画图标",
     "generatedOriginalName": "exec-e0fb791e-3004-4f09-98ec-a9a62357f0d7.png"
+  },
+  {
+    "asset": "parody-icons-v13-basket.webp",
+    "width": 1254,
+    "height": 1254,
+    "columns": 4,
+    "rows": 4,
+    "sha256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+    "kind": "本作原创AI棱彩漫画图标",
+    "generatedOriginalName": "exec-cad4cd80-da4c-4e2e-8452-696e5894a00f.png"
+  },
+  {
+    "asset": "parody-icons-v13-memes.webp",
+    "width": 1254,
+    "height": 1254,
+    "columns": 4,
+    "rows": 4,
+    "sha256": "36a9435904570c8469511d9bfcab37b7b29faba23beb5c1dc7a3f30e04e27b38",
+    "kind": "本作原创AI棱彩漫画图标",
+    "generatedOriginalName": "exec-f6cee1ae-b4d8-4109-96fa-509222a1c4bc.png"
   }
 ]

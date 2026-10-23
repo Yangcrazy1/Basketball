@@ -181,6 +181,27 @@
       "height": 1254,
       "sha256": "9e84eabecaf2a4f1df3a4d063e29aaf183b5436bde4b27629ca227dfe2228222",
       "generatedOriginalName": "exec-53f0cfcc-18c9-491c-aa2c-c087a06dd2cc.png"
+    },
+    {
+      "asset": "portraits-v13-nba.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f46532c35180c7c6e63a681b3f17d966d844d1d2f0ce1f36f5f8af21b531a723",
+      "generatedOriginalName": "exec-2bf566f9-3960-4758-8499-f2d118a17f36.png"
+    },
+    {
+      "asset": "portraits-v13-public.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "c4ab174e3e9b273dc9bd50f7c4e3caefa0e7552149e5d58d3266b4626bdd8bbf",
+      "generatedOriginalName": "exec-6c31a632-f241-4594-b5c8-8a629641b97f.png"
+    },
+    {
+      "asset": "portraits-v13-duo.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "b7b225f8801590ea927d0741daf2136fed308c4043b212e3a91163ada3cc72e2",
+      "generatedOriginalName": "exec-550da47a-3723-46d8-b851-d2c8d26e3556.png"
     }
   ],
   "portraits": {
@@ -575,6 +596,46 @@
     "yaoshuige": {
       "sheet": 24,
       "cell": 2
+    },
+    "shai": {
+      "sheet": 26,
+      "cell": 0
+    },
+    "wilt": {
+      "sheet": 26,
+      "cell": 1
+    },
+    "xire": {
+      "sheet": 26,
+      "cell": 2
+    },
+    "wuyou": {
+      "sheet": 26,
+      "cell": 3
+    },
+    "yujie": {
+      "sheet": 27,
+      "cell": 0
+    },
+    "renzhengfei": {
+      "sheet": 27,
+      "cell": 1
+    },
+    "yuchengdong": {
+      "sheet": 27,
+      "cell": 2
+    },
+    "wangsicong": {
+      "sheet": 27,
+      "cell": 3
+    },
+    "nida": {
+      "sheet": 28,
+      "cell": 0
+    },
+    "yili": {
+      "sheet": 28,
+      "cell": 1
     }
   }
 }

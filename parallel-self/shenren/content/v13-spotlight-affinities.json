@@ -1,0 +1,567 @@
+{
+  "release": 13,
+  "mergeRule": "按 personId/questionId/behavior 与现有 answerAffinities 取逐项 max；保留未提及的旧亲和。只修改上下文亲和，不改题目、向量、行为、选项价值、曝光权重或显示分数。",
+  "scope": "6位热门角色，共66条语义复核的题目映射；包含每人原有2条，以便核对保留和扩展。",
+  "people": [
+    {
+      "personId": "fengge",
+      "basis": "本作峰哥角色：旅行好奇、在路上找当地人的故事、深聊和保留返程余地。只补旅行与访谈场景。",
+      "entries": [
+        {
+          "questionId": "v11-owner-fengge-0",
+          "affinities": {
+            "web-travel": 5,
+            "web-care": 4
+          },
+          "reason": "路边向摊主问故事，直接对应旅行访谈；顾及对方意愿是同一采访场景中的自然反应。"
+        },
+        {
+          "questionId": "v11-owner-fengge-1",
+          "affinities": {
+            "web-travel": 5,
+            "web-care": 4,
+            "web-watch": 3
+          },
+          "reason": "对方不出镜仍愿意聊天、听故事，匹配本作重交流而非只取镜头的旅行设定。"
+        },
+        {
+          "questionId": "abstract-social-3",
+          "affinities": {
+            "web-travel": 5,
+            "web-live": 4
+          },
+          "reason": "题干明确是峰哥式旅行群，约出发或把旅程讲成连续故事均与角色相符。"
+        },
+        {
+          "questionId": "abstract-social-7",
+          "affinities": {
+            "web-travel": 4,
+            "web-live": 3
+          },
+          "reason": "进城日常需要约路线、带队与记录；适合作为旅行人格的弱至中等证据，而非仅热场。"
+        },
+        {
+          "questionId": "abstract-explore-7",
+          "affinities": {
+            "web-travel": 5,
+            "web-original": 5
+          },
+          "reason": "去陌生街区、寻找当地人才知道的小故事，是好奇旅行与深聊最直接的选择。"
+        },
+        {
+          "questionId": "abstract-action-4",
+          "affinities": {
+            "web-travel": 5,
+            "web-live": 4
+          },
+          "reason": "朋友推荐新地方便动身，并边走边构思开场，属于旅行行动而非普通室内创作。"
+        },
+        {
+          "questionId": "abstract-order-5",
+          "affinities": {
+            "web-travel": 4,
+            "web-plan": 3
+          },
+          "reason": "只限旅行拍摄情境；临场探索较强，路线和返程安排给较弱亲和，不把一般计划偏好都算给峰哥。"
+        },
+        {
+          "questionId": "abstract-express-3",
+          "affinities": {
+            "web-travel": 4,
+            "web-original": 5,
+            "web-live": 4
+          },
+          "reason": "发现小店后写观察或讲成一集旅行日常，体现由见闻进入叙事的角色特点。"
+        },
+        {
+          "questionId": "v10-abstract-4",
+          "affinities": {
+            "web-travel": 5,
+            "web-watch": 3
+          },
+          "reason": "题干直接点名峰哥式好奇心；问当地故事或停下观察都发生在陌生小镇探索中。"
+        },
+        {
+          "questionId": "v10-abstract-8",
+          "affinities": {
+            "web-travel": 5,
+            "web-care": 4,
+            "web-edit": 3
+          },
+          "reason": "街头访谈中听故事、尊重不出镜及匿名剪辑都与具体采访行为相关，区别于泛化关心他人。"
+        },
+        {
+          "questionId": "v10-abstract-16",
+          "affinities": {
+            "web-travel": 4,
+            "web-plan": 3
+          },
+          "reason": "五人说走就走的旅程中，动身和查返程是旅行者的实际选择；不映射无关的工作计划题。"
+        },
+        {
+          "questionId": "v10-abstract-22",
+          "affinities": {
+            "web-travel": 5,
+            "web-edit": 4,
+            "web-live": 5
+          },
+          "reason": "旅行回来讲细节、剪遇见的人、对镜头讲全程，直接补足见闻输出的上下文证据。"
+        }
+      ]
+    },
+    {
+      "personId": "leijun",
+      "basis": "本作雷军角色：发布会开场、Are you OK旋律梗、面向镜头展示与将人带入现场。保留技术演示与普通直播的强度差。",
+      "entries": [
+        {
+          "questionId": "v11-owner-leijun-0",
+          "affinities": {
+            "web-live": 5,
+            "web-meme": 5,
+            "web-plan": 3
+          },
+          "reason": "明确的Are you OK开场题；接麦和全队副歌最直接，先对节拍仅给较弱加成。"
+        },
+        {
+          "questionId": "v11-owner-leijun-1",
+          "affinities": {
+            "web-live": 5,
+            "web-meme": 5,
+            "web-edit": 4
+          },
+          "reason": "洗脑开场继续副歌、记录幕后或剪成提示音，都紧接原梗而非任意唱歌。"
+        },
+        {
+          "questionId": "v10-abstract-3",
+          "affinities": {
+            "web-live": 5,
+            "web-punchline": 4
+          },
+          "reason": "题干明确是雷军式Are you OK开场，拿麦带前奏或拉队友练开场是角色本梗。"
+        },
+        {
+          "questionId": "abstract-explore-10",
+          "affinities": {
+            "web-cover": 4,
+            "web-edit": 4,
+            "web-original": 3
+          },
+          "reason": "把普通提示音哼唱、配动作、改成作品，与洗脑旋律二创关联；并非所有探索题都加分。"
+        },
+        {
+          "questionId": "abstract-express-12",
+          "affinities": {
+            "web-live": 4
+          },
+          "reason": "第一场直播用音乐正式开播，符合本作带BGM开场的雷军形象，但不等同专属Are you OK故给4。"
+        },
+        {
+          "questionId": "abstract-social-4",
+          "affinities": {
+            "web-live": 3
+          },
+          "reason": "为拍摄招齐演员、摄影与气氛组，是发布会式组局能力的弱证据；不奖励安静围观。"
+        },
+        {
+          "questionId": "abstract-action-9",
+          "affinities": {
+            "web-meme": 4,
+            "web-live": 3
+          },
+          "reason": "突然被递麦仍能接熟悉梗或把现场带起来，对应雷军开场接唱的本作表现。"
+        },
+        {
+          "questionId": "abstract-express-4",
+          "affinities": {
+            "web-live": 4,
+            "web-punchline": 3
+          },
+          "reason": "镜头一开完整讲述或以小失误破冰，适合发布会式展示与自嘲开场，强度低于专属场景。"
+        },
+        {
+          "questionId": "abstract-express-11",
+          "affinities": {
+            "web-live": 3,
+            "web-punchline": 3
+          },
+          "reason": "账号介绍也想直接拍一期，是把自我介绍做成展示的弱线索，避免把所有表达行为一律给5。"
+        },
+        {
+          "questionId": "v13-owner-yuchengdong-4",
+          "affinities": {
+            "web-pitch": 3,
+            "web-plan": 3
+          },
+          "reason": "同为产品发布会语境，把口号配演示或梳理问答可与雷军相符；保留余承东本人题更强的原有亲和。"
+        }
+      ]
+    },
+    {
+      "personId": "lebron",
+      "basis": "本作詹姆斯角色：串联阵容、带动全队、关键时刻推进、争议判罚与大场面表情梗。",
+      "entries": [
+        {
+          "questionId": "v11-owner-lebron-0",
+          "affinities": {
+            "nba-emotion": 5,
+            "nba-show": 4,
+            "nba-team": 4
+          },
+          "reason": "判罚摊手与表情是勒邦名场面；把队友拉回下一球则体现同一情境中的带队反应。"
+        },
+        {
+          "questionId": "v11-owner-lebron-1",
+          "affinities": {
+            "nba-emotion": 5,
+            "nba-show": 5,
+            "nba-team": 4
+          },
+          "reason": "题干直接谈表情抢镜，保留大场面也把队友拉回防守的镜头，均与角色设定吻合。"
+        },
+        {
+          "questionId": "basket-social-3",
+          "affinities": {
+            "nba-team": 4,
+            "nba-show": 3
+          },
+          "reason": "作为临时队长介绍队友特点、带入场音乐，是串联阵容与带动场面的具体组织动作。"
+        },
+        {
+          "questionId": "basket-social-4",
+          "affinities": {
+            "nba-show": 5,
+            "nba-team": 3
+          },
+          "reason": "题干直接给勒邦詹氏外号，跪地表情和首发海报是本作本人梗；给队友分外号只算弱团队线索。"
+        },
+        {
+          "questionId": "basket-social-6",
+          "affinities": {
+            "nba-team": 4,
+            "nba-show": 3
+          },
+          "reason": "赢球后主动拉齐队友合照，符合球队中心的串联；C位搞笑姿势保留较弱的大场面线索。"
+        },
+        {
+          "questionId": "basket-empathy-1",
+          "affinities": {
+            "nba-emotion": 5,
+            "nba-team": 4
+          },
+          "reason": "题干明确模仿勒邦漏判跪地；接住情绪或把人拉起继续打，比泛化安慰更贴近此梗。"
+        },
+        {
+          "questionId": "basket-empathy-12",
+          "affinities": {
+            "nba-team": 4
+          },
+          "reason": "输球后明确一起承担输赢，是带队串联的场景证据；不把沉默、私聊等其他情绪反应全划给詹。"
+        },
+        {
+          "questionId": "basket-action-6",
+          "affinities": {
+            "nba-drive": 4,
+            "nba-team": 4
+          },
+          "reason": "突破吸引防守或先给队友机会，体现推进和传球之间的组织选择。"
+        },
+        {
+          "questionId": "basket-action-7",
+          "affinities": {
+            "nba-drive": 5,
+            "nba-team": 4,
+            "nba-show": 3
+          },
+          "reason": "暂停后带队跑起来、喊位置，对应推进和带动全队；单纯演大戏只给较弱加成。"
+        },
+        {
+          "questionId": "basket-express-2",
+          "affinities": {
+            "nba-emotion": 5
+          },
+          "reason": "争议哨后的不理解表情与膝盖反应直接对应用户指定的勒邦名场面。"
+        },
+        {
+          "questionId": "basket-express-12",
+          "affinities": {
+            "nba-team": 4,
+            "nba-clutch": 3
+          },
+          "reason": "冠军发言强调队伍或继续承担关键球，契合本作带队与大场面，但不用此泛题取代专属梗。"
+        },
+        {
+          "questionId": "v10-basket-0",
+          "affinities": {
+            "nba-plan": 4,
+            "nba-team": 3
+          },
+          "reason": "持球太久时招呼队友跑位或提醒传球，是具体球权组织线索，区别于旁观热评。"
+        }
+      ]
+    },
+    {
+      "personId": "curry",
+      "basis": "本作库里角色：外线射程、尝试远投的新角度、晚安手势与轻松幽默的投篮表达。",
+      "entries": [
+        {
+          "questionId": "v11-owner-curry-0",
+          "affinities": {
+            "nba-three": 5,
+            "nba-show": 4
+          },
+          "reason": "停车场三分线为专属射程梗；安全远投想象或借位镜头都直接回应这道题。"
+        },
+        {
+          "questionId": "v11-owner-curry-1",
+          "affinities": {
+            "nba-three": 5,
+            "nba-show": 4,
+            "nba-train": 3
+          },
+          "reason": "远投之后尝试再远一点、摆晚安或巩固当前距离，均发生在外线命中后的具体情境。"
+        },
+        {
+          "questionId": "basket-social-5",
+          "affinities": {
+            "nba-three": 5,
+            "nba-show": 4
+          },
+          "reason": "裤衩子与停车场射程均是库里梗，试三分和宣布新投篮点更直接，未把一般喂球都给他。"
+        },
+        {
+          "questionId": "basket-explore-1",
+          "affinities": {
+            "nba-three": 5,
+            "nba-show": 5
+          },
+          "reason": "题干直接指定库里停车场投篮，外扩距离和用停车位接梗都高度契合。"
+        },
+        {
+          "questionId": "basket-explore-6",
+          "affinities": {
+            "nba-three": 4
+          },
+          "reason": "后撤步中真正选择拉开空间投篮，吻合外线创造出手；不映射只学哈登外观或空退三步。"
+        },
+        {
+          "questionId": "basket-explore-7",
+          "affinities": {
+            "nba-three": 5
+          },
+          "reason": "选项直接写库里式超远手感，是明确的能力偏好，其他球星选项保持不映射。"
+        },
+        {
+          "questionId": "basket-explore-10",
+          "affinities": {
+            "nba-three": 5
+          },
+          "reason": "30号与三分信仰直接对应库里，24号训练和其他入场节目不会混算。"
+        },
+        {
+          "questionId": "basket-action-3",
+          "affinities": {
+            "nba-three": 5
+          },
+          "reason": "无人防守时抓住手感直接投甚至忘记站得远，是本作外线出手的具体行动反应。"
+        },
+        {
+          "questionId": "basket-express-1",
+          "affinities": {
+            "nba-three": 5,
+            "nba-show": 3
+          },
+          "reason": "三分命中做晚安手势是本人梗；全套表情只作为较弱的投后展示，不奖励纯粹沉默回防。"
+        },
+        {
+          "questionId": "v11-sample-5",
+          "affinities": {
+            "nba-three": 4
+          },
+          "reason": "连续打铁仍以退远两步试手感回应，与夸张射程和投篮幽默一致，未把其他训练/抢板都算作库里。"
+        }
+      ]
+    },
+    {
+      "personId": "kobe",
+      "basis": "本作科比角色：训练投入、把投篮和脚步练扎实、最后一球不躲、复盘转化为加练。",
+      "entries": [
+        {
+          "questionId": "v11-owner-kobe-0",
+          "affinities": {
+            "nba-train": 5,
+            "nba-clutch": 4
+          },
+          "reason": "打铁后主动留下练顺动作或认真投最后几球，是直接的加练与进攻决心。"
+        },
+        {
+          "questionId": "v11-owner-kobe-1",
+          "affinities": {
+            "nba-train": 5,
+            "nba-plan": 4
+          },
+          "reason": "把鞋放门口早起练球或给自己定可完成目标，直接对应训练承诺而非只发闹钟热场。"
+        },
+        {
+          "questionId": "basket-social-2",
+          "affinities": {
+            "nba-train": 5
+          },
+          "reason": "题干点名老大凌晨四点练球，自己早到、拉熟人加练、全队出勤均是明确训练选择。"
+        },
+        {
+          "questionId": "basket-explore-7",
+          "affinities": {
+            "nba-train": 5
+          },
+          "reason": "选项直接选择科比反复练球的劲，是本人训练梗的强上下文证据。"
+        },
+        {
+          "questionId": "basket-explore-10",
+          "affinities": {
+            "nba-train": 5
+          },
+          "reason": "选24号提醒自己练球与科比号码和训练意象直接关联，不奖励选30的三分偏好。"
+        },
+        {
+          "questionId": "basket-action-2",
+          "affinities": {
+            "nba-train": 5
+          },
+          "reason": "老大训练闹钟响后实际动身去球场，体现行动而非只在口头安排未来练习。"
+        },
+        {
+          "questionId": "basket-action-9",
+          "affinities": {
+            "nba-train": 4
+          },
+          "reason": "接受老球友的基本功训练并完成一轮，是扎实加练的相关线索，强度低于点名科比的题。"
+        },
+        {
+          "questionId": "basket-order-2",
+          "affinities": {
+            "nba-train": 5
+          },
+          "reason": "题干明确学科比认真劲，固定训练、脚步与休息安排均与该训练角色一致。"
+        },
+        {
+          "questionId": "basket-order-6",
+          "affinities": {
+            "nba-train": 3,
+            "nba-clutch": 4
+          },
+          "reason": "为最后一球多投熟悉位置或练常用出手，连接重复训练与关键回合，保留较弱的一般加练权重。"
+        },
+        {
+          "questionId": "basket-order-9",
+          "affinities": {
+            "nba-train": 4,
+            "nba-plan": 3
+          },
+          "reason": "面对基本动作无聊仍反复练实用动作，符合训练耐心；计划偏好只有弱相关。"
+        },
+        {
+          "questionId": "basket-express-3",
+          "affinities": {
+            "nba-train": 5,
+            "nba-clutch": 4
+          },
+          "reason": "看科比回放后决定明天练或解释关键球难度，是将具体本人回放转成训练与进攻理解。"
+        },
+        {
+          "questionId": "basket-express-9",
+          "affinities": {
+            "nba-train": 4,
+            "nba-clutch": 3
+          },
+          "reason": "进球封面选择看清动作或最后出手瞬间，体现动作与进攻细节，弱于真正的训练行为。"
+        }
+      ]
+    },
+    {
+      "personId": "jordan",
+      "basis": "本作乔丹角色：竞争好胜、关键回合自己承担、主见与进攻决心；不借无关的纯训练或玩笑选项刷分。",
+      "entries": [
+        {
+          "questionId": "v11-owner-jordan-0",
+          "affinities": {
+            "nba-clutch": 5,
+            "nba-drive": 4
+          },
+          "reason": "最后一投主动接球并稳呼吸，或向内突破争取更近位置，直接体现关键回合承担。"
+        },
+        {
+          "questionId": "v11-owner-jordan-1",
+          "affinities": {
+            "nba-clutch": 5,
+            "nba-train": 3
+          },
+          "reason": "被说没压力时仍要求下回再给球，是竞争回应；提及平时练过只给较弱支撑。"
+        },
+        {
+          "questionId": "basket-action-1",
+          "affinities": {
+            "nba-clutch": 5,
+            "nba-drive": 4
+          },
+          "reason": "最后一攻面前有空位时果断出手或突破，是进攻主见的具体决定。"
+        },
+        {
+          "questionId": "basket-action-6",
+          "affinities": {
+            "nba-clutch": 5,
+            "nba-drive": 3
+          },
+          "reason": "机会即将消失时坚持这一球自己来，是本作好胜关键球人格；先突破吸引防守只是弱补充。"
+        },
+        {
+          "questionId": "basket-order-6",
+          "affinities": {
+            "nba-clutch": 5
+          },
+          "reason": "为了最后一球固定练几种出手，直接服务关键回合的赢球目标，不把所有计划答案都映射。"
+        },
+        {
+          "questionId": "basket-order-10",
+          "affinities": {
+            "nba-plan": 3
+          },
+          "reason": "赛后写能改之处或安排检验，符合将问题转成下一场竞争准备；属于弱相关而非名场面强证据。"
+        },
+        {
+          "questionId": "basket-express-9",
+          "affinities": {
+            "nba-clutch": 4
+          },
+          "reason": "选择最后出手那一刻作为封面，突出承担进攻决定的瞬间，不把纯海报表情当作好胜。"
+        },
+        {
+          "questionId": "basket-express-12",
+          "affinities": {
+            "nba-clutch": 5
+          },
+          "reason": "夺冠后仍说下一场关键球还敢接，直接延续竞争与承担，不映射泛化获奖感言。"
+        },
+        {
+          "questionId": "basket-explore-5",
+          "affinities": {
+            "nba-dunk": 4
+          },
+          "reason": "观看扣篮后真正尝试上篮变化或练扣篮动作，与本作进攻探索相符，区别于只挑BGM。"
+        },
+        {
+          "questionId": "basket-action-11",
+          "affinities": {
+            "nba-dunk": 3
+          },
+          "reason": "朋友问敢不敢时愿意实际尝试完成进攻动作，可作进攻决心的弱证据，避免覆盖更直接的扣篮角色。"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "强度5留给直接本人梗或明确能力选择，4为清晰角色行为，3为相邻场景的弱支持。",
+    "任何被映射行为都必须实际出现在对应启用题的选项中，并且题目与人物属于同一板块。",
+    "同一行为在别的无关题中不会继承此亲和。",
+    "理由描述本作娱乐角色，不作为对真人性格的心理判断。"
+  ]
+}

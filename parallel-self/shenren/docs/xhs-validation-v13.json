@@ -1,0 +1,49 @@
+{
+  "status": "static_checks_passed_native_acceptance_pending",
+  "zip": {
+    "bytes": 7886627,
+    "sha256": "54929e09e98f85c7c16ed167676cca817e928243084c882edd6613ff1dd648a9"
+  },
+  "zipFiles": 79,
+  "zipRootEntry": "index.html",
+  "auditDirectory": "WARN: data.js text file 2.05 MiB; manually reviewed finite question pool and frozen history snapshots. PASS: 79 files, 1 warning",
+  "auditZip": "WARN: ZIP 7.52 MiB exceeds 2 MiB recommendation; data.js 2.05 MiB. PASS: 79 files, 2 warnings; below 10 MiB hard limit",
+  "javascript": "Acorn ES2017 parse: all four packaged scripts passed",
+  "APIContract": {
+    "baseline": "skill js-api.md 2026-09-23",
+    "onlineURL": "https://miniapp-sandbox.xiaohongshu.com/minitool/doc",
+    "onlineChecked": "2026-10-24",
+    "onlineSha256": "ec9a46746cf6570136e91def7445db9acbeafd132ac2e714fe6ed11b12f3363b",
+    "used": [
+      "getStorage",
+      "setStorage",
+      "removeStorage",
+      "getLaunchOptions",
+      "getWindowInfo",
+      "writeTempFile",
+      "saveImageToPhotosAlbum"
+    ],
+    "nativeBrowserMock": "temporary file then album save, no download anchor; contract simulation only"
+  },
+  "compatibility": {
+    "script": "external classic scripts only",
+    "network": "all runtime assets local; no fetch/XHR",
+    "CSS": "grid-gap, flex gap behavioral probe/margin fallback, ratio boxes, safe area fallback",
+    "performance": "bounded 57 people / 207-card catalog; on-demand image sheets pruned after view changes; actual device performance unmeasured"
+  },
+  "pending": [
+    "创服平台模拟器完整功能验证",
+    "Android 真机扫码验证相同 ZIP",
+    "iOS 真机扫码验证相同 ZIP",
+    "Chrome 61 CSS 与真实设备性能实测"
+  ],
+  "manualTextReview": {
+    "dataBytes": 2147007,
+    "cause": "Current bounded 57-person/428-question/207-card dataset and two frozen score/history engines require corresponding data snapshots. No scraped logs, full database or encoded seed archive.",
+    "optimization": "No unused home branding; native atlas copies downscaled to 960/1024 pixels at quality 82 while retaining all old mappings. Lists render by theme/owner and images load on demand.",
+    "devicePerformance": "unmeasured"
+  },
+  "portraitReferenceNote": "All current avatars have checked source bytes/mappings. nida and yili use officially linked public avatar references; not an independent verification of both faces.",
+  "schemaVersion": 12,
+  "releaseVersion": 13
+}

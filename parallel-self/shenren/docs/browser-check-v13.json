@@ -1,0 +1,125 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "id": "intro",
+      "text": "three new story pages, collapsed replay, small entry and five responsive widths"
+    },
+    {
+      "id": "new-art",
+      "text": "new logo, mirrored-universe cover and opening comic are packaged as actual images"
+    },
+    {
+      "id": "replay-palette",
+      "text": "opening can be replayed every visit and from header; collapsed story and palette persistence"
+    },
+    {
+      "id": "collector",
+      "text": "Collector effect restores four teammates leading to a Collector-only shop, with five real icon copies"
+    },
+    {
+      "id": "catalog",
+      "text": "dynamic expanded roster counts, resolved aliases, no placeholder portraits, nested back and restored scroll"
+    },
+    {
+      "id": "new-cast",
+      "text": "all requested basketball/abstract additions are searchable in the right theme with portraits, four setting fragments and three exclusive cards"
+    },
+    {
+      "id": "cards",
+      "text": "all expanded cards browseable, owner filter and innate-gift evidence distinction preserved"
+    },
+    {
+      "id": "automatic-advance",
+      "text": "sample chapter, automatic advance, stale double-tap protection and back-edit still work"
+    },
+    {
+      "id": "reveal-portraits",
+      "text": "three distinct loaded theme backgrounds reveal the matched portrait at least 60% of scene width at four mobile widths; result portraits remain enlarged"
+    },
+    {
+      "id": "quiz",
+      "text": "all nine theme/count flows complete, show raw match evidence, and keep popularity priority within the answer-related score boundary"
+    },
+    {
+      "id": "posters",
+      "text": "custom lineup, independent team-name reroll/history persistence and both real 1080×1920 PNG exports"
+    },
+    {
+      "id": "html-download",
+      "text": "online HTML download is exactly the full current self-contained artifact"
+    },
+    {
+      "id": "v10-history",
+      "text": "old schema 10 record keeps frozen-engine identity, original custom squad and saved team name"
+    },
+    {
+      "id": "v11-history",
+      "text": "old schema 11 record keeps frozen-engine identity, original custom squad and saved team name"
+    },
+    {
+      "id": "standalone-squad",
+      "text": "self-selected five-person squad saves its distinct members/name and exports PNG without a quiz"
+    },
+    {
+      "id": "offline",
+      "text": "full standalone HTML runs with network/storage unavailable and completes a real eight-question quiz"
+    },
+    {
+      "id": "native-web-fallback",
+      "text": "staged XHS no-SDK web fallback loads local assets; platform/device acceptance remains pending"
+    },
+    {
+      "id": "native-contract",
+      "text": "mock SDK integration saves team poster via temporary file then explicit album button, not a browser download"
+    },
+    {
+      "id": "runtime-clean",
+      "text": "no page JavaScript exceptions, HTTP failures or external runtime resource requests"
+    }
+  ],
+  "checkIds": [
+    "intro",
+    "new-art",
+    "replay-palette",
+    "collector",
+    "catalog",
+    "new-cast",
+    "cards",
+    "automatic-advance",
+    "reveal-portraits",
+    "quiz",
+    "posters",
+    "html-download",
+    "v10-history",
+    "v11-history",
+    "standalone-squad",
+    "offline",
+    "native-web-fallback",
+    "native-contract",
+    "runtime-clean"
+  ],
+  "count": 19,
+  "viewport": "393×852 Chromium mobile viewport; not physical phone or XHS platform acceptance",
+  "layoutWidths": [
+    320,
+    360,
+    393,
+    430,
+    1280
+  ],
+  "html_sha256": "45607d47c4ae1ed900196d7ef288bd321af89af67dc25967cfe20d410db51f22",
+  "enabledPeople": 57,
+  "byThemePeople": {
+    "lol": 21,
+    "basket": 18,
+    "abstract": 18
+  },
+  "cards": 207,
+  "revealBackgroundSHA256": {
+    "lol": "6205ebb82c412b2c27c2b769d6c3bfd518e94337f9c3a9c210c5c9169550e18d",
+    "basket": "239df3b91df555ef9ddc2aab3635b9185da6282f59b26732fdd5b508485521c6",
+    "abstract": "b9b3e490d9e95a49e3f4e03053750bf9c6be770dae85e4fc2604a561ce43ce44"
+  },
+  "pendingAvatars": []
+}

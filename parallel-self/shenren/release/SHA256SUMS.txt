@@ -2,3 +2,8 @@
 1356aa48b1cd7aee24de14d8fd1613727433171b78c86c31d0fb01c2edcd20a1  release/world-another-me-v10-xhs.zip
 2a593dde04ef0fb3d3bc368459609378c743cd2617515f378a11df9209cb68dc  assets/branding/logo.png
 812b9bd2982eb4d826e922089442e922560a0912920a959366b10ebf66534a20  assets/branding/cover.png
+45607d47c4ae1ed900196d7ef288bd321af89af67dc25967cfe20d410db51f22  release/world-another-me-v13.html
+2e36a0a8cb8bbb014ae7dad68347e97b4715aab9c34a6a0f2fa97ab7e6bbd7e5  release/world-another-me-v13-web.zip
+54929e09e98f85c7c16ed167676cca817e928243084c882edd6613ff1dd648a9  release/world-another-me-v13-xhs.zip
+3cef8ec1a4474921fd02dd72bcb50e5985cb52f85c53f7008b1c4d04c6f552f5  assets/branding/logo-v13.png
+1a4cfe52975d58176e6e0495eaa2fe743109ea44c11210a6abdeb0e37752936e  assets/branding/cover-v13.png

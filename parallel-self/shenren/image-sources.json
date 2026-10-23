@@ -1477,5 +1477,185 @@
       "cell": 0
     },
     "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "shai",
+    "name": "亚历山大",
+    "asset": "v13-references/shai.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Shai_Gilgeous-Alexander",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/2023-08-09_Deutschland_gegen_Kanada_%28Basketball-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93109.jpg/500px-2023-08-09_Deutschland_gegen_Kanada_%28Basketball-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93109.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "sha256": "ae68251130079760455ba5e0dd82215c85fdbea9411979122940a701eca5a77e",
+    "verifiedReference": true,
+    "faceVerified": true,
+    "kind": "已核对照片原型的漫画再创作",
+    "rights": "公开照片仅作原型参考；具体图片授权与人物权益需按源页核实，不代表本人背书。",
+    "note": "加拿大队红色球衣、黑色发带，保留五官与发型；不取队旗或编辑图标。",
+    "atlas": {
+      "sheet": 26,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "wilt",
+    "name": "张伯伦",
+    "asset": "v13-references/wilt.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Wilt_Chamberlain",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Wilt_Chamberlain_1960_%28cropped%29_%28cropped%29.jpg/500px-Wilt_Chamberlain_1960_%28cropped%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "sha256": "4322098338b7b3c8a74cf08019ad6d71086cfbe595fbac76f380ce5576419486",
+    "verifiedReference": true,
+    "faceVerified": true,
+    "kind": "已核对照片原型的漫画再创作",
+    "rights": "公开照片仅作原型参考；具体图片授权与人物权益需按源页核实，不代表本人背书。",
+    "note": "1960年青年肖像，PHILA13号，短发与小胡须；可作经典篮球时期原型。",
+    "atlas": {
+      "sheet": 26,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "xire",
+    "name": "西热力江",
+    "asset": "v13-references/xire.image",
+    "sourcePage": "https://k.sina.com.cn/article_1352367147_509b7c2b00101jzo6.html",
+    "imageUrl": "https://n.sinaimg.cn/sinakd20109/399/w1280h719/20260515/ee64-bb2559a6a3fd7a4cd0d0d5ef1f6b760a.jpg",
+    "sha256": "397a9fc3ec5bea0d003a4960f5a487f48b09c31179184fd705832e5bfc554592",
+    "verifiedReference": true,
+    "faceVerified": true,
+    "kind": "已核对照片原型的漫画再创作",
+    "rights": "公开照片仅作原型参考；未将新闻照片视为商用授权或本人背书。",
+    "note": "青色西装黑色Polo，寸头、下巴浅胡须。画面中央本人，排除边缘旁人。",
+    "atlas": {
+      "sheet": 26,
+      "cell": 2
+    },
+    "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "wuyou",
+    "name": "吴悠",
+    "asset": "v13-references/wuyou.image",
+    "sourcePage": "https://k.sina.com.cn/article_6450484379_1807a949b02001dyoe.html",
+    "imageUrl": "https://k.sinaimg.cn/n/sinakd20260610s/505/w640h665/20260610/04e0-3f04d7f7f52b1a00e5a833f7420ed94c.jpg/w700d1q75cms.jpg?by=cms_fixed_width",
+    "sha256": "19a8ec2477478dbe841fab0f063d22d8c5fa76c1c86171f2b35ba0c3da33f975",
+    "verifiedReference": true,
+    "faceVerified": true,
+    "kind": "已核对照片原型的漫画再创作",
+    "rights": "公开照片仅作原型参考；未将新闻照片视为商用授权或本人背书。",
+    "note": "合影右侧/前景灰色无袖上衣男性为街球吴悠，保留高蓬黑色短发和面部；排除后方戴红帽眼镜的妻子。文章明确讲述吴悠街球生涯并说明夫妻合照。",
+    "atlas": {
+      "sheet": 26,
+      "cell": 3
+    },
+    "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "yujie",
+    "name": "东北雨姐",
+    "asset": "v13-references/yujie.image",
+    "sourcePage": "https://t.cj.sina.com.cn/articles/view/1956700750/74a0e24e04001f3ui",
+    "imageUrl": "https://n.sinaimg.cn/sinakd/sni/432/w1200h1632/20260928/7201-17922543babd603a73ef50c19d834244.jpg",
+    "sha256": "30915ea912443b1ec124bda22e11b091d63501dde1774ab459217ccee951194a",
+    "verifiedReference": true,
+    "faceVerified": true,
+    "kind": "已核对照片原型的漫画再创作",
+    "rights": "公开照片仅作原型参考；未将新闻照片视为商用授权或本人背书。",
+    "note": "白T短寸头，笑脸、壮实肩膀。新闻明确主体为东北雨姐；如需黑T经典风格可参考备选 yujie-2.image 的左侧本人。",
+    "atlas": {
+      "sheet": 27,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "renzhengfei",
+    "name": "任正非",
+    "asset": "v13-references/renzhengfei.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Ren_Zhengfei",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Ren_Zhengfei_%282016%29.jpg/500px-Ren_Zhengfei_%282016%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "sha256": "f358fddbef299c491d9c33ba36be17f4c057f48fb060ef49031d68fdcca71b2b",
+    "verifiedReference": true,
+    "faceVerified": true,
+    "kind": "已核对照片原型的漫画再创作",
+    "rights": "公开照片仅作原型参考；具体图片授权与人物权益需按源页核实，不代表本人背书。",
+    "note": "2016年正装正面照，蓝背景、蓝领带、侧分黑灰头发，保留面部年龄。",
+    "atlas": {
+      "sheet": 27,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "yuchengdong",
+    "name": "余承东",
+    "asset": "v13-references/yuchengdong.image",
+    "sourcePage": "https://www.huawei.com/en/executives/board-of-directors/yu-chengdong",
+    "imageUrl": "https://www-file.huawei.com/dam/asset/view/b5eece7fbe0545379dad0d10d22134a3.jpg",
+    "sha256": "42ae9c6874b8c36c55190ae52c069ef58e042298438d96d1a4856ff2b18bb8a5",
+    "verifiedReference": true,
+    "faceVerified": true,
+    "kind": "已核对照片原型的漫画再创作",
+    "rights": "华为官方发布的高管照片，仅作漫画原型核对；未声明获得任意商业改作许可或本人背书。",
+    "note": "华为官方高管页面明确标题Mr. Yu Chengdong (Richard Yu)，官方正面肖像：矩形细框眼镜、短黑发、下巴小痣、深灰西装和圆点领带。以官方肖像为准，不采用未核对的普通搜索缩略图。",
+    "atlas": {
+      "sheet": 27,
+      "cell": 2
+    },
+    "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "wangsicong",
+    "name": "王思聪",
+    "asset": "v13-references/wangsicong.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E7%8E%8B%E6%80%9D%E8%81%AA",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/9/9b/IG_WXZ_2018_Split_2.png!/fw/280?v=20220325133951",
+    "sha256": "12f9b45df58639810f3665ee053fef4f14f68eef859ea68d81548741df629e09",
+    "verifiedReference": true,
+    "faceVerified": true,
+    "kind": "已核对照片原型的漫画再创作",
+    "rights": "公开队照仅作人物原型参考，未确认图片商用授权或本人背书。",
+    "note": "2018 IG WXZ选手照，人物面容参考。网页另有热狗梗历史说明；此照片不是实际吃热狗名场面，若据此绘热狗动作应明确再创作。 以IG面孔参考原创吃热狗动作，不声称原型队照就是吃热狗原照。",
+    "atlas": {
+      "sheet": 27,
+      "cell": 3
+    },
+    "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "nida",
+    "name": "尼达 / 尼某",
+    "asset": "v13-references/nida.image",
+    "sourcePage": "https://www.douyin.com/user/MS4wLjABAAAAISHCKa7tFV_YyDtOzgVg7dMmdO08lio025kFo70GyyX-RcAd0vGr8yRTd9D1ll6K",
+    "imageUrl": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_b2745877fab8ea2295b85f26e9899c4e~c5_300x300.jpeg?from=2956013662",
+    "sha256": "ee188463f73a2d113ba4b4174178e85b7c1f7f9f8db0f1fbb4cd6d3c17a0618a",
+    "verifiedReference": true,
+    "faceVerified": false,
+    "kind": "公开本人账号头像姿态的漫画重绘",
+    "rights": "公开头像可见性不代表已获得照片商用/改作授权；不代表本人或平台背书。",
+    "note": "官方账号头像是车内穿黑色连帽外套的人，帽沿和侧身遮住大部分脸；可还原连帽姿态，不能据此编造已核实正面人脸。 保留公开头像的遮脸姿态，不声称已核对完整面容。",
+    "atlas": {
+      "sheet": 28,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "yili",
+    "name": "伊利 / 伊力Extar",
+    "asset": "v13-references/yili.image",
+    "sourcePage": "https://www.douyin.com/user/MS4wLjABAAAAyzC17PWDf29h1_RkAw6VdY31XTAYN-HWjM-1BFl30C8",
+    "imageUrl": "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_e14f63aeedc555d506ec41d15e9cb67f~c5_300x300.jpeg?from=2956013662",
+    "sha256": "2a24dfd4be2725324c4403a43498d38d65d91c3999071a0cc37f7c3331cb3176",
+    "verifiedReference": true,
+    "faceVerified": false,
+    "kind": "公开本人账号头像姿态的漫画重绘",
+    "rights": "公开头像可见性不代表已获得照片商用/改作授权；不代表本人或平台背书。",
+    "note": "官方账号头像为戴黑色毛线帽、黑色外套的近距离单人自拍，脸部清楚。",
+    "atlas": {
+      "sheet": 28,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-24"
   }
 ]

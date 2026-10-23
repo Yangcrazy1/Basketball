@@ -1,0 +1,233 @@
+{
+  "cards": [
+    {
+      "id": "v13-tmac-1",
+      "evidenceQuestionIds": [
+        "v13-owner-tmac-1",
+        "v13-owner-tmac-5"
+      ],
+      "behaviorRules": {
+        "mode": "answers",
+        "behaviors": [
+          "nba-clutch"
+        ],
+        "questionIds": [
+          "v13-owner-tmac-1",
+          "v13-owner-tmac-5"
+        ],
+        "identityOwner": null,
+        "note": "仅在本轮相关人物情境实际选中匹配行为时触发。"
+      }
+    },
+    {
+      "id": "v13-shaq-2",
+      "evidenceQuestionIds": [
+        "v13-owner-shaq-0",
+        "v13-owner-shaq-4"
+      ],
+      "behaviorRules": {
+        "mode": "answers",
+        "behaviors": [
+          "nba-train",
+          "nba-calm"
+        ],
+        "questionIds": [
+          "v13-owner-shaq-0",
+          "v13-owner-shaq-4"
+        ],
+        "identityOwner": null,
+        "note": "仅在本轮相关人物情境实际选中匹配行为时触发。"
+      },
+      "requires": [
+        "nba-train",
+        "nba-calm"
+      ],
+      "behaviorWeights": {
+        "nba-train": 5,
+        "nba-calm": 5
+      }
+    },
+    {
+      "id": "v13-yujie-2",
+      "evidenceQuestionIds": [
+        "v13-owner-yujie-2",
+        "v13-owner-yujie-5"
+      ],
+      "behaviorRules": {
+        "mode": "answers",
+        "behaviors": [
+          "web-cook",
+          "web-care"
+        ],
+        "questionIds": [
+          "v13-owner-yujie-2",
+          "v13-owner-yujie-5"
+        ],
+        "identityOwner": null,
+        "note": "仅在本轮相关人物情境实际选中匹配行为时触发。"
+      }
+    },
+    {
+      "id": "v13-trump-2",
+      "evidenceQuestionIds": [
+        "v13-owner-trump-1",
+        "v13-owner-trump-3"
+      ],
+      "behaviorRules": {
+        "mode": "answers",
+        "behaviors": [
+          "web-win",
+          "web-dance"
+        ],
+        "questionIds": [
+          "v13-owner-trump-1",
+          "v13-owner-trump-3"
+        ],
+        "identityOwner": null,
+        "note": "仅在本轮相关人物情境实际选中匹配行为时触发。"
+      },
+      "requires": [
+        "web-win",
+        "web-dance"
+      ],
+      "behaviorWeights": {
+        "web-win": 5,
+        "web-dance": 5
+      }
+    },
+    {
+      "id": "v13-jensen-2",
+      "evidenceQuestionIds": [
+        "v13-owner-jensen-1",
+        "v13-owner-jensen-4"
+      ],
+      "behaviorRules": {
+        "mode": "answers",
+        "behaviors": [
+          "web-compute",
+          "web-plan"
+        ],
+        "questionIds": [
+          "v13-owner-jensen-1",
+          "v13-owner-jensen-4"
+        ],
+        "identityOwner": null,
+        "note": "仅在本轮相关人物情境实际选中匹配行为时触发。"
+      }
+    },
+    {
+      "id": "v13-yili-2",
+      "evidenceQuestionIds": [
+        "v13-owner-yili-2",
+        "v13-owner-yili-4"
+      ],
+      "behaviorRules": {
+        "mode": "answers",
+        "behaviors": [
+          "web-duo-yili",
+          "web-care"
+        ],
+        "questionIds": [
+          "v13-owner-yili-2",
+          "v13-owner-yili-4"
+        ],
+        "identityOwner": null,
+        "note": "仅在本轮相关人物情境实际选中匹配行为时触发。"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "v13-owner-tmac-5",
+      "title": "本宇宙自设的“最美小腿奖”要剪一段得奖画面，你想怎么配？",
+      "options": [
+        {
+          "id": 0,
+          "text": "保留干拔进网的声音，奖杯给动作，感言少一点。"
+        }
+      ]
+    },
+    {
+      "id": "v13-owner-shaq-0",
+      "options": [
+        {
+          "id": 3,
+          "text": "安静到罚球线，按那套说明书动作先练几遍。"
+        }
+      ]
+    },
+    {
+      "id": "v13-owner-yujie-5",
+      "title": "饭点已经到了，开饭短片最后一镜怎么收才不让人继续饿着？",
+      "options": [
+        {
+          "id": 0,
+          "text": "五个人端碗拍一下就收工，带派两个字落在锅铲上。"
+        },
+        {
+          "id": 2,
+          "text": "留队友吃到第一口的反应，热饭先别等镜头。"
+        }
+      ]
+    },
+    {
+      "id": "v13-owner-trump-1",
+      "title": "赢字灯牌坏了一半，前奏响了，怎么用双手舞步把节目接下去？",
+      "options": [
+        {
+          "id": 0,
+          "text": "举起纸牌挥两下，让队友和观众一起喊起来。"
+        },
+        {
+          "id": 2,
+          "text": "换个临时双手舞步，留一拍给四个队友接上。"
+        }
+      ]
+    },
+    {
+      "id": "v13-owner-jensen-1",
+      "title": "显存快满了，五人海报还差一张脸；显卡、纸板和皮衣摆在面前，你最想试？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先保留五张清晰头像，关几层光效再试一个新演示。"
+        },
+        {
+          "id": 1,
+          "text": "用熟悉的低配方案稳定跑完，五个人都得留在画面里。"
+        },
+        {
+          "id": 2,
+          "text": "拍一段显存告急的幕后测试，合照先别漏人。"
+        },
+        {
+          "id": 3,
+          "text": "换个做法，把海报装饰简化得更精致。"
+        }
+      ]
+    },
+    {
+      "id": "v13-owner-yili-4",
+      "title": "搭档总在中间半句忘词，想让临时救场更顺又不像背课文，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "只约好谁起谁收；卡住就接半句，再把话还给他。"
+        },
+        {
+          "id": 2,
+          "text": "把容易忘的接话分段整理，约好一个提示动作。"
+        },
+        {
+          "id": 3,
+          "text": "停下来问他哪里卡住，拍下一条前把提示说好。"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "仅补足6张卡的第二条语义相关证据；不修改选项ID/behavior/value/signals、人物向量、权重或题目数量。",
+    "questions.options为按ID合并的文本patch，不能整段替换原options，否则会丢失计分字段。",
+    "卡牌新增nba-calm/web-dance仅为既有选项行为扩大真实触发，不创建新behavior，也不改变问卷计分。"
+  ]
+}
