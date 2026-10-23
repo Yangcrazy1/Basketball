@@ -28452,7 +28452,7 @@
           "tags": [
             "nba-train"
           ],
-          "value": 1
+          "value": 3
         },
         {
           "id": 1,
@@ -28461,7 +28461,7 @@
           "tags": [
             "nba-three"
           ],
-          "value": 2
+          "value": 3
         },
         {
           "id": 2,
@@ -28502,7 +28502,7 @@
           "tags": [
             "nba-plan"
           ],
-          "value": 1
+          "value": 3
         },
         {
           "id": 1,
@@ -28511,7 +28511,7 @@
           "tags": [
             "nba-emotion"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -28520,7 +28520,7 @@
           "tags": [
             "nba-calm"
           ],
-          "value": 3
+          "value": 1
         },
         {
           "id": 3,
@@ -28552,7 +28552,7 @@
           "tags": [
             "nba-team"
           ],
-          "value": 1
+          "value": 3
         },
         {
           "id": 1,
@@ -28561,7 +28561,7 @@
           "tags": [
             "nba-show"
           ],
-          "value": 2
+          "value": 1
         },
         {
           "id": 2,
@@ -28570,7 +28570,7 @@
           "tags": [
             "nba-safe"
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": 3,
@@ -28602,7 +28602,7 @@
           "tags": [
             "nba-plan"
           ],
-          "value": 1
+          "value": 2
         },
         {
           "id": 1,
@@ -28611,7 +28611,7 @@
           "tags": [
             "nba-clutch"
           ],
-          "value": 2
+          "value": 3
         },
         {
           "id": 2,
@@ -28620,7 +28620,7 @@
           "tags": [
             "nba-team"
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": 3,
@@ -28652,7 +28652,7 @@
           "tags": [
             "web-meme"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -28661,7 +28661,7 @@
           "tags": [
             "web-watch"
           ],
-          "value": 2
+          "value": 1
         },
         {
           "id": 2,
@@ -28670,7 +28670,7 @@
           "tags": [
             "web-live"
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": 3,
@@ -28679,7 +28679,7 @@
           "tags": [
             "web-plan"
           ],
-          "value": 4
+          "value": 2
         }
       ]
     },
@@ -28702,7 +28702,7 @@
           "tags": [
             "web-punchline"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -28711,7 +28711,7 @@
           "tags": [
             "web-edit"
           ],
-          "value": 2
+          "value": 3
         },
         {
           "id": 2,
@@ -28720,7 +28720,7 @@
           "tags": [
             "web-meme"
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": 3,
@@ -28729,7 +28729,7 @@
           "tags": [
             "web-care"
           ],
-          "value": 4
+          "value": 2
         }
       ]
     },
@@ -28752,7 +28752,7 @@
           "tags": [
             "web-plan"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -28761,7 +28761,7 @@
           "tags": [
             "web-care"
           ],
-          "value": 2
+          "value": 3
         },
         {
           "id": 2,
@@ -28779,7 +28779,7 @@
           "tags": [
             "web-live"
           ],
-          "value": 4
+          "value": 1
         }
       ]
     },
@@ -28802,7 +28802,7 @@
           "tags": [
             "web-watch"
           ],
-          "value": 1
+          "value": 2
         },
         {
           "id": 1,
@@ -28811,7 +28811,7 @@
           "tags": [
             "web-craft"
           ],
-          "value": 2
+          "value": 3
         },
         {
           "id": 2,
@@ -28820,7 +28820,7 @@
           "tags": [
             "web-care"
           ],
-          "value": 3
+          "value": 2
         },
         {
           "id": 3,
@@ -28829,7 +28829,7 @@
           "tags": [
             "web-live"
           ],
-          "value": 4
+          "value": 3
         }
       ]
     },
@@ -28853,7 +28853,7 @@
           "tags": [
             "nba-emotion"
           ],
-          "value": 1
+          "value": 3
         },
         {
           "id": 1,
@@ -28862,7 +28862,7 @@
           "tags": [
             "nba-team"
           ],
-          "value": 2
+          "value": 3
         },
         {
           "id": 2,
@@ -28871,7 +28871,7 @@
           "tags": [
             "nba-calm"
           ],
-          "value": 3
+          "value": 1
         },
         {
           "id": 3,
@@ -28904,7 +28904,7 @@
           "tags": [
             "nba-show"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -28913,7 +28913,7 @@
           "tags": [
             "nba-emotion"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -28922,7 +28922,7 @@
           "tags": [
             "nba-team"
           ],
-          "value": 3
+          "value": 2
         },
         {
           "id": 3,
@@ -28931,7 +28931,7 @@
           "tags": [
             "nba-calm"
           ],
-          "value": 4
+          "value": 1
         }
       ]
     },
@@ -28955,7 +28955,7 @@
           "tags": [
             "nba-clutch"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -28964,7 +28964,7 @@
           "tags": [
             "nba-three"
           ],
-          "value": 2
+          "value": 3
         },
         {
           "id": 2,
@@ -28973,7 +28973,7 @@
           "tags": [
             "nba-safe"
           ],
-          "value": 3
+          "value": 1
         },
         {
           "id": 3,
@@ -28982,7 +28982,7 @@
           "tags": [
             "nba-team"
           ],
-          "value": 4
+          "value": 3
         }
       ]
     },
@@ -29006,7 +29006,7 @@
           "tags": [
             "nba-clutch"
           ],
-          "value": 1
+          "value": 3
         },
         {
           "id": 1,
@@ -29015,7 +29015,7 @@
           "tags": [
             "nba-three"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -29057,7 +29057,7 @@
           "tags": [
             "nba-clutch"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -29066,7 +29066,7 @@
           "tags": [
             "nba-drive"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -29084,7 +29084,7 @@
           "tags": [
             "nba-safe"
           ],
-          "value": 4
+          "value": 1
         }
       ]
     },
@@ -29108,7 +29108,7 @@
           "tags": [
             "nba-clutch"
           ],
-          "value": 1
+          "value": 3
         },
         {
           "id": 1,
@@ -29126,7 +29126,7 @@
           "tags": [
             "nba-show"
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": 3,
@@ -29135,7 +29135,7 @@
           "tags": [
             "nba-calm"
           ],
-          "value": 4
+          "value": 1
         }
       ]
     },
@@ -29159,7 +29159,7 @@
           "tags": [
             "nba-train"
           ],
-          "value": 1
+          "value": 3
         },
         {
           "id": 1,
@@ -29168,7 +29168,7 @@
           "tags": [
             "nba-clutch"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -29186,7 +29186,7 @@
           "tags": [
             "nba-calm"
           ],
-          "value": 4
+          "value": 1
         }
       ]
     },
@@ -29210,7 +29210,7 @@
           "tags": [
             "nba-train"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -29219,7 +29219,7 @@
           "tags": [
             "nba-plan"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -29237,7 +29237,7 @@
           "tags": [
             "nba-show"
           ],
-          "value": 4
+          "value": 1
         }
       ]
     },
@@ -29261,7 +29261,7 @@
           "tags": [
             "nba-plan"
           ],
-          "value": 1
+          "value": 3
         },
         {
           "id": 1,
@@ -29270,7 +29270,7 @@
           "tags": [
             "nba-show"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -29279,7 +29279,7 @@
           "tags": [
             "nba-calm"
           ],
-          "value": 3
+          "value": 1
         },
         {
           "id": 3,
@@ -29288,7 +29288,7 @@
           "tags": [
             "nba-team"
           ],
-          "value": 4
+          "value": 2
         }
       ]
     },
@@ -29312,7 +29312,7 @@
           "tags": [
             "nba-show"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -29330,7 +29330,7 @@
           "tags": [
             "nba-emotion"
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": 3,
@@ -29339,7 +29339,7 @@
           "tags": [
             "nba-care"
           ],
-          "value": 4
+          "value": 3
         }
       ]
     },
@@ -29363,7 +29363,7 @@
           "tags": [
             "nba-emotion"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -29372,7 +29372,7 @@
           "tags": [
             "nba-plan"
           ],
-          "value": 2
+          "value": 3
         },
         {
           "id": 2,
@@ -29381,7 +29381,7 @@
           "tags": [
             "nba-calm"
           ],
-          "value": 3
+          "value": 1
         },
         {
           "id": 3,
@@ -29414,7 +29414,7 @@
           "tags": [
             "nba-emotion"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -29465,7 +29465,7 @@
           "tags": [
             "nba-team"
           ],
-          "value": 1
+          "value": 3
         },
         {
           "id": 1,
@@ -29474,7 +29474,7 @@
           "tags": [
             "nba-safe"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -29483,7 +29483,7 @@
           "tags": [
             "nba-plan"
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": 3,
@@ -29492,7 +29492,7 @@
           "tags": [
             "nba-show"
           ],
-          "value": 4
+          "value": 1
         }
       ]
     },
@@ -29516,7 +29516,7 @@
           "tags": [
             "nba-team"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -29534,7 +29534,7 @@
           "tags": [
             "nba-care"
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": 3,
@@ -29543,7 +29543,7 @@
           "tags": [
             "nba-calm"
           ],
-          "value": 4
+          "value": 3
         }
       ]
     },
@@ -29567,7 +29567,7 @@
           "tags": [
             "nba-show"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -29576,7 +29576,7 @@
           "tags": [
             "nba-emotion"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -29585,7 +29585,7 @@
           "tags": [
             "nba-care"
           ],
-          "value": 3
+          "value": 2
         },
         {
           "id": 3,
@@ -29594,7 +29594,7 @@
           "tags": [
             "nba-calm"
           ],
-          "value": 4
+          "value": 1
         }
       ]
     },
@@ -29618,7 +29618,7 @@
           "tags": [
             "nba-show"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -29627,7 +29627,7 @@
           "tags": [
             "nba-emotion"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -29636,7 +29636,7 @@
           "tags": [
             "nba-team"
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": 3,
@@ -29645,7 +29645,7 @@
           "tags": [
             "nba-calm"
           ],
-          "value": 4
+          "value": 1
         }
       ]
     },
@@ -29669,7 +29669,7 @@
           "tags": [
             "nba-three"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -29678,7 +29678,7 @@
           "tags": [
             "nba-show"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -29687,7 +29687,7 @@
           "tags": [
             "nba-safe"
           ],
-          "value": 3
+          "value": 1
         },
         {
           "id": 3,
@@ -29696,7 +29696,7 @@
           "tags": [
             "nba-team"
           ],
-          "value": 4
+          "value": 2
         }
       ]
     },
@@ -29720,7 +29720,7 @@
           "tags": [
             "nba-three"
           ],
-          "value": 1
+          "value": 3
         },
         {
           "id": 1,
@@ -29729,7 +29729,7 @@
           "tags": [
             "nba-show"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -29747,7 +29747,7 @@
           "tags": [
             "nba-team"
           ],
-          "value": 4
+          "value": 3
         }
       ]
     },
@@ -29771,7 +29771,7 @@
           "tags": [
             "nba-clutch"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -29798,7 +29798,7 @@
           "tags": [
             "nba-safe"
           ],
-          "value": 4
+          "value": 1
         }
       ]
     },
@@ -29822,7 +29822,7 @@
           "tags": [
             "nba-plan"
           ],
-          "value": 1
+          "value": 3
         },
         {
           "id": 1,
@@ -29831,7 +29831,7 @@
           "tags": [
             "nba-clutch"
           ],
-          "value": 2
+          "value": 3
         },
         {
           "id": 2,
@@ -29840,7 +29840,7 @@
           "tags": [
             "nba-show"
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": 3,
@@ -29849,7 +29849,7 @@
           "tags": [
             "nba-calm"
           ],
-          "value": 4
+          "value": 1
         }
       ]
     },
@@ -29873,7 +29873,7 @@
           "tags": [
             "web-meme"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -29882,7 +29882,7 @@
           "tags": [
             "web-live"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -29900,7 +29900,7 @@
           "tags": [
             "web-plan"
           ],
-          "value": 4
+          "value": 2
         }
       ]
     },
@@ -29924,7 +29924,7 @@
           "tags": [
             "web-meme"
           ],
-          "value": 1
+          "value": 3
         },
         {
           "id": 1,
@@ -29933,7 +29933,7 @@
           "tags": [
             "web-live"
           ],
-          "value": 2
+          "value": 3
         },
         {
           "id": 2,
@@ -29942,7 +29942,7 @@
           "tags": [
             "web-plan"
           ],
-          "value": 3
+          "value": 2
         },
         {
           "id": 3,
@@ -29951,7 +29951,7 @@
           "tags": [
             "web-watch"
           ],
-          "value": 4
+          "value": 2
         }
       ]
     },
@@ -29975,7 +29975,7 @@
           "tags": [
             "web-travel"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -29993,7 +29993,7 @@
           "tags": [
             "web-watch"
           ],
-          "value": 3
+          "value": 2
         },
         {
           "id": 3,
@@ -30002,7 +30002,7 @@
           "tags": [
             "web-plan"
           ],
-          "value": 4
+          "value": 2
         }
       ]
     },
@@ -30026,7 +30026,7 @@
           "tags": [
             "web-care"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -30053,7 +30053,7 @@
           "tags": [
             "web-plan"
           ],
-          "value": 4
+          "value": 2
         }
       ]
     },
@@ -30077,7 +30077,7 @@
           "tags": [
             "web-live"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -30086,7 +30086,7 @@
           "tags": [
             "web-meme"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -30104,7 +30104,7 @@
           "tags": [
             "web-plan"
           ],
-          "value": 4
+          "value": 2
         }
       ]
     },
@@ -30128,7 +30128,7 @@
           "tags": [
             "web-meme"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -30137,7 +30137,7 @@
           "tags": [
             "web-live"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -30146,7 +30146,7 @@
           "tags": [
             "web-punchline"
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": 3,
@@ -30155,7 +30155,7 @@
           "tags": [
             "web-care"
           ],
-          "value": 4
+          "value": 2
         }
       ]
     },
@@ -30179,7 +30179,7 @@
           "tags": [
             "web-care"
           ],
-          "value": 1
+          "value": 3
         },
         {
           "id": 1,
@@ -30188,7 +30188,7 @@
           "tags": [
             "web-meme"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -30197,7 +30197,7 @@
           "tags": [
             "web-plan"
           ],
-          "value": 3
+          "value": 2
         },
         {
           "id": 3,
@@ -30206,7 +30206,7 @@
           "tags": [
             "web-watch"
           ],
-          "value": 4
+          "value": 1
         }
       ]
     },
@@ -30230,7 +30230,7 @@
           "tags": [
             "web-care"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -30239,7 +30239,7 @@
           "tags": [
             "web-meme"
           ],
-          "value": 2
+          "value": 1
         },
         {
           "id": 2,
@@ -30248,7 +30248,7 @@
           "tags": [
             "web-live"
           ],
-          "value": 3
+          "value": 2
         },
         {
           "id": 3,
@@ -30257,7 +30257,7 @@
           "tags": [
             "web-watch"
           ],
-          "value": 4
+          "value": 3
         }
       ]
     },
@@ -30281,7 +30281,7 @@
           "tags": [
             "web-watch"
           ],
-          "value": 1
+          "value": 2
         },
         {
           "id": 1,
@@ -30290,7 +30290,7 @@
           "tags": [
             "web-craft"
           ],
-          "value": 2
+          "value": 3
         },
         {
           "id": 2,
@@ -30299,7 +30299,7 @@
           "tags": [
             "web-care"
           ],
-          "value": 3
+          "value": 2
         },
         {
           "id": 3,
@@ -30308,7 +30308,7 @@
           "tags": [
             "web-plan"
           ],
-          "value": 4
+          "value": 2
         }
       ]
     },
@@ -30332,7 +30332,7 @@
           "tags": [
             "web-watch"
           ],
-          "value": 1
+          "value": 3
         },
         {
           "id": 1,
@@ -30341,7 +30341,7 @@
           "tags": [
             "web-craft"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -30350,7 +30350,7 @@
           "tags": [
             "web-punchline"
           ],
-          "value": 3
+          "value": 1
         },
         {
           "id": 3,
@@ -30359,7 +30359,7 @@
           "tags": [
             "web-care"
           ],
-          "value": 4
+          "value": 3
         }
       ]
     },
@@ -30383,7 +30383,7 @@
           "tags": [
             "web-plan"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -30392,7 +30392,7 @@
           "tags": [
             "web-watch"
           ],
-          "value": 2
+          "value": 3
         },
         {
           "id": 2,
@@ -30410,7 +30410,7 @@
           "tags": [
             "web-live"
           ],
-          "value": 4
+          "value": 1
         }
       ]
     },
@@ -30434,7 +30434,7 @@
           "tags": [
             "web-plan"
           ],
-          "value": 1
+          "value": 2
         },
         {
           "id": 1,
@@ -30443,7 +30443,7 @@
           "tags": [
             "web-watch"
           ],
-          "value": 2
+          "value": 1
         },
         {
           "id": 2,
@@ -30452,7 +30452,7 @@
           "tags": [
             "web-care"
           ],
-          "value": 3
+          "value": 2
         },
         {
           "id": 3,
@@ -30485,7 +30485,7 @@
           "tags": [
             "web-care"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -30512,7 +30512,7 @@
           "tags": [
             "web-plan"
           ],
-          "value": 4
+          "value": 2
         }
       ]
     },
@@ -30536,7 +30536,7 @@
           "tags": [
             "web-punchline"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -30554,7 +30554,7 @@
           "tags": [
             "web-watch"
           ],
-          "value": 3
+          "value": 1
         },
         {
           "id": 3,
@@ -30596,7 +30596,7 @@
           "tags": [
             "web-meme"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -30605,7 +30605,7 @@
           "tags": [
             "web-punchline"
           ],
-          "value": 3
+          "value": 4
         },
         {
           "id": 3,
@@ -30614,7 +30614,7 @@
           "tags": [
             "web-care"
           ],
-          "value": 4
+          "value": 3
         }
       ]
     },
@@ -30647,7 +30647,7 @@
           "tags": [
             "web-meme"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -30689,7 +30689,7 @@
           "tags": [
             "web-live"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -30698,7 +30698,7 @@
           "tags": [
             "web-meme"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -30707,7 +30707,7 @@
           "tags": [
             "web-plan"
           ],
-          "value": 3
+          "value": 2
         },
         {
           "id": 3,
@@ -30716,7 +30716,7 @@
           "tags": [
             "web-care"
           ],
-          "value": 4
+          "value": 3
         }
       ]
     },
@@ -30740,7 +30740,7 @@
           "tags": [
             "web-meme"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -30749,7 +30749,7 @@
           "tags": [
             "web-live"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -30767,7 +30767,7 @@
           "tags": [
             "web-watch"
           ],
-          "value": 4
+          "value": 1
         }
       ]
     },
@@ -30791,7 +30791,7 @@
           "tags": [
             "web-care"
           ],
-          "value": 1
+          "value": 3
         },
         {
           "id": 1,
@@ -30800,7 +30800,7 @@
           "tags": [
             "web-live"
           ],
-          "value": 2
+          "value": 4
         },
         {
           "id": 2,
@@ -30809,7 +30809,7 @@
           "tags": [
             "web-plan"
           ],
-          "value": 3
+          "value": 2
         },
         {
           "id": 3,
@@ -30842,7 +30842,7 @@
           "tags": [
             "web-care"
           ],
-          "value": 1
+          "value": 4
         },
         {
           "id": 1,
@@ -30860,7 +30860,7 @@
           "tags": [
             "web-punchline"
           ],
-          "value": 3
+          "value": 2
         },
         {
           "id": 3,
@@ -30869,7 +30869,7 @@
           "tags": [
             "web-watch"
           ],
-          "value": 4
+          "value": 3
         }
       ]
     }
@@ -30925,7 +30925,51 @@
         "污渍",
         "Uzi"
       ],
-      "rosterOrder": 0
+      "rosterOrder": 0,
+      "answerAffinities": {
+        "hex-collector-0": {
+          "collector": 5,
+          "gold": 4
+        },
+        "hex-collector-1": {
+          "collector": 5,
+          "gold": 5,
+          "stack": 4
+        },
+        "hex-collector-3": {
+          "collector": 5,
+          "gold": 5,
+          "stack": 4
+        },
+        "rift-bro-flash-3": {
+          "calm": 5,
+          "explain": 4
+        },
+        "v11-water-0": {
+          "calm": 5,
+          "explain": 4
+        },
+        "v11-water-1": {
+          "calm": 5,
+          "explain": 4
+        },
+        "v11-water-2": {
+          "calm": 5,
+          "explain": 4
+        },
+        "v11-review-home-0": {
+          "calm": 5,
+          "explain": 4
+        },
+        "v11-review-home-1": {
+          "calm": 5,
+          "explain": 4
+        },
+        "v11-review-home-2": {
+          "calm": 5,
+          "explain": 4
+        }
+      }
     },
     {
       "id": "lol-xiaohu",
@@ -30991,7 +31035,77 @@
         "销户",
         "小虎"
       ],
-      "rosterOrder": 1
+      "rosterOrder": 1,
+      "answerAffinities": {
+        "rift-spring-0": {
+          "plan": 5,
+          "calm": 4,
+          "reset": 4
+        },
+        "rift-spring-1": {
+          "plan": 5,
+          "calm": 4,
+          "reset": 4
+        },
+        "rift-spring-3": {
+          "plan": 5,
+          "calm": 4,
+          "laugh": 5,
+          "chaos": 4,
+          "reset": 4
+        },
+        "rift-double-laugh-0": {
+          "plan": 5,
+          "calm": 4,
+          "laugh": 5,
+          "chaos": 4,
+          "reset": 4
+        },
+        "rift-double-laugh-1": {
+          "plan": 5,
+          "calm": 4,
+          "laugh": 5,
+          "chaos": 4
+        },
+        "rift-double-laugh-2": {
+          "plan": 5,
+          "calm": 4,
+          "laugh": 5,
+          "chaos": 4
+        },
+        "rift-double-laugh-3": {
+          "plan": 5,
+          "calm": 4,
+          "laugh": 5,
+          "chaos": 4,
+          "reset": 4
+        },
+        "v11-watchparty-0": {
+          "plan": 5,
+          "calm": 4,
+          "laugh": 5,
+          "chaos": 4,
+          "reset": 4
+        },
+        "v11-watchparty-1": {
+          "plan": 5,
+          "calm": 4,
+          "laugh": 5,
+          "chaos": 4,
+          "reset": 4
+        },
+        "v11-watchparty-3": {
+          "plan": 5,
+          "calm": 4,
+          "laugh": 5,
+          "chaos": 4,
+          "reset": 4
+        },
+        "v11-watchparty-2": {
+          "laugh": 5,
+          "chaos": 4
+        }
+      }
     },
     {
       "id": "lol-dasima",
@@ -31041,7 +31155,79 @@
       "aliases": [
         "大司马"
       ],
-      "rosterOrder": 10
+      "rosterOrder": 10,
+      "answerAffinities": {
+        "hex-office-0": {
+          "plan": 5,
+          "explain": 5,
+          "blame": 4
+        },
+        "hex-office-2": {
+          "plan": 5,
+          "explain": 5
+        },
+        "hex-office-3": {
+          "plan": 5,
+          "explain": 5,
+          "blame": 4
+        },
+        "hex-review-0": {
+          "plan": 5,
+          "explain": 5,
+          "blame": 4
+        },
+        "hex-review-1": {
+          "plan": 5,
+          "explain": 5,
+          "blame": 4
+        },
+        "hex-review-2": {
+          "plan": 5,
+          "explain": 5
+        },
+        "hex-review-3": {
+          "plan": 5,
+          "explain": 5,
+          "blame": 4
+        },
+        "v11-jungle-date-0": {
+          "plan": 5,
+          "explain": 5
+        },
+        "v11-jungle-date-1": {
+          "plan": 5,
+          "explain": 5,
+          "blame": 4
+        },
+        "v11-jungle-date-2": {
+          "plan": 5,
+          "explain": 5,
+          "blame": 4
+        },
+        "v11-jungle-date-3": {
+          "plan": 5,
+          "explain": 5
+        },
+        "v11-review-home-0": {
+          "plan": 5,
+          "explain": 5,
+          "blame": 4
+        },
+        "v11-review-home-1": {
+          "plan": 5,
+          "explain": 5,
+          "blame": 4
+        },
+        "v11-review-home-2": {
+          "plan": 5,
+          "explain": 5,
+          "blame": 4
+        },
+        "hex-office-1": {
+          "explain": 5,
+          "blame": 4
+        }
+      }
     },
     {
       "id": "lol-theshy",
@@ -31092,7 +31278,54 @@
         "Shy",
         "TheShy"
       ],
-      "rosterOrder": 3
+      "rosterOrder": 3,
+      "answerAffinities": {
+        "hex-range-1": {
+          "blame": 5,
+          "vision": 4
+        },
+        "v11-top-alone-1": {
+          "blame": 5,
+          "vision": 4,
+          "mechanics": 5,
+          "calm": 4,
+          "engage": 4
+        },
+        "v11-top-alone-2": {
+          "blame": 5,
+          "vision": 4
+        },
+        "hex-range-0": {
+          "mechanics": 5,
+          "calm": 4,
+          "engage": 4
+        },
+        "hex-range-2": {
+          "mechanics": 5,
+          "calm": 4,
+          "engage": 4
+        },
+        "rift-ig-memory-1": {
+          "mechanics": 5,
+          "calm": 4,
+          "engage": 4
+        },
+        "rift-ig-memory-2": {
+          "mechanics": 5,
+          "calm": 4,
+          "engage": 4
+        },
+        "v11-top-alone-0": {
+          "mechanics": 5,
+          "calm": 4,
+          "engage": 4
+        },
+        "v11-top-alone-3": {
+          "mechanics": 5,
+          "calm": 4,
+          "engage": 4
+        }
+      }
     },
     {
       "id": "lol-faker",
@@ -31139,7 +31372,80 @@
         "飞科",
         "Faker"
       ],
-      "rosterOrder": 6
+      "rosterOrder": 6,
+      "answerAffinities": {
+        "rift-galio-0": {
+          "calm": 5,
+          "mechanics": 5,
+          "plan": 4,
+          "vision": 5,
+          "protect": 4
+        },
+        "rift-galio-2": {
+          "calm": 5,
+          "mechanics": 5,
+          "plan": 4
+        },
+        "rift-galio-3": {
+          "calm": 5,
+          "mechanics": 5,
+          "plan": 4,
+          "vision": 5,
+          "protect": 4
+        },
+        "rift-worlds-party-1": {
+          "calm": 5,
+          "mechanics": 5,
+          "plan": 4
+        },
+        "rift-worlds-party-2": {
+          "calm": 5,
+          "mechanics": 5,
+          "plan": 4,
+          "vision": 5,
+          "protect": 4
+        },
+        "rift-worlds-party-3": {
+          "calm": 5,
+          "mechanics": 5,
+          "plan": 4,
+          "vision": 5,
+          "protect": 4
+        },
+        "v11-salary-0": {
+          "calm": 5,
+          "mechanics": 5,
+          "plan": 4,
+          "vision": 5,
+          "protect": 4
+        },
+        "v11-salary-1": {
+          "calm": 5,
+          "mechanics": 5,
+          "plan": 4
+        },
+        "v11-salary-2": {
+          "calm": 5,
+          "mechanics": 4,
+          "vision": 5,
+          "protect": 4
+        },
+        "v11-salary-3": {
+          "calm": 5,
+          "mechanics": 5,
+          "plan": 4,
+          "vision": 5,
+          "protect": 4
+        },
+        "rift-galio-1": {
+          "vision": 5,
+          "protect": 4
+        },
+        "rift-worlds-party-0": {
+          "vision": 5,
+          "protect": 4
+        }
+      }
     },
     {
       "id": "lol-clearlove",
@@ -31185,7 +31491,67 @@
       "aliases": [
         "厂长"
       ],
-      "rosterOrder": 11
+      "rosterOrder": 11,
+      "answerAffinities": {
+        "hex-office-1": {
+          "plan": 5,
+          "vision": 4,
+          "protect": 4
+        },
+        "hex-office-2": {
+          "plan": 5,
+          "vision": 4,
+          "protect": 4
+        },
+        "hex-office-3": {
+          "plan": 5,
+          "vision": 4,
+          "protect": 4
+        },
+        "v11-netcafe-1": {
+          "plan": 5,
+          "vision": 4,
+          "gold": 5,
+          "engage": 4
+        },
+        "v11-jungle-date-0": {
+          "plan": 5,
+          "vision": 4,
+          "protect": 4
+        },
+        "v11-jungle-date-1": {
+          "plan": 5,
+          "vision": 4,
+          "protect": 4,
+          "gold": 5,
+          "engage": 4
+        },
+        "v11-jungle-date-2": {
+          "plan": 5,
+          "vision": 4,
+          "gold": 5,
+          "engage": 4
+        },
+        "v11-jungle-date-3": {
+          "plan": 5,
+          "vision": 4,
+          "protect": 4
+        },
+        "hex-office-0": {
+          "plan": 5,
+          "protect": 4
+        },
+        "v11-netcafe-0": {
+          "plan": 5,
+          "protect": 4,
+          "gold": 5,
+          "engage": 4
+        },
+        "v11-netcafe-2": {
+          "plan": 5,
+          "protect": 4
+        }
+      }
     },
     {
       "id": "lol-jackeylove",
@@ -31239,7 +31605,79 @@
         "阿水",
         "JackeyLove"
       ],
-      "rosterOrder": 2
+      "rosterOrder": 2,
+      "answerAffinities": {
+        "rift-bro-flash-0": {
+          "engage": 5,
+          "flash": 4,
+          "calm": 5,
+          "plan": 4
+        },
+        "rift-bro-flash-2": {
+          "engage": 5,
+          "flash": 4
+        },
+        "rift-bro-flash-3": {
+          "engage": 5,
+          "flash": 4,
+          "calm": 5,
+          "plan": 4
+        },
+        "v11-clip-1": {
+          "engage": 5,
+          "flash": 4,
+          "calm": 5,
+          "plan": 4
+        },
+        "v11-water-0": {
+          "engage": 5,
+          "flash": 4,
+          "chaos": 5,
+          "reset": 4,
+          "calm": 5,
+          "plan": 4
+        },
+        "v11-water-1": {
+          "engage": 5,
+          "flash": 4,
+          "calm": 5,
+          "plan": 4
+        },
+        "v11-water-3": {
+          "engage": 5,
+          "flash": 4,
+          "chaos": 5,
+          "reset": 4,
+          "calm": 5,
+          "plan": 4
+        },
+        "v11-clip-0": {
+          "chaos": 5,
+          "reset": 4,
+          "calm": 5,
+          "plan": 4
+        },
+        "v11-clip-2": {
+          "chaos": 5,
+          "reset": 4
+        },
+        "v11-clip-3": {
+          "chaos": 5,
+          "reset": 4,
+          "calm": 5,
+          "plan": 4
+        },
+        "v11-water-2": {
+          "chaos": 5,
+          "reset": 4,
+          "calm": 5,
+          "plan": 4
+        },
+        "rift-bro-flash-1": {
+          "calm": 5,
+          "plan": 4
+        }
+      }
     },
     {
       "id": "lol-doinb",
@@ -31285,7 +31723,73 @@
       "aliases": [
         "Doinb"
       ],
-      "rosterOrder": 18
+      "rosterOrder": 18,
+      "answerAffinities": {
+        "v11-mic-0": {
+          "engage": 5,
+          "protect": 5,
+          "explain": 4,
+          "vision": 4
+        },
+        "v11-mic-2": {
+          "engage": 5,
+          "protect": 5,
+          "explain": 4,
+          "vision": 4
+        },
+        "v11-mic-3": {
+          "engage": 5,
+          "protect": 5,
+          "vision": 4
+        },
+        "v11-jungle-date-0": {
+          "engage": 5,
+          "protect": 5,
+          "vision": 4
+        },
+        "v11-jungle-date-1": {
+          "engage": 5,
+          "protect": 4,
+          "explain": 4
+        },
+        "v11-jungle-date-2": {
+          "engage": 5,
+          "protect": 5,
+          "explain": 4,
+          "vision": 4
+        },
+        "v11-jungle-date-3": {
+          "engage": 5,
+          "protect": 5,
+          "vision": 4
+        },
+        "v11-ad-insurance-0": {
+          "engage": 5,
+          "protect": 5,
+          "explain": 4,
+          "vision": 4
+        },
+        "v11-ad-insurance-1": {
+          "engage": 5,
+          "protect": 5,
+          "explain": 4,
+          "vision": 4
+        },
+        "v11-ad-insurance-2": {
+          "engage": 5,
+          "protect": 4,
+          "explain": 4
+        },
+        "v11-ad-insurance-3": {
+          "engage": 5,
+          "protect": 5,
+          "vision": 4
+        },
+        "v11-mic-1": {
+          "engage": 5,
+          "explain": 4
+        }
+      }
     },
     {
       "id": "lol-pdd",
@@ -31331,7 +31835,78 @@
       "aliases": [
         "PDD"
       ],
-      "rosterOrder": 9
+      "rosterOrder": 9,
+      "answerAffinities": {
+        "v11-netcafe-1": {
+          "reset": 5,
+          "chaos": 5,
+          "explain": 4
+        },
+        "v11-netcafe-3": {
+          "reset": 5,
+          "chaos": 5,
+          "explain": 4
+        },
+        "v11-clip-0": {
+          "reset": 5,
+          "chaos": 5,
+          "explain": 4,
+          "protect": 5,
+          "gold": 4
+        },
+        "v11-clip-2": {
+          "reset": 5,
+          "chaos": 5,
+          "explain": 4,
+          "protect": 5,
+          "gold": 4
+        },
+        "v11-clip-3": {
+          "reset": 5,
+          "chaos": 5,
+          "explain": 4
+        },
+        "v11-boss-0": {
+          "reset": 5,
+          "chaos": 5,
+          "explain": 4,
+          "protect": 5,
+          "gold": 4
+        },
+        "v11-boss-1": {
+          "reset": 5,
+          "chaos": 5,
+          "explain": 4,
+          "protect": 5,
+          "gold": 4
+        },
+        "v11-boss-2": {
+          "reset": 5,
+          "chaos": 5,
+          "explain": 4
+        },
+        "v11-boss-3": {
+          "reset": 5,
+          "chaos": 5,
+          "explain": 4,
+          "protect": 5,
+          "gold": 4
+        },
+        "v11-netcafe-2": {
+          "chaos": 5,
+          "explain": 4,
+          "protect": 5,
+          "gold": 4
+        },
+        "v11-clip-1": {
+          "chaos": 5,
+          "explain": 4
+        },
+        "v11-netcafe-0": {
+          "protect": 5,
+          "gold": 4
+        }
+      }
     },
     {
       "id": "lol-ming",
@@ -31376,7 +31951,72 @@
       "aliases": [
         "小明"
       ],
-      "rosterOrder": 19
+      "rosterOrder": 19,
+      "answerAffinities": {
+        "hex-collector-0": {
+          "protect": 5,
+          "heal": 4,
+          "vision": 4
+        },
+        "hex-collector-2": {
+          "protect": 5,
+          "heal": 4,
+          "vision": 4
+        },
+        "hex-collector-3": {
+          "protect": 5,
+          "heal": 4
+        },
+        "hex-heal-0": {
+          "protect": 5,
+          "heal": 4,
+          "vision": 4
+        },
+        "hex-heal-1": {
+          "protect": 5,
+          "heal": 4,
+          "vision": 4
+        },
+        "hex-heal-2": {
+          "protect": 5,
+          "heal": 4,
+          "control": 5,
+          "engage": 4,
+          "vision": 4
+        },
+        "hex-heal-3": {
+          "protect": 5,
+          "heal": 4,
+          "vision": 4
+        },
+        "v11-ad-insurance-0": {
+          "protect": 5,
+          "heal": 4,
+          "control": 5,
+          "engage": 4,
+          "vision": 4
+        },
+        "v11-ad-insurance-1": {
+          "protect": 5,
+          "heal": 4,
+          "vision": 4
+        },
+        "v11-ad-insurance-2": {
+          "protect": 5,
+          "heal": 4,
+          "control": 5,
+          "engage": 4
+        },
+        "v11-ad-insurance-3": {
+          "protect": 5,
+          "heal": 4,
+          "vision": 4
+        },
+        "hex-collector-1": {
+          "control": 5,
+          "engage": 4
+        }
+      }
     },
     {
       "id": "lol-meiko",
@@ -31509,7 +32149,74 @@
       "aliases": [
         "宁王"
       ],
-      "rosterOrder": 12
+      "rosterOrder": 12,
+      "answerAffinities": {
+        "v11-netcafe-0": {
+          "engage": 5,
+          "mechanics": 4,
+          "protect": 4
+        },
+        "v11-netcafe-1": {
+          "engage": 5,
+          "mechanics": 4,
+          "protect": 4,
+          "reset": 5,
+          "chaos": 4
+        },
+        "v11-netcafe-2": {
+          "engage": 5,
+          "mechanics": 4,
+          "protect": 4
+        },
+        "v11-mic-0": {
+          "engage": 5,
+          "mechanics": 4,
+          "protect": 4,
+          "reset": 5,
+          "chaos": 4
+        },
+        "v11-jungle-date-0": {
+          "engage": 5,
+          "mechanics": 4,
+          "protect": 4,
+          "reset": 5,
+          "chaos": 4
+        },
+        "v11-jungle-date-1": {
+          "engage": 5,
+          "mechanics": 4,
+          "protect": 4
+        },
+        "v11-jungle-date-2": {
+          "engage": 5,
+          "mechanics": 4,
+          "protect": 4,
+          "reset": 5,
+          "chaos": 4
+        },
+        "v11-mic-2": {
+          "engage": 5,
+          "protect": 4,
+          "reset": 5,
+          "chaos": 4
+        },
+        "v11-mic-3": {
+          "engage": 5,
+          "protect": 4,
+          "reset": 5,
+          "chaos": 4
+        },
+        "v11-jungle-date-3": {
+          "engage": 5,
+          "protect": 4,
+          "reset": 5,
+          "chaos": 4
+        },
+        "v11-netcafe-3": {
+          "reset": 5,
+          "chaos": 4
+        }
+      }
     },
     {
       "id": "lol-knight",
@@ -31608,7 +32315,73 @@
       "aliases": [
         "宝蓝"
       ],
-      "rosterOrder": 15
+      "rosterOrder": 15,
+      "answerAffinities": {
+        "hex-heal-0": {
+          "vision": 5,
+          "protect": 4,
+          "calm": 5,
+          "heal": 5
+        },
+        "hex-heal-1": {
+          "vision": 5,
+          "protect": 4,
+          "calm": 5,
+          "heal": 5
+        },
+        "hex-heal-2": {
+          "vision": 5,
+          "protect": 4,
+          "calm": 5,
+          "heal": 5
+        },
+        "hex-heal-3": {
+          "vision": 5,
+          "protect": 4,
+          "calm": 5,
+          "heal": 5
+        },
+        "hex-office-0": {
+          "vision": 5,
+          "protect": 4,
+          "calm": 5,
+          "heal": 5
+        },
+        "hex-office-1": {
+          "vision": 5,
+          "protect": 4,
+          "calm": 5,
+          "heal": 5
+        },
+        "hex-office-2": {
+          "vision": 5,
+          "protect": 4,
+          "calm": 5,
+          "heal": 5
+        },
+        "v11-ad-insurance-0": {
+          "vision": 5,
+          "protect": 4,
+          "calm": 5,
+          "heal": 5
+        },
+        "v11-ad-insurance-1": {
+          "vision": 5,
+          "protect": 4,
+          "calm": 5,
+          "heal": 5
+        },
+        "v11-ad-insurance-3": {
+          "vision": 5,
+          "protect": 4,
+          "calm": 5,
+          "heal": 5
+        },
+        "v11-ad-insurance-2": {
+          "heal": 5,
+          "protect": 4
+        }
+      }
     },
     {
       "id": "basket-lebron",
@@ -31658,7 +32431,17 @@
         "乐邦詹士",
         "LeBron"
       ],
-      "rosterOrder": 0
+      "rosterOrder": 0,
+      "answerAffinities": {
+        "v11-owner-lebron-0": {
+          "nba-emotion": 5,
+          "nba-show": 4
+        },
+        "v11-owner-lebron-1": {
+          "nba-emotion": 5,
+          "nba-show": 4
+        }
+      }
     },
     {
       "id": "basket-curry",
@@ -31704,7 +32487,17 @@
         "Curry",
         "裤衩子 · 库里"
       ],
-      "rosterOrder": 8
+      "rosterOrder": 8,
+      "answerAffinities": {
+        "v11-owner-curry-0": {
+          "nba-three": 5,
+          "nba-show": 4
+        },
+        "v11-owner-curry-1": {
+          "nba-three": 5,
+          "nba-show": 4
+        }
+      }
     },
     {
       "id": "basket-jordan",
@@ -31749,7 +32542,17 @@
       "aliases": [
         "乔丹"
       ],
-      "rosterOrder": 2
+      "rosterOrder": 2,
+      "answerAffinities": {
+        "v11-owner-jordan-0": {
+          "nba-clutch": 5,
+          "nba-drive": 4
+        },
+        "v11-owner-jordan-1": {
+          "nba-clutch": 5,
+          "nba-drive": 4
+        }
+      }
     },
     {
       "id": "basket-kobe",
@@ -31797,7 +32600,17 @@
         "Kobe",
         "老大 · 科比"
       ],
-      "rosterOrder": 3
+      "rosterOrder": 3,
+      "answerAffinities": {
+        "v11-owner-kobe-0": {
+          "nba-train": 5,
+          "nba-clutch": 4
+        },
+        "v11-owner-kobe-1": {
+          "nba-train": 5,
+          "nba-clutch": 4
+        }
+      }
     },
     {
       "id": "basket-durant",
@@ -31842,7 +32655,17 @@
       "aliases": [
         "杜兰特"
       ],
-      "rosterOrder": 1
+      "rosterOrder": 1,
+      "answerAffinities": {
+        "v11-owner-durant-0": {
+          "nba-clutch": 5,
+          "nba-three": 4
+        },
+        "v11-owner-durant-1": {
+          "nba-clutch": 5,
+          "nba-three": 4
+        }
+      }
     },
     {
       "id": "basket-jokic",
@@ -31974,7 +32797,17 @@
       "aliases": [
         "哈登"
       ],
-      "rosterOrder": 9
+      "rosterOrder": 9,
+      "answerAffinities": {
+        "v11-owner-harden-0": {
+          "nba-clutch": 5,
+          "nba-plan": 4
+        },
+        "v11-owner-harden-1": {
+          "nba-clutch": 5,
+          "nba-plan": 4
+        }
+      }
     },
     {
       "id": "basket-yaoming",
@@ -32019,7 +32852,17 @@
       "aliases": [
         "姚明"
       ],
-      "rosterOrder": 7
+      "rosterOrder": 7,
+      "answerAffinities": {
+        "v11-owner-yaoming-0": {
+          "nba-show": 5,
+          "nba-emotion": 4
+        },
+        "v11-owner-yaoming-1": {
+          "nba-show": 5,
+          "nba-emotion": 4
+        }
+      }
     },
     {
       "id": "basket-shaq",
@@ -32325,7 +33168,17 @@
         "峰哥",
         "峰哥亡命天涯"
       ],
-      "rosterOrder": 1
+      "rosterOrder": 1,
+      "answerAffinities": {
+        "v11-owner-fengge-0": {
+          "web-travel": 5,
+          "web-care": 4
+        },
+        "v11-owner-fengge-1": {
+          "web-travel": 5,
+          "web-care": 4
+        }
+      }
     },
     {
       "id": "abstract-huchenfeng",
@@ -32370,7 +33223,17 @@
         "户晨风"
       ],
       "nickname": "户子",
-      "rosterOrder": 4
+      "rosterOrder": 4,
+      "answerAffinities": {
+        "v11-owner-huchenfeng-0": {
+          "web-watch": 5,
+          "web-craft": 4
+        },
+        "v11-owner-huchenfeng-1": {
+          "web-watch": 5,
+          "web-craft": 4
+        }
+      }
     },
     {
       "id": "abstract-huge",
@@ -32421,7 +33284,17 @@
         "虎哥",
         "东北虎哥"
       ],
-      "rosterOrder": 3
+      "rosterOrder": 3,
+      "answerAffinities": {
+        "v11-owner-huge-0": {
+          "web-care": 5,
+          "web-meme": 4
+        },
+        "v11-owner-huge-1": {
+          "web-care": 5,
+          "web-meme": 4
+        }
+      }
     },
     {
       "id": "abstract-daoge",
@@ -32473,7 +33346,17 @@
         "刀哥",
         "东北刀哥"
       ],
-      "rosterOrder": 2
+      "rosterOrder": 2,
+      "answerAffinities": {
+        "v11-owner-daoge-0": {
+          "web-meme": 5,
+          "web-care": 4
+        },
+        "v11-owner-daoge-1": {
+          "web-meme": 5,
+          "web-care": 4
+        }
+      }
     },
     {
       "id": "abstract-sunxiaochuan",
@@ -32516,7 +33399,17 @@
       "aliases": [
         "孙笑川"
       ],
-      "rosterOrder": 6
+      "rosterOrder": 6,
+      "answerAffinities": {
+        "v11-owner-sunxiaochuan-0": {
+          "web-punchline": 5,
+          "web-care": 4
+        },
+        "v11-owner-sunxiaochuan-1": {
+          "web-punchline": 5,
+          "web-care": 4
+        }
+      }
     },
     {
       "id": "abstract-geyou",
@@ -32683,7 +33576,62 @@
       "aliases": [
         "卢本伟"
       ],
-      "rosterOrder": 14
+      "rosterOrder": 14,
+      "answerAffinities": {
+        "v11-netcafe-1": {
+          "reset": 5,
+          "chaos": 4,
+          "engage": 5
+        },
+        "v11-netcafe-3": {
+          "reset": 5,
+          "chaos": 4,
+          "mechanics": 4,
+          "engage": 5
+        },
+        "v11-mic-0": {
+          "reset": 5,
+          "chaos": 4,
+          "engage": 5
+        },
+        "v11-mic-2": {
+          "reset": 5,
+          "chaos": 4,
+          "engage": 5
+        },
+        "v11-mic-3": {
+          "reset": 5,
+          "chaos": 4,
+          "mechanics": 4,
+          "engage": 5
+        },
+        "v11-review-home-1": {
+          "reset": 5,
+          "chaos": 4,
+          "mechanics": 4,
+          "engage": 5
+        },
+        "v11-review-home-3": {
+          "reset": 5,
+          "chaos": 4,
+          "mechanics": 4,
+          "engage": 5
+        },
+        "v11-netcafe-0": {
+          "reset": 5,
+          "mechanics": 4,
+          "engage": 5,
+          "chaos": 4
+        },
+        "v11-netcafe-2": {
+          "reset": 5,
+          "mechanics": 4
+        },
+        "v11-review-home-2": {
+          "engage": 5,
+          "chaos": 4
+        }
+      }
     },
     {
       "id": "lol-zhouyi",
@@ -33034,7 +33982,79 @@
       "aliases": [
         "笑笑"
       ],
-      "rosterOrder": 7
+      "rosterOrder": 7,
+      "answerAffinities": {
+        "rift-deyunse-0": {
+          "laugh": 5,
+          "explain": 4,
+          "chaos": 5
+        },
+        "rift-deyunse-1": {
+          "laugh": 5,
+          "explain": 4,
+          "protect": 5
+        },
+        "rift-deyunse-2": {
+          "laugh": 5,
+          "explain": 4,
+          "chaos": 5,
+          "protect": 5
+        },
+        "rift-deyunse-3": {
+          "laugh": 5,
+          "explain": 4,
+          "chaos": 5,
+          "protect": 5
+        },
+        "v11-duo-0": {
+          "laugh": 5,
+          "explain": 4,
+          "chaos": 5,
+          "protect": 5
+        },
+        "v11-duo-1": {
+          "laugh": 5,
+          "explain": 4,
+          "chaos": 5,
+          "protect": 5
+        },
+        "v11-duo-2": {
+          "laugh": 5,
+          "explain": 4,
+          "chaos": 5,
+          "protect": 5
+        },
+        "v11-duo-3": {
+          "laugh": 5,
+          "explain": 4,
+          "chaos": 5,
+          "protect": 5
+        },
+        "v11-watchparty-0": {
+          "laugh": 5,
+          "explain": 4,
+          "chaos": 5,
+          "protect": 5
+        },
+        "v11-watchparty-1": {
+          "laugh": 5,
+          "explain": 4,
+          "chaos": 5,
+          "protect": 5
+        },
+        "v11-watchparty-2": {
+          "laugh": 5,
+          "explain": 4,
+          "chaos": 5,
+          "protect": 5
+        },
+        "v11-watchparty-3": {
+          "laugh": 5,
+          "explain": 4,
+          "chaos": 5,
+          "protect": 5
+        }
+      }
     },
     {
       "id": "lol-xika",
@@ -33081,7 +34101,88 @@
       "aliases": [
         "西卡"
       ],
-      "rosterOrder": 8
+      "rosterOrder": 8,
+      "answerAffinities": {
+        "rift-deyunse-1": {
+          "explain": 5,
+          "protect": 4,
+          "chaos": 5,
+          "laugh": 4
+        },
+        "rift-deyunse-2": {
+          "explain": 5,
+          "protect": 4,
+          "blame": 4,
+          "chaos": 5,
+          "laugh": 4
+        },
+        "rift-deyunse-3": {
+          "explain": 5,
+          "protect": 4,
+          "blame": 4,
+          "chaos": 5,
+          "laugh": 4
+        },
+        "v11-duo-0": {
+          "explain": 5,
+          "protect": 4,
+          "blame": 4,
+          "chaos": 5,
+          "laugh": 4
+        },
+        "v11-duo-1": {
+          "explain": 5,
+          "protect": 4,
+          "blame": 4,
+          "chaos": 5,
+          "laugh": 4
+        },
+        "v11-duo-2": {
+          "explain": 5,
+          "protect": 4,
+          "blame": 4,
+          "chaos": 5,
+          "laugh": 4
+        },
+        "v11-duo-3": {
+          "explain": 5,
+          "protect": 4,
+          "chaos": 5,
+          "laugh": 4
+        },
+        "v11-watchparty-0": {
+          "explain": 5,
+          "protect": 4,
+          "blame": 4,
+          "chaos": 5,
+          "laugh": 4
+        },
+        "v11-watchparty-1": {
+          "explain": 5,
+          "protect": 4,
+          "blame": 4,
+          "chaos": 5,
+          "laugh": 4
+        },
+        "v11-watchparty-2": {
+          "explain": 5,
+          "protect": 4,
+          "blame": 4,
+          "chaos": 5,
+          "laugh": 4
+        },
+        "v11-watchparty-3": {
+          "explain": 5,
+          "protect": 4,
+          "blame": 4,
+          "chaos": 5,
+          "laugh": 4
+        },
+        "rift-deyunse-0": {
+          "chaos": 5,
+          "laugh": 4
+        }
+      }
     },
     {
       "id": "lol-369",
@@ -33261,7 +34362,60 @@
         "Rookie",
         "肉鸡"
       ],
-      "rosterOrder": 5
+      "rosterOrder": 5,
+      "answerAffinities": {
+        "v11-netcafe-0": {
+          "protect": 5,
+          "mechanics": 4,
+          "plan": 4
+        },
+        "v11-netcafe-2": {
+          "protect": 5,
+          "mechanics": 4,
+          "plan": 4
+        },
+        "v11-clinic-0": {
+          "protect": 5,
+          "mechanics": 4,
+          "plan": 4,
+          "vision": 5
+        },
+        "v11-clinic-1": {
+          "protect": 5,
+          "mechanics": 4,
+          "plan": 4
+        },
+        "v11-clinic-2": {
+          "protect": 5,
+          "mechanics": 4,
+          "plan": 4,
+          "vision": 5
+        },
+        "v11-clinic-3": {
+          "protect": 5,
+          "mechanics": 4,
+          "plan": 4
+        },
+        "v11-review-home-1": {
+          "protect": 5,
+          "mechanics": 4,
+          "plan": 4
+        },
+        "v11-review-home-3": {
+          "protect": 5,
+          "mechanics": 4,
+          "plan": 4
+        },
+        "v11-review-home-2": {
+          "protect": 5,
+          "plan": 4,
+          "vision": 5
+        },
+        "v11-netcafe-1": {
+          "vision": 5,
+          "plan": 4
+        }
+      }
     },
     {
       "id": "lol-showmaker",
@@ -33479,7 +34633,69 @@
       "aliases": [
         "电棍"
       ],
-      "rosterOrder": 16
+      "rosterOrder": 16,
+      "answerAffinities": {
+        "v11-mic-0": {
+          "chaos": 5,
+          "engage": 4
+        },
+        "v11-mic-2": {
+          "chaos": 5,
+          "engage": 4,
+          "blame": 5,
+          "explain": 5
+        },
+        "v11-mic-3": {
+          "chaos": 5,
+          "engage": 4
+        },
+        "v11-keyboards-0": {
+          "chaos": 5,
+          "engage": 4
+        },
+        "v11-keyboards-1": {
+          "chaos": 5,
+          "engage": 4,
+          "blame": 5,
+          "explain": 5
+        },
+        "v11-keyboards-2": {
+          "chaos": 5,
+          "engage": 4,
+          "blame": 5,
+          "explain": 5
+        },
+        "v11-keyboards-3": {
+          "chaos": 5,
+          "engage": 4,
+          "blame": 5,
+          "explain": 5
+        },
+        "v11-review-home-1": {
+          "chaos": 5,
+          "engage": 4,
+          "blame": 5,
+          "explain": 5
+        },
+        "v11-review-home-2": {
+          "chaos": 5,
+          "engage": 4,
+          "blame": 5,
+          "explain": 5
+        },
+        "v11-review-home-3": {
+          "chaos": 5,
+          "engage": 4
+        },
+        "v11-mic-1": {
+          "blame": 5,
+          "explain": 5
+        },
+        "v11-review-home-0": {
+          "blame": 5,
+          "explain": 5
+        }
+      }
     },
     {
       "id": "lol-zztai",
@@ -33526,7 +34742,85 @@
       "aliases": [
         "姿态"
       ],
-      "rosterOrder": 17
+      "rosterOrder": 17,
+      "answerAffinities": {
+        "v11-clip-0": {
+          "laugh": 5,
+          "chaos": 4,
+          "protect": 5,
+          "reset": 4
+        },
+        "v11-clip-1": {
+          "laugh": 5,
+          "chaos": 4,
+          "explain": 5
+        },
+        "v11-clip-2": {
+          "laugh": 5,
+          "chaos": 4,
+          "protect": 5,
+          "reset": 4
+        },
+        "v11-clip-3": {
+          "laugh": 5,
+          "chaos": 4,
+          "protect": 5,
+          "reset": 4,
+          "explain": 5
+        },
+        "v11-duo-0": {
+          "laugh": 5,
+          "chaos": 4,
+          "explain": 5
+        },
+        "v11-duo-1": {
+          "laugh": 5,
+          "chaos": 4,
+          "protect": 5,
+          "reset": 4,
+          "explain": 5
+        },
+        "v11-duo-2": {
+          "laugh": 5,
+          "chaos": 4,
+          "protect": 5,
+          "reset": 4,
+          "explain": 5
+        },
+        "v11-duo-3": {
+          "laugh": 5,
+          "chaos": 4,
+          "protect": 5,
+          "reset": 4,
+          "explain": 5
+        },
+        "v11-watchparty-0": {
+          "laugh": 5,
+          "chaos": 4,
+          "protect": 5,
+          "reset": 4,
+          "explain": 5
+        },
+        "v11-watchparty-1": {
+          "laugh": 5,
+          "chaos": 4,
+          "explain": 5
+        },
+        "v11-watchparty-2": {
+          "laugh": 5,
+          "chaos": 4,
+          "protect": 5,
+          "reset": 4,
+          "explain": 5
+        },
+        "v11-watchparty-3": {
+          "laugh": 5,
+          "chaos": 4,
+          "protect": 5,
+          "reset": 4,
+          "explain": 5
+        }
+      }
     },
     {
       "id": "lol-kryst4l",
@@ -33705,7 +34999,17 @@
         "徐静雨"
       ],
       "roleType": "commentator",
-      "rosterOrder": 5
+      "rosterOrder": 5,
+      "answerAffinities": {
+        "v11-owner-xujingyu-0": {
+          "nba-emotion": 5,
+          "nba-plan": 4
+        },
+        "v11-owner-xujingyu-1": {
+          "nba-emotion": 5,
+          "nba-plan": 4
+        }
+      }
     },
     {
       "id": "basket-yangyi",
@@ -33753,7 +35057,17 @@
         "杨毅"
       ],
       "roleType": "commentator",
-      "rosterOrder": 4
+      "rosterOrder": 4,
+      "answerAffinities": {
+        "v11-owner-yangyi-0": {
+          "nba-plan": 5,
+          "nba-show": 4
+        },
+        "v11-owner-yangyi-1": {
+          "nba-plan": 5,
+          "nba-show": 4
+        }
+      }
     },
     {
       "id": "basket-zhouqi",
@@ -33799,7 +35113,17 @@
       "aliases": [
         "周琦"
       ],
-      "rosterOrder": 6
+      "rosterOrder": 6,
+      "answerAffinities": {
+        "v11-owner-zhouqi-0": {
+          "nba-team": 5,
+          "nba-safe": 4
+        },
+        "v11-owner-zhouqi-1": {
+          "nba-team": 5,
+          "nba-safe": 4
+        }
+      }
     },
     {
       "id": "basket-sunyue-player",
@@ -34593,7 +35917,17 @@
       "aliases": [
         "雷军"
       ],
-      "rosterOrder": 8
+      "rosterOrder": 8,
+      "answerAffinities": {
+        "v11-owner-leijun-0": {
+          "web-live": 5,
+          "web-meme": 4
+        },
+        "v11-owner-leijun-1": {
+          "web-live": 5,
+          "web-meme": 4
+        }
+      }
     },
     {
       "id": "abstract-zhouhongyi",
@@ -34728,7 +36062,17 @@
       "aliases": [
         "罗永浩"
       ],
-      "rosterOrder": 9
+      "rosterOrder": 9,
+      "answerAffinities": {
+        "v11-owner-luoyonghao-0": {
+          "web-care": 5,
+          "web-live": 4
+        },
+        "v11-owner-luoyonghao-1": {
+          "web-care": 5,
+          "web-live": 4
+        }
+      }
     },
     {
       "id": "abstract-dongyuhui",
@@ -35176,7 +36520,17 @@
       "aliases": [
         "带篮子"
       ],
-      "rosterOrder": 0
+      "rosterOrder": 0,
+      "answerAffinities": {
+        "v11-owner-dailanzi-0": {
+          "web-meme": 5,
+          "web-live": 4
+        },
+        "v11-owner-dailanzi-1": {
+          "web-meme": 5,
+          "web-live": 4
+        }
+      }
     },
     {
       "id": "lol-vincent",
@@ -35221,7 +36575,70 @@
       "aliases": [
         "文森特"
       ],
-      "rosterOrder": 4
+      "rosterOrder": 4,
+      "answerAffinities": {
+        "v11-netcafe-0": {
+          "mechanics": 5,
+          "gold": 4,
+          "engage": 4
+        },
+        "v11-netcafe-2": {
+          "mechanics": 5,
+          "gold": 4,
+          "engage": 4
+        },
+        "v11-clip-0": {
+          "mechanics": 5,
+          "gold": 4,
+          "engage": 4,
+          "chaos": 5,
+          "reset": 4
+        },
+        "v11-clip-2": {
+          "mechanics": 5,
+          "gold": 4,
+          "engage": 4,
+          "chaos": 5,
+          "reset": 4
+        },
+        "v11-boss-1": {
+          "mechanics": 5,
+          "gold": 4,
+          "engage": 4,
+          "chaos": 5,
+          "reset": 4
+        },
+        "v11-boss-3": {
+          "mechanics": 5,
+          "gold": 4,
+          "chaos": 5,
+          "reset": 4
+        },
+        "v11-netcafe-1": {
+          "mechanics": 5,
+          "engage": 4,
+          "chaos": 5,
+          "reset": 4
+        },
+        "v11-boss-0": {
+          "mechanics": 5,
+          "engage": 4,
+          "chaos": 5,
+          "reset": 4
+        },
+        "v11-netcafe-3": {
+          "chaos": 5,
+          "reset": 4
+        },
+        "v11-clip-3": {
+          "chaos": 5,
+          "reset": 4
+        },
+        "v11-boss-2": {
+          "chaos": 5,
+          "reset": 4
+        }
+      }
     },
     {
       "id": "lol-kid",
@@ -35268,7 +36685,76 @@
         "Kid",
         "小孩游神"
       ],
-      "rosterOrder": 13
+      "rosterOrder": 13,
+      "answerAffinities": {
+        "rift-ig-memory-1": {
+          "plan": 5,
+          "vision": 4,
+          "protect": 5,
+          "explain": 4
+        },
+        "rift-ig-memory-3": {
+          "plan": 5,
+          "vision": 4,
+          "protect": 5,
+          "explain": 4
+        },
+        "v11-duo-1": {
+          "plan": 5,
+          "vision": 4,
+          "protect": 5,
+          "explain": 4
+        },
+        "v11-duo-3": {
+          "plan": 5,
+          "vision": 4,
+          "protect": 5,
+          "explain": 4
+        },
+        "v11-jungle-date-0": {
+          "plan": 5,
+          "vision": 4,
+          "protect": 5,
+          "explain": 4
+        },
+        "v11-jungle-date-1": {
+          "plan": 5,
+          "vision": 4,
+          "protect": 5,
+          "explain": 4
+        },
+        "v11-jungle-date-2": {
+          "plan": 5,
+          "vision": 4,
+          "protect": 5,
+          "explain": 4
+        },
+        "v11-jungle-date-3": {
+          "plan": 5,
+          "vision": 4,
+          "protect": 5,
+          "explain": 4
+        },
+        "rift-ig-memory-0": {
+          "protect": 5,
+          "explain": 4,
+          "plan": 4
+        },
+        "rift-ig-memory-2": {
+          "protect": 5,
+          "explain": 4,
+          "plan": 4
+        },
+        "v11-duo-0": {
+          "protect": 5,
+          "explain": 4
+        },
+        "v11-duo-2": {
+          "protect": 5,
+          "explain": 4,
+          "plan": 4
+        }
+      }
     },
     {
       "id": "abstract-us-lecturer",
@@ -35316,7 +36802,17 @@
         "美国讲师",
         "丁胖子金牌讲师"
       ],
-      "rosterOrder": 5
+      "rosterOrder": 5,
+      "answerAffinities": {
+        "v11-owner-us-lecturer-0": {
+          "web-plan": 5,
+          "web-watch": 4
+        },
+        "v11-owner-us-lecturer-1": {
+          "web-plan": 5,
+          "web-watch": 4
+        }
+      }
     },
     {
       "id": "abstract-yaoshuige",
@@ -35362,7 +36858,17 @@
       "aliases": [
         "药水哥"
       ],
-      "rosterOrder": 7
+      "rosterOrder": 7,
+      "answerAffinities": {
+        "v11-owner-yaoshuige-0": {
+          "web-watch": 5,
+          "web-meme": 4
+        },
+        "v11-owner-yaoshuige-1": {
+          "web-watch": 5,
+          "web-meme": 4
+        }
+      }
     }
   ],
   "augments": {

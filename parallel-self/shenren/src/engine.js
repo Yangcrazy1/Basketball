@@ -64,7 +64,7 @@ function similarity(a,b){return Math.round(100*(1-a.reduce((s,v,i)=>s+Math.abs(v
 function responseWeight(q){return q.importance||1;}
 function behaviorFit(rows,weights={}){const total=rows.reduce((sum,{q})=>sum+responseWeight(q),0);return total?100*rows.reduce((sum,{q,o})=>sum+(weights[o.behavior]||0)*responseWeight(q),0)/(5*total):0;}
 function cardEvidence(rows,card){return rows.map(({q,o},index)=>({id:q.id,scene:q.scene,choice:o.text,behavior:o.behavior,strength:((card.behaviorWeights&&card.behaviorWeights[o.behavior])||0)*responseWeight(q),index})).filter(e=>e.strength>0&&(!card.evidenceQuestionIds||!card.evidenceQuestionIds.length||card.evidenceQuestionIds.includes(e.id))).sort((a,b)=>b.strength-a.strength||a.index-b.index);}
-function rankPeople(s,data,vector){const rows=selections(s,data);return applyExposure(enabledPeople(data,s.theme).map(p=>Object.assign({},p,{rawMatch:Math.round(.65*similarity(vector,p.vector)+.35*behaviorFit(rows,p.behaviorWeights))})),data.rosterPolicy);}
+function rankPeople(s,data,vector){const rows=selections(s,data);return applyExposure(enabledPeople(data,s.theme).map(p=>{const v=similarity(vector,p.vector),b=behaviorFit(rows,p.behaviorWeights),scene=100*rows.reduce((sum,{q,o})=>sum+((p.answerAffinities&&p.answerAffinities[q.id]&&p.answerAffinities[q.id][o.behavior])||0),0)/(5*rows.length);return Object.assign({},p,{rawMatch:Math.round(.4*v+.35*b+.25*scene),matchBreakdown:{vector:v,behavior:b,scene}});}),data.rosterPolicy);}
 
 function recommend(s,data,vector=score(s,data),identity=null){
  const rows=selections(s,data);if(!identity)identity=rankPeople(s,data,vector)[0];

@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "checks": [
+    "default eight-question mint home; 320/360/393/430/1280 layouts; 2KB entry; no portrait assets needed at first paint",
+    "full unpaginated 20/10/10 catalog, 170px portraits, merged aliases, 220px detail, three cards, nested back and restored scroll/search",
+    "all 156 cards browseable, owner filter and back preserved, complete effects and innate gift label",
+    "12 samples, four-stage netcafe start, automatic advance, double-tap guard and real back-edit",
+    "converted double-laugh artwork renders throughout an actual resumed four-stage episode",
+    "all nine real quiz flows: three themes × eight/sixteen/twenty-four questions, identity reveal, actual evidence, three gifts and five-person teams",
+    "result layouts at five widths; custom five-person lineup applied to a real 1080×1920 PNG download",
+    "online download returns the complete current standalone HTML, with all images embedded",
+    "retired-person V10 history and saved custom lineup still replay through the frozen V10 engine/data",
+    "standalone HTML runs offline with storage unavailable and completes a full eight-question quiz",
+    "staged Xiaohongshu web fallback starts with external local assets; physical native runtime remains untested",
+    "no page JavaScript exceptions or external runtime resource requests"
+  ],
+  "count": 12,
+  "viewport": "393x852 Chromium mobile viewport; not physical phone",
+  "layoutWidths": [
+    320,
+    360,
+    393,
+    430,
+    1280
+  ],
+  "html_sha256": "70f58fd164a7e991fd1e979ccf0be98f27316d32cc6a5288ea2d2bca4cd01597",
+  "pendingAvatars": [
+    "yangyi",
+    "vincent",
+    "kid",
+    "us-lecturer",
+    "yaoshuige"
+  ]
+}

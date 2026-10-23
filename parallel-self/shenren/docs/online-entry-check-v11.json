@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "entry_bytes": 2025,
+  "initial_resource_bytes": 1593303,
+  "checks": [
+    "first paint needs no portrait/card atlases and less than 2MB uncompressed core resources",
+    "blocked data dependency displays a retry entry instead of an inert blank screen"
+  ],
+  "entry_sha256": "5453e0ea24105a0ca82aee0fea361974a95e7a0233902984a1edb1abb3535f9d"
+}

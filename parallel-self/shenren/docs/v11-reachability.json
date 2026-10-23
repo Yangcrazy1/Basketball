@@ -1,0 +1,3922 @@
+{
+  "luobenwei": {
+    "person": "luobenwei",
+    "raw": 70,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-duo-0",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "v11-duo-1",
+          "order": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "v11-duo-2",
+          "order": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "v11-duo-3",
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "v11-mic-0",
+          "order": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "v11-mic-1",
+          "order": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "v11-mic-2",
+          "order": [
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "v11-mic-3",
+          "order": [
+            2,
+            3,
+            0,
+            1
+          ]
+        }
+      ],
+      "answers": [
+        0,
+        3,
+        0,
+        1,
+        0,
+        1,
+        0,
+        3
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.879Z"
+    }
+  },
+  "dasima": {
+    "person": "dasima",
+    "raw": 50,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "hex-range-0",
+          "order": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "hex-range-1",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "hex-range-2",
+          "order": [
+            3,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "hex-range-3",
+          "order": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "v11-duo-0",
+          "order": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "v11-duo-1",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "v11-duo-2",
+          "order": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "v11-duo-3",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        }
+      ],
+      "answers": [
+        1,
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        1
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.883Z"
+    }
+  },
+  "doinb": {
+    "person": "doinb",
+    "raw": 71,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "rift-galio-0",
+          "order": [
+            3,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "rift-galio-1",
+          "order": [
+            0,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "rift-galio-2",
+          "order": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "rift-galio-3",
+          "order": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "v11-ad-insurance-0",
+          "order": [
+            3,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "v11-ad-insurance-1",
+          "order": [
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "v11-ad-insurance-2",
+          "order": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "v11-ad-insurance-3",
+          "order": [
+            0,
+            2,
+            1,
+            3
+          ]
+        }
+      ],
+      "answers": [
+        3,
+        2,
+        2,
+        0,
+        0,
+        3,
+        2,
+        0
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.886Z"
+    }
+  },
+  "zztai": {
+    "person": "zztai",
+    "raw": 66,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-clip-0",
+          "order": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "v11-clip-1",
+          "order": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "v11-clip-2",
+          "order": [
+            2,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "v11-clip-3",
+          "order": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "v11-review-home-0",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "v11-review-home-1",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "v11-review-home-2",
+          "order": [
+            2,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "v11-review-home-3",
+          "order": [
+            2,
+            3,
+            1,
+            0
+          ]
+        }
+      ],
+      "answers": [
+        1,
+        2,
+        3,
+        3,
+        2,
+        0,
+        3,
+        3
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.887Z"
+    }
+  },
+  "jackeylove": {
+    "person": "jackeylove",
+    "raw": 51,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "hex-range-0",
+          "order": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "hex-range-1",
+          "order": [
+            0,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "hex-range-2",
+          "order": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "hex-range-3",
+          "order": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "rift-bro-flash-0",
+          "order": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "rift-bro-flash-1",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "rift-bro-flash-2",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "rift-bro-flash-3",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        }
+      ],
+      "answers": [
+        2,
+        2,
+        3,
+        0,
+        3,
+        2,
+        3,
+        2
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.887Z"
+    }
+  },
+  "otto": {
+    "person": "otto",
+    "raw": 49,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-keyboards-0",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "v11-keyboards-1",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "v11-keyboards-2",
+          "order": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "v11-keyboards-3",
+          "order": [
+            2,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "hex-range-0",
+          "order": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "hex-range-1",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "hex-range-2",
+          "order": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "hex-range-3",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        }
+      ],
+      "answers": [
+        2,
+        1,
+        0,
+        0,
+        2,
+        3,
+        2,
+        0
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.890Z"
+    }
+  },
+  "xiaohu": {
+    "person": "xiaohu",
+    "raw": 54,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "rift-spring-0",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "rift-spring-1",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "rift-spring-2",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "rift-spring-3",
+          "order": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "v11-netcafe-0",
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "v11-netcafe-1",
+          "order": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "v11-netcafe-2",
+          "order": [
+            0,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "v11-netcafe-3",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        }
+      ],
+      "answers": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        3,
+        0,
+        0
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.890Z"
+    }
+  },
+  "kid": {
+    "person": "kid",
+    "raw": 55,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "rift-ig-memory-0",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "rift-ig-memory-1",
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "rift-ig-memory-2",
+          "order": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "rift-ig-memory-3",
+          "order": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "rift-galio-0",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "rift-galio-1",
+          "order": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "rift-galio-2",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "rift-galio-3",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        }
+      ],
+      "answers": [
+        0,
+        2,
+        2,
+        2,
+        0,
+        0,
+        2,
+        3
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.890Z"
+    }
+  },
+  "pdd": {
+    "person": "pdd",
+    "raw": 55,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-water-0",
+          "order": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "v11-water-1",
+          "order": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "v11-water-2",
+          "order": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "v11-water-3",
+          "order": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "v11-netcafe-0",
+          "order": [
+            2,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "v11-netcafe-1",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "v11-netcafe-2",
+          "order": [
+            3,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "v11-netcafe-3",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        }
+      ],
+      "answers": [
+        3,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.893Z"
+    }
+  },
+  "rookie": {
+    "person": "rookie",
+    "raw": 62,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-review-home-0",
+          "order": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "v11-review-home-1",
+          "order": [
+            3,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "v11-review-home-2",
+          "order": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "v11-review-home-3",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "rift-galio-0",
+          "order": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "rift-galio-1",
+          "order": [
+            3,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "rift-galio-2",
+          "order": [
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "rift-galio-3",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        }
+      ],
+      "answers": [
+        3,
+        3,
+        2,
+        2,
+        0,
+        3,
+        2,
+        0
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.896Z"
+    }
+  },
+  "faker": {
+    "person": "faker",
+    "raw": 49,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "rift-spring-0",
+          "order": [
+            0,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "rift-spring-1",
+          "order": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "rift-spring-2",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "rift-spring-3",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "v11-top-alone-0",
+          "order": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "v11-top-alone-1",
+          "order": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "v11-top-alone-2",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "v11-top-alone-3",
+          "order": [
+            0,
+            1,
+            3,
+            2
+          ]
+        }
+      ],
+      "answers": [
+        3,
+        2,
+        0,
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.899Z"
+    }
+  },
+  "xika": {
+    "person": "xika",
+    "raw": 55,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-duo-0",
+          "order": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "v11-duo-1",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "v11-duo-2",
+          "order": [
+            3,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "v11-duo-3",
+          "order": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "rift-lane-basics-0",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "rift-lane-basics-1",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "rift-lane-basics-2",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "rift-lane-basics-3",
+          "order": [
+            3,
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "answers": [
+        3,
+        3,
+        3,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.899Z"
+    }
+  },
+  "uzi": {
+    "person": "uzi",
+    "raw": 49,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-noodles-0",
+          "order": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "v11-noodles-1",
+          "order": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "v11-noodles-2",
+          "order": [
+            2,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "v11-noodles-3",
+          "order": [
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "hex-collector-0",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "hex-collector-1",
+          "order": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "hex-collector-2",
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "hex-collector-3",
+          "order": [
+            1,
+            3,
+            0,
+            2
+          ]
+        }
+      ],
+      "answers": [
+        0,
+        1,
+        3,
+        0,
+        2,
+        0,
+        1,
+        2
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.900Z"
+    }
+  },
+  "xiaoxiao": {
+    "person": "xiaoxiao",
+    "raw": 62,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-water-0",
+          "order": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "v11-water-1",
+          "order": [
+            3,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "v11-water-2",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "v11-water-3",
+          "order": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "rift-deyunse-0",
+          "order": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "rift-deyunse-1",
+          "order": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "rift-deyunse-2",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "rift-deyunse-3",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        }
+      ],
+      "answers": [
+        0,
+        3,
+        2,
+        1,
+        2,
+        1,
+        3,
+        2
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.906Z"
+    }
+  },
+  "baolan": {
+    "person": "baolan",
+    "raw": 54,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "hex-heal-0",
+          "order": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "hex-heal-1",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "hex-heal-2",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "hex-heal-3",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "v11-ad-insurance-0",
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "v11-ad-insurance-1",
+          "order": [
+            2,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "v11-ad-insurance-2",
+          "order": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "v11-ad-insurance-3",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        }
+      ],
+      "answers": [
+        0,
+        2,
+        2,
+        0,
+        1,
+        3,
+        0,
+        1
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.911Z"
+    }
+  },
+  "ming": {
+    "person": "ming",
+    "raw": 65,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "rift-bro-flash-0",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "rift-bro-flash-1",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "rift-bro-flash-2",
+          "order": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "rift-bro-flash-3",
+          "order": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "hex-heal-0",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "hex-heal-1",
+          "order": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "hex-heal-2",
+          "order": [
+            3,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "hex-heal-3",
+          "order": [
+            3,
+            0,
+            2,
+            1
+          ]
+        }
+      ],
+      "answers": [
+        3,
+        0,
+        1,
+        2,
+        1,
+        0,
+        2,
+        1
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.929Z"
+    }
+  },
+  "theshy": {
+    "person": "theshy",
+    "raw": 40,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-top-alone-0",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "v11-top-alone-1",
+          "order": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "v11-top-alone-2",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "v11-top-alone-3",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "hex-range-0",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "hex-range-1",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "hex-range-2",
+          "order": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "hex-range-3",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        }
+      ],
+      "answers": [
+        0,
+        2,
+        0,
+        3,
+        1,
+        3,
+        1,
+        0
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.937Z"
+    }
+  },
+  "vincent": {
+    "person": "vincent",
+    "raw": 63,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-clip-0",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "v11-clip-1",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "v11-clip-2",
+          "order": [
+            3,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "v11-clip-3",
+          "order": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "v11-boss-0",
+          "order": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "v11-boss-1",
+          "order": [
+            3,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "v11-boss-2",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "v11-boss-3",
+          "order": [
+            2,
+            0,
+            3,
+            1
+          ]
+        }
+      ],
+      "answers": [
+        0,
+        1,
+        2,
+        3,
+        1,
+        1,
+        3,
+        3
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:36.971Z"
+    }
+  },
+  "ning": {
+    "person": "ning",
+    "raw": 65,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-netcafe-0",
+          "order": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "v11-netcafe-1",
+          "order": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "v11-netcafe-2",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "v11-netcafe-3",
+          "order": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "v11-jungle-date-0",
+          "order": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "v11-jungle-date-1",
+          "order": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "v11-jungle-date-2",
+          "order": [
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "v11-jungle-date-3",
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "answers": [
+        2,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        0
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:37.030Z"
+    }
+  },
+  "clearlove": {
+    "person": "clearlove",
+    "raw": 53,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "lol",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-jungle-date-0",
+          "order": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "v11-jungle-date-1",
+          "order": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "v11-jungle-date-2",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "v11-jungle-date-3",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "v11-boss-0",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "v11-boss-1",
+          "order": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "v11-boss-2",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "v11-boss-3",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        }
+      ],
+      "answers": [
+        2,
+        2,
+        1,
+        0,
+        2,
+        1,
+        0,
+        2
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:37.193Z"
+    }
+  },
+  "kobe": {
+    "person": "kobe",
+    "raw": 45,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "basket",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "basket-express-2",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "v11-owner-curry-1",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "basket-empathy-7",
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "basket-order-8",
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "basket-social-1",
+          "order": [
+            3,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "v11-owner-durant-1",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "basket-social-2",
+          "order": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "v11-owner-harden-0",
+          "order": [
+            1,
+            2,
+            0,
+            3
+          ]
+        }
+      ],
+      "answers": [
+        2,
+        1,
+        0,
+        3,
+        1,
+        1,
+        3,
+        0
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:38.261Z"
+    }
+  },
+  "zhouqi": {
+    "person": "zhouqi",
+    "raw": 43,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "basket",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "basket-social-2",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "basket-empathy-8",
+          "order": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "v11-owner-harden-1",
+          "order": [
+            2,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "basket-express-2",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "v11-owner-zhouqi-0",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "v11-owner-xujingyu-1",
+          "order": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "basket-action-11",
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "basket-action-5",
+          "order": [
+            0,
+            2,
+            1,
+            3
+          ]
+        }
+      ],
+      "answers": [
+        0,
+        3,
+        3,
+        2,
+        1,
+        1,
+        1,
+        3
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:38.261Z"
+    }
+  },
+  "durant": {
+    "person": "durant",
+    "raw": 49,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "basket",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "basket-express-11",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "basket-empathy-6",
+          "order": [
+            2,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "basket-empathy-4",
+          "order": [
+            3,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "v11-owner-durant-0",
+          "order": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "basket-explore-1",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "basket-order-6",
+          "order": [
+            2,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "basket-social-8",
+          "order": [
+            0,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "v11-owner-durant-1",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        }
+      ],
+      "answers": [
+        2,
+        1,
+        1,
+        0,
+        0,
+        2,
+        1,
+        3
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:38.261Z"
+    }
+  },
+  "yangyi": {
+    "person": "yangyi",
+    "raw": 42,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "basket",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-sample-7",
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "basket-order-6",
+          "order": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "basket-action-11",
+          "order": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "basket-social-4",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "basket-empathy-4",
+          "order": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "basket-express-5",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "basket-express-8",
+          "order": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "basket-explore-5",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        }
+      ],
+      "answers": [
+        3,
+        1,
+        2,
+        3,
+        2,
+        0,
+        0,
+        3
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:38.262Z"
+    }
+  },
+  "yaoming": {
+    "person": "yaoming",
+    "raw": 48,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "basket",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "basket-empathy-10",
+          "order": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "v10-basket-0",
+          "order": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "v11-owner-xujingyu-0",
+          "order": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "basket-express-1",
+          "order": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "v11-owner-zhouqi-1",
+          "order": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "basket-explore-9",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "v11-owner-kobe-0",
+          "order": [
+            2,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "basket-order-5",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        }
+      ],
+      "answers": [
+        3,
+        1,
+        1,
+        0,
+        2,
+        0,
+        0,
+        3
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:38.262Z"
+    }
+  },
+  "xujingyu": {
+    "person": "xujingyu",
+    "raw": 42,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "basket",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-owner-harden-0",
+          "order": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "basket-empathy-6",
+          "order": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "basket-explore-7",
+          "order": [
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "basket-order-6",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "basket-express-8",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "basket-explore-8",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "basket-empathy-1",
+          "order": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "basket-social-11",
+          "order": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "answers": [
+        0,
+        1,
+        3,
+        0,
+        3,
+        1,
+        2,
+        1
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:38.265Z"
+    }
+  },
+  "harden": {
+    "person": "harden",
+    "raw": 41,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "basket",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "basket-social-2",
+          "order": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "basket-express-9",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "basket-social-9",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "v11-owner-harden-1",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "basket-empathy-9",
+          "order": [
+            0,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "v11-owner-kobe-1",
+          "order": [
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "basket-explore-10",
+          "order": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "basket-action-11",
+          "order": [
+            1,
+            3,
+            0,
+            2
+          ]
+        }
+      ],
+      "answers": [
+        0,
+        2,
+        1,
+        0,
+        0,
+        2,
+        2,
+        0
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:38.284Z"
+    }
+  },
+  "lebron": {
+    "person": "lebron",
+    "raw": 43,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "basket",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "basket-express-6",
+          "order": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "basket-order-9",
+          "order": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "basket-action-7",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "basket-explore-11",
+          "order": [
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "v10-basket-5",
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "v11-owner-lebron-0",
+          "order": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "basket-explore-8",
+          "order": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "v11-owner-yaoming-1",
+          "order": [
+            2,
+            3,
+            0,
+            1
+          ]
+        }
+      ],
+      "answers": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        0,
+        2,
+        0
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:38.294Z"
+    }
+  },
+  "curry": {
+    "person": "curry",
+    "raw": 51,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "basket",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "basket-order-1",
+          "order": [
+            3,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "v11-owner-durant-1",
+          "order": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "basket-social-5",
+          "order": [
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "basket-empathy-11",
+          "order": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "basket-express-9",
+          "order": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "v11-owner-curry-1",
+          "order": [
+            0,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "basket-express-12",
+          "order": [
+            2,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "basket-explore-12",
+          "order": [
+            2,
+            1,
+            0,
+            3
+          ]
+        }
+      ],
+      "answers": [
+        2,
+        1,
+        1,
+        3,
+        3,
+        1,
+        1,
+        3
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:38.330Z"
+    }
+  },
+  "jordan": {
+    "person": "jordan",
+    "raw": 48,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "basket",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-owner-jordan-0",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "basket-empathy-11",
+          "order": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "basket-express-11",
+          "order": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "basket-social-6",
+          "order": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "basket-explore-5",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "basket-order-2",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "basket-order-3",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "basket-action-4",
+          "order": [
+            2,
+            0,
+            3,
+            1
+          ]
+        }
+      ],
+      "answers": [
+        0,
+        1,
+        3,
+        2,
+        2,
+        3,
+        2,
+        3
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:38.489Z"
+    }
+  },
+  "dailanzi": {
+    "person": "dailanzi",
+    "raw": 47,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "abstract",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-owner-fengge-1",
+          "order": [
+            3,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "v10-abstract-21",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "abstract-express-8",
+          "order": [
+            3,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "v11-owner-dailanzi-1",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "abstract-social-11",
+          "order": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "abstract-action-3",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "v10-abstract-0",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "v11-sample-11",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        }
+      ],
+      "answers": [
+        1,
+        0,
+        3,
+        3,
+        3,
+        1,
+        3,
+        3
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:39.043Z"
+    }
+  },
+  "us-lecturer": {
+    "person": "us-lecturer",
+    "raw": 38,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "abstract",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-sample-11",
+          "order": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "abstract-order-5",
+          "order": [
+            3,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "abstract-action-12",
+          "order": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "v10-abstract-8",
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "abstract-explore-2",
+          "order": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "v11-owner-huge-1",
+          "order": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "abstract-social-1",
+          "order": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "v11-owner-sunxiaochuan-1",
+          "order": [
+            3,
+            1,
+            2,
+            0
+          ]
+        }
+      ],
+      "answers": [
+        0,
+        1,
+        0,
+        0,
+        3,
+        2,
+        1,
+        1
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:39.044Z"
+    }
+  },
+  "fengge": {
+    "person": "fengge",
+    "raw": 41,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "abstract",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-owner-fengge-0",
+          "order": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "abstract-order-8",
+          "order": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "v10-abstract-1",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "abstract-action-9",
+          "order": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "abstract-empathy-12",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "v11-owner-leijun-1",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "abstract-explore-1",
+          "order": [
+            3,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "v11-owner-fengge-1",
+          "order": [
+            1,
+            2,
+            0,
+            3
+          ]
+        }
+      ],
+      "answers": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        3,
+        2
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:39.045Z"
+    }
+  },
+  "daoge": {
+    "person": "daoge",
+    "raw": 46,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "abstract",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "abstract-explore-5",
+          "order": [
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "v11-owner-us-lecturer-0",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "v11-owner-daoge-0",
+          "order": [
+            3,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "abstract-action-3",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "abstract-empathy-10",
+          "order": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "abstract-action-11",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "abstract-empathy-11",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "abstract-express-7",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        }
+      ],
+      "answers": [
+        1,
+        3,
+        1,
+        3,
+        1,
+        1,
+        0,
+        3
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:39.047Z"
+    }
+  },
+  "huchenfeng": {
+    "person": "huchenfeng",
+    "raw": 42,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "abstract",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "abstract-express-5",
+          "order": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "abstract-explore-8",
+          "order": [
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "abstract-order-4",
+          "order": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "v10-abstract-4",
+          "order": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "abstract-social-4",
+          "order": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "abstract-order-7",
+          "order": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "abstract-action-2",
+          "order": [
+            2,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "abstract-empathy-10",
+          "order": [
+            2,
+            0,
+            3,
+            1
+          ]
+        }
+      ],
+      "answers": [
+        2,
+        3,
+        1,
+        0,
+        2,
+        3,
+        2,
+        0
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:39.052Z"
+    }
+  },
+  "yaoshuige": {
+    "person": "yaoshuige",
+    "raw": 43,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "abstract",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-owner-dailanzi-1",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "abstract-explore-2",
+          "order": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "abstract-order-9",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "abstract-social-5",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "v10-abstract-14",
+          "order": [
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "abstract-express-10",
+          "order": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "abstract-empathy-12",
+          "order": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "v11-owner-sunxiaochuan-1",
+          "order": [
+            1,
+            3,
+            0,
+            2
+          ]
+        }
+      ],
+      "answers": [
+        3,
+        2,
+        0,
+        1,
+        1,
+        2,
+        3,
+        3
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:39.065Z"
+    }
+  },
+  "huge": {
+    "person": "huge",
+    "raw": 46,
+    "bonus": 4,
+    "session": {
+      "version": 11,
+      "theme": "abstract",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "abstract-empathy-1",
+          "order": [
+            0,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "v11-owner-luoyonghao-0",
+          "order": [
+            3,
+            1,
+            2,
+            0
+          ]
+        },
+        {
+          "id": "abstract-order-9",
+          "order": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "v11-owner-huge-1",
+          "order": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "abstract-express-2",
+          "order": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "id": "abstract-action-4",
+          "order": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "id": "abstract-explore-12",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "abstract-express-4",
+          "order": [
+            2,
+            1,
+            0,
+            3
+          ]
+        }
+      ],
+      "answers": [
+        3,
+        0,
+        2,
+        2,
+        1,
+        3,
+        2,
+        3
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:39.075Z"
+    }
+  },
+  "leijun": {
+    "person": "leijun",
+    "raw": 50,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "abstract",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "abstract-empathy-8",
+          "order": [
+            0,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "v10-abstract-15",
+          "order": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "id": "abstract-order-2",
+          "order": [
+            3,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "v11-owner-luoyonghao-0",
+          "order": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "v10-abstract-23",
+          "order": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "v11-owner-leijun-0",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "abstract-order-10",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "abstract-explore-4",
+          "order": [
+            3,
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "answers": [
+        1,
+        2,
+        1,
+        2,
+        3,
+        0,
+        3,
+        3
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:39.147Z"
+    }
+  },
+  "luoyonghao": {
+    "person": "luoyonghao",
+    "raw": 46,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "abstract",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "abstract-action-5",
+          "order": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "id": "abstract-empathy-8",
+          "order": [
+            0,
+            2,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "v11-owner-fengge-0",
+          "order": [
+            0,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          "id": "v11-owner-huchenfeng-0",
+          "order": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "v11-owner-huchenfeng-1",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "abstract-action-8",
+          "order": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "v11-owner-luoyonghao-0",
+          "order": [
+            2,
+            1,
+            0,
+            3
+          ]
+        },
+        {
+          "id": "abstract-express-3",
+          "order": [
+            2,
+            1,
+            3,
+            0
+          ]
+        }
+      ],
+      "answers": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        3,
+        0,
+        2
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:39.619Z"
+    }
+  },
+  "sunxiaochuan": {
+    "person": "sunxiaochuan",
+    "raw": 48,
+    "bonus": 0,
+    "session": {
+      "version": 11,
+      "theme": "abstract",
+      "series": "all",
+      "count": 8,
+      "deck": [
+        {
+          "id": "v11-owner-sunxiaochuan-0",
+          "order": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "id": "abstract-action-5",
+          "order": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "abstract-empathy-12",
+          "order": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "id": "abstract-social-5",
+          "order": [
+            1,
+            0,
+            2,
+            3
+          ]
+        },
+        {
+          "id": "abstract-order-8",
+          "order": [
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "abstract-explore-8",
+          "order": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "id": "v11-owner-leijun-1",
+          "order": [
+            3,
+            2,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "abstract-action-2",
+          "order": [
+            2,
+            1,
+            0,
+            3
+          ]
+        }
+      ],
+      "answers": [
+        1,
+        1,
+        2,
+        2,
+        3,
+        3,
+        0,
+        0
+      ],
+      "index": 0,
+      "phase": "quiz",
+      "date": "2026-10-23T16:37:39.748Z"
+    }
+  }
+}
