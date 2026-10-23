@@ -1,0 +1,86 @@
+{
+  "entry_bytes": 2163,
+  "entry_sha256": "39ef8e2338cc953b12c9cbff64f4637abb1a8bae2c1a7c61225898cda9344192",
+  "core_bytes": 2396320,
+  "offline_html_bytes": 18805493,
+  "offline_html_sha256": "45607d47c4ae1ed900196d7ef288bd321af89af67dc25967cfe20d410db51f22",
+  "core_files": [
+    "boot-83ffa9eee7c7.js",
+    "style-97224d94170e.css",
+    "data-26772965c108.js",
+    "engine-56f5c1e9d398.js",
+    "app-f88a6f77f22e.js"
+  ],
+  "mode": "split assets; portraits loaded on demand; offline export is a separate self-contained file",
+  "engineAndStorageTests": 49,
+  "dataSha256": "785c19aef9429ba9b1fdc3c67099bd1a6d111932fb52fe5da5d3bb109a730430",
+  "xhsValidation": "docs/xhs-validation-v13.json",
+  "version": 13,
+  "edition": "镜面宇宙扩展版",
+  "schemaVersion": 12,
+  "enabledPeople": 57,
+  "verifiedAvatars": 57,
+  "pendingAvatars": [],
+  "activeQuestions": 428,
+  "cards": 207,
+  "exclusiveCards": 171,
+  "byTheme": {
+    "lol": {
+      "people": 21,
+      "questions": 124,
+      "cards": 93
+    },
+    "basket": {
+      "people": 18,
+      "questions": 146,
+      "cards": 57
+    },
+    "abstract": {
+      "people": 18,
+      "questions": 158,
+      "cards": 57
+    }
+  },
+  "webURL": "https://yangcrazy1.github.io/Basketball/v13/",
+  "browserGroups": 19,
+  "browserDevice": "393×852 Chromium mobile viewport; not physical phone or XHS platform acceptance",
+  "nativeAcceptance": "pending: 创服平台模拟器、Android 真机扫码、iOS 真机扫码",
+  "verifiedAvatarSources": 57,
+  "avatarVerificationMeaning": "verifiedAvatarSources（旧字段 verifiedAvatars 同义）表示漫画头像均有已核对的公开原型来源与非占位绘图；不表示每张来源照片的真实面孔均已独立核验，也不表示取得商业授权。",
+  "faceVerificationCaveats": [
+    {
+      "personId": "nida",
+      "name": "尼达",
+      "sourceNote": "官方账号头像是车内穿黑色连帽外套的人，帽沿和侧身遮住大部分脸；可还原连帽姿态，不能据此编造已核实正面人脸。 保留公开头像的遮脸姿态，不声称已核对完整面容。",
+      "meaning": "已核对公开账号头像来源；不宣称真实面孔已独立核验。"
+    },
+    {
+      "personId": "yili",
+      "name": "伊利",
+      "sourceNote": "官方账号头像为戴黑色毛线帽、黑色外套的近距离单人自拍，脸部清楚。",
+      "meaning": "已核对公开账号头像来源；不宣称真实面孔已独立核验。"
+    }
+  ],
+  "artifacts": {
+    "world-another-me-v13.html": {
+      "bytes": 18805493,
+      "sha256": "45607d47c4ae1ed900196d7ef288bd321af89af67dc25967cfe20d410db51f22"
+    },
+    "world-another-me-v13-web.zip": {
+      "bytes": 25307401,
+      "sha256": "2e36a0a8cb8bbb014ae7dad68347e97b4715aab9c34a6a0f2fa97ab7e6bbd7e5"
+    },
+    "world-another-me-v13-xhs.zip": {
+      "bytes": 7886627,
+      "sha256": "54929e09e98f85c7c16ed167676cca817e928243084c882edd6613ff1dd648a9"
+    }
+  },
+  "xhsFiles": 79,
+  "logoDownload": "./downloads/logo.png",
+  "logoDownloadSHA256": "3cef8ec1a4474921fd02dd72bcb50e5985cb52f85c53f7008b1c4d04c6f552f5",
+  "coverDownload": "./downloads/cover.png",
+  "coverDownloadSHA256": "1a4cfe52975d58176e6e0495eaa2fe743109ea44c11210a6abdeb0e37752936e",
+  "appName": "平行宇宙的另一个我",
+  "source_commit": "0faa2f5dcd524cc84cbe6fd8e0e388c37b34b717",
+  "previous_entries_unchanged": true
+}

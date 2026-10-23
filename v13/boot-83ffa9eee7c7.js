@@ -1,0 +1,1 @@
+(function(){'use strict';function stalled(){if(document.documentElement.dataset.appReady)return;var e=document.getElementById('loading');if(e){var p=e.querySelector('p');if(p)p.textContent='页面还没加载完成，请点下方刷新重试。';var a=e.querySelector('a');if(a)a.hidden=false;}}window.addEventListener('error',stalled,true);setTimeout(stalled,12000);})();
