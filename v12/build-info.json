@@ -1,0 +1,45 @@
+{
+  "entry_bytes": 2144,
+  "entry_sha256": "792f088849683453e9f661055472804f102d78b37150c1c95508bd863936d064",
+  "core_bytes": 1430817,
+  "offline_html_bytes": 14814383,
+  "offline_html_sha256": "f79e4a06898e649144cc5ca5b7e772ede2fb81de17110d4aa850af78c1f9b7a4",
+  "core_files": [
+    "boot-83ffa9eee7c7.js",
+    "style-15671dc32eb9.css",
+    "data-0ca53bbb265a.js",
+    "engine-8b4c9744e527.js",
+    "app-27b25d72b483.js"
+  ],
+  "mode": "split assets; portraits loaded on demand; offline export is a separate self-contained file",
+  "version": 12,
+  "edition": "V10 回归增强版",
+  "schemaVersion": 11,
+  "enabledPeople": 40,
+  "verifiedAvatars": 40,
+  "pendingAvatars": [],
+  "activeQuestions": 328,
+  "cards": 156,
+  "exclusiveCards": 120,
+  "webURL": "https://yangcrazy1.github.io/Basketball/v12/",
+  "nativeAcceptance": "pending: 创服平台模拟器、Android 真机扫码、iOS 真机扫码",
+  "artifacts": {
+    "world-another-me-v12.html": {
+      "bytes": 14814383,
+      "sha256": "f79e4a06898e649144cc5ca5b7e772ede2fb81de17110d4aa850af78c1f9b7a4"
+    },
+    "world-another-me-v12-xhs.zip": {
+      "bytes": 9913155,
+      "sha256": "3d1cae3ace74939e124351e843e77ea64e40029cd562bbc5779a8adcead14e53"
+    },
+    "world-another-me-v12-web.zip": {
+      "bytes": 20361038,
+      "sha256": "0d3a253727bfdf9e4a6c09197c2e3b27bd02e0e4b775250588c6e578f34e7468"
+    }
+  },
+  "engineAndStorageTests": 38,
+  "browserGroups": 16,
+  "browserDevice": "393×852 Chromium mobile viewport, not a physical phone",
+  "source_commit": "293e82602600fadf1de84bdf64d4ea5d6839c357",
+  "previous_entries_unchanged": true
+}
