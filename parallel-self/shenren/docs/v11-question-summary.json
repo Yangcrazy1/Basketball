@@ -1,0 +1,32 @@
+{
+  "oldQuestions": 348,
+  "decisions": {
+    "保留": 212,
+    "微调": 4,
+    "退出默认池": 128,
+    "重写": 4
+  },
+  "activeCounts": {
+    "lol": {
+      "questions": 120,
+      "people": 20,
+      "cards": 49
+    },
+    "basket": {
+      "questions": 78,
+      "people": 10,
+      "cards": 10
+    },
+    "abstract": {
+      "questions": 90,
+      "people": 10,
+      "cards": 15
+    }
+  },
+  "leagueCategories": {
+    "meme": 36,
+    "gameplay": 12,
+    "life": 72
+  },
+  "newQuestions": 68
+}

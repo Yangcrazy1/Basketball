@@ -1,0 +1,2786 @@
+[
+  {
+    "id": "hex-collector-0",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "队友四个人都出了收集者。第五个人的你怎么办？",
+    "after": "队友四个人都出了收集者。第五个人的你怎么办？"
+  },
+  {
+    "id": "hex-collector-1",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "镜头切回桥上：对面五个大汉排成一堵墙。下一幕你想看什么？",
+    "after": "镜头切回桥上：对面五个大汉排成一堵墙。下一幕你想看什么？"
+  },
+  {
+    "id": "hex-collector-2",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "对面只剩一丝血，四位收集者同时亮起。你的反应是？",
+    "after": "对面只剩一丝血，四位收集者同时亮起。你的反应是？"
+  },
+  {
+    "id": "hex-collector-3",
+    "theme": "lol",
+    "status": "微调",
+    "reason": "修复拗口的术语展开，保留原行为语义",
+    "before": "这局收集者出了四把起步，推塔却慢了一拍。下局你想改什么？",
+    "after": "这局收集者出了四把起步，推塔却慢了一拍。下局你想改什么？"
+  },
+  {
+    "id": "hex-basic-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "你拿到的三张强化，分别偏普攻、大招、团队保护。英雄没有特殊联动，你先看什么？",
+    "after": null
+  },
+  {
+    "id": "hex-basic-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "第一场六级团要开了，你想把技能留给谁？",
+    "after": null
+  },
+  {
+    "id": "hex-basic-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "刚交完一轮技能，对面前排还在向前走。你怎么接？",
+    "after": null
+  },
+  {
+    "id": "hex-basic-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "回放里有伤害也有空技能，你最想重看哪一段？",
+    "after": null
+  },
+  {
+    "id": "hex-box-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "三张强化都没有理想联动，手里还剩一次重掷。你会？",
+    "after": null
+  },
+  {
+    "id": "hex-box-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "选择已经确认，队友问这张怎么用。你怎么回答？",
+    "after": null
+  },
+  {
+    "id": "hex-box-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "团战开始，你选的强化第一次有机会触发。你先盯什么？",
+    "after": null
+  },
+  {
+    "id": "hex-box-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "下一轮选牌又来了，你会优先补哪块？",
+    "after": null
+  },
+  {
+    "id": "hex-gate-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "你们刚赢一波，对面还有两个人守塔。下一步怎么打？",
+    "after": null
+  },
+  {
+    "id": "hex-gate-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "守塔的人清掉前排小兵，你们剩下的兵不多。你会？",
+    "after": null
+  },
+  {
+    "id": "hex-gate-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "一波边退边打结束，新兵线快到了。你最先看哪里？",
+    "after": null
+  },
+  {
+    "id": "hex-gate-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "同样是赢团，这次推进最该记住什么？",
+    "after": null
+  },
+  {
+    "id": "hex-range-0",
+    "theme": "lol",
+    "status": "微调",
+    "reason": "修复拗口的术语展开，保留原行为语义",
+    "before": "你拿了远程消耗英雄，队友却是近战居多。你怎么站？",
+    "after": "你拿了远程消耗英雄，队友却是近战居多。你怎么站？"
+  },
+  {
+    "id": "hex-range-1",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "队友想往前压，对面刺客还没露头。你会？",
+    "after": "队友想往前压，对面刺客还没露头。你会？"
+  },
+  {
+    "id": "hex-range-2",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "刺客绕后接近你，前排正在打另一边。你怎么处理？",
+    "after": "刺客绕后接近你，前排正在打另一边。你怎么处理？"
+  },
+  {
+    "id": "hex-range-3",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "看输出统计时，你最想一起对照哪项？",
+    "after": "看输出统计时，你最想一起对照哪项？"
+  },
+  {
+    "id": "hex-giant-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "你是队里唯一前排，四个队友都在展示输出装。你先做什么？",
+    "after": null
+  },
+  {
+    "id": "hex-giant-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "五个人挤在桥口，对面法师正在找范围技能。你会？",
+    "after": null
+  },
+  {
+    "id": "hex-giant-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "你血量不多，队友还在输出，敌方后排也残了。你会？",
+    "after": null
+  },
+  {
+    "id": "hex-giant-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "这把最让你有成就感的是？",
+    "after": null
+  },
+  {
+    "id": "hex-missile-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "你玩远程技能英雄，对面一直躲在兵线后。你会？",
+    "after": null
+  },
+  {
+    "id": "hex-missile-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "连续两发空了，队友开始点你的头像。你怎么接？",
+    "after": null
+  },
+  {
+    "id": "hex-missile-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "对方残血在桥尾亮表情，前排挡着。下一步？",
+    "after": null
+  },
+  {
+    "id": "hex-missile-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "回看这局技能命中率，你最想改什么？",
+    "after": null
+  },
+  {
+    "id": "hex-heal-0",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "你拿到治疗型辅助，四个队友都说自己能C。你怎么准备？",
+    "after": "你拿到治疗型辅助，四个队友都说自己能C。你怎么准备？"
+  },
+  {
+    "id": "hex-heal-1",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "四个人同时喊“奶我”，治疗技能只有一份。你先？",
+    "after": "四个人同时喊“奶我”，治疗技能只有一份。你先？"
+  },
+  {
+    "id": "hex-heal-2",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "核心追残血跑远，后面还有三个人。你会？",
+    "after": "核心追残血跑远，后面还有三个人。你会？"
+  },
+  {
+    "id": "hex-heal-3",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "治疗量和输出量摆在一起，你最想说什么？",
+    "after": "治疗量和输出量摆在一起，你最想说什么？"
+  },
+  {
+    "id": "hex-clown-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "你玩小丑，队友都还在清线，对面后排落单了。你怎么进？",
+    "after": null
+  },
+  {
+    "id": "hex-clown-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "你绕到侧后方，队友还差半座桥。下一步？",
+    "after": null
+  },
+  {
+    "id": "hex-clown-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "盒子把对方前排吓退了，后排没跟上。你会？",
+    "after": null
+  },
+  {
+    "id": "hex-clown-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "回放标题你会选哪个？",
+    "after": null
+  },
+  {
+    "id": "hex-stack-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "你拿到狗头，一技能层数刚起步，队友已经想打架。你怎么安排？",
+    "after": null
+  },
+  {
+    "id": "hex-stack-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "近处有残血炮车，队友在桥口边退边打。你会？",
+    "after": null
+  },
+  {
+    "id": "hex-stack-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "装备和层数终于够用，对面却开始后退。你选择？",
+    "after": null
+  },
+  {
+    "id": "hex-stack-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "基地结算时，你怎么看这把成长？",
+    "after": null
+  },
+  {
+    "id": "hex-ult-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "你玩大招开团英雄，大招已经转好，对面五个没站一起。你会？",
+    "after": null
+  },
+  {
+    "id": "hex-ult-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "第一发大招没打出效果，技能还在冷却。你怎么接？",
+    "after": null
+  },
+  {
+    "id": "hex-ult-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "大招快好了，对面站得很密，队友还差两个人复活。你会？",
+    "after": null
+  },
+  {
+    "id": "hex-ult-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "这局你最想保存的十秒是？",
+    "after": null
+  },
+  {
+    "id": "hex-snowball-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "雪球成了这座桥的通勤工具。你属于哪类司机？",
+    "after": null
+  },
+  {
+    "id": "hex-snowball-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "雪球中了，但四位队友都没跟上。你下一秒会？",
+    "after": null
+  },
+  {
+    "id": "hex-snowball-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "对面交闪现逃跑，雪球还在冷却。你的计划？",
+    "after": null
+  },
+  {
+    "id": "hex-snowball-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "教练给你的驾照备注会是？",
+    "after": null
+  },
+  {
+    "id": "rift-draft-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "队伍四个脆皮，五楼的你被问“能补个前排吗”？",
+    "after": null
+  },
+  {
+    "id": "rift-draft-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "辅助喊一级团，打野却在给野怪发问候。你支持？",
+    "after": null
+  },
+  {
+    "id": "rift-draft-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "对面漏出一个机会，你希望怎么接？",
+    "after": null
+  },
+  {
+    "id": "rift-draft-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "赛后回看这次阵容，你想改什么？",
+    "after": null
+  },
+  {
+    "id": "rift-gank-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "你被压在塔下，打野从门口路过，你打什么字？",
+    "after": null
+  },
+  {
+    "id": "rift-gank-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "打野标记要反野，中路却被推线。镜头选哪条路？",
+    "after": null
+  },
+  {
+    "id": "rift-gank-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "河道碰到三个人，队友离你两屏。下一步？",
+    "after": null
+  },
+  {
+    "id": "rift-gank-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "你给这位打野留一句评语？",
+    "after": null
+  },
+  {
+    "id": "rift-dragon-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "龙刷新了，队友还差一笔钱做装备。你决定？",
+    "after": null
+  },
+  {
+    "id": "rift-dragon-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "对面假装走远，辅助说“肯定没走”。你怎么安排？",
+    "after": null
+  },
+  {
+    "id": "rift-dragon-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "龙只剩一点血，对方打野准备进场。你盯哪里？",
+    "after": null
+  },
+  {
+    "id": "rift-dragon-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "抢完龙之后你最想说什么？",
+    "after": null
+  },
+  {
+    "id": "rift-galio-0",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "平行S8决胜局，对面的飞科又锁了加里奥。你接什么剧本？",
+    "after": "平行S8决胜局，对面的飞科又锁了加里奥。你接什么剧本？"
+  },
+  {
+    "id": "rift-galio-1",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "边线一打起来，加里奥的圈就亮了。你的反应？",
+    "after": "边线一打起来，加里奥的圈就亮了。你的反应？"
+  },
+  {
+    "id": "rift-galio-2",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "最后一波团战，人群里出现一条输出缝隙。你会？",
+    "after": "最后一波团战，人群里出现一条输出缝隙。你会？"
+  },
+  {
+    "id": "rift-galio-3",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "这个架空宇宙终于下起金雨，你先做什么？",
+    "after": "这个架空宇宙终于下起金雨，你先做什么？"
+  },
+  {
+    "id": "rift-split-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "上单说“你们四个守，我能带穿”。你回复？",
+    "after": null
+  },
+  {
+    "id": "rift-split-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "小地图上五个人都去抓边线了。下一镜头？",
+    "after": null
+  },
+  {
+    "id": "rift-split-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "对面基地露出破绽，回家买装备光柱也亮起来。你选？",
+    "after": null
+  },
+  {
+    "id": "rift-split-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "这局单带战术最后怎么命名？",
+    "after": null
+  },
+  {
+    "id": "rift-support-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "辅助出了输出装，说“今天轮到我C”。你反应？",
+    "after": null
+  },
+  {
+    "id": "rift-support-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "眼位刚插下就被排了，辅助看着你。你怎么接？",
+    "after": null
+  },
+  {
+    "id": "rift-support-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "团战里两个队友同时残血，你救谁？",
+    "after": null
+  },
+  {
+    "id": "rift-support-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "赛后想给辅助一个高光镜头，你最想放哪段？",
+    "after": null
+  },
+  {
+    "id": "rift-pause-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "逆风五千，语音有人开始算锅的大小。你怎么办？",
+    "after": null
+  },
+  {
+    "id": "rift-pause-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "对方核心带着赏金走进河道。镜头怎么继续？",
+    "after": null
+  },
+  {
+    "id": "rift-pause-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "门牙塔只剩一座，超级兵已经进门。你优先？",
+    "after": null
+  },
+  {
+    "id": "rift-pause-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "无论这局输赢，你最想带走什么？",
+    "after": null
+  },
+  {
+    "id": "rift-rematch-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "输赢刚结算，队友说“最后一把”。你相信吗？",
+    "after": null
+  },
+  {
+    "id": "rift-rematch-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "队友突然想跟你换位置，理由是“风水不好”。你会？",
+    "after": null
+  },
+  {
+    "id": "rift-rematch-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "这真的是今晚最后一团，你希望镜头停在哪里？",
+    "after": null
+  },
+  {
+    "id": "rift-rematch-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "关掉游戏前，你留给五人群什么？",
+    "after": null
+  },
+  {
+    "id": "rift-spring-0",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "你玩中单，刚推完一波线，打野想争河道地图信息。你会？",
+    "after": "你玩中单，刚推完一波线，打野想争河道地图信息。你会？"
+  },
+  {
+    "id": "rift-spring-1",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "边路有机会，对面中单正在回家买装备。你怎么选？",
+    "after": "边路有机会，对面中单正在回家买装备。你怎么选？"
+  },
+  {
+    "id": "rift-spring-2",
+    "theme": "lol",
+    "status": "微调",
+    "reason": "修复拗口的术语展开，保留原行为语义",
+    "before": "团战开始，前排已经接触，双方后排都在等。你会？",
+    "after": "团战开始，前排已经接触，双方后排都在等。你会？"
+  },
+  {
+    "id": "rift-spring-3",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "导播把镜头切到你，队友正笑着聊刚才那团。你会？",
+    "after": "导播把镜头切到你，队友正笑着聊刚才那团。你会？"
+  },
+  {
+    "id": "hex-table-0",
+    "theme": "lol",
+    "status": "重写",
+    "reason": "保留团灭四幕ID，改为朋友口语与互相拆台",
+    "before": "刚被打了一波零换五，复活倒计时还在走。你先？",
+    "after": "刚输了一波，五个人一起看着灰屏。你先？"
+  },
+  {
+    "id": "hex-table-1",
+    "theme": "lol",
+    "status": "重写",
+    "reason": "保留团灭四幕ID，改为朋友口语与互相拆台",
+    "before": "队友说“再来一次就能赢”，但双方装备差了一件。你会？",
+    "after": "朋友说“再来一次肯定行”，你接什么？"
+  },
+  {
+    "id": "hex-table-2",
+    "theme": "lol",
+    "status": "重写",
+    "reason": "保留团灭四幕ID，改为朋友口语与互相拆台",
+    "before": "对面带兵压到塔前，这次你最先看什么？",
+    "after": "对面快到门口了，你先看？"
+  },
+  {
+    "id": "hex-table-3",
+    "theme": "lol",
+    "status": "重写",
+    "reason": "保留团灭四幕ID，改为朋友口语与互相拆台",
+    "before": "不管输赢，这局你留给队友哪一句？",
+    "after": "结算页出来了，你给朋友留哪句话？"
+  },
+  {
+    "id": "hex-office-0",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "你刚阵亡，队友还在桥中间边退边打，复活还差十秒。你会？",
+    "after": "你刚阵亡，队友还在桥中间边退边打，复活还差十秒。你会？"
+  },
+  {
+    "id": "hex-office-1",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "观战时你发现刺客从侧面露头。你怎么提醒？",
+    "after": "观战时你发现刺客从侧面露头。你怎么提醒？"
+  },
+  {
+    "id": "hex-office-2",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "你复活时队友正往回退，对面还有四个。你会？",
+    "after": "你复活时队友正往回退，对面还有四个。你会？"
+  },
+  {
+    "id": "hex-office-3",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "这次灰屏里，你觉得什么最有用？",
+    "after": "这次灰屏里，你觉得什么最有用？"
+  },
+  {
+    "id": "hex-review-0",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "你阵亡前逼出两个闪现，队友保住了塔。复活还有十秒，你先？",
+    "after": "你阵亡前逼出两个闪现，队友保住了塔。复活还有十秒，你先？"
+  },
+  {
+    "id": "hex-review-1",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "队友问“你拿人头换到了什么”，你怎么回？",
+    "after": "队友问“你拿人头换到了什么”，你怎么回？"
+  },
+  {
+    "id": "hex-review-2",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "复活后，同一个路口又出现残血，旁边敌人没露头。你会？",
+    "after": "复活后，同一个路口又出现残血，旁边敌人没露头。你会？"
+  },
+  {
+    "id": "hex-review-3",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "这段回放你会叫什么？",
+    "after": "这段回放你会叫什么？"
+  },
+  {
+    "id": "hex-collector-audit-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "队伍四个收集者，你的钱也够合成一把，队里没有前排。你选？",
+    "after": null
+  },
+  {
+    "id": "hex-collector-audit-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "对面前排残血，后排状态还很好。你先打谁？",
+    "after": null
+  },
+  {
+    "id": "hex-collector-audit-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "对面开始推你们的基地，远处还有一波残血小兵。你会？",
+    "after": null
+  },
+  {
+    "id": "hex-collector-audit-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "装备栏一排收集者，塔伤害却很一般。下局怎么说？",
+    "after": null
+  },
+  {
+    "id": "rift-double-laugh-0",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "队友看见对面阵容，已经开始笑“这把稳了”。你怎么接？",
+    "after": "队友看见对面阵容，已经开始笑“这把稳了”。你怎么接？"
+  },
+  {
+    "id": "rift-double-laugh-1",
+    "theme": "lol",
+    "status": "微调",
+    "reason": "修复拗口的术语展开，保留原行为语义",
+    "before": "你们拿到一个人头，对面闪现还在，队友开始连发笑脸。你会？",
+    "after": "你们拿到一个人头，对面闪现还在，队友开始连发笑脸。你会？"
+  },
+  {
+    "id": "rift-double-laugh-2",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "对面开始抱团，你的队友仍在说“稳”。你会？",
+    "after": "对面开始抱团，你的队友仍在说“稳”。你会？"
+  },
+  {
+    "id": "rift-double-laugh-3",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "结算页终于打开，群里有人要一张表情包。你发？",
+    "after": "结算页终于打开，群里有人要一张表情包。你发？"
+  },
+  {
+    "id": "rift-tes-top-0",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "对手连开两波，你们被压在塔前，弹幕刷“陀螺又转起来了”。你会？",
+    "after": "对手连开两波，你们被压在塔前，弹幕刷“陀螺又转起来了”。你会？"
+  },
+  {
+    "id": "rift-tes-top-1",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "边路交火，你的传送能落到后方眼位，但队友血量很低。你会？",
+    "after": "边路交火，你的传送能落到后方眼位，但队友血量很低。你会？"
+  },
+  {
+    "id": "rift-tes-top-2",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "对面开团技能刚交空一个，你们终于有一点空间。你选？",
+    "after": "对面开团技能刚交空一个，你们终于有一点空间。你选？"
+  },
+  {
+    "id": "rift-tes-top-3",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "队友发来“滔博陀螺”梗图，你配什么文字？",
+    "after": "队友发来“滔博陀螺”梗图，你配什么文字？"
+  },
+  {
+    "id": "rift-flash-wall-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "你追到峡谷河道的薄墙边，对面残血刚过去，闪现还在。你会？",
+    "after": null
+  },
+  {
+    "id": "rift-flash-wall-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "有人闪现撞墙，语音突然安静。轮到你接一句？",
+    "after": null
+  },
+  {
+    "id": "rift-flash-wall-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "下一波团你的闪现还在冷却，对面控制却转好了。你怎么站？",
+    "after": null
+  },
+  {
+    "id": "rift-flash-wall-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "队友说把撞墙那段删掉，你会？",
+    "after": null
+  },
+  {
+    "id": "hex-golden-time-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "你玩法师，对面刺客盯了你好几次，钱够做金身。你会？",
+    "after": null
+  },
+  {
+    "id": "hex-golden-time-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "刺客技能快落到你身上，队友就在附近。你怎么按？",
+    "after": null
+  },
+  {
+    "id": "hex-golden-time-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "金身快结束，队友正与对面交火，脚下还有危险技能。你准备？",
+    "after": null
+  },
+  {
+    "id": "hex-golden-time-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "这把金身救过你，也有一次没按出来。你怎么评价？",
+    "after": null
+  },
+  {
+    "id": "hex-six-swords-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "队友说“六把无尽，六倍快乐”，让你照着出。你回复？",
+    "after": null
+  },
+  {
+    "id": "hex-six-swords-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "现在你有一个空格，对面前排护甲很高。你会？",
+    "after": null
+  },
+  {
+    "id": "hex-six-swords-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "装备栏很好看，但你刚进场就被切掉了。下一波先改什么？",
+    "after": null
+  },
+  {
+    "id": "hex-six-swords-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "最后你给这套复制出装写一句？",
+    "after": null
+  },
+  {
+    "id": "hex-brush-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "对面五个人都没露头，前方草丛安静得很整齐。你先？",
+    "after": null
+  },
+  {
+    "id": "hex-brush-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "探草技能碰到了东西，但不知道有几个人。下一步？",
+    "after": null
+  },
+  {
+    "id": "hex-brush-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "对方前排突然从草里开出来。你会？",
+    "after": null
+  },
+  {
+    "id": "hex-brush-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "这次探草你最认同哪句？",
+    "after": null
+  },
+  {
+    "id": "hex-snowball-return-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "雪球中了对面后排，但他身后还有四个人。你按二段吗？",
+    "after": null
+  },
+  {
+    "id": "hex-snowball-return-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "雪球标记快结束，队友还在清线，语音有人喊上。你会？",
+    "after": null
+  },
+  {
+    "id": "hex-snowball-return-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "对面反而借着空档冲过来了，你的雪球已经没了。你先？",
+    "after": null
+  },
+  {
+    "id": "hex-snowball-return-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "下次雪球命中后，你希望队友先说什么？",
+    "after": null
+  },
+  {
+    "id": "rift-dragon-cheer-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "龙快进入能一套打掉的血量，队友已经在预演抢到后的庆祝。你先？",
+    "after": null
+  },
+  {
+    "id": "rift-dragon-cheer-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "龙的归属确定了，坑里还站着对面三个人。你先做什么？",
+    "after": null
+  },
+  {
+    "id": "rift-dragon-cheer-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "后方有人追，前方还有敌方控制，队友想回头。你会？",
+    "after": null
+  },
+  {
+    "id": "rift-dragon-cheer-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "大家终于安全回家买装备，队友问现在能笑了吗？",
+    "after": null
+  },
+  {
+    "id": "rift-worlds-party-0",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "朋友第一次看S赛，问“为什么大家都等金色的雨”，你会？",
+    "after": "朋友第一次看S赛，问“为什么大家都等金色的雨”，你会？"
+  },
+  {
+    "id": "rift-worlds-party-1",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "比赛领先一点，朋友已经拿起香槟。你怎么接？",
+    "after": "比赛领先一点，朋友已经拿起香槟。你怎么接？"
+  },
+  {
+    "id": "rift-worlds-party-2",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "决胜局开始，弹幕一半“稳了”一半“别急”。你会？",
+    "after": "决胜局开始，弹幕一半“稳了”一半“别急”。你会？"
+  },
+  {
+    "id": "rift-worlds-party-3",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "冠军举杯那一刻，群里让你配一句。你选？",
+    "after": "冠军举杯那一刻，群里让你配一句。你选？"
+  },
+  {
+    "id": "rift-lane-basics-0",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "对手血量比你多，还追着你点表情。你先做什么？",
+    "after": "对手血量比你多，还追着你点表情。你先做什么？"
+  },
+  {
+    "id": "rift-lane-basics-1",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "对方刚把最危险的技能打空了，你会？",
+    "after": "对方刚把最危险的技能打空了，你会？"
+  },
+  {
+    "id": "rift-lane-basics-2",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "你只剩一点血，队友说“再吃一波兵就走”。你会？",
+    "after": "你只剩一点血，队友说“再吃一波兵就走”。你会？"
+  },
+  {
+    "id": "rift-lane-basics-3",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "这一局结束，你最想留下哪个小习惯？",
+    "after": "这一局结束，你最想留下哪个小习惯？"
+  },
+  {
+    "id": "rift-look-map-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "你正追着对手打，突然发现别的敌人都没露面。你会？",
+    "after": null
+  },
+  {
+    "id": "rift-look-map-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "队友发了危险信号，你还差一下就拿到击杀。你会？",
+    "after": null
+  },
+  {
+    "id": "rift-look-map-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "草里果然出来两个人，你的队友也在往这边赶。你会？",
+    "after": null
+  },
+  {
+    "id": "rift-look-map-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "朋友问你怎么突然稳了，你会说？",
+    "after": null
+  },
+  {
+    "id": "rift-ig-memory-0",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "群里有人发出IG夺冠合照，问“那年的你在哪”。你会？",
+    "after": "群里有人发出IG夺冠合照，问“那年的你在哪”。你会？"
+  },
+  {
+    "id": "rift-ig-memory-1",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "大家争论最想重看哪一种镜头，你选？",
+    "after": "大家争论最想重看哪一种镜头，你选？"
+  },
+  {
+    "id": "rift-ig-memory-2",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "朋友说“我上我也行”，还真打开了游戏。你会？",
+    "after": "朋友说“我上我也行”，还真打开了游戏。你会？"
+  },
+  {
+    "id": "rift-ig-memory-3",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "重新打完一局，你给青春续哪一句？",
+    "after": "重新打完一局，你给青春续哪一句？"
+  },
+  {
+    "id": "rift-skin-vote-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "平行宇宙的你拿了S赛冠军，终于轮到你选纪念皮肤。你会？",
+    "after": null
+  },
+  {
+    "id": "rift-skin-vote-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "设计师问“你想加什么个人彩蛋”，你会？",
+    "after": null
+  },
+  {
+    "id": "rift-skin-vote-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "朋友想照着你的冠军打法玩，但第一次不太顺。你会？",
+    "after": null
+  },
+  {
+    "id": "rift-skin-vote-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "皮肤终于上线，群里让你发宣传词。你写？",
+    "after": null
+  },
+  {
+    "id": "rift-collector-pact-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "四个队友亮出了收集者，还齐声问你“差你这一把，出不出”。你会？",
+    "after": null
+  },
+  {
+    "id": "rift-collector-pact-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "五个人开始抢最后一下，你的第一反应是？",
+    "after": null
+  },
+  {
+    "id": "rift-collector-pact-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "对面一起压过来，五把枪看起来都很贵。你会？",
+    "after": null
+  },
+  {
+    "id": "rift-collector-pact-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "赛后群聊里，这套出装你想怎么命名？",
+    "after": null
+  },
+  {
+    "id": "basket-social-1",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "球场四缺一，群里只回了一个“在”。你会？",
+    "after": "球场四缺一，群里只回了一个“在”。你会？"
+  },
+  {
+    "id": "basket-social-2",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友说“老大叫你凌晨四点练球”，你第一反应？",
+    "after": "朋友说“老大叫你凌晨四点练球”，你第一反应？"
+  },
+  {
+    "id": "basket-social-3",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "你当篮球梦之队临时队长，怎么介绍队友？",
+    "after": "你当篮球梦之队临时队长，怎么介绍队友？"
+  },
+  {
+    "id": "basket-social-4",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "群里有人把你备注成“勒邦詹氏”，你会？",
+    "after": "群里有人把你备注成“勒邦詹氏”，你会？"
+  },
+  {
+    "id": "basket-social-5",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友说“裤衩子来了，今晚三分管够”。你会？",
+    "after": "朋友说“裤衩子来了，今晚三分管够”。你会？"
+  },
+  {
+    "id": "basket-social-6",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "刚赢一场野球，大家准备合照。你站哪？",
+    "after": "刚赢一场野球，大家准备合照。你站哪？"
+  },
+  {
+    "id": "basket-social-7",
+    "theme": "basket",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "赢球后有人说“约老师要回去看马了”。你会？",
+    "after": null
+  },
+  {
+    "id": "basket-social-8",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "饭桌上开始争“历史第一”，你怎么加入？",
+    "after": "饭桌上开始争“历史第一”，你怎么加入？"
+  },
+  {
+    "id": "basket-social-9",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "第一次跟特别能跳的球友同队，你会？",
+    "after": "第一次跟特别能跳的球友同队，你会？"
+  },
+  {
+    "id": "basket-social-10",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "队友面无表情打完一场好球，你会？",
+    "after": "队友面无表情打完一场好球，你会？"
+  },
+  {
+    "id": "basket-social-11",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "长辈喜欢乔丹，你朋友喜欢现役球员。你会？",
+    "after": "长辈喜欢乔丹，你朋友喜欢现役球员。你会？"
+  },
+  {
+    "id": "basket-social-12",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "一个新球友一直不太敢要球，你会？",
+    "after": "一个新球友一直不太敢要球，你会？"
+  },
+  {
+    "id": "basket-explore-1",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友说库里在停车场也敢投，你想怎么试？",
+    "after": "朋友说库里在停车场也敢投，你想怎么试？"
+  },
+  {
+    "id": "basket-explore-2",
+    "theme": "basket",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "看完文班亚马长臂封盖，你最想模仿什么？",
+    "after": null
+  },
+  {
+    "id": "basket-explore-3",
+    "theme": "basket",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "朋友请你给奥尼尔式罚球想个新招。你会？",
+    "after": null
+  },
+  {
+    "id": "basket-explore-4",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "看见约基奇的奇怪角度传球，你会？",
+    "after": "看见约基奇的奇怪角度传球，你会？"
+  },
+  {
+    "id": "basket-explore-5",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "你看到爱德华兹的扣篮回放，最想尝试？",
+    "after": "你看到爱德华兹的扣篮回放，最想尝试？"
+  },
+  {
+    "id": "basket-explore-6",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "你准备学一个后撤步动作，怎么开始？",
+    "after": "你准备学一个后撤步动作，怎么开始？"
+  },
+  {
+    "id": "basket-explore-7",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "能借一位球星的一项本领，你选？",
+    "after": "能借一位球星的一项本领，你选？"
+  },
+  {
+    "id": "basket-explore-8",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "你看篮板高手只盯落点，最想研究？",
+    "after": "你看篮板高手只盯落点，最想研究？"
+  },
+  {
+    "id": "basket-explore-9",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友投篮姿势很怪，但总能进。你会？",
+    "after": "朋友投篮姿势很怪，但总能进。你会？"
+  },
+  {
+    "id": "basket-explore-10",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "篮球梦之队让你挑号码，你会？",
+    "after": "篮球梦之队让你挑号码，你会？"
+  },
+  {
+    "id": "basket-explore-11",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "教练允许你给训练加一点花样，你会？",
+    "after": "教练允许你给训练加一点花样，你会？"
+  },
+  {
+    "id": "basket-explore-12",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "平行总决赛让你设计一项额外节目，你选？",
+    "after": "平行总决赛让你设计一项额外节目，你选？"
+  },
+  {
+    "id": "basket-empathy-1",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友模仿勒邦詹氏跪地抱怨漏判，大家笑完以后你会？",
+    "after": "朋友模仿勒邦詹氏跪地抱怨漏判，大家笑完以后你会？"
+  },
+  {
+    "id": "basket-empathy-2",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "队友投丢最后一球，一个人坐着。你会？",
+    "after": "队友投丢最后一球，一个人坐着。你会？"
+  },
+  {
+    "id": "basket-empathy-3",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友练了一晚没练好，说自己太菜。你会？",
+    "after": "朋友练了一晚没练好，说自己太菜。你会？"
+  },
+  {
+    "id": "basket-empathy-4",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "平时最准的人今天三分一直不进，你会？",
+    "after": "平时最准的人今天三分一直不进，你会？"
+  },
+  {
+    "id": "basket-empathy-5",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "有人抢了好多篮板，赛后却没人提他。你会？",
+    "after": "有人抢了好多篮板，赛后却没人提他。你会？"
+  },
+  {
+    "id": "basket-empathy-6",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友被做成表情包，笑着说没关系。你会？",
+    "after": "朋友被做成表情包，笑着说没关系。你会？"
+  },
+  {
+    "id": "basket-empathy-7",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "新队友刚上场就连丢两个球。你会？",
+    "after": "新队友刚上场就连丢两个球。你会？"
+  },
+  {
+    "id": "basket-empathy-8",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友整场没怎么拿到球，赛后有点闷。你会？",
+    "after": "朋友整场没怎么拿到球，赛后有点闷。你会？"
+  },
+  {
+    "id": "basket-empathy-9",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "两队因为一声哨子吵起来，你会？",
+    "after": "两队因为一声哨子吵起来，你会？"
+  },
+  {
+    "id": "basket-empathy-10",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "有人说“只有拿分的人才有用”。你会？",
+    "after": "有人说“只有拿分的人才有用”。你会？"
+  },
+  {
+    "id": "basket-empathy-11",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "年轻队友想扣篮却没成功，你会？",
+    "after": "年轻队友想扣篮却没成功，你会？"
+  },
+  {
+    "id": "basket-empathy-12",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "输了以后群里有人只怪自己，你会？",
+    "after": "输了以后群里有人只怪自己，你会？"
+  },
+  {
+    "id": "basket-action-1",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "最后一攻到了，你面前有一点空位。你会？",
+    "after": "最后一攻到了，你面前有一点空位。你会？"
+  },
+  {
+    "id": "basket-action-2",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "“老大训练闹钟”响了，你会？",
+    "after": "“老大训练闹钟”响了，你会？"
+  },
+  {
+    "id": "basket-action-3",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "传球到了，面前没人防，你会？",
+    "after": "传球到了，面前没人防，你会？"
+  },
+  {
+    "id": "basket-action-4",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "队友把球传到你面前，你会？",
+    "after": "队友把球传到你面前，你会？"
+  },
+  {
+    "id": "basket-action-5",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "球弹到你附近，你会？",
+    "after": "球弹到你附近，你会？"
+  },
+  {
+    "id": "basket-action-6",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "你面前有缝，旁边队友也在要球，你会？",
+    "after": "你面前有缝，旁边队友也在要球，你会？"
+  },
+  {
+    "id": "basket-action-7",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "暂停刚结束，队友还没完全回神，你会？",
+    "after": "暂停刚结束，队友还没完全回神，你会？"
+  },
+  {
+    "id": "basket-action-8",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "对面最后一攻往你这边来，你会？",
+    "after": "对面最后一攻往你这边来，你会？"
+  },
+  {
+    "id": "basket-action-9",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "一位老球友邀你一起练基本动作，你会？",
+    "after": "一位老球友邀你一起练基本动作，你会？"
+  },
+  {
+    "id": "basket-action-10",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "球就要滚出边线，你会？",
+    "after": "球就要滚出边线，你会？"
+  },
+  {
+    "id": "basket-action-11",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友问“这球你敢不敢试”，你会？",
+    "after": "朋友问“这球你敢不敢试”，你会？"
+  },
+  {
+    "id": "basket-action-12",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "篮球梦之队赢了，摄影师倒数三秒，你会？",
+    "after": "篮球梦之队赢了，摄影师倒数三秒，你会？"
+  },
+  {
+    "id": "basket-order-1",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "篮球梦之队第一次凑齐，你会？",
+    "after": "篮球梦之队第一次凑齐，你会？"
+  },
+  {
+    "id": "basket-order-2",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "你准备学科比的认真劲，怎么排训练？",
+    "after": "你准备学科比的认真劲，怎么排训练？"
+  },
+  {
+    "id": "basket-order-3",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友来你家看NBA总决赛，你会？",
+    "after": "朋友来你家看NBA总决赛，你会？"
+  },
+  {
+    "id": "basket-order-4",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "你想练一套传球配合，怎么开始？",
+    "after": "你想练一套传球配合，怎么开始？"
+  },
+  {
+    "id": "basket-order-5",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "队伍总是五个人一起盯着球落地，你会？",
+    "after": "队伍总是五个人一起盯着球落地，你会？"
+  },
+  {
+    "id": "basket-order-6",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "你想提高最后一球的把握，你会？",
+    "after": "你想提高最后一球的把握，你会？"
+  },
+  {
+    "id": "basket-order-7",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "大家外号越取越多，群里快认不清人了，你会？",
+    "after": "大家外号越取越多，群里快认不清人了，你会？"
+  },
+  {
+    "id": "basket-order-8",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "出门打球前你怎么收包？",
+    "after": "出门打球前你怎么收包？"
+  },
+  {
+    "id": "basket-order-9",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友嫌基本动作太无聊，你怎么劝？",
+    "after": "朋友嫌基本动作太无聊，你怎么劝？"
+  },
+  {
+    "id": "basket-order-10",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "比赛结束后，你怎么记住问题？",
+    "after": "比赛结束后，你怎么记住问题？"
+  },
+  {
+    "id": "basket-order-11",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "组一支跨时代五人队，你最先考虑？",
+    "after": "组一支跨时代五人队，你最先考虑？"
+  },
+  {
+    "id": "basket-order-12",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "今年准备多看几位年轻球员，你怎么选？",
+    "after": "今年准备多看几位年轻球员，你怎么选？"
+  },
+  {
+    "id": "basket-express-1",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "三分进了，你怎么庆祝？",
+    "after": "三分进了，你怎么庆祝？"
+  },
+  {
+    "id": "basket-express-2",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "争议哨响了，你怎么表达？",
+    "after": "争议哨响了，你怎么表达？"
+  },
+  {
+    "id": "basket-express-3",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "群里发了科比经典回放，你会？",
+    "after": "群里发了科比经典回放，你会？"
+  },
+  {
+    "id": "basket-express-4",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "让你给本场自己打分，你会？",
+    "after": "让你给本场自己打分，你会？"
+  },
+  {
+    "id": "basket-express-5",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "有人夸你防守范围大，你会？",
+    "after": "有人夸你防守范围大，你会？"
+  },
+  {
+    "id": "basket-express-6",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "完成一次漂亮上篮，队友都在看你，你会？",
+    "after": "完成一次漂亮上篮，队友都在看你，你会？"
+  },
+  {
+    "id": "basket-express-7",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "拿到一张最佳队友贴纸，你会？",
+    "after": "拿到一张最佳队友贴纸，你会？"
+  },
+  {
+    "id": "basket-express-8",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友说你今天特别稳，你会？",
+    "after": "朋友说你今天特别稳，你会？"
+  },
+  {
+    "id": "basket-express-9",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "要给一个进球选封面，你会？",
+    "after": "要给一个进球选封面，你会？"
+  },
+  {
+    "id": "basket-express-10",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "赛后让你和朋友拍搞笑短片，你会？",
+    "after": "赛后让你和朋友拍搞笑短片，你会？"
+  },
+  {
+    "id": "basket-express-11",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "你的笑脸被队友截成表情包，你会？",
+    "after": "你的笑脸被队友截成表情包，你会？"
+  },
+  {
+    "id": "basket-express-12",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "平行NBA总冠军让你讲一句话，你说？",
+    "after": "平行NBA总冠军让你讲一句话，你说？"
+  },
+  {
+    "id": "abstract-social-1",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "刷到“摇一摇”舞蹈，朋友问要不要一起拍，你会？",
+    "after": "刷到“摇一摇”舞蹈，朋友问要不要一起拍，你会？"
+  },
+  {
+    "id": "abstract-social-2",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友开了翻唱房，麦克风递过来了，你会？",
+    "after": "朋友开了翻唱房，麦克风递过来了，你会？"
+  },
+  {
+    "id": "abstract-social-3",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "峰哥式旅行群临时说“走不走”，你会？",
+    "after": "峰哥式旅行群临时说“走不走”，你会？"
+  },
+  {
+    "id": "abstract-social-4",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "准备拍一个短视频，还缺四个队友，你会？",
+    "after": "准备拍一个短视频，还缺四个队友，你会？"
+  },
+  {
+    "id": "abstract-social-5",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "虎刀梗把群里人都逗乐了，你会？",
+    "after": "虎刀梗把群里人都逗乐了，你会？"
+  },
+  {
+    "id": "abstract-social-6",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "大家玩“不讲不讲”的问答梗，你会？",
+    "after": "大家玩“不讲不讲”的问答梗，你会？"
+  },
+  {
+    "id": "abstract-social-7",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友约你拍“进城办事”风格日常，你会？",
+    "after": "朋友约你拍“进城办事”风格日常，你会？"
+  },
+  {
+    "id": "abstract-social-8",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "群聊安静太久，你想发点什么？",
+    "after": "群聊安静太久，你想发点什么？"
+  },
+  {
+    "id": "abstract-social-9",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友说“你情绪真稳，适合当我的搭子”，你会？",
+    "after": "朋友说“你情绪真稳，适合当我的搭子”，你会？"
+  },
+  {
+    "id": "abstract-social-10",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "陌生创作者想和你合拍舞蹈，你会？",
+    "after": "陌生创作者想和你合拍舞蹈，你会？"
+  },
+  {
+    "id": "abstract-social-11",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "有人留言“同款抽象人格，交个朋友”，你会？",
+    "after": "有人留言“同款抽象人格，交个朋友”，你会？"
+  },
+  {
+    "id": "abstract-social-12",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "平时只在群里玩梗的人终于见面，你会？",
+    "after": "平时只在群里玩梗的人终于见面，你会？"
+  },
+  {
+    "id": "abstract-explore-1",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "同一段舞蹈已经看了十个版本，你想做？",
+    "after": "同一段舞蹈已经看了十个版本，你想做？"
+  },
+  {
+    "id": "abstract-explore-2",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "一首热门歌听熟了，朋友让你翻唱，你会？",
+    "after": "一首热门歌听熟了，朋友让你翻唱，你会？"
+  },
+  {
+    "id": "abstract-explore-3",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "看到一个特别省事的“邪修拍摄法”，你会？",
+    "after": "看到一个特别省事的“邪修拍摄法”，你会？"
+  },
+  {
+    "id": "abstract-explore-4",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "一段安静手作视频特别耐看，你想学什么？",
+    "after": "一段安静手作视频特别耐看，你想学什么？"
+  },
+  {
+    "id": "abstract-explore-5",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "刷到“城巴佬”梗，你发现自己也不认得某种菜，你会？",
+    "after": "刷到“城巴佬”梗，你发现自己也不认得某种菜，你会？"
+  },
+  {
+    "id": "abstract-explore-6",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "别人说你的视频像模板生产线，你会？",
+    "after": "别人说你的视频像模板生产线，你会？"
+  },
+  {
+    "id": "abstract-explore-7",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "出门拍旅行日常，你想选哪里？",
+    "after": "出门拍旅行日常，你想选哪里？"
+  },
+  {
+    "id": "abstract-explore-8",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "一个老梗突然又火了，你会？",
+    "after": "一个老梗突然又火了，你会？"
+  },
+  {
+    "id": "abstract-explore-9",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "相机里有一段意外笑场，你会？",
+    "after": "相机里有一段意外笑场，你会？"
+  },
+  {
+    "id": "abstract-explore-10",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "一个普通提示音忽然很洗脑，你会？",
+    "after": "一个普通提示音忽然很洗脑，你会？"
+  },
+  {
+    "id": "abstract-explore-11",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "大家都在用同一种语气配旁白，你会？",
+    "after": "大家都在用同一种语气配旁白，你会？"
+  },
+  {
+    "id": "abstract-explore-12",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "看到“我将全职研究这个视频”的夸张评论，你会？",
+    "after": "看到“我将全职研究这个视频”的夸张评论，你会？"
+  },
+  {
+    "id": "abstract-empathy-1",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "忙完一天，朋友说“爱你老己，辛苦了”，你会？",
+    "after": "忙完一天，朋友说“爱你老己，辛苦了”，你会？"
+  },
+  {
+    "id": "abstract-empathy-2",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友跳舞慢半拍，被自己逗笑了，你会？",
+    "after": "朋友跳舞慢半拍，被自己逗笑了，你会？"
+  },
+  {
+    "id": "abstract-empathy-3",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友翻唱走音，被评论点出来后有点难受，你会？",
+    "after": "朋友翻唱走音，被评论点出来后有点难受，你会？"
+  },
+  {
+    "id": "abstract-empathy-4",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友遇到烦心事，你怎么“安慰到点子上”？",
+    "after": "朋友遇到烦心事，你怎么“安慰到点子上”？"
+  },
+  {
+    "id": "abstract-empathy-5",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友同时被三个人催更新，你会？",
+    "after": "朋友同时被三个人催更新，你会？"
+  },
+  {
+    "id": "abstract-empathy-6",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "一段自嘲被人当成认真发言，你会？",
+    "after": "一段自嘲被人当成认真发言，你会？"
+  },
+  {
+    "id": "abstract-empathy-7",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "你发的梗让朋友不舒服，你会？",
+    "after": "你发的梗让朋友不舒服，你会？"
+  },
+  {
+    "id": "abstract-empathy-8",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友认真做的视频没什么人看，你会？",
+    "after": "朋友认真做的视频没什么人看，你会？"
+  },
+  {
+    "id": "abstract-empathy-9",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "拍群舞时有人说今天不想露脸，你会？",
+    "after": "拍群舞时有人说今天不想露脸，你会？"
+  },
+  {
+    "id": "abstract-empathy-10",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "一起旅行的朋友突然不想再拍了，你会？",
+    "after": "一起旅行的朋友突然不想再拍了，你会？"
+  },
+  {
+    "id": "abstract-empathy-11",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "有人说自己总怕表现得不够有趣，你会？",
+    "after": "有人说自己总怕表现得不够有趣，你会？"
+  },
+  {
+    "id": "abstract-empathy-12",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "活动结束后，最会搞气氛的人突然安静了，你会？",
+    "after": "活动结束后，最会搞气氛的人突然安静了，你会？"
+  },
+  {
+    "id": "abstract-action-1",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "熟悉的舞蹈前奏响了，你会？",
+    "after": "熟悉的舞蹈前奏响了，你会？"
+  },
+  {
+    "id": "abstract-action-2",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "伴奏放好了，轮到你录第一遍，你会？",
+    "after": "伴奏放好了，轮到你录第一遍，你会？"
+  },
+  {
+    "id": "abstract-action-3",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "想到一个自媒体选题，你会？",
+    "after": "想到一个自媒体选题，你会？"
+  },
+  {
+    "id": "abstract-action-4",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友说附近有个值得逛的小地方，你会？",
+    "after": "朋友说附近有个值得逛的小地方，你会？"
+  },
+  {
+    "id": "abstract-action-5",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "一个新梗刚刷到第二次，你会？",
+    "after": "一个新梗刚刷到第二次，你会？"
+  },
+  {
+    "id": "abstract-action-6",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "导演倒数三二一，你会？",
+    "after": "导演倒数三二一，你会？"
+  },
+  {
+    "id": "abstract-action-7",
+    "theme": "abstract",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "准备拍一个李子柒式小手作，你会？",
+    "after": null
+  },
+  {
+    "id": "abstract-action-8",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "拍摄到一半，最关键的镜头没录上，你会？",
+    "after": "拍摄到一半，最关键的镜头没录上，你会？"
+  },
+  {
+    "id": "abstract-action-9",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友突然把麦克风递给你，让你接下一句，你会？",
+    "after": "朋友突然把麦克风递给你，让你接下一句，你会？"
+  },
+  {
+    "id": "abstract-action-10",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "视频差一个结尾就能完成，你会？",
+    "after": "视频差一个结尾就能完成，你会？"
+  },
+  {
+    "id": "abstract-action-11",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "一个很合适的合作想法出现了，你会？",
+    "after": "一个很合适的合作想法出现了，你会？"
+  },
+  {
+    "id": "abstract-action-12",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "今天该做的事已经完成，下一步你选？",
+    "after": "今天该做的事已经完成，下一步你选？"
+  },
+  {
+    "id": "abstract-order-1",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "五个人要拍“摇一摇”二创，你会？",
+    "after": "五个人要拍“摇一摇”二创，你会？"
+  },
+  {
+    "id": "abstract-order-2",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "准备每周更新一条内容，你会？",
+    "after": "准备每周更新一条内容，你会？"
+  },
+  {
+    "id": "abstract-order-3",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "大家同时催你交片，你会？",
+    "after": "大家同时催你交片，你会？"
+  },
+  {
+    "id": "abstract-order-4",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "一首歌准备录正式版，你会？",
+    "after": "一首歌准备录正式版，你会？"
+  },
+  {
+    "id": "abstract-order-5",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "旅行日常准备怎么拍？",
+    "after": "旅行日常准备怎么拍？"
+  },
+  {
+    "id": "abstract-order-6",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "收藏夹里的梗越来越多，你会？",
+    "after": "收藏夹里的梗越来越多，你会？"
+  },
+  {
+    "id": "abstract-order-7",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "要拍一件需要耐心的小手作，你会？",
+    "after": "要拍一件需要耐心的小手作，你会？"
+  },
+  {
+    "id": "abstract-order-8",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "拿到一份很常见的短视频模板，你会？",
+    "after": "拿到一份很常见的短视频模板，你会？"
+  },
+  {
+    "id": "abstract-order-9",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "评论越来越多，怎么回比较舒服？",
+    "after": "评论越来越多，怎么回比较舒服？"
+  },
+  {
+    "id": "abstract-order-10",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "相册里堆满了没剪过的视频，你会？",
+    "after": "相册里堆满了没剪过的视频，你会？"
+  },
+  {
+    "id": "abstract-order-11",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "明天要拍五人联动，你今晚会？",
+    "after": "明天要拍五人联动，你今晚会？"
+  },
+  {
+    "id": "abstract-order-12",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "计划越做越满，你会怎么改？",
+    "after": "计划越做越满，你会怎么改？"
+  },
+  {
+    "id": "abstract-express-1",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "拍完舞蹈，选哪张当封面？",
+    "after": "拍完舞蹈，选哪张当封面？"
+  },
+  {
+    "id": "abstract-express-2",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "你第一次录好翻唱，准备怎么分享？",
+    "after": "你第一次录好翻唱，准备怎么分享？"
+  },
+  {
+    "id": "abstract-express-3",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "今天出门发现一间有趣的小店，你会？",
+    "after": "今天出门发现一间有趣的小店，你会？"
+  },
+  {
+    "id": "abstract-express-4",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "视频开头你更想说什么？",
+    "after": "视频开头你更想说什么？"
+  },
+  {
+    "id": "abstract-express-5",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "普通日常想配一句有趣文案，你会？",
+    "after": "普通日常想配一句有趣文案，你会？"
+  },
+  {
+    "id": "abstract-express-6",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "朋友问“今天怎么样”，你会？",
+    "after": "朋友问“今天怎么样”，你会？"
+  },
+  {
+    "id": "abstract-express-7",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "辛苦做好的小东西终于完成了，你会？",
+    "after": "辛苦做好的小东西终于完成了，你会？"
+  },
+  {
+    "id": "abstract-express-8",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "你刷到一个百看不厌的视频，怎么评论？",
+    "after": "你刷到一个百看不厌的视频，怎么评论？"
+  },
+  {
+    "id": "abstract-express-9",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "一天结束，朋友圈只留一句，你会？",
+    "after": "一天结束，朋友圈只留一句，你会？"
+  },
+  {
+    "id": "abstract-express-10",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "观众想看你录制翻车的幕后，你会？",
+    "after": "观众想看你录制翻车的幕后，你会？"
+  },
+  {
+    "id": "abstract-express-11",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "给自己的新账号写一句介绍，你会？",
+    "after": "给自己的新账号写一句介绍，你会？"
+  },
+  {
+    "id": "abstract-express-12",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "另一个你终于开始第一场直播，你会？",
+    "after": "另一个你终于开始第一场直播，你会？"
+  },
+  {
+    "id": "v10-abstract-0",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "五人群里没人说话，带篮子式接梗机会来了，你会？",
+    "after": "五人群里没人说话，带篮子式接梗机会来了，你会？"
+  },
+  {
+    "id": "v10-abstract-1",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "刀哥带了五瓶好果汁，最后一位队友迟到，你会？",
+    "after": "刀哥带了五瓶好果汁，最后一位队友迟到，你会？"
+  },
+  {
+    "id": "v10-abstract-2",
+    "theme": "abstract",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "郭德纲说了个夸张包袱，你坐在捧哏的位置上，会？",
+    "after": null
+  },
+  {
+    "id": "v10-abstract-3",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "雷军式开场前，队友问“Are you OK”，你会？",
+    "after": "雷军式开场前，队友问“Are you OK”，你会？"
+  },
+  {
+    "id": "v10-abstract-4",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "旅行途中遇见不在攻略里的小镇，峰哥式好奇心上线，你会？",
+    "after": "旅行途中遇见不在攻略里的小镇，峰哥式好奇心上线，你会？"
+  },
+  {
+    "id": "v10-abstract-5",
+    "theme": "abstract",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "马斯克式脑洞：你们的五人群突然改名“火星先遣队”，你会？",
+    "after": null
+  },
+  {
+    "id": "v10-abstract-6",
+    "theme": "abstract",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "朋友的问题越来越抽象，你想起罗翔式举例，会？",
+    "after": null
+  },
+  {
+    "id": "v10-abstract-7",
+    "theme": "abstract",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "黄仁勋式发布会借你五分钟，但你只有旧电脑，会？",
+    "after": null
+  },
+  {
+    "id": "v10-abstract-8",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "峰哥式街头访谈里，对方说不想出镜，你会？",
+    "after": "峰哥式街头访谈里，对方说不想出镜，你会？"
+  },
+  {
+    "id": "v10-abstract-9",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "带篮子式吐槽把朋友说沉默了，你会？",
+    "after": "带篮子式吐槽把朋友说沉默了，你会？"
+  },
+  {
+    "id": "v10-abstract-10",
+    "theme": "abstract",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "搭档第一次上台忘词，你负责孙越式捧哏，会？",
+    "after": null
+  },
+  {
+    "id": "v10-abstract-11",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "你要介绍一碗普通面，但朋友今天很累，你会？",
+    "after": "你要介绍一碗普通面，但朋友今天很累，你会？"
+  },
+  {
+    "id": "v10-abstract-12",
+    "theme": "abstract",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "上午认真办事的闻会军到了中午开始跳舞，你呢？",
+    "after": null
+  },
+  {
+    "id": "v10-abstract-13",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "刀哥在群里说“来，整个五人合照”，你会？",
+    "after": "刀哥在群里说“来，整个五人合照”，你会？"
+  },
+  {
+    "id": "v10-abstract-14",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "你想到一句带文学式开场，手机已经架好了，你会？",
+    "after": "你想到一句带文学式开场，手机已经架好了，你会？"
+  },
+  {
+    "id": "v10-abstract-15",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "罗永浩式发布会段子讲岔了，你会？",
+    "after": "罗永浩式发布会段子讲岔了，你会？"
+  },
+  {
+    "id": "v10-abstract-16",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "五人说走就走前，谁来收拾这趟旅程？",
+    "after": "五人说走就走前，谁来收拾这趟旅程？"
+  },
+  {
+    "id": "v10-abstract-17",
+    "theme": "abstract",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "郭有才式沙哑翻唱要开录，五个人谁也不在一个拍上，你会？",
+    "after": null
+  },
+  {
+    "id": "v10-abstract-18",
+    "theme": "abstract",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "李佳琦式三二一口播，重要信息快被语速吃掉了，你会？",
+    "after": null
+  },
+  {
+    "id": "v10-abstract-19",
+    "theme": "abstract",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "郭德纲式返场喊到第三轮，大家明天还要早起，你会？",
+    "after": null
+  },
+  {
+    "id": "v10-abstract-20",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "视频发出后，评论问你为何这么抽象，你会？",
+    "after": "视频发出后，评论问你为何这么抽象，你会？"
+  },
+  {
+    "id": "v10-abstract-21",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "聚会音乐响起，有人开始摆标志性的手势舞，你会？",
+    "after": "聚会音乐响起，有人开始摆标志性的手势舞，你会？"
+  },
+  {
+    "id": "v10-abstract-22",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "一趟旅程回来，你准备怎么讲给大家听？",
+    "after": "一趟旅程回来，你准备怎么讲给大家听？"
+  },
+  {
+    "id": "v10-abstract-23",
+    "theme": "abstract",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "五人整活视频拍完，刀哥把最后一瓶果汁递给你，你会？",
+    "after": "五人整活视频拍完，刀哥把最后一瓶果汁递给你，你会？"
+  },
+  {
+    "id": "v10-basket-0",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "徐静雨式解说已经讲了两分钟，球还在同一个人手里，你会？",
+    "after": "徐静雨式解说已经讲了两分钟，球还在同一个人手里，你会？"
+  },
+  {
+    "id": "v10-basket-1",
+    "theme": "basket",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "张卫平指导说“这球合理”，队友立刻都想投，你会？",
+    "after": null
+  },
+  {
+    "id": "v10-basket-2",
+    "theme": "basket",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "字母哥式大步冲框，前面却已经站了两个人，你会？",
+    "after": null
+  },
+  {
+    "id": "v10-basket-3",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "欧文式花活还没练会，朋友就要录高光，你会？",
+    "after": "欧文式花活还没练会，朋友就要录高光，你会？"
+  },
+  {
+    "id": "v10-basket-4",
+    "theme": "basket",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "篮球孙悦式追帽完成，传球的队友没人看见，你会？",
+    "after": null
+  },
+  {
+    "id": "v10-basket-5",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "队友边线球失误，场边开始玩老梗，你会？",
+    "after": "队友边线球失误，场边开始玩老梗，你会？"
+  },
+  {
+    "id": "v10-basket-6",
+    "theme": "basket",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "郭艾伦式第一步晃出了位置，协防又补来，你会？",
+    "after": null
+  },
+  {
+    "id": "v10-basket-7",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "时间只剩35秒，比分落后，你会？",
+    "after": "时间只剩35秒，比分落后，你会？"
+  },
+  {
+    "id": "v10-basket-8",
+    "theme": "basket",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "五个人都想当主攻，保罗式控场的你会？",
+    "after": null
+  },
+  {
+    "id": "v10-basket-9",
+    "theme": "basket",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "杨毅讲故事、苏群画战术、王猛等暴扣，你最先接哪一个？",
+    "after": null
+  },
+  {
+    "id": "v10-basket-10",
+    "theme": "basket",
+    "status": "退出默认池",
+    "reason": "人物不在40人版；不强换其他人物",
+    "before": "卡特式暴扣点燃球场，你会？",
+    "after": null
+  },
+  {
+    "id": "v10-basket-11",
+    "theme": "basket",
+    "status": "保留",
+    "reason": "保留普通人能回答的日常",
+    "before": "最后一球进了，轮到你给这场球配一句话，你会？",
+    "after": "最后一球进了，轮到你给这场球配一句话，你会？"
+  },
+  {
+    "id": "rift-deyunse-0",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "笑笑和西卡同时开麦，队友说听不清谁在指挥，你会？",
+    "after": "笑笑和西卡同时开麦，队友说听不清谁在指挥，你会？"
+  },
+  {
+    "id": "rift-deyunse-1",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "你刚说完下一步，队友已经笑场，怎么把话接回来？",
+    "after": "你刚说完下一步，队友已经笑场，怎么把话接回来？"
+  },
+  {
+    "id": "rift-deyunse-2",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "复活倒计时里，双人解说突然变成全队复盘，你先做什么？",
+    "after": "复活倒计时里，双人解说突然变成全队复盘，你先做什么？"
+  },
+  {
+    "id": "rift-deyunse-3",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "最后一波打完，搭档把麦递给你，你会？",
+    "after": "最后一波打完，搭档把麦递给你，你会？"
+  },
+  {
+    "id": "rift-rookie-clinic-0",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "Rookie式中路值班：上下两路同时喊难打，你先怎么办？",
+    "after": null
+  },
+  {
+    "id": "rift-rookie-clinic-1",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "队友来中路了，你刚好打出一次机会，接下来？",
+    "after": null
+  },
+  {
+    "id": "rift-rookie-clinic-2",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "队友说“院长救我”，但你也在复活，你会？",
+    "after": null
+  },
+  {
+    "id": "rift-rookie-clinic-3",
+    "theme": "lol",
+    "status": "退出默认池",
+    "reason": "本轮减少专业判断或重复情境，旧ID保留",
+    "before": "五人一起推到最后，你怎么结束这班？",
+    "after": null
+  },
+  {
+    "id": "rift-bro-flash-0",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "哥哥式名场面：你有闪现，队友刚说“别急”，你会？",
+    "after": "哥哥式名场面：你有闪现，队友刚说“别急”，你会？"
+  },
+  {
+    "id": "rift-bro-flash-1",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "向前之后屏幕灰了，弹幕已经打出“接Q”，你会？",
+    "after": "向前之后屏幕灰了，弹幕已经打出“接Q”，你会？"
+  },
+  {
+    "id": "rift-bro-flash-2",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "队伍连续被打退，朋友说滔博陀螺启动，你怎么接？",
+    "after": "队伍连续被打退，朋友说滔博陀螺启动，你怎么接？"
+  },
+  {
+    "id": "rift-bro-flash-3",
+    "theme": "lol",
+    "status": "保留",
+    "reason": "保持连贯章节与好梗",
+    "before": "最终决胜局剩一个空位，你会？",
+    "after": "最终决胜局剩一个空位，你会？"
+  }
+]

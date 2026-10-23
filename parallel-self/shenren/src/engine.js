@@ -22,14 +22,14 @@ function draw(data,theme,count,previousFirst=null,rng=random,series='all'){
  if(theme==='lol'&&!['all','hex','rift'].includes(series))throw Error('不支持的联盟系列');
  let chosen=[];
  if(theme==='lol'){
-  const bank=data.questions.filter(q=>q.theme===theme&&(series==='all'||q.series===series));
+  const bank=data.questions.filter(q=>q.enabled!==false&&q.theme===theme&&(series==='all'||q.series===series));
   const chapters=shuffle([...new Set(bank.map(q=>q.series+':'+q.chapter))],rng);
   if(chapters.length<count/4)throw Error('章节题库不足');
   if(bank.some(q=>q.id===previousFirst&&chapters[0]===q.series+':'+q.chapter))[chapters[0],chapters[1]]=[chapters[1],chapters[0]];
   chosen=[].concat(...chapters.slice(0,count/4).map(c=>bank.filter(q=>q.series+':'+q.chapter===c).sort((a,b)=>a.stage-b.stage)));
  }else{
   const extra=new Set(shuffle(dimIds,rng).slice(0,count%6));
-  dimIds.forEach(dim=>{const bank=data.questions.filter(q=>q.theme===theme&&q.dim===dim),n=Math.floor(count/6)+(extra.has(dim)?1:0);if(bank.length<n)throw Error('题库不足');chosen.push(...shuffle(bank,rng).slice(0,n));});
+  dimIds.forEach(dim=>{const bank=data.questions.filter(q=>q.enabled!==false&&q.theme===theme&&q.dim===dim),n=Math.floor(count/6)+(extra.has(dim)?1:0);if(bank.length<n)throw Error('题库不足');chosen.push(...shuffle(bank,rng).slice(0,n));});
   chosen=shuffle(chosen,rng);if(chosen[0].id===previousFirst)[chosen[0],chosen[1]]=[chosen[1],chosen[0]];
  }
  return {version:data.version,theme,series:theme==='lol'?series:'all',count,deck:chosen.map(q=>({id:q.id,order:shuffle(q.options.map(o=>o.id),rng)})),answers:Array(count).fill(null),index:0,phase:'quiz',date:new Date().toISOString()};
