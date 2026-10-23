@@ -28,3 +28,7 @@ python tests/public-web-check.py
 核心内容：`src/data.json`；匹配与问题分支：`src/engine.js`；页面和 Canvas 海报：`src/app.js`；卡牌：`assets/parody-cards.json`；新图标：`assets/parody-icon-atlas.json`、`assets/parody-icons-v7.webp`。普通构建不需要网络。
 
 `tools/v7-content.py` 是内容制作脚本；`tools/v6-content.py` 为旧版官方资料制作工具，不属于 V7 构建前置。V7 使用单独的 `world-otherme.v7` 本机存储，保留其他版本的记录。
+
+## 本次交付检查
+
+12项引擎/语义用例、12项浏览器流程、6项真实公网HTTPS检查通过。验证了四种收集者试玩反应、完整语义答案、问题分支、五人位置、两套界面、PNG与完整HTML实际下载和离线运行。公网受测文件与发布HTML的SHA-256一致：`640493b2e599507b556746f09c01e605cf807e50a02513f17bea7d01e83a0ffe`。

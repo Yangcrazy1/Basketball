@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "url": "https://yangcrazy1.github.io/Basketball/?v=7-fun",
+  "download_page": "https://yangcrazy1.github.io/Basketball/download/?v=7-fun",
+  "source_commit": "490aed9954255c1a5849d68382b2e9b8acfcef34",
+  "html_sha256": "640493b2e599507b556746f09c01e605cf807e50a02513f17bea7d01e83a0ffe",
+  "html_bytes": 5427541,
+  "checks": [
+    "public root and single-file URL both return HTTP 200 with exactly the tested HTML bytes",
+    "actual public Chromium mobile viewport boots V7 with the removed character/model absent",
+    "public Collector sample distinguishes AFK and inting with separate parody cards",
+    "public eight-question flow reveals a cartoon person, original parody card and five-person team",
+    "public app actually downloads the new PNG and a complete offline HTML file",
+    "public download page downloads exactly the released single-file HTML"
+  ],
+  "javascript_errors": [],
+  "checked_at": "2026-10-23T09:36:31.988245+00:00",
+  "scope": "Actual public HTTPS site, Chromium 390px responsive viewport and real downloads; no physical phone hardware test"
+}

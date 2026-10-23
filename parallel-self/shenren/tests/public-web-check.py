@@ -19,7 +19,7 @@ with sync_playwright() as p:
  passed('public Collector sample distinguishes AFK and inting with separate parody cards')
  page.locator('[data-action=mode][data-count="8"]').click();page.locator('#app [data-action=start]').click()
  for i in range(8):page.locator('.option').nth(i%4).click();page.locator('[data-action=next]').click()
- assert page.locator('.identity-card').is_visible();assert page.locator('.team-card').count()==5;assert page.locator('.team-card.is-you').count()==1;assert page.locator('.hex-card .perk-art svg use').get_attribute('href')=='#perk-sheet';assert '本作自制' in page.locator('.hex-card').inner_text();assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
+ assert page.locator('.identity-card').is_visible();assert page.locator('.team-card').count()==5;assert page.locator('.team-card.is-you').count()==1;assert page.locator('#app .hex-card .perk-art svg use').get_attribute('href')=='#perk-sheet';assert '本作自制' in page.locator('#app .hex-card').inner_text();assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
  passed('public eight-question flow reveals a cartoon person, original parody card and five-person team')
  page.locator('[data-action=poster]').click();page.wait_for_selector('.poster')
  with page.expect_download() as d:page.locator('.download-png').click()
