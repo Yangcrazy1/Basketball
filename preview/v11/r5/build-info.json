@@ -13,6 +13,6 @@
   ],
   "mode": "split assets; portraits loaded on demand; offline export is a separate self-contained file",
   "round": 5,
-  "source_commit": "905cc1def882957ebfe683fe42f893afd91c1148",
+  "source_commit": "9c78026a30a98e458af6aa0cc466286b1869065d",
   "production_unchanged": true
 }
