@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "url": "https://yangcrazy1.github.io/Basketball/?v=6-hex",
+  "download_page": "https://yangcrazy1.github.io/Basketball/download/?v=6-hex",
+  "source_commit": "fbe166bd33c98bdeec84052c7dbe92c959adfe16",
+  "html_sha256": "d2f77da1960e6a9d39e96849358ef3435b6d947a180d638f7f29c59dfbbe73eb",
+  "html_bytes": 4430561,
+  "checks": [
+    "public root and single-file URL both return HTTP 200 with exactly the tested HTML bytes",
+    "actual public Chromium mobile viewport boots V6 with the removed character/model absent",
+    "public eight-question flow reveals a cartoon person, real augment icon and five-person team",
+    "public app actually downloads the new PNG and a complete offline HTML file",
+    "public download page downloads exactly the released single-file HTML"
+  ],
+  "javascript_errors": [],
+  "checked_at": "2026-10-23T08:34:42.488570+00:00",
+  "scope": "Actual public HTTPS site, Chromium 390px responsive viewport and real downloads; no physical phone hardware test"
+}

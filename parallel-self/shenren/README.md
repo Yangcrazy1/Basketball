@@ -32,3 +32,7 @@ python tests/browser-check.py
 强化记录：`assets/augment-sources.json`；游戏名称、稀有度及 KIWI 池的独立快照：`assets/reference-metadata/`。最新版本中的“量子计算”因 Wiki 标记停用未参与推荐。“掀桌”尚未核实对应的端游正式名称，因此未伪造同名官方天赋。截图中的“代码工作量翻倍”是用户提供的恶搞视觉参考，不是游戏效果。
 
 原型未确认所有照片及游戏图像的独立商业授权，AI 重绘不自动消除来源权利。作品不宣称 Riot、选手、主播或其他平台官方合作。商业发布前需要逐项解决素材授权与人格权问题。
+
+## 已完成的交付验证
+
+14 项引擎/素材检查、12 项浏览器流程检查、5 项真实公网 HTTPS 检查通过。公网首页与下载文件的 SHA-256 都与受测成品一致；实际完成答题、人物/真实强化/五人阵容显示、PNG 下载和 HTML 下载。公网记录见 `docs/web-verification-v6.json`；可用 `python tests/public-web-check.py` 复查。测试范围为 Chromium 手机尺寸与下载，不是实体手机硬件验收。
