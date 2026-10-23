@@ -1,0 +1,320 @@
+[
+  {
+    "id": "xiaoxiao",
+    "name": "笑笑",
+    "theme": "lol",
+    "lookup": "孙亚龙"
+  },
+  {
+    "id": "xika",
+    "name": "西卡",
+    "theme": "lol",
+    "lookup": "李浩宇"
+  },
+  {
+    "id": "369",
+    "name": "369",
+    "theme": "lol",
+    "lookup": "白家浩"
+  },
+  {
+    "id": "tian",
+    "name": "Tian",
+    "theme": "lol",
+    "lookup": "高天亮"
+  },
+  {
+    "id": "bin",
+    "name": "Bin",
+    "theme": "lol",
+    "lookup": "陈泽彬"
+  },
+  {
+    "id": "rookie",
+    "name": "Rookie",
+    "theme": "lol",
+    "lookup": "宋义进"
+  },
+  {
+    "id": "showmaker",
+    "name": "ShowMaker",
+    "theme": "lol",
+    "lookup": "许秀"
+  },
+  {
+    "id": "chovy",
+    "name": "Chovy",
+    "theme": "lol",
+    "lookup": "郑志勋"
+  },
+  {
+    "id": "deft",
+    "name": "Deft",
+    "theme": "lol",
+    "lookup": "金赫奎"
+  },
+  {
+    "id": "beryl",
+    "name": "BeryL",
+    "theme": "lol",
+    "lookup": "赵乾熙"
+  },
+  {
+    "id": "otto",
+    "name": "电棍",
+    "theme": "lol",
+    "lookup": "侯国玉"
+  },
+  {
+    "id": "zztai",
+    "name": "姿态",
+    "theme": "lol",
+    "lookup": "刘志豪"
+  },
+  {
+    "id": "kryst4l",
+    "name": "水晶哥",
+    "theme": "lol",
+    "lookup": "杨藩"
+  },
+  {
+    "id": "godv",
+    "name": "韦神",
+    "theme": "lol",
+    "lookup": "韦朕"
+  },
+  {
+    "id": "karsa",
+    "name": "Karsa",
+    "theme": "lol",
+    "lookup": "洪浩轩"
+  },
+  {
+    "id": "xujingyu",
+    "name": "徐静雨",
+    "theme": "basket",
+    "lookup": "徐静雨"
+  },
+  {
+    "id": "yangyi",
+    "name": "杨毅",
+    "theme": "basket",
+    "lookup": "杨毅"
+  },
+  {
+    "id": "zhouqi",
+    "name": "周琦",
+    "theme": "basket",
+    "lookup": "周琦"
+  },
+  {
+    "id": "sunyue-player",
+    "name": "孙悦",
+    "theme": "basket",
+    "lookup": "孙悦 (篮球运动员)"
+  },
+  {
+    "id": "zhangweiping",
+    "name": "张卫平",
+    "theme": "basket",
+    "lookup": "张卫平"
+  },
+  {
+    "id": "suqun",
+    "name": "苏群",
+    "theme": "basket",
+    "lookup": "苏群"
+  },
+  {
+    "id": "yujia",
+    "name": "于嘉",
+    "theme": "basket",
+    "lookup": "于嘉"
+  },
+  {
+    "id": "wangmeng",
+    "name": "王猛",
+    "theme": "basket",
+    "lookup": "王猛 (体育评论员)"
+  },
+  {
+    "id": "yijianlian",
+    "name": "易建联",
+    "theme": "basket",
+    "lookup": "易建联"
+  },
+  {
+    "id": "wangzhizhi",
+    "name": "王治郅",
+    "theme": "basket",
+    "lookup": "王治郅"
+  },
+  {
+    "id": "guoailun",
+    "name": "郭艾伦",
+    "theme": "basket",
+    "lookup": "郭艾伦"
+  },
+  {
+    "id": "giannis",
+    "name": "字母哥",
+    "theme": "basket",
+    "lookup": "Giannis Antetokounmpo"
+  },
+  {
+    "id": "kyrie",
+    "name": "欧文",
+    "theme": "basket",
+    "lookup": "Kyrie Irving"
+  },
+  {
+    "id": "chrispaul",
+    "name": "保罗",
+    "theme": "basket",
+    "lookup": "Chris Paul"
+  },
+  {
+    "id": "carter",
+    "name": "文斯·卡特",
+    "theme": "basket",
+    "lookup": "Vince Carter"
+  },
+  {
+    "id": "tmac",
+    "name": "麦迪",
+    "theme": "basket",
+    "lookup": "Tracy McGrady"
+  },
+  {
+    "id": "musk",
+    "name": "马斯克",
+    "theme": "abstract",
+    "lookup": "Elon Musk"
+  },
+  {
+    "id": "jensen",
+    "name": "黄仁勋",
+    "theme": "abstract",
+    "lookup": "Jensen Huang"
+  },
+  {
+    "id": "trump",
+    "name": "川普",
+    "theme": "abstract",
+    "lookup": "Donald Trump"
+  },
+  {
+    "id": "jackma",
+    "name": "马云",
+    "theme": "abstract",
+    "lookup": "Jack Ma"
+  },
+  {
+    "id": "leijun",
+    "name": "雷军",
+    "theme": "abstract",
+    "lookup": "Lei Jun"
+  },
+  {
+    "id": "zhouhongyi",
+    "name": "周鸿祎",
+    "theme": "abstract",
+    "lookup": "Zhou Hongyi"
+  },
+  {
+    "id": "liguoqing",
+    "name": "李国庆",
+    "theme": "abstract",
+    "lookup": "Li Guoqing"
+  },
+  {
+    "id": "luoyonghao",
+    "name": "罗永浩",
+    "theme": "abstract",
+    "lookup": "Luo Yonghao"
+  },
+  {
+    "id": "dongyuhui",
+    "name": "董宇辉",
+    "theme": "abstract",
+    "lookup": "Dong Yuhui"
+  },
+  {
+    "id": "yuminhong",
+    "name": "俞敏洪",
+    "theme": "abstract",
+    "lookup": "Yu Minhong"
+  },
+  {
+    "id": "luoxiang",
+    "name": "罗翔",
+    "theme": "abstract",
+    "lookup": "Luo Xiang"
+  },
+  {
+    "id": "guoyoucai",
+    "name": "郭有才",
+    "theme": "abstract",
+    "lookup": "郭有才"
+  },
+  {
+    "id": "wenhuijun",
+    "name": "闻会军",
+    "theme": "abstract",
+    "lookup": "闻会军"
+  },
+  {
+    "id": "fengtimo",
+    "name": "冯提莫",
+    "theme": "abstract",
+    "lookup": "Feng Timo"
+  },
+  {
+    "id": "lijiaqi",
+    "name": "李佳琦",
+    "theme": "abstract",
+    "lookup": "Li Jiaqi"
+  },
+  {
+    "id": "sunyue-comic",
+    "name": "孙越",
+    "theme": "abstract",
+    "lookup": "Sun Yue (comedian)"
+  },
+  {
+    "id": "guodegang",
+    "name": "郭德纲",
+    "theme": "abstract",
+    "lookup": "Guo Degang"
+  },
+  {
+    "id": "meiko",
+    "name": "Meiko",
+    "theme": "lol",
+    "lookup": "田野 (电子竞技运动员)"
+  },
+  {
+    "id": "letme",
+    "name": "Letme",
+    "theme": "lol",
+    "lookup": "严君泽"
+  },
+  {
+    "id": "papi",
+    "name": "papi酱",
+    "theme": "abstract",
+    "lookup": "Papi Jiang"
+  },
+  {
+    "id": "baike",
+    "name": "白客",
+    "theme": "abstract",
+    "lookup": "Bai Ke"
+  },
+  {
+    "id": "fengge",
+    "name": "峰哥亡命天涯",
+    "theme": "abstract",
+    "lookup": "峰哥亡命天涯"
+  }
+]

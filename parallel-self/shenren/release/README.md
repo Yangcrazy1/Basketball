@@ -1,21 +1,13 @@
-# 世界上另一个我 · V9 三大梗宇宙
+# 世界上另一个我 V10
 
-**[手机直接打开新版](https://yangcrazy1.github.io/Basketball/?v=9-worlds)** · **[下载完整离线网页](https://yangcrazy1.github.io/Basketball/download/?v=9-worlds)**
+手机直接打开：https://yangcrazy1.github.io/Basketball/?v=10-story
 
-- **英雄联盟综合**：S赛、热梗、对线小技巧、大乱斗混合出题，只有一个入口；恢复“必须出收集者”。156题、15位候选人物、42张自制海克斯。
-- **金闪闪队 · NBA**：老大科比、勒邦詹氏、裤衩子库里、约老师、华子、文班等，经典与现役一起玩。72题、17位候选人物、13张自制海克斯。
-- **抽象热梗**：舞蹈、翻唱、峰哥、李子柒、自媒体与本期网络梗。72题、16位候选人物、13张自制海克斯。
+下载入口：https://yangcrazy1.github.io/Basketball/download/?v=10-story
 
-总计300题、68张自制海克斯、46位人物角色。点一个答案，自动下一题；返回可改选，连续点击不会误跳。支持8/16/24题随机出题，人物专属联动引用实际作答，组成合法五人战队。
+- `world-another-me.html`：题库与漫画内置的单文件网页。
+- `world-another-me-v10-xhs.zip`：小红书小工具包；静态审计通过，创服平台模拟器、Android/iOS 扫码待用户验证。
+- 封面、透明底 Logo 在下载页单独列出。
 
-约6.5 MB的完整单文件HTML，所有运行图片与题库内置。提供两套配色、1080×1920 PNG海报与最近12次本机记录。热梗按2026-10-23整理，含经典回归，离线版不是自动更新热榜。人物、卡牌与故事为娱乐创作；摇摆导演是明确标记的原创虚构角色。
+95 位角色 / 348 题 / 125 张原创恶搞海克斯 / 自动与自选五人队。84 位真人头像核实重绘，1 位原创角色，10 位头像仍以明确标注的文字占位。
 
-[手机浏览器检查](../docs/browser-check-v9.json) · [公网验证](../docs/web-verification-v9.json) · [来源与创作说明](../docs/v9-references.json) · [下载文件校验](SHA256SUMS.txt)
-
-| 英雄联盟夜场 | 英雄联盟奶油 |
-|---|---|
-| ![夜场](preview-night.png) | ![奶油](preview-paper.png) |
-
-[金闪闪队NBA首页](preview-nba.png) · [抽象热梗首页](preview-abstract.png) · [人物联动结果](preview-result.png) · [五把收集者海报](preview-poster.png) · [源码与构建](../README.md)
-
-已通过19项引擎、15项浏览器和8项公网检查。三个板块均已在公网手机尺寸浏览器中实际完成自动跳题，PNG和HTML实际下载成功，下载HTML哈希与受测文件一致。
+单文件 HTML 应交给支持脚本的浏览器打开，手机体验推荐上面的 HTTPS 网页；ZIP 用于上传小红书，并非普通浏览器文件。

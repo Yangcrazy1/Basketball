@@ -83,6 +83,83 @@
       "height": 1254,
       "sha256": "228e42b07690d662287c806b66cc6d1916b7fb780753dcdb08e06b836f4311c3",
       "generatedOriginalName": "exec-a863af25-9338-4f49-9bd2-03b72baae8b8.png"
+    },
+    {
+      "asset": "portraits-v10-0.webp",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "996701a22fa99ebdf3063e8de16f135a8f759108c70744f168b639808ec82ce7",
+      "generatedOriginalName": "exec-5b5ec221-e022-4012-a026-c670fe81b3a1.png"
+    },
+    {
+      "asset": "portraits-v10-1.webp",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "2db5638841d0b22fa80937b22f84cb6fe045312f378b8d09a529bfd20261a9e2",
+      "generatedOriginalName": "exec-1ee97942-a8a6-4026-afa0-48164da60e81.png"
+    },
+    {
+      "asset": "portraits-v10-2.webp",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "f6d99a12cb87ff9361566e2feff7202b173197090d9e73a726755ac0cf30ed1d",
+      "generatedOriginalName": "exec-7721ab5a-bcbc-4696-82a1-d66bfc953e99.png"
+    },
+    {
+      "asset": "portraits-v10-3.webp",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "65fa786d57a82d8cacfcf9d9e8d6e43fdee55128de52be24a302c6ccdf7344d6",
+      "generatedOriginalName": "exec-05ce6910-a1c7-44fe-b6e7-8f2955fe9b6a.png"
+    },
+    {
+      "asset": "portraits-v10-4.webp",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "ae9baee16b518495d1618fd99ba7453db370635b729b502382f186c9272b44d7",
+      "generatedOriginalName": "exec-c0c51f29-c757-4725-af9e-5ec1c103a66e.png"
+    },
+    {
+      "asset": "portraits-v10-5.webp",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "383edfe9b3a5ed485b97c975775b10029e82fc270154c90f4cfdea75282e5f51",
+      "generatedOriginalName": "exec-a9e65e69-d232-47f0-8985-473d22057799.png"
+    },
+    {
+      "asset": "portraits-v10-6.webp",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "c0ecbecc32467b00cbe1a54d55e615e2af54d025f0ba32708bb15dade9ba419d",
+      "generatedOriginalName": "exec-acc04c09-efd7-4eb6-998d-55243bf98459.png"
+    },
+    {
+      "asset": "portraits-v10-7.webp",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "55db9be0a760da6ff993a68cd1574ec762494c16d1bb0e333daf30b94c71cce4",
+      "generatedOriginalName": "exec-9677b20e-808f-4382-876f-41147384fe23.png"
+    },
+    {
+      "asset": "portraits-v10-8.webp",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "9c01357f27402b595b17bf2902790f78775a93206a4253c0fa5d5b225a124b60",
+      "generatedOriginalName": "exec-f95d6d74-cc9e-48db-8608-f356d39d6804.png"
+    },
+    {
+      "asset": "portraits-v10-9.webp",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "2dc5028d04f8961198a6fa0c2ea7c97a6333f243b1a7b2f0607fff4d64a39611",
+      "generatedOriginalName": "exec-fdbb7ce5-66a8-47ed-b9ef-48cf6c3d92e9.png"
+    },
+    {
+      "asset": "portraits-v10-10.webp",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "bf9d46b2ccfe6b57bfd48fed51549974f91f851195a18a21ecc7a71240ba865e",
+      "generatedOriginalName": "exec-354063d7-5294-4d15-852a-0f955f4da418.png"
     }
   ],
   "portraits": {
@@ -235,24 +312,21 @@
       "cell": 0
     },
     "papi": {
-      "sheet": 9,
-      "cell": 1
-    },
-    "baike": {
-      "sheet": 9,
-      "cell": 2
-    },
-    "fengge": {
-      "sheet": 9,
-      "cell": 3
-    },
-    "meiko": {
-      "sheet": 10,
+      "sheet": 22,
       "cell": 0
     },
+    "baike": {
+      "pending": true
+    },
+    "fengge": {
+      "sheet": 21,
+      "cell": 0
+    },
+    "meiko": {
+      "pending": true
+    },
     "letme": {
-      "sheet": 10,
-      "cell": 1
+      "pending": true
     },
     "mascot": {
       "sheet": 10,
@@ -273,6 +347,195 @@
     "shake-director": {
       "sheet": 11,
       "cell": 3
+    },
+    "xiaoxiao": {
+      "sheet": 12,
+      "cell": 0
+    },
+    "xika": {
+      "sheet": 12,
+      "cell": 1
+    },
+    "369": {
+      "sheet": 12,
+      "cell": 2
+    },
+    "tian": {
+      "sheet": 12,
+      "cell": 3
+    },
+    "bin": {
+      "sheet": 13,
+      "cell": 0
+    },
+    "rookie": {
+      "sheet": 13,
+      "cell": 1
+    },
+    "showmaker": {
+      "sheet": 13,
+      "cell": 2
+    },
+    "chovy": {
+      "sheet": 13,
+      "cell": 3
+    },
+    "deft": {
+      "sheet": 14,
+      "cell": 0
+    },
+    "beryl": {
+      "sheet": 14,
+      "cell": 1
+    },
+    "zztai": {
+      "sheet": 14,
+      "cell": 2
+    },
+    "kryst4l": {
+      "sheet": 14,
+      "cell": 3
+    },
+    "godv": {
+      "sheet": 15,
+      "cell": 0
+    },
+    "karsa": {
+      "sheet": 15,
+      "cell": 1
+    },
+    "giannis": {
+      "sheet": 15,
+      "cell": 2
+    },
+    "kyrie": {
+      "sheet": 15,
+      "cell": 3
+    },
+    "chrispaul": {
+      "sheet": 16,
+      "cell": 0
+    },
+    "carter": {
+      "sheet": 16,
+      "cell": 1
+    },
+    "tmac": {
+      "sheet": 16,
+      "cell": 2
+    },
+    "musk": {
+      "sheet": 16,
+      "cell": 3
+    },
+    "jensen": {
+      "sheet": 17,
+      "cell": 0
+    },
+    "trump": {
+      "sheet": 17,
+      "cell": 1
+    },
+    "jackma": {
+      "sheet": 17,
+      "cell": 2
+    },
+    "leijun": {
+      "sheet": 17,
+      "cell": 3
+    },
+    "zhouhongyi": {
+      "sheet": 18,
+      "cell": 0
+    },
+    "luoyonghao": {
+      "sheet": 18,
+      "cell": 1
+    },
+    "yuminhong": {
+      "sheet": 18,
+      "cell": 2
+    },
+    "fengtimo": {
+      "sheet": 18,
+      "cell": 3
+    },
+    "otto": {
+      "sheet": 22,
+      "cell": 2
+    },
+    "xujingyu": {
+      "sheet": 21,
+      "cell": 1
+    },
+    "yangyi": {
+      "pending": true
+    },
+    "zhouqi": {
+      "sheet": 19,
+      "cell": 0
+    },
+    "sunyue-player": {
+      "sheet": 19,
+      "cell": 1
+    },
+    "zhangweiping": {
+      "sheet": 20,
+      "cell": 1
+    },
+    "suqun": {
+      "pending": true
+    },
+    "yujia": {
+      "pending": true
+    },
+    "wangmeng": {
+      "pending": true
+    },
+    "yijianlian": {
+      "sheet": 19,
+      "cell": 2
+    },
+    "wangzhizhi": {
+      "sheet": 19,
+      "cell": 3
+    },
+    "guoailun": {
+      "sheet": 20,
+      "cell": 0
+    },
+    "liguoqing": {
+      "pending": true
+    },
+    "dongyuhui": {
+      "sheet": 22,
+      "cell": 1
+    },
+    "luoxiang": {
+      "sheet": 21,
+      "cell": 3
+    },
+    "guoyoucai": {
+      "sheet": 22,
+      "cell": 3
+    },
+    "wenhuijun": {
+      "pending": true
+    },
+    "lijiaqi": {
+      "sheet": 20,
+      "cell": 2
+    },
+    "sunyue-comic": {
+      "sheet": 21,
+      "cell": 2
+    },
+    "guodegang": {
+      "sheet": 20,
+      "cell": 3
+    },
+    "dailanzi": {
+      "pending": true
     }
   }
 }

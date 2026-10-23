@@ -437,17 +437,6 @@
     }
   },
   {
-    "id": "fengge",
-    "name": "峰哥",
-    "verifiedReference": false,
-    "kind": "AI角色示意",
-    "atlas": {
-      "sheet": 9,
-      "cell": 3
-    },
-    "rights": "AI示意图，无已核实本人照片参考；非官方头像或人物背书。"
-  },
-  {
     "id": "huchenfeng",
     "asset": "v6-references/huchenfeng.jpg",
     "sourcePage": "https://commons.wikimedia.org/wiki/File:Portrait_photograph_of_content_creator_Hu_Chenfeng_(%E6%88%B7%E6%99%A8%E9%A3%8E).jpg",
@@ -567,17 +556,6 @@
     }
   },
   {
-    "id": "papi",
-    "name": "papi酱",
-    "verifiedReference": false,
-    "kind": "AI角色示意",
-    "atlas": {
-      "sheet": 9,
-      "cell": 1
-    },
-    "rights": "AI示意图，无已核实本人照片参考；非官方头像或人物背书。"
-  },
-  {
     "id": "baike",
     "name": "白客",
     "verifiedReference": false,
@@ -645,5 +623,758 @@
       "sheet": 11,
       "cell": 3
     }
+  },
+  {
+    "id": "xiaoxiao",
+    "name": "笑笑",
+    "asset": "v10-references/xiaoxiao.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E5%AD%99%E4%BA%9A%E9%BE%99",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/f/f0/Xiaoxiao.jpg",
+    "sha256": "20bc76526548f4e51eb602807b1cf1a1862b264601c0befbac5cddf98669d88d",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 12,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "xika",
+    "name": "西卡",
+    "asset": "v10-references/xika.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E6%9D%8E%E6%B5%A9%E5%AE%87",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/7/70/%E6%9D%8E%E6%B5%A9%E5%AE%87.jpg",
+    "sha256": "3f2a1c85b6edb65df5b3ebe244571c7f862b2e7c3b16b2f0da98982c4782b1fb",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 12,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "369",
+    "name": "369",
+    "asset": "v10-references/369.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E7%99%BD%E5%AE%B6%E6%B5%A9",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/8/88/JDG369.png",
+    "sha256": "ef8011c4cf3c34d2841a6610e04d647b74a79e4739da6924a68e92e302711220",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 12,
+      "cell": 2
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "tian",
+    "name": "Tian",
+    "asset": "v10-references/tian.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E9%AB%98%E5%A4%A9%E4%BA%AE",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/0/0a/TEStian_S12%E4%B8%96%E7%95%8C%E8%B5%9B.png",
+    "sha256": "68491dc73d8d30a9073e38478ca344091db1a3ba57ef4860dab6c7f323c86f0d",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 12,
+      "cell": 3
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "bin",
+    "name": "Bin",
+    "asset": "v10-references/bin.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E9%99%88%E6%B3%BD%E5%BD%AC",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/d/de/BLGbin.jpg",
+    "sha256": "1ab8c124aed1cb1f2ad989fad51e40c69b874a61805bb61e9244cd972373f286",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 13,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "rookie",
+    "name": "Rookie",
+    "asset": "v10-references/rookie.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E5%AE%8B%E4%B9%89%E8%BF%9B",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/c/c0/IGRookie.jpg",
+    "sha256": "160fb2c8b32617a4c75e4bb3eddb657f2cd41bbb7260125ba6a557aa3c2f6c25",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 13,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "showmaker",
+    "name": "ShowMaker",
+    "asset": "v10-references/showmaker.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E8%AE%B8%E7%A7%80",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/0/0c/%E8%AE%B8%E7%A7%80%E4%B8%8D%E8%AE%B8%E7%A7%80.png",
+    "sha256": "1dd3bddc04ea8a46680de87bf07efda9a95136588b93cd62219b5f5d4b4f866e",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 13,
+      "cell": 2
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "chovy",
+    "name": "Chovy",
+    "asset": "v10-references/chovy.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E9%83%91%E5%BF%97%E5%8B%8B",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/f/ff/GENG%E8%B6%85%E5%A8%81.jpg",
+    "sha256": "b195f89a5ee747bc3c4ef56303e58617514f0982a970c69e4ce013bda44478a8",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 13,
+      "cell": 3
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "deft",
+    "name": "Deft",
+    "asset": "v10-references/deft.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E9%87%91%E8%B5%AB%E5%A5%8E",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/e/e5/DRX%E7%BE%8A%E9%A9%BC.jpg",
+    "sha256": "dda82e8019efa6e9ae5e86ea897cae465be4d8becc49964463013d11927b53c9",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 14,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "beryl",
+    "name": "BeryL",
+    "asset": "v10-references/beryl.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E8%B5%B5%E4%B9%BE%E7%86%99",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/a/ad/Beryl_%E6%8A%BD%E7%AD%BE%E5%98%89%E5%AE%BE.jpg",
+    "sha256": "8d7d70ccc82f22fddf0d557ae5335a0bfee734cb8b236a18b8f9ed5965c6bc72",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 14,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "zztai",
+    "name": "姿态",
+    "asset": "v10-references/zztai.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E5%88%98%E5%BF%97%E8%B1%AA",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/6/62/GNR_Zz1tai_China_Streamer_Cup_2020.png",
+    "sha256": "a0dee8ea9faa82ee10076ae8d1130cdfce250e9da5ddfc678abc28e4737084b4",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 14,
+      "cell": 2
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "kryst4l",
+    "name": "水晶哥",
+    "asset": "v10-references/kryst4l.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E6%9D%A8%E8%97%A9",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/2/2b/GNR_kRYST4L_China_Streamer_Cup_2020.png",
+    "sha256": "a3d21b035bbc4b7f42b1a5caf1bdc2990636410aefa91a87e4155341ddbbb64f",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 14,
+      "cell": 3
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "godv",
+    "name": "韦神",
+    "asset": "v10-references/godv.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E9%9F%A6%E6%9C%95",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/3/3c/%E9%9F%A6%E6%9C%95-%E7%BB%9D%E5%9C%B0%E6%B1%82%E7%94%9F-4AM-2025-1.jpg",
+    "sha256": "cf1163d6a2d5d3cdde817660dccc686949ee9cbea2168508e5f9090c884dc8e3",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 15,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "karsa",
+    "name": "Karsa",
+    "asset": "v10-references/karsa.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E6%B4%AA%E6%B5%A9%E8%BD%A9",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/6/64/WBGkarsa.jpg",
+    "sha256": "851d386eeead887745346e2811322f9e9c681e319c8773786e441acf5fc607e7",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 15,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "giannis",
+    "name": "字母哥",
+    "asset": "v10-references/giannis.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Giannis_Antetokounmpo",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Giannis_Antetokounmpo_%2851915153421%29_%28cropped%29.jpg",
+    "sha256": "70bbfb5f2097b5082ad6990b0f581dc9a1fd2edcea328c737c649135ecc99d7e",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 15,
+      "cell": 2
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "kyrie",
+    "name": "欧文",
+    "asset": "v10-references/kyrie.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Kyrie_Irving",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Kyrie_Irving_%2851830909437%29_%28cropped%29.jpg",
+    "sha256": "2e03d8ba85b8eadc758e10737c2f9a857ca17e49ca9fe492e307f87baebf5b7c",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 15,
+      "cell": 3
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "chrispaul",
+    "name": "保罗",
+    "asset": "v10-references/chrispaul.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Chris_Paul",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Chris_Paul_%282022_All-Star_Weekend%29_%28cropped%29.jpg",
+    "sha256": "98f6ee1b90e38ebe511b1a81ceab36646d03efc355aa0dfee3e0571476ceb590",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 16,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "carter",
+    "name": "文斯·卡特",
+    "asset": "v10-references/carter.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Vince_Carter",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Vince_Carter_2013-03-25_%281%29.jpg",
+    "sha256": "ecfaec026abe1b705397b79b95ad8006741210ddc03358531cbeadab95dc4cde",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 16,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "tmac",
+    "name": "麦迪",
+    "asset": "v10-references/tmac.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Tracy_McGrady",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Tracy_McGrady_1.jpg",
+    "sha256": "04836eed93abb458bff2a2788d45e9baaa5ce1c040a2fad96bcfcec57388086f",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 16,
+      "cell": 2
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "musk",
+    "name": "马斯克",
+    "asset": "v10-references/musk.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Elon_Musk",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg",
+    "sha256": "ddef2b1fc6192f2061c959a725bc7ead336193baf11f40952821dd8efa9df8ba",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 16,
+      "cell": 3
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "jensen",
+    "name": "黄仁勋",
+    "asset": "v10-references/jensen.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Jensen_Huang",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Jen-Hsun_Huang_2025.jpg",
+    "sha256": "a446ae394d861e4035c7d1909426bec75f5bdd5af3649d4708e480d3698176b9",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 17,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "trump",
+    "name": "川普",
+    "asset": "v10-references/trump.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Donald_Trump",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg",
+    "sha256": "6da6d96e6c4441b60b51ac22b2e534faa98186c99d61148ebd7aa92b4f2c1fa0",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 17,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "jackma",
+    "name": "马云",
+    "asset": "v10-references/jackma.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Jack_Ma",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/20th_Anniversary_Schwab_Foundation_Gala_Dinner_%2844887783681%29_%28cropped%29.jpg",
+    "sha256": "e22d139ed935b86a1dda5d5b5a7b80f8012a7a62dd2390f1d860268fc61186d8",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 17,
+      "cell": 2
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "leijun",
+    "name": "雷军",
+    "asset": "v10-references/leijun.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Lei_Jun",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/PM_Sanchez_with_Lei_Jun_%282026%29_%28cropped_2%29.jpg",
+    "sha256": "decfbfb74eaf43049106d89816254b5d6d2d02e1166a534d69d084b9ed85ab43",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 17,
+      "cell": 3
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "zhouhongyi",
+    "name": "周鸿祎",
+    "asset": "v10-references/zhouhongyi.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Zhou_Hongyi",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Zhou_Hongyi-20250304.png",
+    "sha256": "327a9663dc7edd6dda9bf5ac6dd2ee8f95755b55c669ec539df747f7f510ea45",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 18,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "luoyonghao",
+    "name": "罗永浩",
+    "asset": "v10-references/luoyonghao.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Luo_Yonghao",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Luo_Yonghao_at_BIT%2C_2010-cropped.JPG",
+    "sha256": "b843323642c635014d6b64d84f4891cce02081610ace3bab317a331e2902cdd8",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 18,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "yuminhong",
+    "name": "俞敏洪",
+    "asset": "v10-references/yuminhong.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Yu_Minhong",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Yu_Minhong.jpg",
+    "sha256": "b5bd509b7ef580d142246cd6463f7ce9ddbb12591896da457315e0c68b5bd42b",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 18,
+      "cell": 2
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "fengtimo",
+    "name": "冯提莫",
+    "asset": "v10-references/fengtimo.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Feng_Timo",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Fengtimo600.jpg",
+    "sha256": "2688bba08892bc1d7f9ba123162f43ecd693b3d29f51478b7eab6ac5011e1063",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 18,
+      "cell": 3
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "yangyi",
+    "name": "杨毅",
+    "verifiedReference": false,
+    "kind": "文字占位，照片待核对",
+    "note": "尚未获得可靠且可读取的人物参考图，先用文字卡避免错脸。"
+  },
+  {
+    "id": "suqun",
+    "name": "苏群",
+    "verifiedReference": false,
+    "kind": "文字占位，照片待核对",
+    "note": "尚未获得可靠且可读取的人物参考图，先用文字卡避免错脸。"
+  },
+  {
+    "id": "yujia",
+    "name": "于嘉",
+    "verifiedReference": false,
+    "kind": "文字占位，照片待核对",
+    "note": "尚未获得可靠且可读取的人物参考图，先用文字卡避免错脸。"
+  },
+  {
+    "id": "wangmeng",
+    "name": "王猛",
+    "verifiedReference": false,
+    "kind": "文字占位，照片待核对",
+    "note": "尚未获得可靠且可读取的人物参考图，先用文字卡避免错脸。"
+  },
+  {
+    "id": "liguoqing",
+    "name": "李国庆",
+    "verifiedReference": false,
+    "kind": "文字占位，照片待核对",
+    "note": "尚未获得可靠且可读取的人物参考图，先用文字卡避免错脸。"
+  },
+  {
+    "id": "wenhuijun",
+    "name": "闻会军",
+    "verifiedReference": false,
+    "kind": "文字占位，照片待核对",
+    "note": "尚未获得可靠且可读取的人物参考图，先用文字卡避免错脸。"
+  },
+  {
+    "id": "dailanzi",
+    "name": "带篮子",
+    "verifiedReference": false,
+    "kind": "文字占位，照片待核对",
+    "note": "尚未获得可靠且可读取的人物参考图，先用文字卡避免错脸。"
+  },
+  {
+    "id": "zhouqi",
+    "name": "zhouqi",
+    "asset": "v10-references/zhouqi.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Zhou_Qi",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/ZhouQi2017.png",
+    "sha256": "1ed07993f819b2f3c136a9b8ae0b9ef27bcbf7dfc3a1fb466ac755c38522b392",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 19,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "sunyue-player",
+    "name": "sunyue-player",
+    "asset": "v10-references/sunyue-player.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Sun_Yue_(basketball)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Sun_Yue_with_the_Beijing_Aoshen_Olympians.jpg",
+    "sha256": "f0a830722a92ffbf7bf0b78ef6e73387b7b66354b3dc268d64a00de412b081c0",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 19,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "yijianlian",
+    "name": "yijianlian",
+    "asset": "v10-references/yijianlian.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Yi_Jianlian",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Yi_Jianlian_Wizards_2.jpg",
+    "sha256": "31546b4b42a4c3735bb55d054407d250e2743b7ad5aed3838fef3e5a8178e7d1",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 19,
+      "cell": 2
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "wangzhizhi",
+    "name": "wangzhizhi",
+    "asset": "v10-references/wangzhizhi.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Wang_Zhizhi",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Wang_ZhiZhi.jpg",
+    "sha256": "5c11cbfb8380a7d7c219262892a4e02d8a76feb6e0f67662153edce164965f7b",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 19,
+      "cell": 3
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "guoailun",
+    "name": "guoailun",
+    "asset": "v10-references/guoailun.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Guo_Ailun",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Guo_Ailun_2012.jpg",
+    "sha256": "d49ae839784226b95ceae315fd9f064189b502009d55ba4b7e8753b053042313",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 20,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "zhangweiping",
+    "name": "zhangweiping",
+    "asset": "v10-references/zhangweiping-s1.image",
+    "sourcePage": "https://www.sohu.com/a/986971947_121610151",
+    "imageUrl": "https://q5.itc.cn/images01/20260213/9222928ff120447694704b459fc18ea3.jpeg",
+    "sha256": "e5c152e46a0d635864705a7ce680ff48bd5d171ae1ba35d2005a697108218857",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 20,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "lijiaqi",
+    "name": "lijiaqi",
+    "asset": "v10-references/lijiaqi.image",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:主播李佳琦_Li_Jiaqi.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/%E4%B8%BB%E6%92%AD%E6%9D%8E%E4%BD%B3%E7%90%A6_Li_Jiaqi.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
+    "sha256": "ce05b63c7934bac8c56573a66b9b0922f8d31a520b3324a083ca3914ebb737ee",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 20,
+      "cell": 2
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "guodegang",
+    "name": "郭德纲",
+    "asset": "v10-references/guodegang.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Guo_Degang",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Guo_Degang_2023.jpg",
+    "sha256": "3545c5bc68659b957f145a853b16b693675d01e21bbef3edc9ff104464cdcec5",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 20,
+      "cell": 3
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "fengge",
+    "name": "fengge",
+    "asset": "v10-references/fengge-n1-r0.image",
+    "sourcePage": "https://news.qq.com/rain/a/20250520A0757E00",
+    "imageUrl": "https://inews.gtimg.com/om_bt/O4quw4Ir6OgQkaMvBZbYOQzXteYK41UUX0ZsN6d11WyR8AA/641",
+    "sha256": "4c7a691e39b8eba74e7936698e846c6ad9ee50ba6b20d850475fbb9a1441ef0d",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 21,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "xujingyu",
+    "name": "徐静雨",
+    "asset": "v10-references/xujingyu.image",
+    "sourcePage": "https://newsa.html5.qq.com/v1/share-video?vid=6633041994983820651",
+    "imageUrl": "http://qqpublic.qpic.cn/qq_public/0/1-2421295517-60F4E6F36F8C73E596F9F6D12B3B9728/0",
+    "sha256": "afe59dbf63711e2417b70efc1f9597e67e123649f7d5426f2efe424c6c7c8e8e",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 21,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "sunyue-comic",
+    "name": "sunyue-comic",
+    "asset": "v10-references/sunyue-comic-n0-1.image",
+    "sourcePage": "https://www.sohu.com/a/660704684_121359752",
+    "imageUrl": "https://p5.itc.cn/images01/20230329/6be8f2bf22e24f8194d774ea09a26e46.jpeg",
+    "sha256": "20c90e2095c78c2abb5aa493db517614e36ce111ec16cf1417153641ba982ca4",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 21,
+      "cell": 2
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "luoxiang",
+    "name": "luoxiang",
+    "asset": "v10-references/luoxiang-n1-0.image",
+    "sourcePage": "https://www.sohu.com/a/751150728_120960307",
+    "imageUrl": "https://q2.itc.cn/images01/20240111/83e49b490e8f42bda913846db4905ba8.jpeg",
+    "sha256": "0a88bfd0faacde0cc472453e2a9b5e1ee917a2a5e822aae26c83505eb2194172",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 21,
+      "cell": 3
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "papi",
+    "name": "papi",
+    "asset": "v10-references/papi-n0-r1.image",
+    "sourcePage": "https://m.thepaper.cn/newsDetail_forward_33472252",
+    "imageUrl": "https://imgpai.thepaper.cn/pphimage/20260628/927794b1-722b-440c-8c39-dc5ca05ef133.jpg",
+    "sha256": "e1d9472318f09198c1bb649aebff3ae895ae81760d2aad6612a5351666fe9c50",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 22,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "dongyuhui",
+    "name": "dongyuhui",
+    "asset": "v10-references/dongyuhui-n1-r0.image",
+    "sourcePage": "https://news.qq.com/rain/a/20240726A04IZG00",
+    "imageUrl": "https://inews.gtimg.com/om_bt/OxtUVMLRsF-F310SIqai4MuZa4ApAoi4zSIMHkQAs9_WgAA/641",
+    "sha256": "a6afd1444b953b04fc76bcedffa09a0e2335fb016d63e2bc9cbb44e17f7ba666",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 22,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "otto",
+    "name": "电棍",
+    "asset": "v10-references/otto.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E4%BE%AF%E5%9B%BD%E7%8E%89",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/2/24/KSG_otto.jpg",
+    "sha256": "f34bf6a53a8c3c21059ba64ee0e523337c22cb726bfa8fae4857282dfa909ffa",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 22,
+      "cell": 2
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "guoyoucai",
+    "name": "郭有才",
+    "asset": "v10-references/guoyoucai-8.image",
+    "sourcePage": "https://news.qq.com/rain/a/20240718A0A84Q00",
+    "imageUrl": "https://inews.gtimg.com/news_bt/OKrb1YzpojOw9bhGBfcTlS1Ry_jH7_62HiMwO7yBv8bNYAA/641",
+    "sha256": "f3b8a946d45286cd06cca68b7795927840932e8eb6af19e66f934bfc087f045b",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 22,
+      "cell": 3
+    },
+    "checkedAt": "2026-10-23"
   }
 ]

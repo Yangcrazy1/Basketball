@@ -2228,6 +2228,980 @@
         ],
         "label": "人物联动 · 真实图标梗改"
       }
+    },
+    {
+      "id": "personal-xiaoxiao",
+      "name": "德云色双声道",
+      "effect": "一人负责把对局讲清楚，另一声道负责让你笑出声。",
+      "punchline": "笑笑刚开讲，西卡的接话已经在排队。",
+      "line": "笑笑刚开讲，西卡的接话已经在排队。",
+      "bias": [
+        0.3,
+        -0.2,
+        0.2,
+        0.4,
+        0.1,
+        0.2
+      ],
+      "vector": [
+        65,
+        40,
+        60,
+        70,
+        55,
+        60
+      ],
+      "behaviorWeights": {
+        "explain": 5,
+        "laugh": 5,
+        "engage": 3
+      },
+      "affinities": [
+        "xiaoxiao"
+      ],
+      "signatureFor": [
+        "xiaoxiao"
+      ],
+      "requires": [
+        "explain",
+        "laugh",
+        "engage"
+      ],
+      "icon": 0,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3190",
+          "SummonerHeal"
+        ],
+        "label": "德云色双声道"
+      }
+    },
+    {
+      "id": "personal-xika",
+      "name": "西卡接话器",
+      "effect": "搭档讲到一半时，自动补上那句最想听的吐槽。",
+      "punchline": "双声道开启，复盘和笑声都不丢。",
+      "line": "双声道开启，复盘和笑声都不丢。",
+      "bias": [
+        -0.1,
+        -0.1,
+        -0.1,
+        0.56,
+        0.2,
+        0.5
+      ],
+      "vector": [
+        45,
+        45,
+        45,
+        78,
+        60,
+        75
+      ],
+      "behaviorWeights": {
+        "explain": 5,
+        "calm": 4,
+        "plan": 3
+      },
+      "affinities": [
+        "xika"
+      ],
+      "signatureFor": [
+        "xika"
+      ],
+      "requires": [
+        "explain",
+        "calm",
+        "plan"
+      ],
+      "icon": 1,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "plan",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3089",
+          "item-3157"
+        ],
+        "label": "西卡接话器"
+      }
+    },
+    {
+      "id": "personal-369",
+      "name": "骰子保底九",
+      "effect": "每次摇到三，先保住这一波；下一次的九留给关键团。",
+      "punchline": "骰子可以随机，回防不能随机。",
+      "line": "骰子可以随机，回防不能随机。",
+      "bias": [
+        0.0,
+        0.0,
+        0.3,
+        0.3,
+        0.4,
+        0.2
+      ],
+      "vector": [
+        50,
+        50,
+        65,
+        65,
+        70,
+        60
+      ],
+      "behaviorWeights": {
+        "spin": 5,
+        "mechanics": 4,
+        "protect": 3
+      },
+      "affinities": [
+        "369"
+      ],
+      "signatureFor": [
+        "369"
+      ],
+      "requires": [
+        "spin",
+        "mechanics",
+        "protect"
+      ],
+      "icon": 2,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "basic",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3031",
+          "item-6676"
+        ],
+        "label": "骰子保底九"
+      }
+    },
+    {
+      "id": "personal-tian",
+      "name": "天选绕后路线",
+      "effect": "先看见队友在哪，再从对手没注意的方向进场。",
+      "punchline": "镜头没拍到你的路，结算会记得。",
+      "line": "镜头没拍到你的路，结算会记得。",
+      "bias": [
+        -0.2,
+        -0.04,
+        0.2,
+        0.56,
+        0.6,
+        0.6
+      ],
+      "vector": [
+        40,
+        48,
+        60,
+        78,
+        80,
+        80
+      ],
+      "behaviorWeights": {
+        "plan": 5,
+        "vision": 4,
+        "engage": 3
+      },
+      "affinities": [
+        "tian"
+      ],
+      "signatureFor": [
+        "tian"
+      ],
+      "requires": [
+        "plan",
+        "vision",
+        "engage"
+      ],
+      "icon": 3,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "plan",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3031",
+          "item-6676"
+        ],
+        "label": "天选绕后路线"
+      }
+    },
+    {
+      "id": "personal-bin",
+      "name": "Bin式自信额度",
+      "effect": "有操作空间就敢接，但先确认四个队友能听见你喊。",
+      "punchline": "自信可以拉满，队友也得跟满。",
+      "line": "自信可以拉满，队友也得跟满。",
+      "bias": [
+        0.3,
+        0.2,
+        0.9,
+        -0.04,
+        0.9,
+        -0.2
+      ],
+      "vector": [
+        65,
+        60,
+        95,
+        48,
+        95,
+        40
+      ],
+      "behaviorWeights": {
+        "mechanics": 5,
+        "engage": 5,
+        "chaos": 2
+      },
+      "affinities": [
+        "bin"
+      ],
+      "signatureFor": [
+        "bin"
+      ],
+      "requires": [
+        "mechanics",
+        "engage",
+        "chaos"
+      ],
+      "icon": 4,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "basic",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3031",
+          "item-6676"
+        ],
+        "label": "Bin式自信额"
+      }
+    },
+    {
+      "id": "personal-rookie",
+      "name": "中路急诊室",
+      "effect": "队友血压刚升高，中路已经替全队续上一口气。",
+      "punchline": "院长不只看病，也看小地图。",
+      "line": "院长不只看病，也看小地图。",
+      "bias": [
+        -0.3,
+        0.1,
+        0.1,
+        0.7,
+        0.84,
+        0.6
+      ],
+      "vector": [
+        35,
+        55,
+        55,
+        85,
+        92,
+        80
+      ],
+      "behaviorWeights": {
+        "mechanics": 5,
+        "protect": 4,
+        "calm": 4,
+        "control": 3
+      },
+      "affinities": [
+        "rookie"
+      ],
+      "signatureFor": [
+        "rookie"
+      ],
+      "requires": [
+        "mechanics",
+        "protect",
+        "calm",
+        "control"
+      ],
+      "icon": 5,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "basic",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3089",
+          "item-3157"
+        ],
+        "label": "中路急诊室"
+      }
+    },
+    {
+      "id": "personal-showmaker",
+      "name": "许秀表情管理",
+      "effect": "表情包素材自动存档，操作窗口继续由你亲手找。",
+      "punchline": "脸上有一部剧，手里有一场比赛。",
+      "line": "脸上有一部剧，手里有一场比赛。",
+      "bias": [
+        0.2,
+        -0.04,
+        0.3,
+        0.36,
+        0.76,
+        0.44
+      ],
+      "vector": [
+        60,
+        48,
+        65,
+        68,
+        88,
+        72
+      ],
+      "behaviorWeights": {
+        "explain": 5,
+        "mechanics": 4,
+        "calm": 3
+      },
+      "affinities": [
+        "showmaker"
+      ],
+      "signatureFor": [
+        "showmaker"
+      ],
+      "requires": [
+        "explain",
+        "mechanics",
+        "calm"
+      ],
+      "icon": 6,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "basic",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3089",
+          "item-3157"
+        ],
+        "label": "许秀表情管理"
+      }
+    },
+    {
+      "id": "personal-chovy",
+      "name": "一刀都不能少",
+      "effect": "漏掉的小兵会变成梦里的弹幕，补到的不会替你推家。",
+      "punchline": "先收好兵，再收好胜利。",
+      "line": "先收好兵，再收好胜利。",
+      "bias": [
+        -0.5,
+        0.9,
+        -0.1,
+        0.16,
+        0.84,
+        0.8
+      ],
+      "vector": [
+        25,
+        95,
+        45,
+        58,
+        92,
+        90
+      ],
+      "behaviorWeights": {
+        "gold": 5,
+        "stack": 5,
+        "mechanics": 3
+      },
+      "affinities": [
+        "chovy"
+      ],
+      "signatureFor": [
+        "chovy"
+      ],
+      "requires": [
+        "gold",
+        "stack",
+        "mechanics"
+      ],
+      "icon": 7,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "basic",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3089",
+          "item-3157"
+        ],
+        "label": "一刀都不能少"
+      }
+    },
+    {
+      "id": "personal-deft",
+      "name": "最后一舞加更",
+      "effect": "每当大家准备散场，给自己和队友留一局认真的续集。",
+      "punchline": "最后一舞，先别放谢幕音乐。",
+      "line": "最后一舞，先别放谢幕音乐。",
+      "bias": [
+        -0.4,
+        0.2,
+        0.04,
+        0.7,
+        0.7,
+        0.84
+      ],
+      "vector": [
+        30,
+        60,
+        52,
+        85,
+        85,
+        92
+      ],
+      "behaviorWeights": {
+        "calm": 5,
+        "plan": 4,
+        "mechanics": 4
+      },
+      "affinities": [
+        "deft"
+      ],
+      "signatureFor": [
+        "deft"
+      ],
+      "requires": [
+        "calm",
+        "plan",
+        "mechanics"
+      ],
+      "icon": 8,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "plan",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3031",
+          "item-6676"
+        ],
+        "label": "最后一舞加更"
+      }
+    },
+    {
+      "id": "personal-beryl",
+      "name": "辅助外置大脑",
+      "effect": "把五个人的想法接成一条线，奇怪选角也能讲出理由。",
+      "punchline": "游戏外在想别的，游戏里该看图还得看图。",
+      "line": "游戏外在想别的，游戏里该看图还得看图。",
+      "bias": [
+        -0.5,
+        -0.2,
+        0.24,
+        0.9,
+        0.36,
+        0.7
+      ],
+      "vector": [
+        25,
+        40,
+        62,
+        95,
+        68,
+        85
+      ],
+      "behaviorWeights": {
+        "plan": 5,
+        "control": 5,
+        "protect": 4
+      },
+      "affinities": [
+        "beryl"
+      ],
+      "signatureFor": [
+        "beryl"
+      ],
+      "requires": [
+        "plan",
+        "control",
+        "protect"
+      ],
+      "icon": 9,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "plan",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3190",
+          "SummonerHeal"
+        ],
+        "label": "辅助外置大脑"
+      }
+    },
+    {
+      "id": "personal-otto",
+      "name": "稳健先缓一缓",
+      "effect": "每次准备口头加速，先让小地图替你补一句提醒。",
+      "punchline": "声音先到，支援请跟上。",
+      "line": "声音先到，支援请跟上。",
+      "bias": [
+        0.7,
+        -0.1,
+        0.56,
+        -0.24,
+        0.3,
+        -0.4
+      ],
+      "vector": [
+        85,
+        45,
+        78,
+        38,
+        65,
+        30
+      ],
+      "behaviorWeights": {
+        "chaos": 5,
+        "blame": 4,
+        "explain": 4
+      },
+      "affinities": [
+        "otto"
+      ],
+      "signatureFor": [
+        "otto"
+      ],
+      "requires": [
+        "chaos",
+        "blame",
+        "explain"
+      ],
+      "icon": 10,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3089",
+          "item-3157"
+        ],
+        "label": "稳健先缓一缓"
+      }
+    },
+    {
+      "id": "personal-zztai",
+      "name": "直播间笑场险",
+      "effect": "高能操作前自动提醒录屏；笑场之后还得把团打完。",
+      "punchline": "节目别断，兵线也别断。",
+      "line": "节目别断，兵线也别断。",
+      "bias": [
+        0.3,
+        0.0,
+        0.3,
+        0.36,
+        0.3,
+        0.0
+      ],
+      "vector": [
+        65,
+        50,
+        65,
+        68,
+        65,
+        50
+      ],
+      "behaviorWeights": {
+        "laugh": 5,
+        "chaos": 4,
+        "explain": 3
+      },
+      "affinities": [
+        "zztai"
+      ],
+      "signatureFor": [
+        "zztai"
+      ],
+      "requires": [
+        "laugh",
+        "chaos",
+        "explain"
+      ],
+      "icon": 11,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3089",
+          "item-3157"
+        ],
+        "label": "直播间笑场险"
+      }
+    },
+    {
+      "id": "personal-kryst4l",
+      "name": "刚子逐帧回放",
+      "effect": "发现一个细节，立刻把直播间带回那一帧。",
+      "punchline": "先别快进，这里真有东西。",
+      "line": "先别快进，这里真有东西。",
+      "bias": [
+        0.2,
+        0.0,
+        0.3,
+        0.24,
+        0.56,
+        0.16
+      ],
+      "vector": [
+        60,
+        50,
+        65,
+        62,
+        78,
+        58
+      ],
+      "behaviorWeights": {
+        "explain": 5,
+        "mechanics": 4,
+        "retreat": 3
+      },
+      "affinities": [
+        "kryst4l"
+      ],
+      "signatureFor": [
+        "kryst4l"
+      ],
+      "requires": [
+        "explain",
+        "mechanics",
+        "retreat"
+      ],
+      "icon": 12,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "basic",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3031",
+          "item-6676"
+        ],
+        "label": "刚子逐帧回放"
+      }
+    },
+    {
+      "id": "personal-godv",
+      "name": "反向也有镜头",
+      "effect": "大胆尝试会留下镜头，下次出手前记得核对方向。",
+      "punchline": "箭有方向，节目没有尽头。",
+      "line": "箭有方向，节目没有尽头。",
+      "bias": [
+        0.0,
+        0.0,
+        0.7,
+        0.1,
+        0.7,
+        0.1
+      ],
+      "vector": [
+        50,
+        50,
+        85,
+        55,
+        85,
+        55
+      ],
+      "behaviorWeights": {
+        "mechanics": 5,
+        "chaos": 4,
+        "poke": 3
+      },
+      "affinities": [
+        "godv"
+      ],
+      "signatureFor": [
+        "godv"
+      ],
+      "requires": [
+        "mechanics",
+        "chaos",
+        "poke"
+      ],
+      "icon": 13,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "basic",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3089",
+          "item-3157"
+        ],
+        "label": "反向也有镜头"
+      }
+    },
+    {
+      "id": "personal-karsa",
+      "name": "雷达提前三秒",
+      "effect": "队友还在喊人，你已经从地图上看见了问题。",
+      "punchline": "雷达不是透视，是多看一眼。",
+      "line": "雷达不是透视，是多看一眼。",
+      "bias": [
+        -0.4,
+        -0.1,
+        -0.04,
+        0.7,
+        0.44,
+        0.9
+      ],
+      "vector": [
+        30,
+        45,
+        48,
+        85,
+        72,
+        95
+      ],
+      "behaviorWeights": {
+        "vision": 5,
+        "plan": 5,
+        "protect": 3
+      },
+      "affinities": [
+        "karsa"
+      ],
+      "signatureFor": [
+        "karsa"
+      ],
+      "requires": [
+        "vision",
+        "plan",
+        "protect"
+      ],
+      "icon": 14,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "plan",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3031",
+          "item-6676"
+        ],
+        "label": "雷达提前三秒"
+      }
+    },
+    {
+      "id": "personal-luobenwei",
+      "name": "最后一把续订",
+      "effect": "说好的最后一把又有了续集，下一局先把队友叫齐。",
+      "punchline": "先接梗，再把这局认真打完。",
+      "line": "先接梗，再把这局认真打完。",
+      "bias": [
+        0.4,
+        -0.1,
+        0.3,
+        0.2,
+        -0.1,
+        -0.2
+      ],
+      "vector": [
+        70,
+        45,
+        65,
+        60,
+        45,
+        40
+      ],
+      "behaviorWeights": {
+        "chaos": 5,
+        "explain": 4,
+        "laugh": 3,
+        "engage": 3
+      },
+      "affinities": [
+        "luobenwei"
+      ],
+      "signatureFor": [
+        "luobenwei"
+      ],
+      "requires": [
+        "chaos",
+        "explain",
+        "laugh",
+        "engage"
+      ],
+      "icon": 14,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "plan",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3157",
+          "SummonerFlash"
+        ],
+        "label": "直播续订"
+      }
+    },
+    {
+      "id": "personal-zhouyi",
+      "name": "直播间先别笑",
+      "effect": "笑声负责节目效果，下一波仍然要看队友位置。",
+      "punchline": "先接梗，再把这局认真打完。",
+      "line": "先接梗，再把这局认真打完。",
+      "bias": [
+        0.4,
+        -0.1,
+        0.3,
+        0.2,
+        -0.1,
+        -0.2
+      ],
+      "vector": [
+        70,
+        45,
+        65,
+        60,
+        45,
+        40
+      ],
+      "behaviorWeights": {
+        "chaos": 5,
+        "explain": 4,
+        "laugh": 3,
+        "engage": 3
+      },
+      "affinities": [
+        "zhouyi"
+      ],
+      "signatureFor": [
+        "zhouyi"
+      ],
+      "requires": [
+        "chaos",
+        "explain",
+        "laugh",
+        "engage"
+      ],
+      "icon": 14,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "plan",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3157",
+          "SummonerFlash"
+        ],
+        "label": "直播续订"
+      }
+    },
+    {
+      "id": "extra-rookie-1",
+      "name": "院长今日值班",
+      "effect": "队友需要输出，你先把中路这一口气续上。",
+      "punchline": "别急，院长还在线。",
+      "line": "别急，院长还在线。",
+      "bias": [
+        -0.3,
+        0.1,
+        0.1,
+        0.7,
+        0.84,
+        0.6
+      ],
+      "vector": [
+        35,
+        55,
+        55,
+        85,
+        92,
+        80
+      ],
+      "behaviorWeights": {
+        "mechanics": 5
+      },
+      "affinities": [
+        "rookie"
+      ],
+      "signatureFor": [
+        "rookie"
+      ],
+      "requires": [
+        "mechanics"
+      ],
+      "icon": 10,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "主角联动",
+      "kind": "basic",
+      "creation": "本作原创人物联动，架空娱乐效果。",
+      "personOnly": true,
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3089",
+          "item-3190"
+        ],
+        "label": "中路值班"
+      }
     }
   ],
   "basket": [
@@ -2739,6 +3713,742 @@
       "category": "人物联动",
       "kind": "basic",
       "creation": "本作原创恶搞设定；人物联动为平行宇宙娱乐创作。"
+    },
+    {
+      "id": "personal-xujingyu",
+      "name": "立棍单打复读机",
+      "effect": "每次有人拿球不传，解说席自动生成一段超长回放。",
+      "punchline": "球可以停一下，鲸鱼的语速停不了。",
+      "line": "球可以停一下，鲸鱼的语速停不了。",
+      "bias": [
+        0.8,
+        0.36,
+        -0.1,
+        0.7,
+        0.2,
+        0.96
+      ],
+      "vector": [
+        90,
+        68,
+        45,
+        85,
+        60,
+        98
+      ],
+      "behaviorWeights": {
+        "nba-show": 5,
+        "nba-three": 5,
+        "nba-plan": 3
+      },
+      "affinities": [
+        "xujingyu"
+      ],
+      "signatureFor": [
+        "xujingyu"
+      ],
+      "requires": [
+        "nba-show",
+        "nba-three",
+        "nba-plan"
+      ],
+      "icon": 15,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-yangyi",
+      "name": "解说席故事会",
+      "effect": "一个回合的停顿里，也能讲完一段球队往事。",
+      "punchline": "比赛还剩两分钟，故事刚到第一章。",
+      "line": "比赛还剩两分钟，故事刚到第一章。",
+      "bias": [
+        0.7,
+        0.1,
+        0.24,
+        0.2,
+        0.84,
+        0.7
+      ],
+      "vector": [
+        85,
+        55,
+        62,
+        60,
+        92,
+        85
+      ],
+      "behaviorWeights": {
+        "nba-plan": 5,
+        "nba-show": 4,
+        "nba-team": 3
+      },
+      "affinities": [
+        "yangyi"
+      ],
+      "signatureFor": [
+        "yangyi"
+      ],
+      "requires": [
+        "nba-plan",
+        "nba-show",
+        "nba-team"
+      ],
+      "icon": 0,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-zhouqi",
+      "name": "边线球先对暗号",
+      "effect": "每次边线发球前，先确认接球的人和你在同一部剧。",
+      "punchline": "梗归梗，这次球要发到队友手里。",
+      "line": "梗归梗，这次球要发到队友手里。",
+      "bias": [
+        -0.3,
+        -0.16,
+        0.24,
+        0.3,
+        0.24,
+        -0.3
+      ],
+      "vector": [
+        35,
+        42,
+        62,
+        65,
+        62,
+        35
+      ],
+      "behaviorWeights": {
+        "nba-rebound": 5,
+        "nba-safe": 4,
+        "nba-team": 3
+      },
+      "affinities": [
+        "zhouqi"
+      ],
+      "signatureFor": [
+        "zhouqi"
+      ],
+      "requires": [
+        "nba-rebound",
+        "nba-safe",
+        "nba-team"
+      ],
+      "icon": 1,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-sunyue-player",
+      "name": "后卫盖帽通行证",
+      "effect": "对手以为过了你，下一拍你的长臂还在加班。",
+      "punchline": "这是篮球孙悦，今晚负责防守。",
+      "line": "这是篮球孙悦，今晚负责防守。",
+      "bias": [
+        0.1,
+        0.2,
+        0.2,
+        0.5,
+        0.44,
+        -0.1
+      ],
+      "vector": [
+        55,
+        60,
+        60,
+        75,
+        72,
+        45
+      ],
+      "behaviorWeights": {
+        "nba-safe": 5,
+        "nba-team": 4,
+        "nba-rebound": 3
+      },
+      "affinities": [
+        "sunyue-player"
+      ],
+      "signatureFor": [
+        "sunyue-player"
+      ],
+      "requires": [
+        "nba-safe",
+        "nba-team",
+        "nba-rebound"
+      ],
+      "icon": 2,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-zhangweiping",
+      "name": "这球真合理",
+      "effect": "投进先说合理，没进就认真看看下一个更好的选择。",
+      "punchline": "合理不是口头禅，是先把人站明白。",
+      "line": "合理不是口头禅，是先把人站明白。",
+      "bias": [
+        0.36,
+        -0.2,
+        0.3,
+        0.1,
+        0.96,
+        0.4
+      ],
+      "vector": [
+        68,
+        40,
+        65,
+        55,
+        98,
+        70
+      ],
+      "behaviorWeights": {
+        "nba-plan": 5,
+        "nba-calm": 4,
+        "nba-clutch": 3
+      },
+      "affinities": [
+        "zhangweiping"
+      ],
+      "signatureFor": [
+        "zhangweiping"
+      ],
+      "requires": [
+        "nba-plan",
+        "nba-calm",
+        "nba-clutch"
+      ],
+      "icon": 3,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-suqun",
+      "name": "暂停板上见",
+      "effect": "把热闹留给看台，把下一回合写清楚给队友。",
+      "punchline": "别只看谁得分，也看谁把空间拉开。",
+      "line": "别只看谁得分，也看谁把空间拉开。",
+      "bias": [
+        0.1,
+        -0.1,
+        0.4,
+        -0.1,
+        0.96,
+        -0.1
+      ],
+      "vector": [
+        55,
+        45,
+        70,
+        45,
+        98,
+        45
+      ],
+      "behaviorWeights": {
+        "nba-plan": 5,
+        "nba-calm": 5,
+        "nba-team": 3
+      },
+      "affinities": [
+        "suqun"
+      ],
+      "signatureFor": [
+        "suqun"
+      ],
+      "requires": [
+        "nba-plan",
+        "nba-calm",
+        "nba-team"
+      ],
+      "icon": 4,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-yujia",
+      "name": "关键球旁白",
+      "effect": "比分越接近，越能给这一球配上准确的一句话。",
+      "punchline": "球没落网，先把呼吸留住。",
+      "line": "球没落网，先把呼吸留住。",
+      "bias": [
+        0.5,
+        -0.04,
+        0.44,
+        0.36,
+        0.8,
+        0.56
+      ],
+      "vector": [
+        75,
+        48,
+        72,
+        68,
+        90,
+        78
+      ],
+      "behaviorWeights": {
+        "nba-clutch": 5,
+        "nba-plan": 4,
+        "nba-emotion": 3
+      },
+      "affinities": [
+        "yujia"
+      ],
+      "signatureFor": [
+        "yujia"
+      ],
+      "requires": [
+        "nba-clutch",
+        "nba-plan",
+        "nba-emotion"
+      ],
+      "icon": 5,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-wangmeng",
+      "name": "解说分贝翻倍",
+      "effect": "每个干净暴扣都配一段上扬声线，回防时音量自动归位。",
+      "punchline": "人还在空中，声音先到篮板上沿。",
+      "line": "人还在空中，声音先到篮板上沿。",
+      "bias": [
+        0.9,
+        0.2,
+        0.1,
+        0.64,
+        0.3,
+        0.96
+      ],
+      "vector": [
+        95,
+        60,
+        55,
+        82,
+        65,
+        98
+      ],
+      "behaviorWeights": {
+        "nba-show": 5,
+        "nba-emotion": 5,
+        "nba-dunk": 3
+      },
+      "affinities": [
+        "wangmeng"
+      ],
+      "signatureFor": [
+        "wangmeng"
+      ],
+      "requires": [
+        "nba-show",
+        "nba-emotion",
+        "nba-dunk"
+      ],
+      "icon": 6,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-yijianlian",
+      "name": "沉默加练卡",
+      "effect": "少说一句漂亮话，多完成一组该练的动作。",
+      "punchline": "镜头看不见的那一组，也算数。",
+      "line": "镜头看不见的那一组，也算数。",
+      "bias": [
+        -0.5,
+        -0.3,
+        0.44,
+        0.3,
+        0.8,
+        -0.5
+      ],
+      "vector": [
+        25,
+        35,
+        72,
+        65,
+        90,
+        25
+      ],
+      "behaviorWeights": {
+        "nba-train": 5,
+        "nba-calm": 4,
+        "nba-team": 4
+      },
+      "affinities": [
+        "yijianlian"
+      ],
+      "signatureFor": [
+        "yijianlian"
+      ],
+      "requires": [
+        "nba-train",
+        "nba-calm",
+        "nba-team"
+      ],
+      "icon": 7,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-wangzhizhi",
+      "name": "篮下脚步说明书",
+      "effect": "不靠音量制造空间，靠一个脚步让对手先动。",
+      "punchline": "动作不多，位置刚好。",
+      "line": "动作不多，位置刚好。",
+      "bias": [
+        -0.3,
+        0.24,
+        0.3,
+        0.0,
+        0.9,
+        -0.3
+      ],
+      "vector": [
+        35,
+        62,
+        65,
+        50,
+        95,
+        35
+      ],
+      "behaviorWeights": {
+        "nba-plan": 5,
+        "nba-calm": 4,
+        "nba-safe": 3
+      },
+      "affinities": [
+        "wangzhizhi"
+      ],
+      "signatureFor": [
+        "wangzhizhi"
+      ],
+      "requires": [
+        "nba-plan",
+        "nba-calm",
+        "nba-safe"
+      ],
+      "icon": 8,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-guoailun",
+      "name": "大侄子变向包",
+      "effect": "球场上变向，采访时也能把话题晃出半步。",
+      "punchline": "过人有节奏，接梗也一样。",
+      "line": "过人有节奏，接梗也一样。",
+      "bias": [
+        0.64,
+        0.7,
+        0.4,
+        0.84,
+        0.0,
+        0.76
+      ],
+      "vector": [
+        82,
+        85,
+        70,
+        92,
+        50,
+        88
+      ],
+      "behaviorWeights": {
+        "nba-drive": 5,
+        "nba-show": 4,
+        "nba-team": 3
+      },
+      "affinities": [
+        "guoailun"
+      ],
+      "signatureFor": [
+        "guoailun"
+      ],
+      "requires": [
+        "nba-drive",
+        "nba-show",
+        "nba-team"
+      ],
+      "icon": 9,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-giannis",
+      "name": "两步到你家篮下",
+      "effect": "别人还在跑战术，你已经用长步抵达篮筐附近。",
+      "punchline": "步子很长，回防也得长。",
+      "line": "步子很长，回防也得长。",
+      "bias": [
+        0.24,
+        0.2,
+        0.3,
+        0.96,
+        0.3,
+        0.3
+      ],
+      "vector": [
+        62,
+        60,
+        65,
+        98,
+        65,
+        65
+      ],
+      "behaviorWeights": {
+        "nba-drive": 5,
+        "nba-dunk": 5,
+        "nba-rebound": 3
+      },
+      "affinities": [
+        "giannis"
+      ],
+      "signatureFor": [
+        "giannis"
+      ],
+      "requires": [
+        "nba-drive",
+        "nba-dunk",
+        "nba-rebound"
+      ],
+      "icon": 10,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-kyrie",
+      "name": "地板舞步许可",
+      "effect": "把防守重心晃出一个空位，舞步最后记得落在得分上。",
+      "punchline": "花活是过程，进球是落点。",
+      "line": "花活是过程，进球是落点。",
+      "bias": [
+        -0.1,
+        0.9,
+        0.1,
+        0.6,
+        0.2,
+        0.44
+      ],
+      "vector": [
+        45,
+        95,
+        55,
+        80,
+        60,
+        72
+      ],
+      "behaviorWeights": {
+        "nba-drive": 5,
+        "nba-show": 5,
+        "nba-clutch": 3
+      },
+      "affinities": [
+        "kyrie"
+      ],
+      "signatureFor": [
+        "kyrie"
+      ],
+      "requires": [
+        "nba-drive",
+        "nba-show",
+        "nba-clutch"
+      ],
+      "icon": 11,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-chrispaul",
+      "name": "控卫遥控器",
+      "effect": "把五个人调到舒服的位置，电池是你的耐心。",
+      "punchline": "暂停键不用按，节奏交给我。",
+      "line": "暂停键不用按，节奏交给我。",
+      "bias": [
+        0.4,
+        0.0,
+        0.3,
+        0.0,
+        1.0,
+        -0.1
+      ],
+      "vector": [
+        70,
+        50,
+        65,
+        50,
+        100,
+        45
+      ],
+      "behaviorWeights": {
+        "nba-plan": 5,
+        "nba-team": 5,
+        "nba-safe": 3
+      },
+      "affinities": [
+        "chrispaul"
+      ],
+      "signatureFor": [
+        "chrispaul"
+      ],
+      "requires": [
+        "nba-plan",
+        "nba-team",
+        "nba-safe"
+      ],
+      "icon": 12,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-carter",
+      "name": "篮筐上方停机坪",
+      "effect": "高光起飞前先检查落点，掌声抵达后马上回防。",
+      "punchline": "UFO可以起飞，膝盖需要安全着陆。",
+      "line": "UFO可以起飞，膝盖需要安全着陆。",
+      "bias": [
+        0.2,
+        0.8,
+        0.1,
+        0.9,
+        0.1,
+        0.7
+      ],
+      "vector": [
+        60,
+        90,
+        55,
+        95,
+        55,
+        85
+      ],
+      "behaviorWeights": {
+        "nba-dunk": 5,
+        "nba-show": 5,
+        "nba-train": 3
+      },
+      "affinities": [
+        "carter"
+      ],
+      "signatureFor": [
+        "carter"
+      ],
+      "requires": [
+        "nba-dunk",
+        "nba-show",
+        "nba-train"
+      ],
+      "icon": 13,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-tmac",
+      "name": "三十五秒加时券",
+      "effect": "时间越少越认真找出手机会，记得把队友算进奇迹。",
+      "punchline": "秒表别关，最后一攻还没签收。",
+      "line": "秒表别关，最后一攻还没签收。",
+      "bias": [
+        0.0,
+        0.7,
+        0.0,
+        0.8,
+        0.2,
+        0.4
+      ],
+      "vector": [
+        50,
+        85,
+        50,
+        90,
+        60,
+        70
+      ],
+      "behaviorWeights": {
+        "nba-clutch": 5,
+        "nba-three": 4,
+        "nba-show": 3
+      },
+      "affinities": [
+        "tmac"
+      ],
+      "signatureFor": [
+        "tmac"
+      ],
+      "requires": [
+        "nba-clutch",
+        "nba-three",
+        "nba-show"
+      ],
+      "icon": 14,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
     }
   ],
   "abstract": [
@@ -2799,10 +4509,10 @@
         "web-plan": 5
       },
       "affinities": [
-        "dasima"
+        "dailanzi"
       ],
       "signatureFor": [
-        "dasima"
+        "dailanzi"
       ],
       "requires": [
         "web-plan"
@@ -2897,13 +4607,9 @@
         "web-live": 5
       },
       "affinities": [
-        "zhouyi",
-        "luobenwei",
         "huge"
       ],
       "signatureFor": [
-        "zhouyi",
-        "luobenwei",
         "huge"
       ],
       "requires": [
@@ -2970,12 +4676,10 @@
       },
       "affinities": [
         "shake-director",
-        "luobenwei",
         "jackie"
       ],
       "signatureFor": [
         "shake-director",
-        "luobenwei",
         "jackie"
       ],
       "icon": 8,
@@ -3015,11 +4719,9 @@
         "web-original": 2
       },
       "affinities": [
-        "zhouyi",
         "shake-director"
       ],
       "signatureFor": [
-        "zhouyi",
         "shake-director"
       ],
       "icon": 9,
@@ -3104,13 +4806,11 @@
       },
       "affinities": [
         "geyou",
-        "baike",
-        "yaoming"
+        "baike"
       ],
       "signatureFor": [
         "geyou",
-        "baike",
-        "yaoming"
+        "baike"
       ],
       "icon": 13,
       "requires": [
@@ -3149,12 +4849,10 @@
         "web-care": 2
       },
       "affinities": [
-        "huchenfeng",
-        "dasima"
+        "huchenfeng"
       ],
       "signatureFor": [
-        "huchenfeng",
-        "dasima"
+        "huchenfeng"
       ],
       "icon": 12,
       "requires": [
@@ -3256,6 +4954,1046 @@
       "category": "人物联动",
       "kind": "basic",
       "creation": "本作原创恶搞设定；人物联动为平行宇宙娱乐创作。"
+    },
+    {
+      "id": "personal-musk",
+      "name": "火星先开群",
+      "effect": "项目还没离开地球，五人火星群已经取好了名字。",
+      "punchline": "先把今天这一小步落地。",
+      "line": "先把今天这一小步落地。",
+      "bias": [
+        0.7,
+        1.0,
+        -0.4,
+        0.96,
+        -0.2,
+        0.8
+      ],
+      "vector": [
+        85,
+        100,
+        30,
+        98,
+        40,
+        90
+      ],
+      "behaviorWeights": {
+        "web-original": 5,
+        "web-live": 4,
+        "web-meme": 3
+      },
+      "affinities": [
+        "musk"
+      ],
+      "signatureFor": [
+        "musk"
+      ],
+      "requires": [
+        "web-original",
+        "web-live",
+        "web-meme"
+      ],
+      "icon": 15,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-jensen",
+      "name": "皮衣算力加成",
+      "effect": "穿上招牌皮衣，普通介绍也像在发布一张新显卡。",
+      "punchline": "算力可以堆，内容还得自己做。",
+      "line": "算力可以堆，内容还得自己做。",
+      "bias": [
+        0.6,
+        0.7,
+        -0.1,
+        0.64,
+        0.76,
+        0.8
+      ],
+      "vector": [
+        80,
+        85,
+        45,
+        82,
+        88,
+        90
+      ],
+      "behaviorWeights": {
+        "web-plan": 5,
+        "web-live": 4,
+        "web-craft": 3
+      },
+      "affinities": [
+        "jensen"
+      ],
+      "signatureFor": [
+        "jensen"
+      ],
+      "requires": [
+        "web-plan",
+        "web-live",
+        "web-craft"
+      ],
+      "icon": 0,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-trump",
+      "name": "手势先替我说",
+      "effect": "话还没说完，手势已经完成了全场同步。",
+      "punchline": "平行舞台梗，现场节奏由你接。",
+      "line": "平行舞台梗，现场节奏由你接。",
+      "bias": [
+        0.96,
+        0.3,
+        -0.4,
+        0.76,
+        -0.2,
+        1.0
+      ],
+      "vector": [
+        98,
+        65,
+        30,
+        88,
+        40,
+        100
+      ],
+      "behaviorWeights": {
+        "web-punchline": 5,
+        "web-live": 5,
+        "web-dance": 3
+      },
+      "affinities": [
+        "trump"
+      ],
+      "signatureFor": [
+        "trump"
+      ],
+      "requires": [
+        "web-punchline",
+        "web-live",
+        "web-dance"
+      ],
+      "icon": 1,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-jackma",
+      "name": "开场先讲个梦想",
+      "effect": "一句话把普通聚会讲成创业发布会，最后记得回到今天。",
+      "punchline": "梦想先上墙，事情慢慢做。",
+      "line": "梦想先上墙，事情慢慢做。",
+      "bias": [
+        0.9,
+        0.7,
+        0.1,
+        0.5,
+        0.5,
+        0.8
+      ],
+      "vector": [
+        95,
+        85,
+        55,
+        75,
+        75,
+        90
+      ],
+      "behaviorWeights": {
+        "web-punchline": 5,
+        "web-plan": 4,
+        "web-live": 3
+      },
+      "affinities": [
+        "jackma"
+      ],
+      "signatureFor": [
+        "jackma"
+      ],
+      "requires": [
+        "web-punchline",
+        "web-plan",
+        "web-live"
+      ],
+      "icon": 2,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-leijun",
+      "name": "Are you OK开场音",
+      "effect": "刚举起麦克风，脑内前奏已经自动播放。",
+      "punchline": "开场有梗，产品介绍也要讲明白。",
+      "line": "开场有梗，产品介绍也要讲明白。",
+      "bias": [
+        0.7,
+        0.7,
+        0.4,
+        0.7,
+        0.76,
+        0.6
+      ],
+      "vector": [
+        85,
+        85,
+        70,
+        85,
+        88,
+        80
+      ],
+      "behaviorWeights": {
+        "web-live": 5,
+        "web-craft": 4,
+        "web-punchline": 4
+      },
+      "affinities": [
+        "leijun"
+      ],
+      "signatureFor": [
+        "leijun"
+      ],
+      "requires": [
+        "web-live",
+        "web-craft",
+        "web-punchline"
+      ],
+      "icon": 3,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-zhouhongyi",
+      "name": "红衣现场追问",
+      "effect": "大家准备收场时，自动加一轮“我再问一个”。",
+      "punchline": "问题够直接，答案别靠猜。",
+      "line": "问题够直接，答案别靠猜。",
+      "bias": [
+        0.8,
+        0.6,
+        -0.3,
+        0.8,
+        0.1,
+        0.9
+      ],
+      "vector": [
+        90,
+        80,
+        35,
+        90,
+        55,
+        95
+      ],
+      "behaviorWeights": {
+        "web-live": 5,
+        "web-meme": 4,
+        "web-original": 3
+      },
+      "affinities": [
+        "zhouhongyi"
+      ],
+      "signatureFor": [
+        "zhouhongyi"
+      ],
+      "requires": [
+        "web-live",
+        "web-meme",
+        "web-original"
+      ],
+      "icon": 4,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-liguoqing",
+      "name": "直球不打草稿",
+      "effect": "脑内草稿刚写一半，话筒已经开始营业。",
+      "punchline": "表达可以直，事实要说准。",
+      "line": "表达可以直，事实要说准。",
+      "bias": [
+        0.9,
+        0.3,
+        -0.3,
+        0.9,
+        -0.3,
+        0.9
+      ],
+      "vector": [
+        95,
+        65,
+        35,
+        95,
+        35,
+        95
+      ],
+      "behaviorWeights": {
+        "web-live": 5,
+        "web-punchline": 4,
+        "web-meme": 3
+      },
+      "affinities": [
+        "liguoqing"
+      ],
+      "signatureFor": [
+        "liguoqing"
+      ],
+      "requires": [
+        "web-live",
+        "web-punchline",
+        "web-meme"
+      ],
+      "icon": 5,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-luoyonghao",
+      "name": "交个队友",
+      "effect": "原本只想解释一句，最后把四个人讲成了新朋友。",
+      "punchline": "先交朋友，再把片子拍完。",
+      "line": "先交朋友，再把片子拍完。",
+      "bias": [
+        0.7,
+        0.7,
+        0.1,
+        0.56,
+        0.64,
+        0.8
+      ],
+      "vector": [
+        85,
+        85,
+        55,
+        78,
+        82,
+        90
+      ],
+      "behaviorWeights": {
+        "web-punchline": 5,
+        "web-live": 4,
+        "web-craft": 4
+      },
+      "affinities": [
+        "luoyonghao"
+      ],
+      "signatureFor": [
+        "luoyonghao"
+      ],
+      "requires": [
+        "web-punchline",
+        "web-live",
+        "web-craft"
+      ],
+      "icon": 6,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-dongyuhui",
+      "name": "购物车里有散文",
+      "effect": "普通日用品经过你的介绍，先多了一段诗意的背景。",
+      "punchline": "把故事讲好，也把信息讲清楚。",
+      "line": "把故事讲好，也把信息讲清楚。",
+      "bias": [
+        0.56,
+        0.44,
+        0.8,
+        0.1,
+        0.7,
+        0.6
+      ],
+      "vector": [
+        78,
+        72,
+        90,
+        55,
+        85,
+        80
+      ],
+      "behaviorWeights": {
+        "web-cover": 4,
+        "web-care": 5,
+        "web-live": 4
+      },
+      "affinities": [
+        "dongyuhui"
+      ],
+      "signatureFor": [
+        "dongyuhui"
+      ],
+      "requires": [
+        "web-cover",
+        "web-care",
+        "web-live"
+      ],
+      "icon": 7,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-yuminhong",
+      "name": "人生复盘笔记",
+      "effect": "走过的弯路先记下来，下一次出发多带一条建议。",
+      "punchline": "经验可以分享，路线仍由自己选。",
+      "line": "经验可以分享，路线仍由自己选。",
+      "bias": [
+        0.44,
+        0.2,
+        0.56,
+        0.24,
+        0.9,
+        0.24
+      ],
+      "vector": [
+        72,
+        60,
+        78,
+        62,
+        95,
+        62
+      ],
+      "behaviorWeights": {
+        "web-plan": 5,
+        "web-care": 4,
+        "web-travel": 3
+      },
+      "affinities": [
+        "yuminhong"
+      ],
+      "signatureFor": [
+        "yuminhong"
+      ],
+      "requires": [
+        "web-plan",
+        "web-care",
+        "web-travel"
+      ],
+      "icon": 8,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-luoxiang",
+      "name": "张三来举例",
+      "effect": "每当问题太抽象，张三自动进入例子但不会替你做决定。",
+      "punchline": "笑过以后，边界也讲明白了。",
+      "line": "笑过以后，边界也讲明白了。",
+      "bias": [
+        0.3,
+        0.8,
+        0.7,
+        -0.1,
+        0.96,
+        0.44
+      ],
+      "vector": [
+        65,
+        90,
+        85,
+        45,
+        98,
+        72
+      ],
+      "behaviorWeights": {
+        "web-punchline": 5,
+        "web-plan": 5,
+        "web-care": 3
+      },
+      "affinities": [
+        "luoxiang"
+      ],
+      "signatureFor": [
+        "luoxiang"
+      ],
+      "requires": [
+        "web-punchline",
+        "web-plan",
+        "web-care"
+      ],
+      "icon": 9,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-guoyoucai",
+      "name": "诺言循环播放",
+      "effect": "一段前奏就能把普通路口唱成平行宇宙演唱会。",
+      "punchline": "嗓音负责入戏，节奏还得跟上。",
+      "line": "嗓音负责入戏，节奏还得跟上。",
+      "bias": [
+        0.7,
+        0.3,
+        0.56,
+        0.6,
+        -0.1,
+        0.8
+      ],
+      "vector": [
+        85,
+        65,
+        78,
+        80,
+        45,
+        90
+      ],
+      "behaviorWeights": {
+        "web-cover": 5,
+        "web-live": 4,
+        "web-meme": 3
+      },
+      "affinities": [
+        "guoyoucai"
+      ],
+      "signatureFor": [
+        "guoyoucai"
+      ],
+      "requires": [
+        "web-cover",
+        "web-live",
+        "web-meme"
+      ],
+      "icon": 10,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-wenhuijun",
+      "name": "早中晚人格切换",
+      "effect": "早上认真办事，中午跟着节拍，晚上给月亮写一句话。",
+      "punchline": "一天三种状态，都是同一个你。",
+      "line": "一天三种状态，都是同一个你。",
+      "bias": [
+        0.6,
+        0.64,
+        0.3,
+        0.8,
+        -0.2,
+        0.96
+      ],
+      "vector": [
+        80,
+        82,
+        65,
+        90,
+        40,
+        98
+      ],
+      "behaviorWeights": {
+        "web-dance": 5,
+        "web-meme": 4,
+        "web-live": 3
+      },
+      "affinities": [
+        "wenhuijun"
+      ],
+      "signatureFor": [
+        "wenhuijun"
+      ],
+      "requires": [
+        "web-dance",
+        "web-meme",
+        "web-live"
+      ],
+      "icon": 11,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-fengtimo",
+      "name": "副歌自动返场",
+      "effect": "唱到熟悉副歌时，四位队友自动切成合唱声部。",
+      "punchline": "先对好调，再把麦递出去。",
+      "line": "先对好调，再把麦递出去。",
+      "bias": [
+        0.64,
+        0.3,
+        0.56,
+        0.44,
+        0.3,
+        0.76
+      ],
+      "vector": [
+        82,
+        65,
+        78,
+        72,
+        65,
+        88
+      ],
+      "behaviorWeights": {
+        "web-cover": 5,
+        "web-live": 4,
+        "web-care": 3
+      },
+      "affinities": [
+        "fengtimo"
+      ],
+      "signatureFor": [
+        "fengtimo"
+      ],
+      "requires": [
+        "web-cover",
+        "web-live",
+        "web-care"
+      ],
+      "icon": 12,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-lijiaqi",
+      "name": "口播倍速档",
+      "effect": "讲解进入高速档，关键信息仍然得让每个人听清。",
+      "punchline": "三二一，先别急着点。",
+      "line": "三二一，先别急着点。",
+      "bias": [
+        0.96,
+        0.2,
+        0.1,
+        0.8,
+        0.76,
+        1.0
+      ],
+      "vector": [
+        98,
+        60,
+        55,
+        90,
+        88,
+        100
+      ],
+      "behaviorWeights": {
+        "web-live": 5,
+        "web-edit": 4,
+        "web-plan": 3
+      },
+      "affinities": [
+        "lijiaqi"
+      ],
+      "signatureFor": [
+        "lijiaqi"
+      ],
+      "requires": [
+        "web-live",
+        "web-edit",
+        "web-plan"
+      ],
+      "icon": 13,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-sunyue-comic",
+      "name": "捧哏稳场结界",
+      "effect": "队友越讲越离谱，你用一句接话把观众留在同一段里。",
+      "punchline": "这位孙越负责捧哏，不负责投三分。",
+      "line": "这位孙越负责捧哏，不负责投三分。",
+      "bias": [
+        0.5,
+        0.3,
+        0.8,
+        -0.1,
+        0.7,
+        0.56
+      ],
+      "vector": [
+        75,
+        65,
+        90,
+        45,
+        85,
+        78
+      ],
+      "behaviorWeights": {
+        "web-punchline": 5,
+        "web-care": 5,
+        "web-live": 3
+      },
+      "affinities": [
+        "sunyue-comic"
+      ],
+      "signatureFor": [
+        "sunyue-comic"
+      ],
+      "requires": [
+        "web-punchline",
+        "web-care",
+        "web-live"
+      ],
+      "icon": 14,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-guodegang",
+      "name": "返场再加一段",
+      "effect": "观众刚以为结束，你已经把下一段包袱接上了。",
+      "punchline": "这不是最后一段，是下段的开场。",
+      "line": "这不是最后一段，是下段的开场。",
+      "bias": [
+        0.9,
+        0.7,
+        0.2,
+        0.3,
+        0.9,
+        0.9
+      ],
+      "vector": [
+        95,
+        85,
+        60,
+        65,
+        95,
+        95
+      ],
+      "behaviorWeights": {
+        "web-punchline": 5,
+        "web-live": 5,
+        "web-plan": 3
+      },
+      "affinities": [
+        "guodegang"
+      ],
+      "signatureFor": [
+        "guodegang"
+      ],
+      "requires": [
+        "web-punchline",
+        "web-live",
+        "web-plan"
+      ],
+      "icon": 15,
+      "fanMade": true,
+      "rarity": "kGold",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "personal-dailanzi",
+      "name": "带文学弹幕翻译",
+      "effect": "群里突然沉默时，把一条普通消息翻译成全员都接得住的梗。",
+      "punchline": "嘴上绕一圈，队友还在同一边。",
+      "line": "嘴上绕一圈，队友还在同一边。",
+      "bias": [
+        0.76,
+        0.64,
+        -0.1,
+        0.5,
+        -0.04,
+        0.9
+      ],
+      "vector": [
+        88,
+        82,
+        45,
+        75,
+        48,
+        95
+      ],
+      "behaviorWeights": {
+        "web-punchline": 5,
+        "web-meme": 5,
+        "web-watch": 4,
+        "web-live": 4
+      },
+      "affinities": [
+        "dailanzi"
+      ],
+      "signatureFor": [
+        "dailanzi"
+      ],
+      "requires": [
+        "web-punchline",
+        "web-meme",
+        "web-watch",
+        "web-live"
+      ],
+      "icon": 0,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物专属",
+      "kind": "chaos",
+      "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+      "personOnly": true
+    },
+    {
+      "id": "extra-fengge-1",
+      "name": "路边采访通行证",
+      "effect": "新地图刚打开，你已经和路边的人聊出了下一段故事。",
+      "punchline": "不是每个人都想出镜，先问一句再开拍。",
+      "line": "不是每个人都想出镜，先问一句再开拍。",
+      "bias": [
+        0.6,
+        1.0,
+        0.4,
+        0.7,
+        -0.1,
+        0.9
+      ],
+      "vector": [
+        80,
+        100,
+        70,
+        85,
+        45,
+        95
+      ],
+      "behaviorWeights": {
+        "web-travel": 5
+      },
+      "affinities": [
+        "fengge"
+      ],
+      "signatureFor": [
+        "fengge"
+      ],
+      "requires": [
+        "web-travel"
+      ],
+      "icon": 10,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "主角联动",
+      "kind": "chaos",
+      "creation": "本作原创人物联动，架空娱乐效果。",
+      "personOnly": true
+    },
+    {
+      "id": "extra-fengge-2",
+      "name": "宇宙路费已到账",
+      "effect": "把目的地改成问号，背包里多放一点观察力。",
+      "punchline": "先把同行的人数清点好，再出发。",
+      "line": "先把同行的人数清点好，再出发。",
+      "bias": [
+        0.6,
+        1.0,
+        0.4,
+        0.7,
+        -0.1,
+        0.9
+      ],
+      "vector": [
+        80,
+        100,
+        70,
+        85,
+        45,
+        95
+      ],
+      "behaviorWeights": {
+        "web-original": 5
+      },
+      "affinities": [
+        "fengge"
+      ],
+      "signatureFor": [
+        "fengge"
+      ],
+      "requires": [
+        "web-original"
+      ],
+      "icon": 10,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "主角联动",
+      "kind": "chaos",
+      "creation": "本作原创人物联动，架空娱乐效果。",
+      "personOnly": true
+    },
+    {
+      "id": "extra-daoge-1",
+      "name": "好果汁五人装",
+      "effect": "一箱五瓶，最后一瓶必须等没到场的队友。",
+      "punchline": "整活可以超前，队友一个别落。",
+      "line": "整活可以超前，队友一个别落。",
+      "bias": [
+        0.7,
+        0.4,
+        0.4,
+        0.8,
+        -0.1,
+        0.9
+      ],
+      "vector": [
+        85,
+        70,
+        70,
+        90,
+        45,
+        95
+      ],
+      "behaviorWeights": {
+        "web-meme": 5
+      },
+      "affinities": [
+        "daoge"
+      ],
+      "signatureFor": [
+        "daoge"
+      ],
+      "requires": [
+        "web-meme"
+      ],
+      "icon": 14,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "主角联动",
+      "kind": "chaos",
+      "creation": "本作原创人物联动，架空娱乐效果。",
+      "personOnly": true
+    },
+    {
+      "id": "extra-daoge-2",
+      "name": "街头场面维护员",
+      "effect": "现场越离谱，越先把五个人叫回同一镜头。",
+      "punchline": "先集合，再给宇宙整个活。",
+      "line": "先集合，再给宇宙整个活。",
+      "bias": [
+        0.7,
+        0.4,
+        0.4,
+        0.8,
+        -0.1,
+        0.9
+      ],
+      "vector": [
+        85,
+        70,
+        70,
+        90,
+        45,
+        95
+      ],
+      "behaviorWeights": {
+        "web-live": 5
+      },
+      "affinities": [
+        "daoge"
+      ],
+      "signatureFor": [
+        "daoge"
+      ],
+      "requires": [
+        "web-live"
+      ],
+      "icon": 14,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "主角联动",
+      "kind": "chaos",
+      "creation": "本作原创人物联动，架空娱乐效果。",
+      "personOnly": true
+    },
+    {
+      "id": "extra-dailanzi-2",
+      "name": "弹幕先替我拐个弯",
+      "effect": "不急着抢第一句，等到最适合接梗的那一秒。",
+      "punchline": "先看看，再给它换个说法。",
+      "line": "先看看，再给它换个说法。",
+      "bias": [
+        0.76,
+        0.64,
+        -0.1,
+        0.5,
+        -0.04,
+        0.9
+      ],
+      "vector": [
+        88,
+        82,
+        45,
+        75,
+        48,
+        95
+      ],
+      "behaviorWeights": {
+        "web-watch": 5
+      },
+      "affinities": [
+        "dailanzi"
+      ],
+      "signatureFor": [
+        "dailanzi"
+      ],
+      "requires": [
+        "web-watch"
+      ],
+      "icon": 10,
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "主角联动",
+      "kind": "chaos",
+      "creation": "本作原创人物联动，架空娱乐效果。",
+      "personOnly": true
     }
   ]
 }

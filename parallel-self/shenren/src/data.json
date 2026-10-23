@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "name": "世界上另一个我",
   "dimensions": [
     {
@@ -72,12 +72,12 @@
     },
     {
       "id": "basket",
-      "name": "金闪闪队 · NBA",
-      "label": "NBA 金闪闪队",
+      "name": "篮球梦之队",
+      "label": "篮球梦之队",
       "icon": "◉",
       "accent": "#ffac71",
       "slogan": "冠军先别争，五个人的节目先排满。",
-      "description": "老大 / 勒邦詹氏 / 裤衩子 / 现役与经典名场面",
+      "description": "NBA / 中国篮球 / 解说名场面 / 现役与经典",
       "roles": [
         "控卫",
         "分卫",
@@ -101,7 +101,7 @@
       "icon": "✳",
       "accent": "#dfff75",
       "slogan": "人还没上镜，前奏已经启动了。",
-      "description": "摇一摇 / 翻唱 / 峰哥 / 自媒体 / 本期网络热梗",
+      "description": "带篮子 / 刀哥 / 峰哥 / 相声 / 科技名人 / 网络整活",
       "roles": [
         "发言人",
         "行动派",
@@ -12543,8 +12543,8 @@
       "id": "basket-social-3",
       "theme": "basket",
       "dim": "social",
-      "scene": "金闪闪首发",
-      "title": "你当金闪闪队临时队长，怎么介绍队友？",
+      "scene": "梦之队首发",
+      "title": "你当篮球梦之队临时队长，怎么介绍队友？",
       "options": [
         {
           "id": 0,
@@ -12935,7 +12935,7 @@
         },
         {
           "id": 3,
-          "text": "做一张跨时代金闪闪队阵容表",
+          "text": "做一张跨时代篮球梦之队阵容表",
           "value": 4,
           "behavior": "nba-show",
           "tags": [
@@ -13399,7 +13399,7 @@
       "theme": "basket",
       "dim": "explore",
       "scene": "球衣号码",
-      "title": "金闪闪队让你挑号码，你会？",
+      "title": "篮球梦之队让你挑号码，你会？",
       "options": [
         {
           "id": 0,
@@ -13475,7 +13475,7 @@
         },
         {
           "id": 3,
-          "text": "把训练剪成金闪闪队预告",
+          "text": "把训练剪成篮球梦之队预告",
           "value": 4,
           "behavior": "nba-show",
           "tags": [
@@ -14569,7 +14569,7 @@
       "theme": "basket",
       "dim": "action",
       "scene": "夺冠合影",
-      "title": "金闪闪队赢了，摄影师倒数三秒，你会？",
+      "title": "篮球梦之队赢了，摄影师倒数三秒，你会？",
       "options": [
         {
           "id": 0,
@@ -14614,7 +14614,7 @@
       "theme": "basket",
       "dim": "order",
       "scene": "赛前排位置",
-      "title": "金闪闪队第一次凑齐，你会？",
+      "title": "篮球梦之队第一次凑齐，你会？",
       "options": [
         {
           "id": 0,
@@ -15635,7 +15635,7 @@
         },
         {
           "id": 3,
-          "text": "亲自做成金闪闪队表情包系列",
+          "text": "亲自做成篮球梦之队表情包系列",
           "value": 4,
           "behavior": "nba-show",
           "tags": [
@@ -18928,6 +18928,2562 @@
           ]
         }
       ]
+    },
+    {
+      "id": "v10-abstract-0",
+      "theme": "abstract",
+      "dim": "social",
+      "scene": "带文学开场",
+      "title": "五人群里没人说话，带篮子式接梗机会来了，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先围观，看看大家在聊什么",
+          "value": 1,
+          "behavior": "web-watch",
+          "tags": [
+            "web-watch"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "给熟人发一个能接住的表情",
+          "value": 2,
+          "behavior": "web-meme",
+          "tags": [
+            "web-meme"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "改写群公告，逗四个队友出来",
+          "value": 3,
+          "behavior": "web-punchline",
+          "tags": [
+            "web-punchline"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "开麦招呼全员：这场面不能冷",
+          "value": 4,
+          "behavior": "web-live",
+          "tags": [
+            "web-live"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-1",
+      "theme": "abstract",
+      "dim": "social",
+      "scene": "刀哥的第五瓶",
+      "title": "刀哥带了五瓶好果汁，最后一位队友迟到，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先把自己的放旁边",
+          "value": 1,
+          "behavior": "web-watch",
+          "tags": [
+            "web-watch"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "问问迟到的人到哪了",
+          "value": 2,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "替他留着，大家先聊",
+          "value": 3,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "拉全队录一句：就等你了",
+          "value": 4,
+          "behavior": "web-meme",
+          "tags": [
+            "web-meme"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-2",
+      "theme": "abstract",
+      "dim": "social",
+      "scene": "孙越接话",
+      "title": "郭德纲说了个夸张包袱，你坐在捧哏的位置上，会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先听完整，不抢话",
+          "value": 1,
+          "behavior": "web-watch",
+          "tags": [
+            "web-watch"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "接一句短的，给搭档留口气",
+          "value": 2,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "顺着他的设定再问一句",
+          "value": 3,
+          "behavior": "web-punchline",
+          "tags": [
+            "web-punchline"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "一个现挂把五个人一起逗笑",
+          "value": 4,
+          "behavior": "web-punchline",
+          "tags": [
+            "web-punchline"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-3",
+      "theme": "abstract",
+      "dim": "social",
+      "scene": "发布会彩排",
+      "title": "雷军式开场前，队友问“Are you OK”，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "点头，在台下帮忙",
+          "value": 1,
+          "behavior": "web-watch",
+          "tags": [
+            "web-watch"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "小声跟一句",
+          "value": 2,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "拉队友一起练开场",
+          "value": 3,
+          "behavior": "web-punchline",
+          "tags": [
+            "web-punchline"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "麦克风给我，前奏也给我",
+          "value": 4,
+          "behavior": "web-live",
+          "tags": [
+            "web-live"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-4",
+      "theme": "abstract",
+      "dim": "explore",
+      "scene": "峰哥的岔路",
+      "title": "旅行途中遇见不在攻略里的小镇，峰哥式好奇心上线，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先按原路线走",
+          "value": 1,
+          "behavior": "web-plan",
+          "tags": [
+            "web-plan"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "路口看看再决定",
+          "value": 2,
+          "behavior": "web-watch",
+          "tags": [
+            "web-watch"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "问问当地人这里有什么故事",
+          "value": 3,
+          "behavior": "web-travel",
+          "tags": [
+            "web-travel"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "确认安全和时间后，带队进去转转",
+          "value": 4,
+          "behavior": "web-travel",
+          "tags": [
+            "web-travel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-5",
+      "theme": "abstract",
+      "dim": "explore",
+      "scene": "火星五人群",
+      "title": "马斯克式脑洞：你们的五人群突然改名“火星先遣队”，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先看今天的计划",
+          "value": 1,
+          "behavior": "web-plan",
+          "tags": [
+            "web-plan"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "给群换一张星空封面",
+          "value": 2,
+          "behavior": "web-edit",
+          "tags": [
+            "web-edit"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "把行李清单写成段子",
+          "value": 3,
+          "behavior": "web-punchline",
+          "tags": [
+            "web-punchline"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "先拍一段纸箱火箭出征片",
+          "value": 4,
+          "behavior": "web-original",
+          "tags": [
+            "web-original"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-6",
+      "theme": "abstract",
+      "dim": "explore",
+      "scene": "张三的例子",
+      "title": "朋友的问题越来越抽象，你想起罗翔式举例，会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先把问题说清楚",
+          "value": 1,
+          "behavior": "web-plan",
+          "tags": [
+            "web-plan"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "找个生活里的小例子",
+          "value": 2,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "让张三登场，把逻辑讲顺",
+          "value": 3,
+          "behavior": "web-punchline",
+          "tags": [
+            "web-punchline"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "给五位队友各写一个平行身份",
+          "value": 4,
+          "behavior": "web-original",
+          "tags": [
+            "web-original"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-7",
+      "theme": "abstract",
+      "dim": "explore",
+      "scene": "皮衣发布会",
+      "title": "黄仁勋式发布会借你五分钟，但你只有旧电脑，会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "介绍它能完成的事",
+          "value": 1,
+          "behavior": "web-craft",
+          "tags": [
+            "web-craft"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "给真实体验拍一段",
+          "value": 2,
+          "behavior": "web-live",
+          "tags": [
+            "web-live"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "用纸板做个夸张显卡道具",
+          "value": 3,
+          "behavior": "web-original",
+          "tags": [
+            "web-original"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "把普通电脑讲成宇宙飞船驾驶台",
+          "value": 4,
+          "behavior": "web-original",
+          "tags": [
+            "web-original"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-8",
+      "theme": "abstract",
+      "dim": "empathy",
+      "scene": "街头访谈边界",
+      "title": "峰哥式街头访谈里，对方说不想出镜，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "立刻停拍，道谢离开",
+          "value": 1,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "问能否只聊不拍",
+          "value": 2,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "听完故事，也替他保留匿名",
+          "value": 3,
+          "behavior": "web-travel",
+          "tags": [
+            "web-travel"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "剪掉所有可识别片段，再确认能否用",
+          "value": 4,
+          "behavior": "web-edit",
+          "tags": [
+            "web-edit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-9",
+      "theme": "abstract",
+      "dim": "empathy",
+      "scene": "带梗要有分寸",
+      "title": "带篮子式吐槽把朋友说沉默了，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先停一下",
+          "value": 1,
+          "behavior": "web-watch",
+          "tags": [
+            "web-watch"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "私下问问是不是不舒服",
+          "value": 2,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "解释是玩梗，认真把话说回来",
+          "value": 3,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "当场换成自嘲，让朋友轻松下台",
+          "value": 4,
+          "behavior": "web-punchline",
+          "tags": [
+            "web-punchline"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-10",
+      "theme": "abstract",
+      "dim": "empathy",
+      "scene": "捧哏接住",
+      "title": "搭档第一次上台忘词，你负责孙越式捧哏，会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "留半秒让他想起",
+          "value": 1,
+          "behavior": "web-watch",
+          "tags": [
+            "web-watch"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "用原话帮他接下一句",
+          "value": 2,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "问个简单问题把话题接住",
+          "value": 3,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "变成一段默契笑场，再回到正题",
+          "value": 4,
+          "behavior": "web-punchline",
+          "tags": [
+            "web-punchline"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-11",
+      "theme": "abstract",
+      "dim": "empathy",
+      "scene": "董宇辉式介绍",
+      "title": "你要介绍一碗普通面，但朋友今天很累，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "让他先吃，别挡着",
+          "value": 1,
+          "behavior": "web-watch",
+          "tags": [
+            "web-watch"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "只说这碗热乎",
+          "value": 2,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "讲一小段家乡记忆",
+          "value": 3,
+          "behavior": "web-cover",
+          "tags": [
+            "web-cover"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "把他爱吃的细节讲成温柔旁白",
+          "value": 4,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-12",
+      "theme": "abstract",
+      "dim": "action",
+      "scene": "闻神的中午",
+      "title": "上午认真办事的闻会军到了中午开始跳舞，你呢？",
+      "options": [
+        {
+          "id": 0,
+          "text": "坐着看一遍",
+          "value": 1,
+          "behavior": "web-watch",
+          "tags": [
+            "web-watch"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "先学一个动作",
+          "value": 2,
+          "behavior": "web-dance",
+          "tags": [
+            "web-dance"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "拉队友练一小段",
+          "value": 3,
+          "behavior": "web-dance",
+          "tags": [
+            "web-dance"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "找好场地就开拍，拍完继续办事",
+          "value": 4,
+          "behavior": "web-dance",
+          "tags": [
+            "web-dance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-13",
+      "theme": "abstract",
+      "dim": "action",
+      "scene": "刀哥喊集合",
+      "title": "刀哥在群里说“来，整个五人合照”，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "发个表情先占位",
+          "value": 1,
+          "behavior": "web-meme",
+          "tags": [
+            "web-meme"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "问清时间地点",
+          "value": 2,
+          "behavior": "web-plan",
+          "tags": [
+            "web-plan"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "带上饮料和手机支架",
+          "value": 3,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "到场先把四个队友招呼齐",
+          "value": 4,
+          "behavior": "web-live",
+          "tags": [
+            "web-live"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-14",
+      "theme": "abstract",
+      "dim": "action",
+      "scene": "带篮子录开场",
+      "title": "你想到一句带文学式开场，手机已经架好了，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先看看上次拍的",
+          "value": 1,
+          "behavior": "web-watch",
+          "tags": [
+            "web-watch"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "记下来，等状态好了拍",
+          "value": 2,
+          "behavior": "web-plan",
+          "tags": [
+            "web-plan"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "试一遍，不行再改",
+          "value": 3,
+          "behavior": "web-punchline",
+          "tags": [
+            "web-punchline"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "直接拍一条自然的，保留笑场",
+          "value": 4,
+          "behavior": "web-live",
+          "tags": [
+            "web-live"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-15",
+      "theme": "abstract",
+      "dim": "action",
+      "scene": "老罗的重录",
+      "title": "罗永浩式发布会段子讲岔了，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "暂停，重新整理",
+          "value": 1,
+          "behavior": "web-plan",
+          "tags": [
+            "web-plan"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "剪掉重复的部分",
+          "value": 2,
+          "behavior": "web-edit",
+          "tags": [
+            "web-edit"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "自嘲一句，把逻辑接回来",
+          "value": 3,
+          "behavior": "web-punchline",
+          "tags": [
+            "web-punchline"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "留住笑场，现场再完整讲一遍",
+          "value": 4,
+          "behavior": "web-live",
+          "tags": [
+            "web-live"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-16",
+      "theme": "abstract",
+      "dim": "order",
+      "scene": "峰哥旅行清单",
+      "title": "五人说走就走前，谁来收拾这趟旅程？",
+      "options": [
+        {
+          "id": 0,
+          "text": "背上包再说",
+          "value": 1,
+          "behavior": "web-travel",
+          "tags": [
+            "web-travel"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "先查路线和返程",
+          "value": 2,
+          "behavior": "web-plan",
+          "tags": [
+            "web-plan"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "把住宿、预算、同行人数写好",
+          "value": 3,
+          "behavior": "web-plan",
+          "tags": [
+            "web-plan"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "路线留弹性，先把安全与联系办法讲清",
+          "value": 4,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-17",
+      "theme": "abstract",
+      "dim": "order",
+      "scene": "诺言翻唱排练",
+      "title": "郭有才式沙哑翻唱要开录，五个人谁也不在一个拍上，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先自由唱一遍",
+          "value": 1,
+          "behavior": "web-cover",
+          "tags": [
+            "web-cover"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "找出同一段伴奏",
+          "value": 2,
+          "behavior": "web-cover",
+          "tags": [
+            "web-cover"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "分清主唱、和声和拍摄",
+          "value": 3,
+          "behavior": "web-plan",
+          "tags": [
+            "web-plan"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "先对调、对拍，再完整录一次",
+          "value": 4,
+          "behavior": "web-craft",
+          "tags": [
+            "web-craft"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-18",
+      "theme": "abstract",
+      "dim": "order",
+      "scene": "口播倒计时",
+      "title": "李佳琦式三二一口播，重要信息快被语速吃掉了，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "减慢一点先试试",
+          "value": 1,
+          "behavior": "web-live",
+          "tags": [
+            "web-live"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "删掉重复形容词",
+          "value": 2,
+          "behavior": "web-edit",
+          "tags": [
+            "web-edit"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "把关键信息列在旁边",
+          "value": 3,
+          "behavior": "web-plan",
+          "tags": [
+            "web-plan"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "分段讲清，确认队友都听懂再加速",
+          "value": 4,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-19",
+      "theme": "abstract",
+      "dim": "order",
+      "scene": "五人返场",
+      "title": "郭德纲式返场喊到第三轮，大家明天还要早起，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "再笑一会儿",
+          "value": 1,
+          "behavior": "web-punchline",
+          "tags": [
+            "web-punchline"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "提醒一下时间",
+          "value": 2,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "约好最后一段，讲完收工",
+          "value": 3,
+          "behavior": "web-plan",
+          "tags": [
+            "web-plan"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "收好道具，给每个人安排回程",
+          "value": 4,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-20",
+      "theme": "abstract",
+      "dim": "express",
+      "scene": "带文学评论区",
+      "title": "视频发出后，评论问你为何这么抽象，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "点个赞就好",
+          "value": 1,
+          "behavior": "web-watch",
+          "tags": [
+            "web-watch"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "回个表情包",
+          "value": 2,
+          "behavior": "web-meme",
+          "tags": [
+            "web-meme"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "把普通回复绕成一个新梗",
+          "value": 3,
+          "behavior": "web-punchline",
+          "tags": [
+            "web-punchline"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "置顶一段自嘲，让评论区继续接",
+          "value": 4,
+          "behavior": "web-punchline",
+          "tags": [
+            "web-punchline"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-21",
+      "theme": "abstract",
+      "dim": "express",
+      "scene": "川普式舞台",
+      "title": "聚会音乐响起，有人开始摆标志性的手势舞，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先在旁边笑",
+          "value": 1,
+          "behavior": "web-watch",
+          "tags": [
+            "web-watch"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "跟两个动作",
+          "value": 2,
+          "behavior": "web-dance",
+          "tags": [
+            "web-dance"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "叫队友一起摆手",
+          "value": 3,
+          "behavior": "web-dance",
+          "tags": [
+            "web-dance"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "站中间带一段，再把位置让给朋友",
+          "value": 4,
+          "behavior": "web-live",
+          "tags": [
+            "web-live"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-22",
+      "theme": "abstract",
+      "dim": "express",
+      "scene": "峰哥回程旁白",
+      "title": "一趟旅程回来，你准备怎么讲给大家听？",
+      "options": [
+        {
+          "id": 0,
+          "text": "发一张照片就好",
+          "value": 1,
+          "behavior": "web-watch",
+          "tags": [
+            "web-watch"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "说一个最难忘的细节",
+          "value": 2,
+          "behavior": "web-travel",
+          "tags": [
+            "web-travel"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "把遇见的人剪成小故事",
+          "value": 3,
+          "behavior": "web-edit",
+          "tags": [
+            "web-edit"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "对着镜头讲完这一路的笑场和收获",
+          "value": 4,
+          "behavior": "web-live",
+          "tags": [
+            "web-live"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-abstract-23",
+      "theme": "abstract",
+      "dim": "express",
+      "scene": "好果汁谢幕",
+      "title": "五人整活视频拍完，刀哥把最后一瓶果汁递给你，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "举瓶点头",
+          "value": 1,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "和拍摄的人碰一下",
+          "value": 2,
+          "behavior": "web-care",
+          "tags": [
+            "web-care"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "一句“人齐了，片也齐了”",
+          "value": 3,
+          "behavior": "web-punchline",
+          "tags": [
+            "web-punchline"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "让五个人一起入镜，留住最后的笑",
+          "value": 4,
+          "behavior": "web-live",
+          "tags": [
+            "web-live"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-basket-0",
+      "theme": "basket",
+      "dim": "social",
+      "scene": "鲸鱼解说席",
+      "title": "徐静雨式解说已经讲了两分钟，球还在同一个人手里，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先看防守站位",
+          "value": 1,
+          "behavior": "nba-safe",
+          "tags": [
+            "nba-safe"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "提醒该传球了",
+          "value": 2,
+          "behavior": "nba-team",
+          "tags": [
+            "nba-team"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "接一句“立棍单打”缓和气氛",
+          "value": 3,
+          "behavior": "nba-show",
+          "tags": [
+            "nba-show"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "边讲边招呼队友跑出空位",
+          "value": 4,
+          "behavior": "nba-plan",
+          "tags": [
+            "nba-plan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-basket-1",
+      "theme": "basket",
+      "dim": "social",
+      "scene": "合理指导上线",
+      "title": "张卫平指导说“这球合理”，队友立刻都想投，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先观察防守",
+          "value": 1,
+          "behavior": "nba-safe",
+          "tags": [
+            "nba-safe"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "把球交给空位的人",
+          "value": 2,
+          "behavior": "nba-team",
+          "tags": [
+            "nba-team"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "笑着说一次只投一个",
+          "value": 3,
+          "behavior": "nba-show",
+          "tags": [
+            "nba-show"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "喊出这次配合，让五个人都参与",
+          "value": 4,
+          "behavior": "nba-plan",
+          "tags": [
+            "nba-plan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-basket-2",
+      "theme": "basket",
+      "dim": "explore",
+      "scene": "字母长步",
+      "title": "字母哥式大步冲框，前面却已经站了两个人，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先停下护好球",
+          "value": 1,
+          "behavior": "nba-safe",
+          "tags": [
+            "nba-safe"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "传给旁边空位",
+          "value": 2,
+          "behavior": "nba-team",
+          "tags": [
+            "nba-team"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "换个角度再试突破",
+          "value": 3,
+          "behavior": "nba-drive",
+          "tags": [
+            "nba-drive"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "敢打也要找空隙，别往人堆里冲",
+          "value": 4,
+          "behavior": "nba-drive",
+          "tags": [
+            "nba-drive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-basket-3",
+      "theme": "basket",
+      "dim": "explore",
+      "scene": "欧文运球教学",
+      "title": "欧文式花活还没练会，朋友就要录高光，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先练最稳的动作",
+          "value": 1,
+          "behavior": "nba-train",
+          "tags": [
+            "nba-train"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "把成功那一次记录下来",
+          "value": 2,
+          "behavior": "nba-plan",
+          "tags": [
+            "nba-plan"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "尝试一个新变向",
+          "value": 3,
+          "behavior": "nba-drive",
+          "tags": [
+            "nba-drive"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "做一段花活与失误都保留的搞笑集锦",
+          "value": 4,
+          "behavior": "nba-show",
+          "tags": [
+            "nba-show"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-basket-4",
+      "theme": "basket",
+      "dim": "empathy",
+      "scene": "孙悦封盖之后",
+      "title": "篮球孙悦式追帽完成，传球的队友没人看见，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先回防",
+          "value": 1,
+          "behavior": "nba-safe",
+          "tags": [
+            "nba-safe"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "回头跟他击掌",
+          "value": 2,
+          "behavior": "nba-team",
+          "tags": [
+            "nba-team"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "主动说这球靠他的提醒",
+          "value": 3,
+          "behavior": "nba-care",
+          "tags": [
+            "nba-care"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "庆祝时把他拉到镜头中间",
+          "value": 4,
+          "behavior": "nba-team",
+          "tags": [
+            "nba-team"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-basket-5",
+      "theme": "basket",
+      "dim": "empathy",
+      "scene": "周琦边线球",
+      "title": "队友边线球失误，场边开始玩老梗，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先回防，别继续丢分",
+          "value": 1,
+          "behavior": "nba-safe",
+          "tags": [
+            "nba-safe"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "告诉他下一次先对眼神",
+          "value": 2,
+          "behavior": "nba-team",
+          "tags": [
+            "nba-team"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "叫个简单接应配合帮他找回感觉",
+          "value": 3,
+          "behavior": "nba-plan",
+          "tags": [
+            "nba-plan"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "挡掉嘲讽，五个人再认真发一次",
+          "value": 4,
+          "behavior": "nba-care",
+          "tags": [
+            "nba-care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-basket-6",
+      "theme": "basket",
+      "dim": "action",
+      "scene": "大侄子突破",
+      "title": "郭艾伦式第一步晃出了位置，协防又补来，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "稳住别丢球",
+          "value": 1,
+          "behavior": "nba-safe",
+          "tags": [
+            "nba-safe"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "传给空位队友",
+          "value": 2,
+          "behavior": "nba-team",
+          "tags": [
+            "nba-team"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "找节奏继续突破",
+          "value": 3,
+          "behavior": "nba-drive",
+          "tags": [
+            "nba-drive"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "假动作加变向，但保留传球路线",
+          "value": 4,
+          "behavior": "nba-drive",
+          "tags": [
+            "nba-drive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-basket-7",
+      "theme": "basket",
+      "dim": "action",
+      "scene": "麦迪时间",
+      "title": "时间只剩35秒，比分落后，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先完成眼前一防",
+          "value": 1,
+          "behavior": "nba-safe",
+          "tags": [
+            "nba-safe"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "布置一个简单配合",
+          "value": 2,
+          "behavior": "nba-plan",
+          "tags": [
+            "nba-plan"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "空位来了果断三分",
+          "value": 3,
+          "behavior": "nba-three",
+          "tags": [
+            "nba-three"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "每个回合认真抢，奇迹也得一球球投",
+          "value": 4,
+          "behavior": "nba-clutch",
+          "tags": [
+            "nba-clutch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-basket-8",
+      "theme": "basket",
+      "dim": "order",
+      "scene": "保罗遥控器",
+      "title": "五个人都想当主攻，保罗式控场的你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先护住球",
+          "value": 1,
+          "behavior": "nba-safe",
+          "tags": [
+            "nba-safe"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "确认谁手感最好",
+          "value": 2,
+          "behavior": "nba-team",
+          "tags": [
+            "nba-team"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "安排传切和掩护",
+          "value": 3,
+          "behavior": "nba-plan",
+          "tags": [
+            "nba-plan"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "让五人都知道这一回合的第一选择",
+          "value": 4,
+          "behavior": "nba-plan",
+          "tags": [
+            "nba-plan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-basket-9",
+      "theme": "basket",
+      "dim": "order",
+      "scene": "解说席三人组",
+      "title": "杨毅讲故事、苏群画战术、王猛等暴扣，你最先接哪一个？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先听当前回合",
+          "value": 1,
+          "behavior": "nba-calm",
+          "tags": [
+            "nba-calm"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "问清楚战术站位",
+          "value": 2,
+          "behavior": "nba-plan",
+          "tags": [
+            "nba-plan"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "补一个比赛背景",
+          "value": 3,
+          "behavior": "nba-plan",
+          "tags": [
+            "nba-plan"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "卡准高光再把情绪喊出来",
+          "value": 4,
+          "behavior": "nba-show",
+          "tags": [
+            "nba-show"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-basket-10",
+      "theme": "basket",
+      "dim": "express",
+      "scene": "UFO落地",
+      "title": "卡特式暴扣点燃球场，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "落地先站稳",
+          "value": 1,
+          "behavior": "nba-safe",
+          "tags": [
+            "nba-safe"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "和队友击掌回防",
+          "value": 2,
+          "behavior": "nba-team",
+          "tags": [
+            "nba-team"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "给一个经典庆祝",
+          "value": 3,
+          "behavior": "nba-show",
+          "tags": [
+            "nba-show"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "喊一句再追上下一回合",
+          "value": 4,
+          "behavior": "nba-dunk",
+          "tags": [
+            "nba-dunk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v10-basket-11",
+      "theme": "basket",
+      "dim": "express",
+      "scene": "于嘉末节旁白",
+      "title": "最后一球进了，轮到你给这场球配一句话，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "好球，先握手",
+          "value": 1,
+          "behavior": "nba-calm",
+          "tags": [
+            "nba-calm"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "这球大家配合得好",
+          "value": 2,
+          "behavior": "nba-team",
+          "tags": [
+            "nba-team"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "稳住呼吸，说完最后一攻",
+          "value": 3,
+          "behavior": "nba-clutch",
+          "tags": [
+            "nba-clutch"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "跟王猛一起把声音抬到篮筐那么高",
+          "value": 4,
+          "behavior": "nba-show",
+          "tags": [
+            "nba-show"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rift-deyunse-0",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "deyunse",
+      "chapterName": "德云色双声道",
+      "stage": 0,
+      "scene": "双人解说",
+      "title": "笑笑和西卡同时开麦，队友说听不清谁在指挥，你会？",
+      "importance": 1,
+      "tip": "先看小地图、队友位置和对面关键技能，再决定向前；复活期间可以简单沟通下一步。",
+      "options": [
+        {
+          "id": 0,
+          "text": "先停一秒，让一个人说",
+          "behavior": "calm",
+          "tags": [
+            "calm"
+          ],
+          "signals": {
+            "tilt": 8,
+            "greed": 45,
+            "risk": 25,
+            "team": 75,
+            "craft": 65,
+            "plan": 95
+          }
+        },
+        {
+          "id": 1,
+          "text": "把下一步说成一句短话",
+          "behavior": "plan",
+          "tags": [
+            "plan"
+          ],
+          "signals": {
+            "tilt": 15,
+            "greed": 52,
+            "risk": 30,
+            "team": 72,
+            "craft": 58,
+            "plan": 96
+          }
+        },
+        {
+          "id": 2,
+          "text": "接个梗再问队友去哪",
+          "behavior": "laugh",
+          "tags": [
+            "laugh"
+          ],
+          "signals": {
+            "tilt": 55,
+            "greed": 35,
+            "risk": 60,
+            "team": 40,
+            "craft": 40,
+            "plan": 20
+          }
+        },
+        {
+          "id": 3,
+          "text": "两个声道一起上，先把气氛拉满",
+          "behavior": "chaos",
+          "tags": [
+            "chaos"
+          ],
+          "signals": {
+            "tilt": 80,
+            "greed": 48,
+            "risk": 88,
+            "team": 40,
+            "craft": 55,
+            "plan": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "rift-deyunse-1",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "deyunse",
+      "chapterName": "德云色双声道",
+      "stage": 1,
+      "scene": "场上接话",
+      "title": "你刚说完下一步，队友已经笑场，怎么把话接回来？",
+      "importance": 1,
+      "tip": "先看小地图、队友位置和对面关键技能，再决定向前；复活期间可以简单沟通下一步。",
+      "options": [
+        {
+          "id": 0,
+          "text": "确认人齐再走",
+          "behavior": "protect",
+          "tags": [
+            "protect"
+          ],
+          "signals": {
+            "tilt": 25,
+            "greed": 25,
+            "risk": 50,
+            "team": 98,
+            "craft": 55,
+            "plan": 75
+          }
+        },
+        {
+          "id": 1,
+          "text": "把笑点留录屏，先报位置",
+          "behavior": "vision",
+          "tags": [
+            "vision"
+          ],
+          "signals": {
+            "tilt": 10,
+            "greed": 15,
+            "risk": 25,
+            "team": 92,
+            "craft": 55,
+            "plan": 95
+          }
+        },
+        {
+          "id": 2,
+          "text": "自己也笑一段，再认真打",
+          "behavior": "laugh",
+          "tags": [
+            "laugh"
+          ],
+          "signals": {
+            "tilt": 55,
+            "greed": 35,
+            "risk": 60,
+            "team": 40,
+            "craft": 40,
+            "plan": 20
+          }
+        },
+        {
+          "id": 3,
+          "text": "这波我来操作，大家看我",
+          "behavior": "mechanics",
+          "tags": [
+            "mechanics"
+          ],
+          "signals": {
+            "tilt": 45,
+            "greed": 60,
+            "risk": 65,
+            "team": 45,
+            "craft": 98,
+            "plan": 52
+          }
+        }
+      ]
+    },
+    {
+      "id": "rift-deyunse-2",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "deyunse",
+      "chapterName": "德云色双声道",
+      "stage": 2,
+      "scene": "被对面抓到",
+      "title": "复活倒计时里，双人解说突然变成全队复盘，你先做什么？",
+      "importance": 1,
+      "tip": "先看小地图、队友位置和对面关键技能，再决定向前；复活期间可以简单沟通下一步。",
+      "options": [
+        {
+          "id": 0,
+          "text": "只说一个能改的点",
+          "behavior": "explain",
+          "tags": [
+            "explain"
+          ],
+          "signals": {
+            "tilt": 50,
+            "greed": 55,
+            "risk": 35,
+            "team": 40,
+            "craft": 45,
+            "plan": 90
+          }
+        },
+        {
+          "id": 1,
+          "text": "把下一波路线标好",
+          "behavior": "plan",
+          "tags": [
+            "plan"
+          ],
+          "signals": {
+            "tilt": 15,
+            "greed": 52,
+            "risk": 30,
+            "team": 72,
+            "craft": 58,
+            "plan": 96
+          }
+        },
+        {
+          "id": 2,
+          "text": "先问刚才谁没跟上",
+          "behavior": "blame",
+          "tags": [
+            "blame"
+          ],
+          "signals": {
+            "tilt": 85,
+            "greed": 35,
+            "risk": 35,
+            "team": 3,
+            "craft": 30,
+            "plan": 20
+          }
+        },
+        {
+          "id": 3,
+          "text": "回放先别关，这里太好笑了",
+          "behavior": "laugh",
+          "tags": [
+            "laugh"
+          ],
+          "signals": {
+            "tilt": 55,
+            "greed": 35,
+            "risk": 60,
+            "team": 40,
+            "craft": 40,
+            "plan": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "rift-deyunse-3",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "deyunse",
+      "chapterName": "德云色双声道",
+      "stage": 3,
+      "scene": "双声道收尾",
+      "title": "最后一波打完，搭档把麦递给你，你会？",
+      "importance": 1,
+      "tip": "先看小地图、队友位置和对面关键技能，再决定向前；复活期间可以简单沟通下一步。",
+      "options": [
+        {
+          "id": 0,
+          "text": "赢了再笑，先确认基地倒了",
+          "behavior": "calm",
+          "tags": [
+            "calm"
+          ],
+          "signals": {
+            "tilt": 8,
+            "greed": 45,
+            "risk": 25,
+            "team": 75,
+            "craft": 65,
+            "plan": 95
+          }
+        },
+        {
+          "id": 1,
+          "text": "讲讲这局五人怎么配合",
+          "behavior": "explain",
+          "tags": [
+            "explain"
+          ],
+          "signals": {
+            "tilt": 50,
+            "greed": 55,
+            "risk": 35,
+            "team": 40,
+            "craft": 45,
+            "plan": 90
+          }
+        },
+        {
+          "id": 2,
+          "text": "两个人一起模仿开场的笑声",
+          "behavior": "laugh",
+          "tags": [
+            "laugh"
+          ],
+          "signals": {
+            "tilt": 55,
+            "greed": 35,
+            "risk": 60,
+            "team": 40,
+            "craft": 40,
+            "plan": 20
+          }
+        },
+        {
+          "id": 3,
+          "text": "让全队一人接一句，录成片尾",
+          "behavior": "chaos",
+          "tags": [
+            "chaos"
+          ],
+          "signals": {
+            "tilt": 80,
+            "greed": 48,
+            "risk": 88,
+            "team": 40,
+            "craft": 55,
+            "plan": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "rift-rookie-clinic-0",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "rookie-clinic",
+      "chapterName": "中路今日值班",
+      "stage": 0,
+      "scene": "中路急诊室",
+      "title": "Rookie式中路值班：上下两路同时喊难打，你先怎么办？",
+      "importance": 1,
+      "tip": "先看小地图、队友位置和对面关键技能，再决定向前；复活期间可以简单沟通下一步。",
+      "options": [
+        {
+          "id": 0,
+          "text": "先清眼前小兵，再看哪边能帮",
+          "behavior": "plan",
+          "tags": [
+            "plan"
+          ],
+          "signals": {
+            "tilt": 15,
+            "greed": 52,
+            "risk": 30,
+            "team": 72,
+            "craft": 58,
+            "plan": 96
+          }
+        },
+        {
+          "id": 1,
+          "text": "给危险的那路报一下敌人位置",
+          "behavior": "vision",
+          "tags": [
+            "vision"
+          ],
+          "signals": {
+            "tilt": 10,
+            "greed": 15,
+            "risk": 25,
+            "team": 92,
+            "craft": 55,
+            "plan": 95
+          }
+        },
+        {
+          "id": 2,
+          "text": "找一个能打的机会给队友减压",
+          "behavior": "mechanics",
+          "tags": [
+            "mechanics"
+          ],
+          "signals": {
+            "tilt": 45,
+            "greed": 60,
+            "risk": 65,
+            "team": 45,
+            "craft": 98,
+            "plan": 52
+          }
+        },
+        {
+          "id": 3,
+          "text": "把保护技能留给被追的人",
+          "behavior": "protect",
+          "tags": [
+            "protect"
+          ],
+          "signals": {
+            "tilt": 25,
+            "greed": 25,
+            "risk": 50,
+            "team": 98,
+            "craft": 55,
+            "plan": 75
+          }
+        }
+      ]
+    },
+    {
+      "id": "rift-rookie-clinic-1",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "rookie-clinic",
+      "chapterName": "中路今日值班",
+      "stage": 1,
+      "scene": "队友终于到了",
+      "title": "队友来中路了，你刚好打出一次机会，接下来？",
+      "importance": 1,
+      "tip": "先看小地图、队友位置和对面关键技能，再决定向前；复活期间可以简单沟通下一步。",
+      "options": [
+        {
+          "id": 0,
+          "text": "等队友控制接上再打",
+          "behavior": "control",
+          "tags": [
+            "control"
+          ],
+          "signals": {
+            "tilt": 25,
+            "greed": 35,
+            "risk": 58,
+            "team": 80,
+            "craft": 75,
+            "plan": 88
+          }
+        },
+        {
+          "id": 1,
+          "text": "先报一句，我准备往前",
+          "behavior": "engage",
+          "tags": [
+            "engage"
+          ],
+          "signals": {
+            "tilt": 62,
+            "greed": 40,
+            "risk": 96,
+            "team": 78,
+            "craft": 65,
+            "plan": 38
+          }
+        },
+        {
+          "id": 2,
+          "text": "有空隙就把伤害打够",
+          "behavior": "mechanics",
+          "tags": [
+            "mechanics"
+          ],
+          "signals": {
+            "tilt": 45,
+            "greed": 60,
+            "risk": 65,
+            "team": 45,
+            "craft": 98,
+            "plan": 52
+          }
+        },
+        {
+          "id": 3,
+          "text": "血量不多的人先回去",
+          "behavior": "protect",
+          "tags": [
+            "protect"
+          ],
+          "signals": {
+            "tilt": 25,
+            "greed": 25,
+            "risk": 50,
+            "team": 98,
+            "craft": 55,
+            "plan": 75
+          }
+        }
+      ]
+    },
+    {
+      "id": "rift-rookie-clinic-2",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "rookie-clinic",
+      "chapterName": "中路今日值班",
+      "stage": 2,
+      "scene": "这波没打赢",
+      "title": "队友说“院长救我”，但你也在复活，你会？",
+      "importance": 1,
+      "tip": "先看小地图、队友位置和对面关键技能，再决定向前；复活期间可以简单沟通下一步。",
+      "options": [
+        {
+          "id": 0,
+          "text": "先稳住，下一波一起到",
+          "behavior": "calm",
+          "tags": [
+            "calm"
+          ],
+          "signals": {
+            "tilt": 8,
+            "greed": 45,
+            "risk": 25,
+            "team": 75,
+            "craft": 65,
+            "plan": 95
+          }
+        },
+        {
+          "id": 1,
+          "text": "把刚才哪个技能没接上讲清楚",
+          "behavior": "explain",
+          "tags": [
+            "explain"
+          ],
+          "signals": {
+            "tilt": 50,
+            "greed": 55,
+            "risk": 35,
+            "team": 40,
+            "craft": 45,
+            "plan": 90
+          }
+        },
+        {
+          "id": 2,
+          "text": "把进场时间再对一遍",
+          "behavior": "plan",
+          "tags": [
+            "plan"
+          ],
+          "signals": {
+            "tilt": 15,
+            "greed": 52,
+            "risk": 30,
+            "team": 72,
+            "craft": 58,
+            "plan": 96
+          }
+        },
+        {
+          "id": 3,
+          "text": "练的就是这种局，下一波继续操作",
+          "behavior": "mechanics",
+          "tags": [
+            "mechanics"
+          ],
+          "signals": {
+            "tilt": 45,
+            "greed": 60,
+            "risk": 65,
+            "team": 45,
+            "craft": 98,
+            "plan": 52
+          }
+        }
+      ]
+    },
+    {
+      "id": "rift-rookie-clinic-3",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "rookie-clinic",
+      "chapterName": "中路今日值班",
+      "stage": 3,
+      "scene": "值班结束",
+      "title": "五人一起推到最后，你怎么结束这班？",
+      "importance": 1,
+      "tip": "先看小地图、队友位置和对面关键技能，再决定向前；复活期间可以简单沟通下一步。",
+      "options": [
+        {
+          "id": 0,
+          "text": "先拆完，庆祝不抢跑",
+          "behavior": "calm",
+          "tags": [
+            "calm"
+          ],
+          "signals": {
+            "tilt": 8,
+            "greed": 45,
+            "risk": 25,
+            "team": 75,
+            "craft": 65,
+            "plan": 95
+          }
+        },
+        {
+          "id": 1,
+          "text": "最后一个兵也得吃明白",
+          "behavior": "gold",
+          "tags": [
+            "gold"
+          ],
+          "signals": {
+            "tilt": 35,
+            "greed": 98,
+            "risk": 42,
+            "team": 40,
+            "craft": 55,
+            "plan": 70
+          }
+        },
+        {
+          "id": 2,
+          "text": "把队友留在身边一起点基地",
+          "behavior": "protect",
+          "tags": [
+            "protect"
+          ],
+          "signals": {
+            "tilt": 25,
+            "greed": 25,
+            "risk": 50,
+            "team": 98,
+            "craft": 55,
+            "plan": 75
+          }
+        },
+        {
+          "id": 3,
+          "text": "有机会就打完最后一段操作",
+          "behavior": "mechanics",
+          "tags": [
+            "mechanics"
+          ],
+          "signals": {
+            "tilt": 45,
+            "greed": 60,
+            "risk": 65,
+            "team": 45,
+            "craft": 98,
+            "plan": 52
+          }
+        }
+      ]
+    },
+    {
+      "id": "rift-bro-flash-0",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "bro-flash",
+      "chapterName": "哥哥向前一步",
+      "stage": 0,
+      "scene": "下路镜头",
+      "title": "哥哥式名场面：你有闪现，队友刚说“别急”，你会？",
+      "importance": 1,
+      "tip": "先看小地图、队友位置和对面关键技能，再决定向前；复活期间可以简单沟通下一步。",
+      "options": [
+        {
+          "id": 0,
+          "text": "先看对面控制有没有交",
+          "behavior": "plan",
+          "tags": [
+            "plan"
+          ],
+          "signals": {
+            "tilt": 15,
+            "greed": 52,
+            "risk": 30,
+            "team": 72,
+            "craft": 58,
+            "plan": 96
+          }
+        },
+        {
+          "id": 1,
+          "text": "找安全位置持续输出",
+          "behavior": "poke",
+          "tags": [
+            "poke"
+          ],
+          "signals": {
+            "tilt": 20,
+            "greed": 55,
+            "risk": 25,
+            "team": 55,
+            "craft": 85,
+            "plan": 70
+          }
+        },
+        {
+          "id": 2,
+          "text": "确认能赢这一下，再向前闪",
+          "behavior": "flash",
+          "tags": [
+            "flash"
+          ],
+          "signals": {
+            "tilt": 75,
+            "greed": 45,
+            "risk": 95,
+            "team": 30,
+            "craft": 60,
+            "plan": 12
+          }
+        },
+        {
+          "id": 3,
+          "text": "五个人都在，开这波",
+          "behavior": "engage",
+          "tags": [
+            "engage"
+          ],
+          "signals": {
+            "tilt": 62,
+            "greed": 40,
+            "risk": 96,
+            "team": 78,
+            "craft": 65,
+            "plan": 38
+          }
+        }
+      ]
+    },
+    {
+      "id": "rift-bro-flash-1",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "bro-flash",
+      "chapterName": "哥哥向前一步",
+      "stage": 1,
+      "scene": "镜头突然变灰",
+      "title": "向前之后屏幕灰了，弹幕已经打出“接Q”，你会？",
+      "importance": 1,
+      "tip": "先看小地图、队友位置和对面关键技能，再决定向前；复活期间可以简单沟通下一步。",
+      "options": [
+        {
+          "id": 0,
+          "text": "复活先把走位做好",
+          "behavior": "mechanics",
+          "tags": [
+            "mechanics"
+          ],
+          "signals": {
+            "tilt": 45,
+            "greed": 60,
+            "risk": 65,
+            "team": 45,
+            "craft": 98,
+            "plan": 52
+          }
+        },
+        {
+          "id": 1,
+          "text": "先问下一波在哪里集合",
+          "behavior": "plan",
+          "tags": [
+            "plan"
+          ],
+          "signals": {
+            "tilt": 15,
+            "greed": 52,
+            "risk": 30,
+            "team": 72,
+            "craft": 58,
+            "plan": 96
+          }
+        },
+        {
+          "id": 2,
+          "text": "把这一幕笑着收进素材",
+          "behavior": "laugh",
+          "tags": [
+            "laugh"
+          ],
+          "signals": {
+            "tilt": 55,
+            "greed": 35,
+            "risk": 60,
+            "team": 40,
+            "craft": 40,
+            "plan": 20
+          }
+        },
+        {
+          "id": 3,
+          "text": "刚才是谁说能跟的",
+          "behavior": "blame",
+          "tags": [
+            "blame"
+          ],
+          "signals": {
+            "tilt": 85,
+            "greed": 35,
+            "risk": 35,
+            "team": 3,
+            "craft": 30,
+            "plan": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "rift-bro-flash-2",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "bro-flash",
+      "chapterName": "哥哥向前一步",
+      "stage": 2,
+      "scene": "陀螺要转了",
+      "title": "队伍连续被打退，朋友说滔博陀螺启动，你怎么接？",
+      "importance": 1,
+      "tip": "先看小地图、队友位置和对面关键技能，再决定向前；复活期间可以简单沟通下一步。",
+      "options": [
+        {
+          "id": 0,
+          "text": "先绕开最挤的位置",
+          "behavior": "spin",
+          "tags": [
+            "spin"
+          ],
+          "signals": {
+            "tilt": 65,
+            "greed": 35,
+            "risk": 70,
+            "team": 45,
+            "craft": 65,
+            "plan": 35
+          }
+        },
+        {
+          "id": 1,
+          "text": "等对面的关键技能交完",
+          "behavior": "control",
+          "tags": [
+            "control"
+          ],
+          "signals": {
+            "tilt": 25,
+            "greed": 35,
+            "risk": 58,
+            "team": 80,
+            "craft": 75,
+            "plan": 88
+          }
+        },
+        {
+          "id": 2,
+          "text": "让输出的人先活下来",
+          "behavior": "protect",
+          "tags": [
+            "protect"
+          ],
+          "signals": {
+            "tilt": 25,
+            "greed": 25,
+            "risk": 50,
+            "team": 98,
+            "craft": 55,
+            "plan": 75
+          }
+        },
+        {
+          "id": 3,
+          "text": "下一次我要找机会反打",
+          "behavior": "engage",
+          "tags": [
+            "engage"
+          ],
+          "signals": {
+            "tilt": 62,
+            "greed": 40,
+            "risk": 96,
+            "team": 78,
+            "craft": 65,
+            "plan": 38
+          }
+        }
+      ]
+    },
+    {
+      "id": "rift-bro-flash-3",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "bro-flash",
+      "chapterName": "哥哥向前一步",
+      "stage": 3,
+      "scene": "最后一个机会",
+      "title": "最终决胜局剩一个空位，你会？",
+      "importance": 1,
+      "tip": "先看小地图、队友位置和对面关键技能，再决定向前；复活期间可以简单沟通下一步。",
+      "options": [
+        {
+          "id": 0,
+          "text": "站稳输出，别为镜头多走一步",
+          "behavior": "mechanics",
+          "tags": [
+            "mechanics"
+          ],
+          "signals": {
+            "tilt": 45,
+            "greed": 60,
+            "risk": 65,
+            "team": 45,
+            "craft": 98,
+            "plan": 52
+          }
+        },
+        {
+          "id": 1,
+          "text": "确认队友准备好了再打",
+          "behavior": "plan",
+          "tags": [
+            "plan"
+          ],
+          "signals": {
+            "tilt": 15,
+            "greed": 52,
+            "risk": 30,
+            "team": 72,
+            "craft": 58,
+            "plan": 96
+          }
+        },
+        {
+          "id": 2,
+          "text": "对面技能交了，这次向前",
+          "behavior": "flash",
+          "tags": [
+            "flash"
+          ],
+          "signals": {
+            "tilt": 75,
+            "greed": 45,
+            "risk": 95,
+            "team": 30,
+            "craft": 60,
+            "plan": 12
+          }
+        },
+        {
+          "id": 3,
+          "text": "先把金色的雨表情备好，基地倒了再发",
+          "behavior": "calm",
+          "tags": [
+            "calm"
+          ],
+          "signals": {
+            "tilt": 8,
+            "greed": 45,
+            "risk": 25,
+            "team": 75,
+            "craft": 65,
+            "plan": 95
+          }
+        }
+      ]
     }
   ],
   "characters": [
@@ -18967,7 +21523,19 @@
         "mercury-notice",
         "five-knives",
         "s8-rewrite"
-      ]
+      ],
+      "tags": [
+        "污渍",
+        "小狗",
+        "世界级ADC",
+        "金色的雨",
+        "S8改写",
+        "收集者",
+        "下路操作",
+        "极限走位",
+        "输出担当"
+      ],
+      "spotlight": true
     },
     {
       "id": "lol-xiaohu",
@@ -19005,7 +21573,30 @@
         "double-laugh",
         "calm-before-win",
         "gold-rain"
-      ]
+      ],
+      "tags": [
+        "销户",
+        "春之虎帝",
+        "二段笑",
+        "春天恒温器",
+        "中路运营",
+        "大招时机",
+        "冠军梗",
+        "稳住再笑"
+      ],
+      "spotlight": true,
+      "sceneBonds": {
+        "double-laugh": [
+          "laugh"
+        ],
+        "dragon-cheer": [
+          "laugh"
+        ],
+        "spring": [
+          "plan",
+          "calm"
+        ]
+      }
     },
     {
       "id": "lol-dasima",
@@ -19040,7 +21631,18 @@
         "blame-master",
         "not-a-loss",
         "revive-cinema"
-      ]
+      ],
+      "tags": [
+        "金牌讲师",
+        "正方形打野",
+        "回归基本功",
+        "芜湖",
+        "理论先行",
+        "下饭",
+        "复盘",
+        "教学素材"
+      ],
+      "spotlight": true
     },
     {
       "id": "lol-theshy",
@@ -19072,7 +21674,19 @@
         "where-team",
         "steel-orchestra",
         "lane-umbrella"
-      ]
+      ],
+      "tags": [
+        "晒老师",
+        "上路独立宇宙",
+        "敢抓敢送",
+        "操作上限",
+        "一打多",
+        "边线牵制",
+        "S8冠军",
+        "名场面",
+        "大胆尝试"
+      ],
+      "spotlight": true
     },
     {
       "id": "lol-faker",
@@ -19110,6 +21724,13 @@
         "mercury-notice",
         "gold-rain",
         "s8-rewrite"
+      ],
+      "tags": [
+        "飞科",
+        "中路时间管理师",
+        "先控住局面",
+        "操作必须拉满",
+        "先把局讲明白"
       ]
     },
     {
@@ -19143,6 +21764,13 @@
         "economy-brain",
         "cosmic-pension",
         "mini-map"
+      ],
+      "tags": [
+        "厂长",
+        "野区路线规划员",
+        "先把局讲明白",
+        "宇宙复利",
+        "金币不能漏"
       ]
     },
     {
@@ -19171,14 +21799,26 @@
         "collector": 2,
         "spin": 5
       },
-      "nickname": "杰克爱",
+      "nickname": "哥哥",
       "signaturePerks": [
         "feeding-license",
         "where-team",
         "snowball-hearse",
         "tes-top",
         "six-infinity"
-      ]
+      ],
+      "tags": [
+        "哥哥",
+        "阿水",
+        "接Q",
+        "向前闪现",
+        "敢打输出",
+        "大心脏",
+        "滔博陀螺",
+        "S8冠军",
+        "下路"
+      ],
+      "spotlight": true
     },
     {
       "id": "lol-doinb",
@@ -19210,6 +21850,13 @@
         "all-aboard",
         "life-reroll",
         "last-last-game"
+      ],
+      "tags": [
+        "Doinb",
+        "中路麦克风持有人",
+        "开团先上车",
+        "队友保命优先",
+        "节目效果优先"
       ]
     },
     {
@@ -19248,6 +21895,13 @@
         "revive-cinema",
         "good-enough",
         "flash-wall"
+      ],
+      "tags": [
+        "PDD",
+        "上路故事批发商",
+        "节目效果优先",
+        "人生允许重抽",
+        "锅先找到下家"
       ]
     },
     {
@@ -19281,6 +21935,13 @@
         "brush-five",
         "mini-map",
         "five-names"
+      ],
+      "tags": [
+        "小明",
+        "辅助队伍连接器",
+        "开团先上车",
+        "先控住局面",
+        "队友保命优先"
       ]
     },
     {
@@ -19313,6 +21974,13 @@
         "bridge-clinic",
         "brush-five",
         "five-names"
+      ],
+      "tags": [
+        "Meiko",
+        "辅助秩序管理员",
+        "桥头医务室",
+        "队友保命优先",
+        "先把局讲明白"
       ]
     },
     {
@@ -19343,6 +22011,13 @@
       "signaturePerks": [
         "steel-orchestra",
         "one-more-hit"
+      ],
+      "tags": [
+        "Letme",
+        "上路稳健合伙人",
+        "队友保命优先",
+        "先控住局面",
+        "先把局讲明白"
       ]
     },
     {
@@ -19376,6 +22051,13 @@
         "clown-self",
         "snowball-hearse",
         "flash-wall"
+      ],
+      "tags": [
+        "宁王",
+        "打野出发按钮",
+        "直线送达",
+        "开团先上车",
+        "节目效果优先"
       ]
     },
     {
@@ -19414,6 +22096,14 @@
         "triple-deathcap",
         "five-knives",
         "lane-umbrella"
+      ],
+      "tags": [
+        "左手",
+        "左手",
+        "中路静音输出",
+        "操作必须拉满",
+        "安全距离营业",
+        "大招就要连播"
       ]
     },
     {
@@ -19447,6 +22137,13 @@
         "bridge-clinic",
         "good-enough",
         "one-more-hit"
+      ],
+      "tags": [
+        "宝蓝",
+        "辅助冷静观察员",
+        "队友保命优先",
+        "桥头医务室",
+        "先留一条退路"
       ]
     },
     {
@@ -19478,6 +22175,14 @@
       "signaturePerks": [
         "kneel",
         "team"
+      ],
+      "tags": [
+        "勒邦詹氏",
+        "勒布朗",
+        "暂停表情艺术家",
+        "情绪写在脸上",
+        "先往篮下冲",
+        "把队友带上"
       ]
     },
     {
@@ -19507,6 +22212,12 @@
       "signaturePerks": [
         "logo",
         "goodnight-three"
+      ],
+      "tags": [
+        "裤衩子 · 库里",
+        "超远三分与晚安服务",
+        "三分想象力",
+        "赛后节目担当"
       ]
     },
     {
@@ -19536,6 +22247,13 @@
       },
       "signaturePerks": [
         "coffee"
+      ],
+      "tags": [
+        "乔丹",
+        "最后一攻质量监督员",
+        "关键球敢接",
+        "老大式加练",
+        "先看怎么打"
       ]
     },
     {
@@ -19565,6 +22283,13 @@
       },
       "signaturePerks": [
         "mamba-clock"
+      ],
+      "tags": [
+        "老大 · 科比",
+        "凌晨训练计划发起人",
+        "老大式加练",
+        "关键球敢接",
+        "先看怎么打"
       ]
     },
     {
@@ -19595,6 +22320,13 @@
       "signaturePerks": [
         "logo",
         "coffee"
+      ],
+      "tags": [
+        "杜兰特",
+        "小前锋与评论区观察员",
+        "三分想象力",
+        "关键球敢接",
+        "表情很稳"
       ]
     },
     {
@@ -19625,6 +22357,13 @@
       "signaturePerks": [
         "team",
         "horse-shift"
+      ],
+      "tags": [
+        "约老师",
+        "中锋传球与木马办公室",
+        "先看怎么打",
+        "把队友带上",
+        "表情很稳"
       ]
     },
     {
@@ -19654,6 +22393,13 @@
       },
       "signaturePerks": [
         "meme"
+      ],
+      "tags": [
+        "威斯布鲁克",
+        "快攻一键启动器",
+        "先往篮下冲",
+        "赛后节目担当",
+        "情绪写在脸上"
       ]
     },
     {
@@ -19684,6 +22430,13 @@
       },
       "signaturePerks": [
         "stepback-route"
+      ],
+      "tags": [
+        "哈登",
+        "节奏管理与后撤步协会",
+        "三分想象力",
+        "先看怎么打",
+        "先往篮下冲"
       ]
     },
     {
@@ -19713,6 +22466,13 @@
       },
       "signaturePerks": [
         "team"
+      ],
+      "tags": [
+        "姚明",
+        "禁区礼貌但不太好进",
+        "把队友带上",
+        "先照顾队友的心情",
+        "先看怎么打"
       ]
     },
     {
@@ -19742,6 +22502,13 @@
       },
       "signaturePerks": [
         "meme"
+      ],
+      "tags": [
+        "大鲨鱼",
+        "禁区施工与赛后喜剧",
+        "有机会就起飞",
+        "赛后节目担当",
+        "篮板不能丢"
       ]
     },
     {
@@ -19771,6 +22538,13 @@
       },
       "signaturePerks": [
         "stone-face"
+      ],
+      "tags": [
+        "石佛 · 邓肯",
+        "基本功与表情节能部门",
+        "表情很稳",
+        "先看怎么打",
+        "稳一点再动"
       ]
     },
     {
@@ -19800,6 +22574,13 @@
       },
       "signaturePerks": [
         "board"
+      ],
+      "tags": [
+        "加内特",
+        "防守麦克风总工程师",
+        "情绪写在脸上",
+        "篮板不能丢",
+        "把队友带上"
       ]
     },
     {
@@ -19830,6 +22611,13 @@
       },
       "signaturePerks": [
         "stepback-route"
+      ],
+      "tags": [
+        "东契奇",
+        "慢动作快递员",
+        "先看怎么打",
+        "三分想象力",
+        "赛后节目担当"
       ]
     },
     {
@@ -19860,6 +22648,13 @@
       },
       "signaturePerks": [
         "coffee"
+      ],
+      "tags": [
+        "巴特勒",
+        "关键时刻咖啡供应商",
+        "关键球敢接",
+        "老大式加练",
+        "把队友带上"
       ]
     },
     {
@@ -19888,6 +22683,12 @@
       },
       "signaturePerks": [
         "board"
+      ],
+      "tags": [
+        "罗德曼",
+        "篮板与配色实验室",
+        "篮板不能丢",
+        "赛后节目担当"
       ]
     },
     {
@@ -19916,8 +22717,23 @@
         "web-live": 3
       },
       "signaturePerks": [
-        "portal"
-      ]
+        "portal",
+        "extra-fengge-1",
+        "extra-fengge-2"
+      ],
+      "nickname": "峰哥亡命天涯",
+      "tags": [
+        "亡命天涯",
+        "猎奇旅行",
+        "街头访谈",
+        "说走就走",
+        "生活观察",
+        "故事采集",
+        "社交破冰",
+        "镜头外的生活",
+        "旅途同行"
+      ],
+      "spotlight": true
     },
     {
       "id": "abstract-huchenfeng",
@@ -19946,6 +22762,12 @@
       "signaturePerks": [
         "clipboard",
         "one-at-time"
+      ],
+      "tags": [
+        "户晨风",
+        "现场观察与提问小组",
+        "把更新排明白",
+        "拒绝预制感"
       ]
     },
     {
@@ -19976,7 +22798,19 @@
       "signaturePerks": [
         "juice",
         "micro"
-      ]
+      ],
+      "nickname": "东北虎哥",
+      "tags": [
+        "东北往事",
+        "好果汁",
+        "开机音效",
+        "热场",
+        "街头",
+        "兄弟局",
+        "节目效果",
+        "说干就干"
+      ],
+      "spotlight": true
     },
     {
       "id": "abstract-daoge",
@@ -20004,37 +22838,23 @@
         "web-punchline": 3
       },
       "signaturePerks": [
-        "juice"
-      ]
-    },
-    {
-      "id": "abstract-dasima",
-      "personId": "dasima",
-      "theme": "abstract",
-      "name": "大司马",
-      "sub": "讲解型军师",
-      "vector": [
-        65,
-        85,
-        65,
-        55,
-        90,
-        95
+        "juice",
+        "extra-daoge-1",
+        "extra-daoge-2"
       ],
-      "roles": [
-        2,
-        0
+      "nickname": "刀哥",
+      "tags": [
+        "好果汁",
+        "东北往事",
+        "街头整活",
+        "气氛担当",
+        "接梗快",
+        "场面人",
+        "有事真上",
+        "热闹优先",
+        "现场反应"
       ],
-      "line": "你看不懂很正常，我再讲一遍。",
-      "number": "DA",
-      "behaviorWeights": {
-        "web-plan": 5,
-        "web-punchline": 3
-      },
-      "signaturePerks": [
-        "commentator",
-        "one-at-time"
-      ]
+      "spotlight": true
     },
     {
       "id": "abstract-sunxiaochuan",
@@ -20062,6 +22882,12 @@
       },
       "signaturePerks": [
         "punchline-shield"
+      ],
+      "tags": [
+        "孙笑川",
+        "评论区阅读理解委员",
+        "原创吐槽",
+        "接住热梗"
       ]
     },
     {
@@ -20091,6 +22917,12 @@
       "signaturePerks": [
         "sofa",
         "love-yourself"
+      ],
+      "tags": [
+        "葛优",
+        "沙发节能总设计师",
+        "安静观察",
+        "先照顾感受"
       ]
     },
     {
@@ -20119,35 +22951,12 @@
       },
       "signaturePerks": [
         "auto-dance"
-      ]
-    },
-    {
-      "id": "abstract-yaoming",
-      "personId": "yaoming",
-      "theme": "abstract",
-      "name": "姚明",
-      "sub": "笑脸与场面稳定器",
-      "vector": [
-        75,
-        70,
-        100,
-        65,
-        95,
-        65
       ],
-      "roles": [
-        4,
-        3
-      ],
-      "line": "先笑一下，再把事情说清楚。",
-      "number": "11",
-      "behaviorWeights": {
-        "nba-team": 5,
-        "nba-care": 4,
-        "nba-plan": 3
-      },
-      "signaturePerks": [
-        "love-yourself"
+      "tags": [
+        "成龙",
+        "疑惑表情与现场应变",
+        "前奏自动启动",
+        "拒绝预制感"
       ]
     },
     {
@@ -20176,65 +22985,86 @@
       },
       "signaturePerks": [
         "no-precut"
+      ],
+      "tags": [
+        "王老菊",
+        "离谱方案测试员",
+        "拒绝预制感",
+        "剪辑二创"
       ]
     },
     {
-      "id": "abstract-luobenwei",
+      "id": "lol-luobenwei",
       "personId": "luobenwei",
-      "theme": "abstract",
+      "theme": "lol",
       "name": "卢本伟",
       "sub": "开麦气氛发电站",
       "vector": [
-        100,
-        85,
-        65,
-        95,
+        70,
         45,
-        100
+        65,
+        60,
+        45,
+        40
       ],
       "roles": [
-        3,
-        0
+        2,
+        1
       ],
       "line": "语音频道电量已充满。",
       "number": "LU",
       "behaviorWeights": {
-        "web-live": 5,
-        "web-dance": 3
+        "chaos": 5,
+        "explain": 4,
+        "laugh": 3,
+        "engage": 3
       },
       "signaturePerks": [
-        "micro",
-        "auto-dance"
+        "personal-luobenwei"
+      ],
+      "tags": [
+        "卢本伟",
+        "开麦气氛发电站",
+        "节目效果优先",
+        "复盘比复活快",
+        "二段笑预热"
       ]
     },
     {
-      "id": "abstract-zhouyi",
+      "id": "lol-zhouyi",
       "personId": "zhouyi",
-      "theme": "abstract",
+      "theme": "lol",
       "name": "周淑怡",
       "sub": "现场接话与反应小组",
       "vector": [
-        100,
-        80,
-        75,
-        85,
-        50,
-        100
+        70,
+        45,
+        65,
+        60,
+        45,
+        40
       ],
       "roles": [
-        0,
-        3
+        4,
+        2
       ],
       "line": "这句话我得接，不然场子要掉线。",
       "number": "ZH",
       "behaviorWeights": {
-        "web-live": 5,
-        "web-cover": 3,
-        "web-punchline": 3
+        "chaos": 5,
+        "explain": 4,
+        "laugh": 3,
+        "engage": 3
       },
       "signaturePerks": [
-        "micro",
-        "cover-key"
+        "personal-zhouyi"
+      ],
+      "tags": [
+        "周淑怡",
+        "现场接话与反应小组",
+        "节目效果优先",
+        "复盘比复活快",
+        "二段笑预热"
       ]
     },
     {
@@ -20265,6 +23095,13 @@
       "signaturePerks": [
         "no-precut",
         "punchline-shield"
+      ],
+      "tags": [
+        "papi酱",
+        "生活观察与剪辑室",
+        "原创吐槽",
+        "拒绝预制感",
+        "剪辑二创"
       ]
     },
     {
@@ -20296,6 +23133,13 @@
         "sofa",
         "love-yourself",
         "punchline-shield"
+      ],
+      "tags": [
+        "白客",
+        "一本正经整活专员",
+        "原创吐槽",
+        "安静观察",
+        "先照顾感受"
       ]
     },
     {
@@ -20326,6 +23170,13 @@
       },
       "signaturePerks": [
         "ant-takeoff"
+      ],
+      "tags": [
+        "华子",
+        "年轻冲劲与起飞服务",
+        "有机会就起飞",
+        "先往篮下冲",
+        "赛后节目担当"
       ]
     },
     {
@@ -20356,6 +23207,13 @@
       },
       "signaturePerks": [
         "alien-arms"
+      ],
+      "tags": [
+        "文班亚马",
+        "长臂展开，篮下进入服务区",
+        "长臂封盖服务",
+        "篮板不能丢",
+        "先看怎么打"
       ]
     },
     {
@@ -20386,6 +23244,13 @@
       },
       "signaturePerks": [
         "slow-craft"
+      ],
+      "tags": [
+        "李子柒",
+        "把普通日常拍成耐看的故事",
+        "耐心做细节",
+        "拒绝预制感",
+        "把更新排明白"
       ]
     },
     {
@@ -20417,7 +23282,1876 @@
       "signaturePerks": [
         "auto-dance",
         "cover-key"
+      ],
+      "tags": [
+        "摇摆导演",
+        "本作原创角色",
+        "舞蹈与镜头一起启动",
+        "前奏自动启动",
+        "剪辑二创",
+        "镜头一开就营业"
       ]
+    },
+    {
+      "id": "lol-xiaoxiao",
+      "personId": "xiaoxiao",
+      "theme": "lol",
+      "name": "笑笑",
+      "nickname": "笑笑",
+      "sub": "德云色 · 孙亚龙 · 辅助出身",
+      "roles": [
+        4
+      ],
+      "vector": [
+        65,
+        40,
+        60,
+        70,
+        55,
+        60
+      ],
+      "behaviorWeights": {
+        "explain": 5,
+        "laugh": 5,
+        "engage": 3
+      },
+      "tags": [
+        "德云色",
+        "秃头披风",
+        "辅助视角",
+        "激情复盘",
+        "老搭档",
+        "先笑后讲"
+      ],
+      "line": "笑笑刚开讲，西卡的接话已经在排队。",
+      "number": "47",
+      "signaturePerks": [
+        "personal-xiaoxiao"
+      ]
+    },
+    {
+      "id": "lol-xika",
+      "personId": "xika",
+      "theme": "lol",
+      "name": "西卡",
+      "nickname": "西卡",
+      "sub": "德云色 · 李浩宇 · 解说搭档",
+      "roles": [
+        4,
+        2
+      ],
+      "vector": [
+        45,
+        45,
+        45,
+        78,
+        60,
+        75
+      ],
+      "behaviorWeights": {
+        "explain": 5,
+        "calm": 4,
+        "plan": 3
+      },
+      "tags": [
+        "德云色",
+        "接话高手",
+        "双人解说",
+        "临场补刀",
+        "搭档默契",
+        "看图说话"
+      ],
+      "line": "双声道开启，复盘和笑声都不丢。",
+      "number": "48",
+      "signaturePerks": [
+        "personal-xika"
+      ]
+    },
+    {
+      "id": "lol-369",
+      "personId": "369",
+      "theme": "lol",
+      "name": "369",
+      "nickname": "369",
+      "sub": "骰子选手 · 上路摇号员",
+      "roles": [
+        0
+      ],
+      "vector": [
+        50,
+        50,
+        65,
+        65,
+        70,
+        60
+      ],
+      "behaviorWeights": {
+        "spin": 5,
+        "mechanics": 4,
+        "protect": 3
+      },
+      "tags": [
+        "骰子",
+        "三六九",
+        "上路抗压",
+        "状态切换",
+        "队友掩护",
+        "反打"
+      ],
+      "line": "骰子可以随机，回防不能随机。",
+      "number": "49",
+      "signaturePerks": [
+        "personal-369"
+      ]
+    },
+    {
+      "id": "lol-tian",
+      "personId": "tian",
+      "theme": "lol",
+      "name": "Tian",
+      "nickname": "Tian",
+      "sub": "小天 · 打野节奏位",
+      "roles": [
+        1
+      ],
+      "vector": [
+        40,
+        48,
+        60,
+        78,
+        80,
+        80
+      ],
+      "behaviorWeights": {
+        "plan": 5,
+        "vision": 4,
+        "engage": 3
+      },
+      "tags": [
+        "小天",
+        "冠军打野",
+        "冷静路线",
+        "关键开团",
+        "队伍节奏",
+        "绕后"
+      ],
+      "line": "镜头没拍到你的路，结算会记得。",
+      "number": "50",
+      "signaturePerks": [
+        "personal-tian"
+      ]
+    },
+    {
+      "id": "lol-bin",
+      "personId": "bin",
+      "theme": "lol",
+      "name": "Bin",
+      "nickname": "Bin",
+      "sub": "阿 Bin · 上路敢打位",
+      "roles": [
+        0
+      ],
+      "vector": [
+        65,
+        60,
+        95,
+        48,
+        95,
+        40
+      ],
+      "behaviorWeights": {
+        "mechanics": 5,
+        "engage": 5,
+        "chaos": 2
+      },
+      "tags": [
+        "五杀剑姬",
+        "上路自信",
+        "敢打敢拼",
+        "正面操作",
+        "边线",
+        "绝不手软"
+      ],
+      "line": "自信可以拉满，队友也得跟满。",
+      "number": "51",
+      "signaturePerks": [
+        "personal-bin"
+      ]
+    },
+    {
+      "id": "lol-rookie",
+      "personId": "rookie",
+      "theme": "lol",
+      "name": "Rookie",
+      "nickname": "肉鸡",
+      "sub": "肉鸡 · 宋义进 · 中路守门员",
+      "roles": [
+        2
+      ],
+      "vector": [
+        35,
+        55,
+        55,
+        85,
+        92,
+        80
+      ],
+      "behaviorWeights": {
+        "mechanics": 5,
+        "protect": 4,
+        "calm": 4,
+        "control": 3
+      },
+      "tags": [
+        "肉鸡",
+        "S8冠军",
+        "中路院长",
+        "老IG",
+        "团队兜底",
+        "操作细腻",
+        "中路急诊室",
+        "稳定输出"
+      ],
+      "line": "院长不只看病，也看小地图。",
+      "number": "52",
+      "signaturePerks": [
+        "personal-rookie",
+        "extra-rookie-1"
+      ],
+      "spotlight": true
+    },
+    {
+      "id": "lol-showmaker",
+      "personId": "showmaker",
+      "theme": "lol",
+      "name": "ShowMaker",
+      "nickname": "ShowMaker",
+      "sub": "许秀 · 中路表情管理员",
+      "roles": [
+        2
+      ],
+      "vector": [
+        60,
+        48,
+        65,
+        68,
+        88,
+        72
+      ],
+      "behaviorWeights": {
+        "explain": 5,
+        "mechanics": 4,
+        "calm": 3
+      },
+      "tags": [
+        "许秀",
+        "圣经",
+        "表情管理",
+        "中路操作",
+        "冠军宣言",
+        "名场面"
+      ],
+      "line": "脸上有一部剧，手里有一场比赛。",
+      "number": "53",
+      "signaturePerks": [
+        "personal-showmaker"
+      ]
+    },
+    {
+      "id": "lol-chovy",
+      "personId": "chovy",
+      "theme": "lol",
+      "name": "Chovy",
+      "nickname": "Chovy",
+      "sub": "超威 · 中路补兵收藏家",
+      "roles": [
+        2
+      ],
+      "vector": [
+        25,
+        95,
+        45,
+        58,
+        92,
+        90
+      ],
+      "behaviorWeights": {
+        "gold": 5,
+        "stack": 5,
+        "mechanics": 3
+      },
+      "tags": [
+        "超威",
+        "补兵",
+        "细节",
+        "稳定发育",
+        "中路压制",
+        "资源规划"
+      ],
+      "line": "先收好兵，再收好胜利。",
+      "number": "54",
+      "signaturePerks": [
+        "personal-chovy"
+      ]
+    },
+    {
+      "id": "lol-deft",
+      "personId": "deft",
+      "theme": "lol",
+      "name": "Deft",
+      "nickname": "Deft",
+      "sub": "戴先生 · 逆风续集作者",
+      "roles": [
+        3
+      ],
+      "vector": [
+        30,
+        60,
+        52,
+        85,
+        85,
+        92
+      ],
+      "behaviorWeights": {
+        "calm": 5,
+        "plan": 4,
+        "mechanics": 4
+      },
+      "tags": [
+        "羊驼",
+        "最后一舞",
+        "坚持",
+        "逆风",
+        "下路",
+        "老将"
+      ],
+      "line": "最后一舞，先别放谢幕音乐。",
+      "number": "55",
+      "signaturePerks": [
+        "personal-deft"
+      ]
+    },
+    {
+      "id": "lol-beryl",
+      "personId": "beryl",
+      "theme": "lol",
+      "name": "BeryL",
+      "nickname": "BeryL",
+      "sub": "原神哥 · 辅助奇思妙想",
+      "roles": [
+        4
+      ],
+      "vector": [
+        25,
+        40,
+        62,
+        95,
+        68,
+        85
+      ],
+      "behaviorWeights": {
+        "plan": 5,
+        "control": 5,
+        "protect": 4
+      },
+      "tags": [
+        "原神哥",
+        "辅助脑洞",
+        "冠军辅助",
+        "战术",
+        "奇招",
+        "冷静"
+      ],
+      "line": "游戏外在想别的，游戏里该看图还得看图。",
+      "number": "56",
+      "signaturePerks": [
+        "personal-beryl"
+      ]
+    },
+    {
+      "id": "lol-otto",
+      "personId": "otto",
+      "theme": "lol",
+      "name": "电棍",
+      "nickname": "电棍",
+      "sub": "侯国玉 · 直播接梗中单",
+      "roles": [
+        2
+      ],
+      "vector": [
+        85,
+        45,
+        78,
+        38,
+        65,
+        30
+      ],
+      "behaviorWeights": {
+        "chaos": 5,
+        "blame": 4,
+        "explain": 4
+      },
+      "tags": [
+        "电棍",
+        "稳健棍",
+        "直播切片",
+        "高能语气",
+        "临场反应",
+        "中路"
+      ],
+      "line": "声音先到，支援请跟上。",
+      "number": "57",
+      "signaturePerks": [
+        "personal-otto"
+      ]
+    },
+    {
+      "id": "lol-zztai",
+      "personId": "zztai",
+      "theme": "lol",
+      "name": "姿态",
+      "nickname": "姿态",
+      "sub": "刘志豪 · 联盟直播气氛位",
+      "roles": [
+        0,
+        2
+      ],
+      "vector": [
+        65,
+        50,
+        65,
+        68,
+        65,
+        50
+      ],
+      "behaviorWeights": {
+        "laugh": 5,
+        "chaos": 4,
+        "explain": 3
+      },
+      "tags": [
+        "姿态",
+        "老IG",
+        "直播整活",
+        "互动",
+        "笑场",
+        "边看边讲"
+      ],
+      "line": "节目别断，兵线也别断。",
+      "number": "58",
+      "signaturePerks": [
+        "personal-zztai"
+      ]
+    },
+    {
+      "id": "lol-kryst4l",
+      "personId": "kryst4l",
+      "theme": "lol",
+      "name": "水晶哥",
+      "nickname": "水晶哥",
+      "sub": "杨藩 · 下路复盘观察员",
+      "roles": [
+        3
+      ],
+      "vector": [
+        60,
+        50,
+        65,
+        62,
+        78,
+        58
+      ],
+      "behaviorWeights": {
+        "explain": 5,
+        "mechanics": 4,
+        "retreat": 3
+      },
+      "tags": [
+        "水晶哥",
+        "刚子",
+        "下路",
+        "直播复盘",
+        "细节观察",
+        "老蛇队"
+      ],
+      "line": "先别快进，这里真有东西。",
+      "number": "59",
+      "signaturePerks": [
+        "personal-kryst4l"
+      ]
+    },
+    {
+      "id": "lol-godv",
+      "personId": "godv",
+      "theme": "lol",
+      "name": "韦神",
+      "nickname": "韦神",
+      "sub": "韦朕 · 跨项目脑洞位",
+      "roles": [
+        2
+      ],
+      "vector": [
+        50,
+        50,
+        85,
+        55,
+        85,
+        55
+      ],
+      "behaviorWeights": {
+        "mechanics": 5,
+        "chaos": 4,
+        "poke": 3
+      },
+      "tags": [
+        "韦神",
+        "反向箭",
+        "跨界",
+        "脑洞操作",
+        "中路",
+        "大胆尝试"
+      ],
+      "line": "箭有方向，节目没有尽头。",
+      "number": "60",
+      "signaturePerks": [
+        "personal-godv"
+      ]
+    },
+    {
+      "id": "lol-karsa",
+      "personId": "karsa",
+      "theme": "lol",
+      "name": "Karsa",
+      "nickname": "Karsa",
+      "sub": "洪浩轩 · 雷达打野",
+      "roles": [
+        1
+      ],
+      "vector": [
+        30,
+        45,
+        48,
+        85,
+        72,
+        95
+      ],
+      "behaviorWeights": {
+        "vision": 5,
+        "plan": 5,
+        "protect": 3
+      },
+      "tags": [
+        "雷达哥",
+        "读图",
+        "打野",
+        "支援",
+        "路线",
+        "观察"
+      ],
+      "line": "雷达不是透视，是多看一眼。",
+      "number": "61",
+      "signaturePerks": [
+        "personal-karsa"
+      ]
+    },
+    {
+      "id": "basket-xujingyu",
+      "personId": "xujingyu",
+      "theme": "basket",
+      "name": "徐静雨",
+      "nickname": "徐静雨",
+      "sub": "雨说体育 · 篮球评论员",
+      "roles": [
+        0,
+        2
+      ],
+      "vector": [
+        90,
+        68,
+        45,
+        85,
+        60,
+        98
+      ],
+      "behaviorWeights": {
+        "nba-show": 5,
+        "nba-three": 5,
+        "nba-plan": 3
+      },
+      "tags": [
+        "鲸鱼",
+        "雨说体育",
+        "库里",
+        "老1.5",
+        "立棍单打",
+        "激情解说",
+        "弹幕互动",
+        "长篇输出"
+      ],
+      "line": "球可以停一下，鲸鱼的语速停不了。",
+      "number": "62",
+      "signaturePerks": [
+        "personal-xujingyu"
+      ]
+    },
+    {
+      "id": "basket-yangyi",
+      "personId": "yangyi",
+      "theme": "basket",
+      "name": "杨毅",
+      "nickname": "杨毅",
+      "sub": "篮球评论员 · 赛场故事位",
+      "roles": [
+        0,
+        4
+      ],
+      "vector": [
+        85,
+        55,
+        62,
+        60,
+        92,
+        85
+      ],
+      "behaviorWeights": {
+        "nba-plan": 5,
+        "nba-show": 4,
+        "nba-team": 3
+      },
+      "tags": [
+        "解说",
+        "杨毅侃球",
+        "故事感",
+        "战术点评",
+        "临场判断",
+        "篮球媒体"
+      ],
+      "line": "比赛还剩两分钟，故事刚到第一章。",
+      "number": "63",
+      "signaturePerks": [
+        "personal-yangyi"
+      ]
+    },
+    {
+      "id": "basket-zhouqi",
+      "personId": "zhouqi",
+      "theme": "basket",
+      "name": "周琦",
+      "nickname": "周琦",
+      "sub": "中国篮球 · 内线护框位",
+      "roles": [
+        4
+      ],
+      "vector": [
+        35,
+        42,
+        62,
+        65,
+        62,
+        35
+      ],
+      "behaviorWeights": {
+        "nba-rebound": 5,
+        "nba-safe": 4,
+        "nba-team": 3
+      },
+      "tags": [
+        "大魔王",
+        "长臂",
+        "护框",
+        "边线球",
+        "国家队",
+        "内线"
+      ],
+      "line": "梗归梗，这次球要发到队友手里。",
+      "number": "64",
+      "signaturePerks": [
+        "personal-zhouqi"
+      ]
+    },
+    {
+      "id": "basket-sunyue-player",
+      "personId": "sunyue-player",
+      "theme": "basket",
+      "name": "孙悦",
+      "nickname": "孙悦",
+      "sub": "篮球运动员 · 后卫防守位",
+      "roles": [
+        0,
+        1
+      ],
+      "vector": [
+        55,
+        60,
+        60,
+        75,
+        72,
+        45
+      ],
+      "behaviorWeights": {
+        "nba-safe": 5,
+        "nba-team": 4,
+        "nba-rebound": 3
+      },
+      "tags": [
+        "篮球孙悦",
+        "冠军后卫",
+        "长臂防守",
+        "盖帽",
+        "北京",
+        "传球"
+      ],
+      "line": "这是篮球孙悦，今晚负责防守。",
+      "number": "65",
+      "signaturePerks": [
+        "personal-sunyue-player"
+      ]
+    },
+    {
+      "id": "basket-zhangweiping",
+      "personId": "zhangweiping",
+      "theme": "basket",
+      "name": "张卫平",
+      "nickname": "张卫平",
+      "sub": "篮球解说 · 合理指导",
+      "roles": [
+        0,
+        4
+      ],
+      "vector": [
+        68,
+        40,
+        65,
+        55,
+        98,
+        70
+      ],
+      "behaviorWeights": {
+        "nba-plan": 5,
+        "nba-calm": 4,
+        "nba-clutch": 3
+      },
+      "tags": [
+        "合理",
+        "张指导",
+        "这球合理",
+        "解说",
+        "科比",
+        "战术讲解"
+      ],
+      "line": "合理不是口头禅，是先把人站明白。",
+      "number": "66",
+      "signaturePerks": [
+        "personal-zhangweiping"
+      ]
+    },
+    {
+      "id": "basket-suqun",
+      "personId": "suqun",
+      "theme": "basket",
+      "name": "苏群",
+      "nickname": "苏群",
+      "sub": "篮球评论员 · 稳住分析位",
+      "roles": [
+        0,
+        4
+      ],
+      "vector": [
+        55,
+        45,
+        70,
+        45,
+        98,
+        45
+      ],
+      "behaviorWeights": {
+        "nba-plan": 5,
+        "nba-calm": 5,
+        "nba-team": 3
+      },
+      "tags": [
+        "篮球记者",
+        "战术分析",
+        "冷静解说",
+        "资深",
+        "阵容观察",
+        "复盘"
+      ],
+      "line": "别只看谁得分，也看谁把空间拉开。",
+      "number": "67",
+      "signaturePerks": [
+        "personal-suqun"
+      ]
+    },
+    {
+      "id": "basket-yujia",
+      "personId": "yujia",
+      "theme": "basket",
+      "name": "于嘉",
+      "nickname": "于嘉",
+      "sub": "央视篮球解说 · 关键回合见证人",
+      "roles": [
+        0,
+        2
+      ],
+      "vector": [
+        75,
+        48,
+        72,
+        68,
+        90,
+        78
+      ],
+      "behaviorWeights": {
+        "nba-clutch": 5,
+        "nba-plan": 4,
+        "nba-emotion": 3
+      },
+      "tags": [
+        "央视解说",
+        "关键球",
+        "声音记忆",
+        "比赛节奏",
+        "现场",
+        "见证"
+      ],
+      "line": "球没落网，先把呼吸留住。",
+      "number": "68",
+      "signaturePerks": [
+        "personal-yujia"
+      ]
+    },
+    {
+      "id": "basket-wangmeng",
+      "personId": "wangmeng",
+      "theme": "basket",
+      "name": "王猛",
+      "nickname": "王猛",
+      "sub": "篮球评论员 · 激情解说位",
+      "roles": [
+        0,
+        3
+      ],
+      "vector": [
+        95,
+        60,
+        55,
+        82,
+        65,
+        98
+      ],
+      "behaviorWeights": {
+        "nba-show": 5,
+        "nba-emotion": 5,
+        "nba-dunk": 3
+      },
+      "tags": [
+        "篮球解说",
+        "激情",
+        "声音上扬",
+        "临场接话",
+        "高光",
+        "热场"
+      ],
+      "line": "人还在空中，声音先到篮板上沿。",
+      "number": "69",
+      "signaturePerks": [
+        "personal-wangmeng"
+      ]
+    },
+    {
+      "id": "basket-yijianlian",
+      "personId": "yijianlian",
+      "theme": "basket",
+      "name": "易建联",
+      "nickname": "易建联",
+      "sub": "中国篮球 · 沉稳内线",
+      "roles": [
+        3,
+        4
+      ],
+      "vector": [
+        25,
+        35,
+        72,
+        65,
+        90,
+        25
+      ],
+      "behaviorWeights": {
+        "nba-train": 5,
+        "nba-calm": 4,
+        "nba-team": 4
+      },
+      "tags": [
+        "阿联",
+        "沉稳",
+        "加练",
+        "内线",
+        "中国篮球",
+        "队友信任"
+      ],
+      "line": "镜头看不见的那一组，也算数。",
+      "number": "70",
+      "signaturePerks": [
+        "personal-yijianlian"
+      ]
+    },
+    {
+      "id": "basket-wangzhizhi",
+      "personId": "wangzhizhi",
+      "theme": "basket",
+      "name": "王治郅",
+      "nickname": "王治郅",
+      "sub": "中国篮球 · 内线技术流",
+      "roles": [
+        3,
+        4
+      ],
+      "vector": [
+        35,
+        62,
+        65,
+        50,
+        95,
+        35
+      ],
+      "behaviorWeights": {
+        "nba-plan": 5,
+        "nba-calm": 4,
+        "nba-safe": 3
+      },
+      "tags": [
+        "大郅",
+        "脚步",
+        "内线技术",
+        "中国篮球",
+        "柔和手感",
+        "老将"
+      ],
+      "line": "动作不多，位置刚好。",
+      "number": "71",
+      "signaturePerks": [
+        "personal-wangzhizhi"
+      ]
+    },
+    {
+      "id": "basket-guoailun",
+      "personId": "guoailun",
+      "theme": "basket",
+      "name": "郭艾伦",
+      "nickname": "郭艾伦",
+      "sub": "中国篮球 · 突破欢乐位",
+      "roles": [
+        0,
+        1
+      ],
+      "vector": [
+        82,
+        85,
+        70,
+        92,
+        50,
+        88
+      ],
+      "behaviorWeights": {
+        "nba-drive": 5,
+        "nba-show": 4,
+        "nba-team": 3
+      },
+      "tags": [
+        "大侄子",
+        "突破",
+        "辽宁",
+        "喜剧人",
+        "后卫",
+        "运球"
+      ],
+      "line": "过人有节奏，接梗也一样。",
+      "number": "72",
+      "signaturePerks": [
+        "personal-guoailun"
+      ]
+    },
+    {
+      "id": "basket-giannis",
+      "personId": "giannis",
+      "theme": "basket",
+      "name": "字母哥",
+      "nickname": "字母哥",
+      "sub": "扬尼斯 · 长步冲框位",
+      "roles": [
+        3,
+        4
+      ],
+      "vector": [
+        62,
+        60,
+        65,
+        98,
+        65,
+        65
+      ],
+      "behaviorWeights": {
+        "nba-drive": 5,
+        "nba-dunk": 5,
+        "nba-rebound": 3
+      },
+      "tags": [
+        "字母哥",
+        "长步",
+        "雄鹿",
+        "冲框",
+        "力量",
+        "笑话"
+      ],
+      "line": "步子很长，回防也得长。",
+      "number": "73",
+      "signaturePerks": [
+        "personal-giannis"
+      ]
+    },
+    {
+      "id": "basket-kyrie",
+      "personId": "kyrie",
+      "theme": "basket",
+      "name": "欧文",
+      "nickname": "欧文",
+      "sub": "凯里 · 运球艺术位",
+      "roles": [
+        0,
+        1
+      ],
+      "vector": [
+        45,
+        95,
+        55,
+        80,
+        60,
+        72
+      ],
+      "behaviorWeights": {
+        "nba-drive": 5,
+        "nba-show": 5,
+        "nba-clutch": 3
+      },
+      "tags": [
+        "德鲁大叔",
+        "运球",
+        "拉杆",
+        "技巧",
+        "关键球",
+        "街球感"
+      ],
+      "line": "花活是过程，进球是落点。",
+      "number": "74",
+      "signaturePerks": [
+        "personal-kyrie"
+      ]
+    },
+    {
+      "id": "basket-chrispaul",
+      "personId": "chrispaul",
+      "theme": "basket",
+      "name": "保罗",
+      "nickname": "保罗",
+      "sub": "CP3 · 控场调度员",
+      "roles": [
+        0
+      ],
+      "vector": [
+        70,
+        50,
+        65,
+        50,
+        100,
+        45
+      ],
+      "behaviorWeights": {
+        "nba-plan": 5,
+        "nba-team": 5,
+        "nba-safe": 3
+      },
+      "tags": [
+        "控卫之神",
+        "中距离",
+        "控场",
+        "传球",
+        "细节",
+        "老将"
+      ],
+      "line": "暂停键不用按，节奏交给我。",
+      "number": "75",
+      "signaturePerks": [
+        "personal-chrispaul"
+      ]
+    },
+    {
+      "id": "basket-carter",
+      "personId": "carter",
+      "theme": "basket",
+      "name": "文斯·卡特",
+      "nickname": "文斯·卡特",
+      "sub": "UFO · 扣篮收藏家",
+      "roles": [
+        1,
+        2
+      ],
+      "vector": [
+        60,
+        90,
+        55,
+        95,
+        55,
+        85
+      ],
+      "behaviorWeights": {
+        "nba-dunk": 5,
+        "nba-show": 5,
+        "nba-train": 3
+      },
+      "tags": [
+        "UFO",
+        "扣篮",
+        "飞人",
+        "长青",
+        "弹跳",
+        "全明星"
+      ],
+      "line": "UFO可以起飞，膝盖需要安全着陆。",
+      "number": "76",
+      "signaturePerks": [
+        "personal-carter"
+      ]
+    },
+    {
+      "id": "basket-tmac",
+      "personId": "tmac",
+      "theme": "basket",
+      "name": "麦迪",
+      "nickname": "麦迪",
+      "sub": "T-Mac · 末节追分位",
+      "roles": [
+        1,
+        2
+      ],
+      "vector": [
+        50,
+        85,
+        50,
+        90,
+        60,
+        70
+      ],
+      "behaviorWeights": {
+        "nba-clutch": 5,
+        "nba-three": 4,
+        "nba-show": 3
+      },
+      "tags": [
+        "麦迪",
+        "35秒13分",
+        "干拔",
+        "追分",
+        "一号球衣",
+        "飘逸"
+      ],
+      "line": "秒表别关，最后一攻还没签收。",
+      "number": "77",
+      "signaturePerks": [
+        "personal-tmac"
+      ]
+    },
+    {
+      "id": "abstract-musk",
+      "personId": "musk",
+      "theme": "abstract",
+      "name": "马斯克",
+      "nickname": "马斯克",
+      "sub": "科技名人 · 火星脑洞位",
+      "roles": [
+        1,
+        2
+      ],
+      "vector": [
+        85,
+        100,
+        30,
+        98,
+        40,
+        90
+      ],
+      "behaviorWeights": {
+        "web-original": 5,
+        "web-live": 4,
+        "web-meme": 3
+      },
+      "tags": [
+        "火星",
+        "火箭",
+        "X",
+        "产品发布",
+        "跨界",
+        "脑洞"
+      ],
+      "line": "先把今天这一小步落地。",
+      "number": "78",
+      "signaturePerks": [
+        "personal-musk"
+      ]
+    },
+    {
+      "id": "abstract-jensen",
+      "personId": "jensen",
+      "theme": "abstract",
+      "name": "黄仁勋",
+      "nickname": "黄仁勋",
+      "sub": "科技名人 · 皮衣发布位",
+      "roles": [
+        0,
+        2
+      ],
+      "vector": [
+        80,
+        85,
+        45,
+        82,
+        88,
+        90
+      ],
+      "behaviorWeights": {
+        "web-plan": 5,
+        "web-live": 4,
+        "web-craft": 3
+      },
+      "tags": [
+        "皮衣",
+        "显卡",
+        "AI",
+        "发布会",
+        "技术讲解",
+        "招牌笑容"
+      ],
+      "line": "算力可以堆，内容还得自己做。",
+      "number": "79",
+      "signaturePerks": [
+        "personal-jensen"
+      ]
+    },
+    {
+      "id": "abstract-trump",
+      "personId": "trump",
+      "theme": "abstract",
+      "name": "川普",
+      "nickname": "川普",
+      "sub": "公众人物 · 手势热场位",
+      "roles": [
+        0,
+        3
+      ],
+      "vector": [
+        98,
+        65,
+        30,
+        88,
+        40,
+        100
+      ],
+      "behaviorWeights": {
+        "web-punchline": 5,
+        "web-live": 5,
+        "web-dance": 3
+      },
+      "tags": [
+        "标志手势",
+        "金发",
+        "舞步",
+        "公众演说",
+        "热场",
+        "夸张表达"
+      ],
+      "line": "平行舞台梗，现场节奏由你接。",
+      "number": "80",
+      "signaturePerks": [
+        "personal-trump"
+      ]
+    },
+    {
+      "id": "abstract-jackma",
+      "personId": "jackma",
+      "theme": "abstract",
+      "name": "马云",
+      "nickname": "马云",
+      "sub": "商业名人 · 金句开场位",
+      "roles": [
+        0,
+        2
+      ],
+      "vector": [
+        95,
+        85,
+        55,
+        75,
+        75,
+        90
+      ],
+      "behaviorWeights": {
+        "web-punchline": 5,
+        "web-plan": 4,
+        "web-live": 3
+      },
+      "tags": [
+        "金句",
+        "演讲",
+        "商业故事",
+        "梦想",
+        "开场",
+        "互联网"
+      ],
+      "line": "梦想先上墙，事情慢慢做。",
+      "number": "81",
+      "signaturePerks": [
+        "personal-jackma"
+      ]
+    },
+    {
+      "id": "abstract-leijun",
+      "personId": "leijun",
+      "theme": "abstract",
+      "name": "雷军",
+      "nickname": "雷军",
+      "sub": "科技名人 · 发布会气氛位",
+      "roles": [
+        0,
+        2
+      ],
+      "vector": [
+        85,
+        85,
+        70,
+        85,
+        88,
+        80
+      ],
+      "behaviorWeights": {
+        "web-live": 5,
+        "web-craft": 4,
+        "web-punchline": 4
+      },
+      "tags": [
+        "Are you OK",
+        "小米",
+        "发布会",
+        "交个朋友",
+        "产品",
+        "米粉"
+      ],
+      "line": "开场有梗，产品介绍也要讲明白。",
+      "number": "82",
+      "signaturePerks": [
+        "personal-leijun"
+      ]
+    },
+    {
+      "id": "abstract-zhouhongyi",
+      "personId": "zhouhongyi",
+      "theme": "abstract",
+      "name": "周鸿祎",
+      "nickname": "周鸿祎",
+      "sub": "科技名人 · 红衣开麦位",
+      "roles": [
+        0,
+        1
+      ],
+      "vector": [
+        90,
+        80,
+        35,
+        90,
+        55,
+        95
+      ],
+      "behaviorWeights": {
+        "web-live": 5,
+        "web-meme": 4,
+        "web-original": 3
+      },
+      "tags": [
+        "红衣",
+        "科技访谈",
+        "跨界",
+        "现场提问",
+        "互联网",
+        "整活"
+      ],
+      "line": "问题够直接，答案别靠猜。",
+      "number": "83",
+      "signaturePerks": [
+        "personal-zhouhongyi"
+      ]
+    },
+    {
+      "id": "abstract-liguoqing",
+      "personId": "liguoqing",
+      "theme": "abstract",
+      "name": "李国庆",
+      "nickname": "李国庆",
+      "sub": "自媒体名人 · 直球表达位",
+      "roles": [
+        0,
+        1
+      ],
+      "vector": [
+        95,
+        65,
+        35,
+        95,
+        35,
+        95
+      ],
+      "behaviorWeights": {
+        "web-live": 5,
+        "web-punchline": 4,
+        "web-meme": 3
+      },
+      "tags": [
+        "直球",
+        "直播",
+        "商业",
+        "现场表达",
+        "强烈语气",
+        "自媒体"
+      ],
+      "line": "表达可以直，事实要说准。",
+      "number": "84",
+      "signaturePerks": [
+        "personal-liguoqing"
+      ]
+    },
+    {
+      "id": "abstract-luoyonghao",
+      "personId": "luoyonghao",
+      "theme": "abstract",
+      "name": "罗永浩",
+      "nickname": "罗永浩",
+      "sub": "老罗 · 演讲接梗位",
+      "roles": [
+        0,
+        2
+      ],
+      "vector": [
+        85,
+        85,
+        55,
+        78,
+        82,
+        90
+      ],
+      "behaviorWeights": {
+        "web-punchline": 5,
+        "web-live": 4,
+        "web-craft": 4
+      },
+      "tags": [
+        "交个朋友",
+        "脱口秀",
+        "理想主义",
+        "发布会",
+        "段子",
+        "自嘲"
+      ],
+      "line": "先交朋友，再把片子拍完。",
+      "number": "85",
+      "signaturePerks": [
+        "personal-luoyonghao"
+      ]
+    },
+    {
+      "id": "abstract-dongyuhui",
+      "personId": "dongyuhui",
+      "theme": "abstract",
+      "name": "董宇辉",
+      "nickname": "董宇辉",
+      "sub": "主播 · 诗词叙事位",
+      "roles": [
+        0,
+        2
+      ],
+      "vector": [
+        78,
+        72,
+        90,
+        55,
+        85,
+        80
+      ],
+      "behaviorWeights": {
+        "web-cover": 4,
+        "web-care": 5,
+        "web-live": 4
+      },
+      "tags": [
+        "诗词",
+        "文化直播",
+        "叙事",
+        "共情",
+        "读书",
+        "讲故事"
+      ],
+      "line": "把故事讲好，也把信息讲清楚。",
+      "number": "86",
+      "signaturePerks": [
+        "personal-dongyuhui"
+      ]
+    },
+    {
+      "id": "abstract-yuminhong",
+      "personId": "yuminhong",
+      "theme": "abstract",
+      "name": "俞敏洪",
+      "nickname": "俞敏洪",
+      "sub": "教育名人 · 长线规划位",
+      "roles": [
+        0,
+        2
+      ],
+      "vector": [
+        72,
+        60,
+        78,
+        62,
+        95,
+        62
+      ],
+      "behaviorWeights": {
+        "web-plan": 5,
+        "web-care": 4,
+        "web-travel": 3
+      },
+      "tags": [
+        "教育",
+        "长线",
+        "讲述",
+        "成长",
+        "旅行",
+        "经验"
+      ],
+      "line": "经验可以分享，路线仍由自己选。",
+      "number": "87",
+      "signaturePerks": [
+        "personal-yuminhong"
+      ]
+    },
+    {
+      "id": "abstract-luoxiang",
+      "personId": "luoxiang",
+      "theme": "abstract",
+      "name": "罗翔",
+      "nickname": "罗翔",
+      "sub": "法学老师 · 张三宇宙讲述者",
+      "roles": [
+        0,
+        2
+      ],
+      "vector": [
+        65,
+        90,
+        85,
+        45,
+        98,
+        72
+      ],
+      "behaviorWeights": {
+        "web-punchline": 5,
+        "web-plan": 5,
+        "web-care": 3
+      },
+      "tags": [
+        "张三",
+        "法学",
+        "举例",
+        "幽默",
+        "边界",
+        "认真解释"
+      ],
+      "line": "笑过以后，边界也讲明白了。",
+      "number": "88",
+      "signaturePerks": [
+        "personal-luoxiang"
+      ]
+    },
+    {
+      "id": "abstract-guoyoucai",
+      "personId": "guoyoucai",
+      "theme": "abstract",
+      "name": "郭有才",
+      "nickname": "郭有才",
+      "sub": "音乐主播 · 诺言开麦位",
+      "roles": [
+        0,
+        3
+      ],
+      "vector": [
+        85,
+        65,
+        78,
+        80,
+        45,
+        90
+      ],
+      "behaviorWeights": {
+        "web-cover": 5,
+        "web-live": 4,
+        "web-meme": 3
+      },
+      "tags": [
+        "诺言",
+        "翻唱",
+        "菏泽",
+        "复古",
+        "直播",
+        "沙哑声线"
+      ],
+      "line": "嗓音负责入戏，节奏还得跟上。",
+      "number": "89",
+      "signaturePerks": [
+        "personal-guoyoucai"
+      ]
+    },
+    {
+      "id": "abstract-wenhuijun",
+      "personId": "wenhuijun",
+      "theme": "abstract",
+      "name": "闻会军",
+      "nickname": "闻会军",
+      "sub": "闻神 · 日夜三种状态",
+      "roles": [
+        1,
+        3
+      ],
+      "vector": [
+        80,
+        82,
+        65,
+        90,
+        40,
+        98
+      ],
+      "behaviorWeights": {
+        "web-dance": 5,
+        "web-meme": 4,
+        "web-live": 3
+      },
+      "tags": [
+        "早中晚三态",
+        "驾校",
+        "舞蹈",
+        "伤感文案",
+        "闻神",
+        "反差"
+      ],
+      "line": "一天三种状态，都是同一个你。",
+      "number": "90",
+      "signaturePerks": [
+        "personal-wenhuijun"
+      ]
+    },
+    {
+      "id": "abstract-fengtimo",
+      "personId": "fengtimo",
+      "theme": "abstract",
+      "name": "冯提莫",
+      "nickname": "冯提莫",
+      "sub": "音乐主播 · 翻唱开麦位",
+      "roles": [
+        0,
+        3
+      ],
+      "vector": [
+        82,
+        65,
+        78,
+        72,
+        65,
+        88
+      ],
+      "behaviorWeights": {
+        "web-cover": 5,
+        "web-live": 4,
+        "web-care": 3
+      },
+      "tags": [
+        "翻唱",
+        "直播",
+        "歌声",
+        "互动",
+        "旋律",
+        "舞台"
+      ],
+      "line": "先对好调，再把麦递出去。",
+      "number": "91",
+      "signaturePerks": [
+        "personal-fengtimo"
+      ]
+    },
+    {
+      "id": "abstract-lijiaqi",
+      "personId": "lijiaqi",
+      "theme": "abstract",
+      "name": "李佳琦",
+      "nickname": "李佳琦",
+      "sub": "主播 · 直播节奏位",
+      "roles": [
+        0,
+        4
+      ],
+      "vector": [
+        98,
+        60,
+        55,
+        90,
+        88,
+        100
+      ],
+      "behaviorWeights": {
+        "web-live": 5,
+        "web-edit": 4,
+        "web-plan": 3
+      },
+      "tags": [
+        "直播",
+        "语速",
+        "展示",
+        "口播",
+        "倒计时",
+        "节奏"
+      ],
+      "line": "三二一，先别急着点。",
+      "number": "92",
+      "signaturePerks": [
+        "personal-lijiaqi"
+      ]
+    },
+    {
+      "id": "abstract-sunyue-comic",
+      "personId": "sunyue-comic",
+      "theme": "abstract",
+      "name": "孙越",
+      "nickname": "孙越",
+      "sub": "相声演员 · 德云社捧哏",
+      "roles": [
+        3,
+        4
+      ],
+      "vector": [
+        75,
+        65,
+        90,
+        45,
+        85,
+        78
+      ],
+      "behaviorWeights": {
+        "web-punchline": 5,
+        "web-care": 5,
+        "web-live": 3
+      },
+      "tags": [
+        "相声孙越",
+        "捧哏",
+        "德云社",
+        "岳云鹏搭档",
+        "接话",
+        "稳住场面"
+      ],
+      "line": "这位孙越负责捧哏，不负责投三分。",
+      "number": "93",
+      "signaturePerks": [
+        "personal-sunyue-comic"
+      ]
+    },
+    {
+      "id": "abstract-guodegang",
+      "personId": "guodegang",
+      "theme": "abstract",
+      "name": "郭德纲",
+      "nickname": "郭德纲",
+      "sub": "相声演员 · 德云社",
+      "roles": [
+        0,
+        4
+      ],
+      "vector": [
+        95,
+        85,
+        60,
+        65,
+        95,
+        95
+      ],
+      "behaviorWeights": {
+        "web-punchline": 5,
+        "web-live": 5,
+        "web-plan": 3
+      },
+      "tags": [
+        "相声",
+        "德云社",
+        "包袱",
+        "返场",
+        "现挂",
+        "台上节奏"
+      ],
+      "line": "这不是最后一段，是下段的开场。",
+      "number": "94",
+      "signaturePerks": [
+        "personal-guodegang"
+      ]
+    },
+    {
+      "id": "abstract-dailanzi",
+      "personId": "dailanzi",
+      "theme": "abstract",
+      "name": "带篮子",
+      "nickname": "带篮子",
+      "sub": "网络主播 · 带文学观察位",
+      "roles": [
+        0,
+        3
+      ],
+      "vector": [
+        88,
+        82,
+        45,
+        75,
+        48,
+        95
+      ],
+      "behaviorWeights": {
+        "web-punchline": 5,
+        "web-meme": 5,
+        "web-watch": 4,
+        "web-live": 4
+      },
+      "tags": [
+        "带文学",
+        "东北语气",
+        "互联网观察",
+        "反向鼓励",
+        "弹幕接梗",
+        "现场反应",
+        "自媒体",
+        "一秒换台",
+        "观察后开麦"
+      ],
+      "line": "嘴上绕一圈，队友还在同一边。",
+      "number": "95",
+      "signaturePerks": [
+        "personal-dailanzi",
+        "commentator",
+        "extra-dailanzi-2"
+      ],
+      "spotlight": true
     }
   ],
   "augments": {
@@ -22650,6 +27384,980 @@
           ],
           "label": "人物联动 · 真实图标梗改"
         }
+      },
+      {
+        "id": "personal-xiaoxiao",
+        "name": "德云色双声道",
+        "effect": "一人负责把对局讲清楚，另一声道负责让你笑出声。",
+        "punchline": "笑笑刚开讲，西卡的接话已经在排队。",
+        "line": "笑笑刚开讲，西卡的接话已经在排队。",
+        "bias": [
+          0.3,
+          -0.2,
+          0.2,
+          0.4,
+          0.1,
+          0.2
+        ],
+        "vector": [
+          65,
+          40,
+          60,
+          70,
+          55,
+          60
+        ],
+        "behaviorWeights": {
+          "explain": 5,
+          "laugh": 5,
+          "engage": 3
+        },
+        "affinities": [
+          "xiaoxiao"
+        ],
+        "signatureFor": [
+          "xiaoxiao"
+        ],
+        "requires": [
+          "explain",
+          "laugh",
+          "engage"
+        ],
+        "icon": 0,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3190",
+            "SummonerHeal"
+          ],
+          "label": "德云色双声道"
+        }
+      },
+      {
+        "id": "personal-xika",
+        "name": "西卡接话器",
+        "effect": "搭档讲到一半时，自动补上那句最想听的吐槽。",
+        "punchline": "双声道开启，复盘和笑声都不丢。",
+        "line": "双声道开启，复盘和笑声都不丢。",
+        "bias": [
+          -0.1,
+          -0.1,
+          -0.1,
+          0.56,
+          0.2,
+          0.5
+        ],
+        "vector": [
+          45,
+          45,
+          45,
+          78,
+          60,
+          75
+        ],
+        "behaviorWeights": {
+          "explain": 5,
+          "calm": 4,
+          "plan": 3
+        },
+        "affinities": [
+          "xika"
+        ],
+        "signatureFor": [
+          "xika"
+        ],
+        "requires": [
+          "explain",
+          "calm",
+          "plan"
+        ],
+        "icon": 1,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "plan",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3089",
+            "item-3157"
+          ],
+          "label": "西卡接话器"
+        }
+      },
+      {
+        "id": "personal-369",
+        "name": "骰子保底九",
+        "effect": "每次摇到三，先保住这一波；下一次的九留给关键团。",
+        "punchline": "骰子可以随机，回防不能随机。",
+        "line": "骰子可以随机，回防不能随机。",
+        "bias": [
+          0.0,
+          0.0,
+          0.3,
+          0.3,
+          0.4,
+          0.2
+        ],
+        "vector": [
+          50,
+          50,
+          65,
+          65,
+          70,
+          60
+        ],
+        "behaviorWeights": {
+          "spin": 5,
+          "mechanics": 4,
+          "protect": 3
+        },
+        "affinities": [
+          "369"
+        ],
+        "signatureFor": [
+          "369"
+        ],
+        "requires": [
+          "spin",
+          "mechanics",
+          "protect"
+        ],
+        "icon": 2,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "basic",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3031",
+            "item-6676"
+          ],
+          "label": "骰子保底九"
+        }
+      },
+      {
+        "id": "personal-tian",
+        "name": "天选绕后路线",
+        "effect": "先看见队友在哪，再从对手没注意的方向进场。",
+        "punchline": "镜头没拍到你的路，结算会记得。",
+        "line": "镜头没拍到你的路，结算会记得。",
+        "bias": [
+          -0.2,
+          -0.04,
+          0.2,
+          0.56,
+          0.6,
+          0.6
+        ],
+        "vector": [
+          40,
+          48,
+          60,
+          78,
+          80,
+          80
+        ],
+        "behaviorWeights": {
+          "plan": 5,
+          "vision": 4,
+          "engage": 3
+        },
+        "affinities": [
+          "tian"
+        ],
+        "signatureFor": [
+          "tian"
+        ],
+        "requires": [
+          "plan",
+          "vision",
+          "engage"
+        ],
+        "icon": 3,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "plan",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3031",
+            "item-6676"
+          ],
+          "label": "天选绕后路线"
+        }
+      },
+      {
+        "id": "personal-bin",
+        "name": "Bin式自信额度",
+        "effect": "有操作空间就敢接，但先确认四个队友能听见你喊。",
+        "punchline": "自信可以拉满，队友也得跟满。",
+        "line": "自信可以拉满，队友也得跟满。",
+        "bias": [
+          0.3,
+          0.2,
+          0.9,
+          -0.04,
+          0.9,
+          -0.2
+        ],
+        "vector": [
+          65,
+          60,
+          95,
+          48,
+          95,
+          40
+        ],
+        "behaviorWeights": {
+          "mechanics": 5,
+          "engage": 5,
+          "chaos": 2
+        },
+        "affinities": [
+          "bin"
+        ],
+        "signatureFor": [
+          "bin"
+        ],
+        "requires": [
+          "mechanics",
+          "engage",
+          "chaos"
+        ],
+        "icon": 4,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "basic",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3031",
+            "item-6676"
+          ],
+          "label": "Bin式自信额"
+        }
+      },
+      {
+        "id": "personal-rookie",
+        "name": "中路急诊室",
+        "effect": "队友血压刚升高，中路已经替全队续上一口气。",
+        "punchline": "院长不只看病，也看小地图。",
+        "line": "院长不只看病，也看小地图。",
+        "bias": [
+          -0.3,
+          0.1,
+          0.1,
+          0.7,
+          0.84,
+          0.6
+        ],
+        "vector": [
+          35,
+          55,
+          55,
+          85,
+          92,
+          80
+        ],
+        "behaviorWeights": {
+          "mechanics": 5,
+          "protect": 4,
+          "calm": 4,
+          "control": 3
+        },
+        "affinities": [
+          "rookie"
+        ],
+        "signatureFor": [
+          "rookie"
+        ],
+        "requires": [
+          "mechanics",
+          "protect",
+          "calm",
+          "control"
+        ],
+        "icon": 5,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "basic",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3089",
+            "item-3157"
+          ],
+          "label": "中路急诊室"
+        }
+      },
+      {
+        "id": "personal-showmaker",
+        "name": "许秀表情管理",
+        "effect": "表情包素材自动存档，操作窗口继续由你亲手找。",
+        "punchline": "脸上有一部剧，手里有一场比赛。",
+        "line": "脸上有一部剧，手里有一场比赛。",
+        "bias": [
+          0.2,
+          -0.04,
+          0.3,
+          0.36,
+          0.76,
+          0.44
+        ],
+        "vector": [
+          60,
+          48,
+          65,
+          68,
+          88,
+          72
+        ],
+        "behaviorWeights": {
+          "explain": 5,
+          "mechanics": 4,
+          "calm": 3
+        },
+        "affinities": [
+          "showmaker"
+        ],
+        "signatureFor": [
+          "showmaker"
+        ],
+        "requires": [
+          "explain",
+          "mechanics",
+          "calm"
+        ],
+        "icon": 6,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "basic",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3089",
+            "item-3157"
+          ],
+          "label": "许秀表情管理"
+        }
+      },
+      {
+        "id": "personal-chovy",
+        "name": "一刀都不能少",
+        "effect": "漏掉的小兵会变成梦里的弹幕，补到的不会替你推家。",
+        "punchline": "先收好兵，再收好胜利。",
+        "line": "先收好兵，再收好胜利。",
+        "bias": [
+          -0.5,
+          0.9,
+          -0.1,
+          0.16,
+          0.84,
+          0.8
+        ],
+        "vector": [
+          25,
+          95,
+          45,
+          58,
+          92,
+          90
+        ],
+        "behaviorWeights": {
+          "gold": 5,
+          "stack": 5,
+          "mechanics": 3
+        },
+        "affinities": [
+          "chovy"
+        ],
+        "signatureFor": [
+          "chovy"
+        ],
+        "requires": [
+          "gold",
+          "stack",
+          "mechanics"
+        ],
+        "icon": 7,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "basic",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3089",
+            "item-3157"
+          ],
+          "label": "一刀都不能少"
+        }
+      },
+      {
+        "id": "personal-deft",
+        "name": "最后一舞加更",
+        "effect": "每当大家准备散场，给自己和队友留一局认真的续集。",
+        "punchline": "最后一舞，先别放谢幕音乐。",
+        "line": "最后一舞，先别放谢幕音乐。",
+        "bias": [
+          -0.4,
+          0.2,
+          0.04,
+          0.7,
+          0.7,
+          0.84
+        ],
+        "vector": [
+          30,
+          60,
+          52,
+          85,
+          85,
+          92
+        ],
+        "behaviorWeights": {
+          "calm": 5,
+          "plan": 4,
+          "mechanics": 4
+        },
+        "affinities": [
+          "deft"
+        ],
+        "signatureFor": [
+          "deft"
+        ],
+        "requires": [
+          "calm",
+          "plan",
+          "mechanics"
+        ],
+        "icon": 8,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "plan",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3031",
+            "item-6676"
+          ],
+          "label": "最后一舞加更"
+        }
+      },
+      {
+        "id": "personal-beryl",
+        "name": "辅助外置大脑",
+        "effect": "把五个人的想法接成一条线，奇怪选角也能讲出理由。",
+        "punchline": "游戏外在想别的，游戏里该看图还得看图。",
+        "line": "游戏外在想别的，游戏里该看图还得看图。",
+        "bias": [
+          -0.5,
+          -0.2,
+          0.24,
+          0.9,
+          0.36,
+          0.7
+        ],
+        "vector": [
+          25,
+          40,
+          62,
+          95,
+          68,
+          85
+        ],
+        "behaviorWeights": {
+          "plan": 5,
+          "control": 5,
+          "protect": 4
+        },
+        "affinities": [
+          "beryl"
+        ],
+        "signatureFor": [
+          "beryl"
+        ],
+        "requires": [
+          "plan",
+          "control",
+          "protect"
+        ],
+        "icon": 9,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "plan",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3190",
+            "SummonerHeal"
+          ],
+          "label": "辅助外置大脑"
+        }
+      },
+      {
+        "id": "personal-otto",
+        "name": "稳健先缓一缓",
+        "effect": "每次准备口头加速，先让小地图替你补一句提醒。",
+        "punchline": "声音先到，支援请跟上。",
+        "line": "声音先到，支援请跟上。",
+        "bias": [
+          0.7,
+          -0.1,
+          0.56,
+          -0.24,
+          0.3,
+          -0.4
+        ],
+        "vector": [
+          85,
+          45,
+          78,
+          38,
+          65,
+          30
+        ],
+        "behaviorWeights": {
+          "chaos": 5,
+          "blame": 4,
+          "explain": 4
+        },
+        "affinities": [
+          "otto"
+        ],
+        "signatureFor": [
+          "otto"
+        ],
+        "requires": [
+          "chaos",
+          "blame",
+          "explain"
+        ],
+        "icon": 10,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3089",
+            "item-3157"
+          ],
+          "label": "稳健先缓一缓"
+        }
+      },
+      {
+        "id": "personal-zztai",
+        "name": "直播间笑场险",
+        "effect": "高能操作前自动提醒录屏；笑场之后还得把团打完。",
+        "punchline": "节目别断，兵线也别断。",
+        "line": "节目别断，兵线也别断。",
+        "bias": [
+          0.3,
+          0.0,
+          0.3,
+          0.36,
+          0.3,
+          0.0
+        ],
+        "vector": [
+          65,
+          50,
+          65,
+          68,
+          65,
+          50
+        ],
+        "behaviorWeights": {
+          "laugh": 5,
+          "chaos": 4,
+          "explain": 3
+        },
+        "affinities": [
+          "zztai"
+        ],
+        "signatureFor": [
+          "zztai"
+        ],
+        "requires": [
+          "laugh",
+          "chaos",
+          "explain"
+        ],
+        "icon": 11,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3089",
+            "item-3157"
+          ],
+          "label": "直播间笑场险"
+        }
+      },
+      {
+        "id": "personal-kryst4l",
+        "name": "刚子逐帧回放",
+        "effect": "发现一个细节，立刻把直播间带回那一帧。",
+        "punchline": "先别快进，这里真有东西。",
+        "line": "先别快进，这里真有东西。",
+        "bias": [
+          0.2,
+          0.0,
+          0.3,
+          0.24,
+          0.56,
+          0.16
+        ],
+        "vector": [
+          60,
+          50,
+          65,
+          62,
+          78,
+          58
+        ],
+        "behaviorWeights": {
+          "explain": 5,
+          "mechanics": 4,
+          "retreat": 3
+        },
+        "affinities": [
+          "kryst4l"
+        ],
+        "signatureFor": [
+          "kryst4l"
+        ],
+        "requires": [
+          "explain",
+          "mechanics",
+          "retreat"
+        ],
+        "icon": 12,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "basic",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3031",
+            "item-6676"
+          ],
+          "label": "刚子逐帧回放"
+        }
+      },
+      {
+        "id": "personal-godv",
+        "name": "反向也有镜头",
+        "effect": "大胆尝试会留下镜头，下次出手前记得核对方向。",
+        "punchline": "箭有方向，节目没有尽头。",
+        "line": "箭有方向，节目没有尽头。",
+        "bias": [
+          0.0,
+          0.0,
+          0.7,
+          0.1,
+          0.7,
+          0.1
+        ],
+        "vector": [
+          50,
+          50,
+          85,
+          55,
+          85,
+          55
+        ],
+        "behaviorWeights": {
+          "mechanics": 5,
+          "chaos": 4,
+          "poke": 3
+        },
+        "affinities": [
+          "godv"
+        ],
+        "signatureFor": [
+          "godv"
+        ],
+        "requires": [
+          "mechanics",
+          "chaos",
+          "poke"
+        ],
+        "icon": 13,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "basic",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3089",
+            "item-3157"
+          ],
+          "label": "反向也有镜头"
+        }
+      },
+      {
+        "id": "personal-karsa",
+        "name": "雷达提前三秒",
+        "effect": "队友还在喊人，你已经从地图上看见了问题。",
+        "punchline": "雷达不是透视，是多看一眼。",
+        "line": "雷达不是透视，是多看一眼。",
+        "bias": [
+          -0.4,
+          -0.1,
+          -0.04,
+          0.7,
+          0.44,
+          0.9
+        ],
+        "vector": [
+          30,
+          45,
+          48,
+          85,
+          72,
+          95
+        ],
+        "behaviorWeights": {
+          "vision": 5,
+          "plan": 5,
+          "protect": 3
+        },
+        "affinities": [
+          "karsa"
+        ],
+        "signatureFor": [
+          "karsa"
+        ],
+        "requires": [
+          "vision",
+          "plan",
+          "protect"
+        ],
+        "icon": 14,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "plan",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3031",
+            "item-6676"
+          ],
+          "label": "雷达提前三秒"
+        }
+      },
+      {
+        "id": "personal-luobenwei",
+        "name": "最后一把续订",
+        "effect": "说好的最后一把又有了续集，下一局先把队友叫齐。",
+        "punchline": "先接梗，再把这局认真打完。",
+        "line": "先接梗，再把这局认真打完。",
+        "bias": [
+          0.4,
+          -0.1,
+          0.3,
+          0.2,
+          -0.1,
+          -0.2
+        ],
+        "vector": [
+          70,
+          45,
+          65,
+          60,
+          45,
+          40
+        ],
+        "behaviorWeights": {
+          "chaos": 5,
+          "explain": 4,
+          "laugh": 3,
+          "engage": 3
+        },
+        "affinities": [
+          "luobenwei"
+        ],
+        "signatureFor": [
+          "luobenwei"
+        ],
+        "requires": [
+          "chaos",
+          "explain",
+          "laugh",
+          "engage"
+        ],
+        "icon": 14,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "plan",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3157",
+            "SummonerFlash"
+          ],
+          "label": "直播续订"
+        }
+      },
+      {
+        "id": "personal-zhouyi",
+        "name": "直播间先别笑",
+        "effect": "笑声负责节目效果，下一波仍然要看队友位置。",
+        "punchline": "先接梗，再把这局认真打完。",
+        "line": "先接梗，再把这局认真打完。",
+        "bias": [
+          0.4,
+          -0.1,
+          0.3,
+          0.2,
+          -0.1,
+          -0.2
+        ],
+        "vector": [
+          70,
+          45,
+          65,
+          60,
+          45,
+          40
+        ],
+        "behaviorWeights": {
+          "chaos": 5,
+          "explain": 4,
+          "laugh": 3,
+          "engage": 3
+        },
+        "affinities": [
+          "zhouyi"
+        ],
+        "signatureFor": [
+          "zhouyi"
+        ],
+        "requires": [
+          "chaos",
+          "explain",
+          "laugh",
+          "engage"
+        ],
+        "icon": 14,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "plan",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3157",
+            "SummonerFlash"
+          ],
+          "label": "直播续订"
+        }
+      },
+      {
+        "id": "extra-rookie-1",
+        "name": "院长今日值班",
+        "effect": "队友需要输出，你先把中路这一口气续上。",
+        "punchline": "别急，院长还在线。",
+        "line": "别急，院长还在线。",
+        "bias": [
+          -0.3,
+          0.1,
+          0.1,
+          0.7,
+          0.84,
+          0.6
+        ],
+        "vector": [
+          35,
+          55,
+          55,
+          85,
+          92,
+          80
+        ],
+        "behaviorWeights": {
+          "mechanics": 5
+        },
+        "affinities": [
+          "rookie"
+        ],
+        "signatureFor": [
+          "rookie"
+        ],
+        "requires": [
+          "mechanics"
+        ],
+        "icon": 10,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "主角联动",
+        "kind": "basic",
+        "creation": "本作原创人物联动，架空娱乐效果。",
+        "personOnly": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3089",
+            "item-3190"
+          ],
+          "label": "中路值班"
+        }
       }
     ],
     "basket": [
@@ -23161,6 +28869,742 @@
         "category": "人物联动",
         "kind": "basic",
         "creation": "本作原创恶搞设定；人物联动为平行宇宙娱乐创作。"
+      },
+      {
+        "id": "personal-xujingyu",
+        "name": "立棍单打复读机",
+        "effect": "每次有人拿球不传，解说席自动生成一段超长回放。",
+        "punchline": "球可以停一下，鲸鱼的语速停不了。",
+        "line": "球可以停一下，鲸鱼的语速停不了。",
+        "bias": [
+          0.8,
+          0.36,
+          -0.1,
+          0.7,
+          0.2,
+          0.96
+        ],
+        "vector": [
+          90,
+          68,
+          45,
+          85,
+          60,
+          98
+        ],
+        "behaviorWeights": {
+          "nba-show": 5,
+          "nba-three": 5,
+          "nba-plan": 3
+        },
+        "affinities": [
+          "xujingyu"
+        ],
+        "signatureFor": [
+          "xujingyu"
+        ],
+        "requires": [
+          "nba-show",
+          "nba-three",
+          "nba-plan"
+        ],
+        "icon": 15,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-yangyi",
+        "name": "解说席故事会",
+        "effect": "一个回合的停顿里，也能讲完一段球队往事。",
+        "punchline": "比赛还剩两分钟，故事刚到第一章。",
+        "line": "比赛还剩两分钟，故事刚到第一章。",
+        "bias": [
+          0.7,
+          0.1,
+          0.24,
+          0.2,
+          0.84,
+          0.7
+        ],
+        "vector": [
+          85,
+          55,
+          62,
+          60,
+          92,
+          85
+        ],
+        "behaviorWeights": {
+          "nba-plan": 5,
+          "nba-show": 4,
+          "nba-team": 3
+        },
+        "affinities": [
+          "yangyi"
+        ],
+        "signatureFor": [
+          "yangyi"
+        ],
+        "requires": [
+          "nba-plan",
+          "nba-show",
+          "nba-team"
+        ],
+        "icon": 0,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-zhouqi",
+        "name": "边线球先对暗号",
+        "effect": "每次边线发球前，先确认接球的人和你在同一部剧。",
+        "punchline": "梗归梗，这次球要发到队友手里。",
+        "line": "梗归梗，这次球要发到队友手里。",
+        "bias": [
+          -0.3,
+          -0.16,
+          0.24,
+          0.3,
+          0.24,
+          -0.3
+        ],
+        "vector": [
+          35,
+          42,
+          62,
+          65,
+          62,
+          35
+        ],
+        "behaviorWeights": {
+          "nba-rebound": 5,
+          "nba-safe": 4,
+          "nba-team": 3
+        },
+        "affinities": [
+          "zhouqi"
+        ],
+        "signatureFor": [
+          "zhouqi"
+        ],
+        "requires": [
+          "nba-rebound",
+          "nba-safe",
+          "nba-team"
+        ],
+        "icon": 1,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-sunyue-player",
+        "name": "后卫盖帽通行证",
+        "effect": "对手以为过了你，下一拍你的长臂还在加班。",
+        "punchline": "这是篮球孙悦，今晚负责防守。",
+        "line": "这是篮球孙悦，今晚负责防守。",
+        "bias": [
+          0.1,
+          0.2,
+          0.2,
+          0.5,
+          0.44,
+          -0.1
+        ],
+        "vector": [
+          55,
+          60,
+          60,
+          75,
+          72,
+          45
+        ],
+        "behaviorWeights": {
+          "nba-safe": 5,
+          "nba-team": 4,
+          "nba-rebound": 3
+        },
+        "affinities": [
+          "sunyue-player"
+        ],
+        "signatureFor": [
+          "sunyue-player"
+        ],
+        "requires": [
+          "nba-safe",
+          "nba-team",
+          "nba-rebound"
+        ],
+        "icon": 2,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-zhangweiping",
+        "name": "这球真合理",
+        "effect": "投进先说合理，没进就认真看看下一个更好的选择。",
+        "punchline": "合理不是口头禅，是先把人站明白。",
+        "line": "合理不是口头禅，是先把人站明白。",
+        "bias": [
+          0.36,
+          -0.2,
+          0.3,
+          0.1,
+          0.96,
+          0.4
+        ],
+        "vector": [
+          68,
+          40,
+          65,
+          55,
+          98,
+          70
+        ],
+        "behaviorWeights": {
+          "nba-plan": 5,
+          "nba-calm": 4,
+          "nba-clutch": 3
+        },
+        "affinities": [
+          "zhangweiping"
+        ],
+        "signatureFor": [
+          "zhangweiping"
+        ],
+        "requires": [
+          "nba-plan",
+          "nba-calm",
+          "nba-clutch"
+        ],
+        "icon": 3,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-suqun",
+        "name": "暂停板上见",
+        "effect": "把热闹留给看台，把下一回合写清楚给队友。",
+        "punchline": "别只看谁得分，也看谁把空间拉开。",
+        "line": "别只看谁得分，也看谁把空间拉开。",
+        "bias": [
+          0.1,
+          -0.1,
+          0.4,
+          -0.1,
+          0.96,
+          -0.1
+        ],
+        "vector": [
+          55,
+          45,
+          70,
+          45,
+          98,
+          45
+        ],
+        "behaviorWeights": {
+          "nba-plan": 5,
+          "nba-calm": 5,
+          "nba-team": 3
+        },
+        "affinities": [
+          "suqun"
+        ],
+        "signatureFor": [
+          "suqun"
+        ],
+        "requires": [
+          "nba-plan",
+          "nba-calm",
+          "nba-team"
+        ],
+        "icon": 4,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-yujia",
+        "name": "关键球旁白",
+        "effect": "比分越接近，越能给这一球配上准确的一句话。",
+        "punchline": "球没落网，先把呼吸留住。",
+        "line": "球没落网，先把呼吸留住。",
+        "bias": [
+          0.5,
+          -0.04,
+          0.44,
+          0.36,
+          0.8,
+          0.56
+        ],
+        "vector": [
+          75,
+          48,
+          72,
+          68,
+          90,
+          78
+        ],
+        "behaviorWeights": {
+          "nba-clutch": 5,
+          "nba-plan": 4,
+          "nba-emotion": 3
+        },
+        "affinities": [
+          "yujia"
+        ],
+        "signatureFor": [
+          "yujia"
+        ],
+        "requires": [
+          "nba-clutch",
+          "nba-plan",
+          "nba-emotion"
+        ],
+        "icon": 5,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-wangmeng",
+        "name": "解说分贝翻倍",
+        "effect": "每个干净暴扣都配一段上扬声线，回防时音量自动归位。",
+        "punchline": "人还在空中，声音先到篮板上沿。",
+        "line": "人还在空中，声音先到篮板上沿。",
+        "bias": [
+          0.9,
+          0.2,
+          0.1,
+          0.64,
+          0.3,
+          0.96
+        ],
+        "vector": [
+          95,
+          60,
+          55,
+          82,
+          65,
+          98
+        ],
+        "behaviorWeights": {
+          "nba-show": 5,
+          "nba-emotion": 5,
+          "nba-dunk": 3
+        },
+        "affinities": [
+          "wangmeng"
+        ],
+        "signatureFor": [
+          "wangmeng"
+        ],
+        "requires": [
+          "nba-show",
+          "nba-emotion",
+          "nba-dunk"
+        ],
+        "icon": 6,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-yijianlian",
+        "name": "沉默加练卡",
+        "effect": "少说一句漂亮话，多完成一组该练的动作。",
+        "punchline": "镜头看不见的那一组，也算数。",
+        "line": "镜头看不见的那一组，也算数。",
+        "bias": [
+          -0.5,
+          -0.3,
+          0.44,
+          0.3,
+          0.8,
+          -0.5
+        ],
+        "vector": [
+          25,
+          35,
+          72,
+          65,
+          90,
+          25
+        ],
+        "behaviorWeights": {
+          "nba-train": 5,
+          "nba-calm": 4,
+          "nba-team": 4
+        },
+        "affinities": [
+          "yijianlian"
+        ],
+        "signatureFor": [
+          "yijianlian"
+        ],
+        "requires": [
+          "nba-train",
+          "nba-calm",
+          "nba-team"
+        ],
+        "icon": 7,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-wangzhizhi",
+        "name": "篮下脚步说明书",
+        "effect": "不靠音量制造空间，靠一个脚步让对手先动。",
+        "punchline": "动作不多，位置刚好。",
+        "line": "动作不多，位置刚好。",
+        "bias": [
+          -0.3,
+          0.24,
+          0.3,
+          0.0,
+          0.9,
+          -0.3
+        ],
+        "vector": [
+          35,
+          62,
+          65,
+          50,
+          95,
+          35
+        ],
+        "behaviorWeights": {
+          "nba-plan": 5,
+          "nba-calm": 4,
+          "nba-safe": 3
+        },
+        "affinities": [
+          "wangzhizhi"
+        ],
+        "signatureFor": [
+          "wangzhizhi"
+        ],
+        "requires": [
+          "nba-plan",
+          "nba-calm",
+          "nba-safe"
+        ],
+        "icon": 8,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-guoailun",
+        "name": "大侄子变向包",
+        "effect": "球场上变向，采访时也能把话题晃出半步。",
+        "punchline": "过人有节奏，接梗也一样。",
+        "line": "过人有节奏，接梗也一样。",
+        "bias": [
+          0.64,
+          0.7,
+          0.4,
+          0.84,
+          0.0,
+          0.76
+        ],
+        "vector": [
+          82,
+          85,
+          70,
+          92,
+          50,
+          88
+        ],
+        "behaviorWeights": {
+          "nba-drive": 5,
+          "nba-show": 4,
+          "nba-team": 3
+        },
+        "affinities": [
+          "guoailun"
+        ],
+        "signatureFor": [
+          "guoailun"
+        ],
+        "requires": [
+          "nba-drive",
+          "nba-show",
+          "nba-team"
+        ],
+        "icon": 9,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-giannis",
+        "name": "两步到你家篮下",
+        "effect": "别人还在跑战术，你已经用长步抵达篮筐附近。",
+        "punchline": "步子很长，回防也得长。",
+        "line": "步子很长，回防也得长。",
+        "bias": [
+          0.24,
+          0.2,
+          0.3,
+          0.96,
+          0.3,
+          0.3
+        ],
+        "vector": [
+          62,
+          60,
+          65,
+          98,
+          65,
+          65
+        ],
+        "behaviorWeights": {
+          "nba-drive": 5,
+          "nba-dunk": 5,
+          "nba-rebound": 3
+        },
+        "affinities": [
+          "giannis"
+        ],
+        "signatureFor": [
+          "giannis"
+        ],
+        "requires": [
+          "nba-drive",
+          "nba-dunk",
+          "nba-rebound"
+        ],
+        "icon": 10,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-kyrie",
+        "name": "地板舞步许可",
+        "effect": "把防守重心晃出一个空位，舞步最后记得落在得分上。",
+        "punchline": "花活是过程，进球是落点。",
+        "line": "花活是过程，进球是落点。",
+        "bias": [
+          -0.1,
+          0.9,
+          0.1,
+          0.6,
+          0.2,
+          0.44
+        ],
+        "vector": [
+          45,
+          95,
+          55,
+          80,
+          60,
+          72
+        ],
+        "behaviorWeights": {
+          "nba-drive": 5,
+          "nba-show": 5,
+          "nba-clutch": 3
+        },
+        "affinities": [
+          "kyrie"
+        ],
+        "signatureFor": [
+          "kyrie"
+        ],
+        "requires": [
+          "nba-drive",
+          "nba-show",
+          "nba-clutch"
+        ],
+        "icon": 11,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-chrispaul",
+        "name": "控卫遥控器",
+        "effect": "把五个人调到舒服的位置，电池是你的耐心。",
+        "punchline": "暂停键不用按，节奏交给我。",
+        "line": "暂停键不用按，节奏交给我。",
+        "bias": [
+          0.4,
+          0.0,
+          0.3,
+          0.0,
+          1.0,
+          -0.1
+        ],
+        "vector": [
+          70,
+          50,
+          65,
+          50,
+          100,
+          45
+        ],
+        "behaviorWeights": {
+          "nba-plan": 5,
+          "nba-team": 5,
+          "nba-safe": 3
+        },
+        "affinities": [
+          "chrispaul"
+        ],
+        "signatureFor": [
+          "chrispaul"
+        ],
+        "requires": [
+          "nba-plan",
+          "nba-team",
+          "nba-safe"
+        ],
+        "icon": 12,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-carter",
+        "name": "篮筐上方停机坪",
+        "effect": "高光起飞前先检查落点，掌声抵达后马上回防。",
+        "punchline": "UFO可以起飞，膝盖需要安全着陆。",
+        "line": "UFO可以起飞，膝盖需要安全着陆。",
+        "bias": [
+          0.2,
+          0.8,
+          0.1,
+          0.9,
+          0.1,
+          0.7
+        ],
+        "vector": [
+          60,
+          90,
+          55,
+          95,
+          55,
+          85
+        ],
+        "behaviorWeights": {
+          "nba-dunk": 5,
+          "nba-show": 5,
+          "nba-train": 3
+        },
+        "affinities": [
+          "carter"
+        ],
+        "signatureFor": [
+          "carter"
+        ],
+        "requires": [
+          "nba-dunk",
+          "nba-show",
+          "nba-train"
+        ],
+        "icon": 13,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-tmac",
+        "name": "三十五秒加时券",
+        "effect": "时间越少越认真找出手机会，记得把队友算进奇迹。",
+        "punchline": "秒表别关，最后一攻还没签收。",
+        "line": "秒表别关，最后一攻还没签收。",
+        "bias": [
+          0.0,
+          0.7,
+          0.0,
+          0.8,
+          0.2,
+          0.4
+        ],
+        "vector": [
+          50,
+          85,
+          50,
+          90,
+          60,
+          70
+        ],
+        "behaviorWeights": {
+          "nba-clutch": 5,
+          "nba-three": 4,
+          "nba-show": 3
+        },
+        "affinities": [
+          "tmac"
+        ],
+        "signatureFor": [
+          "tmac"
+        ],
+        "requires": [
+          "nba-clutch",
+          "nba-three",
+          "nba-show"
+        ],
+        "icon": 14,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
       }
     ],
     "abstract": [
@@ -23221,10 +29665,10 @@
           "web-plan": 5
         },
         "affinities": [
-          "dasima"
+          "dailanzi"
         ],
         "signatureFor": [
-          "dasima"
+          "dailanzi"
         ],
         "requires": [
           "web-plan"
@@ -23319,13 +29763,9 @@
           "web-live": 5
         },
         "affinities": [
-          "zhouyi",
-          "luobenwei",
           "huge"
         ],
         "signatureFor": [
-          "zhouyi",
-          "luobenwei",
           "huge"
         ],
         "requires": [
@@ -23392,12 +29832,10 @@
         },
         "affinities": [
           "shake-director",
-          "luobenwei",
           "jackie"
         ],
         "signatureFor": [
           "shake-director",
-          "luobenwei",
           "jackie"
         ],
         "icon": 8,
@@ -23437,11 +29875,9 @@
           "web-original": 2
         },
         "affinities": [
-          "zhouyi",
           "shake-director"
         ],
         "signatureFor": [
-          "zhouyi",
           "shake-director"
         ],
         "icon": 9,
@@ -23526,13 +29962,11 @@
         },
         "affinities": [
           "geyou",
-          "baike",
-          "yaoming"
+          "baike"
         ],
         "signatureFor": [
           "geyou",
-          "baike",
-          "yaoming"
+          "baike"
         ],
         "icon": 13,
         "requires": [
@@ -23571,12 +30005,10 @@
           "web-care": 2
         },
         "affinities": [
-          "huchenfeng",
-          "dasima"
+          "huchenfeng"
         ],
         "signatureFor": [
-          "huchenfeng",
-          "dasima"
+          "huchenfeng"
         ],
         "icon": 12,
         "requires": [
@@ -23678,6 +30110,1046 @@
         "category": "人物联动",
         "kind": "basic",
         "creation": "本作原创恶搞设定；人物联动为平行宇宙娱乐创作。"
+      },
+      {
+        "id": "personal-musk",
+        "name": "火星先开群",
+        "effect": "项目还没离开地球，五人火星群已经取好了名字。",
+        "punchline": "先把今天这一小步落地。",
+        "line": "先把今天这一小步落地。",
+        "bias": [
+          0.7,
+          1.0,
+          -0.4,
+          0.96,
+          -0.2,
+          0.8
+        ],
+        "vector": [
+          85,
+          100,
+          30,
+          98,
+          40,
+          90
+        ],
+        "behaviorWeights": {
+          "web-original": 5,
+          "web-live": 4,
+          "web-meme": 3
+        },
+        "affinities": [
+          "musk"
+        ],
+        "signatureFor": [
+          "musk"
+        ],
+        "requires": [
+          "web-original",
+          "web-live",
+          "web-meme"
+        ],
+        "icon": 15,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-jensen",
+        "name": "皮衣算力加成",
+        "effect": "穿上招牌皮衣，普通介绍也像在发布一张新显卡。",
+        "punchline": "算力可以堆，内容还得自己做。",
+        "line": "算力可以堆，内容还得自己做。",
+        "bias": [
+          0.6,
+          0.7,
+          -0.1,
+          0.64,
+          0.76,
+          0.8
+        ],
+        "vector": [
+          80,
+          85,
+          45,
+          82,
+          88,
+          90
+        ],
+        "behaviorWeights": {
+          "web-plan": 5,
+          "web-live": 4,
+          "web-craft": 3
+        },
+        "affinities": [
+          "jensen"
+        ],
+        "signatureFor": [
+          "jensen"
+        ],
+        "requires": [
+          "web-plan",
+          "web-live",
+          "web-craft"
+        ],
+        "icon": 0,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-trump",
+        "name": "手势先替我说",
+        "effect": "话还没说完，手势已经完成了全场同步。",
+        "punchline": "平行舞台梗，现场节奏由你接。",
+        "line": "平行舞台梗，现场节奏由你接。",
+        "bias": [
+          0.96,
+          0.3,
+          -0.4,
+          0.76,
+          -0.2,
+          1.0
+        ],
+        "vector": [
+          98,
+          65,
+          30,
+          88,
+          40,
+          100
+        ],
+        "behaviorWeights": {
+          "web-punchline": 5,
+          "web-live": 5,
+          "web-dance": 3
+        },
+        "affinities": [
+          "trump"
+        ],
+        "signatureFor": [
+          "trump"
+        ],
+        "requires": [
+          "web-punchline",
+          "web-live",
+          "web-dance"
+        ],
+        "icon": 1,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-jackma",
+        "name": "开场先讲个梦想",
+        "effect": "一句话把普通聚会讲成创业发布会，最后记得回到今天。",
+        "punchline": "梦想先上墙，事情慢慢做。",
+        "line": "梦想先上墙，事情慢慢做。",
+        "bias": [
+          0.9,
+          0.7,
+          0.1,
+          0.5,
+          0.5,
+          0.8
+        ],
+        "vector": [
+          95,
+          85,
+          55,
+          75,
+          75,
+          90
+        ],
+        "behaviorWeights": {
+          "web-punchline": 5,
+          "web-plan": 4,
+          "web-live": 3
+        },
+        "affinities": [
+          "jackma"
+        ],
+        "signatureFor": [
+          "jackma"
+        ],
+        "requires": [
+          "web-punchline",
+          "web-plan",
+          "web-live"
+        ],
+        "icon": 2,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-leijun",
+        "name": "Are you OK开场音",
+        "effect": "刚举起麦克风，脑内前奏已经自动播放。",
+        "punchline": "开场有梗，产品介绍也要讲明白。",
+        "line": "开场有梗，产品介绍也要讲明白。",
+        "bias": [
+          0.7,
+          0.7,
+          0.4,
+          0.7,
+          0.76,
+          0.6
+        ],
+        "vector": [
+          85,
+          85,
+          70,
+          85,
+          88,
+          80
+        ],
+        "behaviorWeights": {
+          "web-live": 5,
+          "web-craft": 4,
+          "web-punchline": 4
+        },
+        "affinities": [
+          "leijun"
+        ],
+        "signatureFor": [
+          "leijun"
+        ],
+        "requires": [
+          "web-live",
+          "web-craft",
+          "web-punchline"
+        ],
+        "icon": 3,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-zhouhongyi",
+        "name": "红衣现场追问",
+        "effect": "大家准备收场时，自动加一轮“我再问一个”。",
+        "punchline": "问题够直接，答案别靠猜。",
+        "line": "问题够直接，答案别靠猜。",
+        "bias": [
+          0.8,
+          0.6,
+          -0.3,
+          0.8,
+          0.1,
+          0.9
+        ],
+        "vector": [
+          90,
+          80,
+          35,
+          90,
+          55,
+          95
+        ],
+        "behaviorWeights": {
+          "web-live": 5,
+          "web-meme": 4,
+          "web-original": 3
+        },
+        "affinities": [
+          "zhouhongyi"
+        ],
+        "signatureFor": [
+          "zhouhongyi"
+        ],
+        "requires": [
+          "web-live",
+          "web-meme",
+          "web-original"
+        ],
+        "icon": 4,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-liguoqing",
+        "name": "直球不打草稿",
+        "effect": "脑内草稿刚写一半，话筒已经开始营业。",
+        "punchline": "表达可以直，事实要说准。",
+        "line": "表达可以直，事实要说准。",
+        "bias": [
+          0.9,
+          0.3,
+          -0.3,
+          0.9,
+          -0.3,
+          0.9
+        ],
+        "vector": [
+          95,
+          65,
+          35,
+          95,
+          35,
+          95
+        ],
+        "behaviorWeights": {
+          "web-live": 5,
+          "web-punchline": 4,
+          "web-meme": 3
+        },
+        "affinities": [
+          "liguoqing"
+        ],
+        "signatureFor": [
+          "liguoqing"
+        ],
+        "requires": [
+          "web-live",
+          "web-punchline",
+          "web-meme"
+        ],
+        "icon": 5,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-luoyonghao",
+        "name": "交个队友",
+        "effect": "原本只想解释一句，最后把四个人讲成了新朋友。",
+        "punchline": "先交朋友，再把片子拍完。",
+        "line": "先交朋友，再把片子拍完。",
+        "bias": [
+          0.7,
+          0.7,
+          0.1,
+          0.56,
+          0.64,
+          0.8
+        ],
+        "vector": [
+          85,
+          85,
+          55,
+          78,
+          82,
+          90
+        ],
+        "behaviorWeights": {
+          "web-punchline": 5,
+          "web-live": 4,
+          "web-craft": 4
+        },
+        "affinities": [
+          "luoyonghao"
+        ],
+        "signatureFor": [
+          "luoyonghao"
+        ],
+        "requires": [
+          "web-punchline",
+          "web-live",
+          "web-craft"
+        ],
+        "icon": 6,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-dongyuhui",
+        "name": "购物车里有散文",
+        "effect": "普通日用品经过你的介绍，先多了一段诗意的背景。",
+        "punchline": "把故事讲好，也把信息讲清楚。",
+        "line": "把故事讲好，也把信息讲清楚。",
+        "bias": [
+          0.56,
+          0.44,
+          0.8,
+          0.1,
+          0.7,
+          0.6
+        ],
+        "vector": [
+          78,
+          72,
+          90,
+          55,
+          85,
+          80
+        ],
+        "behaviorWeights": {
+          "web-cover": 4,
+          "web-care": 5,
+          "web-live": 4
+        },
+        "affinities": [
+          "dongyuhui"
+        ],
+        "signatureFor": [
+          "dongyuhui"
+        ],
+        "requires": [
+          "web-cover",
+          "web-care",
+          "web-live"
+        ],
+        "icon": 7,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-yuminhong",
+        "name": "人生复盘笔记",
+        "effect": "走过的弯路先记下来，下一次出发多带一条建议。",
+        "punchline": "经验可以分享，路线仍由自己选。",
+        "line": "经验可以分享，路线仍由自己选。",
+        "bias": [
+          0.44,
+          0.2,
+          0.56,
+          0.24,
+          0.9,
+          0.24
+        ],
+        "vector": [
+          72,
+          60,
+          78,
+          62,
+          95,
+          62
+        ],
+        "behaviorWeights": {
+          "web-plan": 5,
+          "web-care": 4,
+          "web-travel": 3
+        },
+        "affinities": [
+          "yuminhong"
+        ],
+        "signatureFor": [
+          "yuminhong"
+        ],
+        "requires": [
+          "web-plan",
+          "web-care",
+          "web-travel"
+        ],
+        "icon": 8,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-luoxiang",
+        "name": "张三来举例",
+        "effect": "每当问题太抽象，张三自动进入例子但不会替你做决定。",
+        "punchline": "笑过以后，边界也讲明白了。",
+        "line": "笑过以后，边界也讲明白了。",
+        "bias": [
+          0.3,
+          0.8,
+          0.7,
+          -0.1,
+          0.96,
+          0.44
+        ],
+        "vector": [
+          65,
+          90,
+          85,
+          45,
+          98,
+          72
+        ],
+        "behaviorWeights": {
+          "web-punchline": 5,
+          "web-plan": 5,
+          "web-care": 3
+        },
+        "affinities": [
+          "luoxiang"
+        ],
+        "signatureFor": [
+          "luoxiang"
+        ],
+        "requires": [
+          "web-punchline",
+          "web-plan",
+          "web-care"
+        ],
+        "icon": 9,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-guoyoucai",
+        "name": "诺言循环播放",
+        "effect": "一段前奏就能把普通路口唱成平行宇宙演唱会。",
+        "punchline": "嗓音负责入戏，节奏还得跟上。",
+        "line": "嗓音负责入戏，节奏还得跟上。",
+        "bias": [
+          0.7,
+          0.3,
+          0.56,
+          0.6,
+          -0.1,
+          0.8
+        ],
+        "vector": [
+          85,
+          65,
+          78,
+          80,
+          45,
+          90
+        ],
+        "behaviorWeights": {
+          "web-cover": 5,
+          "web-live": 4,
+          "web-meme": 3
+        },
+        "affinities": [
+          "guoyoucai"
+        ],
+        "signatureFor": [
+          "guoyoucai"
+        ],
+        "requires": [
+          "web-cover",
+          "web-live",
+          "web-meme"
+        ],
+        "icon": 10,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-wenhuijun",
+        "name": "早中晚人格切换",
+        "effect": "早上认真办事，中午跟着节拍，晚上给月亮写一句话。",
+        "punchline": "一天三种状态，都是同一个你。",
+        "line": "一天三种状态，都是同一个你。",
+        "bias": [
+          0.6,
+          0.64,
+          0.3,
+          0.8,
+          -0.2,
+          0.96
+        ],
+        "vector": [
+          80,
+          82,
+          65,
+          90,
+          40,
+          98
+        ],
+        "behaviorWeights": {
+          "web-dance": 5,
+          "web-meme": 4,
+          "web-live": 3
+        },
+        "affinities": [
+          "wenhuijun"
+        ],
+        "signatureFor": [
+          "wenhuijun"
+        ],
+        "requires": [
+          "web-dance",
+          "web-meme",
+          "web-live"
+        ],
+        "icon": 11,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-fengtimo",
+        "name": "副歌自动返场",
+        "effect": "唱到熟悉副歌时，四位队友自动切成合唱声部。",
+        "punchline": "先对好调，再把麦递出去。",
+        "line": "先对好调，再把麦递出去。",
+        "bias": [
+          0.64,
+          0.3,
+          0.56,
+          0.44,
+          0.3,
+          0.76
+        ],
+        "vector": [
+          82,
+          65,
+          78,
+          72,
+          65,
+          88
+        ],
+        "behaviorWeights": {
+          "web-cover": 5,
+          "web-live": 4,
+          "web-care": 3
+        },
+        "affinities": [
+          "fengtimo"
+        ],
+        "signatureFor": [
+          "fengtimo"
+        ],
+        "requires": [
+          "web-cover",
+          "web-live",
+          "web-care"
+        ],
+        "icon": 12,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-lijiaqi",
+        "name": "口播倍速档",
+        "effect": "讲解进入高速档，关键信息仍然得让每个人听清。",
+        "punchline": "三二一，先别急着点。",
+        "line": "三二一，先别急着点。",
+        "bias": [
+          0.96,
+          0.2,
+          0.1,
+          0.8,
+          0.76,
+          1.0
+        ],
+        "vector": [
+          98,
+          60,
+          55,
+          90,
+          88,
+          100
+        ],
+        "behaviorWeights": {
+          "web-live": 5,
+          "web-edit": 4,
+          "web-plan": 3
+        },
+        "affinities": [
+          "lijiaqi"
+        ],
+        "signatureFor": [
+          "lijiaqi"
+        ],
+        "requires": [
+          "web-live",
+          "web-edit",
+          "web-plan"
+        ],
+        "icon": 13,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-sunyue-comic",
+        "name": "捧哏稳场结界",
+        "effect": "队友越讲越离谱，你用一句接话把观众留在同一段里。",
+        "punchline": "这位孙越负责捧哏，不负责投三分。",
+        "line": "这位孙越负责捧哏，不负责投三分。",
+        "bias": [
+          0.5,
+          0.3,
+          0.8,
+          -0.1,
+          0.7,
+          0.56
+        ],
+        "vector": [
+          75,
+          65,
+          90,
+          45,
+          85,
+          78
+        ],
+        "behaviorWeights": {
+          "web-punchline": 5,
+          "web-care": 5,
+          "web-live": 3
+        },
+        "affinities": [
+          "sunyue-comic"
+        ],
+        "signatureFor": [
+          "sunyue-comic"
+        ],
+        "requires": [
+          "web-punchline",
+          "web-care",
+          "web-live"
+        ],
+        "icon": 14,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-guodegang",
+        "name": "返场再加一段",
+        "effect": "观众刚以为结束，你已经把下一段包袱接上了。",
+        "punchline": "这不是最后一段，是下段的开场。",
+        "line": "这不是最后一段，是下段的开场。",
+        "bias": [
+          0.9,
+          0.7,
+          0.2,
+          0.3,
+          0.9,
+          0.9
+        ],
+        "vector": [
+          95,
+          85,
+          60,
+          65,
+          95,
+          95
+        ],
+        "behaviorWeights": {
+          "web-punchline": 5,
+          "web-live": 5,
+          "web-plan": 3
+        },
+        "affinities": [
+          "guodegang"
+        ],
+        "signatureFor": [
+          "guodegang"
+        ],
+        "requires": [
+          "web-punchline",
+          "web-live",
+          "web-plan"
+        ],
+        "icon": 15,
+        "fanMade": true,
+        "rarity": "kGold",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "personal-dailanzi",
+        "name": "带文学弹幕翻译",
+        "effect": "群里突然沉默时，把一条普通消息翻译成全员都接得住的梗。",
+        "punchline": "嘴上绕一圈，队友还在同一边。",
+        "line": "嘴上绕一圈，队友还在同一边。",
+        "bias": [
+          0.76,
+          0.64,
+          -0.1,
+          0.5,
+          -0.04,
+          0.9
+        ],
+        "vector": [
+          88,
+          82,
+          45,
+          75,
+          48,
+          95
+        ],
+        "behaviorWeights": {
+          "web-punchline": 5,
+          "web-meme": 5,
+          "web-watch": 4,
+          "web-live": 4
+        },
+        "affinities": [
+          "dailanzi"
+        ],
+        "signatureFor": [
+          "dailanzi"
+        ],
+        "requires": [
+          "web-punchline",
+          "web-meme",
+          "web-watch",
+          "web-live"
+        ],
+        "icon": 0,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "人物专属",
+        "kind": "chaos",
+        "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
+        "personOnly": true
+      },
+      {
+        "id": "extra-fengge-1",
+        "name": "路边采访通行证",
+        "effect": "新地图刚打开，你已经和路边的人聊出了下一段故事。",
+        "punchline": "不是每个人都想出镜，先问一句再开拍。",
+        "line": "不是每个人都想出镜，先问一句再开拍。",
+        "bias": [
+          0.6,
+          1.0,
+          0.4,
+          0.7,
+          -0.1,
+          0.9
+        ],
+        "vector": [
+          80,
+          100,
+          70,
+          85,
+          45,
+          95
+        ],
+        "behaviorWeights": {
+          "web-travel": 5
+        },
+        "affinities": [
+          "fengge"
+        ],
+        "signatureFor": [
+          "fengge"
+        ],
+        "requires": [
+          "web-travel"
+        ],
+        "icon": 10,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "主角联动",
+        "kind": "chaos",
+        "creation": "本作原创人物联动，架空娱乐效果。",
+        "personOnly": true
+      },
+      {
+        "id": "extra-fengge-2",
+        "name": "宇宙路费已到账",
+        "effect": "把目的地改成问号，背包里多放一点观察力。",
+        "punchline": "先把同行的人数清点好，再出发。",
+        "line": "先把同行的人数清点好，再出发。",
+        "bias": [
+          0.6,
+          1.0,
+          0.4,
+          0.7,
+          -0.1,
+          0.9
+        ],
+        "vector": [
+          80,
+          100,
+          70,
+          85,
+          45,
+          95
+        ],
+        "behaviorWeights": {
+          "web-original": 5
+        },
+        "affinities": [
+          "fengge"
+        ],
+        "signatureFor": [
+          "fengge"
+        ],
+        "requires": [
+          "web-original"
+        ],
+        "icon": 10,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "主角联动",
+        "kind": "chaos",
+        "creation": "本作原创人物联动，架空娱乐效果。",
+        "personOnly": true
+      },
+      {
+        "id": "extra-daoge-1",
+        "name": "好果汁五人装",
+        "effect": "一箱五瓶，最后一瓶必须等没到场的队友。",
+        "punchline": "整活可以超前，队友一个别落。",
+        "line": "整活可以超前，队友一个别落。",
+        "bias": [
+          0.7,
+          0.4,
+          0.4,
+          0.8,
+          -0.1,
+          0.9
+        ],
+        "vector": [
+          85,
+          70,
+          70,
+          90,
+          45,
+          95
+        ],
+        "behaviorWeights": {
+          "web-meme": 5
+        },
+        "affinities": [
+          "daoge"
+        ],
+        "signatureFor": [
+          "daoge"
+        ],
+        "requires": [
+          "web-meme"
+        ],
+        "icon": 14,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "主角联动",
+        "kind": "chaos",
+        "creation": "本作原创人物联动，架空娱乐效果。",
+        "personOnly": true
+      },
+      {
+        "id": "extra-daoge-2",
+        "name": "街头场面维护员",
+        "effect": "现场越离谱，越先把五个人叫回同一镜头。",
+        "punchline": "先集合，再给宇宙整个活。",
+        "line": "先集合，再给宇宙整个活。",
+        "bias": [
+          0.7,
+          0.4,
+          0.4,
+          0.8,
+          -0.1,
+          0.9
+        ],
+        "vector": [
+          85,
+          70,
+          70,
+          90,
+          45,
+          95
+        ],
+        "behaviorWeights": {
+          "web-live": 5
+        },
+        "affinities": [
+          "daoge"
+        ],
+        "signatureFor": [
+          "daoge"
+        ],
+        "requires": [
+          "web-live"
+        ],
+        "icon": 14,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "主角联动",
+        "kind": "chaos",
+        "creation": "本作原创人物联动，架空娱乐效果。",
+        "personOnly": true
+      },
+      {
+        "id": "extra-dailanzi-2",
+        "name": "弹幕先替我拐个弯",
+        "effect": "不急着抢第一句，等到最适合接梗的那一秒。",
+        "punchline": "先看看，再给它换个说法。",
+        "line": "先看看，再给它换个说法。",
+        "bias": [
+          0.76,
+          0.64,
+          -0.1,
+          0.5,
+          -0.04,
+          0.9
+        ],
+        "vector": [
+          88,
+          82,
+          45,
+          75,
+          48,
+          95
+        ],
+        "behaviorWeights": {
+          "web-watch": 5
+        },
+        "affinities": [
+          "dailanzi"
+        ],
+        "signatureFor": [
+          "dailanzi"
+        ],
+        "requires": [
+          "web-watch"
+        ],
+        "icon": 10,
+        "fanMade": true,
+        "rarity": "kPrismatic",
+        "category": "主角联动",
+        "kind": "chaos",
+        "creation": "本作原创人物联动，架空娱乐效果。",
+        "personOnly": true
       }
     ]
   },
@@ -23861,7 +31333,7 @@
       "id": "rift",
       "name": "峡谷排位",
       "line": "上野中下辅，改写决胜局",
-      "count": 76
+      "count": 88
     }
   ],
   "lolDimensions": [
@@ -23896,27 +31368,27 @@
     "note": "装备和召唤师技能图标来自 Riot Data Dragon 16.21.1；卡名、夸张效果、重复排布和剧情为本作恶搞创作，不是官方强化。名场面提供参考出处，题目为改编情境。"
   },
   "counts": {
-    "questions": 300,
-    "lolQuestions": 156,
-    "lolChapters": 39,
-    "people": 46,
-    "parodyCards": 68,
-    "lolParodyCards": 42,
+    "questions": 348,
+    "lolQuestions": 168,
+    "lolChapters": 42,
+    "people": 95,
+    "parodyCards": 125,
+    "lolParodyCards": 60,
     "byTheme": {
       "lol": {
-        "questions": 156,
-        "people": 15,
-        "cards": 42
+        "questions": 168,
+        "people": 32,
+        "cards": 60
       },
       "basket": {
-        "questions": 72,
-        "people": 17,
-        "cards": 13
+        "questions": 84,
+        "people": 33,
+        "cards": 29
       },
       "abstract": {
-        "questions": 72,
-        "people": 16,
-        "cards": 13
+        "questions": 96,
+        "people": 30,
+        "cards": 36
       }
     }
   },
@@ -24011,7 +31483,7 @@
   "editorial": {
     "checkedAt": "2026-10-23",
     "label": "本期热梗 · 2026.10",
-    "note": "按公开来源整理的本期快照，含经典梗回归。离线版不自动抓取热榜。",
+    "note": "经典公开名场面与本作原创情境的固定快照；不声称实时热榜排名。人物标签描述本作梗角色，不是本人性格结论。",
     "sources": [
       {
         "title": "数英：2026上半年网络热词TOP30",
