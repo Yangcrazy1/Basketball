@@ -20,3 +20,5 @@
 | ![夜场](preview-night.png) | ![奶油](preview-paper.png) |
 
 [人物与装备梗卡结果](preview-result.png) · [五把收集者海报](preview-poster.png) · [源码和构建说明](../README.md)
+
+已通过 15 项引擎、14 项浏览器、6 项公网检查。公网首页、单文件入口和实际下载均与本目录 HTML 的 SHA-256 相同。离线检查以导出文件内容断网载入完成；云浏览器的 file:// 导航受管理策略限制，详见检查报告。

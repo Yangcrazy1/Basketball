@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "url": "https://yangcrazy1.github.io/Basketball/?v=8-memes",
+  "download_page": "https://yangcrazy1.github.io/Basketball/download/?v=8-memes",
+  "source_commit": "9a31c331241ca207fedfd93d09d9408b4a023edb",
+  "html_sha256": "d99f312ab22eb6463cd8ce12a55dff4c8c6f6d80a54702f5c3cdab5e7c74c7b3",
+  "html_bytes": 6253650,
+  "checks": [
+    "public root and single-file URL both return HTTP 200 with exactly the tested HTML bytes",
+    "actual public Chromium mobile viewport boots V8 with the removed character/model absent",
+    "public Collector sample distinguishes AFK and inting with separate parody cards",
+    "public eight-question flow reveals a cartoon person, real-icon parody card and five-person team",
+    "public app actually downloads the new PNG and a complete offline HTML file",
+    "public download page downloads exactly the released single-file HTML"
+  ],
+  "javascript_errors": [],
+  "checked_at": "2026-10-23T11:18:32.839757+00:00",
+  "scope": "Actual public HTTPS site, Chromium 390px responsive viewport and real downloads; no physical phone hardware test"
+}

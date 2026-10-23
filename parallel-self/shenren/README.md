@@ -30,3 +30,5 @@ python tests/public-web-check.py
 核心文件为 `src/data.json`、`src/engine.js`、`src/app.js`、`src/style.css`；真实图标在 `assets/game-icons/`。`tools/v8-content.py` 和 `tools/v8-interface.py` 是从 V7 升级时的制作工具，普通构建直接使用已完成的源文件，无需重新运行制作脚本或联网。
 
 15 项引擎检查覆盖随机抽题、答案语义、不同梗卡、合法五人分位、真实图标哈希和复制数量。浏览器报告见 `docs/browser-check-v8.json`，公网报告见 `docs/web-verification-v8.json`，包括手机尺寸排版、真实 PNG / HTML 下载、导出文件断网载入和拒绝存储时的完整流程；当前云端 Chromium 的管理策略阻止 file:// 导航，此项在报告中单独标记。测试范围是 Chromium，不是实体手机硬件。
+
+本次交付已通过 15 项引擎、14 项浏览器与 6 项真实公网 HTTPS 检查。公网首页和实际下载的 HTML 与发布文件 SHA-256 一致：`d99f312ab22eb6463cd8ce12a55dff4c8c6f6d80a54702f5c3cdab5e7c74c7b3`。
