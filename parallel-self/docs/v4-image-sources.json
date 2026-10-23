@@ -1,0 +1,230 @@
+{
+  "references": [
+    {
+      "id": "huge-daoge-goodjuice",
+      "people": [
+        "东北虎哥（画面右）",
+        "东北刀哥（画面左）"
+      ],
+      "kind": "verified_meme_scene",
+      "scene": "没你滴好果汁吃 / 虎刀宣战",
+      "sourcePage": "https://zh.moegirl.org.cn/%E4%B8%9C%E7%99%BE%E5%BE%80%E4%BA%8B",
+      "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/0/01/%E6%B2%A1%E4%BD%A0%E6%BB%B4%E5%A5%BD%E6%9E%9C%E6%B1%81%E5%90%83.jpg",
+      "identityEvidence": "条目“主要人物”配图明确说明：虎哥（右）、刀哥向杀马特团长宣战；文章简介说明为2016年短视频系列，照片字幕“没你滴好果汁吃”。",
+      "rightsStatus": "未确认图片的独立商用/改作授权，不能把百科页面文字许可当图片授权。",
+      "sha256": "fd3c173ac476eba919b126627ec84019b5b44de8a96fdb4d3de278a9051d35f6"
+    },
+    {
+      "id": "huge-declaration",
+      "people": [
+        "东北虎哥"
+      ],
+      "kind": "verified_meme_scene",
+      "scene": "虎哥独立宣言 / 街头张开双臂",
+      "sourcePage": "https://zh.moegirl.org.cn/%E4%B8%9C%E7%99%BE%E5%BE%80%E4%BA%8B",
+      "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/7/75/%E8%99%8E%E5%93%A5%E7%8B%AC%E7%AB%8B%E5%AE%A3%E8%A8%80.jpg",
+      "identityEvidence": "条目虎哥段落指认其为“独立宣言”主人公，并收录文件“虎哥独立宣言.jpg”。已下载与视觉检查。",
+      "rightsStatus": "未确认图片的独立商用/改作授权。",
+      "sha256": "360e4a03bd7aff7bfae1efb8fa5b4c304e26c29fd2fdad3663d9a80e5141c7a8"
+    },
+    {
+      "id": "hu-portrait",
+      "people": [
+        "户晨风"
+      ],
+      "kind": "verified_portrait_not_meme",
+      "scene": "蓝底条纹毛衣肖像（不是名场面）",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Portrait_photograph_of_content_creator_Hu_Chenfeng_(%E6%88%B7%E6%99%A8%E9%A3%8E).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Portrait_photograph_of_content_creator_Hu_Chenfeng_%28%E6%88%B7%E6%99%A8%E9%A3%8E%29.jpg",
+      "identityEvidence": "Commons 文件描述明确“content creator Hu Chenfeng (户晨风)”，作者栏户晨风，来源 Bilibili 我是户晨风；中文维基人物条目采用该图。",
+      "rightsStatus": "Commons 文件实际模板为 Copyrighted free use：权利人允许任意目的、再分发、商业使用与修改；文件页给出本人放弃版权声明链接。肖像/人格权独立，不宣称官方背书。",
+      "sha256": "21cb8610aed2d65732825fe40c2544eceb6597b5e92cab401b42ad512df2763f"
+    },
+    {
+      "id": "lebron-jr-smith",
+      "people": [
+        "LeBron James"
+      ],
+      "kind": "verified_meme_scene",
+      "scene": "LeBron James + J.R. Smith 摊手名场面模板",
+      "sourcePage": "https://imgflip.com/meme/140080740/lebron-james--jr-smith",
+      "imageUrl": "https://i.imgflip.com/2beezo.jpg",
+      "identityEvidence": {
+        "page_title": "lebron james + jr smith Memes - Imgflip",
+        "page_image_alt": "lebron james + jr smith Blank Meme Template",
+        "page_direct_image": "//i.imgflip.com/2beezo.jpg",
+        "visual_check": "詹姆斯穿骑士球衣在球场上摊开双臂，右侧为背号5、SMITH球衣的队员；与公开流传的2018总决赛J.R.Smith名场面一致。未独立核查摄影师与原始摄影机构。"
+      },
+      "rightsStatus": "Unverified. User-uploaded meme template host is not proof of commercial reuse rights. Keep source provenance and do not distribute original as licensed stock.",
+      "sha256": "f84ca5569b349ed04f7f5c3172c9eb3f3de168dbfd8a922c315fbc5d2068ee46"
+    },
+    {
+      "id": "jackie-chan-confused",
+      "people": [
+        "成龙"
+      ],
+      "kind": "verified_meme_scene",
+      "scene": "困惑抱头名场面照片",
+      "sourcePage": "https://imgflip.com/meme/44529090/Jackie-Chan-Confused",
+      "imageUrl": "https://i.imgflip.com/qiev6.jpg",
+      "identityEvidence": "Template page explicitly names Jackie Chan Confused. Photo; hands lifted beside head, confused expression, matches well-known Jackie Chan Confused meme.",
+      "rightsStatus": "Unverified. Public user-uploaded meme template is not proof of commercial/photo-license permission.",
+      "sha256": "44d0fd20803b08d31f29666e98ba4d8829226434f5ce34b6e30ecbadeed194cd"
+    },
+    {
+      "id": "yao-ming-laugh",
+      "people": [
+        "姚明"
+      ],
+      "kind": "verified_meme_line_art",
+      "scene": "姚明笑脸表情包（已是线稿）",
+      "sourcePage": "https://imgflip.com/meme/Yao-Ming",
+      "imageUrl": "https://i.imgflip.com/2c47.jpg",
+      "identityEvidence": "Template page explicitly names Yao Ming. Already a line-art meme; not a source photograph. Distinct familiar laughing rage-comic expression.",
+      "rightsStatus": "Unverified. Public user-uploaded meme template is not proof of commercial/photo-license permission.",
+      "sha256": "181706ed455401c592882c0598d3ab90032375dee4d757db453806ebf9ba6d26"
+    },
+    {
+      "id": "sun-xiaochuan-portrait",
+      "people": [
+        "孙笑川"
+      ],
+      "kind": "verified_portrait_template_not_scene",
+      "scene": "西装抱臂模板照",
+      "sourcePage": "https://imgflip.com/meme/338239859/Sun-Xiaochuan",
+      "imageUrl": "https://i.imgflip.com/5ldnjn.jpg",
+      "identityEvidence": "Template page explicitly names Sun Xiaochuan. Photo meme template; subject in suit, glasses, arms crossed. This is a portrait template, not independently verified as a specific famous live-stream scene.",
+      "rightsStatus": "Unverified. Public user-uploaded meme template is not proof of commercial/photo-license permission.",
+      "sha256": "24ef21df70c02c4524fa40cd7ed09632b26d4b74e3286296c67309a9e128e770"
+    },
+    {
+      "id": "geyou-sofa",
+      "people": [
+        "葛优（饰纪春生）"
+      ],
+      "kind": "verified_meme_scene",
+      "scene": "葛优躺 / 《我爱我家》纪春生瘫坐沙发",
+      "sourcePage": "https://zh.moegirl.org.cn/%E8%91%9B%E4%BC%98%E8%BA%BA",
+      "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/4/4b/F636afc379310a55d90a6381bf4543a98226109c.png",
+      "identityEvidence": "Article says 葛优躺 originates from 1993 sitcom 我爱我家, the character 纪春生 played by 葛优 lying entirely relaxed on a sofa. Downloaded lead image visually matches the actor lying on the light sofa.",
+      "rightsStatus": "Television screenshot; separate commercial reuse/adaptation permission not verified. Article text licensing is not proof of screenshot licensing.",
+      "sha256": "2d99e2c662df82959e29d4b1b5c5ba7770d1a1b52ade0015aeeefaeafe10abea",
+      "dimensions": [
+        480,
+        260
+      ]
+    }
+  ],
+  "classificationNote": "Verified means identity/source/scene classification was checked, not that commercial rights are cleared. Portraits and line-art memes are kept distinct from photographed famous scenes.",
+  "excluded": [
+    {
+      "id": "dasima-stare",
+      "reason": "Image is a robot meme named 大司马的凝视, not a photograph of the person."
+    }
+  ],
+  "notFound": [
+    "峰哥亡命天涯 reliable photograph not obtained yet",
+    "美国讲师 reliable photograph not obtained yet"
+  ],
+  "distributionNote": "The application now includes the eight original reference images in src/assets/meme-references, without image editing. They are explicitly labeled as original scene photos, ordinary portraits or an existing line-art meme. No real-reference cartoon redraws were generated. Separate commercial permissions remain unverified except the documented Hu Chenfeng Commons free-use license.",
+  "sceneBindings": [
+    {
+      "characterId": "huge",
+      "referenceId": "huge-declaration",
+      "kind": "名场面",
+      "asset": "meme-references/huge.jpg",
+      "displayLabel": "名场面原图",
+      "width": 480,
+      "height": 640,
+      "bytes": 27516,
+      "sha256": "360e4a03bd7aff7bfae1efb8fa5b4c304e26c29fd2fdad3663d9a80e5141c7a8",
+      "cartoonGenerated": false
+    },
+    {
+      "characterId": "daoge",
+      "referenceId": "huge-daoge-goodjuice",
+      "kind": "名场面",
+      "asset": "meme-references/daoge.jpg",
+      "displayLabel": "名场面原图",
+      "width": 655,
+      "height": 625,
+      "bytes": 53372,
+      "sha256": "fd3c173ac476eba919b126627ec84019b5b44de8a96fdb4d3de278a9051d35f6",
+      "cartoonGenerated": false
+    },
+    {
+      "characterId": "huchenfeng",
+      "referenceId": "hu-portrait",
+      "kind": "普通肖像",
+      "asset": "meme-references/huchenfeng.jpg",
+      "displayLabel": "参考肖像原图",
+      "width": 1069,
+      "height": 1306,
+      "bytes": 137365,
+      "sha256": "21cb8610aed2d65732825fe40c2544eceb6597b5e92cab401b42ad512df2763f",
+      "cartoonGenerated": false
+    },
+    {
+      "characterId": "lebron",
+      "referenceId": "lebron-jr-smith",
+      "kind": "名场面",
+      "asset": "meme-references/lebron.jpg",
+      "displayLabel": "名场面原图",
+      "width": 1024,
+      "height": 546,
+      "bytes": 65708,
+      "sha256": "f84ca5569b349ed04f7f5c3172c9eb3f3de168dbfd8a922c315fbc5d2068ee46",
+      "cartoonGenerated": false
+    },
+    {
+      "characterId": "jackie",
+      "referenceId": "jackie-chan-confused",
+      "kind": "名场面",
+      "asset": "meme-references/jackie.jpg",
+      "displayLabel": "名场面原图",
+      "width": 1500,
+      "height": 1005,
+      "bytes": 392781,
+      "sha256": "44d0fd20803b08d31f29666e98ba4d8829226434f5ce34b6e30ecbadeed194cd",
+      "cartoonGenerated": false
+    },
+    {
+      "characterId": "yaoming",
+      "referenceId": "yao-ming-laugh",
+      "kind": "线稿",
+      "asset": "meme-references/yaoming.jpg",
+      "displayLabel": "已有线稿表情",
+      "width": 500,
+      "height": 623,
+      "bytes": 26289,
+      "sha256": "181706ed455401c592882c0598d3ab90032375dee4d757db453806ebf9ba6d26",
+      "cartoonGenerated": false
+    },
+    {
+      "characterId": "sunxiaochuan",
+      "referenceId": "sun-xiaochuan-portrait",
+      "kind": "普通肖像",
+      "asset": "meme-references/sunxiaochuan.jpg",
+      "displayLabel": "参考肖像原图",
+      "width": 500,
+      "height": 500,
+      "bytes": 83311,
+      "sha256": "24ef21df70c02c4524fa40cd7ed09632b26d4b74e3286296c67309a9e128e770",
+      "cartoonGenerated": false
+    },
+    {
+      "characterId": "geyou",
+      "referenceId": "geyou-sofa",
+      "kind": "名场面",
+      "asset": "meme-references/geyou.png",
+      "displayLabel": "名场面原图",
+      "width": 480,
+      "height": 260,
+      "bytes": 246046,
+      "sha256": "2d99e2c662df82959e29d4b1b5c5ba7770d1a1b52ade0015aeeefaeafe10abea",
+      "cartoonGenerated": false
+    }
+  ],
+  "referenceImageBytes": 1032388,
+  "realReferenceCartoonRedrawsGenerated": false
+}

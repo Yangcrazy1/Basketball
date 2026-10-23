@@ -1,0 +1,40 @@
+{
+  "version": 4,
+  "status": "passed",
+  "html_sha256": "e05384f84b86844803ecd9d0ea18eabe26a3c3c86fac84b9fe0cf3a02f832658",
+  "html_bytes": 1809380,
+  "browser": "system Chromium / Playwright",
+  "passed": 19,
+  "failed": 0,
+  "checks": [
+    "appReady is set, startup diagnostic hides, and three modes plus two intent views are available",
+    "both themes persist and homepage has no overflow at 320/390/430/768/1440px",
+    "a sourced reference image renders visible pixels and its detail card retains the original source link",
+    "all world libraries show correct counts and search handles matches, empty state and clearing",
+    "favorite toggle is retained across reload and appears in the archive",
+    "8-question self journey enforces completion, supports back/edit and reload resume, and unlocks only the first layer",
+    "8→16 upgrade keeps actual answers and recalculates the family/subtype with an explicit update note",
+    "16→24 upgrade adds the final branch and displays explainable evidence, contrast character and companion",
+    "all result worlds support Top 3/full ranked lists, evidence and keyboard tab switching",
+    "review quotes actual choices and editing one question recomputes a full result without answering the rest again",
+    "deep results fit both themes at 320/390/430/768/1440px without horizontal overflow",
+    "both themes generate distinct full PNG identity cards and an actual downloaded PNG opens successfully",
+    "sample results do not overwrite the latest result or append fake history",
+    "direct 16- and 24-question journeys finish at their own boundaries, independently of upgrades",
+    "self and ideal runs are saved and labeled separately in history and can be reopened",
+    "multiple recent records persist across a reload and reopen with engine-consistent results",
+    "null/invalid history entries and malformed JSON are ignored without crashing, and a new run can still be saved",
+    "offline HTML with denied storage displays reference images, completes eight questions and downloads a real PNG",
+    "all tested workflows complete without JavaScript errors or external HTTP dependencies"
+  ],
+  "failure": null,
+  "javascript_errors": [],
+  "external_requests": [],
+  "duration_seconds": 20.63,
+  "delivery_not_verified": [
+    "physical phone installation",
+    "ChatGPT attachment export/download route",
+    "public HTTPS hosting"
+  ],
+  "scope": "immutable generated HTML snapshot; random local HTTP port and offline about:blank rendering"
+}

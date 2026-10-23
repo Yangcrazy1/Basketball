@@ -1,0 +1,21 @@
+{
+  "artifact": "/workspace/Basketball/parallel-self/dist/parallel-self-android.apk",
+  "bytes": 1315353,
+  "sha256": "4810ce1d75a0f699531d20a30983c3fb8b00ce9f0b735775d3b1e780773a7172",
+  "application_label": "另一个我",
+  "package": "com.elsewhere.parallelself",
+  "version": "4.0.0",
+  "version_code": 4,
+  "min_sdk": 26,
+  "target_sdk": 35,
+  "requested_permissions": [],
+  "signature_v2_verified": true,
+  "signature_v3_verified": true,
+  "signer_certificate_sha256": "b5fdf0369db2b63d0449026109505fc3e669236de4c1866a78e8e8b86d7875c3",
+  "zip_alignment_verified": true,
+  "packaged_html_matches_input": true,
+  "html_input": "/workspace/Basketball/parallel-self/dist/parallel-self.html",
+  "html_sha256": "e05384f84b86844803ecd9d0ea18eabe26a3c3c86fac84b9fe0cf3a02f832658",
+  "runtime_installation_and_launch": "not_run_no_device_or_emulator",
+  "phone_download_accessibility": "not_established_by_local_build"
+}

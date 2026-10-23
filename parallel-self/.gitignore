@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+mobile-android/build/
+dist/

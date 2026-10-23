@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f6fb">
+  <meta name="description" content="24个离谱现场，认领你的平行身份。名场面参考图、三档探索、单机离线。">
+  <title>另一个我 · ELSEWHERE</title>
+  <style>__CSS__</style>
+  <script>
+  window.__bootFail=function(message){var box=document.getElementById('startup-status');if(box){box.hidden=false;box.innerHTML='<strong>页面已打开，启动还没有完成</strong><p>请在支持网页脚本的浏览器中打开，或使用安卓安装包。文件预览可能只显示静态内容。</p><small id="startup-detail"></small>';document.getElementById('startup-detail').textContent=String(message||'');}};
+  window.addEventListener('error',function(e){if(!document.documentElement.dataset.appReady)window.__bootFail(e.message);});
+  window.__bootTimer=setTimeout(function(){if(!document.documentElement.dataset.appReady)window.__bootFail('等待页面初始化超时');},10000);
+  </script>
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <section id="startup-status" class="startup-status" role="status"><strong>正在打开平行身份研究所…</strong><p>图片和题目已打包在文件中。</p></section>
+  <header class="topbar"><button class="brand" id="home-link" aria-label="返回首页"><span class="brand-icon">∞</span><span>另一个我<small>ELSEWHERE</small></span></button><div class="header-actions"><div class="theme-switch" role="group" aria-label="选择配色"><button data-theme-choice="lavender" aria-pressed="true" title="星雾紫"><i style="background:#7960c8" aria-hidden="true"></i><span class="theme-name">星雾紫</span></button><button data-theme-choice="mint" aria-pressed="false" title="森屿青"><i style="background:#2e8879" aria-hidden="true"></i><span class="theme-name">森屿青</span></button></div><button class="quiet" id="archive-link">我的档案 <span aria-hidden="true">↗</span></button></div></header>
+  <main id="app" tabindex="-1"></main>
+  <footer class="footer"><span class="status-dot"></span> 单机体验 · 答案只留在本机 <button id="about-link">关于测试</button></footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="modal" aria-labelledby="modal-title"><div class="dialog-head"><h2 id="modal-title">关于这次旅程</h2><button class="icon-btn" id="close-modal" aria-label="关闭弹窗">×</button></div><div id="modal-content"></div></dialog>
+  <template id="license-template"><pre class="license">__NOTICES__</pre></template>
+  <noscript><p class="noscript">当前预览器没有启用 JavaScript。请将此 HTML 文件交给能执行网页脚本的浏览器打开；微信附件和部分文件预览器只能显示静态内容。</p></noscript>
+  <script>__ENGINE__</script>
+  <script>window.ParallelStorage = (function () { const module = {exports: {}};
+__STORAGE__
+  return module.exports; })();</script>
+  <script>window.PARALLEL_DATA = __DATA__; window.PORTRAIT_IMAGE = '__PORTRAIT_IMAGE__'; window.REFERENCE_IMAGES = __REFERENCE_IMAGES__;</script>
+  <script>__APP__</script>
+</body>
+</html>

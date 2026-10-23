@@ -1,0 +1,16 @@
+{
+  "type": "browser simulation of injected JS plus plain Java URL validator, not Android device execution",
+  "passed": 5,
+  "checks": [
+    "trusted target_blank HTTPS click goes to native browser bridge, without popup or WebView navigation",
+    "PNG download click goes to native save bridge",
+    "poster share click goes to native share bridge",
+    "synthetic source click does not launch native browser",
+    "bridge injection is idempotent"
+  ],
+  "java_source_policy": {
+    "approved": 5,
+    "rejected": 14
+  },
+  "android_runtime_tested": false
+}

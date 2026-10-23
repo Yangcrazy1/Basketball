@@ -1,0 +1,2 @@
+4810ce1d75a0f699531d20a30983c3fb8b00ce9f0b735775d3b1e780773a7172  parallel-self-android.apk
+e05384f84b86844803ecd9d0ea18eabe26a3c3c86fac84b9fe0cf3a02f832658  parallel-self.html

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "q1",
+    "primary": "social",
+    "secondary": "express",
+    "reason": "从静默观察到主动发起公开圆桌，显式发言范围与表达主动性递增；不把参与人群本身等同于高表达。"
+  },
+  {
+    "id": "q8",
+    "primary": "explore",
+    "secondary": "order",
+    "reason": "公寓生活从规则每天变化到物品和节奏固定，稳定可预测的环境偏好递增；只是轻量环境偏好证据。"
+  },
+  {
+    "id": "q10",
+    "primary": "action",
+    "secondary": "order",
+    "reason": "开店步骤从先试营业到预先推演完整经营流程，准备结构递增；与行动快慢相关但不视为同一构念。"
+  },
+  {
+    "id": "q11",
+    "primary": "order",
+    "secondary": "explore",
+    "reason": "同一意外里从恢复备用路线到主动把变化拍成番外，接纳新情境的程度递增。"
+  },
+  {
+    "id": "q17",
+    "primary": "order",
+    "secondary": "action",
+    "reason": "对新营业方式的尝试，从当晚试运营到先完成边界讨论，启动顺序递减；不能推断现实执行能力。"
+  },
+  {
+    "id": "q20",
+    "primary": "explore",
+    "secondary": "express",
+    "reason": "从预录熟悉内容到现场公开尝试，公开呈现范围与即兴曝光意愿递增；这是场景行为，不是舞台能力。"
+  },
+  {
+    "id": "q22",
+    "primary": "action",
+    "secondary": "express",
+    "reason": "从马上接麦发挥到准备后再申请出场，即兴公开表达意愿递减；不将慎重准备解释为表达能力不足。"
+  },
+  {
+    "id": "q23",
+    "primary": "order",
+    "secondary": "explore",
+    "reason": "面对业务新方向，从隔离新项目到顺着点子开新支线，对改变路径的接纳递增。"
+  }
+]

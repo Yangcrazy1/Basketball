@@ -1,0 +1,31 @@
+The storage module (src/storage.cjs) is reused without modification from:
+https://github.com/HalfSweetLemon/sbti-weapp/blob/7b5a2608308342fbdff8dd6a0d263d55cf0100c2/utils/storage.js
+
+MIT License
+
+Copyright (c) 2026 Lemmy
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+All quiz questions, narrative profiles, illustrative character vectors and UI in this demo are newly authored. No SBTI source questions, personality text or character images are included.
+
+V4 includes third-party photographic references and an existing meme line drawing. They are not newly authored artwork. Source pages, identity evidence and known rights status are provided on the in-app character cards and in docs/v4-image-sources.json. Rights for commercial use have not all been verified; public availability does not establish a commercial license. Real-reference cartoon generation was not completed.
+
+V3 illustration asset: src/assets/topic-cartoons.png is an AI-generated original cartoon sprite sheet produced for this demo. The figures are illustrative interpretations, not photographs or official portraits. Other role thumbnails are original generic SVG cartoons.

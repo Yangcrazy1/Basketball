@@ -1,0 +1,2288 @@
+{
+  "version": 4,
+  "dimensions": [
+    {
+      "id": "social",
+      "name": "社交能量",
+      "low": "独处充电",
+      "high": "人群充电",
+      "color": "#8270df"
+    },
+    {
+      "id": "explore",
+      "name": "探索欲",
+      "low": "熟悉安心",
+      "high": "未知着迷",
+      "color": "#5d91b6"
+    },
+    {
+      "id": "empathy",
+      "name": "共情力",
+      "low": "理性解题",
+      "high": "感受先行",
+      "color": "#d28caa"
+    },
+    {
+      "id": "action",
+      "name": "行动力",
+      "low": "深思熟虑",
+      "high": "即刻启程",
+      "color": "#c99b62"
+    },
+    {
+      "id": "order",
+      "name": "秩序感",
+      "low": "随性流动",
+      "high": "计划有序",
+      "color": "#6d9e92"
+    },
+    {
+      "id": "express",
+      "name": "表达欲",
+      "low": "留给自己",
+      "high": "让世界看见",
+      "color": "#9980bc"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "dim": "social",
+      "reverse": false,
+      "scene": "01 · 鸽子公司",
+      "title": "你空降一家鸽子公司，群里 200 只鸽子正在刷“收到”。你先？",
+      "options": [
+        "私聊一只看起来靠谱的鸽，领取潜规则",
+        "直接发起“人类到底在忙什么”圆桌会",
+        "给自己找个窗边工位，先观察鸽际关系",
+        "发个自我介绍，认领几个共同话题"
+      ],
+      "values": [
+        2,
+        4,
+        1,
+        3
+      ],
+      "secondary": {
+        "dim": "express",
+        "values": [
+          2,
+          4,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "dim": "explore",
+      "reverse": false,
+      "scene": "02 · 冰箱支线",
+      "title": "冰箱里出现一扇门，门牌写着“对面还是星期一”。你的选择是？",
+      "options": [
+        "带着一份地图进去，给日常加点新剧情",
+        "关门保鲜，今天先把熟悉的生活过香",
+        "拿上酸奶出发，门后的规则边走边学",
+        "先看门缝，确认这条支线大概讲什么"
+      ],
+      "values": [
+        3,
+        1,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "q3",
+      "dim": "empathy",
+      "reverse": false,
+      "scene": "03 · 电饭煲哭了",
+      "title": "电饭煲委屈地说：“我每天煮饭，却没人问我熟不熟。”你会？",
+      "options": [
+        "先问最近哪个环节卡住了，一起排查问题",
+        "先听它把话说完，今天的饭晚点再煮",
+        "给它做张反馈表，顺便聊聊哪里不舒服",
+        "陪它坐一会儿：你不工作时也值得被在乎"
+      ],
+      "values": [
+        1,
+        3,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "q4",
+      "dim": "action",
+      "reverse": false,
+      "scene": "04 · 月亮改造队",
+      "title": "你决定把月亮改造成一盏床头灯。真正动工前，你更可能？",
+      "options": [
+        "先点亮第一版，亮度和开关边用边改",
+        "比一比几种做法，选稳妥的一条开工",
+        "先拿纸糊个小月亮，今晚就试试光线",
+        "先在脑内把方案演完，效果不对再等等"
+      ],
+      "values": [
+        4,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "q5",
+      "dim": "order",
+      "reverse": false,
+      "scene": "05 · 人生更新包",
+      "title": "系统送你一天没有任务的假期，但可以自己装插件。你会装？",
+      "options": [
+        "“一件就好”：先定一个目标，其余随缘",
+        "“假期导演”：时间线和备选片场都安排好",
+        "“随机漫游”：今天的行程由脚决定",
+        "“弹性清单”：几个想做的事，顺序能改"
+      ],
+      "values": [
+        2,
+        4,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "q6",
+      "dim": "express",
+      "reverse": false,
+      "scene": "06 · 内心预告片",
+      "title": "宇宙把你的内心 OS 剪成了一条 30 秒预告片。你想怎么放映？",
+      "options": [
+        "发到熟人场，看看谁能接住里面的梗",
+        "只存私人影院，懂自己的观众已经够了",
+        "正式上线，让全宇宙看看我的个人风格",
+        "给一个懂我笑点的人发隐藏放映券"
+      ],
+      "values": [
+        3,
+        1,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "q7",
+      "dim": "social",
+      "reverse": true,
+      "scene": "07 · 社交散热器",
+      "title": "你在土豆舞厅连续营业三小时，系统提示“电量不足”。你怎么充？",
+      "options": [
+        "关掉通知，进入单人离线烤土豆模式",
+        "找两三颗熟土豆吃宵夜，低功率续航",
+        "回自己熟悉的小窝，只留一个聊天窗口",
+        "换一家舞厅，新的观众就是新的充电宝"
+      ],
+      "values": [
+        4,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "q8",
+      "dim": "explore",
+      "reverse": true,
+      "scene": "08 · 宇宙租房",
+      "title": "四套平行世界公寓同价包水电，你会租哪套？",
+      "options": [
+        "规则每天刷新，连电梯都可能开出新地图",
+        "邻居和路线都熟，偶尔有个惊喜节日",
+        "生活基本稳定，楼下永远有没逛过的街",
+        "每件东西都在固定位置，日常越过越顺手"
+      ],
+      "values": [
+        1,
+        3,
+        2,
+        4
+      ],
+      "secondary": {
+        "dim": "order",
+        "values": [
+          1,
+          3,
+          2,
+          4
+        ]
+      }
+    },
+    {
+      "id": "q9",
+      "dim": "empathy",
+      "reverse": true,
+      "scene": "09 · 月亮蘸醋",
+      "title": "群友为“月亮到底能不能蘸醋”吵起来了。你最先想弄懂？",
+      "options": [
+        "先理一理理由，也看看哪些表达让人难受",
+        "一句蘸醋，怎么就戳中了这么多人的心事",
+        "月亮、醋和“能”的定义，证据得先对齐",
+        "大家各自经历了什么，才会这么在意答案"
+      ],
+      "values": [
+        3,
+        1,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "q10",
+      "dim": "action",
+      "reverse": true,
+      "scene": "10 · 今天先开服",
+      "title": "你确定要开一家“周一回收站”，但没有现成教程。你的第一步是？",
+      "options": [
+        "先收一个小小的周一，测通最简单的流程",
+        "先推演收货、存放和退换，准备完整再开",
+        "先挂上牌子试营业，从第一位客人学起",
+        "比较几套经营方案，再选一种开始试"
+      ],
+      "values": [
+        2,
+        4,
+        1,
+        3
+      ],
+      "secondary": {
+        "dim": "order",
+        "values": [
+          2,
+          4,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "id": "q11",
+      "dim": "order",
+      "reverse": true,
+      "scene": "11 · 弹幕天气",
+      "title": "你排好了周末行程，天气却突然变成满天弹幕。你会？",
+      "options": [
+        "干脆改拍番外：这天气才配得上我的周末",
+        "保住最想做的两件事，其余顺着情况调整",
+        "把弹幕也当景点，沿路挑新的乐子",
+        "打开备用行程，先让重要节点重新归位"
+      ],
+      "values": [
+        4,
+        2,
+        3,
+        1
+      ],
+      "secondary": {
+        "dim": "explore",
+        "values": [
+          4,
+          2,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "q12",
+      "dim": "express",
+      "reverse": true,
+      "scene": "12 · 空气颁奖礼",
+      "title": "梦里你拿了“年度最会和空气聊天奖”。醒来后，获奖感言放哪？",
+      "options": [
+        "做成一条正式作品，邀请大家围观首映",
+        "只讲给几个能听懂我频道的人",
+        "写成小段子，发给一圈熟悉的朋友",
+        "写进私人梦境档案，自己知道就很满足"
+      ],
+      "values": [
+        1,
+        3,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "q13",
+      "dim": "social",
+      "reverse": false,
+      "scene": "13 · 喵语临时队",
+      "title": "你被分进一支只能用“喵”交流的临时小队。开局你会？",
+      "options": [
+        "找一位队友对一下暗号，慢慢加入聊天",
+        "发明一套喵语破冰游戏，让全队先熟起来",
+        "先看大家怎么喵，用实际行动接上节奏",
+        "主动喵一圈，迅速找到几个同频队友"
+      ],
+      "values": [
+        2,
+        4,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "q14",
+      "dim": "explore",
+      "reverse": false,
+      "scene": "14 · 算法罢工",
+      "title": "推荐算法罢工了，只给你推《盆栽的宇宙史》。你会？",
+      "options": [
+        "收藏起来，找时间研究这盆栽凭什么写史",
+        "切回收藏夹，熟悉的内容仍然很有味道",
+        "一路点进参考资料，今晚正式加入盆栽学",
+        "先看一分钟，和我有关再考虑追下去"
+      ],
+      "values": [
+        3,
+        1,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "q15",
+      "dim": "empathy",
+      "reverse": false,
+      "scene": "15 · 电梯神曲",
+      "title": "朋友用 99 次电梯“叮”声写了首歌，请你提意见。你先回应？",
+      "options": [
+        "把节奏和结构的问题说具体，帮作品少走弯路",
+        "先聊他想表达什么，再一起找更合适的声音",
+        "挑一个最能改进的点，再给个直接可试的办法",
+        "先告诉他哪个瞬间打动了我，保护这份创作劲"
+      ],
+      "values": [
+        1,
+        3,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "q16",
+      "dim": "action",
+      "reverse": false,
+      "scene": "16 · 沉默大赛",
+      "title": "你决定办一场“谁先说话谁赢”的沉默大赛，离开赛还早。你通常会？",
+      "options": [
+        "尽早办一轮内测，后面的时间全拿来迭代",
+        "先凑齐关键条件，再开始正式筹备",
+        "今天先做完一小块，让比赛有点实体感",
+        "让点子在脑内多发酵，等形状足够清楚"
+      ],
+      "values": [
+        4,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "q17",
+      "dim": "order",
+      "reverse": false,
+      "scene": "17 · 精神便利店",
+      "title": "你和朋友开“精神便利店”，有人临时提议改成 24 小时营业。你会？",
+      "options": [
+        "只定一个小范围，看看新节奏合不合适",
+        "先对齐边界、轮班和退出方式，再挂新招牌",
+        "先试营业一晚，分工和规则边开边长",
+        "先说清各自时段和职责，再做弹性调整"
+      ],
+      "facet": "boundary",
+      "facetReverse": false,
+      "values": [
+        2,
+        4,
+        1,
+        3
+      ],
+      "secondary": {
+        "dim": "action",
+        "values": [
+          3,
+          1,
+          4,
+          2
+        ]
+      }
+    },
+    {
+      "id": "q18",
+      "dim": "express",
+      "reverse": false,
+      "scene": "18 · 宇宙开屏梗",
+      "title": "你随口一句“别急，我在加载”成了宇宙开屏梗。你的后续是？",
+      "options": [
+        "适度回应，和新来的同频观众聊聊",
+        "让梗自行公转，我继续过不被围观的日子",
+        "亲自拍个续集，把自己的频道完整端出来",
+        "在熟人小窗解释一下，当成共同彩蛋"
+      ],
+      "facet": "spotlight",
+      "facetReverse": false,
+      "values": [
+        3,
+        1,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "q19",
+      "dim": "social",
+      "reverse": true,
+      "scene": "19 · 末班社交船",
+      "title": "散场飞船广播：“下一站还有八场聚会。”此刻的你会？",
+      "options": [
+        "挂上“本宇宙已打烊”，完整独处到明早",
+        "挑一站和熟人继续坐坐，快乐小份续杯",
+        "跟大家挥手，回自己的舱位慢慢充电",
+        "接过路线图，我来组织下一站的开场"
+      ],
+      "facet": "boundary",
+      "facetReverse": false,
+      "values": [
+        4,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "id": "q20",
+      "dim": "explore",
+      "reverse": false,
+      "scene": "20 · 云朵倒立秀",
+      "title": "节目组邀你演示“教云朵倒立”，台本由你定。你倾向？",
+      "options": [
+        "现场打开未知技能树，让第一次本身成为节目",
+        "加一个低门槛新环节，录好确认了再放出来",
+        "研究点基础，就带着观众一起尝试新招",
+        "先录自己拿手的内容，新技能留到熟悉之后"
+      ],
+      "facet": "spotlight",
+      "facetReverse": false,
+      "values": [
+        4,
+        2,
+        3,
+        1
+      ],
+      "secondary": {
+        "dim": "express",
+        "values": [
+          4,
+          2,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "q21",
+      "dim": "empathy",
+      "reverse": false,
+      "scene": "21 · 一格电的朋友",
+      "title": "你只剩一格电，朋友说脑内背景音乐太吵，想找你聊聊。你会？",
+      "options": [
+        "先回应最急的一点，也说明我现在能聊多久",
+        "先陪他把情绪放稳，我自己的充电稍后安排",
+        "约个能认真聊的时间，明早一起拆解这个问题",
+        "先听一会儿，再一起商量怎样让彼此都舒服"
+      ],
+      "facet": "boundary",
+      "facetReverse": true,
+      "values": [
+        2,
+        4,
+        1,
+        3
+      ]
+    },
+    {
+      "id": "q22",
+      "dim": "action",
+      "reverse": true,
+      "scene": "22 · 鸭语领奖台",
+      "title": "主持人突然递来麦克风：“请用鸭子语发表获奖感言。”你会？",
+      "options": [
+        "先接一个轻松的小梗，看观众反应再发挥",
+        "先把想法在脑内排好，准备好再申请出场",
+        "先来一声嘎，边讲边长出这段表演",
+        "先看两个人怎么接，再整理自己的版本"
+      ],
+      "facet": "spotlight",
+      "facetReverse": true,
+      "values": [
+        2,
+        4,
+        1,
+        3
+      ],
+      "secondary": {
+        "dim": "express",
+        "values": [
+          3,
+          1,
+          4,
+          2
+        ]
+      }
+    },
+    {
+      "id": "q23",
+      "dim": "order",
+      "reverse": true,
+      "scene": "23 · 回收站变形记",
+      "title": "合伙人突然想把“周一回收站”改成“快乐批发部”。你会？",
+      "options": [
+        "顺着新点子开个支线，规则在新剧情里再长",
+        "把变更影响和各自责任说清，再决定改多少",
+        "只要彼此愿意，可以一起调整原来的分工",
+        "先按现有约定运转，新项目另开一张讨论桌"
+      ],
+      "facet": "boundary",
+      "facetReverse": true,
+      "values": [
+        4,
+        2,
+        3,
+        1
+      ],
+      "secondary": {
+        "dim": "explore",
+        "values": [
+          4,
+          2,
+          3,
+          1
+        ]
+      }
+    },
+    {
+      "id": "q24",
+      "dim": "express",
+      "reverse": false,
+      "scene": "24 · 人生片尾名单",
+      "title": "宇宙要给今天的你上片尾字幕，你想留下哪一种存在感？",
+      "options": [
+        "“本集主角”：留下一段有我个人风格的完整演出",
+        "“隐藏彩蛋”：只让真正懂的人会心一笑",
+        "“特别旁白”：把自己的观点和感受讲清楚",
+        "“路过的背影”：我自己体验得开心就够了"
+      ],
+      "facet": "spotlight",
+      "facetReverse": false,
+      "values": [
+        4,
+        2,
+        3,
+        1
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "id": "voyager",
+      "name": "星海开拓者",
+      "en": "THE VOYAGER",
+      "planet": "拓荒星",
+      "color": "#8270df",
+      "vector": [
+        85,
+        95,
+        45,
+        90,
+        25,
+        80
+      ],
+      "line": "世界的边界，是你故事的起点。",
+      "story": "在另一个宇宙，你驾驶一艘小小的探索飞船，为尚未命名的星球绘制第一张地图。你会在陌生港口交到朋友，也会把一次意外改道变成最值得讲述的故事。",
+      "strength": "你能把好奇变成第一步，也容易带动身边的人。",
+      "growth": "出发前给自己留一个补给点，会让探索走得更远。"
+    },
+    {
+      "id": "dreamer",
+      "name": "云端造梦师",
+      "en": "THE DREAMER",
+      "planet": "浮想星",
+      "color": "#9c80bf",
+      "vector": [
+        30,
+        95,
+        75,
+        40,
+        20,
+        70
+      ],
+      "line": "你看见的世界，比地图上多一层。",
+      "story": "在另一个宇宙，你住在一座漂浮的画室里，把夜里的梦编成能进入的世界。旅人带来一个念头，你就替它搭起一座通往可能性的桥。",
+      "strength": "你擅长连接看似无关的灵感，为日常赋予新意义。",
+      "growth": "为最喜欢的那个想法做一个小样，它就能离现实近一点。"
+    },
+    {
+      "id": "guardian",
+      "name": "温柔引力场",
+      "en": "THE GUARDIAN",
+      "planet": "暖光星",
+      "color": "#c588a0",
+      "vector": [
+        60,
+        35,
+        95,
+        45,
+        65,
+        30
+      ],
+      "line": "你所在的地方，总有人愿意靠岸。",
+      "story": "在另一个宇宙，你经营一间星际深夜食堂。每个匆忙经过的人都能在那里吃到热饭，也能把没说出口的话轻轻放下。你不需要站在最亮的地方，也能成为坐标。",
+      "strength": "你对细微的情绪很敏感，能够建立稳定而有温度的关系。",
+      "growth": "照顾别人之前，也为自己的边界留一把椅子。"
+    },
+    {
+      "id": "observer",
+      "name": "边界观察员",
+      "en": "THE OBSERVER",
+      "planet": "深蓝星",
+      "color": "#608da8",
+      "vector": [
+        15,
+        80,
+        30,
+        25,
+        80,
+        15
+      ],
+      "line": "你不急着回答，因为问题也值得凝视。",
+      "story": "在另一个宇宙，你是边境天文台的研究员。别人急着穿过虫洞，你更想知道虫洞为什么出现。那些缓慢而专注的夜晚，让你发现了星空里被忽略的规律。",
+      "strength": "你能独立思考、深入观察，在复杂的信息中找到结构。",
+      "growth": "把尚未完成的想法说给可信任的人听，也是一种探索。"
+    },
+    {
+      "id": "spark",
+      "name": "破晓行动派",
+      "en": "THE SPARK",
+      "planet": "晨曦星",
+      "color": "#bb8a54",
+      "vector": [
+        80,
+        30,
+        35,
+        95,
+        60,
+        75
+      ],
+      "line": "当别人还在等待，你已经点亮第一束光。",
+      "story": "在另一个宇宙，你是救援飞行队的队长。天色还暗时，你已经检查完引擎。你喜欢把困难拆成下一步、再下一步，让真正重要的事开始发生。",
+      "strength": "你面对目标有推进力，能在不完美的条件下完成第一版。",
+      "growth": "偶尔问问队友的感受，会让队伍和你走得一样远。"
+    },
+    {
+      "id": "architect",
+      "name": "秩序建筑师",
+      "en": "THE ARCHITECT",
+      "planet": "棱镜星",
+      "color": "#669c92",
+      "vector": [
+        30,
+        45,
+        35,
+        65,
+        95,
+        35
+      ],
+      "line": "你把纷乱的星尘，排成可抵达的未来。",
+      "story": "在另一个宇宙，你为漂浮城市设计轨道和花园。你相信美好的生活需要想象，也需要可靠的基础。那些别人看不见的细节，正是城市安稳运行的秘密。",
+      "strength": "你擅长规划、拆解与兑现承诺，能把长期目标变成路径。",
+      "growth": "给计划留一块空白，有时意外也能成为设计的一部分。"
+    },
+    {
+      "id": "storyteller",
+      "name": "共鸣叙事者",
+      "en": "THE STORYTELLER",
+      "planet": "回声星",
+      "color": "#b77ab4",
+      "vector": [
+        90,
+        70,
+        90,
+        65,
+        30,
+        95
+      ],
+      "line": "你说出自己的故事，也让别人听见自己。",
+      "story": "在另一个宇宙，你主持一档跨星系的夜间电台。来自不同星球的人，在你的声音里发现彼此并不遥远。你把情绪编成故事，让一句话拥有穿越光年的力量。",
+      "strength": "你善于表达、理解与连接，让团队拥有共同的情感方向。",
+      "growth": "不必回应每一道回声，安静也可以是你的一种表达。"
+    },
+    {
+      "id": "strategist",
+      "name": "静水策划家",
+      "en": "THE STRATEGIST",
+      "planet": "静潮星",
+      "color": "#7485aa",
+      "vector": [
+        20,
+        45,
+        80,
+        35,
+        90,
+        20
+      ],
+      "line": "看似安静的水面，藏着你的深远航线。",
+      "story": "在另一个宇宙，你管理一座收藏记忆的档案馆。你记得每个人的来处，也认真安排每一次重逢。你的力量不在声量，而在于把重要的事长期放在心上。",
+      "strength": "你能兼顾深度、细节和他人的需要，为关系提供可靠的支持。",
+      "growth": "允许自己偶尔即兴，不用等到万事周全才享受旅程。"
+    }
+  ],
+  "categories": [
+    {
+      "id": "abstract",
+      "name": "抽象",
+      "icon": "✷",
+      "note": "网络人物舞台风格的娱乐联想，卡通图为 AI 创作示意"
+    },
+    {
+      "id": "creator",
+      "name": "网红",
+      "icon": "✦",
+      "note": "创作者的公开作品风格，仅作娱乐联想"
+    },
+    {
+      "id": "sport",
+      "name": "体育",
+      "icon": "◉",
+      "note": "运动员的公众形象，仅作娱乐联想"
+    },
+    {
+      "id": "anime",
+      "name": "动漫",
+      "icon": "✧",
+      "note": "基于虚构剧情印象的角色联想"
+    },
+    {
+      "id": "game",
+      "name": "游戏",
+      "icon": "◇",
+      "note": "基于虚构角色设定的娱乐联想"
+    }
+  ],
+  "characters": [
+    {
+      "id": "liziqi",
+      "category": "creator",
+      "name": "李子柒",
+      "sub": "田园创作",
+      "vector": [
+        20,
+        70,
+        75,
+        65,
+        85,
+        40
+      ],
+      "color": "#78a28b",
+      "symbol": "柒",
+      "note": "借用作品中细腻、耐心、富有创造力的风格作为联想。"
+    },
+    {
+      "id": "he",
+      "category": "creator",
+      "name": "何同学",
+      "sub": "科技表达",
+      "vector": [
+        55,
+        95,
+        50,
+        70,
+        70,
+        85
+      ],
+      "color": "#8297c6",
+      "symbol": "何",
+      "note": "联想到用好奇心探索技术，再把发现讲给更多人听。"
+    },
+    {
+      "id": "tim",
+      "category": "creator",
+      "name": "影视飓风 Tim",
+      "sub": "影像探索",
+      "vector": [
+        80,
+        95,
+        50,
+        95,
+        65,
+        90
+      ],
+      "color": "#bc9566",
+      "symbol": "T",
+      "note": "联想到影像创作中的探索热情和动手实践。"
+    },
+    {
+      "id": "papi",
+      "category": "creator",
+      "name": "papi酱",
+      "sub": "幽默观察",
+      "vector": [
+        65,
+        65,
+        65,
+        70,
+        40,
+        95
+      ],
+      "color": "#ba8fa9",
+      "symbol": "P",
+      "note": "联想到敏锐的生活观察和鲜明、有趣的表达。"
+    },
+    {
+      "id": "luo",
+      "category": "creator",
+      "name": "罗翔",
+      "sub": "知识叙事",
+      "vector": [
+        45,
+        75,
+        85,
+        40,
+        85,
+        75
+      ],
+      "color": "#8a8dac",
+      "symbol": "罗",
+      "note": "联想到理性的结构、对人的关照与娓娓道来的表达。"
+    },
+    {
+      "id": "geng",
+      "category": "creator",
+      "name": "手工耿",
+      "sub": "奇想制造",
+      "vector": [
+        35,
+        95,
+        45,
+        90,
+        25,
+        65
+      ],
+      "color": "#82a5aa",
+      "symbol": "耿",
+      "note": "联想到把出人意料的点子真正做出来的创造力。"
+    },
+    {
+      "id": "curry",
+      "category": "sport",
+      "name": "斯蒂芬·库里",
+      "sub": "篮球 · 创造与协作",
+      "vector": [
+        80,
+        75,
+        70,
+        90,
+        65,
+        75
+      ],
+      "color": "#c8a65a",
+      "symbol": "30",
+      "note": "联想到球场上灵动的创造力、行动和团队连接。"
+    },
+    {
+      "id": "kobe",
+      "category": "sport",
+      "name": "科比·布莱恩特",
+      "sub": "篮球 · 专注与投入",
+      "vector": [
+        40,
+        65,
+        35,
+        95,
+        95,
+        60
+      ],
+      "color": "#9b80b5",
+      "symbol": "24",
+      "note": "联想到公众叙事中高度专注、持续打磨的训练精神。"
+    },
+    {
+      "id": "messi",
+      "category": "sport",
+      "name": "利昂内尔·梅西",
+      "sub": "足球 · 沉静与创造",
+      "vector": [
+        25,
+        80,
+        65,
+        85,
+        65,
+        25
+      ],
+      "color": "#77a6b8",
+      "symbol": "10",
+      "note": "联想到以沉静的专注和创造性的场上选择表达自己。"
+    },
+    {
+      "id": "gu",
+      "category": "sport",
+      "name": "谷爱凌",
+      "sub": "自由式滑雪 · 探索",
+      "vector": [
+        85,
+        95,
+        60,
+        95,
+        70,
+        90
+      ],
+      "color": "#c08c91",
+      "symbol": "凌",
+      "note": "联想到拥抱新挑战、主动实践和清晰的自我表达。"
+    },
+    {
+      "id": "malong",
+      "category": "sport",
+      "name": "马龙",
+      "sub": "乒乓球 · 稳定与秩序",
+      "vector": [
+        25,
+        45,
+        65,
+        80,
+        95,
+        30
+      ],
+      "color": "#6f9c8b",
+      "symbol": "龙",
+      "note": "联想到稳定的节奏、细致的准备与长久投入。"
+    },
+    {
+      "id": "federer",
+      "category": "sport",
+      "name": "罗杰·费德勒",
+      "sub": "网球 · 从容与连接",
+      "vector": [
+        65,
+        60,
+        85,
+        65,
+        80,
+        55
+      ],
+      "color": "#8a92af",
+      "symbol": "RF",
+      "note": "联想到从容的公众形象、对比赛的专注和关系中的温度。"
+    },
+    {
+      "id": "luffy",
+      "category": "anime",
+      "name": "蒙奇·D·路飞",
+      "sub": "《航海王》",
+      "vector": [
+        95,
+        95,
+        85,
+        100,
+        5,
+        90
+      ],
+      "color": "#c68a74",
+      "symbol": "路",
+      "note": "联想到为了未知海域即刻出发，以及对伙伴的热烈信任。"
+    },
+    {
+      "id": "hinata",
+      "category": "anime",
+      "name": "日向翔阳",
+      "sub": "《排球少年!!》",
+      "vector": [
+        90,
+        85,
+        75,
+        95,
+        40,
+        85
+      ],
+      "color": "#cba06d",
+      "symbol": "日",
+      "note": "联想到不断尝试、带动队友和向目标迈出的下一步。"
+    },
+    {
+      "id": "senku",
+      "category": "anime",
+      "name": "石神千空",
+      "sub": "《Dr.STONE》",
+      "vector": [
+        40,
+        100,
+        30,
+        80,
+        95,
+        55
+      ],
+      "color": "#7fa08a",
+      "symbol": "千",
+      "note": "联想到强烈的求知欲、推演能力与系统性的实践。"
+    },
+    {
+      "id": "natsume",
+      "category": "anime",
+      "name": "夏目贵志",
+      "sub": "《夏目友人帐》",
+      "vector": [
+        15,
+        55,
+        100,
+        40,
+        70,
+        15
+      ],
+      "color": "#8eb3a4",
+      "symbol": "夏",
+      "note": "联想到安静倾听、珍惜关系和细腻的情绪感知。"
+    },
+    {
+      "id": "howl",
+      "category": "anime",
+      "name": "哈尔",
+      "sub": "《哈尔的移动城堡》",
+      "vector": [
+        45,
+        95,
+        80,
+        45,
+        10,
+        85
+      ],
+      "color": "#9985b8",
+      "symbol": "哈",
+      "note": "联想到浪漫的想象力、自由感和鲜明的个人风格。"
+    },
+    {
+      "id": "conan",
+      "category": "anime",
+      "name": "江户川柯南",
+      "sub": "《名侦探柯南》",
+      "vector": [
+        30,
+        85,
+        45,
+        65,
+        90,
+        30
+      ],
+      "color": "#8395b7",
+      "symbol": "柯",
+      "note": "联想到观察细节、理性推演和对线索的专注。"
+    },
+    {
+      "id": "venti",
+      "category": "game",
+      "name": "温迪",
+      "sub": "《原神》",
+      "vector": [
+        85,
+        85,
+        80,
+        40,
+        5,
+        95
+      ],
+      "color": "#76ac9e",
+      "symbol": "风",
+      "note": "联想到自由的叙事者、流动的灵感和连接人心的表达。"
+    },
+    {
+      "id": "zhongli",
+      "category": "game",
+      "name": "钟离",
+      "sub": "《原神》",
+      "vector": [
+        25,
+        55,
+        75,
+        35,
+        95,
+        30
+      ],
+      "color": "#b4a07b",
+      "symbol": "岩",
+      "note": "联想到沉稳的秩序感、记忆与对承诺的重视。"
+    },
+    {
+      "id": "march",
+      "category": "game",
+      "name": "三月七",
+      "sub": "《崩坏：星穹铁道》",
+      "vector": [
+        95,
+        85,
+        90,
+        85,
+        25,
+        95
+      ],
+      "color": "#c58eae",
+      "symbol": "七",
+      "note": "联想到用热情记录旅程、快速行动和表达关心。"
+    },
+    {
+      "id": "arthur",
+      "category": "game",
+      "name": "亚瑟",
+      "sub": "《王者荣耀》",
+      "vector": [
+        60,
+        30,
+        50,
+        90,
+        90,
+        45
+      ],
+      "color": "#909eb5",
+      "symbol": "盾",
+      "note": "联想到可靠的执行、清晰的目标和守护队伍的站位。"
+    },
+    {
+      "id": "mercy",
+      "category": "game",
+      "name": "天使",
+      "sub": "《守望先锋》",
+      "vector": [
+        55,
+        55,
+        100,
+        65,
+        80,
+        35
+      ],
+      "color": "#c5ab7e",
+      "symbol": "翼",
+      "note": "联想到观察团队需要、持续支持和有温度的行动。"
+    },
+    {
+      "id": "kirby",
+      "category": "game",
+      "name": "卡比",
+      "sub": "《星之卡比》",
+      "vector": [
+        65,
+        85,
+        85,
+        85,
+        10,
+        40
+      ],
+      "color": "#d19cb1",
+      "symbol": "星",
+      "note": "联想到轻盈的好奇心、温暖的陪伴与随遇而安。"
+    },
+    {
+      "id": "dong",
+      "category": "creator",
+      "name": "董宇辉",
+      "sub": "知识分享",
+      "vector": [
+        65,
+        75,
+        85,
+        60,
+        75,
+        90
+      ],
+      "color": "#7f9aa8",
+      "symbol": "辉",
+      "note": "联想到将知识、生活与细腻感受串成故事的表达。"
+    },
+    {
+      "id": "buke",
+      "category": "creator",
+      "name": "毕导",
+      "sub": "科学趣味",
+      "vector": [
+        65,
+        95,
+        50,
+        70,
+        75,
+        85
+      ],
+      "color": "#b09a72",
+      "symbol": "毕",
+      "note": "联想到对日常问题刨根问底，再把科学讲得有趣。"
+    },
+    {
+      "id": "xiaojohn",
+      "category": "creator",
+      "name": "小约翰可汗",
+      "sub": "历史叙事",
+      "vector": [
+        40,
+        90,
+        60,
+        45,
+        70,
+        85
+      ],
+      "color": "#b48da5",
+      "symbol": "约",
+      "note": "联想到从资料中发现故事，用独特角度组织叙事。"
+    },
+    {
+      "id": "laofanqie",
+      "category": "creator",
+      "name": "老番茄",
+      "sub": "游戏创作",
+      "vector": [
+        50,
+        85,
+        65,
+        65,
+        55,
+        85
+      ],
+      "color": "#8d9d84",
+      "symbol": "茄",
+      "note": "联想到游戏体验中的创意、节奏感与幽默表达。"
+    },
+    {
+      "id": "mrbeast",
+      "category": "creator",
+      "name": "MrBeast",
+      "sub": "挑战企划",
+      "vector": [
+        95,
+        95,
+        65,
+        100,
+        75,
+        100
+      ],
+      "color": "#8b94b8",
+      "symbol": "M",
+      "note": "联想到大型企划的创意、快速推进和鲜明的镜头表达。"
+    },
+    {
+      "id": "wanggang",
+      "category": "creator",
+      "name": "美食作家王刚",
+      "sub": "烹饪教学",
+      "vector": [
+        40,
+        55,
+        55,
+        90,
+        95,
+        65
+      ],
+      "color": "#a48e73",
+      "symbol": "刚",
+      "note": "联想到清晰的步骤、扎实的练习和直接的知识分享。"
+    },
+    {
+      "id": "zhuzi",
+      "category": "creator",
+      "name": "朱一旦的枯燥生活",
+      "sub": "短剧表达",
+      "vector": [
+        55,
+        65,
+        45,
+        65,
+        55,
+        90
+      ],
+      "color": "#8aa5a2",
+      "symbol": "朱",
+      "note": "联想到用角色表演、反差和讽刺观察日常的创作风格。"
+    },
+    {
+      "id": "zhang",
+      "category": "creator",
+      "name": "张召忠",
+      "sub": "知识分享",
+      "vector": [
+        70,
+        70,
+        55,
+        60,
+        80,
+        80
+      ],
+      "color": "#a283ab",
+      "symbol": "张",
+      "note": "联想到以知识背景组织观点、与听众分享观察。"
+    },
+    {
+      "id": "yixia",
+      "category": "creator",
+      "name": "衣戈猜想",
+      "sub": "社会观察",
+      "vector": [
+        35,
+        85,
+        90,
+        50,
+        75,
+        85
+      ],
+      "color": "#8fa175",
+      "symbol": "衣",
+      "note": "联想到沉入具体生活、细致观察后组织有温度的叙事。"
+    },
+    {
+      "id": "shishi",
+      "category": "creator",
+      "name": "食贫道",
+      "sub": "纪实探索",
+      "vector": [
+        65,
+        95,
+        85,
+        85,
+        50,
+        80
+      ],
+      "color": "#ba9281",
+      "symbol": "道",
+      "note": "联想到走进陌生地方，在探访和对话中理解生活。"
+    },
+    {
+      "id": "lebron",
+      "category": "sport",
+      "name": "勒布朗·詹姆斯",
+      "sub": "篮球 · 全局与领导",
+      "vector": [
+        90,
+        65,
+        65,
+        95,
+        80,
+        90
+      ],
+      "color": "#7f9aa8",
+      "symbol": "23",
+      "note": "联想到球场上的全局判断、组织队伍与主动承担。",
+      "sprite": 5,
+      "scene": {
+        "title": "詹姆斯 / J.R. Smith 摊手名场面",
+        "kind": "名场面",
+        "sourcePage": "https://imgflip.com/meme/140080740/lebron-james--jr-smith",
+        "imageUrl": "https://i.imgflip.com/2beezo.jpg",
+        "identityEvidence": "lebron james + jr smith Memes - Imgflip；lebron james + jr smith Blank Meme Template；//i.imgflip.com/2beezo.jpg；詹姆斯穿骑士球衣在球场上摊开双臂，右侧为背号5、SMITH球衣的队员；与公开流传的2018总决赛J.R.Smith名场面一致。未独立核查摄影师与原始摄影机构。",
+        "rightsStatus": "Unverified. User-uploaded meme template host is not proof of commercial reuse rights. Keep source provenance and do not distribute original as licensed stock.",
+        "referenceId": "lebron-jr-smith",
+        "asset": "meme-references/lebron.jpg",
+        "width": 1024,
+        "height": 546,
+        "assetBytes": 65708,
+        "cartoonGenerated": false,
+        "renderKind": "reference-original",
+        "displayLabel": "名场面原图"
+      }
+    },
+    {
+      "id": "jordan",
+      "category": "sport",
+      "name": "迈克尔·乔丹",
+      "sub": "篮球 · 竞争与突破",
+      "vector": [
+        75,
+        65,
+        35,
+        100,
+        90,
+        85
+      ],
+      "color": "#b09a72",
+      "symbol": "MJ",
+      "note": "联想到比赛中鲜明的竞争心、执行力和持续打磨。"
+    },
+    {
+      "id": "ronaldo",
+      "category": "sport",
+      "name": "克里斯蒂亚诺·罗纳尔多",
+      "sub": "足球 · 自律与表达",
+      "vector": [
+        85,
+        55,
+        40,
+        100,
+        95,
+        95
+      ],
+      "color": "#b48da5",
+      "symbol": "CR",
+      "note": "联想到目标导向、严格训练和鲜明的公众表达。"
+    },
+    {
+      "id": "sunying",
+      "category": "sport",
+      "name": "孙颖莎",
+      "sub": "乒乓球 · 灵动与专注",
+      "vector": [
+        60,
+        70,
+        65,
+        95,
+        85,
+        55
+      ],
+      "color": "#8d9d84",
+      "symbol": "莎",
+      "note": "联想到敏捷的应变、专注的投入和稳定训练。"
+    },
+    {
+      "id": "quanhong",
+      "category": "sport",
+      "name": "全红婵",
+      "sub": "跳水 · 专注与本真",
+      "vector": [
+        30,
+        55,
+        65,
+        90,
+        90,
+        35
+      ],
+      "color": "#8b94b8",
+      "symbol": "婵",
+      "note": "联想到反复打磨动作、专注当下和自然的表达。"
+    },
+    {
+      "id": "zhengqinwen",
+      "category": "sport",
+      "name": "郑钦文",
+      "sub": "网球 · 目标与挑战",
+      "vector": [
+        65,
+        80,
+        45,
+        95,
+        85,
+        75
+      ],
+      "color": "#a48e73",
+      "symbol": "郑",
+      "note": "联想到主动迎接挑战、清晰目标和坚定推进。"
+    },
+    {
+      "id": "zhangyufei",
+      "category": "sport",
+      "name": "张雨霏",
+      "sub": "游泳 · 坚韧与连接",
+      "vector": [
+        75,
+        60,
+        80,
+        90,
+        85,
+        70
+      ],
+      "color": "#8aa5a2",
+      "symbol": "霏",
+      "note": "联想到训练中的投入、赛场韧性和对队友的支持。"
+    },
+    {
+      "id": "bolt",
+      "category": "sport",
+      "name": "尤塞恩·博尔特",
+      "sub": "田径 · 爆发与舞台",
+      "vector": [
+        95,
+        60,
+        55,
+        100,
+        65,
+        100
+      ],
+      "color": "#a283ab",
+      "symbol": "闪",
+      "note": "联想到鲜明的舞台能量、爆发力和开放表达。"
+    },
+    {
+      "id": "biles",
+      "category": "sport",
+      "name": "西蒙娜·拜尔斯",
+      "sub": "体操 · 勇气与边界",
+      "vector": [
+        65,
+        85,
+        70,
+        95,
+        85,
+        75
+      ],
+      "color": "#8fa175",
+      "symbol": "S",
+      "note": "联想到挑战高难度动作的勇气，以及对自身需要的重视。"
+    },
+    {
+      "id": "ohtani",
+      "category": "sport",
+      "name": "大谷翔平",
+      "sub": "棒球 · 专注与多面",
+      "vector": [
+        30,
+        85,
+        55,
+        90,
+        95,
+        30
+      ],
+      "color": "#ba9281",
+      "symbol": "翔",
+      "note": "联想到跨越单一定位的探索，以及长期专注的练习。"
+    },
+    {
+      "id": "naruto",
+      "category": "anime",
+      "name": "漩涡鸣人",
+      "sub": "《火影忍者》",
+      "vector": [
+        95,
+        80,
+        90,
+        95,
+        15,
+        95
+      ],
+      "color": "#7f9aa8",
+      "symbol": "鸣",
+      "note": "联想到对伙伴的热情、直面挑战和不轻易放弃。"
+    },
+    {
+      "id": "kakashi",
+      "category": "anime",
+      "name": "旗木卡卡西",
+      "sub": "《火影忍者》",
+      "vector": [
+        25,
+        70,
+        75,
+        60,
+        80,
+        20
+      ],
+      "color": "#b09a72",
+      "symbol": "卡",
+      "note": "联想到安静观察、照顾队伍和关键时刻的可靠判断。"
+    },
+    {
+      "id": "tanjiro",
+      "category": "anime",
+      "name": "灶门炭治郎",
+      "sub": "《鬼灭之刃》",
+      "vector": [
+        65,
+        60,
+        100,
+        90,
+        80,
+        50
+      ],
+      "color": "#b48da5",
+      "symbol": "炭",
+      "note": "联想到理解他人的感受，同时坚定地向前行动。"
+    },
+    {
+      "id": "nezuko",
+      "category": "anime",
+      "name": "灶门祢豆子",
+      "sub": "《鬼灭之刃》",
+      "vector": [
+        20,
+        45,
+        95,
+        80,
+        50,
+        10
+      ],
+      "color": "#8d9d84",
+      "symbol": "祢",
+      "note": "联想到安静却强烈的守护，以及在行动中表达关心。"
+    },
+    {
+      "id": "gojo",
+      "category": "anime",
+      "name": "五条悟",
+      "sub": "《咒术回战》",
+      "vector": [
+        95,
+        90,
+        45,
+        90,
+        10,
+        100
+      ],
+      "color": "#8b94b8",
+      "symbol": "悟",
+      "note": "联想到鲜明的个人风格、打破常规和主动掌握局面。"
+    },
+    {
+      "id": "frieren",
+      "category": "anime",
+      "name": "芙莉莲",
+      "sub": "《葬送的芙莉莲》",
+      "vector": [
+        10,
+        95,
+        75,
+        30,
+        55,
+        10
+      ],
+      "color": "#a48e73",
+      "symbol": "芙",
+      "note": "联想到漫长时间里的好奇、独处和逐渐理解情感。"
+    },
+    {
+      "id": "himmel",
+      "category": "anime",
+      "name": "欣梅尔",
+      "sub": "《葬送的芙莉莲》",
+      "vector": [
+        85,
+        80,
+        95,
+        90,
+        60,
+        80
+      ],
+      "color": "#8aa5a2",
+      "symbol": "欣",
+      "note": "联想到勇敢启程、关照旅人和为未来留下温柔。"
+    },
+    {
+      "id": "anya",
+      "category": "anime",
+      "name": "阿尼亚·福杰",
+      "sub": "《间谍过家家》",
+      "vector": [
+        85,
+        90,
+        90,
+        80,
+        5,
+        95
+      ],
+      "color": "#a283ab",
+      "symbol": "阿",
+      "note": "联想到对世界的新鲜感、活跃的情绪和直接表达。"
+    },
+    {
+      "id": "levi",
+      "category": "anime",
+      "name": "利威尔·阿克曼",
+      "sub": "《进击的巨人》",
+      "vector": [
+        10,
+        40,
+        50,
+        95,
+        100,
+        10
+      ],
+      "color": "#8fa175",
+      "symbol": "利",
+      "note": "联想到克制的表达、严谨的秩序和果断行动。"
+    },
+    {
+      "id": "chihiro",
+      "category": "anime",
+      "name": "荻野千寻",
+      "sub": "《千与千寻》",
+      "vector": [
+        25,
+        65,
+        95,
+        70,
+        65,
+        20
+      ],
+      "color": "#ba9281",
+      "symbol": "千",
+      "note": "联想到陌生环境中的成长、细腻关照和逐步积累的勇气。"
+    },
+    {
+      "id": "nahida",
+      "category": "game",
+      "name": "纳西妲",
+      "sub": "《原神》",
+      "vector": [
+        35,
+        100,
+        100,
+        40,
+        70,
+        40
+      ],
+      "color": "#7f9aa8",
+      "symbol": "草",
+      "note": "联想到旺盛的好奇、理解他人的耐心与温柔的引导。"
+    },
+    {
+      "id": "furina",
+      "category": "game",
+      "name": "芙宁娜",
+      "sub": "《原神》",
+      "vector": [
+        85,
+        80,
+        90,
+        60,
+        30,
+        100
+      ],
+      "color": "#b09a72",
+      "symbol": "芙",
+      "note": "联想到舞台表达、丰富情绪和在经历中发现真实自我。"
+    },
+    {
+      "id": "kazuha",
+      "category": "game",
+      "name": "枫原万叶",
+      "sub": "《原神》",
+      "vector": [
+        20,
+        95,
+        90,
+        55,
+        10,
+        30
+      ],
+      "color": "#b48da5",
+      "symbol": "枫",
+      "note": "联想到对旅途的感受力、自由流动和安静的表达。"
+    },
+    {
+      "id": "neuvillette",
+      "category": "game",
+      "name": "那维莱特",
+      "sub": "《原神》",
+      "vector": [
+        15,
+        55,
+        75,
+        50,
+        100,
+        20
+      ],
+      "color": "#8d9d84",
+      "symbol": "水",
+      "note": "联想到重视规则、谨慎判断和逐渐理解情感的过程。"
+    },
+    {
+      "id": "jingyuan",
+      "category": "game",
+      "name": "景元",
+      "sub": "《崩坏：星穹铁道》",
+      "vector": [
+        50,
+        65,
+        75,
+        50,
+        90,
+        40
+      ],
+      "color": "#8b94b8",
+      "symbol": "景",
+      "note": "联想到从容布局、观察局势与对伙伴的长远关照。"
+    },
+    {
+      "id": "kafka",
+      "category": "game",
+      "name": "卡芙卡",
+      "sub": "《崩坏：星穹铁道》",
+      "vector": [
+        65,
+        85,
+        35,
+        80,
+        75,
+        80
+      ],
+      "color": "#a48e73",
+      "symbol": "卡",
+      "note": "联想到从容的个人风格、计划感和主动推进故事。"
+    },
+    {
+      "id": "yao",
+      "category": "game",
+      "name": "曜",
+      "sub": "《王者荣耀》",
+      "vector": [
+        95,
+        90,
+        55,
+        100,
+        10,
+        100
+      ],
+      "color": "#8aa5a2",
+      "symbol": "曜",
+      "note": "联想到自信的舞台感、主动冒险和热烈地表达理想。"
+    },
+    {
+      "id": "libai",
+      "category": "game",
+      "name": "李白",
+      "sub": "《王者荣耀》",
+      "vector": [
+        65,
+        95,
+        55,
+        90,
+        5,
+        85
+      ],
+      "color": "#a283ab",
+      "symbol": "白",
+      "note": "联想到浪漫自由、灵动的行动和不拘一格的表达。"
+    },
+    {
+      "id": "link",
+      "category": "game",
+      "name": "林克",
+      "sub": "《塞尔达传说》",
+      "vector": [
+        10,
+        100,
+        70,
+        90,
+        40,
+        5
+      ],
+      "color": "#8fa175",
+      "symbol": "林",
+      "note": "联想到沉默的行动者、探索未知与在细节中寻找办法。"
+    },
+    {
+      "id": "isabelle",
+      "category": "game",
+      "name": "西施惠",
+      "sub": "《集合啦！动物森友会》",
+      "vector": [
+        80,
+        40,
+        100,
+        70,
+        95,
+        65
+      ],
+      "color": "#ba9281",
+      "symbol": "惠",
+      "note": "联想到温暖的服务、细致的安排和让大家安心的支持。"
+    },
+    {
+      "id": "fengge",
+      "category": "abstract",
+      "name": "峰哥",
+      "sub": "旅行观察 · 锐评系",
+      "vector": [
+        45,
+        95,
+        35,
+        65,
+        25,
+        75
+      ],
+      "color": "#9a87c3",
+      "symbol": "峰",
+      "sprite": 0,
+      "note": "联想到旅行观察、直接表达和独立判断的内容风格。"
+    },
+    {
+      "id": "huchenfeng",
+      "category": "abstract",
+      "name": "户晨风",
+      "sub": "街头对话 · 较真系",
+      "vector": [
+        65,
+        70,
+        35,
+        80,
+        75,
+        95
+      ],
+      "color": "#9a87c3",
+      "symbol": "户",
+      "sprite": 1,
+      "note": "联想到围绕日常细节追问、讨论并清楚表达观点的镜头风格。",
+      "scene": {
+        "title": "户晨风蓝底条纹毛衣肖像",
+        "kind": "普通肖像",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Portrait_photograph_of_content_creator_Hu_Chenfeng_(%E6%88%B7%E6%99%A8%E9%A3%8E).jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Portrait_photograph_of_content_creator_Hu_Chenfeng_%28%E6%88%B7%E6%99%A8%E9%A3%8E%29.jpg",
+        "identityEvidence": "Commons 文件描述明确“content creator Hu Chenfeng (户晨风)”，作者栏户晨风，来源 Bilibili 我是户晨风；中文维基人物条目采用该图。",
+        "rightsStatus": "Commons 文件实际模板为 Copyrighted free use：权利人允许任意目的、再分发、商业使用与修改；文件页给出本人放弃版权声明链接。肖像/人格权独立，不宣称官方背书。",
+        "referenceId": "hu-portrait",
+        "asset": "meme-references/huchenfeng.jpg",
+        "width": 1069,
+        "height": 1306,
+        "assetBytes": 137365,
+        "cartoonGenerated": false,
+        "renderKind": "reference-original",
+        "displayLabel": "参考肖像原图"
+      }
+    },
+    {
+      "id": "lecturer",
+      "category": "abstract",
+      "name": "美国讲师",
+      "sub": "街头叙事 · 漫游系",
+      "vector": [
+        70,
+        80,
+        75,
+        50,
+        20,
+        85
+      ],
+      "color": "#9a87c3",
+      "symbol": "美",
+      "sprite": 2,
+      "note": "联想到把街头见闻讲成故事、随环境变化寻找话题的叙事风格。"
+    },
+    {
+      "id": "huge",
+      "category": "abstract",
+      "name": "东北虎哥",
+      "sub": "现场互动 · 热场系",
+      "vector": [
+        100,
+        70,
+        55,
+        95,
+        10,
+        100
+      ],
+      "color": "#9a87c3",
+      "symbol": "东",
+      "sprite": 3,
+      "note": "联想到高能量的镜头互动、直接的情绪表达与热场方式。",
+      "scene": {
+        "title": "虎哥独立宣言 / 街头张开双臂",
+        "kind": "名场面",
+        "sourcePage": "https://zh.moegirl.org.cn/%E4%B8%9C%E7%99%BE%E5%BE%80%E4%BA%8B",
+        "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/7/75/%E8%99%8E%E5%93%A5%E7%8B%AC%E7%AB%8B%E5%AE%A3%E8%A8%80.jpg",
+        "identityEvidence": "条目虎哥段落指认其为“独立宣言”主人公，并收录文件“虎哥独立宣言.jpg”。已下载与视觉检查。",
+        "rightsStatus": "未确认图片的独立商用/改作授权。",
+        "referenceId": "huge-declaration",
+        "asset": "meme-references/huge.jpg",
+        "width": 480,
+        "height": 640,
+        "assetBytes": 27516,
+        "cartoonGenerated": false,
+        "renderKind": "reference-original",
+        "displayLabel": "名场面原图"
+      }
+    },
+    {
+      "id": "daoge",
+      "category": "abstract",
+      "name": "东北刀哥",
+      "sub": "即兴整活 · 反差系",
+      "vector": [
+        90,
+        85,
+        45,
+        95,
+        10,
+        95
+      ],
+      "color": "#9a87c3",
+      "symbol": "东",
+      "sprite": 4,
+      "note": "联想到即兴表演、鲜明反差和把日常变成现场的创作风格。",
+      "scene": {
+        "title": "虎刀宣战 / 没你滴好果汁吃（左侧刀哥）",
+        "kind": "名场面",
+        "sourcePage": "https://zh.moegirl.org.cn/%E4%B8%9C%E7%99%BE%E5%BE%80%E4%BA%8B",
+        "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/0/01/%E6%B2%A1%E4%BD%A0%E6%BB%B4%E5%A5%BD%E6%9E%9C%E6%B1%81%E5%90%83.jpg",
+        "identityEvidence": "条目“主要人物”配图明确说明：虎哥（右）、刀哥向杀马特团长宣战；文章简介说明为2016年短视频系列，照片字幕“没你滴好果汁吃”。；本角色仅对应同框图左侧的刀哥，不将右侧虎哥当作刀哥。",
+        "rightsStatus": "未确认图片的独立商用/改作授权，不能把百科页面文字许可当图片授权。",
+        "referenceId": "huge-daoge-goodjuice",
+        "asset": "meme-references/daoge.jpg",
+        "width": 655,
+        "height": 625,
+        "assetBytes": 53372,
+        "cartoonGenerated": false,
+        "renderKind": "reference-original",
+        "displayLabel": "名场面原图"
+      }
+    },
+    {
+      "id": "dasima",
+      "category": "abstract",
+      "name": "大司马",
+      "sub": "游戏讲述 · 反差系",
+      "vector": [
+        60,
+        55,
+        50,
+        65,
+        70,
+        85
+      ],
+      "color": "#9a87c3",
+      "symbol": "大",
+      "sprite": 6,
+      "note": "联想到游戏讲解、慢条斯理的铺垫和反差幽默的直播风格。"
+    },
+    {
+      "id": "sunxiaochuan",
+      "category": "abstract",
+      "name": "孙笑川",
+      "sub": "弹幕互动 · 接梗系",
+      "vector": [
+        70,
+        60,
+        45,
+        75,
+        25,
+        95
+      ],
+      "color": "#9a87c3",
+      "symbol": "孙",
+      "sprite": 7,
+      "note": "联想到直播场景里的接梗、互动和具有辨识度的舞台表达。",
+      "scene": {
+        "title": "孙笑川西装抱臂模板肖像",
+        "kind": "普通肖像",
+        "sourcePage": "https://imgflip.com/meme/338239859/Sun-Xiaochuan",
+        "imageUrl": "https://i.imgflip.com/5ldnjn.jpg",
+        "identityEvidence": "Template page explicitly names Sun Xiaochuan. Photo meme template; subject in suit, glasses, arms crossed. This is a portrait template, not independently verified as a specific famous live-stream scene.",
+        "rightsStatus": "Unverified. Public user-uploaded meme template is not proof of commercial/photo-license permission.",
+        "referenceId": "sun-xiaochuan-portrait",
+        "asset": "meme-references/sunxiaochuan.jpg",
+        "width": 500,
+        "height": 500,
+        "assetBytes": 83311,
+        "cartoonGenerated": false,
+        "renderKind": "reference-original",
+        "displayLabel": "参考肖像原图"
+      }
+    },
+    {
+      "id": "jackie",
+      "category": "abstract",
+      "name": "成龙",
+      "sub": "名场面 · 困惑也要破局",
+      "vector": [
+        60,
+        85,
+        60,
+        90,
+        60,
+        75
+      ],
+      "color": "#bc976e",
+      "symbol": "龙",
+      "note": "借用抱头困惑名场面的画面张力，联想到先拆问题、再动手破局的喜剧角色设定；不是对真人内心的判断。",
+      "scene": {
+        "title": "成龙困惑抱头名场面照片",
+        "kind": "名场面",
+        "sourcePage": "https://imgflip.com/meme/44529090/Jackie-Chan-Confused",
+        "imageUrl": "https://i.imgflip.com/qiev6.jpg",
+        "identityEvidence": "Template page explicitly names Jackie Chan Confused. Photo; hands lifted beside head, confused expression, matches well-known Jackie Chan Confused meme.",
+        "rightsStatus": "Unverified. Public user-uploaded meme template is not proof of commercial/photo-license permission.",
+        "referenceId": "jackie-chan-confused",
+        "asset": "meme-references/jackie.jpg",
+        "width": 1500,
+        "height": 1005,
+        "assetBytes": 392781,
+        "cartoonGenerated": false,
+        "renderKind": "reference-original",
+        "displayLabel": "名场面原图"
+      }
+    },
+    {
+      "id": "yaoming",
+      "category": "sport",
+      "name": "姚明",
+      "sub": "篮球 · 松弛大笑",
+      "vector": [
+        75,
+        60,
+        75,
+        65,
+        65,
+        80
+      ],
+      "color": "#b99178",
+      "symbol": "姚",
+      "note": "借用广泛流传的姚明笑脸线稿表情，联想到用幽默化解紧张、保持从容的娱乐角色设定。",
+      "scene": {
+        "title": "姚明笑脸表情包（参考图已是线稿）",
+        "kind": "线稿",
+        "sourcePage": "https://imgflip.com/meme/Yao-Ming",
+        "imageUrl": "https://i.imgflip.com/2c47.jpg",
+        "identityEvidence": "Template page explicitly names Yao Ming. Already a line-art meme; not a source photograph. Distinct familiar laughing rage-comic expression.",
+        "rightsStatus": "Unverified. Public user-uploaded meme template is not proof of commercial/photo-license permission.",
+        "referenceId": "yao-ming-laugh",
+        "asset": "meme-references/yaoming.jpg",
+        "width": 500,
+        "height": 623,
+        "assetBytes": 26289,
+        "cartoonGenerated": false,
+        "renderKind": "reference-original",
+        "displayLabel": "已有线稿表情"
+      }
+    },
+    {
+      "id": "geyou",
+      "category": "abstract",
+      "name": "葛优",
+      "sub": "名场面 · 沙发宇宙",
+      "vector": [
+        25,
+        45,
+        70,
+        25,
+        25,
+        45
+      ],
+      "color": "#91a690",
+      "symbol": "葛",
+      "note": "借用《我爱我家》纪春生瘫在沙发上的剧中名场面，联想到先给自己充电、再决定如何行动的松弛角色设定。",
+      "scene": {
+        "title": "葛优躺 / 《我爱我家》纪春生瘫坐沙发",
+        "kind": "名场面",
+        "sourcePage": "https://zh.moegirl.org.cn/%E8%91%9B%E4%BC%98%E8%BA%BA",
+        "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/4/4b/F636afc379310a55d90a6381bf4543a98226109c.png",
+        "identityEvidence": "Article says 葛优躺 originates from 1993 sitcom 我爱我家, the character 纪春生 played by 葛优 lying entirely relaxed on a sofa. Downloaded lead image visually matches the actor lying on the light sofa.",
+        "rightsStatus": "Television screenshot; separate commercial reuse/adaptation permission not verified. Article text licensing is not proof of screenshot licensing.",
+        "referenceId": "geyou-sofa",
+        "asset": "meme-references/geyou.png",
+        "width": 480,
+        "height": 260,
+        "assetBytes": 246046,
+        "cartoonGenerated": false,
+        "renderKind": "reference-original",
+        "displayLabel": "名场面原图"
+      }
+    }
+  ],
+  "modes": [
+    {
+      "id": "quick",
+      "count": 8,
+      "name": "灵感速测",
+      "level": 1,
+      "time": "约 1 分钟",
+      "hint": "先找到基础人格轮廓",
+      "combinations": 8
+    },
+    {
+      "id": "standard",
+      "count": 16,
+      "name": "标准探索",
+      "level": 2,
+      "time": "约 2 分钟",
+      "hint": "进一步拆出行动子型",
+      "combinations": 32
+    },
+    {
+      "id": "deep",
+      "count": 24,
+      "name": "深度细分",
+      "level": 3,
+      "time": "约 3 分钟",
+      "hint": "再看人群中的情境分支",
+      "combinations": 128
+    }
+  ],
+  "familyCodes": {
+    "000": "architect",
+    "001": "strategist",
+    "010": "observer",
+    "011": "dreamer",
+    "100": "spark",
+    "101": "guardian",
+    "110": "voyager",
+    "111": "storyteller"
+  },
+  "subtypes": {
+    "00": {
+      "id": "wander",
+      "name": "自由漫游型",
+      "line": "先给灵感留白，让方向在体验里慢慢出现。"
+    },
+    "01": {
+      "id": "planner",
+      "name": "沉思布局型",
+      "line": "你喜欢想透关键环节，再让事情按节奏发生。"
+    },
+    "10": {
+      "id": "improvise",
+      "name": "即兴破局型",
+      "line": "你更擅长边做边调，把意外接成下一步。"
+    },
+    "11": {
+      "id": "execute",
+      "name": "策略执行型",
+      "line": "你会把想法拆成路径，再稳稳推进到落地。"
+    }
+  },
+  "branches": {
+    "00": {
+      "id": "backstage",
+      "name": "幕后守护者",
+      "line": "更舒服的位置在幕后，但你会把关系放在心上。"
+    },
+    "01": {
+      "id": "independent",
+      "name": "独行观察者",
+      "line": "你珍惜安静的空间，也希望彼此边界清晰。"
+    },
+    "10": {
+      "id": "resonance",
+      "name": "人群共振者",
+      "line": "你愿意走到人群中，让情绪与表达相互回应。"
+    },
+    "11": {
+      "id": "host",
+      "name": "边界主理人",
+      "line": "你愿意站到台前，也会为互动定下自己的规则。"
+    }
+  },
+  "featured": [
+    "fengge",
+    "huchenfeng",
+    "lecturer",
+    "huge",
+    "daoge",
+    "lebron",
+    "dasima",
+    "sunxiaochuan",
+    "jackie",
+    "yaoming",
+    "geyou"
+  ],
+  "portraitSheet": {
+    "width": 1774,
+    "height": 887,
+    "columns": 4,
+    "rows": 2
+  },
+  "sceneFeatured": [
+    "huge",
+    "daoge",
+    "huchenfeng",
+    "lebron",
+    "jackie",
+    "yaoming",
+    "sunxiaochuan",
+    "geyou"
+  ],
+  "sceneImageStatus": "verified-reference-originals-not-cartoon-redraws"
+}

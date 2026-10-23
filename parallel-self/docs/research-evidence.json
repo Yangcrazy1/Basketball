@@ -1,0 +1,78 @@
+{
+  "checked_on": "2026-10-21",
+  "timezone": "Asia/Shanghai",
+  "repositories": [
+    {
+      "repository": "pingfanfan/SBTI",
+      "sha": "21c945b3fe121ad3fc9c64ed256a90e8510c624d",
+      "latest_commit_shanghai": "2026-04-10T07:31:04+08:00",
+      "commit_count": "2",
+      "archived": false,
+      "source": "https://github.com/pingfanfan/SBTI/commits/main/"
+    },
+    {
+      "repository": "lhccong/MbtiGuide",
+      "sha": "8c78910bc455c97a6a4808a2333e8b2b767032bf",
+      "latest_commit_shanghai": "2024-05-20T16:48:19+08:00",
+      "commit_count": "20",
+      "archived": false,
+      "source": "https://github.com/lhccong/MbtiGuide/commits/master/"
+    },
+    {
+      "repository": "uni-helper/vitesse-uni-app",
+      "sha": "ce641a3a6d701c2b0db7006c0be7f430c96ec3d2",
+      "latest_commit_shanghai": "2026-03-04T13:24:46+08:00",
+      "commit_count": "117",
+      "archived": false,
+      "source": "https://github.com/uni-helper/vitesse-uni-app/commits/main/"
+    },
+    {
+      "repository": "Heisenberg1159/MBTI-wechat",
+      "sha": "c6943b48dba8c6a444cce6a866a8d79876e09056",
+      "latest_commit_shanghai": "2026-06-13T00:53:32+08:00",
+      "commit_count": "5",
+      "archived": false,
+      "source": "https://github.com/Heisenberg1159/MBTI-wechat/commits/main/"
+    },
+    {
+      "repository": "HalfSweetLemon/sbti-weapp",
+      "sha": "7b5a2608308342fbdff8dd6a0d263d55cf0100c2",
+      "latest_commit_shanghai": "2026-04-10T10:39:56+08:00",
+      "commit_count": "2",
+      "archived": false,
+      "source": "https://github.com/HalfSweetLemon/sbti-weapp/commits/main/"
+    },
+    {
+      "repository": "surveyjs/survey-library",
+      "sha": "1eda7d840eb2908d78af1d4cdfb1e2bbe2b9bcda",
+      "latest_commit_shanghai": "2026-10-21T17:12:10+08:00",
+      "commit_count": "16,987",
+      "archived": false,
+      "source": "https://github.com/surveyjs/survey-library/commits/master/"
+    },
+    {
+      "repository": "liyupi/cbti-test",
+      "sha": "b193031710b5ff16d3c671577a8371aeb5a012a3",
+      "latest_commit_shanghai": "2026-04-13T11:13:04+08:00",
+      "commit_count": "1",
+      "archived": false,
+      "source": "https://github.com/liyupi/cbti-test/commits/main/"
+    },
+    {
+      "repository": "3muyuxu3/MBTI-MiniProgram",
+      "sha": "b0ae202e7ef9aef0508b46e46e6f00c99676647a",
+      "latest_commit_shanghai": "2025-12-17T21:00:34+08:00",
+      "commit_count": "3",
+      "archived": false,
+      "source": "https://github.com/3muyuxu3/MBTI-MiniProgram/commits/master/"
+    },
+    {
+      "repository": "IseeJ/CosmosPersona",
+      "sha": "5843faa05bb7e5b91f29efc46369358d26bfa516",
+      "latest_commit_shanghai": "2026-02-10T13:01:08+08:00",
+      "commit_count": "276",
+      "archived": false,
+      "source": "https://github.com/IseeJ/CosmosPersona/commits/main/"
+    }
+  ]
+}
