@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-10-23T02:04:46.111907+00:00",
+  "repository": "Yangcrazy1/Basketball",
+  "repository_public": true,
+  "branch": "codex/parallel-self-v4",
+  "artifact_commit": "60322c395f849295cf8f471160202b416d48cbb7",
+  "client_authentication": "No Authorization header or cookies supplied by this verification client",
+  "files": [
+    {
+      "file": "parallel-self-android.apk",
+      "requested_url": "https://github.com/Yangcrazy1/Basketball/raw/refs/heads/codex/parallel-self-v4/parallel-self/releases/v4/parallel-self-android.apk",
+      "status": 200,
+      "resolved_url": "https://raw.githubusercontent.com/Yangcrazy1/Basketball/refs/heads/codex/parallel-self-v4/parallel-self/releases/v4/parallel-self-android.apk",
+      "content_type": "application/octet-stream",
+      "content_disposition": null,
+      "bytes": 1315353,
+      "sha256": "4810ce1d75a0f699531d20a30983c3fb8b00ce9f0b735775d3b1e780773a7172",
+      "matches_local_release": true
+    },
+    {
+      "file": "parallel-self.html",
+      "requested_url": "https://github.com/Yangcrazy1/Basketball/raw/refs/heads/codex/parallel-self-v4/parallel-self/releases/v4/parallel-self.html",
+      "status": 200,
+      "resolved_url": "https://raw.githubusercontent.com/Yangcrazy1/Basketball/refs/heads/codex/parallel-self-v4/parallel-self/releases/v4/parallel-self.html",
+      "content_type": "text/plain; charset=utf-8",
+      "content_disposition": null,
+      "bytes": 1809380,
+      "sha256": "e05384f84b86844803ecd9d0ea18eabe26a3c3c86fac84b9fe0cf3a02f832658",
+      "matches_local_release": true
+    }
+  ],
+  "scope": "Public HTTPS file retrieval and byte equality; not a phone installation or on-device network test"
+}
