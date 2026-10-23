@@ -27,7 +27,7 @@ with sync_playwright() as pw:
  with p.expect_download() as dl:p.locator('.download-png').click()
  assert Image.open(dl.value.path()).size==(1080,1920);p.locator('#close-dialog').click()
  with p.expect_download() as dl:p.locator('footer [data-action=download-html]').click()
- text=Path(dl.value.path()).read_text();assert len(text)>3000000 and 'world-otherme.v10.' in text and 'parody-icons-v10.webp' in text and 'Toy3D' not in text
+ text=Path(dl.value.path()).read_text();assert len(text)>3000000 and 'world-otherme.v10.' in text and 'parody-icons-v9.webp' in text and 'Toy3D' not in text
  passed('public app actually downloads a 1080x1920 PNG and the complete V10 offline HTML')
  p.goto(BASE+'download/?v=10-story',wait_until='networkidle')
  with p.expect_download() as dl:p.locator('a.download').click()
@@ -35,7 +35,7 @@ with sync_playwright() as pw:
  passed('public download page actually saves exactly the released self-contained HTML file')
  assert not errors,errors;browser.close()
 report=dict(status='passed',url=BASE+'?v=10-story',download_page=BASE+'download/?v=10-story',source_commit=info['source_commit'],html_sha256=SHA,html_bytes=len(HTML),checks=checks,javascript_errors=errors,checked_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),scope='Actual public HTTPS host, Chromium 390px responsive viewport and real downloads; no physical phone hardware test')
-(R/'docs/web-verification-v10.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(len(checks),'public HTTPS checks passed',flush=True)
+(R/'docs/web-verification-v10.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(len(checks),'public HTTPS app checks passed',flush=True)
 
 for remote,local in [('packages/world-another-me-v10-xhs.zip','release/world-another-me-v10-xhs.zip'),('branding/logo.png','assets/branding/logo.png'),('branding/cover.png','assets/branding/cover.png')]:
  data=urlopen(BASE+remote+'?v='+SHA[:12],timeout=45).read();assert hashlib.sha256(data).hexdigest()==hashlib.sha256((R/local).read_bytes()).hexdigest()

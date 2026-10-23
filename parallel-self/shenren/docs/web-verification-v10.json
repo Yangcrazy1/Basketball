@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "url": "https://yangcrazy1.github.io/Basketball/?v=10-story",
+  "download_page": "https://yangcrazy1.github.io/Basketball/download/?v=10-story",
+  "source_commit": "91b7132d263550b6d0efa7e2f31351d005d62ec2",
+  "html_sha256": "746f0a325014b25ec03d6806d16bcc08b75d2ce5beeae115a7350feb9b89428c",
+  "html_bytes": 10558414,
+  "checks": [
+    "public root and single-file endpoint serve HTTP 200 and exactly the browser-tested release bytes",
+    "actual public mobile viewport starts V10 with three boards and only one combined League entry",
+    "public Collector sample restores the mandatory Collector response and five real item copies",
+    "public lol eight-question flow auto-advances to its person, themed Hex and five-person team",
+    "public basket eight-question flow auto-advances to its person, themed Hex and five-person team",
+    "public abstract eight-question flow auto-advances to its person, themed Hex and five-person team",
+    "public app actually downloads a 1080x1920 PNG and the complete V10 offline HTML",
+    "public download page actually saves exactly the released self-contained HTML file",
+    "public Xiaohongshu ZIP, transparent Logo and cover downloads exactly match the validated artifacts"
+  ],
+  "javascript_errors": [],
+  "checked_at": "2026-10-23T14:51:21.157052+00:00",
+  "scope": "Actual public HTTPS host, Chromium 390px responsive viewport and real downloads; no physical phone hardware test"
+}
