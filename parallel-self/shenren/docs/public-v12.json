@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": [
+    "published entry, full offline HTML, web/XHS ZIP SHA-256 hashes, review, cover, logo and screenshots resolve",
+    "real HTTPS three-page story/replay, collapsed home story, all 40 portraits and Yang Yi detail work",
+    "published lol quiz, reveal, rich dossier, five-person squad and independent name reroll",
+    "published basket quiz, reveal, rich dossier, five-person squad and independent name reroll",
+    "published abstract quiz, reveal, rich dossier, five-person squad and independent name reroll",
+    "real public PNG downloads for result/standalone squads and exact current offline HTML download",
+    "no public page exceptions or failed HTTP resource requests"
+  ],
+  "count": 7,
+  "url": "https://yangcrazy1.github.io/Basketball/v12/",
+  "sourceCommit": "293e82602600fadf1de84bdf64d4ea5d6839c357",
+  "deploymentArtifactSHA256": "f79e4a06898e649144cc5ca5b7e772ede2fb81de17110d4aa850af78c1f9b7a4",
+  "checkedAt": "2026-10-23T18:25:29.116953+00:00",
+  "device": "393×852 Chromium mobile viewport; not physical phone or XHS platform acceptance"
+}

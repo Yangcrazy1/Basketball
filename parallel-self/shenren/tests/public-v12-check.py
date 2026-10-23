@@ -50,7 +50,7 @@ with sync_playwright() as w:
     p.locator('[data-search=library]').fill('杨毅')
     p.wait_for_timeout(300)
     p.locator('.library-person').click()
-    assert p.locator('.universe-timeline article').count() == 4
+    assert p.locator('#dialog .universe-timeline article').count() == 4
     assert p.locator('.person-perks button').count() == 3
     p.locator('#close-dialog').click()
     passed('real HTTPS three-page story/replay, collapsed home story, all 40 portraits and Yang Yi detail work')
@@ -66,7 +66,7 @@ with sync_playwright() as w:
         p.wait_for_selector('.reveal-page')
         p.locator('[data-action=reveal-open]').click()
         assert p.locator('.team-card').count() == 5
-        assert p.locator('.universe-timeline article').count() == 4
+        assert p.locator('#app .universe-timeline article').count() == 4
         before = p.locator('[data-squad-name]').inner_text()
         ids = p.locator('.team-card').evaluate_all('xs=>xs.map(x=>x.dataset.person)')
         p.locator('[data-action=team-name]').first.click()

@@ -40,4 +40,4 @@
 - 网页部署包：`release/world-another-me-v12-web.zip`
 - 小红书待上传包：`release/world-another-me-v12-xhs.zip`
 
-文件大小及 SHA256 以 `docs/v12-build-manifest.json` 为准。公开链接验证结果记录在 `docs/public-v12.json`。
+文件大小及 SHA256 以 `docs/v12-build-manifest.json` 为准。公开链接另有 7 组检查通过：入口／HTML／两种 ZIP 哈希、封面／Logo／截图、故事重播与 40 人头像、三主题实际答题与队名、结果／自选五人 PNG 及离线 HTML 的真实下载、无脚本异常或 HTTP 资源失败。结果记录在 `docs/public-v12.json`；部署提交为 `1ba3cc9`，未更改旧入口。
