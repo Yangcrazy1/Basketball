@@ -1,0 +1,9 @@
+{
+  "version": 5,
+  "name": "世界上另一个我",
+  "default": "lol/hex",
+  "source_commit": "300d97015c5c769e24ab4958a2f3326cd330a009",
+  "html_sha256": "4373abc0d544ce9f4ec5e907b0d5f0619e7c95ef5500cb7dbc4c1a20cdeebf3d",
+  "html_bytes": 1822194,
+  "built_at": "2026-10-23T15:29:21.682088+08:00"
+}
