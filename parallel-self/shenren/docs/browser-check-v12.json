@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "checks": [
+    "three-page replayable intro, collapsed story on V10 classic home; 320/360/393/430/1280 layouts; 2KB entry",
+    "story replays on each opening and header action; collapsed summary; both palettes persist",
+    "full unpaginated 20/10/10 catalog, 170px portraits, merged aliases, 220px detail, three cards, nested back and restored scroll/search",
+    "all 156 cards browseable, owner filter and back preserved, complete effects and innate gift label",
+    "12 samples, four-stage netcafe start, automatic advance, double-tap guard and real back-edit",
+    "classic double-laugh artwork renders throughout an actual resumed four-stage episode",
+    "all nine real quiz flows: three themes × eight/sixteen/twenty-four questions, identity reveal, actual evidence, three gifts and five-person teams",
+    "result layouts at five widths; custom five-person lineup applied to a real 1080×1920 PNG download",
+    "result squad name reroll leaves identity and lineup unchanged, persists in history, and exports five-person PNG",
+    "online download returns the complete current standalone HTML, with all images embedded",
+    "retired-person V10 history and saved custom lineup still replay through the frozen V10 engine/data",
+    "standalone self-selected team saves five unique people and persistent name; actual PNG export works without any quiz",
+    "standalone HTML runs offline with storage unavailable and completes a full eight-question quiz",
+    "staged Xiaohongshu web fallback starts with external local assets; physical native runtime remains untested",
+    "mock SDK integration confirms new team poster uses temporary file then explicit native album button, with no browser download anchor; not native acceptance",
+    "no page JavaScript exceptions or external runtime resource requests"
+  ],
+  "count": 16,
+  "viewport": "393x852 Chromium mobile viewport; not physical phone",
+  "layoutWidths": [
+    320,
+    360,
+    393,
+    430,
+    1280
+  ],
+  "html_sha256": "f79e4a06898e649144cc5ca5b7e772ede2fb81de17110d4aa850af78c1f9b7a4",
+  "pendingAvatars": []
+}

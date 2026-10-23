@@ -167,6 +167,20 @@
       "height": 1254,
       "sha256": "76565231d64f09927538aa6c078f6fd941acf89d22d36a4c9d3c9a419c006135",
       "generatedOriginalName": "exec-85eda6e9-6e2f-4e0d-af08-b80673fd35a1.png"
+    },
+    {
+      "asset": "portraits-v12-newcast.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "e4270d9866bad01326a210724fb13d32b851dd3d1144700b07671933f5baa7bb",
+      "generatedOriginalName": "exec-6a9c286c-7fa4-4f8b-a387-bedf1f41bb97.png"
+    },
+    {
+      "asset": "portraits-v12-yangyi.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9e84eabecaf2a4f1df3a4d063e29aaf183b5436bde4b27629ca227dfe2228222",
+      "generatedOriginalName": "exec-53f0cfcc-18c9-491c-aa2c-c087a06dd2cc.png"
     }
   ],
   "portraits": {
@@ -476,7 +490,8 @@
       "cell": 1
     },
     "yangyi": {
-      "pending": true
+      "sheet": 25,
+      "cell": 0
     },
     "zhouqi": {
       "sheet": 19,
@@ -546,16 +561,20 @@
       "cell": 0
     },
     "vincent": {
-      "pending": true
+      "sheet": 24,
+      "cell": 0
     },
     "kid": {
-      "pending": true
+      "sheet": 24,
+      "cell": 1
     },
     "us-lecturer": {
-      "pending": true
+      "sheet": 24,
+      "cell": 3
     },
     "yaoshuige": {
-      "pending": true
+      "sheet": 24,
+      "cell": 2
     }
   }
 }

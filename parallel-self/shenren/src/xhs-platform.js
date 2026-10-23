@@ -1,7 +1,7 @@
 /* Xiaohongshu native adapter. Contract checked 2026-10-23 against online docs. */
 window.WORLD_PLATFORM=(function(){
 'use strict';
-var prefix='world-otherme.v10.',values={},native=false,canPersist=true,version=0,queue=Promise.resolve(),posterData=null,known=['theme','count','style','intro-seen','session','history','first.lol','first.basket','first.abstract','squad.lol','squad.basket','squad.abstract'];
+var prefix='world-otherme.v10.',values={},native=false,canPersist=true,version=0,queue=Promise.resolve(),posterData=null,known=['theme','count','style','style.v12','intro-seen','session','history','first.lol','first.basket','first.abstract','squad.lol','squad.basket','squad.abstract'];
 var mini=window.xhs&&window.xhs.miniTool;
 function buildValue(options){return Number(options&&options.miniToolEnv&&options.miniToolEnv.buildVersion)||0;}
 async function getVersion(){var v=buildValue(window.xhs&&window.xhs.launchOptions);if(v)return Math.floor(v/1000);if(mini&&typeof mini.getLaunchOptions==='function'){try{return Math.floor(buildValue(await mini.getLaunchOptions())/1000);}catch(e){return 0;}}return 0;}

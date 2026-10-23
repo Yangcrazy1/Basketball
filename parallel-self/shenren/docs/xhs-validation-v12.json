@@ -1,0 +1,40 @@
+{
+  "status": "static_checks_passed_native_acceptance_pending",
+  "zip": {
+    "bytes": 9913155,
+    "sha256": "3d1cae3ace74939e124351e843e77ea64e40029cd562bbc5779a8adcead14e53"
+  },
+  "zipFiles": 72,
+  "zipRootEntry": "index.html",
+  "auditDirectory": "PASS: 72 file(s), 0 warning(s)",
+  "auditZip": "WARN: world-another-me-v12-xhs.zip: zip is 9.45 MiB; recommended target is 2 MiB\nPASS: 72 file(s), 1 warning(s)",
+  "javascript": "Acorn ES2017 parse: all four packaged scripts passed",
+  "APIContract": {
+    "baseline": "skill js-api.md 2026-09-23",
+    "onlineURL": "https://miniapp-sandbox.xiaohongshu.com/minitool/doc",
+    "onlineChecked": "2026-10-24",
+    "onlineSha256": "ec9a46746cf6570136e91def7445db9acbeafd132ac2e714fe6ed11b12f3363b",
+    "used": [
+      "getStorage",
+      "setStorage",
+      "removeStorage",
+      "getLaunchOptions",
+      "getWindowInfo",
+      "writeTempFile",
+      "saveImageToPhotosAlbum"
+    ],
+    "nativeBrowserMock": "temporary file then album save, no download anchor; contract simulation only"
+  },
+  "compatibility": {
+    "script": "external classic scripts only",
+    "network": "all runtime assets local; no fetch/XHR",
+    "CSS": "grid-gap, flex gap behavioral probe/margin fallback, ratio boxes, safe area fallback",
+    "performance": "bounded 40 people / 156-card catalog, image sheets created on demand and pruned; actual device performance unmeasured"
+  },
+  "pending": [
+    "创服平台模拟器完整功能验证",
+    "Android 真机扫码验证相同 ZIP",
+    "iOS 真机扫码验证相同 ZIP",
+    "Chrome 61 CSS 与真实设备性能实测"
+  ]
+}

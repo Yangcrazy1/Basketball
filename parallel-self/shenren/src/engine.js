@@ -166,5 +166,13 @@ function analyze(session,data){
  const bond=recommendations.find(a=>(a.signatureFor||[]).includes(identity.personId))||null;
  return {inherentCards:(identity.signaturePerks||[]).map(id=>data.augments[session.theme].find(a=>a.id===id)).filter(Boolean),triggeredPersonal:recommendations.filter(a=>a.exclusive&&a.personLink),vector,identity,ranked,profile,augment,recommendations,bond,team:linkTeam(buildTeam(vector,ranked,identity,augment),augment,session.theme),story:narrative(identity,session.theme,profile,session.series,augment),signature:Object.entries(rows.reduce((sum,{o})=>{sum[o.behavior]=(sum[o.behavior]||0)+1;return sum;},{})).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,3).map(([id,count])=>({id,count,label:data.behaviorLabels[id]})),evidence,coverage:dimsFor(session.theme).map(dim=>session.theme==='lol'?session.count:rows.filter(({q})=>q.dim===dim).length)};
 }
-return {enabledPeople,enabledCards,searchPeople,resolvePerson,applyExposure,exposureSample,dimIds,lolDimIds,dimsFor,shuffle,draw,valid,score,similarity,analyze,buildTeam,narrative,recommend,context,selections,questionAt,rankPeople,behaviorFit,artLayout,recordAnswer,squadError,fillSquad,customSquad};
+function makeSquadName(theme,team,previous='',rng=random){
+ if(!Array.isArray(team)||team.length!==5||new Set(team.map(p=>p.personId)).size!==5)throw Error('五位不同的队友到齐后才能起名');
+ const heads={lol:['全员收集者','五楼拒绝补位','网费不够但嘴硬','最后一把不散伙','复活期间还在讲课','金色的雨先分期','今天全队都在解释','先别急着说稳了'],basket:['凌晨四点还在打铁','膝盖管理局','最后一投谁都想要','球没进先怪风','篮板全靠缘分','停车场射程施工中','赛后采访没人认输','全队申请暂停'],abstract:['吃饱喝足再上头','全员学士帽Plus','麦克风无人刹车','路费还没凑齐','先别急着解释','饭点比闹钟还准','五个群聊管理员','正片没开始先笑场']};
+ const tails={lol:['包夜互助会','峡谷临时夺冠办','五黑售后服务部','没有前排股份公司','不愿透露战绩的五位市民','宇宙级复盘研究所'],basket:['篮球研究所','野球场团建小队','赛后嘴硬中心','夕阳红冠军分部','全员回防倡议会','篮筐维修筹备组'],abstract:['互联网临时工','宇宙级气氛组','节目效果售后部','饭后发布会筹备组','平行宇宙嘴替联盟','未获通知也要返场团']};
+ if(!heads[theme])throw Error('不支持的战队主题');let title='',hi=0,ti=0;for(let k=0;k<6;k++){hi=Math.min(heads[theme].length-1,Math.floor(rng()*heads[theme].length));ti=Math.min(tails[theme].length-1,Math.floor(rng()*tails[theme].length));title=heads[theme][hi]+' · '+tails[theme][ti];if(title!==previous)break;}if(title===previous)title=heads[theme][(hi+1)%heads[theme].length]+' · '+tails[theme][ti];
+ const motto={lol:'上不上分先不说，今晚五个人必须整整齐齐。',basket:'投进算大家的，打铁就当替篮筐做体检。',abstract:'节目可以随缘，人和饭必须按时到齐。'}[theme];
+ return {title,motto,ids:team.map(p=>p.id),theme};
+}
+return {makeSquadName,enabledPeople,enabledCards,searchPeople,resolvePerson,applyExposure,exposureSample,dimIds,lolDimIds,dimsFor,shuffle,draw,valid,score,similarity,analyze,buildTeam,narrative,recommend,context,selections,questionAt,rankPeople,behaviorFit,artLayout,recordAnswer,squadError,fillSquad,customSquad};
 });

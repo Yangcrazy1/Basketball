@@ -7,7 +7,7 @@ def dump(v):return json.dumps(v,ensure_ascii=False,separators=(',',':')).replace
 def copy(asset):
  src=R/'assets'/asset;dst=O/'assets'/asset;dst.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(src,dst);return './assets/'+asset
 D=json.loads((R/'src/data.json').read_text());A=json.loads((R/'assets/portrait-atlas.json').read_text());sheets=[dict(s,url=copy(s['asset'])) for s in A['sheets']];perk=json.loads((R/'assets/parody-icon-atlas.json').read_text());perk['url']=copy(perk['asset']);icons={s['id']:dict(s,url=copy(s['asset']),sourceURL=s['url']) for s in json.loads((R/'assets/game-icon-sources.json').read_text())};branding={k:copy('branding/'+v) for k,v in {'logo':'logo.webp','cover':'cover.webp','intro':'intro.webp','home':'home-v11.webp','uziEnding':'uzi-ending.webp'}.items()}
-data=';'.join('window.'+k+'='+dump(v) for k,v in dict(WORLD_CARD_ART={a['id']:copy(a['artAsset']) for arr in D['augments'].values() for a in arr if a.get('enabled') and a.get('artAsset')},WORLD_LEGACY_DATA=json.loads((R/'src/legacy/data.json').read_text()),WORLD_DATA=D,WORLD_ATLASES=sheets,WORLD_PORTRAITS=A['portraits'],WORLD_PERK_SHEET=perk,WORLD_SOURCES=json.loads((R/'image-sources.json').read_text()),WORLD_GAME_ICONS=icons,WORLD_BRANDING=branding,WORLD_MEME_BANNER=copy('equipment-meme-banner-v8.webp')).items())+';\n';(O/'data.js').write_text(data)
+data=';'.join('window.'+k+'='+dump(v) for k,v in dict(WORLD_PERK_SHEETS=[dict(a,url=copy(a['asset'])) for a in json.loads((R/'assets/rich-perk-atlases.json').read_text())],WORLD_CARD_ART={a['id']:copy(a['artAsset']) for arr in D['augments'].values() for a in arr if a.get('enabled') and a.get('artAsset') and not a.get('preferClassic')},WORLD_LEGACY_DATA=json.loads((R/'src/legacy/data.json').read_text()),WORLD_DATA=D,WORLD_ATLASES=sheets,WORLD_PORTRAITS=A['portraits'],WORLD_PERK_SHEET=perk,WORLD_SOURCES=json.loads((R/'image-sources.json').read_text()),WORLD_GAME_ICONS=icons,WORLD_BRANDING=branding,WORLD_MEME_BANNER=copy('equipment-meme-banner-v8.webp')).items())+';\n';(O/'data.js').write_text(data)
 app=(R/'src/app.js').read_text();app=app.replace("(function(){'use strict';", "WORLD_PLATFORM.ready.then(function(){'use strict';").replace("const sourceHTML='<!DOCTYPE html>\\n'+document.documentElement.outerHTML,D=",'const D=')
 a=app.index('function read(');b=app.index('function notify(',a);app=app[:a]+"function read(k,f=null){return WORLD_PLATFORM.read(k,f);}\nfunction write(k,v){WORLD_PLATFORM.write(k,v);}\nfunction remove(k){WORLD_PLATFORM.remove(k);}\n"+app[b:]
 app=re.sub(r"function download\(url,name\)\{[^\n]+\}\nfunction downloadHTML\(\)\{[^\n]+\}\n",'',app)
@@ -16,7 +16,8 @@ app=app.replace("else if(a==='download-html')downloadHTML();",'').replace("else 
 app=re.sub(r'<a href="\$\{esc\((.*?)\)\}" target="_blank" rel="noreferrer">',r'<span class="source-citation">参考来源：${esc(\1)}<br>',app)
 app=app.replace('</a>','</span>').replace('（需联网）','（离线来源记录）')
 app=app.replace('<button class="secondary" data-action="download-html">下载完整离线网页 ↓</button>','')
-app=app.replace('长按图片保存，或下载完整 PNG。','点击下方按钮存入手机相册。').replace('<a class="primary download-png" href="${url}" download="世界上另一个我-V11-整活海报.png">下载 PNG 图片 ↓</span>','<button class="primary full-width" data-action="save-album">保存图片到相册 ↓</button>')
+app=app.replace('长按图片保存，或下载完整 PNG。','点击下方按钮存入手机相册。').replace('<a class="primary download-png" href="${url}" download="世界上另一个我-V12-整活海报.png">下载 PNG 图片 ↓</span>','<button class="primary full-width" data-action="save-album">保存图片到相册 ↓</button>')
+app=re.sub(r'<a class="primary download-png"[^>]*>.*?</span>', '<button class="primary full-width" data-action="save-album">保存图片到相册 ↓</button>', app)
 app=app.replace("const url=c.toDataURL('image/png');open", "const url=c.toDataURL('image/png');WORLD_PLATFORM.setPoster(url);open")
 app=app.replace("function render(html){", "function render(html){persistent=WORLD_PLATFORM.isPersistent();")
 app=app.replace("$('#loading').hidden=true;", "$('#loading').hidden=true;WORLD_PLATFORM.afterRender();")
@@ -54,7 +55,7 @@ for path in files:
  assert not re.search(r'data:image/[^;]+;base64,[A-Za-z0-9+/=]{1000}',text),str(path)
 if args.stage:
  print(json.dumps({'staged':str(O),'files':len([p for p in files if p.is_file()]),'note':'preview stage only; no release ZIP generated'},ensure_ascii=False));raise SystemExit(0)
-zip_path=R/'release/world-another-me-v11-xhs.zip'
+zip_path=R/'release/world-another-me-v12-xhs.zip'
 with zipfile.ZipFile(zip_path,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
  for path in sorted(O.rglob('*')):
   if path.is_file():z.write(path,path.relative_to(O).as_posix())

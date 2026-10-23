@@ -268,5 +268,41 @@
     "version": "16.21.1",
     "sha256": "a0cf7b08cdd6d852d325bc9124e05f0e2c55aac340e50665c385755dfa86fbc0",
     "sourcePage": "https://developer.riotgames.com/docs/lol#data-dragon"
+  },
+  {
+    "id": "spell-DravenSpinning",
+    "name": "荣耀行刑官 · 旋转飞斧",
+    "version": "16.21.1",
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/DravenSpinning.png",
+    "asset": "game-icons/spell-DravenSpinning.png",
+    "sha256": "d1ef70723a61b47914075db076d62f9441553a835bf191a998c990f662974578",
+    "kind": "Riot Data Dragon 技能图标"
+  },
+  {
+    "id": "spell-ThreshQ",
+    "name": "魂锁典狱长 · 死亡判决",
+    "version": "16.21.1",
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/ThreshQ.png",
+    "asset": "game-icons/spell-ThreshQ.png",
+    "sha256": "42fd4907e14b5493a5b4ee1613377ba2ffecedd0d80d0e07ef8c3c432339c5ee",
+    "kind": "Riot Data Dragon 技能图标"
+  },
+  {
+    "id": "spell-FerociousHowl",
+    "name": "牛头酋长 · 坚定意志",
+    "version": "16.21.1",
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/FerociousHowl.png",
+    "asset": "game-icons/spell-FerociousHowl.png",
+    "sha256": "c6735761b8f99be2ce5aae1e4bb47a6151d7c5df88f2d462c8b7ed39a5cbe622",
+    "kind": "Riot Data Dragon 技能图标"
+  },
+  {
+    "id": "spell-GalioR",
+    "name": "正义巨像 · 英雄登场",
+    "version": "16.21.1",
+    "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/img/spell/GalioR.png",
+    "asset": "game-icons/spell-GalioR.png",
+    "sha256": "bf97d9824a5c15e88da0a4ae5457163e04bef5f16195577e3ff6103d7324c52f",
+    "kind": "Riot Data Dragon 技能图标"
   }
 ]

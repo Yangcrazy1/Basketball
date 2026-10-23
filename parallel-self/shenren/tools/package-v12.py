@@ -1,0 +1,48 @@
+"""Collect the tested V10-reborn release and its review/download page."""
+from pathlib import Path
+import hashlib, json, shutil, zipfile
+
+R = Path(__file__).resolve().parents[1]
+W = R / 'dist/web'
+meta = json.loads((R / 'docs/v12-build-manifest.json').read_text())
+browser = json.loads((R / 'docs/browser-check-v12.json').read_text())
+assert browser['status'] == 'passed' and browser['count'] == 16
+assert browser['html_sha256'] == meta['offline_html_sha256']
+assert browser['pendingAvatars'] == []
+downloads = W / 'downloads'
+downloads.mkdir(exist_ok=True)
+web_zip = R / 'release/world-another-me-v12-web.zip'
+with zipfile.ZipFile(web_zip, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as z:
+    for p in sorted(W.rglob('*')):
+        if p.is_file() and p.relative_to(W).parts[0] not in ('downloads', 'screenshots') and p.name not in ('review.html', 'build-info.json'):
+            z.write(p, p.relative_to(W).as_posix())
+for name in ('world-another-me-v12-xhs.zip', 'world-another-me-v12-web.zip'):
+    p = R / 'release' / name
+    shutil.copy2(p, downloads / name)
+    meta['artifacts'][name] = {'bytes': p.stat().st_size, 'sha256': hashlib.sha256(p.read_bytes()).hexdigest()}
+for name in ('logo.png', 'cover.png'):
+    shutil.copy2(R / 'assets/branding' / name, downloads / name)
+screens = W / 'screenshots'
+screens.mkdir(exist_ok=True)
+names = ['intro-1.png', 'intro-2.png', 'intro-3.png', 'release-home.png', 'release-home-cream.png', 'release-person-detail.png', 'release-card-detail.png', 'release-question.png', 'release-result-lol.png', 'release-result-basket.png', 'release-result-abstract.png', 'release-team.png', 'team-poster.png', 'standalone-team-poster.png']
+for name in names:
+    shutil.copy2(R / 'dist/qa/v12' / name, screens / name)
+meta.update(engineAndStorageTests=38, browserGroups=16, browserDevice='393×852 Chromium mobile viewport, not a physical phone')
+(R / 'docs/v12-build-manifest.json').write_text(json.dumps(meta, ensure_ascii=False, indent=2) + '\n')
+page = '''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>世界上另一个我 · V10 回归增强版下载</title><style>
+*{box-sizing:border-box}body{margin:0;background:#121321;color:#f7eedf;font:16px -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;line-height:1.8}main{max-width:900px;margin:auto;padding:30px 20px 70px}h1{font-size:34px;line-height:1.4}h2{font-size:24px;line-height:1.5}small{color:#b8accb}a{color:#d5bcff}progress{display:block;width:100%;height:9px;accent-color:#b99bff;margin:24px 0}article{border:1px solid #574a6e;background:linear-gradient(145deg,#282039,#181a2c);border-radius:22px;padding:24px;margin:26px 0}.button{display:inline-flex;align-items:center;min-height:48px;text-decoration:none;border:1px solid #ad91dd;border-radius:12px;padding:10px 17px;margin:7px 7px 7px 0;background:#c6b0ed;color:#211932;font-weight:700}.secondary{background:transparent;color:#e1cef9}.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.gallery a{min-width:0}.gallery img{width:100%;border-radius:10px;border:1px solid #574a6e}.phone{display:block;width:393px;max-width:100%;margin:20px auto;border-radius:12px}.note{color:#c1b4cb;font-size:13px}li{margin:9px 0}summary{min-height:44px;cursor:pointer}code{overflow-wrap:anywhere;font-size:12px}@media(max-width:540px){article{padding:20px 16px}.gallery{grid-template-columns:1fr}.gallery img{max-width:393px;display:block;margin:auto}h1{font-size:29px}}
+</style><main><small>世界上另一个我 / V10 回归增强版</small><h1>画风回来了，<br>这次五个人一起穿越。</h1><progress value="100" max="100" aria-label="网页开发与自动检查已完成"></progress><p>40 位漫画人物 · 328 道情境题 · 156 张恶搞海克斯<br>三页穿越序章 · 8／16／24 题 · 自选五人 · 离谱队名与合照</p><a class="button" href="./">手机直接打开玩 ↗</a><a class="button secondary" href="./world-another-me.html" download="世界上另一个我-V10回归增强版.html">下载完整离线 HTML ↓</a>
+<article><h2>你要的细节，这次都收进来了。</h2><ul><li>深色星空与棱彩卡框，搭配奶油紫第二套配色；收集者仍是五把真实装备图标叠放。</li><li>三页讲清穿越，每次打开可重看；大厅默认收起故事，顶部一直有“我的穿越故事”。</li><li>40 位启用人物都有已核对参考的漫画头像；新增文森特、Kid、药水哥、美国讲师、杨毅。</li><li>每人补充穿越来历、任务、隐藏被动和队友评价，保留每人三张独占海克斯。</li><li>答题后自动组队，也可直接自选五人。每个主题 48 种队名组合，可重抽、保存并生成 1080×1920 PNG 合照。</li></ul></article>
+<article><h2>三幕穿越故事</h2><div class="gallery">__INTRO__</div><p class="note">以下为当前产物实际运行的手机视口截图（393×852 Chromium），不是实体手机拍摄。</p></article>
+<article><h2>棱彩海克斯与人物设定</h2><div class="gallery">__DETAILS__</div></article>
+<article><h2>五个人，队名比阵容还离谱。</h2><a href="./screenshots/team-poster.png"><img class="phone" loading="lazy" src="./screenshots/team-poster.png" alt="实际导出的五人战队PNG海报"></a><p class="note">上图是实际下载的 PNG；在程序里换五个人或换队名，就能重新生成。</p><a class="button secondary" href="./screenshots/team-poster.png" download="我的平行宇宙五人团.png">下载示例合照 ↓</a></article>
+<article><h2>单独文件</h2><a class="button secondary" href="./downloads/logo.png" download>透明底 Logo ↓</a><a class="button secondary" href="./downloads/cover.png" download>方形封面 ↓</a><a class="button secondary" href="./downloads/world-another-me-v12-web.zip" download>网页部署 ZIP ↓</a><a class="button secondary" href="./downloads/world-another-me-v12-xhs.zip" download>小红书待上传 ZIP ↓</a><p class="note">离线 HTML 为完整单文件，约 14.1 MiB；手机直接体验请点顶部“打开玩”。网页部署 ZIP 解压后使用静态托管即可。小红书 ZIP 约 9.45 MiB，供创服平台上传使用。</p></article>
+<details><summary>校验摘要与待验证项目</summary><p>38 项逻辑与存储测试、16 组实际浏览器流程通过。三主题 × 三题量、自动下一题、两种配色、故事重看、40 人头像、五人自选、队名保存、两种 PNG、完整 HTML 下载、离线运行及旧档案恢复均有覆盖。宽度检查：320／360／393／430／1280px。</p><p>小红书 ZIP 72 个文件，根目录 index.html，四个 ES2017 经典脚本，全部运行资源随包提供；目录与 ZIP 静态审计无错误，包体超过 2 MiB 建议值、低于 10 MiB 硬上限。</p><p>待用户验证：创服平台模拟器完整功能 → Android 真机扫码 → iOS 真机扫码，须使用同一 ZIP。Chrome 61 CSS 与实际设备性能尚未实测；浏览器和 SDK 模拟不能替代小红书容器验收。</p><p>人物与剧情为本作架空娱乐创作。公开参考照片仅用于漫画原型核对，未把其视为已获得商用许可或本人背书。来源记录随源码提供。</p><p>离线 HTML SHA-256：<code>__SHA__</code></p></details></main></html>'''
+def pic(name, alt):
+    return f'<a href="./screenshots/{name}"><img loading="lazy" src="./screenshots/{name}" alt="{alt}"></a>'
+page = page.replace('__INTRO__', ''.join(pic(f'intro-{i}.png', f'穿越故事第{i}幕') for i in [1, 2, 3]))
+page = page.replace('__DETAILS__', ''.join(pic(n, t) for n, t in [('release-card-detail.png', '棱彩漫画海克斯'), ('release-person-detail.png', '人物四段宇宙设定'), ('release-home-cream.png', '奶油紫第二配色')]))
+page = page.replace('__SHA__', meta['offline_html_sha256'])
+(R / 'docs/v12-review.html').write_text(page)
+(W / 'review.html').write_text(page)
+print(json.dumps({'review': str(W / 'review.html'), 'artifacts': meta['artifacts']}, ensure_ascii=False, indent=2))

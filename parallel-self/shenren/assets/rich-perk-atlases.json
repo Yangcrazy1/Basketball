@@ -1,0 +1,33 @@
+[
+  {
+    "asset": "parody-icons-v9.webp",
+    "width": 1254,
+    "height": 1254,
+    "columns": 4,
+    "rows": 4,
+    "sha256": "9b6b60714fddd5d41cada92ce7af49bc91334a526b549274c5e3797cc05e023c",
+    "kind": "本作原创AI恶搞图标",
+    "generatedOriginalName": "exec-ca628558-c25a-4f61-89af-f0cd49b6814e.png",
+    "note": "前8格为NBA主题，后8格为舞蹈、翻唱、自媒体主题。联盟卡使用真实游戏图标排布。"
+  },
+  {
+    "asset": "parody-icons-v12-basket.webp",
+    "width": 1254,
+    "height": 1254,
+    "columns": 4,
+    "rows": 4,
+    "sha256": "b910948362c91b99952d5ae9b505bef89f013f6bebe2d179af766ac0b0c72a43",
+    "kind": "本作原创AI棱彩漫画图标",
+    "generatedOriginalName": "exec-e8d88787-074a-4306-8e17-2d4c18bfc77c.png"
+  },
+  {
+    "asset": "parody-icons-v12-abstract.webp",
+    "width": 1254,
+    "height": 1254,
+    "columns": 4,
+    "rows": 4,
+    "sha256": "913565eb8e82d369161719925252138829e4a1018f20da53b3164a10b6890694",
+    "kind": "本作原创AI棱彩漫画图标",
+    "generatedOriginalName": "exec-e0fb791e-3004-4f09-98ec-a9a62357f0d7.png"
+  }
+]

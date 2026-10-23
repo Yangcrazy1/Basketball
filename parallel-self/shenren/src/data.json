@@ -30969,6 +30969,13 @@
           "calm": 5,
           "explain": 4
         }
+      },
+      "universe": {
+        "title": "金雨收款人",
+        "arrival": "你刚摘下网吧耳机，就发现自己站在平行S8决胜局的选手通道。大屏上，对面的飞科又选了加里奥。",
+        "mission": "把那条没能走完的冠军路，和四名队友一起走到颁奖台。",
+        "passive": "听见残血提示音时眼神会自动聚焦；听见“吃饭了”也一样。",
+        "teamHook": "五人团购发起人：收集者可以买五把，队友一个不能少。"
       }
     },
     {
@@ -31105,6 +31112,13 @@
           "laugh": 5,
           "chaos": 4
         }
+      },
+      "universe": {
+        "title": "全宇宙春天管理员",
+        "arrival": "你推开休息室，外面正在下金雨；工作人员递来日历，每一页都印着春天。",
+        "mission": "带着全队把好状态留到最后一个赛点，笑声等结算再开两段。",
+        "passive": "空调永远恒温，但队友刚说稳了，你就会先看一眼计分板。",
+        "teamHook": "负责把热血调成常温，再把笑声开到全队都听得见。"
       }
     },
     {
@@ -31227,6 +31241,13 @@
           "explain": 5,
           "blame": 4
         }
+      },
+      "universe": {
+        "title": "复活公开课首席讲师",
+        "arrival": "你醒来站在一块黑板前，地图上只有四条边。队友已经复活，粉笔还在解释第三个拐角。",
+        "mission": "让路线不仅讲得通，也真的把四名队友接到同一个地方。",
+        "passive": "灰屏即开课，人一复活，课程仍有加时环节。",
+        "teamHook": "复盘可以长一点，下一波集合别迟到。"
       }
     },
     {
@@ -31325,6 +31346,13 @@
           "calm": 4,
           "engage": 4
         }
+      },
+      "universe": {
+        "title": "上路独立气象台",
+        "arrival": "你到达新宇宙时，地图上路被画成了一座岛。对面来了三个人，天气预报说只是局部阵雨。",
+        "mission": "在个人操作和全队故事之间，找到能一起到场的传送门。",
+        "passive": "能在一群人里找到出手角度，却偶尔在语音里找不到队友。",
+        "teamHook": "负责吸引全场镜头，也需要朋友提醒合照开始了。"
       }
     },
     {
@@ -31445,6 +31473,13 @@
           "vision": 5,
           "protect": 4
         }
+      },
+      "universe": {
+        "title": "冠军展柜管理员",
+        "arrival": "你推开训练室，奖杯柜向宇宙另一端延伸。工作人员问这次要扩多少格，你说先打好眼前一局。",
+        "mission": "用每个清醒的决定，把新的队友也带进下一张冠军合照。",
+        "passive": "镜头切到哪里，那里就有人突然坐直；闪现键的玻璃罩仍没拆封。",
+        "teamHook": "全队的稳定电源：先看清，再把那个关键按钮按下去。"
       }
     },
     {
@@ -31551,6 +31586,13 @@
           "plan": 5,
           "protect": 4
         }
+      },
+      "universe": {
+        "title": "七点发车规划员",
+        "arrival": "这条时间线的野区变成一张公交线路图。你有五张票，发车时间精确到七点整。",
+        "mission": "把熟悉的路线走出新一段配合，让每个队友都知道你下一站去哪。",
+        "passive": "路上每多绕一圈，队友就会收到一条位置播报。",
+        "teamHook": "全队导航：路可以绕，消息一定要回。"
       }
     },
     {
@@ -31677,6 +31719,13 @@
           "calm": 5,
           "plan": 4
         }
+      },
+      "universe": {
+        "title": "向前一步的主角",
+        "arrival": "你醒来时，四个队友正让你签一张“向前闪现体验券”。背面只有一句：这次我们都跟。",
+        "mission": "把敢打变成五个人的默契，让高光后面不再接一张灰屏。",
+        "passive": "每次说“我试一下”，剪辑师就会条件反射地按下录制。",
+        "teamHook": "全队的启动按钮；发车前最好先数一遍乘客。"
       }
     },
     {
@@ -31789,6 +31838,13 @@
           "engage": 5,
           "explain": 4
         }
+      },
+      "universe": {
+        "title": "全队上车广播站",
+        "arrival": "你来到一辆五座巴士上，车顶只有一个巨大的麦克风。每喊一次名字，对应座位就亮一盏灯。",
+        "mission": "让速度、声音和队友的脚步落在同一个节拍。",
+        "passive": "整张地图都能听见你的报站，但你最在意的是四个人有没有回答。",
+        "teamHook": "语音动力源：先把人喊齐，再一起跑向下一段剧情。"
       }
     },
     {
@@ -31906,6 +31962,13 @@
           "protect": 5,
           "gold": 4
         }
+      },
+      "universe": {
+        "title": "网吧包间总经理",
+        "arrival": "穿越落点是一间五连座包间。老板递来一串钥匙，说今天的战绩和泡面由你统一安排。",
+        "mission": "让每个人都玩到自己的一段高光，素材可以多，朋友不能少。",
+        "passive": "失误时能翻出一条库存骚话，结账时库存会突然安静。",
+        "teamHook": "吃喝与气氛总包；段位可能不动，笑声保证满勤。"
       }
     },
     {
@@ -32016,6 +32079,13 @@
           "control": 5,
           "engage": 4
         }
+      },
+      "universe": {
+        "title": "自家AD接送专员",
+        "arrival": "平行下路开了一家接送站。你手里的保单写着：挡风、接人、安慰，今天暂不收加急费。",
+        "mission": "陪搭档敢打一次，也把上头的人平安接回来。",
+        "passive": "只要队友喊等等，车门就会再开三秒。",
+        "teamHook": "全队售后窗口；前排很忙，保修单一张都没少。"
       }
     },
     {
@@ -32216,6 +32286,13 @@
           "reset": 5,
           "chaos": 4
         }
+      },
+      "universe": {
+        "title": "野区临时加速器",
+        "arrival": "你刚进宇宙，就拿到一把没有刹车贴纸的车钥匙。副驾驶坐着四名还没戴好耳机的队友。",
+        "mission": "保持敢出发的劲头，同时把四个乘客稳稳带到站。",
+        "passive": "看到机会手会先动，语音负责追上那只已经点下去的鼠标。",
+        "teamHook": "行动派司机；最需要的不是油门，是一声“人齐了”。"
       }
     },
     {
@@ -32381,6 +32458,13 @@
           "heal": 5,
           "protect": 4
         }
+      },
+      "universe": {
+        "title": "幕后灯光与接应员",
+        "arrival": "穿越后你拿到的不是聚光灯，而是一排开关。灯亮起来，四个队友终于看清脚下的路。",
+        "mission": "在每次高光背后留一条回家的路，也让自己的付出被队友看见。",
+        "passive": "能在很吵的语音里准确听见那声最小的求助。",
+        "teamHook": "安静营业的售后：灯一直亮着，回来就有人接。"
       }
     },
     {
@@ -32441,6 +32525,13 @@
           "nba-emotion": 5,
           "nba-show": 4
         }
+      },
+      "universe": {
+        "title": "末节与更衣室群主",
+        "arrival": "你走出隧道，球馆大屏正在播放你的表情合集。更衣室门口还有四个人，等你发今晚的集合消息。",
+        "mission": "打完眼前每个回合，也让五个人都愿意来参加下一场。",
+        "passive": "情绪会写在脸上，回防的提醒则会从朋友那边准时传来。",
+        "teamHook": "带人组局的群主：镜头可以夸张，下一球要一起打。"
       }
     },
     {
@@ -32497,6 +32588,13 @@
           "nba-three": 5,
           "nba-show": 4
         }
+      },
+      "universe": {
+        "title": "停车场射程研究员",
+        "arrival": "你醒来发现三分线正往停车场延伸。朋友先收起车钥匙，说脑洞可以远，球还得在安全地方投。",
+        "mission": "让想象力帮动作找到新节奏，庆祝之后记得和大家一起回防。",
+        "passive": "晚安手势已能提前预约，球进不进仍得自己认真出手。",
+        "teamHook": "远程快乐供应商：射程可以聊，捡球不能全靠队友。"
       }
     },
     {
@@ -32552,6 +32650,13 @@
           "nba-clutch": 5,
           "nba-drive": 4
         }
+      },
+      "universe": {
+        "title": "训练赛决胜咖啡师",
+        "arrival": "你落在一块没有“友谊赛”按钮的球场。桌上只有一杯加浓咖啡和一本记着朋友调侃的作业本。",
+        "mission": "把认真带进每次练习，但别忘了赢球以后先和队友击掌。",
+        "passive": "听见“不行”会多记一项训练计划，听见“最后一球”眼神会亮。",
+        "teamHook": "关键球接单员：咖啡可以少糖，胜负心不加水。"
       }
     },
     {
@@ -32610,6 +32715,13 @@
           "nba-train": 5,
           "nba-clutch": 4
         }
+      },
+      "universe": {
+        "title": "凌晨作业收集员",
+        "arrival": "球馆外天还没亮，篮球却已经在门口等你。闹钟说自己今天终于遇到了更早的同事。",
+        "mission": "把不满意的那一球练明白，让认真成为下一次敢出手的底气。",
+        "passive": "最后一球经常附赠九十九个练习版，队友可以申请先喝口水。",
+        "teamHook": "练习册管理员；打铁不撕页，下次回来继续补。"
       }
     },
     {
@@ -32665,6 +32777,13 @@
           "nba-clutch": 5,
           "nba-three": 4
         }
+      },
+      "universe": {
+        "title": "中距离与赛后评论员",
+        "arrival": "你刚拿到球，熟悉的位置就亮起一块小地毯。场边手机也弹出消息：打完这球，聊两句？",
+        "mission": "用舒服的节奏把球投出去，也给不同观点留一个说完的位置。",
+        "passive": "出手点很高，赛后消息也偶尔很长。",
+        "teamHook": "得分和观点双线营业；队友负责传球，也负责递水。"
       }
     },
     {
@@ -32807,6 +32926,13 @@
           "nba-clutch": 5,
           "nba-plan": 4
         }
+      },
+      "universe": {
+        "title": "后撤导航与节奏师",
+        "arrival": "脚下多出一条紫色导航线，提示前方可以后退一步。朋友已经把场边水瓶往外挪了挪。",
+        "mission": "用熟悉的脚步找到空间，让慢一点的回合也打得舒服。",
+        "passive": "后撤有专用导航，罚球线还有一张攒了很久的积分卡。",
+        "teamHook": "全队节奏调音员：该试就试，也给球传回来的那一下留位置。"
       }
     },
     {
@@ -32862,6 +32988,13 @@
           "nba-show": 5,
           "nba-emotion": 4
         }
+      },
+      "universe": {
+        "title": "篮下门禁与表情库",
+        "arrival": "你走出通道，门框自动抬高了一截。场边朋友已经举好手机，想申请一张新的表情包。",
+        "mission": "守住篮下，也照顾合照里的每个人，让巨人的视角离朋友更近。",
+        "passive": "一张脸能供应一整组聊天贴图，拍合照时会主动弯腰。",
+        "teamHook": "全队的门禁与大合照支架：篮板先留下，朋友一起入镜。"
       }
     },
     {
@@ -33178,6 +33311,13 @@
           "web-travel": 5,
           "web-care": 4
         }
+      },
+      "universe": {
+        "title": "返程票还在的旅行者",
+        "arrival": "你刚到新宇宙，就收到一笔虚构路费。地图上每个陌生路口都在发光，最下方还亮着一条回家的线。",
+        "mission": "去听路上的新故事，先问对方愿不愿意被拍，也把同行的人带回来。",
+        "passive": "好奇心会自动导航，返程票则负责提醒现在几点。",
+        "teamHook": "队里的出门按钮：能说走就走，也能把回程安排明白。"
       }
     },
     {
@@ -33233,6 +33373,13 @@
           "web-watch": 5,
           "web-craft": 4
         }
+      },
+      "universe": {
+        "title": "菜单与生活观察员",
+        "arrival": "你穿越时手里多了一张小票。这个宇宙的每个价签都能放大，但系统提醒你也看看份量和朋友想吃什么。",
+        "mission": "把问题问具体，把观察讲清楚，不让别人的预算变成一场胜负。",
+        "passive": "待办会自动排成单行通道，催促先去门口拿号。",
+        "teamHook": "负责把热闹拉回具体问题：小票先看，事情一件件做。"
       }
     },
     {
@@ -33294,6 +33441,13 @@
           "web-care": 5,
           "web-meme": 4
         }
+      },
+      "universe": {
+        "title": "东北往事补给员",
+        "arrival": "你按下墙上那个旧开机键，熟悉的前奏先响了。角落刷新一箱果汁，标签写着今天一人一瓶。",
+        "mission": "把老梗讲出新一段热闹，也在大家玩累时递上一口水。",
+        "passive": "麦克风不太会没电，朋友的嗓子却需要定时休息。",
+        "teamHook": "全队的补给与热场；话筒会轮流，饮料也会留一瓶。"
       }
     },
     {
@@ -33356,6 +33510,13 @@
           "web-meme": 5,
           "web-care": 4
         }
+      },
+      "universe": {
+        "title": "好果汁出场总监",
+        "arrival": "隧道尽头没有奖杯，只有五瓶刚放好的果汁。音乐刚起，四个朋友把中间那块位置让给了你。",
+        "mission": "让出场有气势，也让每位朋友都分到镜头和饮料。",
+        "passive": "前奏响起获得三秒气势借用券，音乐一停就得靠自己接词。",
+        "teamHook": "场面维护与合照点名：先把人喊齐，再把气势开满。"
       }
     },
     {
@@ -33409,6 +33570,13 @@
           "web-punchline": 5,
           "web-care": 4
         }
+      },
+      "universe": {
+        "title": "弹幕锅具鉴定员",
+        "arrival": "你刚上线，群聊已经绕着一口锅转了三圈。系统给你一块吐槽保护罩，也给了一个认真解释的按钮。",
+        "mission": "接住好笑的包袱，挡住乱扣的锅，让朋友知道玩笑可以停。",
+        "passive": "直播未开始，前情提要已经排满；澄清以后也能给自己留个自嘲。",
+        "teamHook": "全队吐槽与上下文管理员：梗可以转，责任别乱转。"
       }
     },
     {
@@ -33631,6 +33799,13 @@
           "engage": 5,
           "chaos": 4
         }
+      },
+      "universe": {
+        "title": "最后一把续费员",
+        "arrival": "你看见网管拿着一卷无限长的小票。上面每隔几厘米，就印着你刚说出口的“最后一把”。",
+        "mission": "把不想散场的心情，变成一次大家都愿意的再见或再来。",
+        "passive": "关机按钮偶尔会变成“再开”；朋友的明日闹钟能解除效果。",
+        "teamHook": "全队续集制作人：嘴上收工，手上仍在排下一场。"
       }
     },
     {
@@ -34054,6 +34229,13 @@
           "chaos": 5,
           "protect": 5
         }
+      },
+      "universe": {
+        "title": "冠军回忆双声道",
+        "arrival": "平行宇宙的转播台给你留了两个话筒。你刚开口，隔壁搭档已经准备好补上后半句。",
+        "mission": "把老合照里的青春，讲成今天这五个人也愿意留下的故事。",
+        "passive": "冷场会自动触发笑声；空技能则会附赠一分钟现场解说。",
+        "teamHook": "一边记住操作，一边记住大家为什么一起笑。"
       }
     },
     {
@@ -34182,6 +34364,13 @@
           "chaos": 5,
           "laugh": 4
         }
+      },
+      "universe": {
+        "title": "后半句承包商",
+        "arrival": "你掉进一间永不下播的解说室。墙上的时钟走了三圈，搭档仍说自己只差最后一句。",
+        "mission": "接住队友没说完的话，也在该安静时留出一拍。",
+        "passive": "每当包袱快落地，你的接话托盘会准时弹出来。",
+        "teamHook": "全队的句号供应商，但有时会把句号接成下一集预告。"
       }
     },
     {
@@ -34415,6 +34604,13 @@
           "vision": 5,
           "plan": 4
         }
+      },
+      "universe": {
+        "title": "平行中路急诊院长",
+        "arrival": "你穿过通道，发现中路多了一个挂号台。四名队友同时亮号，护士说今天暂不接受下班申请。",
+        "mission": "把一局接一局的救火，打成全队都能按时下班的冠军夜。",
+        "passive": "听见“来一下”会自动抬头，哪怕刚把水杯举到嘴边。",
+        "teamHook": "负责兜底的院长，但这次队友也会替你挡住加班通知。"
       }
     },
     {
@@ -34695,6 +34891,13 @@
           "blame": 5,
           "explain": 5
         }
+      },
+      "universe": {
+        "title": "稳健临时保管员",
+        "arrival": "宇宙通道发给你一个贴着“稳健”的袋子。你刚封好口，朋友已经准备拿它剪一段新视频。",
+        "mission": "让解释和操作轮流上班，偶尔翻车也给自己留个笑场的位置。",
+        "passive": "语音压缩经常失败，笑声缓存倒是从来没满过。",
+        "teamHook": "全队的前情提要，偶尔也负责亲自制造前情。"
       }
     },
     {
@@ -34820,6 +35023,13 @@
           "reset": 4,
           "explain": 5
         }
+      },
+      "universe": {
+        "title": "二路笑场导演",
+        "arrival": "你落在一间观赛小客厅。暂停只给五分钟，桌边的朋友已经摆好一整晚的笑点素材。",
+        "mission": "把比赛讲得有趣，把同桌的人照顾好，让老队友都有出镜机会。",
+        "passive": "正经点评刚说半句，隔壁一个眼神就能让你破功。",
+        "teamHook": "负责把名场面播两遍：一遍看比赛，一遍看大家的表情。"
       }
     },
     {
@@ -35009,6 +35219,13 @@
           "nba-emotion": 5,
           "nba-plan": 4
         }
+      },
+      "universe": {
+        "title": "场边观点加时员",
+        "arrival": "你来到一块赛后仍不关灯的球场。朋友递来水瓶当话筒，说那一球还得再单独聊聊。",
+        "mission": "把观点讲透，也把愿意听你说话的朋友送到回家的时间。",
+        "passive": "一句“我立个观点”能自动续长聊天，但看回放时也会停半拍。",
+        "teamHook": "解说与锐评人设；负责把争论变成下一场仍能一起看的话题。"
       }
     },
     {
@@ -35067,6 +35284,13 @@
           "nba-plan": 5,
           "nba-show": 4
         }
+      },
+      "universe": {
+        "title": "暂停时间故事人",
+        "arrival": "你穿越到一张解说桌前。场上的比赛刚暂停，台本却把这一球的前情写成了好几章。",
+        "mission": "把复杂的比赛讲成朋友听得懂的故事，让第一次看球的人也能加入。",
+        "passive": "一瓶水喝完，故事刚讲到赛前集合；请记得给搭档留半句。",
+        "teamHook": "解说人设参与娱乐组队，负责旁白与串场，没有虚构球员生涯。"
       }
     },
     {
@@ -35123,6 +35347,13 @@
           "nba-team": 5,
           "nba-safe": 4
         }
+      },
+      "universe": {
+        "title": "边线暗号与接件站",
+        "arrival": "球还没发出去，宇宙先给你一张收件单。名字、方向、眼神，今天一个都不能漏填。",
+        "mission": "把犹豫改成确认，让传球和接球的人都知道下一步往哪儿跑。",
+        "passive": "队友一改路线，导航就会重算；暗号对上以后，手反而更稳。",
+        "teamHook": "篮下接应与边线联络员：先确认人在，再把球送到。"
       }
     },
     {
@@ -35927,6 +36158,13 @@
           "web-live": 5,
           "web-meme": 4
         }
+      },
+      "universe": {
+        "title": "饭后发布会主持人",
+        "arrival": "穿越落点是朋友宿舍的一盏台灯下。手机支架一立好，四个观众已经在等你那句开场问候。",
+        "mission": "把一个普通点子讲得清楚好玩，脑洞加倍之前先看看钱包。",
+        "passive": "预算键容易变成加倍键，开场提示音则会被朋友自动接成副歌。",
+        "teamHook": "全队发布会气氛位：先问大家准备好了没，再揭晓今晚的新活。"
       }
     },
     {
@@ -36072,6 +36310,13 @@
           "web-care": 5,
           "web-live": 4
         }
+      },
+      "universe": {
+        "title": "交个队友产品经理",
+        "arrival": "你刚认识四个新搭档，桌上就多了一份空白方案。大家只想拍十秒，你已经开始解释这一期的完整体验。",
+        "mission": "把想法缩成大家愿意一起做的小版本，忘词和笑场也能留个位置。",
+        "passive": "回嘴偶尔有延迟，但自嘲常能准时把话接回来。",
+        "teamHook": "负责说清为什么，也记得把话筒递给真正要一起做的人。"
       }
     },
     {
@@ -36530,6 +36775,13 @@
           "web-meme": 5,
           "web-live": 4
         }
+      },
+      "universe": {
+        "title": "饭后学士帽嘴替",
+        "arrival": "你戴上学士帽，面前却不是毕业典礼，而是五台刚开机的电脑。朋友问吃饱没，你的开场白已经绕了三个弯。",
+        "mission": "把学历装杯接成自嘲反转，让带文学有包袱，也有朋友能接的后半句。",
+        "passive": "帽子越叠越高，鼠标仍要自己握；钱包会在网吧门口提前低电量。",
+        "teamHook": "饭后气势与群聊嘴替双担当：操作另算，朋友先笑。"
       }
     },
     {
@@ -36638,6 +36890,13 @@
           "chaos": 5,
           "reset": 4
         }
+      },
+      "universe": {
+        "title": "双斧营业部老板",
+        "arrival": "网吧屏幕突然变成一张巨大的收款码。你拿起鼠标，耳机里传来两把斧子的到账提示。",
+        "mission": "把每一次机会打成五个人都能接住的节奏，不只一个人忙着收款。",
+        "passive": "双斧接稳会响一声；老板路过时，这个提示音格外清楚。",
+        "teamHook": "下路收银台：能打的先打，账单和队友一起结。"
       }
     },
     {
@@ -36754,6 +37013,13 @@
           "explain": 4,
           "plan": 4
         }
+      },
+      "universe": {
+        "title": "老队友集合点",
+        "arrival": "你穿过地图边缘，发现野区每个路口都挂着熟悉的合照。有人喊了一声小孩，你知道自己到家了。",
+        "mission": "把回忆里的默契带进新一局，让新老队友都找到自己的位置。",
+        "passive": "报点时附送一段下路往事，讲到关键处操作也没停。",
+        "teamHook": "熟人局的联络员：先点名，再把大家凑进同一张图。"
       }
     },
     {
@@ -36812,6 +37078,13 @@
           "web-plan": 5,
           "web-watch": 4
         }
+      },
+      "universe": {
+        "title": "饭点补给地图讲解员",
+        "arrival": "你走出陌生街区的隧道，还没决定去哪里，手机已亮起附近饭点路线。四个朋友围过来，等你先说这一顿怎么安排。",
+        "mission": "把眼前的生活安排明白，先核对时间和规则，再给朋友讲今天遇见的新事。",
+        "passive": "地图可以陌生，饭点必须提前确认；长篇解释能先装进饭盒。",
+        "teamHook": "补给与路线担当：先吃热饭，故事坐下慢慢讲。"
       }
     },
     {
@@ -36868,6 +37141,13 @@
           "web-watch": 5,
           "web-meme": 4
         }
+      },
+      "universe": {
+        "title": "对视加载挑战者",
+        "arrival": "你和另一个人同时落到镜头前，谁都没开口。倒计时还没开始，剪辑师已经给这段安静建了文件夹。",
+        "mission": "把沉默变成节目的一拍，也在朋友真有话要说时先停下挑战。",
+        "passive": "复读机的暂停键有时会后移，笑声倒是总能先到站。",
+        "teamHook": "安静也能热场的成员：等半拍，不等于没在接梗。"
       }
     }
   ],
@@ -36927,7 +37207,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "collector-union",
@@ -36977,7 +37258,7 @@
             "item-6676",
             "item-6676"
           ],
-          "label": "五把收集者 / 集体活动"
+          "label": "收集者 ×5"
         },
         "signatureFor": [
           "uzi"
@@ -37010,7 +37291,8 @@
           ],
           "identityOwner": "uzi",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
-        }
+        },
+        "preferClassic": true
       },
       {
         "id": "basic-duty",
@@ -37069,7 +37351,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "square-lecture",
@@ -37165,7 +37448,18 @@
           "identityOwner": "dasima",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/square-lecture.webp"
+        "artAsset": "v11-card-art/square-lecture.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "square",
+          "icons": [
+            "item-3364",
+            "item-3364",
+            "item-3364",
+            "item-3364"
+          ],
+          "label": "四条边都扫过"
+        }
       },
       {
         "id": "fountain-owner",
@@ -37223,7 +37517,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "feeding-license",
@@ -37280,7 +37575,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "all-aboard",
@@ -37370,7 +37666,17 @@
           "identityOwner": "doinb",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/all-aboard.webp"
+        "artAsset": "v11-card-art/all-aboard.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "SummonerSnowball",
+            "SummonerFlash",
+            "SummonerTeleport"
+          ],
+          "label": "三个都能赶路"
+        }
       },
       {
         "id": "where-team",
@@ -37444,7 +37750,18 @@
           "identityOwner": "theshy",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/where-team.webp"
+        "artAsset": "v11-card-art/where-team.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "ring",
+          "icons": [
+            "item-3363",
+            "item-3363",
+            "item-3363",
+            "item-3363"
+          ],
+          "label": "四个队友在哪"
+        }
       },
       {
         "id": "spring-heater",
@@ -37532,7 +37849,17 @@
           "identityOwner": "xiaohu",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/spring-heater.webp"
+        "artAsset": "v11-card-art/spring-heater.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "fan",
+          "icons": [
+            "item-3087",
+            "item-3087",
+            "item-3087"
+          ],
+          "label": "电刀 ×3"
+        }
       },
       {
         "id": "four-stay-alive",
@@ -37590,7 +37917,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "economy-brain",
@@ -37662,7 +37990,18 @@
           "identityOwner": "uzi",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/economy-brain.webp"
+        "artAsset": "v11-card-art/economy-brain.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "fan",
+          "icons": [
+            "item-1083",
+            "item-1083",
+            "item-1083",
+            "item-1083"
+          ],
+          "label": "萃取 ×4"
+        }
       },
       {
         "id": "borrowed-growth",
@@ -37718,7 +38057,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "blame-master",
@@ -37776,7 +38116,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "not-a-loss",
@@ -37872,7 +38213,17 @@
           "identityOwner": "dasima",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/not-a-loss.webp"
+        "artAsset": "v11-card-art/not-a-loss.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "SummonerFlash",
+            "SummonerFlash",
+            "item-1036"
+          ],
+          "label": "逼了两个闪现"
+        }
       },
       {
         "id": "life-reroll",
@@ -37958,7 +38309,17 @@
           "identityOwner": "pdd",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/life-reroll.webp"
+        "artAsset": "v11-card-art/life-reroll.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "ring",
+          "icons": [
+            "item-3364",
+            "item-3363",
+            "item-2055"
+          ],
+          "label": "再看一次命运"
+        }
       },
       {
         "id": "clown-self",
@@ -38014,7 +38375,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "fountain-range",
@@ -38072,7 +38434,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "ultimate-installment",
@@ -38160,7 +38523,16 @@
           "identityOwner": "faker",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/ultimate-installment.webp"
+        "artAsset": "v11-card-art/ultimate-installment.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "fan",
+          "icons": [
+            "SummonerDot",
+            "SummonerDot"
+          ],
+          "label": "今天先按一次"
+        }
       },
       {
         "id": "cosmic-pension",
@@ -38216,7 +38588,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "bridge-clinic",
@@ -38272,7 +38645,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "last-last-game",
@@ -38329,7 +38703,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "revive-cinema",
@@ -38388,7 +38763,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "champion-script",
@@ -38444,7 +38820,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "snowball-hearse",
@@ -38502,7 +38879,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "good-enough",
@@ -38559,7 +38937,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "double-laugh",
@@ -38645,7 +39024,16 @@
           "identityOwner": "xiaohu",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/double-laugh.webp"
+        "artAsset": "v11-card-art/double-laugh.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "fan",
+          "icons": [
+            "item-3089",
+            "item-3089"
+          ],
+          "label": "帽子 ×2，笑两段"
+        }
       },
       {
         "id": "tes-top",
@@ -38759,7 +39147,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "double-zhonya",
@@ -38815,7 +39204,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "six-infinity",
@@ -38876,7 +39266,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "triple-deathcap",
@@ -38933,7 +39324,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "calm-before-win",
@@ -38990,7 +39382,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "brush-five",
@@ -39049,7 +39442,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "steel-orchestra",
@@ -39108,7 +39502,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "mercury-notice",
@@ -39165,7 +39560,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "five-knives",
@@ -39224,7 +39620,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "gold-rain",
@@ -39283,7 +39680,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "mini-map",
@@ -39340,7 +39738,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "one-more-hit",
@@ -39397,7 +39796,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "lane-umbrella",
@@ -39479,7 +39879,16 @@
           "identityOwner": "theshy",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/lane-umbrella.webp"
+        "artAsset": "v11-card-art/lane-umbrella.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "SummonerFlash",
+            "SummonerBarrier"
+          ],
+          "label": "人物联动 · 真实图标梗改"
+        }
       },
       {
         "id": "five-names",
@@ -39536,7 +39945,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "s8-rewrite",
@@ -39595,7 +40005,8 @@
         "enabled": true,
         "exclusive": false,
         "activationMode": "answers",
-        "owner": null
+        "owner": null,
+        "preferClassic": true
       },
       {
         "id": "personal-xiaoxiao",
@@ -39687,7 +40098,16 @@
           "identityOwner": "xiaoxiao",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/personal-xiaoxiao.webp"
+        "artAsset": "v11-card-art/personal-xiaoxiao.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3190",
+            "SummonerHeal"
+          ],
+          "label": "德云色双声道"
+        }
       },
       {
         "id": "personal-xika",
@@ -39777,7 +40197,16 @@
           "identityOwner": "xika",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/personal-xika.webp"
+        "artAsset": "v11-card-art/personal-xika.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3089",
+            "item-3157"
+          ],
+          "label": "西卡接话器"
+        }
       },
       {
         "id": "personal-369",
@@ -40035,7 +40464,16 @@
           "identityOwner": "rookie",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/personal-rookie.webp"
+        "artAsset": "v11-card-art/personal-rookie.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3089",
+            "item-3157"
+          ],
+          "label": "中路急诊室"
+        }
       },
       {
         "id": "personal-showmaker",
@@ -40355,7 +40793,16 @@
           "identityOwner": "otto",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/personal-otto.webp"
+        "artAsset": "v11-card-art/personal-otto.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3089",
+            "item-3157"
+          ],
+          "label": "稳健先缓一缓"
+        }
       },
       {
         "id": "personal-zztai",
@@ -40447,7 +40894,16 @@
           "identityOwner": "zztai",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/personal-zztai.webp"
+        "artAsset": "v11-card-art/personal-zztai.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3089",
+            "item-3157"
+          ],
+          "label": "直播间笑场险"
+        }
       },
       {
         "id": "personal-kryst4l",
@@ -40703,7 +41159,16 @@
           "identityOwner": "luobenwei",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/personal-luobenwei.webp"
+        "artAsset": "v11-card-art/personal-luobenwei.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3157",
+            "SummonerFlash"
+          ],
+          "label": "直播续订"
+        }
       },
       {
         "id": "personal-zhouyi",
@@ -40849,7 +41314,16 @@
           "identityOwner": "rookie",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/extra-rookie-1.webp"
+        "artAsset": "v11-card-art/extra-rookie-1.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3089",
+            "item-3190"
+          ],
+          "label": "中路值班"
+        }
       },
       {
         "id": "v11-uzi-3",
@@ -40931,7 +41405,16 @@
           "identityOwner": "uzi",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-uzi-3.webp"
+        "artAsset": "v11-card-art/v11-uzi-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3083",
+            "item-3084"
+          ],
+          "label": "红温散热器 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-xiaohu-3",
@@ -41015,7 +41498,16 @@
           "identityOwner": "xiaohu",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-xiaohu-3.webp"
+        "artAsset": "v11-card-art/v11-xiaohu-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3157",
+            "item-3031"
+          ],
+          "label": "世界赛先存档 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-jackeylove-1",
@@ -41097,7 +41589,16 @@
           "identityOwner": "jackeylove",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-jackeylove-1.webp"
+        "artAsset": "v11-card-art/v11-jackeylove-1.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "SummonerFlash",
+            "SummonerTeleport"
+          ],
+          "label": "向前闪现体验券 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-jackeylove-2",
@@ -41177,7 +41678,16 @@
           "identityOwner": "jackeylove",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-jackeylove-2.webp"
+        "artAsset": "v11-card-art/v11-jackeylove-2.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3363",
+            "item-3157"
+          ],
+          "label": "暴毙也有节目 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-jackeylove-3",
@@ -41265,7 +41775,16 @@
           "identityOwner": "jackeylove",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-jackeylove-3.webp"
+        "artAsset": "v11-card-art/v11-jackeylove-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3084",
+            "item-3006"
+          ],
+          "label": "水温检测仪 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-theshy-2",
@@ -41347,7 +41866,16 @@
           "identityOwner": "theshy",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-theshy-2.webp"
+        "artAsset": "v11-card-art/v11-theshy-2.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-1039",
+            "item-3364"
+          ],
+          "label": "抓我就能赢吗 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-vincent-1",
@@ -41427,7 +41955,16 @@
           "identityOwner": "vincent",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-vincent-1.webp"
+        "artAsset": "v11-card-art/v11-vincent-1.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "spell-DravenSpinning",
+            "item-6676"
+          ],
+          "label": "德莱文收款码 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-vincent-2",
@@ -41509,7 +42046,16 @@
           "identityOwner": "vincent",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-vincent-2.webp"
+        "artAsset": "v11-card-art/v11-vincent-2.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "spell-DravenSpinning",
+            "spell-DravenSpinning"
+          ],
+          "label": "双斧接单系统 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-vincent-3",
@@ -41595,7 +42141,16 @@
           "identityOwner": "vincent",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-vincent-3.webp"
+        "artAsset": "v11-card-art/v11-vincent-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3083",
+            "item-1083"
+          ],
+          "label": "网吧老板先别走 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-rookie-3",
@@ -41671,7 +42226,16 @@
           "identityOwner": "rookie",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-rookie-3.webp"
+        "artAsset": "v11-card-art/v11-rookie-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "SummonerTeleport",
+            "item-3364"
+          ],
+          "label": "队友叫号系统 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-faker-2",
@@ -41757,7 +42321,16 @@
           "identityOwner": "faker",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-faker-2.webp"
+        "artAsset": "v11-card-art/v11-faker-2.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3031",
+            "item-3089"
+          ],
+          "label": "冠军展柜扩容 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-faker-3",
@@ -41843,7 +42416,16 @@
           "identityOwner": "faker",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-faker-3.webp"
+        "artAsset": "v11-card-art/v11-faker-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3363",
+            "item-3363"
+          ],
+          "label": "切屏查岗器 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-xiaoxiao-1",
@@ -41933,7 +42515,16 @@
           "identityOwner": "xiaoxiao",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-xiaoxiao-1.webp"
+        "artAsset": "v11-card-art/v11-xiaoxiao-1.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3083",
+            "SummonerFlash"
+          ],
+          "label": "空大预留席 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-xiaoxiao-3",
@@ -42023,7 +42614,16 @@
           "identityOwner": "xiaoxiao",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-xiaoxiao-3.webp"
+        "artAsset": "v11-card-art/v11-xiaoxiao-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-1055",
+            "item-3363"
+          ],
+          "label": "老IG回忆放映机 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-xika-2",
@@ -42109,7 +42709,16 @@
           "identityOwner": "xika",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-xika-2.webp"
+        "artAsset": "v11-card-art/v11-xika-2.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3363",
+            "item-3364"
+          ],
+          "label": "这波我先锐评 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-xika-3",
@@ -42201,7 +42810,16 @@
           "identityOwner": "xika",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-xika-3.webp"
+        "artAsset": "v11-card-art/v11-xika-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3364",
+            "SummonerTeleport"
+          ],
+          "label": "双人相声不下播 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-pdd-2",
@@ -42291,7 +42909,16 @@
           "identityOwner": "pdd",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-pdd-2.webp"
+        "artAsset": "v11-card-art/v11-pdd-2.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3190",
+            "item-3364"
+          ],
+          "label": "骚话保险箱 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-pdd-3",
@@ -42373,7 +43000,16 @@
           "identityOwner": "pdd",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-pdd-3.webp"
+        "artAsset": "v11-card-art/v11-pdd-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3083",
+            "item-3083"
+          ],
+          "label": "网吧包间董事长 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-dasima-3",
@@ -42463,7 +43099,16 @@
           "identityOwner": "dasima",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-dasima-3.webp"
+        "artAsset": "v11-card-art/v11-dasima-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3157",
+            "item-3363"
+          ],
+          "label": "复活期间公开课 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-clearlove-1",
@@ -42547,7 +43192,16 @@
           "identityOwner": "clearlove",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-clearlove-1.webp"
+        "artAsset": "v11-card-art/v11-clearlove-1.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3363",
+            "SummonerSmite"
+          ],
+          "label": "野区路线规划 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-clearlove-2",
@@ -42633,7 +43287,16 @@
           "identityOwner": "clearlove",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-clearlove-2.webp"
+        "artAsset": "v11-card-art/v11-clearlove-2.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3157",
+            "SummonerSnowball"
+          ],
+          "label": "七点准时发车 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-clearlove-3",
@@ -42709,7 +43372,16 @@
           "identityOwner": "clearlove",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-clearlove-3.webp"
+        "artAsset": "v11-card-art/v11-clearlove-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "SummonerSmite",
+            "item-2055"
+          ],
+          "label": "对面野区是我家 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-ning-1",
@@ -42791,7 +43463,16 @@
           "identityOwner": "ning",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-ning-1.webp"
+        "artAsset": "v11-card-art/v11-ning-1.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "SummonerSnowball",
+            "SummonerSmite"
+          ],
+          "label": "打野提速档 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-ning-2",
@@ -42879,7 +43560,16 @@
           "identityOwner": "ning",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-ning-2.webp"
+        "artAsset": "v11-card-art/v11-ning-2.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "SummonerSnowball",
+            "SummonerBarrier"
+          ],
+          "label": "这波必须跟我 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-ning-3",
@@ -42963,7 +43653,16 @@
           "identityOwner": "ning",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-ning-3.webp"
+        "artAsset": "v11-card-art/v11-ning-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3363",
+            "SummonerFlash"
+          ],
+          "label": "野区临时起意 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-kid-1",
@@ -43047,7 +43746,16 @@
           "identityOwner": "kid",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-kid-1.webp"
+        "artAsset": "v11-card-art/v11-kid-1.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "SummonerSmite",
+            "SummonerBarrier"
+          ],
+          "label": "野区熟人局 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-kid-2",
@@ -43139,7 +43847,16 @@
           "identityOwner": "kid",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-kid-2.webp"
+        "artAsset": "v11-card-art/v11-kid-2.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-1055",
+            "item-3075"
+          ],
+          "label": "下路回忆录 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-kid-3",
@@ -43227,7 +43944,16 @@
           "identityOwner": "kid",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-kid-3.webp"
+        "artAsset": "v11-card-art/v11-kid-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-2055",
+            "item-1055"
+          ],
+          "label": "老IG点名器 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-luobenwei-2",
@@ -43307,7 +44033,16 @@
           "identityOwner": "luobenwei",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-luobenwei-2.webp"
+        "artAsset": "v11-card-art/v11-luobenwei-2.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-1083",
+            "item-3031"
+          ],
+          "label": "五五开概率学 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-luobenwei-3",
@@ -43393,7 +44128,16 @@
           "identityOwner": "luobenwei",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-luobenwei-3.webp"
+        "artAsset": "v11-card-art/v11-luobenwei-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3089",
+            "item-3364"
+          ],
+          "label": "全体起立按钮 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-baolan-1",
@@ -43481,7 +44225,16 @@
           "identityOwner": "baolan",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-baolan-1.webp"
+        "artAsset": "v11-card-art/v11-baolan-1.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-2055",
+            "item-3363"
+          ],
+          "label": "视野灯光师 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-baolan-2",
@@ -43569,7 +44322,16 @@
           "identityOwner": "baolan",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-baolan-2.webp"
+        "artAsset": "v11-card-art/v11-baolan-2.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3140",
+            "SummonerBarrier"
+          ],
+          "label": "辅助免打扰 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-baolan-3",
@@ -43659,7 +44421,16 @@
           "identityOwner": "baolan",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-baolan-3.webp"
+        "artAsset": "v11-card-art/v11-baolan-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "SummonerHeal",
+            "item-3190"
+          ],
+          "label": "一口奶救回来 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-otto-2",
@@ -43743,7 +44514,16 @@
           "identityOwner": "otto",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-otto-2.webp"
+        "artAsset": "v11-card-art/v11-otto-2.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3364",
+            "item-3364"
+          ],
+          "label": "语音压缩失败 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-otto-3",
@@ -43827,7 +44607,16 @@
           "identityOwner": "otto",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-otto-3.webp"
+        "artAsset": "v11-card-art/v11-otto-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3364",
+            "item-3363"
+          ],
+          "label": "轮到我解释了 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-zztai-2",
@@ -43913,7 +44702,16 @@
           "identityOwner": "zztai",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-zztai-2.webp"
+        "artAsset": "v11-card-art/v11-zztai-2.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3363",
+            "item-1055"
+          ],
+          "label": "老队友召回术 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-zztai-3",
@@ -44001,7 +44799,16 @@
           "identityOwner": "zztai",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-zztai-3.webp"
+        "artAsset": "v11-card-art/v11-zztai-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3031",
+            "item-3363"
+          ],
+          "label": "二路观赛遥控器 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-doinb-2",
@@ -44085,7 +44892,16 @@
           "identityOwner": "doinb",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-doinb-2.webp"
+        "artAsset": "v11-card-art/v11-doinb-2.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-3364",
+            "SummonerTeleport"
+          ],
+          "label": "中路麦克风永动机 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-doinb-3",
@@ -44171,7 +44987,16 @@
           "identityOwner": "doinb",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-doinb-3.webp"
+        "artAsset": "v11-card-art/v11-doinb-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "item-2055",
+            "item-3364"
+          ],
+          "label": "队友点名器 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-ming-1",
@@ -44261,7 +45086,16 @@
           "identityOwner": "ming",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-ming-1.webp"
+        "artAsset": "v11-card-art/v11-ming-1.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "SummonerBarrier",
+            "SummonerTeleport"
+          ],
+          "label": "下路全险套餐 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-ming-2",
@@ -44337,7 +45171,16 @@
           "identityOwner": "ming",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-ming-2.webp"
+        "artAsset": "v11-card-art/v11-ming-2.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "spell-ThreshQ",
+            "item-1083"
+          ],
+          "label": "这钩先不收钱 / 装备与召唤师图标梗改"
+        }
       },
       {
         "id": "v11-ming-3",
@@ -44423,7 +45266,16 @@
           "identityOwner": "ming",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-ming-3.webp"
+        "artAsset": "v11-card-art/v11-ming-3.webp",
+        "preferClassic": true,
+        "visual": {
+          "layout": "row",
+          "icons": [
+            "SummonerSnowball",
+            "item-3190"
+          ],
+          "label": "自家AD接送车 / 装备与召唤师图标梗改"
+        }
       }
     ],
     "basket": [
@@ -44497,7 +45349,12 @@
           90,
           100
         ],
-        "kind": "chaos"
+        "kind": "chaos",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 5
+        }
       },
       {
         "id": "logo",
@@ -44569,7 +45426,12 @@
           75,
           90
         ],
-        "kind": "chaos"
+        "kind": "chaos",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 13
+        }
       },
       {
         "id": "board",
@@ -44679,7 +45541,12 @@
           100,
           95
         ],
-        "kind": "chaos"
+        "kind": "chaos",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 0
+        }
       },
       {
         "id": "meme",
@@ -44785,7 +45652,12 @@
           90,
           100
         ],
-        "kind": "chaos"
+        "kind": "chaos",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 12
+        }
       },
       {
         "id": "mamba-clock",
@@ -44857,7 +45729,12 @@
           "identityOwner": "kobe",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/mamba-clock.webp"
+        "artAsset": "v11-card-art/mamba-clock.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 1
+        }
       },
       {
         "id": "goodnight-three",
@@ -44923,7 +45800,12 @@
           "identityOwner": "curry",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/goodnight-three.webp"
+        "artAsset": "v11-card-art/goodnight-three.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 14
+        }
       },
       {
         "id": "ant-takeoff",
@@ -45180,7 +46062,12 @@
           "identityOwner": "harden",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/stepback-route.webp"
+        "artAsset": "v11-card-art/stepback-route.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 9
+        }
       },
       {
         "id": "personal-xujingyu",
@@ -45252,7 +46139,12 @@
           "identityOwner": "xujingyu",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/personal-xujingyu.webp"
+        "artAsset": "v11-card-art/personal-xujingyu.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 5
+        }
       },
       {
         "id": "personal-yangyi",
@@ -45324,7 +46216,12 @@
           "identityOwner": "yangyi",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/personal-yangyi.webp"
+        "artAsset": "v11-card-art/personal-yangyi.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 4
+        }
       },
       {
         "id": "personal-zhouqi",
@@ -45396,7 +46293,12 @@
           "identityOwner": "zhouqi",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/personal-zhouqi.webp"
+        "artAsset": "v11-card-art/personal-zhouqi.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 3
+        }
       },
       {
         "id": "personal-sunyue-player",
@@ -46112,7 +47014,12 @@
           "identityOwner": "lebron",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-lebron-2.webp"
+        "artAsset": "v11-card-art/v11-lebron-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 0
+        }
       },
       {
         "id": "v11-durant-1",
@@ -46184,7 +47091,12 @@
           "identityOwner": "durant",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-durant-1.webp"
+        "artAsset": "v11-card-art/v11-durant-1.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 0
+        }
       },
       {
         "id": "v11-durant-2",
@@ -46250,7 +47162,12 @@
           "identityOwner": "durant",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-durant-2.webp"
+        "artAsset": "v11-card-art/v11-durant-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 7
+        }
       },
       {
         "id": "v11-durant-3",
@@ -46316,7 +47233,12 @@
           "identityOwner": "durant",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-durant-3.webp"
+        "artAsset": "v11-card-art/v11-durant-3.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 0
+        }
       },
       {
         "id": "v11-jordan-2",
@@ -46382,7 +47304,12 @@
           "identityOwner": "jordan",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-jordan-2.webp"
+        "artAsset": "v11-card-art/v11-jordan-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 1
+        }
       },
       {
         "id": "v11-jordan-3",
@@ -46448,7 +47375,12 @@
           "identityOwner": "jordan",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-jordan-3.webp"
+        "artAsset": "v11-card-art/v11-jordan-3.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 6
+        }
       },
       {
         "id": "v11-kobe-2",
@@ -46514,7 +47446,12 @@
           "identityOwner": "kobe",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-kobe-2.webp"
+        "artAsset": "v11-card-art/v11-kobe-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 2
+        }
       },
       {
         "id": "v11-kobe-3",
@@ -46580,7 +47517,12 @@
           "identityOwner": "kobe",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-kobe-3.webp"
+        "artAsset": "v11-card-art/v11-kobe-3.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 1
+        }
       },
       {
         "id": "v11-yangyi-2",
@@ -46646,7 +47588,12 @@
           "identityOwner": "yangyi",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-yangyi-2.webp"
+        "artAsset": "v11-card-art/v11-yangyi-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 1
+        }
       },
       {
         "id": "v11-yangyi-3",
@@ -46712,7 +47659,12 @@
           "identityOwner": "yangyi",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-yangyi-3.webp"
+        "artAsset": "v11-card-art/v11-yangyi-3.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 2
+        }
       },
       {
         "id": "v11-xujingyu-2",
@@ -46778,7 +47730,12 @@
           "identityOwner": "xujingyu",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-xujingyu-2.webp"
+        "artAsset": "v11-card-art/v11-xujingyu-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 2
+        }
       },
       {
         "id": "v11-xujingyu-3",
@@ -46844,7 +47801,12 @@
           "identityOwner": "xujingyu",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-xujingyu-3.webp"
+        "artAsset": "v11-card-art/v11-xujingyu-3.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 6
+        }
       },
       {
         "id": "v11-zhouqi-2",
@@ -46910,7 +47872,12 @@
           "identityOwner": "zhouqi",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-zhouqi-2.webp"
+        "artAsset": "v11-card-art/v11-zhouqi-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 3
+        }
       },
       {
         "id": "v11-zhouqi-3",
@@ -46976,7 +47943,12 @@
           "identityOwner": "zhouqi",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-zhouqi-3.webp"
+        "artAsset": "v11-card-art/v11-zhouqi-3.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 0
+        }
       },
       {
         "id": "v11-yaoming-1",
@@ -47048,7 +48020,12 @@
           "identityOwner": "yaoming",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-yaoming-1.webp"
+        "artAsset": "v11-card-art/v11-yaoming-1.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 7
+        }
       },
       {
         "id": "v11-yaoming-2",
@@ -47114,7 +48091,12 @@
           "identityOwner": "yaoming",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-yaoming-2.webp"
+        "artAsset": "v11-card-art/v11-yaoming-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 4
+        }
       },
       {
         "id": "v11-yaoming-3",
@@ -47180,7 +48162,12 @@
           "identityOwner": "yaoming",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-yaoming-3.webp"
+        "artAsset": "v11-card-art/v11-yaoming-3.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 8
+        }
       },
       {
         "id": "v11-curry-3",
@@ -47246,7 +48233,12 @@
           "identityOwner": "curry",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-curry-3.webp"
+        "artAsset": "v11-card-art/v11-curry-3.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 15
+        }
       },
       {
         "id": "v11-harden-2",
@@ -47312,7 +48304,12 @@
           "identityOwner": "harden",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-harden-2.webp"
+        "artAsset": "v11-card-art/v11-harden-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 11
+        }
       },
       {
         "id": "v11-harden-3",
@@ -47378,7 +48375,12 @@
           "identityOwner": "harden",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-harden-3.webp"
+        "artAsset": "v11-card-art/v11-harden-3.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 1,
+          "cell": 10
+        }
       },
       {
         "id": "street-pass",
@@ -47427,7 +48429,12 @@
         ],
         "kind": "chaos",
         "category": "通用整活",
-        "icon": 0
+        "icon": 0,
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 0
+        }
       },
       {
         "id": "shot-retry",
@@ -47478,7 +48485,12 @@
         ],
         "kind": "chaos",
         "category": "通用整活",
-        "icon": 0
+        "icon": 0,
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 0
+        }
       },
       {
         "id": "court-replay",
@@ -47527,7 +48539,12 @@
         ],
         "kind": "chaos",
         "category": "通用整活",
-        "icon": 0
+        "icon": 0,
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 0
+        }
       }
     ],
     "abstract": [
@@ -47601,7 +48618,12 @@
           35,
           100
         ],
-        "kind": "chaos"
+        "kind": "chaos",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 14
+        }
       },
       {
         "id": "commentator",
@@ -47777,7 +48799,12 @@
           35,
           100
         ],
-        "kind": "chaos"
+        "kind": "chaos",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 9
+        }
       },
       {
         "id": "clipboard",
@@ -48069,7 +49096,12 @@
           "identityOwner": "huchenfeng",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/one-at-time.webp"
+        "artAsset": "v11-card-art/one-at-time.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 12
+        }
       },
       {
         "id": "slow-craft",
@@ -48189,7 +49221,12 @@
           "identityOwner": "sunxiaochuan",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/punchline-shield.webp"
+        "artAsset": "v11-card-art/punchline-shield.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 12
+        }
       },
       {
         "id": "personal-musk",
@@ -48461,7 +49498,12 @@
           "identityOwner": "leijun",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/personal-leijun.webp"
+        "artAsset": "v11-card-art/personal-leijun.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 3
+        }
       },
       {
         "id": "personal-zhouhongyi",
@@ -48633,7 +49675,12 @@
           "identityOwner": "luoyonghao",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/personal-luoyonghao.webp"
+        "artAsset": "v11-card-art/personal-luoyonghao.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 15
+        }
       },
       {
         "id": "personal-dongyuhui",
@@ -49149,7 +50196,12 @@
           "identityOwner": "dailanzi",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/personal-dailanzi.webp"
+        "artAsset": "v11-card-art/personal-dailanzi.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 2
+        }
       },
       {
         "id": "extra-fengge-1",
@@ -49221,7 +50273,12 @@
           "identityOwner": "fengge",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/extra-fengge-1.webp"
+        "artAsset": "v11-card-art/extra-fengge-1.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 4
+        }
       },
       {
         "id": "extra-fengge-2",
@@ -49287,7 +50344,12 @@
           "identityOwner": "fengge",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/extra-fengge-2.webp"
+        "artAsset": "v11-card-art/extra-fengge-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 5
+        }
       },
       {
         "id": "extra-daoge-1",
@@ -49359,7 +50421,12 @@
           "identityOwner": "daoge",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/extra-daoge-1.webp"
+        "artAsset": "v11-card-art/extra-daoge-1.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 3
+        }
       },
       {
         "id": "extra-daoge-2",
@@ -49425,7 +50492,12 @@
           "identityOwner": "daoge",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/extra-daoge-2.webp"
+        "artAsset": "v11-card-art/extra-daoge-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 0,
+          "cell": 14
+        }
       },
       {
         "id": "extra-dailanzi-2",
@@ -49543,7 +50615,12 @@
           "identityOwner": "dailanzi",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-dailanzi-1.webp"
+        "artAsset": "v11-card-art/v11-dailanzi-1.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 0
+        }
       },
       {
         "id": "v11-dailanzi-2",
@@ -49609,7 +50686,12 @@
           "identityOwner": "dailanzi",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-dailanzi-2.webp"
+        "artAsset": "v11-card-art/v11-dailanzi-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 1
+        }
       },
       {
         "id": "v11-fengge-3",
@@ -49675,7 +50757,12 @@
           "identityOwner": "fengge",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-fengge-3.webp"
+        "artAsset": "v11-card-art/v11-fengge-3.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 6
+        }
       },
       {
         "id": "v11-daoge-2",
@@ -49741,7 +50828,12 @@
           "identityOwner": "daoge",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-daoge-2.webp"
+        "artAsset": "v11-card-art/v11-daoge-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 6
+        }
       },
       {
         "id": "v11-huge-2",
@@ -49807,7 +50899,12 @@
           "identityOwner": "huge",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-huge-2.webp"
+        "artAsset": "v11-card-art/v11-huge-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 2
+        }
       },
       {
         "id": "v11-huchenfeng-1",
@@ -49879,7 +50976,12 @@
           "identityOwner": "huchenfeng",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-huchenfeng-1.webp"
+        "artAsset": "v11-card-art/v11-huchenfeng-1.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 7
+        }
       },
       {
         "id": "v11-huchenfeng-2",
@@ -49945,7 +51047,12 @@
           "identityOwner": "huchenfeng",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-huchenfeng-2.webp"
+        "artAsset": "v11-card-art/v11-huchenfeng-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 7
+        }
       },
       {
         "id": "v11-us-lecturer-1",
@@ -50017,7 +51124,12 @@
           "identityOwner": "us-lecturer",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-us-lecturer-1.webp"
+        "artAsset": "v11-card-art/v11-us-lecturer-1.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 8
+        }
       },
       {
         "id": "v11-us-lecturer-2",
@@ -50083,7 +51195,12 @@
           "identityOwner": "us-lecturer",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-us-lecturer-2.webp"
+        "artAsset": "v11-card-art/v11-us-lecturer-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 8
+        }
       },
       {
         "id": "v11-us-lecturer-3",
@@ -50149,7 +51266,12 @@
           "identityOwner": "us-lecturer",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-us-lecturer-3.webp"
+        "artAsset": "v11-card-art/v11-us-lecturer-3.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 9
+        }
       },
       {
         "id": "v11-sunxiaochuan-2",
@@ -50215,7 +51337,12 @@
           "identityOwner": "sunxiaochuan",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-sunxiaochuan-2.webp"
+        "artAsset": "v11-card-art/v11-sunxiaochuan-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 13
+        }
       },
       {
         "id": "v11-sunxiaochuan-3",
@@ -50281,7 +51408,12 @@
           "identityOwner": "sunxiaochuan",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-sunxiaochuan-3.webp"
+        "artAsset": "v11-card-art/v11-sunxiaochuan-3.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 4
+        }
       },
       {
         "id": "v11-yaoshuige-1",
@@ -50353,7 +51485,12 @@
           "identityOwner": "yaoshuige",
           "note": "需选择相关题中的对应行为，不能拿其他题的同类行为冒充证据。"
         },
-        "artAsset": "v11-card-art/v11-yaoshuige-1.webp"
+        "artAsset": "v11-card-art/v11-yaoshuige-1.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 10
+        }
       },
       {
         "id": "v11-yaoshuige-2",
@@ -50419,7 +51556,12 @@
           "identityOwner": "yaoshuige",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-yaoshuige-2.webp"
+        "artAsset": "v11-card-art/v11-yaoshuige-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 11
+        }
       },
       {
         "id": "v11-yaoshuige-3",
@@ -50485,7 +51627,12 @@
           "identityOwner": "yaoshuige",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-yaoshuige-3.webp"
+        "artAsset": "v11-card-art/v11-yaoshuige-3.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 10
+        }
       },
       {
         "id": "v11-leijun-2",
@@ -50551,7 +51698,12 @@
           "identityOwner": "leijun",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-leijun-2.webp"
+        "artAsset": "v11-card-art/v11-leijun-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 14
+        }
       },
       {
         "id": "v11-leijun-3",
@@ -50617,7 +51769,12 @@
           "identityOwner": "leijun",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-leijun-3.webp"
+        "artAsset": "v11-card-art/v11-leijun-3.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 14
+        }
       },
       {
         "id": "v11-luoyonghao-2",
@@ -50683,7 +51840,12 @@
           "identityOwner": "luoyonghao",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-luoyonghao-2.webp"
+        "artAsset": "v11-card-art/v11-luoyonghao-2.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 2
+        }
       },
       {
         "id": "v11-luoyonghao-3",
@@ -50749,7 +51911,12 @@
           "identityOwner": "luoyonghao",
           "note": "仅作人物自带赠卡，不生成作答证据。"
         },
-        "artAsset": "v11-card-art/v11-luoyonghao-3.webp"
+        "artAsset": "v11-card-art/v11-luoyonghao-3.webp",
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 15
+        }
       },
       {
         "id": "route-friend",
@@ -50798,7 +51965,12 @@
         ],
         "kind": "chaos",
         "category": "通用整活",
-        "icon": 0
+        "icon": 0,
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 2
+        }
       },
       {
         "id": "camera-day",
@@ -50847,7 +52019,12 @@
         ],
         "kind": "chaos",
         "category": "通用整活",
-        "icon": 0
+        "icon": 0,
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 2
+        }
       },
       {
         "id": "meme-share",
@@ -50896,7 +52073,12 @@
         ],
         "kind": "chaos",
         "category": "通用整活",
-        "icon": 0
+        "icon": 0,
+        "preferClassic": true,
+        "classicSprite": {
+          "sheet": 2,
+          "cell": 2
+        }
       }
     ]
   },
@@ -51267,5 +52449,8 @@
     "nearTop": 5,
     "maxBonus": 4,
     "note": "编辑曝光配置，不是实时人气榜"
-  }
+  },
+  "releaseVersion": 12,
+  "edition": "V10 回归增强版",
+  "releaseNote": "规则版本11保持兼容；界面与素材发布版本12。"
 }

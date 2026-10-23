@@ -1,0 +1,407 @@
+{
+  "activePeople": 40,
+  "verifiedAvatars": 40,
+  "pendingAvatars": [],
+  "people": [
+    {
+      "personId": "uzi",
+      "name": "污渍",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 0,
+        "cell": 0
+      },
+      "reference": "https://en.wikipedia.org/wiki/Uzi_(gamer)"
+    },
+    {
+      "personId": "xiaohu",
+      "name": "销户",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 0,
+        "cell": 2
+      },
+      "reference": "https://zh.moegirl.org.cn/%E6%9D%8E%E5%85%83%E6%B5%A9"
+    },
+    {
+      "personId": "dasima",
+      "name": "大司马",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 0,
+        "cell": 1
+      },
+      "reference": "https://zh.moegirl.org.cn/%E8%8A%9C%E6%B9%96%E5%A4%A7%E5%8F%B8%E9%A9%AC"
+    },
+    {
+      "personId": "theshy",
+      "name": "Shy",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 0,
+        "cell": 3
+      },
+      "reference": "https://zh.moegirl.org.cn/%E5%A7%9C%E6%89%BF%E9%8C%B2"
+    },
+    {
+      "personId": "faker",
+      "name": "飞科",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 1,
+        "cell": 0
+      },
+      "reference": "https://zh.moegirl.org.cn/%E6%9D%8E%E7%9B%B8%E8%B5%AB"
+    },
+    {
+      "personId": "clearlove",
+      "name": "厂长",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 1,
+        "cell": 1
+      },
+      "reference": "https://zh.moegirl.org.cn/%E6%98%8E%E5%87%AF"
+    },
+    {
+      "personId": "jackeylove",
+      "name": "哥哥",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 1,
+        "cell": 2
+      },
+      "reference": "https://zh.moegirl.org.cn/%E5%96%BB%E6%96%87%E6%B3%A2"
+    },
+    {
+      "personId": "doinb",
+      "name": "Doinb",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 1,
+        "cell": 3
+      },
+      "reference": "https://zh.moegirl.org.cn/%E9%87%91%E6%B3%B0%E7%9B%B8"
+    },
+    {
+      "personId": "pdd",
+      "name": "PDD",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 2,
+        "cell": 0
+      },
+      "reference": "https://zh.moegirl.org.cn/%E5%88%98%E8%B0%8B"
+    },
+    {
+      "personId": "ming",
+      "name": "小明",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 2,
+        "cell": 1
+      },
+      "reference": "https://zh.moegirl.org.cn/%E5%8F%B2%E6%A3%AE%E6%98%8E"
+    },
+    {
+      "personId": "ning",
+      "name": "宁王",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 2,
+        "cell": 2
+      },
+      "reference": "https://zh.moegirl.org.cn/%E9%AB%98%E6%8C%AF%E5%AE%81"
+    },
+    {
+      "personId": "baolan",
+      "name": "宝蓝",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 6,
+        "cell": 3
+      },
+      "reference": "https://zh.moegirl.org.cn/%E7%8E%8B%E6%9F%B3%E7%BE%BF"
+    },
+    {
+      "personId": "lebron",
+      "name": "詹姆斯",
+      "theme": "basket",
+      "atlas": {
+        "sheet": 3,
+        "cell": 0
+      },
+      "reference": "https://imgflip.com/meme/140080740/lebron-james--jr-smith"
+    },
+    {
+      "personId": "curry",
+      "name": "库里",
+      "theme": "basket",
+      "atlas": {
+        "sheet": 3,
+        "cell": 1
+      },
+      "reference": "https://en.wikipedia.org/wiki/Stephen_Curry"
+    },
+    {
+      "personId": "jordan",
+      "name": "乔丹",
+      "theme": "basket",
+      "atlas": {
+        "sheet": 3,
+        "cell": 2
+      },
+      "reference": "https://en.wikipedia.org/wiki/Michael_Jordan"
+    },
+    {
+      "personId": "kobe",
+      "name": "科比",
+      "theme": "basket",
+      "atlas": {
+        "sheet": 3,
+        "cell": 3
+      },
+      "reference": "https://en.wikipedia.org/wiki/Kobe_Bryant"
+    },
+    {
+      "personId": "durant",
+      "name": "杜兰特",
+      "theme": "basket",
+      "atlas": {
+        "sheet": 4,
+        "cell": 0
+      },
+      "reference": "https://en.wikipedia.org/wiki/Kevin_Durant"
+    },
+    {
+      "personId": "harden",
+      "name": "哈登",
+      "theme": "basket",
+      "atlas": {
+        "sheet": 4,
+        "cell": 3
+      },
+      "reference": "https://en.wikipedia.org/wiki/James_Harden"
+    },
+    {
+      "personId": "yaoming",
+      "name": "姚明",
+      "theme": "basket",
+      "atlas": {
+        "sheet": 5,
+        "cell": 0
+      },
+      "reference": "https://en.wikipedia.org/wiki/Yao_Ming"
+    },
+    {
+      "personId": "fengge",
+      "name": "峰哥",
+      "theme": "abstract",
+      "atlas": {
+        "sheet": 21,
+        "cell": 0
+      },
+      "reference": "https://news.qq.com/rain/a/20250520A0757E00"
+    },
+    {
+      "personId": "huchenfeng",
+      "name": "户子",
+      "theme": "abstract",
+      "atlas": {
+        "sheet": 7,
+        "cell": 0
+      },
+      "reference": "https://commons.wikimedia.org/wiki/File:Portrait_photograph_of_content_creator_Hu_Chenfeng_(%E6%88%B7%E6%99%A8%E9%A3%8E).jpg"
+    },
+    {
+      "personId": "huge",
+      "name": "虎哥",
+      "theme": "abstract",
+      "atlas": {
+        "sheet": 7,
+        "cell": 1
+      },
+      "reference": "https://zh.moegirl.org.cn/%E4%B8%9C%E7%99%BE%E5%BE%80%E4%BA%8B"
+    },
+    {
+      "personId": "daoge",
+      "name": "刀哥",
+      "theme": "abstract",
+      "atlas": {
+        "sheet": 7,
+        "cell": 2
+      },
+      "reference": "https://zh.moegirl.org.cn/%E4%B8%9C%E7%99%BE%E5%BE%80%E4%BA%8B"
+    },
+    {
+      "personId": "sunxiaochuan",
+      "name": "孙笑川",
+      "theme": "abstract",
+      "atlas": {
+        "sheet": 7,
+        "cell": 3
+      },
+      "reference": "https://imgflip.com/meme/338239859/Sun-Xiaochuan"
+    },
+    {
+      "personId": "luobenwei",
+      "name": "卢本伟",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 8,
+        "cell": 3
+      },
+      "reference": "https://zh.moegirl.org.cn/%E5%8D%A2%E6%9C%AC%E4%BC%9F"
+    },
+    {
+      "personId": "xiaoxiao",
+      "name": "笑笑",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 12,
+        "cell": 0
+      },
+      "reference": "https://zh.moegirl.org.cn/%E5%AD%99%E4%BA%9A%E9%BE%99"
+    },
+    {
+      "personId": "xika",
+      "name": "西卡",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 12,
+        "cell": 1
+      },
+      "reference": "https://zh.moegirl.org.cn/%E6%9D%8E%E6%B5%A9%E5%AE%87"
+    },
+    {
+      "personId": "rookie",
+      "name": "Rookie",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 13,
+        "cell": 1
+      },
+      "reference": "https://zh.moegirl.org.cn/%E5%AE%8B%E4%B9%89%E8%BF%9B"
+    },
+    {
+      "personId": "otto",
+      "name": "电棍",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 22,
+        "cell": 2
+      },
+      "reference": "https://zh.moegirl.org.cn/%E4%BE%AF%E5%9B%BD%E7%8E%89"
+    },
+    {
+      "personId": "zztai",
+      "name": "姿态",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 14,
+        "cell": 2
+      },
+      "reference": "https://zh.moegirl.org.cn/%E5%88%98%E5%BF%97%E8%B1%AA"
+    },
+    {
+      "personId": "xujingyu",
+      "name": "徐静雨",
+      "theme": "basket",
+      "atlas": {
+        "sheet": 21,
+        "cell": 1
+      },
+      "reference": "https://newsa.html5.qq.com/v1/share-video?vid=6633041994983820651"
+    },
+    {
+      "personId": "yangyi",
+      "name": "杨毅",
+      "theme": "basket",
+      "atlas": {
+        "sheet": 25,
+        "cell": 0
+      },
+      "reference": "https://k.sina.com.cn/article_6592540240_p188f22e5002702678g.html"
+    },
+    {
+      "personId": "zhouqi",
+      "name": "周琦",
+      "theme": "basket",
+      "atlas": {
+        "sheet": 19,
+        "cell": 0
+      },
+      "reference": "https://en.wikipedia.org/wiki/Zhou_Qi"
+    },
+    {
+      "personId": "leijun",
+      "name": "雷军",
+      "theme": "abstract",
+      "atlas": {
+        "sheet": 17,
+        "cell": 3
+      },
+      "reference": "https://en.wikipedia.org/wiki/Lei_Jun"
+    },
+    {
+      "personId": "luoyonghao",
+      "name": "罗永浩",
+      "theme": "abstract",
+      "atlas": {
+        "sheet": 18,
+        "cell": 1
+      },
+      "reference": "https://en.wikipedia.org/wiki/Luo_Yonghao"
+    },
+    {
+      "personId": "dailanzi",
+      "name": "带篮子",
+      "theme": "abstract",
+      "atlas": {
+        "sheet": 23,
+        "cell": 0
+      },
+      "reference": "https://www.thepaper.cn/newsDetail_forward_14043056"
+    },
+    {
+      "personId": "vincent",
+      "name": "文森特",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 24,
+        "cell": 0
+      },
+      "reference": "https://www.sohu.com/a/594191542_100145476"
+    },
+    {
+      "personId": "kid",
+      "name": "Kid",
+      "theme": "lol",
+      "atlas": {
+        "sheet": 24,
+        "cell": 1
+      },
+      "reference": "https://zh.moegirl.org.cn/%E8%91%9B%E7%82%8E"
+    },
+    {
+      "personId": "us-lecturer",
+      "name": "美国讲师",
+      "theme": "abstract",
+      "atlas": {
+        "sheet": 24,
+        "cell": 3
+      },
+      "reference": "https://www.sohu.com/a/741731273_121123811"
+    },
+    {
+      "personId": "yaoshuige",
+      "name": "药水哥",
+      "theme": "abstract",
+      "atlas": {
+        "sheet": 24,
+        "cell": 2
+      },
+      "reference": "https://news.qq.com/rain/a/20241015A0232T00"
+    }
+  ]
+}

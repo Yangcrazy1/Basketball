@@ -224,7 +224,8 @@
     "atlas": {
       "sheet": 3,
       "cell": 0
-    }
+    },
+    "sha256": "f84ca5569b349ed04f7f5c3172c9eb3f3de168dbfd8a922c315fbc5d2068ee46"
   },
   {
     "id": "curry",
@@ -446,7 +447,8 @@
     "atlas": {
       "sheet": 7,
       "cell": 0
-    }
+    },
+    "sha256": "21cb8610aed2d65732825fe40c2544eceb6597b5e92cab401b42ad512df2763f"
   },
   {
     "id": "huge",
@@ -458,7 +460,8 @@
     "atlas": {
       "sheet": 7,
       "cell": 1
-    }
+    },
+    "sha256": "360e4a03bd7aff7bfae1efb8fa5b4c304e26c29fd2fdad3663d9a80e5141c7a8"
   },
   {
     "id": "daoge",
@@ -471,7 +474,8 @@
       "sheet": 7,
       "cell": 2
     },
-    "note": "参考图为虎刀合影，仅取右侧抬手的刀哥。"
+    "note": "参考图为虎刀合影，仅取右侧抬手的刀哥。",
+    "sha256": "fd3c173ac476eba919b126627ec84019b5b44de8a96fdb4d3de278a9051d35f6"
   },
   {
     "id": "sunxiaochuan",
@@ -483,7 +487,8 @@
     "atlas": {
       "sheet": 7,
       "cell": 3
-    }
+    },
+    "sha256": "24ef21df70c02c4524fa40cd7ed09632b26d4b74e3286296c67309a9e128e770"
   },
   {
     "id": "geyou",
@@ -495,7 +500,8 @@
     "atlas": {
       "sheet": 8,
       "cell": 0
-    }
+    },
+    "sha256": "2d99e2c662df82959e29d4b1b5c5ba7770d1a1b52ade0015aeeefaeafe10abea"
   },
   {
     "id": "jackie",
@@ -507,7 +513,8 @@
     "atlas": {
       "sheet": 8,
       "cell": 1
-    }
+    },
+    "sha256": "44d0fd20803b08d31f29666e98ba4d8829226434f5ce34b6e30ecbadeed194cd"
   },
   {
     "id": "wanglaoju",
@@ -1073,13 +1080,6 @@
     "checkedAt": "2026-10-23"
   },
   {
-    "id": "yangyi",
-    "name": "杨毅",
-    "verifiedReference": false,
-    "kind": "文字占位，照片待核对",
-    "note": "尚未获得可靠且可读取的人物参考图，先用文字卡避免错脸。"
-  },
-  {
     "id": "suqun",
     "name": "苏群",
     "verifiedReference": false,
@@ -1391,37 +1391,91 @@
   {
     "id": "vincent",
     "name": "文森特",
-    "verifiedReference": false,
-    "status": "pending",
-    "kind": "文字占位",
-    "note": "照片待核对，不用其他人物替代。",
-    "rights": "未投入照片素材。"
+    "verifiedReference": true,
+    "status": "verified",
+    "kind": "核对公开参考后的AI漫画重绘",
+    "note": "节目同框图左侧棕色卫衣为文森特，排除右侧张嘉文；按左侧面孔重绘。",
+    "rights": "公开照片作原型参考；未获得照片商业授权，不代表本人背书。",
+    "asset": "v12-references/vincent.image",
+    "sourcePage": "https://www.sohu.com/a/594191542_100145476",
+    "imageUrl": "https://p3.itc.cn/q_70/images03/20221020/a4569009680442768410a44e6953a9b6.jpeg",
+    "sha256": "6457395ea2a8109be97e88cb01d053b96bf4771b80f2f28841fc667dab5c19e6",
+    "atlas": {
+      "sheet": 24,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-24"
   },
   {
     "id": "kid",
     "name": "Kid",
-    "verifiedReference": false,
-    "status": "pending",
-    "kind": "文字占位",
-    "note": "照片待核对，不用其他人物替代。",
-    "rights": "未投入照片素材。"
+    "verifiedReference": true,
+    "status": "verified",
+    "kind": "核对公开参考后的AI漫画重绘",
+    "note": "参考IG Kid 2018 Spring队员照，保留圆脸、圆框眼镜与发型。",
+    "rights": "公开照片作原型参考；未获得照片商业授权，不代表本人背书。",
+    "asset": "v12-references/kid.image",
+    "sourcePage": "https://zh.moegirl.org.cn/%E8%91%9B%E7%82%8E",
+    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/b/b5/IG_Kid_2018_Spring.png!/fw/280?v=20220331090747",
+    "sha256": "8e263d0bca35dc95468489e7072547caecfbf3dbb70c48225f8fe899d34f576b",
+    "atlas": {
+      "sheet": 24,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-24"
   },
   {
     "id": "us-lecturer",
     "name": "美国讲师",
-    "verifiedReference": false,
-    "status": "pending",
-    "kind": "文字占位",
-    "note": "照片待核对，不用其他人物替代。",
-    "rights": "未投入照片素材。"
+    "verifiedReference": true,
+    "status": "verified",
+    "kind": "核对公开参考后的AI漫画重绘",
+    "note": "参考报道中拿汉堡的金牌讲师近照，保留短发、窄脸和挑眉表情；不使用泛化教授头像。",
+    "rights": "公开照片作原型参考；未获得照片商业授权，不代表本人背书。",
+    "asset": "v12-references/us-lecturer.image",
+    "sourcePage": "https://www.sohu.com/a/741731273_121123811",
+    "imageUrl": "https://p9.itc.cn/q_70/images03/20231206/930c094be72d4fa193dd96aca3b8e34b.jpeg",
+    "sha256": "5e4fb0f025f9e04316f0f5ae96075d6bda8a894040d62dfa18744a950e603ced",
+    "atlas": {
+      "sheet": 24,
+      "cell": 3
+    },
+    "checkedAt": "2026-10-24"
   },
   {
     "id": "yaoshuige",
     "name": "药水哥",
-    "verifiedReference": false,
-    "status": "pending",
-    "kind": "文字占位",
-    "note": "照片待核对，不用其他人物替代。",
-    "rights": "未投入照片素材。"
+    "verifiedReference": true,
+    "status": "verified",
+    "kind": "核对公开参考后的AI漫画重绘",
+    "note": "采用公开报道中的经典直播时期正面近照，保留短发、眉形与愣住的表情。",
+    "rights": "公开照片作原型参考；未获得照片商业授权，不代表本人背书。",
+    "asset": "v12-references/yaoshuige.image",
+    "sourcePage": "https://news.qq.com/rain/a/20241015A0232T00",
+    "imageUrl": "https://inews.gtimg.com/news_bt/OqqskhGmRq91R_aFmh995seUJ_NUrfpQGGq7BJW5Pmdi8AA/641",
+    "sha256": "a0e2cc3fbde9d1467e062ecbab74f07986924f60414cce475c05d28cf52e4c72",
+    "atlas": {
+      "sheet": 24,
+      "cell": 2
+    },
+    "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "yangyi",
+    "name": "杨毅",
+    "verifiedReference": true,
+    "status": "verified",
+    "kind": "核对节目正面参考后的AI漫画重绘",
+    "note": "新浪收录腾讯节目清晰正面画面，保留矩形眼镜、短发、下巴小胡须；排除同组图中的董路及其他同名人士。",
+    "rights": "公开节目照片仅作漫画原型参考，未获得节目照片商业授权，不代表本人或节目背书。",
+    "asset": "v12-references/yangyi.image",
+    "sourcePage": "https://k.sina.com.cn/article_6592540240_p188f22e5002702678g.html",
+    "imageUrl": "https://n.sinaimg.cn/sinakd20117/532/w852h480/20260707/e0b5-291017e65698e2b35a9ab2d7d60ce0bf.jpg",
+    "sha256": "09f18584d5953ca2510b073c78801f76166efa6ee9d208748f54512cafd12107",
+    "atlas": {
+      "sheet": 25,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-24"
   }
 ]
