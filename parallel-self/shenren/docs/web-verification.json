@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-23T15:31:22.342841+08:00",
+  "url": "https://yangcrazy1.github.io/Basketball/?v=5-hex",
+  "status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "version": 5,
+  "html_sha256": "4373abc0d544ce9f4ec5e907b0d5f0619e7c95ef5500cb7dbc4c1a20cdeebf3d",
+  "matches_tested_release": true,
+  "downloaded_offline_html_bytes": 1822191,
+  "downloaded_offline_html_sha256": "a1d0afb686db1dbd99899a7cebae7a83d18205cf98e0e08ab2f02ae4cb560522",
+  "checks": [
+    "real public HTTPS page and default Hex series",
+    "eight-question journey",
+    "one reroll and talent selection",
+    "five distinct members including your identity",
+    "3D rotation and auto/reset controls",
+    "real 1080x1740 PNG download",
+    "single-file HTML actual download",
+    "history reload",
+    "no horizontal overflow",
+    "no JavaScript errors"
+  ],
+  "javascript_errors": [],
+  "viewport": "390x844 Chromium",
+  "physical_phone_tested": false
+}
