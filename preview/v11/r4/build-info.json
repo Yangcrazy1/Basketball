@@ -1,0 +1,18 @@
+{
+  "entry_bytes": 2025,
+  "entry_sha256": "b7a1ed33622c023d37285e51b6c4d701c5974cdb2cb3c717cd3e35c4507f680e",
+  "core_bytes": 1362195,
+  "offline_html_bytes": 13215555,
+  "offline_html_sha256": "8e1c1790adc5d7b71f88f74eaad50e7d943790c814d5fde9298ef1abb40a131e",
+  "core_files": [
+    "boot-83ffa9eee7c7.js",
+    "style-a8188c831dba.css",
+    "data-fed69a7241a8.js",
+    "engine-41996d52b518.js",
+    "app-73f62e94b9a6.js"
+  ],
+  "mode": "split assets; portraits loaded on demand; offline export is a separate self-contained file",
+  "round": 4,
+  "source_commit": "bb2079d977098d76e1cb4da99ac905ed8bd1b4af",
+  "production_unchanged": true
+}
