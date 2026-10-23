@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "name": "世界上另一个我",
   "dimensions": [
     {
@@ -48,12 +48,12 @@
   "themes": [
     {
       "id": "lol",
-      "name": "峡谷整活局",
+      "name": "英雄联盟",
       "label": "英雄联盟主题",
       "icon": "⚔",
       "accent": "#b7a2ff",
-      "slogan": "这波别急，先看你的五人阵容。",
-      "description": "上 / 野 / 中 / 下 / 辅 · 真实海克斯匹配",
+      "slogan": "人是你匹配的，锅是全队一起分的。",
+      "description": "上 / 野 / 中 / 下 / 辅 · 网友脑洞风恶搞海克斯",
       "roles": [
         "上单",
         "打野",
@@ -198,7 +198,8 @@
           ],
           "behavior": "protect"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "hex-collector-1",
@@ -278,7 +279,14 @@
           ],
           "behavior": "control"
         }
-      ]
+      ],
+      "importance": 1,
+      "branches": {
+        "0": "你切到观战席，看到对面五个大汉堵住了桥。你希望接下来怎么演？",
+        "1": "送礼小剧场结束，复活倒计时还在走；对面五个大汉堵桥。下一波怎么回来？",
+        "2": "第五把收集者刚掏出来，对面五个大汉堵桥。你准备怎么展示这笔投资？",
+        "3": "你成了四把枪前唯一的盾，对面五个大汉堵桥。你怎么带队？"
+      }
     },
     {
       "id": "hex-collector-2",
@@ -358,7 +366,8 @@
           ],
           "behavior": "chaos"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-collector-3",
@@ -438,7 +447,8 @@
           ],
           "behavior": "heal"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-basic-0",
@@ -448,7 +458,7 @@
       "chapterName": "没有R的未来",
       "stage": 0,
       "scene": "天赋抉择",
-      "title": "“回归基本功”亮了：基础技能更强，但大招被封印。你怎么选？",
+      "title": "“回归基本功”让 R 键放年假，阵亡后的复盘时长翻倍。你接这张恶搞卡吗？",
       "options": [
         {
           "id": 0,
@@ -518,7 +528,8 @@
           ],
           "behavior": "reset"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "hex-basic-1",
@@ -598,7 +609,8 @@
           ],
           "behavior": "chaos"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-basic-2",
@@ -678,7 +690,8 @@
           ],
           "behavior": "poke"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-basic-3",
@@ -758,7 +771,8 @@
           ],
           "behavior": "reset"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-box-0",
@@ -768,7 +782,7 @@
       "chapterName": "潘朵拉开箱",
       "stage": 0,
       "scene": "天赋开箱",
-      "title": "拿到“潘朵拉的盒子”，旧天赋要全部重抽。你的第一反应？",
+      "title": "“人生重开器”能把旧天赋洗成三句网友锐评。你按刷新吗？",
       "options": [
         {
           "id": 0,
@@ -838,7 +852,8 @@
           ],
           "behavior": "chaos"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "hex-box-1",
@@ -918,7 +933,8 @@
           ],
           "behavior": "protect"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-box-2",
@@ -998,7 +1014,8 @@
           ],
           "behavior": "heal"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-box-3",
@@ -1078,7 +1095,8 @@
           ],
           "behavior": "protect"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-gate-0",
@@ -1088,7 +1106,7 @@
       "chapterName": "对面家门打卡",
       "stage": 0,
       "scene": "离谱导航",
-      "title": "“尊我为王”让对方传送门看起来像领奖入口。你心动吗？",
+      "title": "恶搞卡“冠军剧本”把对面家门标成领奖入口。你打算怎么签收？",
       "options": [
         {
           "id": 0,
@@ -1158,7 +1176,8 @@
           ],
           "behavior": "poke"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "hex-gate-1",
@@ -1238,7 +1257,8 @@
           ],
           "behavior": "protect"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-gate-2",
@@ -1248,7 +1268,7 @@
       "chapterName": "对面家门打卡",
       "stage": 2,
       "scene": "进门之后",
-      "title": "门后的奖励未知，队伍现在最想要什么？",
+      "title": "领奖入口后面的奖励未知，队伍最想要哪种恶搞补给？",
       "options": [
         {
           "id": 0,
@@ -1318,7 +1338,8 @@
           ],
           "behavior": "reset"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-gate-3",
@@ -1398,7 +1419,8 @@
           ],
           "behavior": "gold"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-range-0",
@@ -1408,7 +1430,7 @@
       "chapterName": "射程租赁公司",
       "stage": 0,
       "scene": "长手邀请",
-      "title": "三层瞄准镜像望远镜一样亮起，你会？",
+      "title": "抽到“泉水射程”：打得到全桥，但每出门一步就扣安全感。你会？",
       "options": [
         {
           "id": 0,
@@ -1478,7 +1500,8 @@
           ],
           "behavior": "gold"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "hex-range-1",
@@ -1558,7 +1581,8 @@
           ],
           "behavior": "retreat"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-range-2",
@@ -1638,7 +1662,8 @@
           ],
           "behavior": "int"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-range-3",
@@ -1718,7 +1743,8 @@
           ],
           "behavior": "gold"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-giant-0",
@@ -1728,7 +1754,7 @@
       "chapterName": "桥上出现巨人",
       "stage": 0,
       "scene": "体型膨胀",
-      "title": "“歌利亚巨人”摆在眼前，模型大到能给队友遮太阳。你选吗？",
+      "title": "抽到“桥梁承重测试”：体型越大，越像全队移动掩体。你愿意站前面吗？",
       "options": [
         {
           "id": 0,
@@ -1798,7 +1824,8 @@
           ],
           "behavior": "poke"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "hex-giant-1",
@@ -1878,7 +1905,8 @@
           ],
           "behavior": "poke"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-giant-2",
@@ -1958,7 +1986,8 @@
           ],
           "behavior": "mechanics"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-giant-3",
@@ -2038,7 +2067,8 @@
           ],
           "behavior": "gold"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-missile-0",
@@ -2048,7 +2078,7 @@
       "chapterName": "飞弹售后服务",
       "stage": 0,
       "scene": "技能快递",
-      "title": "“魔法飞弹”亮了。你想让技能去哪里上班？",
+      "title": "“弹幕实体化”让你命中的技能附赠一个问号。问号快递寄给谁？",
       "options": [
         {
           "id": 0,
@@ -2118,7 +2148,8 @@
           ],
           "behavior": "ult"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "hex-missile-1",
@@ -2128,7 +2159,7 @@
       "chapterName": "飞弹售后服务",
       "stage": 1,
       "scene": "弹幕误会",
-      "title": "队友把飞弹叫成“自动导航外挂”，你怎么接梗？",
+      "title": "队友把问号飞弹叫成“弹幕自动导航”，你怎么接梗？",
       "options": [
         {
           "id": 0,
@@ -2198,7 +2229,8 @@
           ],
           "behavior": "heal"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-missile-2",
@@ -2278,7 +2310,8 @@
           ],
           "behavior": "protect"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-missile-3",
@@ -2358,7 +2391,8 @@
           ],
           "behavior": "gold"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-heal-0",
@@ -2368,7 +2402,7 @@
       "chapterName": "全队唯一奶站",
       "stage": 0,
       "scene": "队伍成分",
-      "title": "四个输出喊“来个会奶的”。你看到“全心为你”会？",
+      "title": "四个输出喊“奶我”。你抽到“桥头医务室”，今晚开诊吗？",
       "options": [
         {
           "id": 0,
@@ -2438,7 +2472,8 @@
           ],
           "behavior": "collector"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "hex-heal-1",
@@ -2518,7 +2553,8 @@
           ],
           "behavior": "protect"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-heal-2",
@@ -2598,7 +2634,8 @@
           ],
           "behavior": "chaos"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-heal-3",
@@ -2678,7 +2715,8 @@
           ],
           "behavior": "collector"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-clown-0",
@@ -2688,7 +2726,7 @@
       "chapterName": "小丑学院开学",
       "stage": 0,
       "scene": "录取通知",
-      "title": "“小丑学院”给你发了通知书，你准备怎么入学？",
+      "title": "“小丑竟是我”给你准备了主角 BGM 和马戏团 BGM。你怎么入场？",
       "options": [
         {
           "id": 0,
@@ -2758,7 +2796,8 @@
           ],
           "behavior": "gold"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "hex-clown-1",
@@ -2838,7 +2877,8 @@
           ],
           "behavior": "protect"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-clown-2",
@@ -2918,7 +2958,8 @@
           ],
           "behavior": "stack"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-clown-3",
@@ -2998,7 +3039,8 @@
           ],
           "behavior": "gold"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-stack-0",
@@ -3008,7 +3050,7 @@
       "chapterName": "叠层永动机",
       "stage": 0,
       "scene": "成长曲线",
-      "title": "拿到“叠角龙”，每一层都像宇宙存款。你准备？",
+      "title": "抽到“宇宙养老保险”：层数像存款，队友像催缴员。你准备？",
       "options": [
         {
           "id": 0,
@@ -3078,7 +3120,8 @@
           ],
           "behavior": "plan"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "hex-stack-1",
@@ -3158,7 +3201,8 @@
           ],
           "behavior": "int"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-stack-2",
@@ -3238,7 +3282,8 @@
           ],
           "behavior": "stack"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-stack-3",
@@ -3318,7 +3363,8 @@
           ],
           "behavior": "reset"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-ult-0",
@@ -3328,7 +3374,7 @@
       "chapterName": "大招再来一遍",
       "stage": 0,
       "scene": "重播按钮",
-      "title": "“终极刷新”出现。你脑中的第一张画面是？",
+      "title": "“大招分期付款”让你预支下一局的 R。这局的镜头怎么拍？",
       "options": [
         {
           "id": 0,
@@ -3398,7 +3444,8 @@
           ],
           "behavior": "mechanics"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "hex-ult-1",
@@ -3478,7 +3525,8 @@
           ],
           "behavior": "retreat"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-ult-2",
@@ -3558,7 +3606,8 @@
           ],
           "behavior": "protect"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-ult-3",
@@ -3638,7 +3687,8 @@
           ],
           "behavior": "reset"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-snowball-0",
@@ -3718,7 +3768,8 @@
           ],
           "behavior": "heal"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "hex-snowball-1",
@@ -3798,7 +3849,8 @@
           ],
           "behavior": "plan"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-snowball-2",
@@ -3878,7 +3930,8 @@
           ],
           "behavior": "gold"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "hex-snowball-3",
@@ -3958,7 +4011,8 @@
           ],
           "behavior": "chaos"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-draft-0",
@@ -4038,7 +4092,8 @@
           ],
           "behavior": "collector"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "rift-draft-1",
@@ -4118,7 +4173,8 @@
           ],
           "behavior": "gold"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-draft-2",
@@ -4198,7 +4254,8 @@
           ],
           "behavior": "protect"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-draft-3",
@@ -4278,7 +4335,8 @@
           ],
           "behavior": "gold"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-gank-0",
@@ -4358,7 +4416,8 @@
           ],
           "behavior": "int"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "rift-gank-1",
@@ -4438,7 +4497,8 @@
           ],
           "behavior": "stack"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-gank-2",
@@ -4518,7 +4578,8 @@
           ],
           "behavior": "chaos"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-gank-3",
@@ -4598,7 +4659,8 @@
           ],
           "behavior": "gold"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-dragon-0",
@@ -4678,7 +4740,8 @@
           ],
           "behavior": "engage"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "rift-dragon-1",
@@ -4758,7 +4821,8 @@
           ],
           "behavior": "chaos"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-dragon-2",
@@ -4838,7 +4902,8 @@
           ],
           "behavior": "collector"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-dragon-3",
@@ -4918,7 +4983,8 @@
           ],
           "behavior": "gold"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-galio-0",
@@ -4998,7 +5064,8 @@
           ],
           "behavior": "engage"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "rift-galio-1",
@@ -5078,7 +5145,8 @@
           ],
           "behavior": "gold"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-galio-2",
@@ -5158,7 +5226,8 @@
           ],
           "behavior": "plan"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-galio-3",
@@ -5238,7 +5307,8 @@
           ],
           "behavior": "collector"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-split-0",
@@ -5318,7 +5388,8 @@
           ],
           "behavior": "gold"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "rift-split-1",
@@ -5398,7 +5469,8 @@
           ],
           "behavior": "chaos"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-split-2",
@@ -5478,7 +5550,8 @@
           ],
           "behavior": "ult"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-split-3",
@@ -5558,7 +5631,8 @@
           ],
           "behavior": "gold"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-support-0",
@@ -5638,7 +5712,8 @@
           ],
           "behavior": "heal"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "rift-support-1",
@@ -5718,7 +5793,8 @@
           ],
           "behavior": "chaos"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-support-2",
@@ -5798,7 +5874,8 @@
           ],
           "behavior": "engage"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-support-3",
@@ -5878,7 +5955,8 @@
           ],
           "behavior": "heal"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-pause-0",
@@ -5958,7 +6036,8 @@
           ],
           "behavior": "protect"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "rift-pause-1",
@@ -6038,7 +6117,8 @@
           ],
           "behavior": "engage"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-pause-2",
@@ -6118,7 +6198,8 @@
           ],
           "behavior": "stack"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-pause-3",
@@ -6198,7 +6279,8 @@
           ],
           "behavior": "reset"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-rematch-0",
@@ -6278,7 +6360,8 @@
           ],
           "behavior": "collector"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "rift-rematch-1",
@@ -6358,7 +6441,8 @@
           ],
           "behavior": "chaos"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-rematch-2",
@@ -6438,7 +6522,8 @@
           ],
           "behavior": "collector"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-rematch-3",
@@ -6518,7 +6603,8 @@
           ],
           "behavior": "reset"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-spring-0",
@@ -6598,7 +6684,8 @@
           ],
           "behavior": "engage"
         }
-      ]
+      ],
+      "importance": 1.25
     },
     {
       "id": "rift-spring-1",
@@ -6678,7 +6765,8 @@
           ],
           "behavior": "gold"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-spring-2",
@@ -6758,7 +6846,8 @@
           ],
           "behavior": "mechanics"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "rift-spring-3",
@@ -6838,7 +6927,8 @@
           ],
           "behavior": "reset"
         }
-      ]
+      ],
+      "importance": 1
     },
     {
       "id": "basket-social-1",
@@ -8927,6 +9017,1302 @@
           "value": 4
         }
       ]
+    },
+    {
+      "id": "hex-table-0",
+      "theme": "lol",
+      "series": "hex",
+      "chapter": "table",
+      "chapterName": "掀桌董事会",
+      "stage": 0,
+      "scene": "第三次能赢",
+      "title": "四把收集者已经齐了，队友第三次说“能赢”。你按哪个恶搞按钮？",
+      "options": [
+        {
+          "id": 0,
+          "text": "掀桌！这局换套家具继续打",
+          "signals": {
+            "tilt": 80,
+            "greed": 48,
+            "risk": 88,
+            "team": 40,
+            "craft": 55,
+            "plan": 15
+          },
+          "tags": [
+            "chaos",
+            "reroll"
+          ],
+          "behavior": "chaos"
+        },
+        {
+          "id": 1,
+          "text": "泉水挂机，远程出席董事会",
+          "signals": {
+            "tilt": 82,
+            "greed": 28,
+            "risk": 8,
+            "team": 8,
+            "craft": 20,
+            "plan": 15
+          },
+          "tags": [
+            "retreat",
+            "reset"
+          ],
+          "behavior": "afk"
+        },
+        {
+          "id": 2,
+          "text": "开送，把会议纪要送到对面",
+          "signals": {
+            "tilt": 96,
+            "greed": 22,
+            "risk": 98,
+            "team": 8,
+            "craft": 45,
+            "plan": 8
+          },
+          "tags": [
+            "chaos",
+            "engage"
+          ],
+          "behavior": "int"
+        },
+        {
+          "signals": {
+            "tilt": 40,
+            "greed": 45,
+            "risk": 20,
+            "team": 40,
+            "craft": 45,
+            "plan": 95
+          },
+          "tags": [
+            "theory",
+            "plan"
+          ],
+          "behavior": "explain",
+          "id": 3,
+          "text": "别急，我把能赢的条件列一下"
+        }
+      ],
+      "importance": 1.25
+    },
+    {
+      "id": "hex-table-1",
+      "theme": "lol",
+      "series": "hex",
+      "chapter": "table",
+      "chapterName": "掀桌董事会",
+      "stage": 1,
+      "scene": "会议分歧",
+      "title": "桌子翻到半空，四位股东都说“我没问题”。导演该给谁特写？",
+      "options": [
+        {
+          "signals": {
+            "tilt": 88,
+            "greed": 35,
+            "risk": 30,
+            "team": 5,
+            "craft": 30,
+            "plan": 20
+          },
+          "tags": [
+            "blame",
+            "chaos"
+          ],
+          "behavior": "blame",
+          "id": 0,
+          "text": "给锅，锅比人更忙"
+        },
+        {
+          "id": 1,
+          "text": "给小地图，我想知道谁先走散",
+          "signals": {
+            "tilt": 15,
+            "greed": 52,
+            "risk": 30,
+            "team": 72,
+            "craft": 58,
+            "plan": 96
+          },
+          "tags": [
+            "plan",
+            "control"
+          ],
+          "behavior": "plan"
+        },
+        {
+          "id": 2,
+          "text": "给我的走位，操作还是要看",
+          "signals": {
+            "tilt": 45,
+            "greed": 60,
+            "risk": 65,
+            "team": 45,
+            "craft": 98,
+            "plan": 52
+          },
+          "tags": [
+            "mechanics",
+            "basic"
+          ],
+          "behavior": "mechanics"
+        },
+        {
+          "id": 3,
+          "text": "给血条，先把能救的人接住",
+          "signals": {
+            "tilt": 12,
+            "greed": 20,
+            "risk": 30,
+            "team": 98,
+            "craft": 70,
+            "plan": 80
+          },
+          "tags": [
+            "heal",
+            "protect"
+          ],
+          "behavior": "heal"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "id": "hex-table-2",
+      "theme": "lol",
+      "series": "hex",
+      "chapter": "table",
+      "chapterName": "掀桌董事会",
+      "stage": 2,
+      "scene": "家具落地",
+      "title": "桌子终于落地，对面却抱团进来了。下一幕怎么拍？",
+      "options": [
+        {
+          "id": 0,
+          "text": "再掀一轮，连地图一起翻",
+          "signals": {
+            "tilt": 80,
+            "greed": 48,
+            "risk": 88,
+            "team": 40,
+            "craft": 55,
+            "plan": 15
+          },
+          "tags": [
+            "chaos",
+            "reroll"
+          ],
+          "behavior": "chaos"
+        },
+        {
+          "id": 1,
+          "text": "我先顶住，四位股东往后走",
+          "signals": {
+            "tilt": 25,
+            "greed": 25,
+            "risk": 50,
+            "team": 98,
+            "craft": 55,
+            "plan": 75
+          },
+          "tags": [
+            "protect",
+            "team"
+          ],
+          "behavior": "protect"
+        },
+        {
+          "id": 2,
+          "text": "别打字了，直接雪球发车",
+          "signals": {
+            "tilt": 62,
+            "greed": 40,
+            "risk": 96,
+            "team": 78,
+            "craft": 65,
+            "plan": 38
+          },
+          "tags": [
+            "engage",
+            "team"
+          ],
+          "behavior": "engage"
+        },
+        {
+          "id": 3,
+          "text": "退半步，等他们交完技能",
+          "signals": {
+            "tilt": 18,
+            "greed": 40,
+            "risk": 10,
+            "team": 55,
+            "craft": 50,
+            "plan": 82
+          },
+          "tags": [
+            "retreat",
+            "plan"
+          ],
+          "behavior": "retreat"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "id": "hex-table-3",
+      "theme": "lol",
+      "series": "hex",
+      "chapter": "table",
+      "chapterName": "掀桌董事会",
+      "stage": 3,
+      "scene": "散会总结",
+      "title": "给这次董事会写一句结语，你写？",
+      "options": [
+        {
+          "signals": {
+            "tilt": 88,
+            "greed": 35,
+            "risk": 30,
+            "team": 5,
+            "craft": 30,
+            "plan": 20
+          },
+          "tags": [
+            "blame",
+            "chaos"
+          ],
+          "behavior": "blame",
+          "id": 0,
+          "text": "不是我掀桌，是桌子不配赢"
+        },
+        {
+          "signals": {
+            "tilt": 40,
+            "greed": 45,
+            "risk": 20,
+            "team": 40,
+            "craft": 45,
+            "plan": 95
+          },
+          "tags": [
+            "theory",
+            "plan"
+          ],
+          "behavior": "explain",
+          "id": 1,
+          "text": "家具可以翻，账本不能乱"
+        },
+        {
+          "id": 2,
+          "text": "四个人能活着，会议就有下次",
+          "signals": {
+            "tilt": 25,
+            "greed": 25,
+            "risk": 50,
+            "team": 98,
+            "craft": 55,
+            "plan": 75
+          },
+          "tags": [
+            "protect",
+            "team"
+          ],
+          "behavior": "protect"
+        },
+        {
+          "id": 3,
+          "text": "下次记得换一张能重抽的桌子",
+          "signals": {
+            "tilt": 50,
+            "greed": 45,
+            "risk": 45,
+            "team": 58,
+            "craft": 60,
+            "plan": 62
+          },
+          "tags": [
+            "reset",
+            "reroll"
+          ],
+          "behavior": "reset"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "id": "hex-office-0",
+      "theme": "lol",
+      "series": "hex",
+      "chapter": "office",
+      "chapterName": "泉水远程办公",
+      "stage": 0,
+      "scene": "居家申请",
+      "title": "你抽到“泉水股东”：出泉水算出差。你准备？",
+      "options": [
+        {
+          "id": 0,
+          "text": "挂机上岗，今天申请全程远程",
+          "signals": {
+            "tilt": 82,
+            "greed": 28,
+            "risk": 8,
+            "team": 8,
+            "craft": 20,
+            "plan": 15
+          },
+          "tags": [
+            "retreat",
+            "reset"
+          ],
+          "behavior": "afk"
+        },
+        {
+          "id": 1,
+          "text": "我不坐办公室，先冲一波",
+          "signals": {
+            "tilt": 96,
+            "greed": 22,
+            "risk": 98,
+            "team": 8,
+            "craft": 45,
+            "plan": 8
+          },
+          "tags": [
+            "chaos",
+            "engage"
+          ],
+          "behavior": "int"
+        },
+        {
+          "id": 2,
+          "text": "先把兵线工资领了",
+          "signals": {
+            "tilt": 35,
+            "greed": 98,
+            "risk": 42,
+            "team": 40,
+            "craft": 55,
+            "plan": 70
+          },
+          "tags": [
+            "gold",
+            "collector"
+          ],
+          "behavior": "gold"
+        },
+        {
+          "id": 3,
+          "text": "安排谁留谁出，别五个人都不上班",
+          "signals": {
+            "tilt": 15,
+            "greed": 52,
+            "risk": 30,
+            "team": 72,
+            "craft": 58,
+            "plan": 96
+          },
+          "tags": [
+            "plan",
+            "control"
+          ],
+          "behavior": "plan"
+        }
+      ],
+      "importance": 1.25
+    },
+    {
+      "id": "hex-office-1",
+      "theme": "lol",
+      "series": "hex",
+      "chapter": "office",
+      "chapterName": "泉水远程办公",
+      "stage": 1,
+      "scene": "视频会议",
+      "title": "队友开团了，灰屏观战席让你发一句会议意见。你说？",
+      "options": [
+        {
+          "signals": {
+            "tilt": 88,
+            "greed": 35,
+            "risk": 30,
+            "team": 5,
+            "craft": 30,
+            "plan": 20
+          },
+          "tags": [
+            "blame",
+            "chaos"
+          ],
+          "behavior": "blame",
+          "id": 0,
+          "text": "我早说不能这么打"
+        },
+        {
+          "signals": {
+            "tilt": 40,
+            "greed": 45,
+            "risk": 20,
+            "team": 40,
+            "craft": 45,
+            "plan": 95
+          },
+          "tags": [
+            "theory",
+            "plan"
+          ],
+          "behavior": "explain",
+          "id": 1,
+          "text": "给我十秒，我把这波讲明白"
+        },
+        {
+          "id": 2,
+          "text": "先别吵，复活后一起走",
+          "signals": {
+            "tilt": 25,
+            "greed": 25,
+            "risk": 50,
+            "team": 98,
+            "craft": 55,
+            "plan": 75
+          },
+          "tags": [
+            "protect",
+            "team"
+          ],
+          "behavior": "protect"
+        },
+        {
+          "id": 3,
+          "text": "下一波大招好了我来开",
+          "signals": {
+            "tilt": 52,
+            "greed": 62,
+            "risk": 78,
+            "team": 65,
+            "craft": 85,
+            "plan": 45
+          },
+          "tags": [
+            "ultimate",
+            "spell"
+          ],
+          "behavior": "ult"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "id": "hex-office-2",
+      "theme": "lol",
+      "series": "hex",
+      "chapter": "office",
+      "chapterName": "泉水远程办公",
+      "stage": 2,
+      "scene": "出差通知",
+      "title": "一辆雪球公交停在泉水门口。你要怎么上班？",
+      "options": [
+        {
+          "id": 0,
+          "text": "车票退了，我继续挂机参会",
+          "signals": {
+            "tilt": 82,
+            "greed": 28,
+            "risk": 8,
+            "team": 8,
+            "craft": 20,
+            "plan": 15
+          },
+          "tags": [
+            "retreat",
+            "reset"
+          ],
+          "behavior": "afk"
+        },
+        {
+          "id": 1,
+          "text": "第一排，车门焊死我也不下",
+          "signals": {
+            "tilt": 62,
+            "greed": 40,
+            "risk": 96,
+            "team": 78,
+            "craft": 65,
+            "plan": 38
+          },
+          "tags": [
+            "engage",
+            "team"
+          ],
+          "behavior": "engage"
+        },
+        {
+          "id": 2,
+          "text": "先问终点，别直接送到对面家",
+          "signals": {
+            "tilt": 15,
+            "greed": 52,
+            "risk": 30,
+            "team": 72,
+            "craft": 58,
+            "plan": 96
+          },
+          "tags": [
+            "plan",
+            "control"
+          ],
+          "behavior": "plan"
+        },
+        {
+          "id": 3,
+          "text": "带上奶包，我负责车上急救",
+          "signals": {
+            "tilt": 12,
+            "greed": 20,
+            "risk": 30,
+            "team": 98,
+            "craft": 70,
+            "plan": 80
+          },
+          "tags": [
+            "heal",
+            "protect"
+          ],
+          "behavior": "heal"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "id": "hex-office-3",
+      "theme": "lol",
+      "series": "hex",
+      "chapter": "office",
+      "chapterName": "泉水远程办公",
+      "stage": 3,
+      "scene": "绩效表格",
+      "title": "本局绩效只允许填一项，你填？",
+      "options": [
+        {
+          "id": 0,
+          "text": "远程指挥覆盖率百分之百",
+          "signals": {
+            "tilt": 82,
+            "greed": 28,
+            "risk": 8,
+            "team": 8,
+            "craft": 20,
+            "plan": 15
+          },
+          "tags": [
+            "retreat",
+            "reset"
+          ],
+          "behavior": "afk"
+        },
+        {
+          "signals": {
+            "tilt": 40,
+            "greed": 45,
+            "risk": 20,
+            "team": 40,
+            "craft": 45,
+            "plan": 95
+          },
+          "tags": [
+            "theory",
+            "plan"
+          ],
+          "behavior": "explain",
+          "id": 1,
+          "text": "这波不亏，报告稍后八百字"
+        },
+        {
+          "id": 2,
+          "text": "金币到账，业绩自然会说话",
+          "signals": {
+            "tilt": 35,
+            "greed": 98,
+            "risk": 42,
+            "team": 40,
+            "craft": 55,
+            "plan": 70
+          },
+          "tags": [
+            "gold",
+            "collector"
+          ],
+          "behavior": "gold"
+        },
+        {
+          "id": 3,
+          "text": "五个人还在群里，下次继续",
+          "signals": {
+            "tilt": 25,
+            "greed": 25,
+            "risk": 50,
+            "team": 98,
+            "craft": 55,
+            "plan": 75
+          },
+          "tags": [
+            "protect",
+            "team"
+          ],
+          "behavior": "protect"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "id": "hex-review-0",
+      "theme": "lol",
+      "series": "hex",
+      "chapter": "review",
+      "chapterName": "这波真不亏",
+      "stage": 0,
+      "scene": "讲解启动",
+      "title": "你刚阵亡，复活还有十秒，恶搞卡“这波不亏”亮了。你先？",
+      "options": [
+        {
+          "signals": {
+            "tilt": 40,
+            "greed": 45,
+            "risk": 20,
+            "team": 40,
+            "craft": 45,
+            "plan": 95
+          },
+          "tags": [
+            "theory",
+            "plan"
+          ],
+          "behavior": "explain",
+          "id": 0,
+          "text": "开讲，十秒足够起一个标题"
+        },
+        {
+          "signals": {
+            "tilt": 88,
+            "greed": 35,
+            "risk": 30,
+            "team": 5,
+            "craft": 30,
+            "plan": 20
+          },
+          "tags": [
+            "blame",
+            "chaos"
+          ],
+          "behavior": "blame",
+          "id": 1,
+          "text": "找锅，十秒足够确定责任"
+        },
+        {
+          "id": 2,
+          "text": "看回放找走位问题",
+          "signals": {
+            "tilt": 45,
+            "greed": 60,
+            "risk": 65,
+            "team": 45,
+            "craft": 98,
+            "plan": 52
+          },
+          "tags": [
+            "mechanics",
+            "basic"
+          ],
+          "behavior": "mechanics"
+        },
+        {
+          "id": 3,
+          "text": "报技能，给还活着的队友信息",
+          "signals": {
+            "tilt": 25,
+            "greed": 25,
+            "risk": 50,
+            "team": 98,
+            "craft": 55,
+            "plan": 75
+          },
+          "tags": [
+            "protect",
+            "team"
+          ],
+          "behavior": "protect"
+        }
+      ],
+      "importance": 1.25
+    },
+    {
+      "id": "hex-review-1",
+      "theme": "lol",
+      "series": "hex",
+      "chapter": "review",
+      "chapterName": "这波真不亏",
+      "stage": 1,
+      "scene": "收益报告",
+      "title": "队友问“你拿人头换到了什么”，你交哪份报告？",
+      "options": [
+        {
+          "signals": {
+            "tilt": 40,
+            "greed": 45,
+            "risk": 20,
+            "team": 40,
+            "craft": 45,
+            "plan": 95
+          },
+          "tags": [
+            "theory",
+            "plan"
+          ],
+          "behavior": "explain",
+          "id": 0,
+          "text": "对面用了三个技能，这叫战略投资"
+        },
+        {
+          "signals": {
+            "tilt": 88,
+            "greed": 35,
+            "risk": 30,
+            "team": 5,
+            "craft": 30,
+            "plan": 20
+          },
+          "tags": [
+            "blame",
+            "chaos"
+          ],
+          "behavior": "blame",
+          "id": 1,
+          "text": "他们没跟，不在我的项目范围"
+        },
+        {
+          "id": 2,
+          "text": "换到一个教训，下波不这样进",
+          "signals": {
+            "tilt": 15,
+            "greed": 52,
+            "risk": 30,
+            "team": 72,
+            "craft": 58,
+            "plan": 96
+          },
+          "tags": [
+            "plan",
+            "control"
+          ],
+          "behavior": "plan"
+        },
+        {
+          "id": 3,
+          "text": "换到了对面的赏金邀请函，下次还来",
+          "signals": {
+            "tilt": 96,
+            "greed": 22,
+            "risk": 98,
+            "team": 8,
+            "craft": 45,
+            "plan": 8
+          },
+          "tags": [
+            "chaos",
+            "engage"
+          ],
+          "behavior": "int"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "id": "hex-review-2",
+      "theme": "lol",
+      "series": "hex",
+      "chapter": "review",
+      "chapterName": "这波真不亏",
+      "stage": 2,
+      "scene": "再次出门",
+      "title": "复活门一开，同一个路口又出现一个残血。下一幕？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先看队友位置，再决定追不追",
+          "signals": {
+            "tilt": 15,
+            "greed": 52,
+            "risk": 30,
+            "team": 72,
+            "craft": 58,
+            "plan": 96
+          },
+          "tags": [
+            "plan",
+            "control"
+          ],
+          "behavior": "plan"
+        },
+        {
+          "id": 1,
+          "text": "操作换个细节，这回我能打",
+          "signals": {
+            "tilt": 45,
+            "greed": 60,
+            "risk": 65,
+            "team": 45,
+            "craft": 98,
+            "plan": 52
+          },
+          "tags": [
+            "mechanics",
+            "basic"
+          ],
+          "behavior": "mechanics"
+        },
+        {
+          "id": 2,
+          "text": "还冲，刚才只是路线没规划好",
+          "signals": {
+            "tilt": 96,
+            "greed": 22,
+            "risk": 98,
+            "team": 8,
+            "craft": 45,
+            "plan": 8
+          },
+          "tags": [
+            "chaos",
+            "engage"
+          ],
+          "behavior": "int"
+        },
+        {
+          "id": 3,
+          "text": "给队友打标记，大家一起收尾",
+          "signals": {
+            "tilt": 25,
+            "greed": 25,
+            "risk": 50,
+            "team": 98,
+            "craft": 55,
+            "plan": 75
+          },
+          "tags": [
+            "protect",
+            "team"
+          ],
+          "behavior": "protect"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "id": "hex-review-3",
+      "theme": "lol",
+      "series": "hex",
+      "chapter": "review",
+      "chapterName": "这波真不亏",
+      "stage": 3,
+      "scene": "赛后标题",
+      "title": "你给这段回放起名？",
+      "options": [
+        {
+          "signals": {
+            "tilt": 40,
+            "greed": 45,
+            "risk": 20,
+            "team": 40,
+            "craft": 45,
+            "plan": 95
+          },
+          "tags": [
+            "theory",
+            "plan"
+          ],
+          "behavior": "explain",
+          "id": 0,
+          "text": "人可以没，逻辑必须闭环"
+        },
+        {
+          "signals": {
+            "tilt": 88,
+            "greed": 35,
+            "risk": 30,
+            "team": 5,
+            "craft": 30,
+            "plan": 20
+          },
+          "tags": [
+            "blame",
+            "chaos"
+          ],
+          "behavior": "blame",
+          "id": 1,
+          "text": "锅从天上来，反正不是我"
+        },
+        {
+          "id": 2,
+          "text": "修正一个动作，就是下一局的进步",
+          "signals": {
+            "tilt": 45,
+            "greed": 60,
+            "risk": 65,
+            "team": 45,
+            "craft": 98,
+            "plan": 52
+          },
+          "tags": [
+            "mechanics",
+            "basic"
+          ],
+          "behavior": "mechanics"
+        },
+        {
+          "id": 3,
+          "text": "下集重开，这个宇宙先暂停",
+          "signals": {
+            "tilt": 50,
+            "greed": 45,
+            "risk": 45,
+            "team": 58,
+            "craft": 60,
+            "plan": 62
+          },
+          "tags": [
+            "reset",
+            "reroll"
+          ],
+          "behavior": "reset"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "id": "hex-collector-audit-0",
+      "theme": "lol",
+      "series": "hex",
+      "chapter": "collector-audit",
+      "chapterName": "收集者年终审计",
+      "stage": 0,
+      "scene": "资产清单",
+      "title": "你们五个人的收集者比人头还多，审计来了。你先做什么？",
+      "options": [
+        {
+          "id": 0,
+          "text": "再买一把，资产规模还不够",
+          "signals": {
+            "tilt": 65,
+            "greed": 96,
+            "risk": 68,
+            "team": 30,
+            "craft": 65,
+            "plan": 30
+          },
+          "tags": [
+            "collector",
+            "gold"
+          ],
+          "behavior": "collector"
+        },
+        {
+          "id": 1,
+          "text": "把账拉平，至少留一笔给前排",
+          "signals": {
+            "tilt": 15,
+            "greed": 52,
+            "risk": 30,
+            "team": 72,
+            "craft": 58,
+            "plan": 96
+          },
+          "tags": [
+            "plan",
+            "control"
+          ],
+          "behavior": "plan"
+        },
+        {
+          "id": 2,
+          "text": "我来承压，四位财务先别倒",
+          "signals": {
+            "tilt": 25,
+            "greed": 25,
+            "risk": 50,
+            "team": 98,
+            "craft": 55,
+            "plan": 75
+          },
+          "tags": [
+            "protect",
+            "team"
+          ],
+          "behavior": "protect"
+        },
+        {
+          "id": 3,
+          "text": "掀桌，账本跟桌子一起重置",
+          "signals": {
+            "tilt": 80,
+            "greed": 48,
+            "risk": 88,
+            "team": 40,
+            "craft": 55,
+            "plan": 15
+          },
+          "tags": [
+            "chaos",
+            "reroll"
+          ],
+          "behavior": "chaos"
+        }
+      ],
+      "importance": 1.25
+    },
+    {
+      "id": "hex-collector-audit-1",
+      "theme": "lol",
+      "series": "hex",
+      "chapter": "collector-audit",
+      "chapterName": "收集者年终审计",
+      "stage": 1,
+      "scene": "最后一口税",
+      "title": "恶搞规则说最后一口要交税，队伍突然客气起来。你怎么办？",
+      "options": [
+        {
+          "id": 0,
+          "text": "我交税，我来吃最后一口",
+          "signals": {
+            "tilt": 65,
+            "greed": 96,
+            "risk": 68,
+            "team": 30,
+            "craft": 65,
+            "plan": 30
+          },
+          "tags": [
+            "collector",
+            "gold"
+          ],
+          "behavior": "collector"
+        },
+        {
+          "id": 1,
+          "text": "给差一点成装的人，把收益最大化",
+          "signals": {
+            "tilt": 15,
+            "greed": 52,
+            "risk": 30,
+            "team": 72,
+            "craft": 58,
+            "plan": 96
+          },
+          "tags": [
+            "plan",
+            "control"
+          ],
+          "behavior": "plan"
+        },
+        {
+          "id": 2,
+          "text": "我不抢，先保住队友不被反杀",
+          "signals": {
+            "tilt": 25,
+            "greed": 25,
+            "risk": 50,
+            "team": 98,
+            "craft": 55,
+            "plan": 75
+          },
+          "tags": [
+            "protect",
+            "team"
+          ],
+          "behavior": "protect"
+        },
+        {
+          "id": 3,
+          "text": "直接开送，让对面来交所得税",
+          "signals": {
+            "tilt": 96,
+            "greed": 22,
+            "risk": 98,
+            "team": 8,
+            "craft": 45,
+            "plan": 8
+          },
+          "tags": [
+            "chaos",
+            "engage"
+          ],
+          "behavior": "int"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "id": "hex-collector-audit-2",
+      "theme": "lol",
+      "series": "hex",
+      "chapter": "collector-audit",
+      "chapterName": "收集者年终审计",
+      "stage": 2,
+      "scene": "金币响了",
+      "title": "金币音效响得像收银机，对面却在推基地。镜头选哪边？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先回防，基地不能被拿去抵押",
+          "signals": {
+            "tilt": 15,
+            "greed": 52,
+            "risk": 30,
+            "team": 72,
+            "craft": 58,
+            "plan": 96
+          },
+          "tags": [
+            "plan",
+            "control"
+          ],
+          "behavior": "plan"
+        },
+        {
+          "id": 1,
+          "text": "吃完这波炮车，马上到",
+          "signals": {
+            "tilt": 35,
+            "greed": 98,
+            "risk": 42,
+            "team": 40,
+            "craft": 55,
+            "plan": 70
+          },
+          "tags": [
+            "gold",
+            "collector"
+          ],
+          "behavior": "gold"
+        },
+        {
+          "id": 2,
+          "text": "雪球回去，今天用身体堵门",
+          "signals": {
+            "tilt": 62,
+            "greed": 40,
+            "risk": 96,
+            "team": 78,
+            "craft": 65,
+            "plan": 38
+          },
+          "tags": [
+            "engage",
+            "team"
+          ],
+          "behavior": "engage"
+        },
+        {
+          "id": 3,
+          "text": "我在泉水，主打一个房东在场",
+          "signals": {
+            "tilt": 82,
+            "greed": 28,
+            "risk": 8,
+            "team": 8,
+            "craft": 20,
+            "plan": 15
+          },
+          "tags": [
+            "retreat",
+            "reset"
+          ],
+          "behavior": "afk"
+        }
+      ],
+      "importance": 1
+    },
+    {
+      "id": "hex-collector-audit-3",
+      "theme": "lol",
+      "series": "hex",
+      "chapter": "collector-audit",
+      "chapterName": "收集者年终审计",
+      "stage": 3,
+      "scene": "年终评语",
+      "title": "给自己这一年的峡谷事业留一句评语？",
+      "options": [
+        {
+          "id": 0,
+          "text": "第五位股东，最后一口负责人",
+          "signals": {
+            "tilt": 65,
+            "greed": 96,
+            "risk": 68,
+            "team": 30,
+            "craft": 65,
+            "plan": 30
+          },
+          "tags": [
+            "collector",
+            "gold"
+          ],
+          "behavior": "collector"
+        },
+        {
+          "signals": {
+            "tilt": 40,
+            "greed": 45,
+            "risk": 20,
+            "team": 40,
+            "craft": 45,
+            "plan": 95
+          },
+          "tags": [
+            "theory",
+            "plan"
+          ],
+          "behavior": "explain",
+          "id": 1,
+          "text": "收入有波动，复盘没停过"
+        },
+        {
+          "id": 2,
+          "text": "队友健康，才有下一笔生意",
+          "signals": {
+            "tilt": 12,
+            "greed": 20,
+            "risk": 30,
+            "team": 98,
+            "craft": 70,
+            "plan": 80
+          },
+          "tags": [
+            "heal",
+            "protect"
+          ],
+          "behavior": "heal"
+        },
+        {
+          "id": 3,
+          "text": "经济自由还没到，至少先开心",
+          "signals": {
+            "tilt": 50,
+            "greed": 45,
+            "risk": 45,
+            "team": 58,
+            "craft": 60,
+            "plan": 62
+          },
+          "tags": [
+            "reset",
+            "reroll"
+          ],
+          "behavior": "reset"
+        }
+      ],
+      "importance": 1
     }
   ],
   "characters": [
@@ -8948,7 +10334,14 @@
         3
       ],
       "line": "收集者先别讨论，兵线先吃明白。",
-      "number": "UZ"
+      "number": "UZ",
+      "behaviorWeights": {
+        "mechanics": 5,
+        "collector": 5,
+        "gold": 3,
+        "poke": 2
+      },
+      "nickname": "污渍"
     },
     {
       "id": "lol-xiaohu",
@@ -8969,7 +10362,14 @@
         0
       ],
       "line": "春天已经写进战术板。",
-      "number": "XI"
+      "number": "XI",
+      "behaviorWeights": {
+        "plan": 5,
+        "ult": 4,
+        "control": 3,
+        "stack": 1
+      },
+      "nickname": "销户"
     },
     {
       "id": "lol-dasima",
@@ -8989,7 +10389,14 @@
         1
       ],
       "line": "不是失误，是教学素材提前上班。",
-      "number": "DA"
+      "number": "DA",
+      "behaviorWeights": {
+        "explain": 5,
+        "plan": 4,
+        "reset": 2,
+        "retreat": 1
+      },
+      "nickname": "大司马"
     },
     {
       "id": "lol-theshy",
@@ -9009,7 +10416,13 @@
         0
       ],
       "line": "边线可以安静，操作不能太安静。",
-      "number": "TH"
+      "number": "TH",
+      "behaviorWeights": {
+        "mechanics": 5,
+        "engage": 4,
+        "int": 3
+      },
+      "nickname": "TheShy"
     },
     {
       "id": "lol-faker",
@@ -9029,7 +10442,14 @@
         2
       ],
       "line": "先把每一波该做的事做好。",
-      "number": "FA"
+      "number": "FA",
+      "behaviorWeights": {
+        "control": 5,
+        "mechanics": 4,
+        "plan": 4,
+        "ult": 3
+      },
+      "nickname": "飞科"
     },
     {
       "id": "lol-clearlove",
@@ -9049,7 +10469,14 @@
         1
       ],
       "line": "养猪场也要讲资源调度。",
-      "number": "CL"
+      "number": "CL",
+      "behaviorWeights": {
+        "plan": 5,
+        "stack": 4,
+        "gold": 3,
+        "retreat": 2
+      },
+      "nickname": "厂长"
     },
     {
       "id": "lol-jackeylove",
@@ -9069,7 +10496,14 @@
         3
       ],
       "line": "这条路线险，但节目效果很好。",
-      "number": "JA"
+      "number": "JA",
+      "behaviorWeights": {
+        "int": 5,
+        "engage": 4,
+        "mechanics": 3,
+        "collector": 2
+      },
+      "nickname": "杰克爱"
     },
     {
       "id": "lol-doinb",
@@ -9089,7 +10523,14 @@
         2
       ],
       "line": "地图的每个角落都得听见报点。",
-      "number": "DO"
+      "number": "DO",
+      "behaviorWeights": {
+        "engage": 5,
+        "protect": 4,
+        "chaos": 3,
+        "control": 2
+      },
+      "nickname": "Doinb"
     },
     {
       "id": "lol-pdd",
@@ -9109,7 +10550,14 @@
         0
       ],
       "line": "对线是支线，讲故事才是隐藏副本。",
-      "number": "PD"
+      "number": "PD",
+      "behaviorWeights": {
+        "chaos": 5,
+        "reset": 4,
+        "blame": 3,
+        "afk": 2
+      },
+      "nickname": "PDD"
     },
     {
       "id": "lol-ming",
@@ -9129,7 +10577,13 @@
         4
       ],
       "line": "你往前走，后面有人帮你接住。",
-      "number": "MI"
+      "number": "MI",
+      "behaviorWeights": {
+        "engage": 5,
+        "control": 4,
+        "protect": 4
+      },
+      "nickname": "小明"
     },
     {
       "id": "lol-meiko",
@@ -9149,7 +10603,13 @@
         4
       ],
       "line": "路可以乱，队伍不能散。",
-      "number": "ME"
+      "number": "ME",
+      "behaviorWeights": {
+        "heal": 5,
+        "protect": 5,
+        "plan": 2
+      },
+      "nickname": "Meiko"
     },
     {
       "id": "lol-letme",
@@ -9169,7 +10629,13 @@
         0
       ],
       "line": "对面花里胡哨，我先把防线站住。",
-      "number": "LE"
+      "number": "LE",
+      "behaviorWeights": {
+        "protect": 5,
+        "control": 4,
+        "plan": 3
+      },
+      "nickname": "Letme"
     },
     {
       "id": "lol-ning",
@@ -9189,7 +10655,13 @@
         1
       ],
       "line": "路线可以等会儿复盘，人已经到场。",
-      "number": "NI"
+      "number": "NI",
+      "behaviorWeights": {
+        "int": 5,
+        "engage": 5,
+        "chaos": 3
+      },
+      "nickname": "宁王"
     },
     {
       "id": "lol-knight",
@@ -9209,7 +10681,14 @@
         2
       ],
       "line": "话少一点，技能多中一点。",
-      "number": "KN"
+      "number": "KN",
+      "behaviorWeights": {
+        "mechanics": 5,
+        "poke": 4,
+        "ult": 3,
+        "stack": 2
+      },
+      "nickname": "左手"
     },
     {
       "id": "lol-baolan",
@@ -9229,7 +10708,14 @@
         4
       ],
       "line": "把镜头外的小事安顿好。",
-      "number": "BA"
+      "number": "BA",
+      "behaviorWeights": {
+        "protect": 5,
+        "heal": 4,
+        "retreat": 2,
+        "control": 1
+      },
+      "nickname": "宝蓝"
     },
     {
       "id": "basket-lebron",
@@ -9833,560 +11319,988 @@
   "augments": {
     "lol": [
       {
-        "id": "ARAM_BacktoBasics",
-        "clientId": 1004,
-        "name": "回归基本功",
+        "id": "table-flip",
+        "name": "掀桌",
+        "icon": 0,
+        "category": "心态",
         "rarity": "kPrismatic",
-        "effect": "强化基础技能的伤害、治疗与护盾，并提供技能急速；无法施放大招。",
-        "line": "你愿意把胜负交给小技能和基本功，连R键都可以放假。",
+        "effect": "队友第三次说“这把能赢”时，\n将整张桌子刷新到下一局。",
+        "punchline": "赢不了比赛，就改变比赛用的家具。",
+        "line": "赢不了比赛，就改变比赛用的家具。",
         "vector": [
-          25,
-          45,
-          50,
-          50,
-          98,
-          75
-        ],
-        "tags": [
-          "basic",
-          "mechanics"
-        ],
-        "bias": [
-          -0.5,
-          -0.1,
-          0.0,
-          0.0,
-          0.96,
-          0.5
-        ],
-        "asset": "augments/ARAM_BacktoBasics.png",
-        "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Back_to_Basics_mayhem_augment.png?6679d",
-        "sha256": "fc6fa7be5f10e91a2f027966cdef9e8cafdceb29f15695e5f2dfa9f8c9da26e0",
-        "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-        "pool": "KIWI",
-        "patch": "16.21",
-        "officialReference": true
-      },
-      {
-        "id": "ARAM_Upgrade_Collector",
-        "clientId": 1320,
-        "name": "升级：收集者",
-        "rarity": "kSilver",
-        "effect": "升级收集者的处决能力；参与击杀可提升处决阈值至上限，并提供额外金币收益。",
-        "line": "你看见的不只是残血，还有闪着金光的下一件装备。",
-        "vector": [
-          65,
-          98,
-          70,
-          25,
-          65,
-          30
-        ],
-        "tags": [
-          "collector",
-          "gold"
-        ],
-        "bias": [
-          0.3,
-          0.96,
-          0.4,
-          -0.5,
-          0.3,
-          -0.4
-        ],
-        "asset": "augments/ARAM_Upgrade_Collector.png",
-        "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Upgrade_Collector_mayhem_augment.png?43345",
-        "sha256": "bae92a38c03b1ac64f4ba72abd1b0770d49f41f5657fad82ed881e00f1b92235",
-        "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-        "pool": "KIWI",
-        "patch": "16.21",
-        "officialReference": true
-      },
-      {
-        "id": "ARAM_ClownCollege",
-        "clientId": 1310,
-        "name": "小丑学院",
-        "rarity": "kPrismatic",
-        "effect": "获得萨科式的背刺和欺诈玩法；阵亡时还会留下爆炸与恐惧盒子。",
-        "line": "你会把一局普通对战拍成悬疑喜剧，背后总还有下一幕。",
-        "vector": [
-          90,
+          95,
           35,
           90,
-          20,
-          65,
-          15
+          15,
+          35,
+          5
         ],
-        "tags": [
-          "chaos"
+        "behaviorWeights": {
+          "chaos": 5,
+          "blame": 3,
+          "reset": 2,
+          "int": 1
+        },
+        "affinities": [
+          "pdd",
+          "ning"
         ],
+        "kind": "chaos",
         "bias": [
-          0.8,
+          0.9,
           -0.3,
           0.8,
-          -0.6,
-          0.3,
-          -0.7
+          -0.7,
+          -0.3,
+          -0.9
         ],
-        "asset": "augments/ARAM_ClownCollege.png",
-        "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Clown_College_mayhem_augment.png?54037",
-        "sha256": "afdc8a654eb4ac907899eb8e0b62d7e42457ed03f4d2566ca59b6705b5a9ae13",
-        "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-        "pool": "KIWI",
-        "patch": "16.21",
-        "officialReference": true
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
       },
       {
-        "id": "ARAM_PandorasBox",
-        "clientId": 12317,
-        "name": "潘朵拉的盒子",
+        "id": "collector-union",
+        "name": "第五位收集者",
+        "icon": 1,
+        "category": "经济",
         "rarity": "kPrismatic",
-        "effect": "获得一个随机棱彩强化，并将已有强化转换为同数量的随机棱彩强化。",
-        "line": "你愿意改写已经成形的剧本，重抽一次也是一种人生选择。",
+        "effect": "当四名队友都出收集者时，\n你的商店只剩收集者。",
+        "punchline": "全队伤害可以共享，最后一口绝不共享。",
+        "line": "全队伤害可以共享，最后一口绝不共享。",
         "vector": [
-          60,
-          40,
-          60,
-          45,
-          50,
+          58,
+          98,
+          65,
+          25,
+          65,
           25
         ],
-        "tags": [
-          "reroll",
-          "reset"
+        "behaviorWeights": {
+          "collector": 5,
+          "gold": 2
+        },
+        "affinities": [
+          "uzi",
+          "jackeylove"
         ],
+        "kind": "economy",
         "bias": [
-          0.2,
-          -0.2,
-          0.2,
-          -0.1,
-          0.0,
-          -0.5
-        ],
-        "asset": "augments/ARAM_PandorasBox.png",
-        "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Pandora%27s_Box_mayhem_augment.png?a6edd",
-        "sha256": "90141c6e952e29ec576aad7cc86744dd426d836d9a1a7034d657432d4b1f695a",
-        "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-        "pool": "KIWI",
-        "patch": "16.21",
-        "officialReference": true
-      },
-      {
-        "id": "ARAM_Goliath",
-        "clientId": 1041,
-        "name": "歌利亚巨人",
-        "rarity": "kPrismatic",
-        "effect": "获得额外生命值和自适应之力，并显著增大体型。",
-        "line": "你更像往前站的那个人，把自己变成队伍的移动掩体。",
-        "vector": [
-          45,
-          35,
-          85,
-          80,
-          50,
-          45
-        ],
-        "tags": [
-          "engage",
-          "team"
-        ],
-        "bias": [
-          -0.1,
-          -0.3,
-          0.7,
-          0.6,
-          0.0,
-          -0.1
-        ],
-        "asset": "augments/ARAM_Goliath.png",
-        "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Goliath_mayhem_augment.png?fe02e",
-        "sha256": "3aa0f71e764e90ccb1cca8c2b9646c3c024b7ca36c1ce97557ff2089feadfabe",
-        "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-        "pool": "KIWI",
-        "patch": "16.21",
-        "officialReference": true
-      },
-      {
-        "id": "ARAM_MagicMissile",
-        "clientId": 1133,
-        "name": "魔法飞弹",
-        "rarity": "kGold",
-        "effect": "技能命中敌方英雄后发射飞弹；飞弹造成基于目标生命值的真实伤害，距离会影响效果。",
-        "line": "你偏爱隔着半座桥把每一发技能送到，距离就是发挥空间。",
-        "vector": [
-          25,
-          55,
-          30,
-          50,
-          85,
-          65
-        ],
-        "tags": [
-          "range",
-          "spell"
-        ],
-        "bias": [
-          -0.5,
-          0.1,
-          -0.4,
-          0.0,
-          0.7,
-          0.3
-        ],
-        "asset": "augments/ARAM_MagicMissile.png",
-        "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Magic_Missile_mayhem_augment.png?b0bab",
-        "sha256": "ab82ab63409628e5ea6bae39297074973062e08a3433df5cce94921a781cdc06",
-        "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-        "pool": "KIWI",
-        "patch": "16.21",
-        "officialReference": true
-      },
-      {
-        "id": "ARAM_AllForYou",
-        "clientId": 1141,
-        "name": "全心为你",
-        "rarity": "kGold",
-        "effect": "提升你对友方英雄施加的治疗与护盾效果。",
-        "line": "比起独占镜头，你更在意让五个人一起走到下一波。",
-        "vector": [
-          15,
-          20,
-          35,
-          98,
-          65,
-          80
-        ],
-        "tags": [
-          "heal",
-          "protect"
-        ],
-        "bias": [
-          -0.7,
-          -0.6,
-          -0.3,
+          0.16,
           0.96,
           0.3,
-          0.6
+          -0.5,
+          0.3,
+          -0.5
         ],
-        "asset": "augments/ARAM_AllForYou.png",
-        "iconSource": "https://wiki.leagueoflegends.com/en-us/images/All_For_You_mayhem_augment.png?6679d",
-        "sha256": "6f78270cdc8baeb05e1a4d10ea6ffcc92560ba46b9710d7493c25d80c6538549",
-        "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-        "pool": "KIWI",
-        "patch": "16.21",
-        "officialReference": true
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
       },
       {
-        "id": "ARAM_FirstAidKit",
-        "clientId": 1037,
-        "name": "急救用具",
-        "rarity": "kSilver",
-        "effect": "获得治疗与护盾强度加成。",
-        "line": "你会先看谁需要被接住，桥头医务室已经为队友开门。",
+        "id": "basic-duty",
+        "name": "回归基本功",
+        "icon": 2,
+        "category": "操作",
+        "rarity": "kPrismatic",
+        "effect": "你的 R 键进入年假。\n每次阵亡，复盘时长翻倍。",
+        "punchline": "技能少了一个，解释多了八百字。",
+        "line": "技能少了一个，解释多了八百字。",
         "vector": [
-          20,
           25,
-          25,
-          90,
-          60,
+          40,
+          35,
+          50,
+          95,
           80
         ],
-        "tags": [
-          "heal"
+        "behaviorWeights": {
+          "mechanics": 5,
+          "explain": 3,
+          "plan": 1
+        },
+        "affinities": [
+          "dasima",
+          "knight",
+          "faker"
         ],
+        "kind": "basic",
         "bias": [
-          -0.6,
           -0.5,
-          -0.5,
-          0.8,
-          0.2,
+          -0.2,
+          -0.3,
+          0.0,
+          0.9,
           0.6
         ],
-        "asset": "augments/ARAM_FirstAidKit.png",
-        "iconSource": "https://wiki.leagueoflegends.com/en-us/images/First-Aid_Kit_mayhem_augment.png?680f2",
-        "sha256": "e3e4c49adf4b1ab0d5c8f10200af3da50742170d6ad979f915a43f6f458b8b00",
-        "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-        "pool": "KIWI",
-        "patch": "16.21",
-        "officialReference": true
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
       },
       {
-        "id": "ARAM_JeweledGauntlet",
-        "clientId": 1048,
-        "name": "珠光护手",
-        "rarity": "kPrismatic",
-        "effect": "技能可以产生暴击，并获得暴击几率加成。",
-        "line": "你相信准确落下的技能值得一个更响亮的结算。",
+        "id": "square-lecture",
+        "name": "正方形讲解",
+        "icon": 4,
+        "category": "嘴硬",
+        "rarity": "kGold",
+        "effect": "把打野路线画成正方形。\n每绕一圈，获得一次“我有说法”。",
+        "punchline": "先别急，等我把第四条边讲完。",
+        "line": "先别急，等我把第四条边讲完。",
         "vector": [
-          55,
-          70,
-          65,
-          40,
-          95,
-          40
-        ],
-        "tags": [
-          "mechanics",
-          "spell"
-        ],
-        "bias": [
-          0.1,
-          0.4,
-          0.3,
-          -0.2,
-          0.9,
-          -0.2
-        ],
-        "asset": "augments/ARAM_JeweledGauntlet.png",
-        "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Jeweled_Gauntlet_mayhem_augment.png?65116",
-        "sha256": "4d667638975af1305bb08a4db7768b88bc5337abc9782cd660dedd24d6acd480",
-        "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-        "pool": "KIWI",
-        "patch": "16.21",
-        "officialReference": true
-      },
-      {
-        "id": "ARAM_ScopedWeapons",
-        "clientId": 1170,
-        "name": "万用瞄准镜",
-        "rarity": "kSilver",
-        "effect": "增加普通攻击射程，近战与远程英雄的收益不同。",
-        "line": "你会先找安全位置，再把稳定输出打成自己的名场面。",
-        "vector": [
-          15,
-          55,
-          20,
-          50,
-          80,
-          75
-        ],
-        "tags": [
-          "range",
-          "retreat"
-        ],
-        "bias": [
-          -0.7,
-          0.1,
-          -0.6,
-          0.0,
-          0.6,
-          0.5
-        ],
-        "asset": "augments/ARAM_ScopedWeapons.png",
-        "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Scoped_Weapons_mayhem_augment.png?6ffad",
-        "sha256": "be29dbbe6227eedb931553e2bec425d53e2f60bfc93936dc9cce39c89981c550",
-        "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-        "pool": "KIWI",
-        "patch": "16.21",
-        "officialReference": true
-      },
-      {
-        "id": "ARAM_StackosaurusRex",
-        "clientId": 1204,
-        "name": "叠角龙",
-        "rarity": "kSilver",
-        "effect": "增加从技能获取的永久层数。",
-        "line": "你愿意等成长兑现，层数像存款一样一笔笔积累。",
-        "vector": [
-          15,
-          90,
-          25,
+          35,
           45,
+          25,
+          50,
           55,
           98
         ],
-        "tags": [
-          "stack",
-          "plan"
+        "behaviorWeights": {
+          "explain": 5,
+          "plan": 3,
+          "retreat": 1
+        },
+        "affinities": [
+          "dasima",
+          "clearlove"
         ],
+        "kind": "plan",
         "bias": [
-          -0.7,
-          0.8,
-          -0.5,
+          -0.3,
           -0.1,
+          -0.5,
+          0.0,
           0.1,
           0.96
         ],
-        "asset": "augments/ARAM_StackosaurusRex.png",
-        "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Stackosaurus_Rex_mayhem_augment.png?9018e",
-        "sha256": "eed67b9bc392eeee8d450a7c25c9cc179ff16a8f4f062e589e9ab534f17c0bed",
-        "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-        "pool": "KIWI",
-        "patch": "16.21",
-        "officialReference": true
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
       },
       {
-        "id": "ARAM_UltimateRevolution",
-        "clientId": 1088,
-        "name": "终极刷新",
+        "id": "fountain-owner",
+        "name": "泉水股东",
+        "icon": 7,
+        "category": "摆烂",
         "rarity": "kPrismatic",
-        "effect": "施放大招后可触发一次大招冷却重置；该效果自身有冷却。",
-        "line": "你希望关键镜头再来一遍，第二次按下大招才是高潮。",
+        "effect": "挂机期间，泉水算你的房产。\n队友每次路过都得听你点评。",
+        "punchline": "人没出泉水，已经指挥了三个战区。",
+        "line": "人没出泉水，已经指挥了三个战区。",
         "vector": [
-          60,
-          50,
-          80,
-          60,
-          85,
-          40
-        ],
-        "tags": [
-          "ultimate"
-        ],
-        "bias": [
-          0.2,
-          0.0,
-          0.6,
-          0.2,
-          0.7,
-          -0.2
-        ],
-        "asset": "augments/ARAM_UltimateRevolution.png",
-        "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Ultimate_Revolution_mayhem_augment.png?3f1b2",
-        "sha256": "5701f80880766b1d8568f6c7ae31c79fdefb65803f9e4eb93ebb70bfa7d2430b",
-        "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-        "pool": "KIWI",
-        "patch": "16.21",
-        "officialReference": true
-      },
-      {
-        "id": "ARAM_IceCold",
-        "clientId": 1044,
-        "name": "冰寒",
-        "rarity": "kSilver",
-        "effect": "你的减速效果会额外降低目标的移动速度。",
-        "line": "你习惯先让场面慢下来，再替队伍把节奏接好。",
-        "vector": [
+          75,
+          25,
+          5,
+          5,
           20,
-          35,
-          40,
-          80,
-          75,
-          90
+          15
         ],
-        "tags": [
-          "control",
-          "plan"
+        "behaviorWeights": {
+          "afk": 5,
+          "retreat": 1,
+          "blame": 1
+        },
+        "affinities": [
+          "pdd",
+          "dasima"
         ],
+        "kind": "retreat",
         "bias": [
-          -0.6,
-          -0.3,
-          -0.2,
-          0.6,
           0.5,
-          0.8
+          -0.5,
+          -0.9,
+          -0.9,
+          -0.6,
+          -0.7
         ],
-        "asset": "augments/ARAM_IceCold.png",
-        "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Ice_Cold_mayhem_augment.png?65116",
-        "sha256": "b74551b3b0a82bf8b017440618733f00858d6e1c69f9edd250876f41a775f37d",
-        "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-        "pool": "KIWI",
-        "patch": "16.21",
-        "officialReference": true
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": [
+          "afk"
+        ]
       },
       {
-        "id": "EscapePlan",
-        "clientId": 1333,
-        "name": "逃跑计划",
-        "rarity": "kSilver",
-        "effect": "生命值较低时提供会衰减的护盾与移速，并缩小体型；效果有冷却。",
-        "line": "你总留着离场按钮，活到下一幕也能写出新结局。",
-        "vector": [
-          35,
-          30,
-          10,
-          35,
-          50,
-          55
-        ],
-        "tags": [
-          "retreat",
-          "reset"
-        ],
-        "bias": [
-          -0.3,
-          -0.4,
-          -0.8,
-          -0.3,
-          0.0,
-          0.1
-        ],
-        "asset": "augments/EscapePlan.png",
-        "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Escape_Plan_mayhem_augment.png?eda3c",
-        "sha256": "d8b45646ce6a9e78a69b1af09f62cc8b028bbcef1e8df9fbf418982e4979676d",
-        "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-        "pool": "KIWI",
-        "patch": "16.21",
-        "officialReference": true
-      },
-      {
-        "id": "KingMe",
-        "clientId": 1337,
-        "name": "尊我为王",
+        "id": "feeding-license",
+        "name": "开送驾驶证",
+        "icon": 8,
+        "category": "上头",
         "rarity": "kPrismatic",
-        "effect": "首次进入敌方基地附近的传送入口或发射装置，可获得随机棱彩强化并升级一件装备。",
-        "line": "对方家门在你眼里像领奖入口，越离谱的路线越想试。",
+        "effect": "闪现自动规划最短送达路线。\n复活后可无缝续订下一单。",
+        "punchline": "对面全是五星好评，队友正在申请退款。",
+        "line": "对面全是五星好评，队友正在申请退款。",
         "vector": [
-          75,
-          55,
           98,
+          20,
+          100,
+          8,
+          35,
+          5
+        ],
+        "behaviorWeights": {
+          "int": 5,
+          "chaos": 1
+        },
+        "affinities": [
+          "ning",
+          "jackeylove",
+          "theshy"
+        ],
+        "kind": "chaos",
+        "bias": [
+          0.96,
+          -0.6,
+          1.0,
+          -0.84,
+          -0.3,
+          -0.9
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
+      },
+      {
+        "id": "all-aboard",
+        "name": "全队上车",
+        "icon": 13,
+        "category": "开团",
+        "rarity": "kGold",
+        "effect": "你的雪球新增四个乘客座位。\n按下第二段时，车门自动焊死。",
+        "punchline": "来不来另说，反正倒数已经开始。",
+        "line": "来不来另说，反正倒数已经开始。",
+        "vector": [
+          60,
+          35,
+          95,
+          90,
+          55,
+          35
+        ],
+        "behaviorWeights": {
+          "engage": 5,
+          "protect": 1,
+          "control": 1
+        },
+        "affinities": [
+          "ming",
+          "doinb",
+          "ning"
+        ],
+        "kind": "engage",
+        "bias": [
+          0.2,
+          -0.3,
+          0.9,
+          0.8,
+          0.1,
+          -0.3
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
+      },
+      {
+        "id": "where-team",
+        "name": "队友呢？",
+        "icon": 3,
+        "category": "上头",
+        "rarity": "kGold",
+        "effect": "突进后暂时关闭小地图。\n阵亡回放时，自动恢复视野。",
+        "punchline": "刚才说跟我，现在怎么只有我？",
+        "line": "刚才说跟我，现在怎么只有我？",
+        "vector": [
+          80,
           45,
+          96,
+          12,
+          65,
+          15
+        ],
+        "behaviorWeights": {
+          "int": 4,
+          "engage": 3,
+          "blame": 2
+        },
+        "affinities": [
+          "jackeylove",
+          "theshy"
+        ],
+        "kind": "chaos",
+        "bias": [
+          0.6,
+          -0.1,
+          0.92,
+          -0.76,
+          0.3,
+          -0.7
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
+      },
+      {
+        "id": "spring-heater",
+        "name": "春季恒温器",
+        "icon": 9,
+        "category": "运营",
+        "rarity": "kPrismatic",
+        "effect": "把日历的十二个月改成春天。\n逆风时，可申请一次室温复核。",
+        "punchline": "不是只会打春天，是我负责定义春天。",
+        "line": "不是只会打春天，是我负责定义春天。",
+        "vector": [
+          25,
+          50,
+          40,
+          70,
+          65,
+          95
+        ],
+        "behaviorWeights": {
+          "plan": 5,
+          "control": 3,
+          "stack": 1
+        },
+        "affinities": [
+          "xiaohu"
+        ],
+        "kind": "plan",
+        "bias": [
+          -0.5,
+          0.0,
+          -0.2,
+          0.4,
+          0.3,
+          0.9
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
+      },
+      {
+        "id": "four-stay-alive",
+        "name": "你们四个别死",
+        "icon": 10,
+        "category": "队友",
+        "rarity": "kPrismatic",
+        "effect": "当队友集体上头时，\n你自动获得四个血压监测窗口。",
+        "punchline": "这队可以没脑子，不能没有售后。",
+        "line": "这队可以没脑子，不能没有售后。",
+        "vector": [
+          15,
+          20,
+          50,
+          100,
+          55,
+          75
+        ],
+        "behaviorWeights": {
+          "protect": 5,
+          "heal": 3,
+          "control": 1
+        },
+        "affinities": [
+          "letme",
+          "meiko",
+          "ming"
+        ],
+        "kind": "protect",
+        "bias": [
+          -0.7,
+          -0.6,
+          0.0,
+          1.0,
+          0.1,
+          0.5
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
+      },
+      {
+        "id": "economy-brain",
+        "name": "经济头脑",
+        "icon": 5,
+        "category": "经济",
+        "rarity": "kGold",
+        "effect": "每漏一个兵，\n脑内自动播放余额不足提示音。",
+        "punchline": "团可以等，炮车不能等。",
+        "line": "团可以等，炮车不能等。",
+        "vector": [
+          25,
+          98,
+          25,
+          35,
+          55,
+          85
+        ],
+        "behaviorWeights": {
+          "gold": 5,
+          "stack": 3,
+          "collector": 1
+        },
+        "affinities": [
+          "uzi",
+          "clearlove"
+        ],
+        "kind": "economy",
+        "bias": [
+          -0.5,
+          0.96,
+          -0.5,
+          -0.3,
+          0.1,
+          0.7
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
+      },
+      {
+        "id": "borrowed-growth",
+        "name": "贷款式发育",
+        "icon": 5,
+        "category": "经济",
+        "rarity": "kPrismatic",
+        "effect": "立即购买下一件梦想装备。\n利息从队友的精神状态里扣。",
+        "punchline": "别问经济哪来的，先把高光录下来。",
+        "line": "别问经济哪来的，先把高光录下来。",
+        "vector": [
+          65,
+          98,
+          75,
+          15,
           65,
           20
         ],
-        "tags": [
-          "engage",
-          "chaos"
+        "behaviorWeights": {
+          "collector": 4,
+          "gold": 3,
+          "chaos": 1
+        },
+        "affinities": [
+          "uzi",
+          "pdd"
         ],
+        "kind": "economy",
         "bias": [
-          0.5,
-          0.1,
+          0.3,
           0.96,
-          -0.1,
+          0.5,
+          -0.7,
           0.3,
           -0.6
         ],
-        "asset": "augments/KingMe.png",
-        "iconSource": "https://wiki.leagueoflegends.com/en-us/images/King_Me_mayhem_augment.png?cbebc",
-        "sha256": "2f8442055b45f7f8d64c25dfd8244ce45ce9eb84785de32e3f30849656b4da09",
-        "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-        "pool": "KIWI",
-        "patch": "16.21",
-        "officialReference": true
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
       },
       {
-        "id": "Goldrend",
-        "clientId": 1335,
-        "name": "夺金",
+        "id": "blame-master",
+        "name": "甩锅宗师",
+        "icon": 6,
+        "category": "嘴硬",
         "rarity": "kPrismatic",
-        "effect": "攻击或技能伤害敌方英雄可触发额外伤害，并给予金币与移速；有触发冷却。",
-        "line": "你会把每次试探都变成收入，金币到账的声音最好听。",
+        "effect": "阵亡后生成一口可转移的锅。\n连续说三次“不是我的”，锅会镀金。",
+        "punchline": "伤害排名第五，责任归属第一。",
+        "line": "伤害排名第五，责任归属第一。",
+        "vector": [
+          85,
+          35,
+          35,
+          3,
+          30,
+          20
+        ],
+        "behaviorWeights": {
+          "blame": 5,
+          "explain": 2,
+          "afk": 1
+        },
+        "affinities": [
+          "pdd",
+          "dasima"
+        ],
+        "kind": "blame",
+        "bias": [
+          0.7,
+          -0.3,
+          -0.3,
+          -0.94,
+          -0.4,
+          -0.6
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": [
+          "blame"
+        ]
+      },
+      {
+        "id": "not-a-loss",
+        "name": "这波不亏",
+        "icon": 4,
+        "category": "嘴硬",
+        "rarity": "kGold",
+        "effect": "每次阵亡，自动生成一份收益报告。\n亏得越多，PPT 页数越多。",
+        "punchline": "人头可以掉，逻辑闭环不能掉。",
+        "line": "人头可以掉，逻辑闭环不能掉。",
+        "vector": [
+          50,
+          55,
+          35,
+          40,
+          45,
+          90
+        ],
+        "behaviorWeights": {
+          "explain": 5,
+          "plan": 1,
+          "reset": 1
+        },
+        "affinities": [
+          "dasima"
+        ],
+        "kind": "plan",
+        "bias": [
+          0.0,
+          0.1,
+          -0.3,
+          -0.2,
+          -0.1,
+          0.8
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
+      },
+      {
+        "id": "life-reroll",
+        "name": "人生重开器",
+        "icon": 14,
+        "category": "随机",
+        "rarity": "kPrismatic",
+        "effect": "对当前人生点击一次刷新。\n保留战绩，重新抽取嘴硬理由。",
+        "punchline": "旧的我已经下班，这锅找新的我。",
+        "line": "旧的我已经下班，这锅找新的我。",
+        "vector": [
+          55,
+          40,
+          60,
+          35,
+          45,
+          15
+        ],
+        "behaviorWeights": {
+          "reset": 5,
+          "chaos": 2,
+          "blame": 1
+        },
+        "affinities": [
+          "pdd",
+          "doinb"
+        ],
+        "kind": "reset",
+        "bias": [
+          0.1,
+          -0.2,
+          0.2,
+          -0.3,
+          -0.1,
+          -0.7
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
+      },
+      {
+        "id": "clown-self",
+        "name": "小丑竟是我",
+        "icon": 15,
+        "category": "抽象",
+        "rarity": "kPrismatic",
+        "effect": "进场前播放主角音乐。\n阵亡后，音乐自动改成马戏团。",
+        "punchline": "本想剪燃向混剪，最后成了鬼畜素材。",
+        "line": "本想剪燃向混剪，最后成了鬼畜素材。",
+        "vector": [
+          85,
+          35,
+          85,
+          20,
+          55,
+          15
+        ],
+        "behaviorWeights": {
+          "chaos": 5,
+          "int": 2,
+          "reset": 1
+        },
+        "affinities": [
+          "pdd",
+          "ning"
+        ],
+        "kind": "chaos",
+        "bias": [
+          0.7,
+          -0.3,
+          0.7,
+          -0.6,
+          0.1,
+          -0.7
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
+      },
+      {
+        "id": "fountain-range",
+        "name": "泉水射程",
+        "icon": 12,
+        "category": "拉扯",
+        "rarity": "kGold",
+        "effect": "把攻击距离延长到安全感以外。\n每后退一步，获得一句“我在输出”。",
+        "punchline": "输出先别急，先保证没人碰到我。",
+        "line": "输出先别急，先保证没人碰到我。",
+        "vector": [
+          15,
+          50,
+          5,
+          35,
+          85,
+          75
+        ],
+        "behaviorWeights": {
+          "poke": 5,
+          "retreat": 3,
+          "mechanics": 1
+        },
+        "affinities": [
+          "uzi",
+          "knight"
+        ],
+        "kind": "range",
+        "bias": [
+          -0.7,
+          0.0,
+          -0.9,
+          -0.3,
+          0.7,
+          0.5
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
+      },
+      {
+        "id": "ultimate-installment",
+        "name": "大招分期付款",
+        "icon": 2,
+        "category": "操作",
+        "rarity": "kPrismatic",
+        "effect": "今天先交第一个 R。\n第二个 R 从下一局预支。",
+        "punchline": "大招可以分期，镜头必须全款。",
+        "line": "大招可以分期，镜头必须全款。",
+        "vector": [
+          55,
+          45,
+          75,
+          55,
+          85,
+          35
+        ],
+        "behaviorWeights": {
+          "ult": 5,
+          "mechanics": 1,
+          "engage": 1
+        },
+        "affinities": [
+          "xiaohu",
+          "faker"
+        ],
+        "kind": "basic",
+        "bias": [
+          0.1,
+          -0.1,
+          0.5,
+          0.1,
+          0.7,
+          -0.3
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
+      },
+      {
+        "id": "cosmic-pension",
+        "name": "宇宙养老保险",
+        "icon": 5,
+        "category": "发育",
+        "rarity": "kGold",
+        "effect": "叠一层，存一笔养老金。\n直到基地爆炸，都在等待强势期。",
+        "punchline": "别催，恐龙退休以后轮到我发力。",
+        "line": "别催，恐龙退休以后轮到我发力。",
+        "vector": [
+          10,
+          85,
+          15,
+          35,
+          45,
+          100
+        ],
+        "behaviorWeights": {
+          "stack": 5,
+          "gold": 2,
+          "plan": 1
+        },
+        "affinities": [
+          "clearlove",
+          "knight"
+        ],
+        "kind": "economy",
+        "bias": [
+          -0.8,
+          0.7,
+          -0.7,
+          -0.3,
+          -0.1,
+          1.0
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
+      },
+      {
+        "id": "bridge-clinic",
+        "name": "桥头医务室",
+        "icon": 10,
+        "category": "治疗",
+        "rarity": "kPrismatic",
+        "effect": "队友喊一次“奶我”，挂号一次。\n喊得太响，自动转精神科。",
+        "punchline": "奶量有限，求生欲请自行充值。",
+        "line": "奶量有限，求生欲请自行充值。",
+        "vector": [
+          5,
+          15,
+          20,
+          100,
+          65,
+          80
+        ],
+        "behaviorWeights": {
+          "heal": 5,
+          "protect": 2
+        },
+        "affinities": [
+          "meiko",
+          "baolan"
+        ],
+        "kind": "protect",
+        "bias": [
+          -0.9,
+          -0.7,
+          -0.6,
+          1.0,
+          0.3,
+          0.6
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
+      },
+      {
+        "id": "last-last-game",
+        "name": "真·最后一把",
+        "icon": 14,
+        "category": "续杯",
+        "rarity": "kGold",
+        "effect": "每说一次“最后一把”，\n自动新增一个平行宇宙。",
+        "punchline": "不是不睡，是这个宇宙还没赢过。",
+        "line": "不是不睡，是这个宇宙还没赢过。",
+        "vector": [
+          60,
+          40,
+          65,
+          65,
+          40,
+          20
+        ],
+        "behaviorWeights": {
+          "reset": 5,
+          "chaos": 1,
+          "protect": 1
+        },
+        "affinities": [
+          "doinb",
+          "pdd"
+        ],
+        "kind": "reset",
+        "bias": [
+          0.2,
+          -0.2,
+          0.3,
+          0.3,
+          -0.2,
+          -0.6
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
+      },
+      {
+        "id": "revive-cinema",
+        "name": "复活电影院",
+        "icon": 7,
+        "category": "观战",
+        "rarity": "kSilver",
+        "effect": "灰屏时解锁全队第一视角。\n观影结束可发表一条高质量弹幕。",
+        "punchline": "操作没看到，问题已经看明白了。",
+        "line": "操作没看到，问题已经看明白了。",
+        "vector": [
+          50,
+          20,
+          5,
+          20,
+          35,
+          50
+        ],
+        "behaviorWeights": {
+          "afk": 4,
+          "blame": 2,
+          "explain": 2,
+          "retreat": 1
+        },
+        "affinities": [
+          "dasima",
+          "pdd"
+        ],
+        "kind": "retreat",
+        "bias": [
+          0.0,
+          -0.6,
+          -0.9,
+          -0.6,
+          -0.3,
+          0.0
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": [
+          "afk"
+        ]
+      },
+      {
+        "id": "champion-script",
+        "name": "冠军剧本",
+        "icon": 11,
+        "category": "名场面",
+        "rarity": "kPrismatic",
+        "effect": "把“当年要是”兑换成一次决胜局。\n这一回，金色的雨由你签收。",
+        "punchline": "历史可以架空，走位必须自己走。",
+        "line": "历史可以架空，走位必须自己走。",
         "vector": [
           35,
-          95,
-          45,
-          35,
-          60,
+          65,
+          70,
+          65,
+          100,
           65
         ],
-        "tags": [
-          "gold"
+        "behaviorWeights": {
+          "mechanics": 5,
+          "ult": 2,
+          "plan": 1
+        },
+        "affinities": [
+          "uzi",
+          "faker"
         ],
+        "kind": "basic",
         "bias": [
           -0.3,
-          0.9,
-          -0.1,
-          -0.3,
-          0.2,
+          0.3,
+          0.4,
+          0.3,
+          1.0,
           0.3
         ],
-        "asset": "augments/Goldrend.png",
-        "iconSource": "https://wiki.leagueoflegends.com/en-us/images/Goldrend_mayhem_augment.png?56732",
-        "sha256": "a84ddccef0c4cd3197ec479d4dc6fa4e5976ad157311101ebe77f68c55ae5d0e",
-        "sourcePage": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-        "pool": "KIWI",
-        "patch": "16.21",
-        "officialReference": true
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
+      },
+      {
+        "id": "snowball-hearse",
+        "name": "雪球灵车",
+        "icon": 13,
+        "category": "开团",
+        "rarity": "kPrismatic",
+        "effect": "雪球命中后，导航直达对面泉水。\n乘客可在复活后补交车费。",
+        "punchline": "上车前是五排，上车后是五个省略号。",
+        "line": "上车前是五排，上车后是五个省略号。",
+        "vector": [
+          85,
+          30,
+          100,
+          30,
+          45,
+          5
+        ],
+        "behaviorWeights": {
+          "int": 4,
+          "engage": 3,
+          "chaos": 2
+        },
+        "affinities": [
+          "ning",
+          "jackeylove"
+        ],
+        "kind": "chaos",
+        "bias": [
+          0.7,
+          -0.4,
+          1.0,
+          -0.4,
+          -0.1,
+          -0.9
+        ],
+        "fanMade": true,
+        "creation": "本作原创恶搞文案与图标，借鉴网友 DIY 天赋卡的表现方式",
+        "requires": []
+      },
+      {
+        "id": "good-enough",
+        "name": "得过且过",
+        "icon": 7,
+        "category": "摆烂",
+        "rarity": "kSilver",
+        "effect": "进入本局省电模式。\n队友问你在哪，自动回复“在混了”。",
+        "punchline": "不当最亮的星，先当最稳的在线状态。",
+        "line": "不当最亮的星，先当最稳的在线状态。",
+        "vector": [
+          30,
+          35,
+          5,
+          25,
+          30,
+          55
+        ],
+        "behaviorWeights": {
+          "afk": 3,
+          "retreat": 5,
+          "reset": 1
+        },
+        "affinities": [
+          "pdd",
+          "baolan"
+        ],
+        "kind": "retreat",
+        "bias": [
+          -0.4,
+          -0.3,
+          -0.9,
+          -0.5,
+          -0.4,
+          0.1
+        ],
+        "fanMade": true,
+        "requires": [],
+        "creation": "参考已查看网络 DIY 卡“得过且过”的命名方向，效果与图标由本作重新创作",
+        "referenceTitle": "金铲铲之战：网友 DIY 彩色海克斯，打破玩家认知！",
+        "sourcePage": "https://mmbiz.qpic.cn/mmbiz_jpg/eutmxn8eXtLC9Sob7XUfyQj85zBiaBv4wTEXrNogU7ibWVsqjrlu1IxZRicTib7buYjwibhWfXu5h3ENTG8wiczthZ5w/0?wx_fmt=jpeg"
       }
     ],
     "basket": [
@@ -10402,7 +12316,13 @@
           0,
           1
         ],
-        "accessory": "情绪护膝"
+        "accessory": "情绪护膝",
+        "fanMade": true,
+        "icon": 11,
+        "category": "主题整活",
+        "effect": "裁判名场面担当，开麦和出手都敢接。",
+        "punchline": "裁判名场面担当，开麦和出手都敢接。",
+        "creation": "本作原创恶搞补给"
       },
       {
         "id": "logo",
@@ -10416,7 +12336,13 @@
           0,
           0.5
         ],
-        "accessory": "超远护目镜"
+        "accessory": "超远护目镜",
+        "fanMade": true,
+        "icon": 12,
+        "category": "主题整活",
+        "effect": "射程之外，先给想象力留个位。",
+        "punchline": "射程之外，先给想象力留个位。",
+        "creation": "本作原创恶搞补给"
       },
       {
         "id": "board",
@@ -10430,7 +12356,13 @@
           1,
           -0.2
         ],
-        "accessory": "吸尘背包"
+        "accessory": "吸尘背包",
+        "fanMade": true,
+        "icon": 5,
+        "category": "主题整活",
+        "effect": "不抢话筒，先把落点照顾明白。",
+        "punchline": "不抢话筒，先把落点照顾明白。",
+        "creation": "本作原创恶搞补给"
       },
       {
         "id": "coffee",
@@ -10444,7 +12376,13 @@
           0.8,
           0
         ],
-        "accessory": "咖啡能量罐"
+        "accessory": "咖啡能量罐",
+        "fanMade": true,
+        "icon": 6,
+        "category": "主题整活",
+        "effect": "冷静与果断，这杯都加满。",
+        "punchline": "冷静与果断，这杯都加满。",
+        "creation": "本作原创恶搞补给"
       },
       {
         "id": "meme",
@@ -10458,7 +12396,13 @@
           0,
           1
         ],
-        "accessory": "评分手牌"
+        "accessory": "评分手牌",
+        "fanMade": true,
+        "icon": 10,
+        "category": "主题整活",
+        "effect": "比赛可以有输赢，节目不能没效果。",
+        "punchline": "比赛可以有输赢，节目不能没效果。",
+        "creation": "本作原创恶搞补给"
       },
       {
         "id": "team",
@@ -10472,7 +12416,13 @@
           0.3,
           0
         ],
-        "accessory": "团队臂章"
+        "accessory": "团队臂章",
+        "fanMade": true,
+        "icon": 15,
+        "category": "主题整活",
+        "effect": "把五个人变成愿意一起跑的一队。",
+        "punchline": "把五个人变成愿意一起跑的一队。",
+        "creation": "本作原创恶搞补给"
       }
     ],
     "abstract": [
@@ -10488,7 +12438,13 @@
           0,
           0.4
         ],
-        "accessory": "果汁背包"
+        "accessory": "果汁背包",
+        "fanMade": true,
+        "icon": 11,
+        "category": "主题整活",
+        "effect": "现场温度与节目能量，一次补齐。",
+        "punchline": "现场温度与节目能量，一次补齐。",
+        "creation": "本作原创恶搞补给"
       },
       {
         "id": "commentator",
@@ -10502,7 +12458,13 @@
           1,
           0.9
         ],
-        "accessory": "复盘眼镜"
+        "accessory": "复盘眼镜",
+        "fanMade": true,
+        "icon": 12,
+        "category": "主题整活",
+        "effect": "离谱之前，先把自己的逻辑讲完整。",
+        "punchline": "离谱之前，先把自己的逻辑讲完整。",
+        "creation": "本作原创恶搞补给"
       },
       {
         "id": "portal",
@@ -10516,7 +12478,13 @@
           -0.2,
           0.4
         ],
-        "accessory": "传送门耳饰"
+        "accessory": "传送门耳饰",
+        "fanMade": true,
+        "icon": 5,
+        "category": "主题整活",
+        "effect": "选一条没人替你试过的路线。",
+        "punchline": "选一条没人替你试过的路线。",
+        "creation": "本作原创恶搞补给"
       },
       {
         "id": "sofa",
@@ -10530,7 +12498,13 @@
           0.5,
           -0.2
         ],
-        "accessory": "舒适靠垫"
+        "accessory": "舒适靠垫",
+        "fanMade": true,
+        "icon": 6,
+        "category": "主题整活",
+        "effect": "稳住场面与队友，暂缓无效冲刺。",
+        "punchline": "稳住场面与队友，暂缓无效冲刺。",
+        "creation": "本作原创恶搞补给"
       },
       {
         "id": "micro",
@@ -10544,7 +12518,13 @@
           0,
           1
         ],
-        "accessory": "超大话筒"
+        "accessory": "超大话筒",
+        "fanMade": true,
+        "icon": 10,
+        "category": "主题整活",
+        "effect": "这场可以冷，但不能在你这里冷。",
+        "punchline": "这场可以冷，但不能在你这里冷。",
+        "creation": "本作原创恶搞补给"
       },
       {
         "id": "clipboard",
@@ -10558,7 +12538,13 @@
           1,
           0.3
         ],
-        "accessory": "计划板"
+        "accessory": "计划板",
+        "fanMade": true,
+        "icon": 15,
+        "category": "主题整活",
+        "effect": "抽象有很多种，今天选有章法这一种。",
+        "punchline": "抽象有很多种，今天选有章法这一种。",
+        "creation": "本作原创恶搞补给"
       }
     ]
   },
@@ -10736,7 +12722,7 @@
       "id": "hex",
       "name": "海克斯大乱斗",
       "line": "随机天赋、桥上开团与离谱联动",
-      "count": 48
+      "count": 64
     },
     {
       "id": "rift",
@@ -10772,12 +12758,35 @@
     }
   ],
   "augmentData": {
-    "patch": "16.21",
+    "edition": "网友脑洞风 · 本作自制",
     "checkedAt": "2026-10-23",
-    "clientVersion": "16.21.8298620",
-    "clientSource": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/zh_cn/v1/cherry-augments.json",
-    "poolSource": "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/zh_cn/v1/augment-lists.json",
-    "effectSource": "https://wiki.leagueoflegends.com/en-us/ARAM:_Mayhem/Augments",
-    "note": "名称、稀有度与图标取自16.21端游KIWI池；效果为Wiki机制简述，省略易变数值。人格解读为本作原创，不代表实战英雄强度推荐。"
+    "note": "卡名、效果和配图是本作娱乐设定，不是官方游戏强化。参考用户提供的回归基本功恶搞卡及网络 DIY 海克斯合集的卡片表达方式。没有把未读到的网传文案声称为原作。"
+  },
+  "counts": {
+    "questions": 172,
+    "lolQuestions": 100,
+    "lolChapters": 25,
+    "people": 42,
+    "parodyCards": 25
+  },
+  "behaviorLabels": {
+    "afk": "泉水远程办公",
+    "int": "直线送达",
+    "collector": "第五位股东",
+    "protect": "队友保命优先",
+    "plan": "先把局讲明白",
+    "mechanics": "操作必须拉满",
+    "engage": "开团先上车",
+    "chaos": "节目效果优先",
+    "poke": "安全距离营业",
+    "stack": "宇宙复利",
+    "heal": "桥头医务室",
+    "reset": "人生允许重抽",
+    "ult": "大招就要连播",
+    "gold": "金币不能漏",
+    "control": "先控住局面",
+    "retreat": "先留一条退路",
+    "explain": "复盘比复活快",
+    "blame": "锅先找到下家"
   }
 }

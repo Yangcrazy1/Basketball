@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-23",
+  "approach": "借鉴网友 DIY 海克斯的卡片格式、反常规则、严肃用语与结尾反转；用英雄联盟对局语境重新创作，非官方数据复刻。",
+  "references": [
+    {
+      "name": "用户提供的“回归基本功”恶搞卡",
+      "status": "聊天图片已查看",
+      "observation": "棱彩边框、中心图标、大字卡名、短效果文案，内容为反常限制或代价。",
+      "adaptation": "本作保留标题与卡片句法，将效果改写为R键年假与复盘时长翻倍。"
+    },
+    {
+      "name": "金铲铲之战：网友DIY彩色海克斯，打破玩家认知！",
+      "searchPage": "https://www.sogou.com/web?query=网友DIY%20彩色海克斯%20搞笑",
+      "imageUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/eutmxn8eXtLC9Sob7XUfyQj85zBiaBv4wTEXrNogU7ibWVsqjrlu1IxZRicTib7buYjwibhWfXu5h3ENTG8wiczthZ5w/0?wx_fmt=jpeg",
+      "status": "搜索摘要与公开配图已查看；文章正文403，未继续访问或声称读过全文。",
+      "observation": "配图为“得过且过”：用严肃海克斯格式描述混日子的状态。",
+      "adaptation": "借鉴卡名方向，改写为本作的省电/在线状态段子，未复制原图或完整效果。"
+    }
+  ],
+  "runtimeArt": "16个由image_gen新生成的图标组成1张透明图集，供25张卡使用；没有打包官方游戏强化图标。",
+  "runtimeCopy": "25张卡均标为本作自制恶搞。源图版权不因AI创作自动消除，旧人物头像来源说明保留。"
+}

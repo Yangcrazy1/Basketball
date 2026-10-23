@@ -1,88 +1,93 @@
 from pathlib import Path
 from http.server import ThreadingHTTPServer,SimpleHTTPRequestHandler
 from functools import partial
-import threading,tempfile,json,hashlib,time,base64
+import threading,tempfile,json,hashlib,time
 from playwright.sync_api import sync_playwright
 from PIL import Image
-ROOT=Path(__file__).resolve().parents[1];HTML=(ROOT/'dist/world-another-me.html').read_bytes();OUT=ROOT/'dist/qa';OUT.mkdir(exist_ok=True);checks=[];errors=[];requests=[];started=time.time()
+ROOT=Path(__file__).resolve().parents[1];HTML=(ROOT/'dist/world-another-me.html').read_bytes();OUT=ROOT/'dist/qa';OUT.mkdir(exist_ok=True);checks=[];errors=[];requests=[];started=time.time();PREFIX='world-otherme.v7.'
 def passed(s):checks.append(s);print('PASS',s,flush=True)
-def overflow(page):assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),f'overflow {page.viewport_size}'
-def close(page):
- if page.locator('#dialog').is_visible():page.locator('#close-dialog').click()
-def home(page):close(page);page.locator('.brand').click()
-def session(page):return page.evaluate("JSON.parse(localStorage.getItem('world-otherme.v6.session'))")
-def choose(page,theme='lol',series='hex',count=8):
- home(page);page.locator(f'[data-action=theme][data-theme={theme}]').click()
- if theme=='lol':page.locator(f'[data-action=series][data-id={series}]').click()
- page.locator(f'[data-action=mode][data-count="{count}"]').click();page.locator('#app [data-action=start]').click()
-def finish(page,count,first=0):
- for i in range(first,count):
-  page.locator('.option').nth(i%4).click();page.locator('[data-action=next]').click()
- page.wait_for_selector('.identity-card');assert page.locator('.team-card').count()==5;assert page.locator('.team-card.is-you').count()==1
- ids=page.locator('.team-card').evaluate_all('(els)=>els.map(e=>e.dataset.person)');assert len(set(ids))==5
- data=page.evaluate('WORLD_DATA')
- for el in page.locator('.team-card').all():
-  p=next(p for p in data['characters'] if p['id']==el.get_attribute('data-person'));assert int(el.get_attribute('data-role')) in p['roles']
- assert page.locator('canvas').count()==0;assert page.locator('.hex-card').count()==1
- if page.evaluate("WORLD_DATA.characters.find(p=>p.id===document.querySelector('.is-you').dataset.person).theme")== 'lol':
-  assert page.locator('.hex-icon img').evaluate('(im)=>im.complete&&im.naturalWidth===256');assert '真实强化' in page.locator('.hex-card').inner_text()
+def overflow(p):assert p.evaluate('document.documentElement.scrollWidth<=innerWidth'),f'overflow at {p.viewport_size}'
+def close(p):
+ if p.locator('#dialog').is_visible():p.locator('#close-dialog').click()
+def home(p):close(p);p.locator('.brand').click()
+def stored(p):return p.evaluate("JSON.parse(localStorage.getItem('world-otherme.v7.session'))")
+def choose(p,theme='lol',series='hex',count=8):
+ home(p);p.locator(f'[data-action=theme][data-theme={theme}]').click()
+ if theme=='lol':p.locator(f'[data-action=series][data-id={series}]').click()
+ p.locator(f'[data-action=mode][data-count="{count}"]').click();p.locator('#app [data-action=start]').click()
+def verify_result(p):
+ p.wait_for_selector('.identity-card');assert p.locator('.team-card').count()==5;assert p.locator('.team-card.is-you').count()==1;assert p.locator('.hex-card.fan-made').count()==1;assert p.locator('canvas').count()==0
+ assert '本作自制' in p.locator('.hex-card').inner_text();assert p.locator('.hex-icon svg use').get_attribute('href')=='#perk-sheet'
+ data=p.evaluate('WORLD_DATA');ids=[]
+ for el in p.locator('.team-card').all():
+  char=next(c for c in data['characters'] if c['id']==el.get_attribute('data-person'));assert int(el.get_attribute('data-role')) in char['roles'];ids.append(char['personId']);assert el.locator('p').inner_text()
+ assert len(set(ids))==5
+ assert p.locator('.result-dock').is_visible()
+def finish(p,n,start=0,pref=None):
+ for i in range(start,n):
+  if pref:
+   oid=p.evaluate('''pref=>{const s=JSON.parse(localStorage.getItem('world-otherme.v7.session')),q=WORLD_DATA.questions.find(q=>q.id===s.deck[s.index].id);return pref.map(b=>q.options.find(o=>o.behavior===b)).find(Boolean)?.id??0;}''',pref);p.locator(f'.option[data-id="{oid}"]').click()
+  else:p.locator('.option').nth(i%4).click()
+  p.locator('[data-action=next]').click()
+ verify_result(p)
+def fixture(p,chapters):
+ home(p);p.evaluate('''chapters=>{let s=ShenrenEngine.draw(WORLD_DATA,'lol',8,null,undefined,'hex');s.deck=chapters.flatMap(c=>WORLD_DATA.questions.filter(q=>q.theme==='lol'&&q.series==='hex'&&q.chapter===c).sort((a,b)=>a.stage-b.stage)).map(q=>({id:q.id,order:ShenrenEngine.shuffle([0,1,2,3])}));s.answers=Array(8).fill(null);s.index=0;localStorage.setItem('world-otherme.v7.session',JSON.stringify(s));}''',chapters);p.reload();p.locator('[data-action=resume]').click()
 class Quiet(SimpleHTTPRequestHandler):
  def log_message(self,*a):pass
 with tempfile.TemporaryDirectory() as temp:
  Path(temp,'index.html').write_bytes(HTML);server=ThreadingHTTPServer(('127.0.0.1',0),partial(Quiet,directory=temp));threading.Thread(target=server.serve_forever,daemon=True).start();url=f'http://127.0.0.1:{server.server_port}/index.html'
- with sync_playwright() as p:
-  browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox']);ctx=browser.new_context(viewport={'width':390,'height':844},reduced_motion='reduce',accept_downloads=True);page=ctx.new_page();page.on('pageerror',lambda e:errors.append(str(e)));page.on('request',lambda r:requests.append(r.url) if not r.url.startswith(('http://127.0.0.1:','data:','blob:')) else None)
+ with sync_playwright() as pw:
+  browser=pw.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox']);ctx=browser.new_context(viewport={'width':390,'height':844},accept_downloads=True,reduced_motion='reduce');p=ctx.new_page();p.on('pageerror',lambda e:errors.append(str(e)));p.on('request',lambda r:requests.append(r.url) if not r.url.startswith(('http://127.0.0.1:','data:','blob:')) else None)
   try:
-   page.goto(url);page.wait_for_function("document.documentElement.dataset.appReady==='true'");assert page.title().startswith('世界上另一个我');assert page.locator('[data-action=series][data-id=hex]').get_attribute('aria-pressed')=='true';assert 'VOL.06' in page.locator('.edition').inner_text()
-   passed('V6 boots with League/Hex ARAM as default; all 3D UI and runtime are absent')
+   p.goto(url);p.wait_for_function("document.documentElement.dataset.appReady==='true'");assert p.evaluate('WORLD_DATA.version')==7;assert 'VOL.07' in p.locator('.edition').inner_text();assert p.locator('[data-action=series][data-id=hex]').get_attribute('aria-pressed')=='true';assert p.locator('#app [data-action=start]').bounding_box()['y']+p.locator('#app [data-action=start]').bounding_box()['height']<844
+   passed('V7 boots with Hex default and the main start button visible within a 390x844 first screen')
    for style in ['night','paper']:
-    if page.locator('html').get_attribute('data-style')!=style:page.locator('[data-action=palette]').click()
-    for width in [320,390,430,768,1440]:page.set_viewport_size({'width':width,'height':844});overflow(page)
-    page.set_viewport_size({'width':390,'height':844});page.screenshot(path=str(OUT/('v6-home-'+style+'.png')),full_page=True)
-   passed('both palettes fit 320/390/430/768/1440px without horizontal overflow')
-   assert page.evaluate('WORLD_ATLASES.length')==11;assert page.evaluate('Object.keys(WORLD_PORTRAITS).length')==43
-   dimensions=page.evaluate('''async()=>{let dims=[];for(const s of WORLD_ATLASES){let im=new Image();im.src=s.url;await im.decode();dims.push([im.width,im.height]);}return dims;}''');assert all(w==1254 and h==1254 for w,h in dimensions)
-   for t in ['lol','basket','abstract']:
-    page.locator(f'[data-action=theme][data-theme={t}]').click();page.locator('[data-action=gallery]').click();assert page.locator('.gallery [data-avatar]').count()==(14 if t=='abstract' else 15)
-    assert len(set(page.locator('.gallery [data-avatar]').evaluate_all('(els)=>els.map(e=>e.dataset.avatar)')))==(14 if t=='abstract' else 15);close(page)
-   page.locator('[data-action=theme][data-theme=lol]').click();page.locator('[data-action=gallery]').click();page.locator('[data-action=person][data-id=lol-dasima]').click();assert '公开参考重绘' in page.locator('.reference-box').inner_text();close(page);page.locator('[data-action=gallery]').click();page.locator('[data-action=person][data-id=lol-meiko]').click();assert '示意' in page.locator('.reference-box').inner_text();close(page)
-   passed('11 new atlases decode; all 44 themed entries have distinct assigned cartoon cells; 5 illustrative avatars are disclosed')
-   page.locator('[data-action=story-preview]').click();assert all(w in page.locator('.story-preview').inner_text() for w in ['S8','架空','加里奥','GOAT']);close(page)
-   passed('Uzi introduction retains the fictional S8/Galio/GOAT alternate ending')
-   choose(page);original=session(page);assert page.locator('[data-action=next]').is_disabled();choice=page.locator('.option').first.inner_text()[1:].strip();page.locator('.option').first.click();page.locator('[data-action=next]').click();assert page.locator('.previous-choice').is_visible();assert choice in page.locator('.previous-choice').inner_text();page.locator('[data-action=previous]').click();choice=page.locator('.option').nth(1).inner_text()[1:].strip();page.locator('.option').nth(1).click();page.locator('[data-action=next]').click();assert choice in page.locator('.previous-choice').inner_text();page.screenshot(path=str(OUT/'v6-question.png'),full_page=True)
-   saved=session(page);page.reload();page.locator('[data-action=resume]').click();restored=session(page);assert restored['deck']==saved['deck'] and restored['answers']==saved['answers'] and restored['index']==1
-   passed('four-act context quotes actual previous choice, responds to edits, and resumes identical shuffled questions/options')
-   finish(page,8,first=1);name=page.locator('.identity-card h1').inner_text();aug=page.locator('.hex-card h2').inner_text();assert '为什么它更像你' in page.locator('.hex-reading').inner_text();page.locator('[data-action=alternatives]').click();assert page.locator('#dialog .hex-card').count()==2;close(page);page.locator('[data-action=augment-source]').click();assert '图标为真实游戏素材' in page.locator('#dialog-body').inner_text();close(page)
-   passed('completing answers directly reveals a person and a real automatic augment with two alternatives and a source dialog')
+    if p.locator('html').get_attribute('data-style')!=style:p.locator('[data-action=palette]').click()
+    for w in [320,390,430,768,1440]:p.set_viewport_size({'width':w,'height':844});overflow(p)
+    p.set_viewport_size({'width':390,'height':844});p.screenshot(path=str(OUT/('v7-home-'+style+'.png')),full_page=True)
+   passed('both redesigned palettes fit 320/390/430/768/1440px with no horizontal overflow')
+   dims=p.evaluate('''async()=>{const im=new Image();im.src=WORLD_PERK_SHEET.url;await im.decode();return [im.width,im.height];}''');assert dims==[1254,1254]
+   variants={};expected={'afk':'fountain-owner','int':'feeding-license','collector':'collector-union','protect':'four-stay-alive'}
+   for b,card in expected.items():
+    p.locator(f'[data-action=sample][data-behavior={b}]').click();assert p.locator('#dialog .hex-card').get_attribute('data-augment')==card;assert '单题示例' in p.locator('#dialog-body').inner_text();variants[b]=p.locator('#dialog .hex-icon').screenshot();close(p)
+   assert len(set(variants.values()))==4;assert p.evaluate("localStorage.getItem('world-otherme.v7.history')") is None
+   p.locator('[data-action=card-gallery]').click();assert p.locator('.card-gallery button').count()==25;p.locator('#dialog [data-action=peek][data-id=table-flip]').click();assert p.locator('#dialog .hex-card h2').inner_text()=='掀桌';assert '桌子' in p.locator('#dialog .hex-effect').inner_text();close(p)
+   passed('four Collector sample reactions reveal four distinct illustrated parody cards; all 25 cards can be browsed')
+   p.locator('[data-action=story-preview]').click();assert all(w in p.locator('.story-preview').inner_text() for w in ['S8','架空','飞科','加里奥','GOAT']);close(p)
+   fixture(p,['collector','office']);assert p.locator('[data-action=next]').is_disabled();p.locator('.option[data-id="0"]').click();p.locator('[data-action=next]').click();assert '观战席' in p.locator('.question h1').inner_text();assert '挂机' in p.locator('.previous-choice').inner_text();p.locator('[data-action=previous]').click();p.locator('.option[data-id="1"]').click();p.locator('[data-action=next]').click();assert '复活倒计时' in p.locator('.question h1').inner_text();p.locator('[data-action=previous]').click();p.locator('.option[data-id="0"]').click();p.locator('[data-action=next]').click();saved=stored(p);p.screenshot(path=str(OUT/'v7-question-branch.png'),full_page=True);p.reload();p.locator('[data-action=resume]').click();resumed=stored(p);assert resumed['deck']==saved['deck'] and resumed['answers']==saved['answers'] and resumed['index']==1
+   passed('Collector follow-up question actually branches for AFK versus inting, follows edits, and resumes the same shuffled run')
+   finish(p,8,start=1,pref=['afk','retreat','blame']);assert p.locator('.hex-card').get_attribute('data-augment')=='fountain-owner';assert p.locator('.identity-card h1').inner_text()=='PDD';assert p.locator('.chain-row').count()>0;assert any(term in p.locator('.team-grid').inner_text() for term in ['安全员','先看地图','安全感'])
+   p.screenshot(path=str(OUT/'v7-result-fountain.png'),full_page=True)
+   old=p.locator('.identity-card h1').inner_text();p.locator('[data-action=alternatives]').click();assert p.locator('#dialog .hex-card').count()==2;close(p);assert p.locator('.identity-card h1').inner_text()==old;p.locator('[data-action=card-note]').click();assert '恶搞' in p.locator('#dialog-body').inner_text();assert '官方游戏数值' in p.locator('#dialog-body').inner_text();close(p)
+   passed('full AFK-oriented answers reveal PDD plus Fountain Owner with actual evidence, parody notes and stable alternatives')
+   fixture(p,['collector','collector-audit']);finish(p,8,pref=['collector','gold','plan']);assert p.locator('.hex-card').get_attribute('data-augment')=='collector-union';assert '污渍' in p.locator('.identity-card h1').inner_text();p.locator('.story-ending summary').click();assert all(w in p.locator('.story-card').inner_text() for w in ['S8','架空','飞科','加里奥','GOAT']);assert '股东' in p.locator('.team-grid').inner_text() or '最后一口' in p.locator('.team-grid').inner_text();p.screenshot(path=str(OUT/'v7-result-collector.png'),full_page=True)
+   passed('economy-focused full answers reveal Uzi/Fifth Collector, the alternate S8 ending and card-specific teammate duties')
    for style in ['night','paper']:
-    if page.locator('html').get_attribute('data-style')!=style:page.locator('[data-action=palette]').click()
-    for width in [320,390,430,768,1440]:page.set_viewport_size({'width':width,'height':844});overflow(page)
-    page.set_viewport_size({'width':390,'height':844});page.screenshot(path=str(OUT/('v6-result-'+style+'.png')),full_page=True)
-   passed('identity, real augment card, narrative, five-member team and six-axis result fit both palettes at all viewport widths')
-   page.locator('[data-action=review]').click();assert page.locator('.review-list article').count()==8;close(page)
-   page.locator('[data-action=poster]').click();page.wait_for_selector('.poster');page.locator('.poster').screenshot(path=str(OUT/'v6-poster-preview.png'))
-   with page.expect_download() as info:page.locator('a.download-png').click()
-   png=Image.open(info.value.path());assert png.size==(1080,1920);png.save(OUT/'v6-exported-poster.png');close(page)
-   passed('new 1080x1920 character/real-augment/five-person PNG actually downloads and decodes')
-   home(page);page.locator('#app [data-action=start]').click();fresh=session(page);assert fresh['deck'][0]['id']!=original['deck'][0]['id'];assert fresh['deck']!=original['deck']
-   finish(page,8)
+    if p.locator('html').get_attribute('data-style')!=style:p.locator('[data-action=palette]').click()
+    for w in [320,390,430,768,1440]:p.set_viewport_size({'width':w,'height':844});overflow(p);box=p.locator('.result-dock').bounding_box();assert box['x']>=0 and box['x']+box['width']<=w+1
+   p.set_viewport_size({'width':390,'height':844});p.locator('.result-fold summary').click();p.locator('[data-action=review]').click();assert p.locator('.review-list article').count()==8;close(p)
+   passed('result, floating share controls and expandable six-axis/answer detail fit both palettes at every tested viewport')
+   p.locator('[data-action=poster]').click();p.wait_for_selector('.poster')
+   with p.expect_download() as d:p.locator('.download-png').click()
+   im=Image.open(d.value.path());assert im.size==(1080,1920);im.save(OUT/'v7-exported-poster.png');close(p)
+   passed('new Uzi plus original parody-card/five-member PNG actually downloads and decodes at 1080x1920')
+   before=stored(p)
    for ser in ['hex','rift']:
-    for n in [16,24]:
-     choose(page,series=ser,count=n);s=session(page);assert all(next(q for q in page.evaluate('WORLD_DATA.questions') if q['id']==d['id'])['series']==ser for d in s['deck']);finish(page,n)
-   for t in ['basket','abstract']:choose(page,theme=t);finish(page,8)
-   passed('fresh runs change the first episode; 8/16/24 modes work; both LoL series and secondary themes finish with five legal positions')
-   page.locator('header [data-action=archive]').click();assert page.locator('.history-card').count()>=7;first=page.locator('.history-card').first.inner_text();page.reload();page.locator('header [data-action=archive]').click();assert page.locator('.history-card').first.inner_text()==first;page.locator('.history-card').first.click();assert page.locator('.identity-card').is_visible()
-   passed('history reload reproduces the identity, automatically recommended augment and five-member team')
-   with page.expect_download() as info:page.locator('footer [data-action=download-html]').click()
-   downloaded=Path(info.value.path()).read_text();assert 'WORLD_ATLASES' in downloaded and 'WORLD_AUGMENTS' in downloaded and 'Toy3D' not in downloaded;assert not 'world-otherme.v6.history' in downloaded
-   offline=browser.new_context(viewport={'width':390,'height':844},offline=True,reduced_motion='reduce',accept_downloads=True);offline.add_init_script("Object.defineProperty(window,'localStorage',{get(){throw Error('QA denied storage')}})");op=offline.new_page();op.on('pageerror',lambda e:errors.append(str(e)));op.goto('about:blank');op.set_content(downloaded);op.wait_for_function("document.documentElement.dataset.appReady==='true'");op.locator('[data-action=mode][data-count="8"]').click();op.locator('#app [data-action=start]').click();finish(op,8);assert op.locator('.local-note').is_visible();op.locator('[data-action=poster]').click();op.wait_for_selector('.poster');offline.close()
-   passed('downloaded complete HTML works offline with storage denied, shows real icons and generates the new poster')
-   home(page);page.evaluate("localStorage.setItem('world-otherme.v6.history',JSON.stringify([null,{},'bad',{session:null}]));localStorage.setItem('world-otherme.v6.session','broken-json')");page.reload();page.locator('header [data-action=archive]').click();assert page.locator('.empty').is_visible();assert not errors,errors;assert not requests,requests
-   passed('malformed local records are ignored; all tested flows have zero JavaScript errors and no external asset requests')
+    for n in [8,16,24]:
+     choose(p,series=ser,count=n);s=stored(p);assert all(next(q for q in p.evaluate('WORLD_DATA.questions') if q['id']==d['id'])['series']==ser for d in s['deck']);finish(p,n)
+   for t in ['basket','abstract']:choose(p,theme=t);finish(p,8)
+   passed('all 8/16/24 modes finish in Hex and Rift with five legal roles; secondary themes retain parody results')
+   home(p);p.locator('header [data-action=archive]').click();assert p.locator('.history-card').count()>=9;first=p.locator('.history-card').first.inner_text();p.reload();p.locator('header [data-action=archive]').click();assert p.locator('.history-card').first.inner_text()==first;p.locator('.history-card').first.click();verify_result(p)
+   passed('V7 identity/card/team history reproduces after reload while older-version storage remains separate')
+   with p.expect_download() as d:p.locator('footer [data-action=download-html]').click()
+   downloaded=Path(d.value.path()).read_text();assert 'WORLD_PERK_SHEET' in downloaded and 'WORLD_AUGMENTS' not in downloaded and 'Toy3D' not in downloaded
+   offline=browser.new_context(viewport={'width':390,'height':844},offline=True,accept_downloads=True,reduced_motion='reduce');offline.add_init_script("Object.defineProperty(window,'localStorage',{get(){throw Error('QA denied storage')}})");op=offline.new_page();op.on('pageerror',lambda e:errors.append(str(e)));op.goto('about:blank');op.set_content(downloaded);op.wait_for_function("document.documentElement.dataset.appReady==='true'");op.locator('[data-action=mode][data-count="8"]').click();op.locator('#app [data-action=start]').click();finish(op,8);assert op.locator('.local-note').is_visible();op.locator('[data-action=poster]').click();op.wait_for_selector('.poster');offline.close()
+   passed('downloaded single HTML works offline with denied storage, original card art, a complete run and its poster')
+   home(p);p.evaluate("localStorage.setItem('world-otherme.v7.history',JSON.stringify([null,{},'bad',{session:null}]));localStorage.setItem('world-otherme.v7.session','broken-json')");p.reload();p.locator('header [data-action=archive]').click();assert p.locator('.empty').is_visible();assert not errors,errors;assert not requests,requests
+   passed('malformed records are ignored and all tested flows make zero external asset requests with no JavaScript errors')
    status='passed';failure=None
   except Exception as e:
-   status='failed';failure=str(e);page.screenshot(path=str(OUT/'v6-failure.png'),full_page=True);raise
+   status='failed';failure=str(e);p.screenshot(path=str(OUT/'v7-failure.png'),full_page=True);raise
   finally:
-   report={'status':locals().get('status','failed'),'checks':checks,'passed':len(checks),'failure':locals().get('failure'),'html_sha256':hashlib.sha256(HTML).hexdigest(),'html_bytes':len(HTML),'javascript_errors':errors,'external_requests':requests,'duration_seconds':round(time.time()-started,2),'scope':'Chromium responsive viewport, real PNG/HTML downloads, offline execution; no physical phone test'}
-   (ROOT/'docs/browser-check-v6.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');browser.close();server.shutdown()
-print(len(checks),'V6 browser checks passed',flush=True)
+   report={'status':locals().get('status','failed'),'checks':checks,'passed':len(checks),'failure':locals().get('failure'),'html_sha256':hashlib.sha256(HTML).hexdigest(),'html_bytes':len(HTML),'javascript_errors':errors,'external_requests':requests,'duration_seconds':round(time.time()-started,2),'scope':'Chromium responsive viewport, exact semantic answer cases, actual PNG/HTML downloads and offline execution; no physical phone test'};(ROOT/'docs/browser-check-v7.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');browser.close();server.shutdown()
+print(len(checks),'V7 browser checks passed',flush=True)

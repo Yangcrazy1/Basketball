@@ -39,21 +39,32 @@ function score(s,data){
  return dimsFor(s.theme).map(dim=>{if(s.theme==='lol'){const total=rows.reduce((sum,{o})=>sum+o.signals[dim],0),neutral=rows.reduce((sum,{q})=>sum+q.options.reduce((n,o)=>n+o.signals[dim],0)/4,0),lo=rows.reduce((sum,{q})=>sum+Math.min(...q.options.map(o=>o.signals[dim])),0),hi=rows.reduce((sum,{q})=>sum+Math.max(...q.options.map(o=>o.signals[dim])),0),delta=total-neutral;return Math.max(0,Math.min(100,Math.round(50+50*delta/Math.max(1,delta>=0?hi-neutral:neutral-lo))));}const values=rows.filter(({q})=>q.dim===dim).map(({o})=>o.value);return Math.round((values.reduce((a,b)=>a+b,0)/values.length-1)/3*100);});
 }
 function similarity(a,b){return Math.round(100*(1-a.reduce((s,v,i)=>s+Math.abs(v-b[i]),0)/600));}
-function recommend(s,data,vector=score(s,data)){
- const rows=selections(s,data),tags={};for(const {o} of rows)for(const tag of o.tags||[])tags[tag]=(tags[tag]||0)+1;
- return data.augments[s.theme].map(a=>{
-  const v=a.vector||a.bias.map(n=>Math.max(0,Math.min(100,50+n*40)));
-  const hitRows=rows.filter(({o})=>(o.tags||[]).some(t=>(a.tags||[]).includes(t)));
-  const match=s.theme==='lol'?Math.round(.78*similarity(vector,v)+22*hitRows.length/rows.length):similarity(vector,v);
-  return {...a,match,evidence:hitRows.slice(0,2).map(({q,o})=>({id:q.id,scene:q.scene,choice:o.text})),hitCount:hitRows.length};
- }).sort((a,b)=>b.match-a.match||a.id.localeCompare(b.id));
+function responseWeight(q){return q.importance||1;}
+function behaviorFit(rows,weights={}){const total=rows.reduce((sum,{q})=>sum+responseWeight(q),0);return total?100*rows.reduce((sum,{q,o})=>sum+(weights[o.behavior]||0)*responseWeight(q),0)/(5*total):0;}
+function cardEvidence(rows,card){return rows.map(({q,o},index)=>({id:q.id,scene:q.scene,choice:o.text,behavior:o.behavior,strength:(card.behaviorWeights?.[o.behavior]||0)*responseWeight(q),index})).filter(e=>e.strength>0).sort((a,b)=>b.strength-a.strength||a.index-b.index);}
+function rankPeople(s,data,vector){const pool=data.characters.filter(p=>p.theme===s.theme),rows=selections(s,data);return pool.map(p=>({...p,match:s.theme==='lol'?Math.round(.65*similarity(vector,p.vector)+.35*behaviorFit(rows,p.behaviorWeights)):similarity(vector,p.vector)})).sort((a,b)=>b.match-a.match||a.id.localeCompare(b.id));}
+function recommend(s,data,vector=score(s,data),identity=null){
+ const rows=selections(s,data);if(!identity)identity=rankPeople(s,data,vector)[0];
+ return data.augments[s.theme].filter(a=>!(a.requires||[]).length||(a.requires||[]).some(b=>rows.some(({o})=>o.behavior===b))).map(a=>{
+  const v=a.vector||a.bias.map(n=>Math.max(0,Math.min(100,50+n*40))),evidence=cardEvidence(rows,a);
+  const behavior=behaviorFit(rows,a.behaviorWeights),bonus=(a.affinities||[]).includes(identity.personId)?5:0;
+  const match=s.theme==='lol'?Math.round(.42*similarity(vector,v)+.53*behavior+bonus):similarity(vector,v);
+  return {...a,match,evidence:evidence.slice(0,2),hitCount:evidence.length,personLink:bonus>0};
+ }).filter(a=>s.theme!=='lol'||a.hitCount>0).sort((a,b)=>b.match-a.match||b.hitCount-a.hitCount||a.id.localeCompare(b.id));
 }
-function context(s,data,index=s.index){
- const q=data.questions.find(q=>q.id===s.deck[index].id);
- if(q.theme!=='lol'||q.stage===0)return null;
- const previous=data.questions.find(p=>p.id===s.deck[index-1].id),o=previous.options.find(o=>o.id===s.answers[index-1]);
- return o?{chapter:q.chapterName,stage:q.stage,previousChoice:o.text,previousScene:previous.scene}:null;
-}
+function questionAt(s,data,index=s.index){const q=data.questions.find(q=>q.id===s.deck[index]?.id);if(!q)return null;const prior=index>0?s.answers[index-1]:null;return {...q,title:q.branches&&prior!==null?(q.branches[String(prior)]||q.title):q.title};}
+const reactions={afk:'你的镜头切到观战席，接下来由你决定这局怎么演。',int:'上一单已经送达，导播开始等你的下一次发车。',collector:'第五位股东入场，最后一口的归属还没谈妥。',protect:'你把队友留在镜头里，接下来看看这份售后怎么做。',heal:'桥头医务室已经开门，下一波挂号队伍也到了。',explain:'复活倒计时在走，你的讲解刚刚开始。',blame:'锅还在空中，下一幕先看看谁来接。',chaos:'节目效果已到账，故事还有下一幕。',plan:'计划先写在这里，接下来看看现场听不听安排。',engage:'车已经开了，接下来看乘客有没有跟上。',reset:'上一段剧本已翻篇，新的一幕还等你接梗。'};
+function context(s,data,index=s.index){const q=questionAt(s,data,index);if(q.theme!=='lol'||q.stage===0)return null;const previous=data.questions.find(p=>p.id===s.deck[index-1].id),o=previous.options.find(o=>o.id===s.answers[index-1]);return o?{chapter:q.chapterName,stage:q.stage,previousChoice:o.text,previousScene:previous.scene,reaction:reactions[o.behavior]||'上一个反应已经记下，同一场对局继续往下演。'}:null;}
+const teamScripts={
+ economy:['上路承压：给四位股东挡债。','野区记账：每组野怪都得开票。','中路出差：游走先报销车费。','下路收尾：最后一口拒绝合资。','辅助售后：全队唯一还看血条的人。'],
+ chaos:['上路独演：先把边线变成个人舞台。','打野发车：路线直达下一段集锦。','中路配乐：这一波自带主角 BGM。','下路压轴：高光和灰屏只隔一帧。','辅助验票：上车前请签字。'],
+ engage:['上路顶门：把第一波技能收下。','打野发车：开之前先数一遍乘客。','中路接戏：控制留给关键那个人。','下路输出：司机说到站再下车。','辅助导航：负责把人齐这件事讲明白。'],
+ protect:['上路挡风：四个输出的移动掩体。','打野保安：巡逻到后排就上班。','中路调度：让技能替队友争取时间。','下路患者：请在医务室射程内营业。','辅助主治：这家没你真得关门。'],
+ basic:['上路动作指导：细节交给手，不交给嘴。','打野解说：先把路线走成一个几何题。','中路编导：等到技能窗口再拍。','下路主演：金色的雨要自己走位接。','辅助控场：让高光背后有人接应。'],
+ plan:['上路工期：线没带完先别掀桌。','打野路线：第四条边还没讲完。','中路恒温：今天几度由这里决定。','下路验收：强势期到了就该交作业。','辅助复盘：把五个人留在同一张图上。'],
+ retreat:['上路安全员：撤退也要留出通道。','打野巡场：先看地图再问队友呢。','中路观察：等对手把按钮按完。','下路远程：在安全感边缘输出。','辅助接人：回来就有口热奶。'],
+ reset:['上路续集：这一条线还没演完。','打野刷新：新路线下一局见。','中路转场：重开也要记得带队友。','下路重拍：镜头先别删。','辅助留人：说好最后一把，又齐了。']};
+function linkTeam(team,augment,theme){if(theme!=='lol')return team.map(p=>({...p,teamLine:p.line}));const lines=teamScripts[augment.kind]||teamScripts.chaos;return team.map(p=>({...p,teamLine:lines[p.slot]}));}
 function buildTeam(vector,characters,identity,augment){
  let best=null;
  for(const myRole of identity.roles){
@@ -66,7 +77,7 @@ function buildTeam(vector,characters,identity,augment){
   }
   const full=states[31];if(full&&(!best||full.value>best.value))best=full;
  }
- if(!best)throw Error('角色池不足以组成五人队');return best.slots.map((p,i)=>({...p,slot:i,isYou:p.id===identity.id,match:similarity(vector,p.vector),naturalRole:p.roles.includes(i)}));
+ if(!best)throw Error('角色池不足以组成五人队');return best.slots.map((p,i)=>({...p,slot:i,isYou:p.id===identity.id,match:p.match??similarity(vector,p.vector),naturalRole:p.roles.includes(i)}));
 }
 const stories={
  uzi:['平行 S8，轮到你改写结局。','在这条架空时间线，你变成了污渍。决胜局，对面的飞科锁下加里奥，镜头里所有人都以为这又是熟悉的剧本。你却在最后一波侧身躲开控制，把输出打到了结算页面。','金色的雨落下。主持人还在问“历史第一 ADC”，你已经把问题推进到“英雄联盟的 GOAT”。收集者不是决定，敢不敢接下这场比赛才是。'],
@@ -92,12 +103,12 @@ function narrative(identity,theme,profile,series='all',augment=null){
  }
  const own=stories[identity.personId];if(own)return own;return theme==='lol'?[`${identity.name}，这次由你接下决胜局。`,`你化身${identity.name}，走进一条结局尚未写下的平行赛道。对手准备好了熟悉的套路，你用${profile.name}的打法把这一局带到了新的节奏。`,'奖杯不是剧本的终点。五个人愿意再开一局，才是这个宇宙最好的彩蛋。']:theme==='basket'?[`${identity.name}，今天的名场面由你签收。`,`你化身${identity.name}。平行总决赛把所有戏剧性都留到了末节，你把熟悉的动作和没试过的选择拼成了自己的答案。`,'这个宇宙的虎扑式搞笑评分给出满分：有人负责数据，有人负责让整场值得重看。']:[`${identity.name}，你在另一个宇宙上线了。`,`你化身${identity.name}。普通的一天被平行宇宙拧开了一个口子，你用${profile.name}的方式，把五个看似不搭的人放进同一段故事。`,'故事没有标准答案。能把自己的那一集过得有声有色，也是一种隐藏天赋。'];}
 function analyze(session,data){
- const vector=score(session,data),pool=data.characters.filter(p=>p.theme===session.theme),ranked=pool.map(p=>({...p,match:similarity(vector,p.vector)})).sort((a,b)=>b.match-a.match||a.id.localeCompare(b.id));
+ const vector=score(session,data),pool=data.characters.filter(p=>p.theme===session.theme),ranked=rankPeople(session,data,vector);
  const identity=ranked[0],code=[0,1,2].map(i=>vector[i]>=50?'1':'0').join('');let profile=data.profiles.find(p=>p.id===data.familyCodes[code]);
  if(session.theme==='lol'){const hi=vector.indexOf(Math.max(...vector));profile={...profile,name:['上头编剧','金币合伙人','雪球发车人','全队保护伞','基本功信徒','桥上运营师'][hi]};}
- const recommendations=recommend(session,data,vector),augment=recommendations[0],rows=selections(session,data);
+ const recommendations=recommend(session,data,vector,identity),augment=recommendations[0],rows=selections(session,data);
  const evidence=dimsFor(session.theme).map((dim,di)=>{const choices=rows.flatMap(({q,o})=>{if(session.theme!=='lol'&&q.dim!==dim)return [];return [{id:q.id,scene:q.scene,title:q.title,choice:o.text,value:session.theme==='lol'?o.signals[dim]:(o.value-1)/3*100}];});choices.sort((a,b)=>Math.abs(b.value-50)-Math.abs(a.value-50));return {dim,coordinate:vector[di],...choices[0]};});
- return {vector,identity,ranked,profile,augment,recommendations,team:buildTeam(vector,pool,identity,augment),story:narrative(identity,session.theme,profile,session.series,augment),evidence,coverage:dimsFor(session.theme).map(dim=>session.theme==='lol'?session.count:rows.filter(({q})=>q.dim===dim).length)};
+ return {vector,identity,ranked,profile,augment,recommendations,team:linkTeam(buildTeam(vector,ranked,identity,augment),augment,session.theme),story:narrative(identity,session.theme,profile,session.series,augment),signature:session.theme==='lol'?Object.entries(rows.reduce((sum,{o})=>{sum[o.behavior]=(sum[o.behavior]||0)+1;return sum;},{})).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,3).map(([id,count])=>({id,count,label:data.behaviorLabels[id]})):[],evidence,coverage:dimsFor(session.theme).map(dim=>session.theme==='lol'?session.count:rows.filter(({q})=>q.dim===dim).length)};
 }
-return {dimIds,lolDimIds,dimsFor,shuffle,draw,valid,score,similarity,analyze,buildTeam,narrative,recommend,context,selections};
+return {dimIds,lolDimIds,dimsFor,shuffle,draw,valid,score,similarity,analyze,buildTeam,narrative,recommend,context,selections,questionAt,rankPeople,behaviorFit};
 });

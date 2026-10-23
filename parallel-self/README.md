@@ -1,4 +1,4 @@
-> 最新网页为 [V6「世界上另一个我」海克斯名场面版](shenren/README.md)，含五人战队、连贯随机情境、新卡通头像、真实强化参考与可导出海报。手机直达 https://yangcrazy1.github.io/Basketball/?v=6-hex 。以下是保留的 V4 说明。
+> 最新网页为 [V7「世界上另一个我」神人海克斯版](shenren/README.md)，含25张网友DIY风格恶搞卡、100道连贯联盟情境、人物与卡牌匹配证据、五人战队和可下载海报。手机直达 https://yangcrazy1.github.io/Basketball/?v=7-fun 。以下是保留的 V4 说明。
 
 # 另一个我 · ELSEWHERE V4
 
