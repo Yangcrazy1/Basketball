@@ -1,9 +1,18 @@
 {
-  "version": 5,
   "name": "世界上另一个我",
-  "default": "lol/hex",
-  "source_commit": "300d97015c5c769e24ab4958a2f3326cd330a009",
-  "html_sha256": "4373abc0d544ce9f4ec5e907b0d5f0619e7c95ef5500cb7dbc4c1a20cdeebf3d",
-  "html_bytes": 1822194,
-  "built_at": "2026-10-23T15:29:21.682088+08:00"
+  "version": 6,
+  "edition": "海克斯名场面",
+  "source_commit": "fbe166bd33c98bdeec84052c7dbe92c959adfe16",
+  "html_sha256": "d2f77da1960e6a9d39e96849358ef3435b6d947a180d638f7f29c59dfbbe73eb",
+  "html_bytes": 4430561,
+  "league_questions": 84,
+  "total_questions": 156,
+  "people": 42,
+  "themed_entries": 44,
+  "real_aram_augments": 16,
+  "three_dimensional_model": false,
+  "removed_people": [
+    "美国讲师"
+  ],
+  "built_at": "2026-10-23T08:33:03.113806+00:00"
 }
