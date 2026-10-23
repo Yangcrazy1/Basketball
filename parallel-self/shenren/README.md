@@ -34,7 +34,7 @@ python tools/package-v13.py
 - `release/world-another-me-v13-xhs.zip`：小红书待上传包，根目录 `index.html`。
 - `docs/v13-delivery.md`、`docs/v13-build-manifest.json`、`docs/browser-check-v13.json`、`docs/v13-unit-check.json` 与 `docs/xhs-validation-v13.json`：变更、哈希及校验记录。
 
-实际测试统计以本轮记录为准。截图为手机视口模拟，未冒充实体手机验收。小红书静态审计与 SDK 契约模拟不代表原生验收；**创服平台模拟器、Android 真机扫码、iOS 真机扫码仍待用户验证**；Chrome 61 CSS 与实际设备性能未实测。
+49 项逻辑／存储测试、19 组本地浏览器流程、8 组公开 HTTPS 检查通过。截图为手机视口模拟，未冒充实体手机验收。小红书静态审计与 SDK 契约模拟不代表原生验收；**创服平台模拟器、Android 真机扫码、iOS 真机扫码仍待用户验证**；Chrome 61 CSS 与实际设备性能未实测。
 
 `image-sources.json` 与 `docs/v13-portrait-references.md` 记录参考来源、实际字节指纹与漫画对应关系。尼达、伊利采用核对过的官方公开头像；头像归属核对不等于全部真人面部独立核验。王思聪热狗姿势为原创新绘。公开照片参考核对不等于商用授权；漫画人物、标签、剧情和海克斯为娱乐创作，不代表本人发言或背书。所有答案仅在设备保存，无登录、后端或在线推理。
 

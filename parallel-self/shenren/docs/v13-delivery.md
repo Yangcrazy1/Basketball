@@ -27,7 +27,7 @@ Logo 参考 Apple 与 Microsoft 的公开简化原则，最终图形原创，见
 
 ## 校验与产物
 
-具体通过项、截图、包体及哈希以 [单测记录](v13-unit-check.json)、[浏览器记录](browser-check-v13.json)、[构建清单](v13-build-manifest.json)、[小红书校验](xhs-validation-v13.json) 为准。全部 57 位身份的合法作答证据保存在 [可达性证明](v13-reachability.json)。
+49 项逻辑／存储测试、19 组本地浏览器流程通过。具体通过项、截图、包体及哈希以 [单测记录](v13-unit-check.json)、[浏览器记录](browser-check-v13.json)、[构建清单](v13-build-manifest.json)、[小红书校验](xhs-validation-v13.json) 为准。全部 57 位身份的合法作答证据保存在 [可达性证明](v13-reachability.json)。
 
 网页入口：https://yangcrazy1.github.io/Basketball/v13/
 
@@ -43,4 +43,4 @@ Logo 参考 Apple 与 Microsoft 的公开简化原则，最终图形原创，见
 
 **待用户验证：上传同一 ZIP 至创服平台，先做平台模拟器完整功能验证，再分别用 Android 与 iOS 真机扫码。Chrome 61 CSS 与真实设备性能未实测。** 未登录或上传创服平台。
 
-只发布 `/v13/`，旧根入口、`/play/`、V11 与 V12 产物保持原样。公开部署后另保存 `docs/public-v13.json` 的真实 HTTPS 检查结果。
+只发布 `/v13/`，旧根入口、`/play/`、V11 与 V12 产物保持原样。部署提交 `e7896100db24fecec680bb1d52c8205e0c6e3a91`，产物源码提交 `0faa2f5dcd524cc84cbe6fd8e0e388c37b34b717`。8 组真实 HTTPS 检查通过，涵盖入口、完整 HTML、两种 ZIP 哈希、独立 Logo／封面／截图、三主题实际答题、大头像、队名重抽、真实 PNG 与离线 HTML 下载，未出现脚本异常或 HTTP 资源错误。详见 [线上检查](public-v13.json) 与 [部署记录](v13-deployment.json)。
