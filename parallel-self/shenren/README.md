@@ -13,6 +13,7 @@
 
 ```sh
 python build.py
+python tools/build-web.py
 node --test tests/engine.test.cjs tests/xhs-platform.test.cjs
 python tests/browser-check.py
 python tools/build-xhs.py
@@ -23,3 +24,5 @@ python tools/build-xhs.py
 `image-sources.json` 记录照片来源、哈希和漫画对应关系；原型图片不代表官方或本人背书。人物标签、卡牌效果和 S8 等剧情均为娱乐创作。全部答案仅在当前设备保存，无登录/后端/在线推理。
 
 小红书包已做静态审查和体积审计；**创服平台模拟器、Android、iOS 真机扫码仍待用户验证**，Chrome 61 与实际设备性能尚未实测。
+
+在线入口采用 2 KB 页面与按需加载资源，开场约 1.2 MB；完整离线 HTML 继续单独提供。打开问题修复验证见 `docs/online-entry-check-v10.json`。

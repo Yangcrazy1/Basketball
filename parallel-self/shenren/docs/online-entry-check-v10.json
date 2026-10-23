@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    "2 KB online entry renders the comic with less than 1.6 MB of initial resources and no portrait-atlas requests",
+    "all three themes load their local portraits on demand and complete quiz, reveal and five-person team flows",
+    "resource-backed avatars remain exportable to an actual PNG after selecting a custom squad",
+    "Download offline HTML saves the complete 10.6 MB standalone app rather than the small online shell",
+    "a blocked data script leaves a visible retry explanation instead of an inert blank page",
+    "online build has no external resource dependencies and no application JavaScript errors"
+  ],
+  "passed": 6,
+  "entry_sha256": "b6db45126562061d22c2d473f9b839e508a28a86d6f63b93afffa3c604faf9ee",
+  "initial_resource_bytes": 1165022,
+  "javascript_errors": [],
+  "scope": "Chromium mobile viewport and local HTTP; user network reachability remains to be confirmed"
+}

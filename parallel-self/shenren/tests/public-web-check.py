@@ -9,12 +9,14 @@ def passed(s):checks.append(s);print('PASS',s,flush=True)
 def answer(p,i):
  b=p.locator('.option').nth(i);qid=b.get_attribute('data-question');b.click();p.wait_for_function("id=>!document.querySelector('.option[data-question=\"'+id+'\"]')",arg=qid)
 info=json.loads(urlopen(BASE+'build-info.json?v='+SHA[:12],timeout=30).read());assert info['version']==10 and info['html_sha256']==SHA
-for name in ['', 'world-another-me.html']:
- with urlopen(BASE+name+'?v=10-story-'+SHA[:12],timeout=30) as r:assert r.status==200 and hashlib.sha256(r.read()).hexdigest()==SHA
-passed('public root and single-file endpoint serve HTTP 200 and exactly the browser-tested release bytes')
+ENTRY=(R/'dist/web/index.html').read_bytes();ENTRY_SHA=hashlib.sha256(ENTRY).hexdigest()
+assert info['online_entry_sha256']==ENTRY_SHA
+for name,expected in [('',ENTRY_SHA),('play/',ENTRY_SHA),('world-another-me.html',SHA)]:
+ with urlopen(BASE+name+'?v=10-fast-'+ENTRY_SHA[:12],timeout=30) as r:assert r.status==200 and hashlib.sha256(r.read()).hexdigest()==expected
+passed('public root and play entry serve the tested 2 KB shell; the offline endpoint retains the complete release bytes')
 with sync_playwright() as pw:
  browser=pw.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox']);ctx=browser.new_context(viewport={'width':390,'height':844},accept_downloads=True,reduced_motion='reduce');p=ctx.new_page();p.on('pageerror',lambda e:errors.append(str(e)))
- p.goto(BASE+'?v=10-story',wait_until='networkidle',timeout=60000);p.wait_for_function("document.documentElement.dataset.appReady==='true'");assert p.locator('.intro-page').is_visible();p.locator('[data-action=intro-skip]').click();assert p.evaluate('WORLD_DATA.version')==10;assert p.locator('.theme-picker button').count()==3;assert p.locator('[data-action=series]').count()==0;assert p.evaluate('WORLD_DATA.counts.questions')==348;assert p.evaluate('WORLD_DATA.characters.length')==95
+ p.goto(BASE+'play/?v=10-fast',wait_until='networkidle',timeout=60000);p.wait_for_function("document.documentElement.dataset.appReady==='true'");assert p.locator('.intro-page').is_visible();p.locator('[data-action=intro-skip]').click();assert p.evaluate('WORLD_DATA.version')==10;assert p.locator('.theme-picker button').count()==3;assert p.locator('[data-action=series]').count()==0;assert p.evaluate('WORLD_DATA.counts.questions')==348;assert p.evaluate('WORLD_DATA.characters.length')==95
  passed('actual public mobile viewport starts V10 with three boards and only one combined League entry')
  p.locator('[data-action=sample][data-behavior=collector]').click();assert '必须出收集者' in p.locator('#dialog .hex-card h2').inner_text();assert p.locator('#dialog .hex-icon [data-game-icon=item-6676]').count()==5;p.locator('#close-dialog').click()
  passed('public Collector sample restores the mandatory Collector response and five real item copies')
@@ -34,7 +36,7 @@ with sync_playwright() as pw:
  assert hashlib.sha256(Path(dl.value.path()).read_bytes()).hexdigest()==SHA
  passed('public download page actually saves exactly the released self-contained HTML file')
  assert not errors,errors;browser.close()
-report=dict(status='passed',url=BASE+'?v=10-story',download_page=BASE+'download/?v=10-story',source_commit=info['source_commit'],html_sha256=SHA,html_bytes=len(HTML),checks=checks,javascript_errors=errors,checked_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),scope='Actual public HTTPS host, Chromium 390px responsive viewport and real downloads; no physical phone hardware test')
+report=dict(status='passed',url=BASE+'play/?v=10-fast',entry_sha256=ENTRY_SHA,download_page=BASE+'download/?v=10-story',source_commit=info['source_commit'],html_sha256=SHA,html_bytes=len(HTML),checks=checks,javascript_errors=errors,checked_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),scope='Actual public HTTPS host, Chromium 390px responsive viewport and real downloads; no physical phone hardware test')
 (R/'docs/web-verification-v10.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(len(checks),'public HTTPS app checks passed',flush=True)
 
 for remote,local in [('packages/world-another-me-v10-xhs.zip','release/world-another-me-v10-xhs.zip'),('branding/logo.png','assets/branding/logo.png'),('branding/cover.png','assets/branding/cover.png')]:
