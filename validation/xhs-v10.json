@@ -1,0 +1,46 @@
+{
+  "status": "static_audit_passed",
+  "artifact": "/workspace/Basketball/parallel-self/shenren/release/world-another-me-v10-xhs.zip",
+  "sha256": "1356aa48b1cd7aee24de14d8fd1613727433171b78c86c31d0fb01c2edcd20a1",
+  "bytes": 7609153,
+  "mib": 7.26,
+  "zip_limit_mib": 10,
+  "recommended_mib": 2,
+  "files": 62,
+  "entry": "index.html",
+  "errors": [],
+  "warnings": [
+    "包体超过 2 MiB 建议值（主要为离线漫画头像与剧情插画），低于 10 MiB 硬上限。"
+  ],
+  "largest_text_bytes": 475306,
+  "total_text_bytes": 629687,
+  "inline_scripts": 0,
+  "external_runtime_resources": 0,
+  "static_embedded_base64_images": 0,
+  "script_mode": "classic relative scripts",
+  "syntax": "All 4 delivered scripts parsed as ES2017 by Node-bundled Acorn 8.17.0",
+  "native_contract_tests": 2,
+  "api_contract": "https://miniapp-sandbox.xiaohongshu.com/minitool/doc",
+  "online_doc_last_updated": "2026-10-22",
+  "online_doc_sha256": "ec9a46746cf6570136e91def7445db9acbeafd132ac2e714fe6ed11b12f3363b",
+  "skill_version": "1.8.0",
+  "checked_at": "2026-10-23T14:46:24.788662+00:00",
+  "manual_checks": {
+    "structure_and_relative_paths": "passed",
+    "no_forbidden_web_calls_or_downloads": "passed",
+    "native_storage_and_album_contract": "passed",
+    "chrome61_syntax": "passed_static_parse",
+    "chrome61_runtime_fallbacks": "reviewed_not_device_verified",
+    "css_baselines_and_flex_behavior_detection": "reviewed_not_device_verified",
+    "pagination_lazy_atlas_search_debounce": "implemented",
+    "platform_simulator": "pending_user",
+    "android_scan": "pending_user",
+    "ios_scan": "pending_user",
+    "chrome61_css_and_device_performance": "not_measured"
+  },
+  "avatar_status": {
+    "verified_real_references": 84,
+    "original_characters": 1,
+    "pending_text_placeholders": 10
+  }
+}
