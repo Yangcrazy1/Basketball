@@ -1117,9 +1117,20 @@
   {
     "id": "dailanzi",
     "name": "带篮子",
-    "verifiedReference": false,
-    "kind": "文字占位，照片待核对",
-    "note": "尚未获得可靠且可读取的人物参考图，先用文字卡避免错脸。"
+    "verifiedReference": true,
+    "kind": "公开照片与用户截图核对的AI漫画重绘",
+    "note": "核对学士帽、眼镜、红领结、毕业服；用户截图中的笑脸作表情参考。用户截图不冒充本地原图哈希。",
+    "status": "verified",
+    "asset": "v11-references/dailanzi.jpg",
+    "sourcePage": "https://www.thepaper.cn/newsDetail_forward_14043056",
+    "imageUrl": "https://imagepphcloud.thepaper.cn/pph/image/148/436/960.jpg",
+    "sha256": "aa6337fb8a8956d9fddcf6912f1ae766d9d0cb88d37e5582c6949d16c0dc6545",
+    "rights": "参考照片可公开访问；图片商业权利未获许可，不代表本人背书。",
+    "atlas": {
+      "sheet": 23,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-23"
   },
   {
     "id": "zhouqi",
@@ -1376,5 +1387,41 @@
       "cell": 3
     },
     "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "vincent",
+    "name": "文森特",
+    "verifiedReference": false,
+    "status": "pending",
+    "kind": "文字占位",
+    "note": "照片待核对，不用其他人物替代。",
+    "rights": "未投入照片素材。"
+  },
+  {
+    "id": "kid",
+    "name": "Kid",
+    "verifiedReference": false,
+    "status": "pending",
+    "kind": "文字占位",
+    "note": "照片待核对，不用其他人物替代。",
+    "rights": "未投入照片素材。"
+  },
+  {
+    "id": "us-lecturer",
+    "name": "美国讲师",
+    "verifiedReference": false,
+    "status": "pending",
+    "kind": "文字占位",
+    "note": "照片待核对，不用其他人物替代。",
+    "rights": "未投入照片素材。"
+  },
+  {
+    "id": "yaoshuige",
+    "name": "药水哥",
+    "verifiedReference": false,
+    "status": "pending",
+    "kind": "文字占位",
+    "note": "照片待核对，不用其他人物替代。",
+    "rights": "未投入照片素材。"
   }
 ]

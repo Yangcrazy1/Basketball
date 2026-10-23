@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "name": "世界上另一个我",
   "dimensions": [
     {
@@ -21535,7 +21535,15 @@
         "极限走位",
         "输出担当"
       ],
-      "spotlight": true
+      "spotlight": true,
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "污渍",
+        "Uzi"
+      ],
+      "rosterOrder": 0
     },
     {
       "id": "lol-xiaohu",
@@ -21596,7 +21604,15 @@
           "plan",
           "calm"
         ]
-      }
+      },
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "销户",
+        "小虎"
+      ],
+      "rosterOrder": 1
     },
     {
       "id": "lol-dasima",
@@ -21642,7 +21658,14 @@
         "复盘",
         "教学素材"
       ],
-      "spotlight": true
+      "spotlight": true,
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "大司马"
+      ],
+      "rosterOrder": 10
     },
     {
       "id": "lol-theshy",
@@ -21668,7 +21691,7 @@
         "engage": 4,
         "int": 3
       },
-      "nickname": "TheShy",
+      "nickname": "Shy",
       "signaturePerks": [
         "feeding-license",
         "where-team",
@@ -21686,7 +21709,15 @@
         "名场面",
         "大胆尝试"
       ],
-      "spotlight": true
+      "spotlight": true,
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "Shy",
+        "TheShy"
+      ],
+      "rosterOrder": 3
     },
     {
       "id": "lol-faker",
@@ -21731,7 +21762,15 @@
         "先控住局面",
         "操作必须拉满",
         "先把局讲明白"
-      ]
+      ],
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "飞科",
+        "Faker"
+      ],
+      "rosterOrder": 6
     },
     {
       "id": "lol-clearlove",
@@ -21771,7 +21810,14 @@
         "先把局讲明白",
         "宇宙复利",
         "金币不能漏"
-      ]
+      ],
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "厂长"
+      ],
+      "rosterOrder": 11
     },
     {
       "id": "lol-jackeylove",
@@ -21818,7 +21864,16 @@
         "S8冠军",
         "下路"
       ],
-      "spotlight": true
+      "spotlight": true,
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "哥哥",
+        "阿水",
+        "JackeyLove"
+      ],
+      "rosterOrder": 2
     },
     {
       "id": "lol-doinb",
@@ -21857,7 +21912,14 @@
         "开团先上车",
         "队友保命优先",
         "节目效果优先"
-      ]
+      ],
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "Doinb"
+      ],
+      "rosterOrder": 18
     },
     {
       "id": "lol-pdd",
@@ -21902,7 +21964,14 @@
         "节目效果优先",
         "人生允许重抽",
         "锅先找到下家"
-      ]
+      ],
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "PDD"
+      ],
+      "rosterOrder": 9
     },
     {
       "id": "lol-ming",
@@ -21942,7 +22011,14 @@
         "开团先上车",
         "先控住局面",
         "队友保命优先"
-      ]
+      ],
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "小明"
+      ],
+      "rosterOrder": 19
     },
     {
       "id": "lol-meiko",
@@ -21981,6 +22057,12 @@
         "桥头医务室",
         "队友保命优先",
         "先把局讲明白"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "Meiko"
       ]
     },
     {
@@ -22018,6 +22100,12 @@
         "队友保命优先",
         "先控住局面",
         "先把局讲明白"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "Letme"
       ]
     },
     {
@@ -22058,7 +22146,14 @@
         "直线送达",
         "开团先上车",
         "节目效果优先"
-      ]
+      ],
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "宁王"
+      ],
+      "rosterOrder": 12
     },
     {
       "id": "lol-knight",
@@ -22104,6 +22199,13 @@
         "操作必须拉满",
         "安全距离营业",
         "大招就要连播"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "Knight",
+        "左手"
       ]
     },
     {
@@ -22144,13 +22246,20 @@
         "队友保命优先",
         "桥头医务室",
         "先留一条退路"
-      ]
+      ],
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "宝蓝"
+      ],
+      "rosterOrder": 15
     },
     {
       "id": "basket-lebron",
       "personId": "lebron",
       "theme": "basket",
-      "name": "乐邦詹士",
+      "name": "詹姆斯",
       "sub": "勒布朗 · 暂停表情艺术家",
       "vector": [
         95,
@@ -22166,7 +22275,7 @@
       ],
       "line": "这一跪是名场面，下一球还得接着打。",
       "number": "23",
-      "nickname": "勒邦詹氏",
+      "nickname": "詹姆斯",
       "behaviorWeights": {
         "nba-emotion": 5,
         "nba-drive": 4,
@@ -22183,7 +22292,17 @@
         "情绪写在脸上",
         "先往篮下冲",
         "把队友带上"
-      ]
+      ],
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "詹姆斯",
+        "勒邦詹氏",
+        "乐邦詹士",
+        "LeBron"
+      ],
+      "rosterOrder": 0
     },
     {
       "id": "basket-curry",
@@ -22204,7 +22323,7 @@
       ],
       "line": "停车场也在今天的出手范围。",
       "number": "30",
-      "nickname": "裤衩子 · 库里",
+      "nickname": "库里",
       "behaviorWeights": {
         "nba-three": 5,
         "nba-show": 3
@@ -22218,7 +22337,17 @@
         "超远三分与晚安服务",
         "三分想象力",
         "赛后节目担当"
-      ]
+      ],
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "库里",
+        "裤衩子",
+        "Curry",
+        "裤衩子 · 库里"
+      ],
+      "rosterOrder": 8
     },
     {
       "id": "basket-jordan",
@@ -22254,7 +22383,14 @@
         "关键球敢接",
         "老大式加练",
         "先看怎么打"
-      ]
+      ],
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "乔丹"
+      ],
+      "rosterOrder": 2
     },
     {
       "id": "basket-kobe",
@@ -22275,7 +22411,7 @@
       ],
       "line": "闹钟还没响，训练已经开始。",
       "number": "24",
-      "nickname": "老大 · 科比",
+      "nickname": "科比",
       "behaviorWeights": {
         "nba-train": 5,
         "nba-clutch": 5,
@@ -22290,7 +22426,17 @@
         "老大式加练",
         "关键球敢接",
         "先看怎么打"
-      ]
+      ],
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "科比",
+        "老大",
+        "Kobe",
+        "老大 · 科比"
+      ],
+      "rosterOrder": 3
     },
     {
       "id": "basket-durant",
@@ -22327,7 +22473,14 @@
         "三分想象力",
         "关键球敢接",
         "表情很稳"
-      ]
+      ],
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "杜兰特"
+      ],
+      "rosterOrder": 1
     },
     {
       "id": "basket-jokic",
@@ -22364,6 +22517,13 @@
         "先看怎么打",
         "把队友带上",
         "表情很稳"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "约基奇",
+        "约老师"
       ]
     },
     {
@@ -22400,6 +22560,12 @@
         "先往篮下冲",
         "赛后节目担当",
         "情绪写在脸上"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "威斯布鲁克"
       ]
     },
     {
@@ -22437,7 +22603,14 @@
         "三分想象力",
         "先看怎么打",
         "先往篮下冲"
-      ]
+      ],
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "哈登"
+      ],
+      "rosterOrder": 9
     },
     {
       "id": "basket-yaoming",
@@ -22473,7 +22646,14 @@
         "把队友带上",
         "先照顾队友的心情",
         "先看怎么打"
-      ]
+      ],
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "姚明"
+      ],
+      "rosterOrder": 7
     },
     {
       "id": "basket-shaq",
@@ -22509,6 +22689,13 @@
         "有机会就起飞",
         "赛后节目担当",
         "篮板不能丢"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "奥尼尔",
+        "大鲨鱼"
       ]
     },
     {
@@ -22545,6 +22732,13 @@
         "表情很稳",
         "先看怎么打",
         "稳一点再动"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "邓肯",
+        "石佛 · 邓肯"
       ]
     },
     {
@@ -22581,6 +22775,12 @@
         "情绪写在脸上",
         "篮板不能丢",
         "把队友带上"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "加内特"
       ]
     },
     {
@@ -22618,6 +22818,12 @@
         "先看怎么打",
         "三分想象力",
         "赛后节目担当"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "东契奇"
       ]
     },
     {
@@ -22655,6 +22861,12 @@
         "关键球敢接",
         "老大式加练",
         "把队友带上"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "巴特勒"
       ]
     },
     {
@@ -22689,6 +22901,12 @@
         "篮板与配色实验室",
         "篮板不能丢",
         "赛后节目担当"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "罗德曼"
       ]
     },
     {
@@ -22721,7 +22939,7 @@
         "extra-fengge-1",
         "extra-fengge-2"
       ],
-      "nickname": "峰哥亡命天涯",
+      "nickname": "峰哥",
       "tags": [
         "亡命天涯",
         "猎奇旅行",
@@ -22733,7 +22951,15 @@
         "镜头外的生活",
         "旅途同行"
       ],
-      "spotlight": true
+      "spotlight": true,
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "峰哥",
+        "峰哥亡命天涯"
+      ],
+      "rosterOrder": 1
     },
     {
       "id": "abstract-huchenfeng",
@@ -22768,7 +22994,16 @@
         "现场观察与提问小组",
         "把更新排明白",
         "拒绝预制感"
-      ]
+      ],
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "户子",
+        "户晨风"
+      ],
+      "nickname": "户子",
+      "rosterOrder": 4
     },
     {
       "id": "abstract-huge",
@@ -22799,7 +23034,7 @@
         "juice",
         "micro"
       ],
-      "nickname": "东北虎哥",
+      "nickname": "虎哥",
       "tags": [
         "东北往事",
         "好果汁",
@@ -22810,7 +23045,15 @@
         "节目效果",
         "说干就干"
       ],
-      "spotlight": true
+      "spotlight": true,
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "虎哥",
+        "东北虎哥"
+      ],
+      "rosterOrder": 3
     },
     {
       "id": "abstract-daoge",
@@ -22854,7 +23097,15 @@
         "热闹优先",
         "现场反应"
       ],
-      "spotlight": true
+      "spotlight": true,
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "刀哥",
+        "东北刀哥"
+      ],
+      "rosterOrder": 2
     },
     {
       "id": "abstract-sunxiaochuan",
@@ -22888,7 +23139,14 @@
         "评论区阅读理解委员",
         "原创吐槽",
         "接住热梗"
-      ]
+      ],
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "孙笑川"
+      ],
+      "rosterOrder": 6
     },
     {
       "id": "abstract-geyou",
@@ -22923,6 +23181,12 @@
         "沙发节能总设计师",
         "安静观察",
         "先照顾感受"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "葛优"
       ]
     },
     {
@@ -22957,6 +23221,12 @@
         "疑惑表情与现场应变",
         "前奏自动启动",
         "拒绝预制感"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "成龙"
       ]
     },
     {
@@ -22991,6 +23261,12 @@
         "离谱方案测试员",
         "拒绝预制感",
         "剪辑二创"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "王老菊"
       ]
     },
     {
@@ -23028,7 +23304,14 @@
         "节目效果优先",
         "复盘比复活快",
         "二段笑预热"
-      ]
+      ],
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "卢本伟"
+      ],
+      "rosterOrder": 14
     },
     {
       "id": "lol-zhouyi",
@@ -23065,6 +23348,12 @@
         "节目效果优先",
         "复盘比复活快",
         "二段笑预热"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "周淑怡"
       ]
     },
     {
@@ -23102,6 +23391,12 @@
         "原创吐槽",
         "拒绝预制感",
         "剪辑二创"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "papi酱"
       ]
     },
     {
@@ -23140,6 +23435,12 @@
         "原创吐槽",
         "安静观察",
         "先照顾感受"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "白客"
       ]
     },
     {
@@ -23177,6 +23478,13 @@
         "有机会就起飞",
         "先往篮下冲",
         "赛后节目担当"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "安东尼·爱德华兹",
+        "华子"
       ]
     },
     {
@@ -23214,6 +23522,12 @@
         "长臂封盖服务",
         "篮板不能丢",
         "先看怎么打"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "文班亚马"
       ]
     },
     {
@@ -23251,6 +23565,12 @@
         "耐心做细节",
         "拒绝预制感",
         "把更新排明白"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "李子柒"
       ]
     },
     {
@@ -23290,6 +23610,12 @@
         "前奏自动启动",
         "剪辑二创",
         "镜头一开就营业"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "摇摆导演"
       ]
     },
     {
@@ -23327,7 +23653,14 @@
       "number": "47",
       "signaturePerks": [
         "personal-xiaoxiao"
-      ]
+      ],
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "笑笑"
+      ],
+      "rosterOrder": 7
     },
     {
       "id": "lol-xika",
@@ -23365,7 +23698,14 @@
       "number": "48",
       "signaturePerks": [
         "personal-xika"
-      ]
+      ],
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "西卡"
+      ],
+      "rosterOrder": 8
     },
     {
       "id": "lol-369",
@@ -23402,6 +23742,12 @@
       "number": "49",
       "signaturePerks": [
         "personal-369"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "369"
       ]
     },
     {
@@ -23439,6 +23785,12 @@
       "number": "50",
       "signaturePerks": [
         "personal-tian"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "Tian"
       ]
     },
     {
@@ -23476,6 +23828,12 @@
       "number": "51",
       "signaturePerks": [
         "personal-bin"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "Bin"
       ]
     },
     {
@@ -23483,7 +23841,7 @@
       "personId": "rookie",
       "theme": "lol",
       "name": "Rookie",
-      "nickname": "肉鸡",
+      "nickname": "Rookie",
       "sub": "肉鸡 · 宋义进 · 中路守门员",
       "roles": [
         2
@@ -23518,7 +23876,15 @@
         "personal-rookie",
         "extra-rookie-1"
       ],
-      "spotlight": true
+      "spotlight": true,
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "Rookie",
+        "肉鸡"
+      ],
+      "rosterOrder": 5
     },
     {
       "id": "lol-showmaker",
@@ -23555,6 +23921,12 @@
       "number": "53",
       "signaturePerks": [
         "personal-showmaker"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "ShowMaker"
       ]
     },
     {
@@ -23592,6 +23964,12 @@
       "number": "54",
       "signaturePerks": [
         "personal-chovy"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "Chovy"
       ]
     },
     {
@@ -23629,6 +24007,12 @@
       "number": "55",
       "signaturePerks": [
         "personal-deft"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "Deft"
       ]
     },
     {
@@ -23666,6 +24050,12 @@
       "number": "56",
       "signaturePerks": [
         "personal-beryl"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "BeryL"
       ]
     },
     {
@@ -23703,7 +24093,14 @@
       "number": "57",
       "signaturePerks": [
         "personal-otto"
-      ]
+      ],
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "电棍"
+      ],
+      "rosterOrder": 16
     },
     {
       "id": "lol-zztai",
@@ -23741,7 +24138,14 @@
       "number": "58",
       "signaturePerks": [
         "personal-zztai"
-      ]
+      ],
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "姿态"
+      ],
+      "rosterOrder": 17
     },
     {
       "id": "lol-kryst4l",
@@ -23778,6 +24182,12 @@
       "number": "59",
       "signaturePerks": [
         "personal-kryst4l"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "水晶哥"
       ]
     },
     {
@@ -23815,6 +24225,12 @@
       "number": "60",
       "signaturePerks": [
         "personal-godv"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "韦神"
       ]
     },
     {
@@ -23852,6 +24268,12 @@
       "number": "61",
       "signaturePerks": [
         "personal-karsa"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "Karsa"
       ]
     },
     {
@@ -23860,7 +24282,7 @@
       "theme": "basket",
       "name": "徐静雨",
       "nickname": "徐静雨",
-      "sub": "雨说体育 · 篮球评论员",
+      "sub": "篮球解说 / 本作娱乐组队设定",
       "roles": [
         0,
         2
@@ -23892,7 +24314,15 @@
       "number": "62",
       "signaturePerks": [
         "personal-xujingyu"
-      ]
+      ],
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "徐静雨"
+      ],
+      "roleType": "commentator",
+      "rosterOrder": 5
     },
     {
       "id": "basket-yangyi",
@@ -23900,7 +24330,7 @@
       "theme": "basket",
       "name": "杨毅",
       "nickname": "杨毅",
-      "sub": "篮球评论员 · 赛场故事位",
+      "sub": "篮球解说 / 本作娱乐组队设定",
       "roles": [
         0,
         4
@@ -23930,7 +24360,15 @@
       "number": "63",
       "signaturePerks": [
         "personal-yangyi"
-      ]
+      ],
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "杨毅"
+      ],
+      "roleType": "commentator",
+      "rosterOrder": 4
     },
     {
       "id": "basket-zhouqi",
@@ -23967,7 +24405,14 @@
       "number": "64",
       "signaturePerks": [
         "personal-zhouqi"
-      ]
+      ],
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "周琦"
+      ],
+      "rosterOrder": 6
     },
     {
       "id": "basket-sunyue-player",
@@ -24005,6 +24450,12 @@
       "number": "65",
       "signaturePerks": [
         "personal-sunyue-player"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "孙悦"
       ]
     },
     {
@@ -24043,6 +24494,12 @@
       "number": "66",
       "signaturePerks": [
         "personal-zhangweiping"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "张卫平"
       ]
     },
     {
@@ -24081,6 +24538,12 @@
       "number": "67",
       "signaturePerks": [
         "personal-suqun"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "苏群"
       ]
     },
     {
@@ -24119,6 +24582,12 @@
       "number": "68",
       "signaturePerks": [
         "personal-yujia"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "于嘉"
       ]
     },
     {
@@ -24157,6 +24626,12 @@
       "number": "69",
       "signaturePerks": [
         "personal-wangmeng"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "王猛"
       ]
     },
     {
@@ -24195,6 +24670,12 @@
       "number": "70",
       "signaturePerks": [
         "personal-yijianlian"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "易建联"
       ]
     },
     {
@@ -24233,6 +24714,12 @@
       "number": "71",
       "signaturePerks": [
         "personal-wangzhizhi"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "王治郅"
       ]
     },
     {
@@ -24271,6 +24758,12 @@
       "number": "72",
       "signaturePerks": [
         "personal-guoailun"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "郭艾伦"
       ]
     },
     {
@@ -24309,6 +24802,12 @@
       "number": "73",
       "signaturePerks": [
         "personal-giannis"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "字母哥"
       ]
     },
     {
@@ -24347,6 +24846,12 @@
       "number": "74",
       "signaturePerks": [
         "personal-kyrie"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "欧文"
       ]
     },
     {
@@ -24384,6 +24889,12 @@
       "number": "75",
       "signaturePerks": [
         "personal-chrispaul"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "保罗"
       ]
     },
     {
@@ -24422,6 +24933,12 @@
       "number": "76",
       "signaturePerks": [
         "personal-carter"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "文斯·卡特"
       ]
     },
     {
@@ -24460,6 +24977,12 @@
       "number": "77",
       "signaturePerks": [
         "personal-tmac"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "麦迪"
       ]
     },
     {
@@ -24498,6 +25021,12 @@
       "number": "78",
       "signaturePerks": [
         "personal-musk"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "马斯克"
       ]
     },
     {
@@ -24536,6 +25065,12 @@
       "number": "79",
       "signaturePerks": [
         "personal-jensen"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "黄仁勋"
       ]
     },
     {
@@ -24574,6 +25109,12 @@
       "number": "80",
       "signaturePerks": [
         "personal-trump"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "川普"
       ]
     },
     {
@@ -24612,6 +25153,12 @@
       "number": "81",
       "signaturePerks": [
         "personal-jackma"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "马云"
       ]
     },
     {
@@ -24650,7 +25197,14 @@
       "number": "82",
       "signaturePerks": [
         "personal-leijun"
-      ]
+      ],
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "雷军"
+      ],
+      "rosterOrder": 8
     },
     {
       "id": "abstract-zhouhongyi",
@@ -24688,6 +25242,12 @@
       "number": "83",
       "signaturePerks": [
         "personal-zhouhongyi"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "周鸿祎"
       ]
     },
     {
@@ -24726,6 +25286,12 @@
       "number": "84",
       "signaturePerks": [
         "personal-liguoqing"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "李国庆"
       ]
     },
     {
@@ -24764,7 +25330,14 @@
       "number": "85",
       "signaturePerks": [
         "personal-luoyonghao"
-      ]
+      ],
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "罗永浩"
+      ],
+      "rosterOrder": 9
     },
     {
       "id": "abstract-dongyuhui",
@@ -24802,6 +25375,12 @@
       "number": "86",
       "signaturePerks": [
         "personal-dongyuhui"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "董宇辉"
       ]
     },
     {
@@ -24840,6 +25419,12 @@
       "number": "87",
       "signaturePerks": [
         "personal-yuminhong"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "俞敏洪"
       ]
     },
     {
@@ -24878,6 +25463,12 @@
       "number": "88",
       "signaturePerks": [
         "personal-luoxiang"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "罗翔"
       ]
     },
     {
@@ -24916,6 +25507,12 @@
       "number": "89",
       "signaturePerks": [
         "personal-guoyoucai"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "郭有才"
       ]
     },
     {
@@ -24954,6 +25551,12 @@
       "number": "90",
       "signaturePerks": [
         "personal-wenhuijun"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "闻会军"
       ]
     },
     {
@@ -24992,6 +25595,12 @@
       "number": "91",
       "signaturePerks": [
         "personal-fengtimo"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "冯提莫"
       ]
     },
     {
@@ -25030,6 +25639,12 @@
       "number": "92",
       "signaturePerks": [
         "personal-lijiaqi"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "李佳琦"
       ]
     },
     {
@@ -25068,6 +25683,12 @@
       "number": "93",
       "signaturePerks": [
         "personal-sunyue-comic"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "孙越"
       ]
     },
     {
@@ -25106,6 +25727,12 @@
       "number": "94",
       "signaturePerks": [
         "personal-guodegang"
+      ],
+      "enabled": false,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "郭德纲"
       ]
     },
     {
@@ -25151,7 +25778,182 @@
         "commentator",
         "extra-dailanzi-2"
       ],
-      "spotlight": true
+      "spotlight": true,
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "带篮子"
+      ],
+      "rosterOrder": 0
+    },
+    {
+      "id": "lol-vincent",
+      "personId": "vincent",
+      "theme": "lol",
+      "name": "文森特",
+      "nickname": "文森特",
+      "sub": "本作娱乐设定 / 联盟主播",
+      "roles": [
+        3
+      ],
+      "vector": [
+        65,
+        88,
+        90,
+        24,
+        90,
+        40
+      ],
+      "behaviorWeights": {
+        "mechanics": 5,
+        "gold": 4,
+        "collector": 4,
+        "engage": 3
+      },
+      "tags": [
+        "德莱文",
+        "双斧",
+        "网吧",
+        "接单"
+      ],
+      "line": "双斧一转，网吧老板开始确认余额。",
+      "signaturePerks": [],
+      "number": 96,
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "文森特"
+      ],
+      "rosterOrder": 4
+    },
+    {
+      "id": "lol-kid",
+      "personId": "kid",
+      "theme": "lol",
+      "name": "Kid",
+      "nickname": "Kid",
+      "sub": "本作娱乐设定 / 联盟主播",
+      "roles": [
+        1,
+        3
+      ],
+      "vector": [
+        40,
+        55,
+        45,
+        80,
+        60,
+        85
+      ],
+      "behaviorWeights": {
+        "plan": 5,
+        "protect": 4,
+        "reset": 3,
+        "vision": 4
+      },
+      "tags": [
+        "小孩游神",
+        "老IG",
+        "打野",
+        "熟人局"
+      ],
+      "line": "老队友点个名，回忆录先开一页。",
+      "signaturePerks": [],
+      "number": 97,
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "Kid",
+        "小孩游神"
+      ],
+      "rosterOrder": 13
+    },
+    {
+      "id": "abstract-us-lecturer",
+      "personId": "us-lecturer",
+      "theme": "abstract",
+      "name": "美国讲师",
+      "nickname": "美国讲师",
+      "sub": "本作娱乐设定 / 互联网人物",
+      "roles": [
+        2,
+        4
+      ],
+      "vector": [
+        68,
+        55,
+        78,
+        65,
+        88,
+        76
+      ],
+      "behaviorWeights": {
+        "abs-route": 5,
+        "abs-observe": 4,
+        "abs-care": 3
+      },
+      "tags": [
+        "丁胖子金牌讲师",
+        "美国讲师",
+        "饭点",
+        "补给",
+        "路线"
+      ],
+      "line": "先把午饭路线讲明白，再研究人生下一站。",
+      "signaturePerks": [],
+      "number": 98,
+      "enabled": true,
+      "tier": "featured",
+      "exposureWeight": 4,
+      "aliases": [
+        "美国讲师",
+        "丁胖子金牌讲师"
+      ],
+      "rosterOrder": 5
+    },
+    {
+      "id": "abstract-yaoshuige",
+      "personId": "yaoshuige",
+      "theme": "abstract",
+      "name": "药水哥",
+      "nickname": "药水哥",
+      "sub": "本作娱乐设定 / 互联网人物",
+      "roles": [
+        3,
+        4
+      ],
+      "vector": [
+        48,
+        76,
+        50,
+        55,
+        30,
+        90
+      ],
+      "behaviorWeights": {
+        "abs-deadpan": 5,
+        "abs-loop": 5,
+        "abs-meme": 3
+      },
+      "tags": [
+        "对视",
+        "复读",
+        "沉默",
+        "节目效果"
+      ],
+      "line": "你等我开口，我等你先笑。",
+      "signaturePerks": [],
+      "number": 99,
+      "enabled": true,
+      "tier": "normal",
+      "exposureWeight": 1,
+      "aliases": [
+        "药水哥"
+      ],
+      "rosterOrder": 7
     }
   ],
   "augments": {
@@ -25206,7 +26008,8 @@
         "signatureFor": [
           "xiaohu",
           "clearlove"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "collector-union",
@@ -25258,7 +26061,8 @@
         },
         "signatureFor": [
           "uzi"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "basic-duty",
@@ -25313,7 +26117,8 @@
           "dasima",
           "knight",
           "faker"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "square-lecture",
@@ -25365,7 +26170,8 @@
         },
         "signatureFor": [
           "dasima"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "fountain-owner",
@@ -25419,7 +26225,8 @@
         "signatureFor": [
           "pdd",
           "dasima"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "feeding-license",
@@ -25472,7 +26279,8 @@
           "ning",
           "jackeylove",
           "theshy"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "all-aboard",
@@ -25526,7 +26334,8 @@
           "ming",
           "doinb",
           "ning"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "where-team",
@@ -25579,7 +26388,8 @@
         "signatureFor": [
           "jackeylove",
           "theshy"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "spring-heater",
@@ -25629,7 +26439,8 @@
         },
         "signatureFor": [
           "xiaohu"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "four-stay-alive",
@@ -25683,7 +26494,8 @@
           "meiko",
           "ming",
           "baolan"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "economy-brain",
@@ -25736,7 +26548,8 @@
         "signatureFor": [
           "uzi",
           "clearlove"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "borrowed-growth",
@@ -25788,7 +26601,8 @@
         "signatureFor": [
           "uzi",
           "pdd"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "blame-master",
@@ -25842,7 +26656,8 @@
         "signatureFor": [
           "pdd",
           "dasima"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "not-a-loss",
@@ -25892,7 +26707,8 @@
         },
         "signatureFor": [
           "dasima"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "life-reroll",
@@ -25944,7 +26760,8 @@
         "signatureFor": [
           "pdd",
           "doinb"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "clown-self",
@@ -25996,7 +26813,8 @@
         "signatureFor": [
           "pdd",
           "ning"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "fountain-range",
@@ -26050,7 +26868,8 @@
         "signatureFor": [
           "uzi",
           "knight"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "ultimate-installment",
@@ -26101,7 +26920,8 @@
         "signatureFor": [
           "xiaohu",
           "faker"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "cosmic-pension",
@@ -26153,7 +26973,8 @@
         "signatureFor": [
           "clearlove",
           "knight"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "bridge-clinic",
@@ -26205,7 +27026,8 @@
         "signatureFor": [
           "meiko",
           "baolan"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "last-last-game",
@@ -26258,7 +27080,8 @@
         "signatureFor": [
           "doinb",
           "pdd"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "revive-cinema",
@@ -26313,7 +27136,8 @@
         "signatureFor": [
           "dasima",
           "pdd"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "champion-script",
@@ -26365,7 +27189,8 @@
         "signatureFor": [
           "uzi",
           "faker"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "snowball-hearse",
@@ -26419,7 +27244,8 @@
         "signatureFor": [
           "ning",
           "jackeylove"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "good-enough",
@@ -26472,7 +27298,8 @@
         "signatureFor": [
           "pdd",
           "baolan"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "double-laugh",
@@ -26522,7 +27349,8 @@
         "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
         "signatureFor": [
           "xiaohu"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "tes-top",
@@ -26575,7 +27403,8 @@
         "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
         "signatureFor": [
           "jackeylove"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "flash-wall",
@@ -26628,7 +27457,8 @@
         "signatureFor": [
           "pdd",
           "ning"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "double-zhonya",
@@ -26680,7 +27510,8 @@
         "signatureFor": [
           "faker",
           "knight"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "six-infinity",
@@ -26737,7 +27568,8 @@
         "signatureFor": [
           "uzi",
           "jackeylove"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "triple-deathcap",
@@ -26790,7 +27622,8 @@
         "signatureFor": [
           "knight",
           "faker"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "calm-before-win",
@@ -26843,7 +27676,8 @@
         "signatureFor": [
           "xiaohu",
           "faker"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "brush-five",
@@ -26898,7 +27732,8 @@
         "signatureFor": [
           "ming",
           "meiko"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "steel-orchestra",
@@ -26953,7 +27788,8 @@
         "signatureFor": [
           "letme",
           "theshy"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "mercury-notice",
@@ -27006,7 +27842,8 @@
         "signatureFor": [
           "uzi",
           "faker"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "five-knives",
@@ -27061,7 +27898,8 @@
         "signatureFor": [
           "uzi",
           "knight"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "gold-rain",
@@ -27116,7 +27954,8 @@
             "SummonerHeal"
           ],
           "label": "人物联动 · 真实图标梗改"
-        }
+        },
+        "enabled": true
       },
       {
         "id": "mini-map",
@@ -27169,7 +28008,8 @@
             "item-2055"
           ],
           "label": "人物联动 · 真实图标梗改"
-        }
+        },
+        "enabled": true
       },
       {
         "id": "one-more-hit",
@@ -27222,7 +28062,8 @@
             "SummonerHeal"
           ],
           "label": "人物联动 · 真实图标梗改"
-        }
+        },
+        "enabled": true
       },
       {
         "id": "lane-umbrella",
@@ -27275,7 +28116,8 @@
             "SummonerBarrier"
           ],
           "label": "人物联动 · 真实图标梗改"
-        }
+        },
+        "enabled": true
       },
       {
         "id": "five-names",
@@ -27328,7 +28170,8 @@
             "SummonerHeal"
           ],
           "label": "人物联动 · 真实图标梗改"
-        }
+        },
+        "enabled": true
       },
       {
         "id": "s8-rewrite",
@@ -27383,7 +28226,8 @@
             "item-6676"
           ],
           "label": "人物联动 · 真实图标梗改"
-        }
+        },
+        "enabled": true
       },
       {
         "id": "personal-xiaoxiao",
@@ -27437,7 +28281,8 @@
             "SummonerHeal"
           ],
           "label": "德云色双声道"
-        }
+        },
+        "enabled": true
       },
       {
         "id": "personal-xika",
@@ -27491,7 +28336,8 @@
             "item-3157"
           ],
           "label": "西卡接话器"
-        }
+        },
+        "enabled": true
       },
       {
         "id": "personal-369",
@@ -27545,7 +28391,8 @@
             "item-6676"
           ],
           "label": "骰子保底九"
-        }
+        },
+        "enabled": false
       },
       {
         "id": "personal-tian",
@@ -27599,7 +28446,8 @@
             "item-6676"
           ],
           "label": "天选绕后路线"
-        }
+        },
+        "enabled": false
       },
       {
         "id": "personal-bin",
@@ -27653,7 +28501,8 @@
             "item-6676"
           ],
           "label": "Bin式自信额"
-        }
+        },
+        "enabled": false
       },
       {
         "id": "personal-rookie",
@@ -27709,7 +28558,8 @@
             "item-3157"
           ],
           "label": "中路急诊室"
-        }
+        },
+        "enabled": true
       },
       {
         "id": "personal-showmaker",
@@ -27763,7 +28613,8 @@
             "item-3157"
           ],
           "label": "许秀表情管理"
-        }
+        },
+        "enabled": false
       },
       {
         "id": "personal-chovy",
@@ -27817,7 +28668,8 @@
             "item-3157"
           ],
           "label": "一刀都不能少"
-        }
+        },
+        "enabled": false
       },
       {
         "id": "personal-deft",
@@ -27871,7 +28723,8 @@
             "item-6676"
           ],
           "label": "最后一舞加更"
-        }
+        },
+        "enabled": false
       },
       {
         "id": "personal-beryl",
@@ -27925,7 +28778,8 @@
             "SummonerHeal"
           ],
           "label": "辅助外置大脑"
-        }
+        },
+        "enabled": false
       },
       {
         "id": "personal-otto",
@@ -27979,7 +28833,8 @@
             "item-3157"
           ],
           "label": "稳健先缓一缓"
-        }
+        },
+        "enabled": true
       },
       {
         "id": "personal-zztai",
@@ -28033,7 +28888,8 @@
             "item-3157"
           ],
           "label": "直播间笑场险"
-        }
+        },
+        "enabled": true
       },
       {
         "id": "personal-kryst4l",
@@ -28087,7 +28943,8 @@
             "item-6676"
           ],
           "label": "刚子逐帧回放"
-        }
+        },
+        "enabled": false
       },
       {
         "id": "personal-godv",
@@ -28141,7 +28998,8 @@
             "item-3157"
           ],
           "label": "反向也有镜头"
-        }
+        },
+        "enabled": false
       },
       {
         "id": "personal-karsa",
@@ -28195,7 +29053,8 @@
             "item-6676"
           ],
           "label": "雷达提前三秒"
-        }
+        },
+        "enabled": false
       },
       {
         "id": "personal-luobenwei",
@@ -28251,7 +29110,8 @@
             "SummonerFlash"
           ],
           "label": "直播续订"
-        }
+        },
+        "enabled": true
       },
       {
         "id": "personal-zhouyi",
@@ -28307,7 +29167,8 @@
             "SummonerFlash"
           ],
           "label": "直播续订"
-        }
+        },
+        "enabled": false
       },
       {
         "id": "extra-rookie-1",
@@ -28357,7 +29218,8 @@
             "item-3190"
           ],
           "label": "中路值班"
-        }
+        },
+        "enabled": true
       }
     ],
     "basket": [
@@ -28391,7 +29253,8 @@
         ],
         "requires": [
           "nba-emotion"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "logo",
@@ -28425,7 +29288,8 @@
         ],
         "requires": [
           "nba-three"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "board",
@@ -28459,7 +29323,8 @@
         ],
         "requires": [
           "nba-rebound"
-        ]
+        ],
+        "enabled": false
       },
       {
         "id": "coffee",
@@ -28495,7 +29360,8 @@
         ],
         "requires": [
           "nba-clutch"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "meme",
@@ -28531,7 +29397,8 @@
         "requires": [
           "nba-show",
           "nba-drive"
-        ]
+        ],
+        "enabled": false
       },
       {
         "id": "team",
@@ -28567,7 +29434,8 @@
         ],
         "requires": [
           "nba-team"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "mamba-clock",
@@ -28610,7 +29478,8 @@
         "rarity": "kPrismatic",
         "category": "人物联动",
         "kind": "basic",
-        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+        "enabled": true
       },
       {
         "id": "goodnight-three",
@@ -28652,7 +29521,8 @@
         "rarity": "kPrismatic",
         "category": "人物联动",
         "kind": "basic",
-        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+        "enabled": true
       },
       {
         "id": "ant-takeoff",
@@ -28694,7 +29564,8 @@
         "rarity": "kPrismatic",
         "category": "人物联动",
         "kind": "basic",
-        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+        "enabled": false
       },
       {
         "id": "alien-arms",
@@ -28736,7 +29607,8 @@
         "rarity": "kPrismatic",
         "category": "人物联动",
         "kind": "basic",
-        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+        "enabled": false
       },
       {
         "id": "stone-face",
@@ -28778,7 +29650,8 @@
         "rarity": "kPrismatic",
         "category": "人物联动",
         "kind": "basic",
-        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+        "enabled": false
       },
       {
         "id": "horse-shift",
@@ -28821,7 +29694,8 @@
         "rarity": "kPrismatic",
         "category": "人物联动",
         "kind": "basic",
-        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+        "enabled": false
       },
       {
         "id": "stepback-route",
@@ -28868,7 +29742,8 @@
         "rarity": "kPrismatic",
         "category": "人物联动",
         "kind": "basic",
-        "creation": "本作原创恶搞设定；人物联动为平行宇宙娱乐创作。"
+        "creation": "本作原创恶搞设定；人物联动为平行宇宙娱乐创作。",
+        "enabled": true
       },
       {
         "id": "personal-xujingyu",
@@ -28914,7 +29789,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": true
       },
       {
         "id": "personal-yangyi",
@@ -28960,7 +29836,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": true
       },
       {
         "id": "personal-zhouqi",
@@ -29006,7 +29883,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": true
       },
       {
         "id": "personal-sunyue-player",
@@ -29052,7 +29930,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-zhangweiping",
@@ -29098,7 +29977,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-suqun",
@@ -29144,7 +30024,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-yujia",
@@ -29190,7 +30071,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-wangmeng",
@@ -29236,7 +30118,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-yijianlian",
@@ -29282,7 +30165,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-wangzhizhi",
@@ -29328,7 +30212,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-guoailun",
@@ -29374,7 +30259,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-giannis",
@@ -29420,7 +30306,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-kyrie",
@@ -29466,7 +30353,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-chrispaul",
@@ -29512,7 +30400,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-carter",
@@ -29558,7 +30447,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-tmac",
@@ -29604,7 +30494,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       }
     ],
     "abstract": [
@@ -29640,7 +30531,8 @@
         ],
         "requires": [
           "web-meme"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "commentator",
@@ -29672,7 +30564,8 @@
         ],
         "requires": [
           "web-plan"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "portal",
@@ -29704,7 +30597,8 @@
         ],
         "requires": [
           "web-travel"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "sofa",
@@ -29738,7 +30632,8 @@
         ],
         "requires": [
           "web-watch"
-        ]
+        ],
+        "enabled": false
       },
       {
         "id": "micro",
@@ -29770,7 +30665,8 @@
         ],
         "requires": [
           "web-live"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "clipboard",
@@ -29802,7 +30698,8 @@
         ],
         "requires": [
           "web-plan"
-        ]
+        ],
+        "enabled": true
       },
       {
         "id": "auto-dance",
@@ -29846,7 +30743,8 @@
         "rarity": "kPrismatic",
         "category": "人物联动",
         "kind": "basic",
-        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+        "enabled": false
       },
       {
         "id": "cover-key",
@@ -29888,7 +30786,8 @@
         "rarity": "kPrismatic",
         "category": "人物联动",
         "kind": "basic",
-        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+        "enabled": false
       },
       {
         "id": "no-precut",
@@ -29933,7 +30832,8 @@
         "rarity": "kPrismatic",
         "category": "人物联动",
         "kind": "basic",
-        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+        "enabled": false
       },
       {
         "id": "love-yourself",
@@ -29976,7 +30876,8 @@
         "rarity": "kPrismatic",
         "category": "人物联动",
         "kind": "basic",
-        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+        "enabled": false
       },
       {
         "id": "one-at-time",
@@ -30018,7 +30919,8 @@
         "rarity": "kPrismatic",
         "category": "人物联动",
         "kind": "basic",
-        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+        "enabled": true
       },
       {
         "id": "slow-craft",
@@ -30062,7 +30964,8 @@
         "rarity": "kPrismatic",
         "category": "人物联动",
         "kind": "basic",
-        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+        "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+        "enabled": false
       },
       {
         "id": "punchline-shield",
@@ -30109,7 +31012,8 @@
         "rarity": "kPrismatic",
         "category": "人物联动",
         "kind": "basic",
-        "creation": "本作原创恶搞设定；人物联动为平行宇宙娱乐创作。"
+        "creation": "本作原创恶搞设定；人物联动为平行宇宙娱乐创作。",
+        "enabled": true
       },
       {
         "id": "personal-musk",
@@ -30155,7 +31059,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-jensen",
@@ -30201,7 +31106,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-trump",
@@ -30247,7 +31153,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-jackma",
@@ -30293,7 +31200,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-leijun",
@@ -30339,7 +31247,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": true
       },
       {
         "id": "personal-zhouhongyi",
@@ -30385,7 +31294,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-liguoqing",
@@ -30431,7 +31341,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-luoyonghao",
@@ -30477,7 +31388,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": true
       },
       {
         "id": "personal-dongyuhui",
@@ -30523,7 +31435,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-yuminhong",
@@ -30569,7 +31482,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-luoxiang",
@@ -30615,7 +31529,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-guoyoucai",
@@ -30661,7 +31576,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-wenhuijun",
@@ -30707,7 +31623,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-fengtimo",
@@ -30753,7 +31670,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-lijiaqi",
@@ -30799,7 +31717,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-sunyue-comic",
@@ -30845,7 +31764,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-guodegang",
@@ -30891,7 +31811,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": false
       },
       {
         "id": "personal-dailanzi",
@@ -30939,7 +31860,8 @@
         "category": "人物专属",
         "kind": "chaos",
         "creation": "本作原创人物联动梗卡；效果为娱乐设定，不是官方天赋或本人言论。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": true
       },
       {
         "id": "extra-fengge-1",
@@ -30981,7 +31903,8 @@
         "category": "主角联动",
         "kind": "chaos",
         "creation": "本作原创人物联动，架空娱乐效果。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": true
       },
       {
         "id": "extra-fengge-2",
@@ -31023,7 +31946,8 @@
         "category": "主角联动",
         "kind": "chaos",
         "creation": "本作原创人物联动，架空娱乐效果。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": true
       },
       {
         "id": "extra-daoge-1",
@@ -31065,7 +31989,8 @@
         "category": "主角联动",
         "kind": "chaos",
         "creation": "本作原创人物联动，架空娱乐效果。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": true
       },
       {
         "id": "extra-daoge-2",
@@ -31107,7 +32032,8 @@
         "category": "主角联动",
         "kind": "chaos",
         "creation": "本作原创人物联动，架空娱乐效果。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": true
       },
       {
         "id": "extra-dailanzi-2",
@@ -31149,7 +32075,8 @@
         "category": "主角联动",
         "kind": "chaos",
         "creation": "本作原创人物联动，架空娱乐效果。",
-        "personOnly": true
+        "personOnly": true,
+        "enabled": true
       }
     ]
   },
@@ -31371,24 +32298,24 @@
     "questions": 348,
     "lolQuestions": 168,
     "lolChapters": 42,
-    "people": 95,
-    "parodyCards": 125,
+    "people": 40,
+    "parodyCards": 74,
     "lolParodyCards": 60,
     "byTheme": {
       "lol": {
         "questions": 168,
-        "people": 32,
-        "cards": 60
+        "people": 20,
+        "cards": 49
       },
       "basket": {
         "questions": 84,
-        "people": 33,
-        "cards": 29
+        "people": 10,
+        "cards": 10
       },
       "abstract": {
         "questions": 96,
-        "people": 30,
-        "cards": 36
+        "people": 10,
+        "cards": 15
       }
     }
   },
@@ -31509,5 +32436,12 @@
         ]
       }
     ]
+  },
+  "rosterPolicy": {
+    "featuredWeight": 4,
+    "normalWeight": 1,
+    "nearTop": 5,
+    "maxBonus": 4,
+    "note": "编辑曝光配置，不是实时人气榜"
   }
 }

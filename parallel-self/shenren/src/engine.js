@@ -11,6 +11,12 @@ function artLayout(a){
  const points=n===1?[[.19,.19,.62,0]]:l==='grid'?icons.map((_,i)=>[.02+(i%3)*.33,.17+Math.floor(i/3)*.34,.30,0]):l==='square'?[[.07,.07,.36,-8],[.57,.07,.36,8],[.07,.57,.36,8],[.57,.57,.36,-8]]:l==='ring'?icons.map((_,i)=>{const t=-Math.PI/2+i*Math.PI*2/n;return [.33+Math.cos(t)*.28,.33+Math.sin(t)*.28,.34,i*15-15];}):l==='row'?icons.map((_,i)=>[.03+i*(.94-.40)/Math.max(1,n-1),.30+(i%2)*.1,.40,(i-(n-1)/2)*10]):n===2?[[.04,.28,.47,-15],[.49,.19,.47,15]]:n===3?[[.03,.35,.47,-17],[.51,.35,.47,17],[.27,.07,.47,0]]:n===4?[[.05,.14,.4,-15],[.55,.14,.4,15],[.05,.55,.4,-8],[.55,.55,.4,8]]:[[.03,.14,.37,-17],[.23,.04,.37,-8],[.43,.04,.37,8],[.62,.14,.37,17],[.29,.53,.43,0]];
  return icons.map((icon,i)=>({icon,x:points[i][0],y:points[i][1],size:points[i][2],rotation:points[i][3]}));
 }
+function enabledPeople(data,theme=null){return data.characters.filter(p=>p.enabled!==false&&(!theme||p.theme===theme)).sort((a,b)=>(a.rosterOrder||0)-(b.rosterOrder||0));}
+function enabledCards(data,theme=null){return [].concat(...Object.keys(data.augments).filter(t=>!theme||t===theme).map(t=>data.augments[t])).filter(a=>a.enabled!==false);}
+function searchPeople(data,theme,query=''){const q=query.trim().toLowerCase();return enabledPeople(data,theme==='all'?null:theme).filter(p=>[p.name,p.nickname].concat(p.aliases||[],p.tags||[]).join(' ').toLowerCase().includes(q));}
+function resolvePerson(data,value){const q=String(value).toLowerCase();return data.characters.find(p=>p.id===value||p.personId===value||(p.aliases||[p.name,p.nickname]).some(a=>a&&a.toLowerCase()===q))||null;}
+function applyExposure(candidates,policy={}){const top=Math.max(...candidates.map(p=>p.rawMatch)),near=policy.nearTop===undefined?5:Math.min(5,policy.nearTop),max=policy.maxBonus===undefined?4:Math.min(4,Math.max(0,policy.maxBonus));return candidates.map(p=>Object.assign({},p,{match:p.rawMatch,editorialBonus:p.tier==='featured'&&top-p.rawMatch<=near?max:0})).sort((a,b)=>(b.rawMatch+b.editorialBonus)-(a.rawMatch+a.editorialBonus)||b.rawMatch-a.rawMatch||a.id.localeCompare(b.id));}
+function exposureSample(data,theme,n=1,rng=random){const pool=enabledPeople(data,theme).slice(),out=[];while(pool.length&&out.length<n){let x=rng()*pool.reduce((sum,p)=>sum+p.exposureWeight,0),i=0;for(;i<pool.length-1;i++){x-=pool[i].exposureWeight;if(x<0)break;}out.push(pool.splice(i,1)[0]);}return out;}
 function draw(data,theme,count,previousFirst=null,rng=random,series='all'){
  if(!data.themes.some(t=>t.id===theme)||!data.modes.includes(count))throw Error('不支持的主题或题量');
  if(theme==='lol'&&!['all','hex','rift'].includes(series))throw Error('不支持的联盟系列');
@@ -58,10 +64,11 @@ function similarity(a,b){return Math.round(100*(1-a.reduce((s,v,i)=>s+Math.abs(v
 function responseWeight(q){return q.importance||1;}
 function behaviorFit(rows,weights={}){const total=rows.reduce((sum,{q})=>sum+responseWeight(q),0);return total?100*rows.reduce((sum,{q,o})=>sum+(weights[o.behavior]||0)*responseWeight(q),0)/(5*total):0;}
 function cardEvidence(rows,card){return rows.map(({q,o},index)=>({id:q.id,scene:q.scene,choice:o.text,behavior:o.behavior,strength:((card.behaviorWeights&&card.behaviorWeights[o.behavior])||0)*responseWeight(q),index})).filter(e=>e.strength>0).sort((a,b)=>b.strength-a.strength||a.index-b.index);}
-function rankPeople(s,data,vector){const pool=data.characters.filter(p=>p.theme===s.theme),rows=selections(s,data);return pool.map(p=>Object.assign({},p,{match:Math.round(.65*similarity(vector,p.vector)+.35*behaviorFit(rows,p.behaviorWeights)+20*rows.filter(({q,o})=>p.sceneBonds&&p.sceneBonds[q.chapter]&&p.sceneBonds[q.chapter].includes(o.behavior)).length/rows.length)})).sort((a,b)=>b.match-a.match||a.id.localeCompare(b.id));}
+function rankPeople(s,data,vector){const rows=selections(s,data);return applyExposure(enabledPeople(data,s.theme).map(p=>Object.assign({},p,{rawMatch:Math.round(.65*similarity(vector,p.vector)+.35*behaviorFit(rows,p.behaviorWeights))})),data.rosterPolicy);}
+
 function recommend(s,data,vector=score(s,data),identity=null){
  const rows=selections(s,data);if(!identity)identity=rankPeople(s,data,vector)[0];
- return data.augments[s.theme].filter(a=>!a.personOnly||(a.signatureFor||[]).includes(identity.personId)).filter(a=>!(a.requires||[]).length||(a.requires||[]).some(b=>rows.some(({o})=>o.behavior===b))).map(a=>{
+ return enabledCards(data,s.theme).filter(a=>!a.personOnly||(a.signatureFor||[]).includes(identity.personId)).filter(a=>!(a.requires||[]).length||(a.requires||[]).some(b=>rows.some(({o})=>o.behavior===b))).map(a=>{
   const v=a.vector||a.bias.map(n=>Math.max(0,Math.min(100,50+n*40))),evidence=cardEvidence(rows,a);
   const behavior=behaviorFit(rows,a.behaviorWeights),bonus=(a.affinities||[]).includes(identity.personId)?5:0;
   const match=Math.round(.42*similarity(vector,v)+.53*behavior+bonus);
@@ -101,13 +108,13 @@ function buildTeam(vector,characters,identity,augment){
 function squadError(ids,theme,data,free=false,partial=false){
  if(!Array.isArray(ids)||ids.length!==5)return '请选择五个位置';
  const chosen=ids.filter(Boolean);if(!partial&&chosen.length!==5)return '还没选满五个人';
- const people=[];for(let i=0;i<5;i++){if(!ids[i])continue;const p=data.characters.find(p=>p.id===ids[i]&&p.theme===theme);if(!p)return '只能选择当前主题的人物';if(people.includes(p.personId))return '同一个人不能重复出场';people.push(p.personId);if(!free&&!p.roles.includes(i))return '这个位置不合适，可开启自由整活';}return '';
+ const people=[];for(let i=0;i<5;i++){if(!ids[i])continue;const p=enabledPeople(data,theme).find(p=>p.id===ids[i]);if(!p)return '只能选择当前主题的人物';if(people.includes(p.personId))return '同一个人不能重复出场';people.push(p.personId);if(!free&&!p.roles.includes(i))return '这个位置不合适，可开启自由整活';}return '';
 }
 function fillSquad(ids,theme,data,vector,free=false){
  const err=squadError(ids,theme,data,free,true);if(err)throw Error(err);
  const fixed=ids.map(id=>id?data.characters.find(p=>p.id===id):null),used=fixed.filter(Boolean).map(p=>p.personId);let mask=0;fixed.forEach((p,i)=>{if(p)mask|=1<<i;});
  let states=Array(32).fill(null);states[mask]={value:0,slots:fixed.slice()};
- for(const p of data.characters.filter(p=>p.theme===theme&&!used.includes(p.personId))){const next=states.slice();for(let m=0;m<32;m++){const prev=states[m];if(!prev)continue;for(let i=0;i<5;i++){if((m&(1<<i))||(!free&&!p.roles.includes(i)))continue;const val=prev.value+similarity(vector,p.vector)+(p.roles[0]===i?12:p.roles.includes(i)?7:-15),to=m|(1<<i);if(!next[to]||val>next[to].value){const slots=prev.slots.slice();slots[i]=p;next[to]={value:val,slots};}}}states=next;}
+ for(const p of enabledPeople(data,theme).filter(p=>!used.includes(p.personId))){const next=states.slice();for(let m=0;m<32;m++){const prev=states[m];if(!prev)continue;for(let i=0;i<5;i++){if((m&(1<<i))||(!free&&!p.roles.includes(i)))continue;const val=prev.value+similarity(vector,p.vector)+(p.roles[0]===i?12:p.roles.includes(i)?7:-15),to=m|(1<<i);if(!next[to]||val>next[to].value){const slots=prev.slots.slice();slots[i]=p;next[to]={value:val,slots};}}}states=next;}
  if(!states[31])throw Error('当前选择无法补齐五个位置；请换人或开启自由整活');return states[31].slots.map(p=>p.id);
 }
 function customSquad(ids,theme,data,vector,identity,augment,free=false){
@@ -158,5 +165,5 @@ function analyze(session,data){
  const bond=recommendations.find(a=>(a.signatureFor||[]).includes(identity.personId))||null;
  return {vector,identity,ranked,profile,augment,recommendations,bond,team:linkTeam(buildTeam(vector,ranked,identity,augment),augment,session.theme),story:narrative(identity,session.theme,profile,session.series,augment),signature:Object.entries(rows.reduce((sum,{o})=>{sum[o.behavior]=(sum[o.behavior]||0)+1;return sum;},{})).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,3).map(([id,count])=>({id,count,label:data.behaviorLabels[id]})),evidence,coverage:dimsFor(session.theme).map(dim=>session.theme==='lol'?session.count:rows.filter(({q})=>q.dim===dim).length)};
 }
-return {dimIds,lolDimIds,dimsFor,shuffle,draw,valid,score,similarity,analyze,buildTeam,narrative,recommend,context,selections,questionAt,rankPeople,behaviorFit,artLayout,recordAnswer,squadError,fillSquad,customSquad};
+return {enabledPeople,enabledCards,searchPeople,resolvePerson,applyExposure,exposureSample,dimIds,lolDimIds,dimsFor,shuffle,draw,valid,score,similarity,analyze,buildTeam,narrative,recommend,context,selections,questionAt,rankPeople,behaviorFit,artLayout,recordAnswer,squadError,fillSquad,customSquad};
 });

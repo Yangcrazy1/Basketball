@@ -160,6 +160,13 @@
       "height": 1024,
       "sha256": "bf9d46b2ccfe6b57bfd48fed51549974f91f851195a18a21ecc7a71240ba865e",
       "generatedOriginalName": "exec-354063d7-5294-4d15-852a-0f955f4da418.png"
+    },
+    {
+      "asset": "portraits-v11-dailanzi.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "76565231d64f09927538aa6c078f6fd941acf89d22d36a4c9d3c9a419c006135",
+      "generatedOriginalName": "exec-85eda6e9-6e2f-4e0d-af08-b80673fd35a1.png"
     }
   ],
   "portraits": {
@@ -535,6 +542,19 @@
       "cell": 3
     },
     "dailanzi": {
+      "sheet": 23,
+      "cell": 0
+    },
+    "vincent": {
+      "pending": true
+    },
+    "kid": {
+      "pending": true
+    },
+    "us-lecturer": {
+      "pending": true
+    },
+    "yaoshuige": {
       "pending": true
     }
   }
