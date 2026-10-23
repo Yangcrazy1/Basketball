@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "url": "https://yangcrazy1.github.io/Basketball/?v=9-worlds",
+  "download_page": "https://yangcrazy1.github.io/Basketball/download/?v=9-worlds",
+  "source_commit": "c675c3fc9a0fee77a491674fa0f28e3021ad8d88",
+  "html_sha256": "4ff413a1ff12ea29ba44781ab7896c1d6f15ef9e2e572100f1ecca5ef2e1fbdc",
+  "html_bytes": 6453861,
+  "checks": [
+    "public root and single-file endpoint serve HTTP 200 and exactly the browser-tested release bytes",
+    "actual public mobile viewport starts V9 with three boards and only one combined League entry",
+    "public Collector sample restores the mandatory Collector response and five real item copies",
+    "public lol eight-question flow auto-advances to its person, themed Hex and five-person team",
+    "public basket eight-question flow auto-advances to its person, themed Hex and five-person team",
+    "public abstract eight-question flow auto-advances to its person, themed Hex and five-person team",
+    "public app actually downloads a 1080x1920 PNG and the complete V9 offline HTML",
+    "public download page actually saves exactly the released self-contained HTML file"
+  ],
+  "javascript_errors": [],
+  "checked_at": "2026-10-23T12:27:14.298511+00:00",
+  "scope": "Actual public HTTPS host, Chromium 390px responsive viewport and real downloads; no physical phone hardware test"
+}

@@ -17,3 +17,5 @@
 | ![夜场](preview-night.png) | ![奶油](preview-paper.png) |
 
 [金闪闪队NBA首页](preview-nba.png) · [抽象热梗首页](preview-abstract.png) · [人物联动结果](preview-result.png) · [五把收集者海报](preview-poster.png) · [源码与构建](../README.md)
+
+已通过19项引擎、15项浏览器和8项公网检查。三个板块均已在公网手机尺寸浏览器中实际完成自动跳题，PNG和HTML实际下载成功，下载HTML哈希与受测文件一致。

@@ -40,3 +40,5 @@ python tests/public-web-check.py
 核心内容在 `src/data.json`，匹配、答题提交与联动在 `src/engine.js`，界面和海报在 `src/app.js`。`tools/v9-content.py`、`tools/v9-interface.py` 是从V8升级的制作脚本，不是普通构建前置；构建直接使用已完成源文件。
 
 验证报告为 `docs/browser-check-v9.json` 和 `docs/web-verification-v9.json`，覆盖单次点选、防连点、改选、三板块各题量、人物联动、真实下载和导出文件断网载入。测试范围是 Chromium 手机尺寸，不是实体手机硬件；云浏览器管理策略阻止 file:// 导航，离线检查以导出内容断网载入进行。
+
+本次交付已通过19项引擎、15项浏览器和8项真实公网HTTPS检查。首页与实际下载HTML均与本地受测文件逐字节一致，SHA-256为 `4ff413a1ff12ea29ba44781ab7896c1d6f15ef9e2e572100f1ecca5ef2e1fbdc`。
