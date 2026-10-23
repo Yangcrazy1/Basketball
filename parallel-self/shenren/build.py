@@ -11,7 +11,7 @@ icons=json.loads((root/'assets/game-icon-sources.json').read_text())
 game_icons={s['id']:dict(s,url=data_url(s['asset'],'image/png'),sourceURL=s['url']) for s in icons}
 for a in data['augments']['lol']:
     assert a['visual']['icons'] and all(i in game_icons for i in a['visual']['icons'])
-branding={name:data_url('branding/'+file,'image/webp') for name,file in {'logo':'logo.webp','cover':'cover.webp','intro':'intro.webp','uziEnding':'uzi-ending.webp'}.items()}
+branding={name:data_url('branding/'+file,'image/webp') for name,file in {'logo':'logo.webp','cover':'cover.webp','intro':'intro.webp','home':'home-v11.webp','uziEnding':'uzi-ending.webp'}.items()}
 values={'__BRANDING__':js(branding),'__CSS__':(root/'src/style.css').read_text(),'__ENGINE__':(root/'src/legacy/engine.js').read_text().replace('root.ShenrenEngine','root.ShenrenLegacyEngine')+'\n'+(root/'src/engine.js').read_text(),'__APP__':(root/'src/app.js').read_text(),'__LEGACY_DATA__':js(json.loads((root/'src/legacy/data.json').read_text())),'__DATA__':js(data),'__ATLASES__':js(sheets),'__PORTRAITS__':js(atlas['portraits']),'__PERKS__':js(perk),'__SOURCES__':js(sources),'__GAME_ICONS__':js(game_icons),'__MEME_BANNER__':js(data_url('equipment-meme-banner-v8.webp','image/webp'))}
 html=(root/'src/template.html').read_text()
 for k,v in values.items():html=html.replace(k,v)
