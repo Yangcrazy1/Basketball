@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    "all five versioned previews resolve, final HTML hashes match, production remains V10",
+    "public home, 40-person pool, alias search and three signature cards work in the real published candidate",
+    "public lol quiz completes with reveal, evidence, personal gifts and five-person squad",
+    "public basket quiz completes with reveal, evidence, personal gifts and five-person squad",
+    "public abstract quiz completes with reveal, evidence, personal gifts and five-person squad",
+    "published candidate downloads an actual PNG and the complete tested offline HTML"
+  ],
+  "count": 6,
+  "url": "https://yangcrazy1.github.io/Basketball/preview/v11/r5/",
+  "sha256": "70f58fd164a7e991fd1e979ccf0be98f27316d32cc6a5288ea2d2bca4cd01597",
+  "checkedAt": "2026-10-23T16:49:24.662522+00:00",
+  "device": "393x852 Chromium mobile viewport, not a physical phone"
+}
