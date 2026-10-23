@@ -46,17 +46,21 @@
           "item-3075"
         ],
         "label": "人齐再开"
-      }
+      },
+      "signatureFor": [
+        "xiaohu",
+        "clearlove"
+      ]
     },
     {
       "id": "collector-union",
-      "name": "第五位收集者",
+      "name": "必须出收集者",
       "icon": 1,
       "category": "经济",
       "rarity": "kPrismatic",
       "effect": "获得五把收集者的视觉排面。\n最后一口只有一个，抢的人有五个。",
-      "punchline": "装备可以复制，击杀不能平均分。",
-      "line": "装备可以复制，击杀不能平均分。",
+      "punchline": "队友四把都出了，第五把必须有我的名字。",
+      "line": "队友四把都出了，第五把必须有我的名字。",
       "vector": [
         58,
         98,
@@ -95,7 +99,10 @@
           "item-6676"
         ],
         "label": "收集者 ×5"
-      }
+      },
+      "signatureFor": [
+        "uzi"
+      ]
     },
     {
       "id": "basic-duty",
@@ -145,7 +152,12 @@
           "item-1036"
         ],
         "label": "长剑 ×4"
-      }
+      },
+      "signatureFor": [
+        "dasima",
+        "knight",
+        "faker"
+      ]
     },
     {
       "id": "square-lecture",
@@ -194,7 +206,10 @@
           "item-3364"
         ],
         "label": "四条边都扫过"
-      }
+      },
+      "signatureFor": [
+        "dasima"
+      ]
     },
     {
       "id": "fountain-owner",
@@ -244,7 +259,11 @@
           "item-3363"
         ],
         "label": "远见改造 ×3"
-      }
+      },
+      "signatureFor": [
+        "pdd",
+        "dasima"
+      ]
     },
     {
       "id": "feeding-license",
@@ -292,7 +311,12 @@
           "SummonerSnowball"
         ],
         "label": "雪球 ×3"
-      }
+      },
+      "signatureFor": [
+        "ning",
+        "jackeylove",
+        "theshy"
+      ]
     },
     {
       "id": "all-aboard",
@@ -341,7 +365,12 @@
           "SummonerTeleport"
         ],
         "label": "三个都能赶路"
-      }
+      },
+      "signatureFor": [
+        "ming",
+        "doinb",
+        "ning"
+      ]
     },
     {
       "id": "where-team",
@@ -390,7 +419,11 @@
           "item-3363"
         ],
         "label": "四个队友在哪"
-      }
+      },
+      "signatureFor": [
+        "jackeylove",
+        "theshy"
+      ]
     },
     {
       "id": "spring-heater",
@@ -437,7 +470,10 @@
           "item-3087"
         ],
         "label": "电刀 ×3"
-      }
+      },
+      "signatureFor": [
+        "xiaohu"
+      ]
     },
     {
       "id": "four-stay-alive",
@@ -486,7 +522,12 @@
           "item-3075"
         ],
         "label": "前排售后套餐"
-      }
+      },
+      "signatureFor": [
+        "meiko",
+        "ming",
+        "baolan"
+      ]
     },
     {
       "id": "economy-brain",
@@ -535,7 +576,11 @@
           "item-1083"
         ],
         "label": "萃取 ×4"
-      }
+      },
+      "signatureFor": [
+        "uzi",
+        "clearlove"
+      ]
     },
     {
       "id": "borrowed-growth",
@@ -583,7 +628,11 @@
           "item-3089"
         ],
         "label": "梦想先装满"
-      }
+      },
+      "signatureFor": [
+        "uzi",
+        "pdd"
+      ]
     },
     {
       "id": "blame-master",
@@ -633,7 +682,11 @@
           "item-3364"
         ],
         "label": "复活后开始扫描"
-      }
+      },
+      "signatureFor": [
+        "pdd",
+        "dasima"
+      ]
     },
     {
       "id": "not-a-loss",
@@ -680,7 +733,10 @@
           "item-1036"
         ],
         "label": "逼了两个闪现"
-      }
+      },
+      "signatureFor": [
+        "dasima"
+      ]
     },
     {
       "id": "life-reroll",
@@ -728,7 +784,11 @@
           "item-2055"
         ],
         "label": "再看一次命运"
-      }
+      },
+      "signatureFor": [
+        "pdd",
+        "doinb"
+      ]
     },
     {
       "id": "clown-self",
@@ -776,7 +836,11 @@
           "SummonerDot"
         ],
         "label": "主角进场三件套"
-      }
+      },
+      "signatureFor": [
+        "pdd",
+        "ning"
+      ]
     },
     {
       "id": "fountain-range",
@@ -826,7 +890,11 @@
           "item-3363"
         ],
         "label": "看得见不等于打得到"
-      }
+      },
+      "signatureFor": [
+        "uzi",
+        "knight"
+      ]
     },
     {
       "id": "ultimate-installment",
@@ -873,7 +941,11 @@
           "SummonerDot"
         ],
         "label": "今天先按一次"
-      }
+      },
+      "signatureFor": [
+        "xiaohu",
+        "faker"
+      ]
     },
     {
       "id": "cosmic-pension",
@@ -921,7 +993,11 @@
           "item-3084"
         ],
         "label": "心之钢 ×3"
-      }
+      },
+      "signatureFor": [
+        "clearlove",
+        "knight"
+      ]
     },
     {
       "id": "bridge-clinic",
@@ -969,7 +1045,11 @@
           "SummonerHeal"
         ],
         "label": "治疗术 ×4"
-      }
+      },
+      "signatureFor": [
+        "meiko",
+        "baolan"
+      ]
     },
     {
       "id": "last-last-game",
@@ -1018,7 +1098,11 @@
           "item-3006"
         ],
         "label": "再跑最后一趟"
-      }
+      },
+      "signatureFor": [
+        "doinb",
+        "pdd"
+      ]
     },
     {
       "id": "revive-cinema",
@@ -1069,7 +1153,11 @@
           "item-3363"
         ],
         "label": "灰屏导播三机位"
-      }
+      },
+      "signatureFor": [
+        "dasima",
+        "pdd"
+      ]
     },
     {
       "id": "champion-script",
@@ -1117,7 +1205,11 @@
           "item-3031"
         ],
         "label": "无尽之刃 ×3"
-      }
+      },
+      "signatureFor": [
+        "uzi",
+        "faker"
+      ]
     },
     {
       "id": "snowball-hearse",
@@ -1167,7 +1259,11 @@
           "SummonerSnowball"
         ],
         "label": "雪球 ×5"
-      }
+      },
+      "signatureFor": [
+        "ning",
+        "jackeylove"
+      ]
     },
     {
       "id": "good-enough",
@@ -1216,7 +1312,11 @@
           "item-3111"
         ],
         "label": "活着也是输出"
-      }
+      },
+      "signatureFor": [
+        "pdd",
+        "baolan"
+      ]
     },
     {
       "id": "double-laugh",
@@ -1263,7 +1363,10 @@
         ],
         "label": "帽子 ×2，笑两段"
       },
-      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "signatureFor": [
+        "xiaohu"
+      ]
     },
     {
       "id": "tes-top",
@@ -1313,7 +1416,10 @@
         ],
         "label": "电刀 ×4，环形梗改"
       },
-      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "signatureFor": [
+        "jackeylove"
+      ]
     },
     {
       "id": "flash-wall",
@@ -1362,7 +1468,11 @@
         ],
         "label": "闪现 ×3"
       },
-      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "signatureFor": [
+        "pdd",
+        "ning"
+      ]
     },
     {
       "id": "double-zhonya",
@@ -1410,7 +1520,11 @@
         ],
         "label": "中娅沙漏 ×2"
       },
-      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "signatureFor": [
+        "faker",
+        "knight"
+      ]
     },
     {
       "id": "six-infinity",
@@ -1463,7 +1577,11 @@
         ],
         "label": "无尽之刃 ×6"
       },
-      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "signatureFor": [
+        "uzi",
+        "jackeylove"
+      ]
     },
     {
       "id": "triple-deathcap",
@@ -1512,7 +1630,11 @@
         ],
         "label": "灭世者的死亡之帽 ×3"
       },
-      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "signatureFor": [
+        "knight",
+        "faker"
+      ]
     },
     {
       "id": "calm-before-win",
@@ -1561,7 +1683,11 @@
         ],
         "label": "先把这一波守完"
       },
-      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "signatureFor": [
+        "xiaohu",
+        "faker"
+      ]
     },
     {
       "id": "brush-five",
@@ -1612,7 +1738,11 @@
         ],
         "label": "控制守卫 ×5"
       },
-      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "signatureFor": [
+        "ming",
+        "meiko"
+      ]
     },
     {
       "id": "steel-orchestra",
@@ -1663,7 +1793,11 @@
         ],
         "label": "心之钢 ×5"
       },
-      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "signatureFor": [
+        "letme",
+        "theshy"
+      ]
     },
     {
       "id": "mercury-notice",
@@ -1712,7 +1846,11 @@
         ],
         "label": "水银饰带 ×3"
       },
-      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "signatureFor": [
+        "uzi",
+        "faker"
+      ]
     },
     {
       "id": "five-knives",
@@ -1763,7 +1901,333 @@
         ],
         "label": "斯塔缇克电刃 ×5"
       },
-      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。"
+      "creation": "本作自制恶搞效果；配图使用 Riot Data Dragon 16.21.1 真实装备或召唤师技能图标重新排布。重复图标为梗图，不代表可购买数量、效果叠加或出装建议。",
+      "signatureFor": [
+        "uzi",
+        "knight"
+      ]
+    },
+    {
+      "id": "gold-rain",
+      "name": "金雨先寄存",
+      "effect": "领先时暂存你的庆祝。\n基地倒下后，笑容一次性全款到账。",
+      "punchline": "香槟先放下，金雨不会因为你少笑一秒就迟到。",
+      "line": "香槟先放下，金雨不会因为你少笑一秒就迟到。",
+      "vector": [
+        20,
+        45,
+        35,
+        75,
+        65,
+        90
+      ],
+      "bias": [
+        -0.6,
+        -0.1,
+        -0.3,
+        0.5,
+        0.3,
+        0.8
+      ],
+      "behaviorWeights": {
+        "calm": 5,
+        "laugh": 3,
+        "plan": 2
+      },
+      "affinities": [
+        "xiaohu",
+        "faker"
+      ],
+      "signatureFor": [
+        "xiaohu",
+        "faker"
+      ],
+      "icon": 0,
+      "requires": [
+        "calm",
+        "laugh",
+        "plan"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "SummonerBarrier",
+          "SummonerHeal"
+        ],
+        "label": "人物联动 · 真实图标梗改"
+      }
+    },
+    {
+      "id": "mini-map",
+      "name": "小地图终于开机",
+      "effect": "每次追人前，小地图轻轻闪一下。\n原来屏幕角落一直能救命。",
+      "punchline": "地图不是装修，队友不在隔壁宇宙。",
+      "line": "地图不是装修，队友不在隔壁宇宙。",
+      "vector": [
+        10,
+        25,
+        25,
+        85,
+        55,
+        95
+      ],
+      "bias": [
+        -0.8,
+        -0.5,
+        -0.5,
+        0.7,
+        0.1,
+        0.9
+      ],
+      "behaviorWeights": {
+        "vision": 5,
+        "plan": 2
+      },
+      "affinities": [
+        "clearlove",
+        "ming"
+      ],
+      "signatureFor": [
+        "clearlove",
+        "ming"
+      ],
+      "icon": 0,
+      "requires": [
+        "vision",
+        "plan"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3363",
+          "item-2055"
+        ],
+        "label": "人物联动 · 真实图标梗改"
+      }
+    },
+    {
+      "id": "one-more-hit",
+      "name": "别贪这一下",
+      "effect": "残血时自动计算“再吃一波”的学费。\n活着离开，奖励一次下波再来的底气。",
+      "punchline": "钱要活着花，嘴硬不包复活。",
+      "line": "钱要活着花，嘴硬不包复活。",
+      "vector": [
+        10,
+        40,
+        10,
+        65,
+        60,
+        85
+      ],
+      "bias": [
+        -0.8,
+        -0.2,
+        -0.8,
+        0.3,
+        0.2,
+        0.7
+      ],
+      "behaviorWeights": {
+        "retreat": 5,
+        "calm": 2
+      },
+      "affinities": [
+        "letme",
+        "baolan"
+      ],
+      "signatureFor": [
+        "letme",
+        "baolan"
+      ],
+      "icon": 0,
+      "requires": [
+        "retreat",
+        "calm"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3111",
+          "SummonerHeal"
+        ],
+        "label": "人物联动 · 真实图标梗改"
+      }
+    },
+    {
+      "id": "lane-umbrella",
+      "name": "对线小雨伞",
+      "effect": "先躲掉对面的危险技能，\n再让你的勇气从伞下探出头。",
+      "punchline": "少挨一套，比多说一句有用。",
+      "line": "少挨一套，比多说一句有用。",
+      "vector": [
+        25,
+        50,
+        40,
+        55,
+        95,
+        65
+      ],
+      "bias": [
+        -0.5,
+        0.0,
+        -0.2,
+        0.1,
+        0.9,
+        0.3
+      ],
+      "behaviorWeights": {
+        "mechanics": 5,
+        "plan": 2
+      },
+      "affinities": [
+        "theshy",
+        "knight"
+      ],
+      "signatureFor": [
+        "theshy",
+        "knight"
+      ],
+      "icon": 0,
+      "requires": [
+        "mechanics",
+        "plan"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "SummonerFlash",
+          "SummonerBarrier"
+        ],
+        "label": "人物联动 · 真实图标梗改"
+      }
+    },
+    {
+      "id": "five-names",
+      "name": "五个人的冠军皮肤",
+      "effect": "每次回头照顾队友，\n纪念皮肤就多藏进一个名字。",
+      "punchline": "冠军合照里，谁也不能少。",
+      "line": "冠军合照里，谁也不能少。",
+      "vector": [
+        15,
+        25,
+        45,
+        100,
+        65,
+        80
+      ],
+      "bias": [
+        -0.7,
+        -0.5,
+        -0.1,
+        1.0,
+        0.3,
+        0.6
+      ],
+      "behaviorWeights": {
+        "protect": 5,
+        "heal": 2
+      },
+      "affinities": [
+        "meiko",
+        "ming"
+      ],
+      "signatureFor": [
+        "meiko",
+        "ming"
+      ],
+      "icon": 0,
+      "requires": [
+        "protect",
+        "heal"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3190",
+          "SummonerHeal"
+        ],
+        "label": "人物联动 · 真实图标梗改"
+      }
+    },
+    {
+      "id": "s8-rewrite",
+      "name": "S8平行宇宙通行证",
+      "effect": "把“当年如果”兑换成一场架空决胜局。\n这次金色的雨，轮到你来签收。",
+      "punchline": "故事可以重写，操作得自己练。",
+      "line": "故事可以重写，操作得自己练。",
+      "vector": [
+        35,
+        65,
+        65,
+        65,
+        95,
+        70
+      ],
+      "bias": [
+        -0.3,
+        0.3,
+        0.3,
+        0.3,
+        0.9,
+        0.4
+      ],
+      "behaviorWeights": {
+        "mechanics": 5,
+        "engage": 2,
+        "plan": 2
+      },
+      "affinities": [
+        "uzi",
+        "faker"
+      ],
+      "signatureFor": [
+        "uzi",
+        "faker"
+      ],
+      "icon": 0,
+      "requires": [
+        "mechanics",
+        "engage",
+        "plan"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。",
+      "visual": {
+        "layout": "row",
+        "icons": [
+          "item-3031",
+          "item-6676"
+        ],
+        "label": "人物联动 · 真实图标梗改"
+      }
     }
   ],
   "basket": [
@@ -1781,11 +2245,23 @@
       ],
       "accessory": "情绪护膝",
       "fanMade": true,
-      "icon": 11,
+      "icon": 5,
       "category": "主题整活",
       "effect": "裁判名场面担当，开麦和出手都敢接。",
       "punchline": "裁判名场面担当，开麦和出手都敢接。",
-      "creation": "本作原创恶搞补给"
+      "creation": "本作原创恶搞补给",
+      "behaviorWeights": {
+        "nba-emotion": 5
+      },
+      "affinities": [
+        "lebron"
+      ],
+      "signatureFor": [
+        "lebron"
+      ],
+      "requires": [
+        "nba-emotion"
+      ]
     },
     {
       "id": "logo",
@@ -1801,11 +2277,25 @@
       ],
       "accessory": "超远护目镜",
       "fanMade": true,
-      "icon": 12,
+      "icon": 2,
       "category": "主题整活",
       "effect": "射程之外，先给想象力留个位。",
       "punchline": "射程之外，先给想象力留个位。",
-      "creation": "本作原创恶搞补给"
+      "creation": "本作原创恶搞补给",
+      "behaviorWeights": {
+        "nba-three": 5
+      },
+      "affinities": [
+        "curry",
+        "durant"
+      ],
+      "signatureFor": [
+        "curry",
+        "durant"
+      ],
+      "requires": [
+        "nba-three"
+      ]
     },
     {
       "id": "board",
@@ -1821,11 +2311,25 @@
       ],
       "accessory": "吸尘背包",
       "fanMade": true,
-      "icon": 5,
+      "icon": 7,
       "category": "主题整活",
       "effect": "不抢话筒，先把落点照顾明白。",
       "punchline": "不抢话筒，先把落点照顾明白。",
-      "creation": "本作原创恶搞补给"
+      "creation": "本作原创恶搞补给",
+      "behaviorWeights": {
+        "nba-rebound": 5
+      },
+      "affinities": [
+        "rodman",
+        "garnett"
+      ],
+      "signatureFor": [
+        "rodman",
+        "garnett"
+      ],
+      "requires": [
+        "nba-rebound"
+      ]
     },
     {
       "id": "coffee",
@@ -1841,11 +2345,27 @@
       ],
       "accessory": "咖啡能量罐",
       "fanMade": true,
-      "icon": 6,
+      "icon": 1,
       "category": "主题整活",
       "effect": "冷静与果断，这杯都加满。",
       "punchline": "冷静与果断，这杯都加满。",
-      "creation": "本作原创恶搞补给"
+      "creation": "本作原创恶搞补给",
+      "behaviorWeights": {
+        "nba-clutch": 5
+      },
+      "affinities": [
+        "jordan",
+        "butler",
+        "durant"
+      ],
+      "signatureFor": [
+        "jordan",
+        "butler",
+        "durant"
+      ],
+      "requires": [
+        "nba-clutch"
+      ]
     },
     {
       "id": "meme",
@@ -1861,11 +2381,27 @@
       ],
       "accessory": "评分手牌",
       "fanMade": true,
-      "icon": 10,
+      "icon": 6,
       "category": "主题整活",
       "effect": "比赛可以有输赢，节目不能没效果。",
       "punchline": "比赛可以有输赢，节目不能没效果。",
-      "creation": "本作原创恶搞补给"
+      "creation": "本作原创恶搞补给",
+      "behaviorWeights": {
+        "nba-show": 5,
+        "nba-drive": 2
+      },
+      "affinities": [
+        "shaq",
+        "westbrook"
+      ],
+      "signatureFor": [
+        "shaq",
+        "westbrook"
+      ],
+      "requires": [
+        "nba-show",
+        "nba-drive"
+      ]
     },
     {
       "id": "team",
@@ -1881,11 +2417,328 @@
       ],
       "accessory": "团队臂章",
       "fanMade": true,
-      "icon": 15,
+      "icon": 0,
       "category": "主题整活",
       "effect": "把五个人变成愿意一起跑的一队。",
       "punchline": "把五个人变成愿意一起跑的一队。",
-      "creation": "本作原创恶搞补给"
+      "creation": "本作原创恶搞补给",
+      "behaviorWeights": {
+        "nba-team": 5
+      },
+      "affinities": [
+        "yaoming",
+        "jokic",
+        "lebron"
+      ],
+      "signatureFor": [
+        "yaoming",
+        "jokic",
+        "lebron"
+      ],
+      "requires": [
+        "nba-team"
+      ]
+    },
+    {
+      "id": "mamba-clock",
+      "name": "凌晨四点自动打卡",
+      "effect": "闹钟一响，嘴硬暂停。\n今晚说过的“我也行”，明早全部折算成加练。",
+      "punchline": "学的是认真劲，睡眠也别欠账。",
+      "line": "学的是认真劲，睡眠也别欠账。",
+      "vector": [
+        45,
+        55,
+        45,
+        95,
+        95,
+        60
+      ],
+      "bias": [
+        -0.1,
+        0.1,
+        -0.1,
+        0.9,
+        0.9,
+        0.2
+      ],
+      "behaviorWeights": {
+        "nba-train": 5,
+        "nba-clutch": 2
+      },
+      "affinities": [
+        "kobe"
+      ],
+      "signatureFor": [
+        "kobe"
+      ],
+      "icon": 1,
+      "requires": [
+        "nba-train",
+        "nba-clutch"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+    },
+    {
+      "id": "goodnight-three",
+      "name": "晚安三分服务",
+      "effect": "三分进球后，自动给观众盖小被子。\n投丢时，被子先还给自己。",
+      "punchline": "停车场有射程，回防还得自己跑。",
+      "line": "停车场有射程，回防还得自己跑。",
+      "vector": [
+        85,
+        95,
+        65,
+        85,
+        65,
+        90
+      ],
+      "bias": [
+        0.7,
+        0.9,
+        0.3,
+        0.7,
+        0.3,
+        0.8
+      ],
+      "behaviorWeights": {
+        "nba-three": 5,
+        "nba-show": 1
+      },
+      "affinities": [
+        "curry"
+      ],
+      "signatureFor": [
+        "curry"
+      ],
+      "icon": 2,
+      "requires": [
+        "nba-three"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+    },
+    {
+      "id": "ant-takeoff",
+      "name": "华子起飞许可证",
+      "effect": "合适机会出现时，勇气提前一步到篮下。\n落地后自动提醒：回防也算高光。",
+      "punchline": "先把动作练好，再给起飞配音乐。",
+      "line": "先把动作练好，再给起飞配音乐。",
+      "vector": [
+        85,
+        85,
+        50,
+        95,
+        65,
+        90
+      ],
+      "bias": [
+        0.7,
+        0.7,
+        0.0,
+        0.9,
+        0.3,
+        0.8
+      ],
+      "behaviorWeights": {
+        "nba-dunk": 5,
+        "nba-drive": 3
+      },
+      "affinities": [
+        "edwards"
+      ],
+      "signatureFor": [
+        "edwards"
+      ],
+      "icon": 3,
+      "requires": [
+        "nba-dunk"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+    },
+    {
+      "id": "alien-arms",
+      "name": "文班长臂服务区",
+      "effect": "展开双臂，篮下进入延长营业。\n对手还在找角度，你已经够到下一帧。",
+      "punchline": "长臂不是借口，站位才是说明书。",
+      "line": "长臂不是借口，站位才是说明书。",
+      "vector": [
+        55,
+        80,
+        75,
+        80,
+        85,
+        55
+      ],
+      "bias": [
+        0.1,
+        0.6,
+        0.5,
+        0.6,
+        0.7,
+        0.1
+      ],
+      "behaviorWeights": {
+        "nba-alien": 5,
+        "nba-rebound": 2
+      },
+      "affinities": [
+        "wemby"
+      ],
+      "signatureFor": [
+        "wemby"
+      ],
+      "icon": 4,
+      "requires": [
+        "nba-alien"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+    },
+    {
+      "id": "stone-face",
+      "name": "邓肯表情省电器",
+      "effect": "全场情绪波动时，面部保持低功耗。\n该得分该回防，一件没少做。",
+      "punchline": "表情可以下班，基本功一直在线。",
+      "line": "表情可以下班，基本功一直在线。",
+      "vector": [
+        25,
+        35,
+        80,
+        55,
+        95,
+        20
+      ],
+      "bias": [
+        -0.5,
+        -0.3,
+        0.6,
+        0.1,
+        0.9,
+        -0.6
+      ],
+      "behaviorWeights": {
+        "nba-calm": 5,
+        "nba-plan": 2
+      },
+      "affinities": [
+        "duncan"
+      ],
+      "signatureFor": [
+        "duncan"
+      ],
+      "icon": 0,
+      "requires": [
+        "nba-calm"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+    },
+    {
+      "id": "horse-shift",
+      "name": "约老师准点下班",
+      "effect": "传球把队友安排明白，\n领奖时只剩一个问题：还赶得上看马吗？",
+      "punchline": "球场都看明白了，下班也得认真。",
+      "line": "球场都看明白了，下班也得认真。",
+      "vector": [
+        45,
+        85,
+        85,
+        65,
+        95,
+        40
+      ],
+      "bias": [
+        -0.1,
+        0.7,
+        0.7,
+        0.3,
+        0.9,
+        -0.2
+      ],
+      "behaviorWeights": {
+        "nba-plan": 5,
+        "nba-team": 3,
+        "nba-calm": 1
+      },
+      "affinities": [
+        "jokic"
+      ],
+      "signatureFor": [
+        "jokic"
+      ],
+      "icon": 7,
+      "requires": [
+        "nba-plan"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+    },
+    {
+      "id": "stepback-route",
+      "name": "后撤步脑内导航",
+      "effect": "先退一步，不是退出比赛。\n给出手留空间，也给队友留一条传球路线。",
+      "punchline": "球在手上，下一拍在脑子里。",
+      "line": "球在手上，下一拍在脑子里。",
+      "vector": [
+        60,
+        80,
+        55,
+        65,
+        80,
+        70
+      ],
+      "bias": [
+        0.2,
+        0.6,
+        0.1,
+        0.3,
+        0.6,
+        0.4
+      ],
+      "behaviorWeights": {
+        "nba-three": 4,
+        "nba-plan": 3,
+        "nba-drive": 2
+      },
+      "affinities": [
+        "harden",
+        "doncic"
+      ],
+      "signatureFor": [
+        "harden",
+        "doncic"
+      ],
+      "icon": 0,
+      "requires": [
+        "nba-three",
+        "nba-plan",
+        "nba-drive"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动为平行宇宙娱乐创作。"
     }
   ],
   "abstract": [
@@ -1903,11 +2756,25 @@
       ],
       "accessory": "果汁背包",
       "fanMade": true,
-      "icon": 11,
+      "icon": 14,
       "category": "主题整活",
       "effect": "现场温度与节目能量，一次补齐。",
       "punchline": "现场温度与节目能量，一次补齐。",
-      "creation": "本作原创恶搞补给"
+      "creation": "本作原创恶搞补给",
+      "behaviorWeights": {
+        "web-meme": 5
+      },
+      "affinities": [
+        "huge",
+        "daoge"
+      ],
+      "signatureFor": [
+        "huge",
+        "daoge"
+      ],
+      "requires": [
+        "web-meme"
+      ]
     },
     {
       "id": "commentator",
@@ -1923,11 +2790,23 @@
       ],
       "accessory": "复盘眼镜",
       "fanMade": true,
-      "icon": 12,
+      "icon": 10,
       "category": "主题整活",
       "effect": "离谱之前，先把自己的逻辑讲完整。",
       "punchline": "离谱之前，先把自己的逻辑讲完整。",
-      "creation": "本作原创恶搞补给"
+      "creation": "本作原创恶搞补给",
+      "behaviorWeights": {
+        "web-plan": 5
+      },
+      "affinities": [
+        "dasima"
+      ],
+      "signatureFor": [
+        "dasima"
+      ],
+      "requires": [
+        "web-plan"
+      ]
     },
     {
       "id": "portal",
@@ -1943,11 +2822,23 @@
       ],
       "accessory": "传送门耳饰",
       "fanMade": true,
-      "icon": 5,
+      "icon": 15,
       "category": "主题整活",
       "effect": "选一条没人替你试过的路线。",
       "punchline": "选一条没人替你试过的路线。",
-      "creation": "本作原创恶搞补给"
+      "creation": "本作原创恶搞补给",
+      "behaviorWeights": {
+        "web-travel": 5
+      },
+      "affinities": [
+        "fengge"
+      ],
+      "signatureFor": [
+        "fengge"
+      ],
+      "requires": [
+        "web-travel"
+      ]
     },
     {
       "id": "sofa",
@@ -1963,11 +2854,25 @@
       ],
       "accessory": "舒适靠垫",
       "fanMade": true,
-      "icon": 6,
+      "icon": 13,
       "category": "主题整活",
       "effect": "稳住场面与队友，暂缓无效冲刺。",
       "punchline": "稳住场面与队友，暂缓无效冲刺。",
-      "creation": "本作原创恶搞补给"
+      "creation": "本作原创恶搞补给",
+      "behaviorWeights": {
+        "web-watch": 5
+      },
+      "affinities": [
+        "geyou",
+        "baike"
+      ],
+      "signatureFor": [
+        "geyou",
+        "baike"
+      ],
+      "requires": [
+        "web-watch"
+      ]
     },
     {
       "id": "micro",
@@ -1983,11 +2888,27 @@
       ],
       "accessory": "超大话筒",
       "fanMade": true,
-      "icon": 10,
+      "icon": 9,
       "category": "主题整活",
       "effect": "这场可以冷，但不能在你这里冷。",
       "punchline": "这场可以冷，但不能在你这里冷。",
-      "creation": "本作原创恶搞补给"
+      "creation": "本作原创恶搞补给",
+      "behaviorWeights": {
+        "web-live": 5
+      },
+      "affinities": [
+        "zhouyi",
+        "luobenwei",
+        "huge"
+      ],
+      "signatureFor": [
+        "zhouyi",
+        "luobenwei",
+        "huge"
+      ],
+      "requires": [
+        "web-live"
+      ]
     },
     {
       "id": "clipboard",
@@ -2003,11 +2924,338 @@
       ],
       "accessory": "计划板",
       "fanMade": true,
-      "icon": 15,
+      "icon": 12,
       "category": "主题整活",
       "effect": "抽象有很多种，今天选有章法这一种。",
       "punchline": "抽象有很多种，今天选有章法这一种。",
-      "creation": "本作原创恶搞补给"
+      "creation": "本作原创恶搞补给",
+      "behaviorWeights": {
+        "web-plan": 5
+      },
+      "affinities": [
+        "huchenfeng"
+      ],
+      "signatureFor": [
+        "huchenfeng"
+      ],
+      "requires": [
+        "web-plan"
+      ]
+    },
+    {
+      "id": "auto-dance",
+      "name": "前奏一响自动摇",
+      "effect": "检测到熟悉前奏，自动加载身体记忆。\n相机没开也能先完成一次全员启动。",
+      "punchline": "人还没进画面，动作已经更新完了。",
+      "line": "人还没进画面，动作已经更新完了。",
+      "vector": [
+        95,
+        90,
+        65,
+        95,
+        50,
+        100
+      ],
+      "bias": [
+        0.9,
+        0.8,
+        0.3,
+        0.9,
+        0.0,
+        1.0
+      ],
+      "behaviorWeights": {
+        "web-dance": 5,
+        "web-edit": 2
+      },
+      "affinities": [
+        "shake-director",
+        "luobenwei",
+        "jackie"
+      ],
+      "signatureFor": [
+        "shake-director",
+        "luobenwei",
+        "jackie"
+      ],
+      "icon": 8,
+      "requires": [
+        "web-dance"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+    },
+    {
+      "id": "cover-key",
+      "name": "翻唱舒适调",
+      "effect": "把“硬上高音”兑换成适合自己的音调。\n唱错也能变成下一遍更稳的开头。",
+      "punchline": "调可以降，自己的味道不用降。",
+      "line": "调可以降，自己的味道不用降。",
+      "vector": [
+        65,
+        85,
+        75,
+        80,
+        65,
+        90
+      ],
+      "bias": [
+        0.3,
+        0.7,
+        0.5,
+        0.6,
+        0.3,
+        0.8
+      ],
+      "behaviorWeights": {
+        "web-cover": 5,
+        "web-original": 2
+      },
+      "affinities": [
+        "zhouyi",
+        "shake-director"
+      ],
+      "signatureFor": [
+        "zhouyi",
+        "shake-director"
+      ],
+      "icon": 9,
+      "requires": [
+        "web-cover"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+    },
+    {
+      "id": "no-precut",
+      "name": "活人感保鲜膜",
+      "effect": "移除三句模板台词，\n自动保留一个只有你会有的小细节。",
+      "punchline": "不必演得很完美，先让人认出是你。",
+      "line": "不必演得很完美，先让人认出是你。",
+      "vector": [
+        65,
+        95,
+        80,
+        65,
+        80,
+        90
+      ],
+      "bias": [
+        0.3,
+        0.9,
+        0.6,
+        0.3,
+        0.6,
+        0.8
+      ],
+      "behaviorWeights": {
+        "web-original": 5,
+        "web-edit": 3,
+        "web-punchline": 1
+      },
+      "affinities": [
+        "papi",
+        "wanglaoju"
+      ],
+      "signatureFor": [
+        "papi",
+        "wanglaoju"
+      ],
+      "icon": 10,
+      "requires": [
+        "web-original"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+    },
+    {
+      "id": "love-yourself",
+      "name": "爱你老己充电站",
+      "effect": "每次认真照顾自己，回复一点心情电量。\n今日没爆款，也照样准许下班。",
+      "punchline": "更新很重要，你本人也很重要。",
+      "line": "更新很重要，你本人也很重要。",
+      "vector": [
+        35,
+        50,
+        100,
+        45,
+        65,
+        50
+      ],
+      "bias": [
+        -0.3,
+        0.0,
+        1.0,
+        -0.1,
+        0.3,
+        0.0
+      ],
+      "behaviorWeights": {
+        "web-care": 5
+      },
+      "affinities": [
+        "geyou",
+        "baike",
+        "yaoming"
+      ],
+      "signatureFor": [
+        "geyou",
+        "baike",
+        "yaoming"
+      ],
+      "icon": 13,
+      "requires": [
+        "web-care"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+    },
+    {
+      "id": "one-at-time",
+      "name": "做完你的做你的",
+      "effect": "同时出现三条催更时，\n自动生成一句稳稳的“一个一个来”。",
+      "punchline": "更新可以排队，情绪不用跟着排雷。",
+      "line": "更新可以排队，情绪不用跟着排雷。",
+      "vector": [
+        55,
+        65,
+        75,
+        65,
+        100,
+        75
+      ],
+      "bias": [
+        0.1,
+        0.3,
+        0.5,
+        0.3,
+        1.0,
+        0.5
+      ],
+      "behaviorWeights": {
+        "web-plan": 5,
+        "web-care": 2
+      },
+      "affinities": [
+        "huchenfeng",
+        "dasima"
+      ],
+      "signatureFor": [
+        "huchenfeng",
+        "dasima"
+      ],
+      "icon": 12,
+      "requires": [
+        "web-plan"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+    },
+    {
+      "id": "slow-craft",
+      "name": "把日常拍成风景",
+      "effect": "耐心完成一个小步骤，\n普通材料也能拥有自己的主角镜头。",
+      "punchline": "慢一点没关系，细节会自己发光。",
+      "line": "慢一点没关系，细节会自己发光。",
+      "vector": [
+        35,
+        75,
+        90,
+        60,
+        95,
+        40
+      ],
+      "bias": [
+        -0.3,
+        0.5,
+        0.8,
+        0.2,
+        0.9,
+        -0.2
+      ],
+      "behaviorWeights": {
+        "web-craft": 5,
+        "web-original": 2,
+        "web-plan": 1
+      },
+      "affinities": [
+        "liziqi"
+      ],
+      "signatureFor": [
+        "liziqi"
+      ],
+      "icon": 11,
+      "requires": [
+        "web-craft",
+        "web-original"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动是平行宇宙娱乐创作，不是本人发言。"
+    },
+    {
+      "id": "punchline-shield",
+      "name": "吐槽弹幕保护罩",
+      "effect": "把模板吐槽筛掉一层，\n留下只有你会说的那一句。",
+      "punchline": "先看懂场合，再让笑点落地。",
+      "line": "先看懂场合，再让笑点落地。",
+      "vector": [
+        65,
+        80,
+        55,
+        60,
+        65,
+        85
+      ],
+      "bias": [
+        0.3,
+        0.6,
+        0.1,
+        0.2,
+        0.3,
+        0.7
+      ],
+      "behaviorWeights": {
+        "web-punchline": 5,
+        "web-meme": 2
+      },
+      "affinities": [
+        "sunxiaochuan",
+        "baike",
+        "papi"
+      ],
+      "signatureFor": [
+        "sunxiaochuan",
+        "baike",
+        "papi"
+      ],
+      "icon": 14,
+      "requires": [
+        "web-punchline",
+        "web-meme"
+      ],
+      "fanMade": true,
+      "rarity": "kPrismatic",
+      "category": "人物联动",
+      "kind": "basic",
+      "creation": "本作原创恶搞设定；人物联动为平行宇宙娱乐创作。"
     }
   ]
 }

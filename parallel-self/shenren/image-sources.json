@@ -587,5 +587,63 @@
       "cell": 2
     },
     "rights": "AI示意图，无已核实本人照片参考；非官方头像或人物背书。"
+  },
+  {
+    "id": "edwards",
+    "name": "安东尼·爱德华兹",
+    "sourcePage": "https://en.wikipedia.org/wiki/Anthony_Edwards_(basketball)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Anthony_Edwards_Argentina_v_Egypt_7_July_2026-069_%28cropped%29.jpg",
+    "asset": "v9-references/edwards.image",
+    "kind": "AI卡通重绘",
+    "verifiedReference": true,
+    "sha256": "358477f7a4609a606ac4ae3a2a06bb4005e429618fce7cad1db4c100296df1a5",
+    "rights": "公开照片用于头像重绘参考；具体原图授权见来源页面，非本人背书。",
+    "atlas": {
+      "sheet": 11,
+      "cell": 0
+    }
+  },
+  {
+    "id": "wemby",
+    "name": "文班亚马",
+    "sourcePage": "https://en.wikipedia.org/wiki/Victor_Wembanyama",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Victor_Wembanyama_San_Antonio_Spurs_2024.jpg/1280px-Victor_Wembanyama_San_Antonio_Spurs_2024.jpg",
+    "asset": "v9-references/wemby.image",
+    "kind": "AI卡通重绘",
+    "verifiedReference": true,
+    "sha256": "6f303bdec0d3b45909b18b8179dec5d80ed245430cb290151ef84ff8eb9966bf",
+    "rights": "公开照片用于头像重绘参考；具体原图授权见来源页面，非本人背书。",
+    "atlas": {
+      "sheet": 11,
+      "cell": 1
+    }
+  },
+  {
+    "id": "liziqi",
+    "name": "李子柒",
+    "sourcePage": "https://en.wikipedia.org/wiki/Li_Ziqi_(vlogger)",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/%E6%9D%8E%E5%AD%90%E6%9F%92210625.png",
+    "asset": "v9-references/liziqi.image",
+    "kind": "AI卡通重绘",
+    "verifiedReference": true,
+    "sha256": "223520942c5d408bdd7ed971036e112fe82c2ac26da06d11eedd41429f99b77e",
+    "rights": "公开照片用于头像重绘参考；具体原图授权见来源页面，非本人背书。",
+    "atlas": {
+      "sheet": 11,
+      "cell": 2
+    }
+  },
+  {
+    "id": "shake-director",
+    "name": "摇摆导演",
+    "kind": "原创卡通角色",
+    "originalCharacter": true,
+    "verifiedReference": false,
+    "note": "本作原创舞蹈与自媒体角色，不对应真实博主。",
+    "rights": "本作AI辅助创作的虚构角色。",
+    "atlas": {
+      "sheet": 11,
+      "cell": 3
+    }
   }
 ]

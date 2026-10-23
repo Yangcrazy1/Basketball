@@ -1,0 +1,73 @@
+{
+  "version": 9,
+  "checkedAt": "2026-10-23",
+  "editorial": {
+    "checkedAt": "2026-10-23",
+    "label": "本期热梗 · 2026.10",
+    "note": "按公开来源整理的本期快照，含经典梗回归。离线版不自动抓取热榜。",
+    "sources": [
+      {
+        "title": "数英：2026上半年网络热词TOP30",
+        "date": "2026-08-21",
+        "url": "https://www.digitaling.com/articles/1561293.html",
+        "topics": [
+          "摇一摇舞蹈二创",
+          "豆包型人格",
+          "做完你的做你的",
+          "进城办事",
+          "不讲不讲"
+        ]
+      },
+      {
+        "title": "悟空中文：2025—2026中文网络热梗",
+        "url": "https://www.wukongsch.com/blog/zh/chinese-popular-internet-slangs-post-59740/",
+        "topics": [
+          "活人感",
+          "预制内容",
+          "爱你老己",
+          "邪修",
+          "丝瓜汤文学"
+        ]
+      }
+    ]
+  },
+  "network_meme_use": "All quiz situations and card effects are original adaptations. No copied article paragraphs, music, video files or full lyrics are embedded. The offline edition is an editorial snapshot, not a live ranking.",
+  "new_portraits": [
+    {
+      "id": "edwards",
+      "name": "安东尼·爱德华兹",
+      "sourcePage": "https://en.wikipedia.org/wiki/Anthony_Edwards_(basketball)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Anthony_Edwards_Argentina_v_Egypt_7_July_2026-069_%28cropped%29.jpg",
+      "asset": "v9-references/edwards.image",
+      "bytes": 1849982
+    },
+    {
+      "id": "wemby",
+      "name": "文班亚马",
+      "sourcePage": "https://en.wikipedia.org/wiki/Victor_Wembanyama",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Victor_Wembanyama_San_Antonio_Spurs_2024.jpg/1280px-Victor_Wembanyama_San_Antonio_Spurs_2024.jpg",
+      "asset": "v9-references/wemby.image",
+      "bytes": 431409
+    },
+    {
+      "id": "liziqi",
+      "name": "李子柒",
+      "sourcePage": "https://en.wikipedia.org/wiki/Li_Ziqi_(vlogger)",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/%E6%9D%8E%E5%AD%90%E6%9F%92210625.png",
+      "asset": "v9-references/liziqi.image",
+      "bytes": 1372097
+    }
+  ],
+  "original_character": {
+    "id": "shake-director",
+    "name": "摇摆导演",
+    "note": "Original fictional dance/video creator. Not a claimed likeness of a real blogger."
+  },
+  "generated_art": {
+    "portraits": "assets/portraits-v9.webp",
+    "source": "Three inspected public reference photos plus one original character, creatively redrawn with image_gen; only WebP compression after generation.",
+    "icons": "assets/parody-icons-v9.webp",
+    "icon_note": "16 original NBA and creator themed icons generated with image_gen. League retains the real Riot PNG compositions."
+  },
+  "league": "One combined user-facing mode. Internal chapter metadata only preserves coherent question episodes; no separate game-series controls."
+}

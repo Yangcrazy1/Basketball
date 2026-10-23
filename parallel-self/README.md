@@ -1,4 +1,5 @@
-> 最新网页为 [V8「世界上另一个我」装备梗宇宙](shenren/README.md)，含真实收集者图标×5、36张自制恶搞卡、132道联盟情境、二段笑与滔博陀螺、五人战队和可下载海报。手机直达 https://yangcrazy1.github.io/Basketball/?v=8-memes 。以下是保留的 V4 说明。
+> 最新网页为 [V9「世界上另一个我」三大梗宇宙](shenren/README.md)，英雄联盟综合、金闪闪队NBA、抽象热梗三个板块，300道题、68张自制海克斯，点选后自动下一题。手机直达 https://yangcrazy1.github.io/Basketball/?v=9-worlds 。以下是保留的 V4 说明。
+
 
 
 # 另一个我 · ELSEWHERE V4

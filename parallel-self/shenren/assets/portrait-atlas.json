@@ -76,6 +76,13 @@
       "height": 1254,
       "sha256": "b3f884bfe648f865b736a9b1efa7ae52e68555c4795760eb921267f95b60e6c8",
       "generatedOriginalName": "exec-74b29561-18ca-4623-930f-2d8583aeb470.png"
+    },
+    {
+      "asset": "portraits-v9.webp",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "228e42b07690d662287c806b66cc6d1916b7fb780753dcdb08e06b836f4311c3",
+      "generatedOriginalName": "exec-a863af25-9338-4f49-9bd2-03b72baae8b8.png"
     }
   ],
   "portraits": {
@@ -249,6 +256,22 @@
     },
     "mascot": {
       "sheet": 10,
+      "cell": 3
+    },
+    "edwards": {
+      "sheet": 11,
+      "cell": 0
+    },
+    "wemby": {
+      "sheet": 11,
+      "cell": 1
+    },
+    "liziqi": {
+      "sheet": 11,
+      "cell": 2
+    },
+    "shake-director": {
+      "sheet": 11,
       "cell": 3
     }
   }

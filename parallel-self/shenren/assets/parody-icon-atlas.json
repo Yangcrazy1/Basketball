@@ -1,11 +1,11 @@
 {
-  "asset": "parody-icons-v7.webp",
+  "asset": "parody-icons-v9.webp",
   "width": 1254,
   "height": 1254,
   "columns": 4,
   "rows": 4,
-  "sha256": "27b0fd104927252610b3a7911d98eadd1f8c9b835854fa2d07766c015f544427",
+  "sha256": "9b6b60714fddd5d41cada92ce7af49bc91334a526b549274c5e3797cc05e023c",
   "kind": "本作原创AI恶搞图标",
-  "generatedOriginalName": "exec-9c541338-bbf8-4477-8766-8d87207e375d.png",
-  "note": "16种原创图标用于25张文案不同的恶搞卡。只做格式压缩，未使用官方游戏图标。"
+  "generatedOriginalName": "exec-ca628558-c25a-4f61-89af-f0cd49b6814e.png",
+  "note": "前8格为NBA主题，后8格为舞蹈、翻唱、自媒体主题。联盟卡使用真实游戏图标排布。"
 }

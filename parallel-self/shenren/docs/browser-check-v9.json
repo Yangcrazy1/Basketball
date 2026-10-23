@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "checks": [
+    "V9 shows exactly League, NBA Golden Squad and Abstract; League has one combined entry and start is on the mobile first screen",
+    "all three theme homes and both palettes fit 320/390/430/768/1440px with theme-specific counts",
+    "abstract source/date disclosure and original dance character with signature cards are available",
+    "all 12 avatar sheets including the four additions and the new NBA/creator icon atlas decode from embedded data",
+    "tapping displayed choice B records its shuffled option ID and automatically advances exactly one question with no Next button",
+    "returning to a previous question allows a new choice and updates the saved answer before automatic advance",
+    "rapid double taps plus a forced stale click do not skip a second question or record an extra answer",
+    "leaving during the short transition cancels stale navigation while resume starts from the next saved question",
+    "restored mandatory Collector reaction branches correctly and earns Uzi, five real Collector icons and an evidence-backed person bond",
+    "the actual 1080x1920 PNG download includes exactly five source Collector draws and the new edition",
+    "all 8/16/24 modes complete automatically in all three themes, retaining legal five-person teams and actual answer evidence",
+    "a named League meme starts inside the same combined League mode rather than opening a second submode",
+    "results, person bonds, details and rolling 12-entry history survive both palettes, narrow screens and reload",
+    "the actual exported complete HTML runs all three themes offline without storage and still generates a poster",
+    "malformed local records are ignored and all tested app flows request zero external runtime assets with no JavaScript errors"
+  ],
+  "passed": 15,
+  "failure": null,
+  "html_sha256": "4ff413a1ff12ea29ba44781ab7896c1d6f15ef9e2e572100f1ecca5ef2e1fbdc",
+  "html_bytes": 6453861,
+  "javascript_errors": [],
+  "external_requests": [],
+  "duration_seconds": 68.95,
+  "scope": "Chromium responsive viewport, actual single-tap navigation and exports, offline exported-content execution; no physical phone test. Managed Chromium policy blocks file:// navigation, as documented in V8."
+}
