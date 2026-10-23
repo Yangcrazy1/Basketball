@@ -2,7 +2,7 @@
   "name": "世界上另一个我",
   "version": 10,
   "edition": "穿越剧情 · 三大梗宇宙 · 自选五人队",
-  "source_commit": "91b7132d263550b6d0efa7e2f31351d005d62ec2",
+  "source_commit": "72316cd4bc186a89a799c2dcd70a44b1b26ebadd",
   "html_sha256": "746f0a325014b25ec03d6806d16bcc08b75d2ce5beeae115a7350feb9b89428c",
   "html_bytes": 10558414,
   "total_questions": 348,
@@ -23,5 +23,11 @@
   "xhs_zip_sha256": "1356aa48b1cd7aee24de14d8fd1613727433171b78c86c31d0fb01c2edcd20a1",
   "xhs_zip_bytes": 7609153,
   "xhs_platform_device_tests": "pending_user",
-  "built_at": "2026-10-23T14:49:35.012394+00:00"
+  "built_at": "2026-10-23T15:07:26.553664+00:00",
+  "online_entry_sha256": "b6db45126562061d22c2d473f9b839e508a28a86d6f63b93afffa3c604faf9ee",
+  "online_entry_bytes": 2011,
+  "online_core_bytes": 622018,
+  "online_initial_resource_bytes": 1165022,
+  "online_entry_mode": "split-assets-on-demand",
+  "online_play_path": "play/?v=10-fast"
 }
