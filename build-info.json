@@ -1,17 +1,18 @@
 {
   "name": "世界上另一个我",
-  "version": 7,
-  "edition": "神人海克斯 · 网友脑洞风",
-  "source_commit": "490aed9954255c1a5849d68382b2e9b8acfcef34",
-  "html_sha256": "640493b2e599507b556746f09c01e605cf807e50a02513f17bea7d01e83a0ffe",
-  "html_bytes": 5427541,
-  "league_questions": 100,
-  "league_chapters": 25,
-  "total_questions": 172,
+  "version": 8,
+  "edition": "装备梗宇宙 · 真实图标再创作",
+  "source_commit": "9a31c331241ca207fedfd93d09d9408b4a023edb",
+  "html_sha256": "d99f312ab22eb6463cd8ce12a55dff4c8c6f6d80a54702f5c3cdab5e7c74c7b3",
+  "html_bytes": 6253650,
+  "league_questions": 132,
+  "league_chapters": 33,
+  "total_questions": 204,
   "people": 42,
   "themed_entries": 44,
-  "parody_cards": 25,
+  "parody_cards": 36,
   "official_augments": 0,
+  "real_game_icons": 27,
   "three_dimensional_model": false,
-  "built_at": "2026-10-23T09:34:17.778083+00:00"
+  "built_at": "2026-10-23T11:16:40.163254+00:00"
 }
