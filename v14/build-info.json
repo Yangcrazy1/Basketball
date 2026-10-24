@@ -1,0 +1,117 @@
+{
+  "version": 14,
+  "schemaVersion": 13,
+  "historicalSchemas": [
+    10,
+    11,
+    12
+  ],
+  "entry_bytes": 2628,
+  "entry_sha256": "bc521181e9c22a00ed5e899fdb649076b6c7ec7cc8ad9e91c7a007c598a127ca",
+  "core_bytes": 3664382,
+  "offline_html_bytes": 21243032,
+  "offline_html_sha256": "7de02af15fc2ac1c24186dc3d054efdc782adf7a7aa4013b926a449cec241b00",
+  "core_files": [
+    "boot-83ffa9eee7c7.js",
+    "style-25d5f58cfbed.css",
+    "data-dfca1352ae57.js",
+    "engine-a94c275e6f26.js",
+    "app-d15ba15e237d.js"
+  ],
+  "mode": "split assets; portraits loaded on demand; offline export is a separate self-contained file",
+  "appName": "平行宇宙的另一个我",
+  "engineAndStorageTests": 58,
+  "dataSha256": "df1149b6ff43e441e41b4aab65b005d6f7544c12e65a123987c25b7437c0d491",
+  "xhsValidation": "docs/xhs-validation-v14.json",
+  "edition": "V14 · 核心梗与分支故事",
+  "enabledPeople": 58,
+  "verifiedAvatars": 58,
+  "pendingAvatars": [],
+  "activeQuestions": 332,
+  "cards": 174,
+  "exclusiveCards": 137,
+  "byTheme": {
+    "lol": {
+      "people": 21,
+      "questions": 136,
+      "cards": 83
+    },
+    "basket": {
+      "people": 20,
+      "questions": 104,
+      "cards": 48
+    },
+    "abstract": {
+      "people": 17,
+      "questions": 92,
+      "cards": 43
+    }
+  },
+  "webURL": "https://yangcrazy1.github.io/Basketball/v14/",
+  "browserGroups": 24,
+  "browserDevice": "393×852 Chromium mobile viewport; not physical phone or XHS platform acceptance",
+  "nativeAcceptance": "pending: 创服平台模拟器、Android 真机扫码、iOS 真机扫码",
+  "verifiedAvatarSources": 58,
+  "avatarVerificationMeaning": "verifiedAvatarSources（旧字段 verifiedAvatars 同义）表示漫画头像均有已核对的公开原型来源与非占位绘图；不表示每张来源照片的真实面孔均已独立核验，也不表示取得商业授权。",
+  "faceVerificationCaveats": [
+    {
+      "personId": "nida",
+      "name": "尼达",
+      "sourceNote": "官方账号头像是车内穿黑色连帽外套的人，帽沿和侧身遮住大部分脸；可还原连帽姿态，不能据此编造已核实正面人脸。 保留公开头像的遮脸姿态，不声称已核对完整面容。",
+      "meaning": "已核对公开账号头像来源；不宣称真实面孔已独立核验。"
+    },
+    {
+      "personId": "yili",
+      "name": "伊利",
+      "sourceNote": "官方账号头像为戴黑色毛线帽、黑色外套的近距离单人自拍，脸部清楚。",
+      "meaning": "已核对公开账号头像来源；不宣称真实面孔已独立核验。"
+    }
+  ],
+  "representativeCards": 137,
+  "representativeAssociations": 143,
+  "branchStories": 58,
+  "disabledReviewCandidates": 26,
+  "frozenHistorySources": {
+    "10": {
+      "data.json": "8d89181cae6247ed0faf7a727c3a78f0f0dd1a1eb502c11377f97112ee604467",
+      "engine.js": "e91053c16614f75ece446e0a4a8d4f838a69f118d6a0f7897094a0e4aa42706e"
+    },
+    "11": {
+      "data.json": "920a24809b3d7e6f6859e9c73b65182d517dfb811a7f4dc858d56fcf64efc2e9",
+      "engine.js": "8da99987e320153b8ad80d51afb09be9f5ec3b8ae174eb7d3347348a62dabe2f"
+    },
+    "12": {
+      "data.json": "785c19aef9429ba9b1fdc3c67099bd1a6d111932fb52fe5da5d3bb109a730430",
+      "engine.js": "bd904fc4948836f5fcd2bbf5cb2691f65802bc25be48814478439c38d1bd4c08"
+    }
+  },
+  "artifacts": {
+    "world-another-me-v14.html": {
+      "bytes": 21243032,
+      "sha256": "7de02af15fc2ac1c24186dc3d054efdc782adf7a7aa4013b926a449cec241b00"
+    },
+    "world-another-me-v14-web.zip": {
+      "bytes": 36975293,
+      "sha256": "fd9377a4d8587996011858dd793f7c8679d35af031fc5194c63dfd2f1dcf263a"
+    },
+    "world-another-me-v14-xhs.zip": {
+      "bytes": 8506480,
+      "sha256": "06f6563df29be23c12d89eb6a65e76de328f671638bc809b17938af49190f39a"
+    }
+  },
+  "xhsFiles": 83,
+  "logoDownload": "./downloads/logo.png",
+  "logoDownloadSHA256": "3cef8ec1a4474921fd02dd72bcb50e5985cb52f85c53f7008b1c4d04c6f552f5",
+  "coverDownload": "./downloads/cover.png",
+  "coverDownloadSHA256": "1a4cfe52975d58176e6e0495eaa2fe743109ea44c11210a6abdeb0e37752936e",
+  "introRealLifeDownload": "./downloads/introRealLife.png",
+  "introRealLifeDownloadSHA256": "925bcf6fa6ac2068c53c1f927262afa4fb2c8fdb1f9aac6671e043b94f010e08",
+  "introMirrorDownload": "./downloads/introMirror.png",
+  "introMirrorDownloadSHA256": "4dbe9ce085b6ab74308363ba6c7bb40827c8cae9db8e4e8dc7b59e14ccaeabea",
+  "introNewWorldDownload": "./downloads/introNewWorld.png",
+  "introNewWorldDownloadSHA256": "f2d4c4f6e297e0adea7466ecfab33dd8b33b3b252caa432ec1bec301defe213f",
+  "reviewScript": "review-v14-939f29c27aba.js",
+  "reviewDataScript": "data-dfca1352ae57.js",
+  "source_commit": "82df3bc6ad1ac2f3c9cb60be78e41a7a185d1e31",
+  "previous_entries_unchanged": true
+}
