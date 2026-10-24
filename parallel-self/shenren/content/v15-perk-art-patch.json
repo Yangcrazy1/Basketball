@@ -1,0 +1,70 @@
+{
+  "version": 15,
+  "indexMode": "append one sheet after existing six rich sheets; expected final sheet index 6",
+  "sheets": [
+    {
+      "asset": "parody-icons-v15.webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 4,
+      "rows": 4,
+      "sha256": "4a2367ff2eccc388cc82bbe2d3d919092f6ca98f18bb7f8e44b3b8dabd3f1664",
+      "kind": "本作原创AI棱彩漫画道具图标",
+      "generatedOriginalName": "exec-dfb20926-ba66-4d8e-8c19-d40bfbb7132b.png",
+      "generatedOriginalSha256": "45de60ac9de4e0fd5bece50bb687f93b6b2cad4c0e65c8036ae6846b4c1c7760",
+      "initialGeneratedOriginalName": "exec-a49dbdd3-d83a-4fe7-b713-49118e676477.png",
+      "note": "第一行第4格骰子已用imagegen修为3/6/9点，其他15格维持原有道具；RGB不透明深紫底，WebP质量90。"
+    }
+  ],
+  "cells": [
+    {
+      "cell": 0,
+      "personId": "caixukun",
+      "subject": "篮球、练习闹钟、无字进度牌",
+      "forCard": "练习两年半"
+    },
+    {
+      "cell": 1,
+      "personId": "caixukun",
+      "subject": "麦克风、耳机、运动鞋、篮球",
+      "forCard": "唱跳Rap篮球"
+    },
+    {
+      "cell": 2,
+      "personId": "caixukun",
+      "subject": "灰背带裤、篮球、少量旋律线",
+      "forCard": "只因你太美"
+    },
+    {
+      "cell": 3,
+      "personId": "369",
+      "subject": "三枚骰子3/6/9点，第三枚故意九点",
+      "forCard": "369骰子梗"
+    },
+    {
+      "cell": 4,
+      "personId": "369",
+      "subject": "电竞椅、两侧拉扯线缆、走位箭头",
+      "forCard": "拉扯一下"
+    },
+    {
+      "cell": 5,
+      "personId": "369",
+      "subject": "清水木桶饮水机、教学书、练习键盘",
+      "forCard": "酒桶补习班"
+    }
+  ],
+  "reservedCells": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "visualReview": "前6格物件已逐格目视核对，骰子点数经一次生成编辑修正为3/6/9；不含人脸或汉字标题，木桶中是清水，不表达饮酒鼓励。"
+}

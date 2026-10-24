@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "name": "平行宇宙的另一个我",
   "dimensions": [
     {
@@ -24374,6 +24374,664 @@
         "status": "v14_authored",
         "reason": "按人物核心梗创作日常行动，显式记录每个选项与代表卡的关系。"
       }
+    },
+    {
+      "id": "v15-caixukun-q0",
+      "personId": "caixukun",
+      "theme": "basket",
+      "dim": "express",
+      "scene": "球场入场试拍",
+      "title": "趣味球赛让你拍一段入场，镜头和篮筐都在等你，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先做侧身控球，让摄影师留好封面位置。",
+          "behavior": "nba-color",
+          "value": 4,
+          "cardNames": [
+            "只因你太美"
+          ],
+          "tags": [
+            "nba-color"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "把拍球声当节拍，带队友完成一段出场。",
+          "behavior": "nba-show",
+          "value": 3,
+          "cardNames": [
+            "唱跳Rap篮球"
+          ],
+          "tags": [
+            "nba-show"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "在边线练熟动作，等镜头拍完再安静入场。",
+          "behavior": "nba-train",
+          "value": 1,
+          "cardNames": [
+            "练习两年半"
+          ],
+          "tags": [
+            "nba-train"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "按平时走进球场，给队友传一球就算开场。",
+          "behavior": "nba-team",
+          "value": 2,
+          "cardNames": [],
+          "tags": [
+            "nba-team"
+          ]
+        }
+      ],
+      "personContext": "caixukun",
+      "enabled": true,
+      "importance": 1.25,
+      "editorialCategory": "life",
+      "review": {
+        "status": "v15_authored",
+        "reason": "从具体情境行动触发代表卡，不把人物名当答案。"
+      }
+    },
+    {
+      "id": "v15-caixukun-q1",
+      "personId": "caixukun",
+      "theme": "basket",
+      "dim": "action",
+      "scene": "只够拍最后一条",
+      "title": "摄影师说电池只够最后一条，你的控球热身还没结束，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "再练一次才收尾，顺手把计时牌架起来。",
+          "behavior": "nba-train",
+          "value": 2,
+          "cardNames": [
+            "练习两年半"
+          ],
+          "tags": [
+            "nba-train"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "立刻给转身特写，先把这一张封面定下来。",
+          "behavior": "nba-color",
+          "value": 4,
+          "cardNames": [
+            "只因你太美"
+          ],
+          "tags": [
+            "nba-color"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "先看一遍试拍，确认缺哪个动作再补录。",
+          "behavior": "nba-plan",
+          "value": 1,
+          "cardNames": [],
+          "tags": [
+            "nba-plan"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "把出场压成一条，队友传球时一起踩拍子。",
+          "behavior": "nba-show",
+          "value": 3,
+          "cardNames": [
+            "唱跳Rap篮球"
+          ],
+          "tags": [
+            "nba-show"
+          ]
+        }
+      ],
+      "personContext": "caixukun",
+      "enabled": true,
+      "importance": 1.25,
+      "editorialCategory": "life",
+      "review": {
+        "status": "v15_authored",
+        "reason": "从具体情境行动触发代表卡，不把人物名当答案。"
+      }
+    },
+    {
+      "id": "v15-caixukun-q2",
+      "personId": "caixukun",
+      "theme": "basket",
+      "dim": "order",
+      "scene": "主持人把流程加长",
+      "title": "主持人把开球加成四项表演，队友还在篮下等传球，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "把每项编好顺序，拍球节拍接进最后一栏。",
+          "behavior": "nba-show",
+          "value": 3,
+          "cardNames": [
+            "唱跳Rap篮球"
+          ],
+          "tags": [
+            "nba-show"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "保留一分钟练习，计时结束准时进入对局。",
+          "behavior": "nba-train",
+          "value": 4,
+          "cardNames": [
+            "练习两年半"
+          ],
+          "tags": [
+            "nba-train"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "哪个镜头好看先拍，比分留到入场之后再说。",
+          "behavior": "nba-color",
+          "value": 1,
+          "cardNames": [
+            "只因你太美"
+          ],
+          "tags": [
+            "nba-color"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "先把球传起来，让主持人跟着回合找空隙。",
+          "behavior": "nba-team",
+          "value": 2,
+          "cardNames": [],
+          "tags": [
+            "nba-team"
+          ]
+        }
+      ],
+      "personContext": "caixukun",
+      "enabled": true,
+      "importance": 1.25,
+      "editorialCategory": "life",
+      "review": {
+        "status": "v15_authored",
+        "reason": "从具体情境行动触发代表卡，不把人物名当答案。"
+      }
+    },
+    {
+      "id": "v15-caixukun-q3",
+      "personId": "caixukun",
+      "theme": "basket",
+      "dim": "explore",
+      "scene": "计时牌临时改用途",
+      "title": "场边只有计时牌、球和手机，你想给趣味赛拍什么新开头？",
+      "options": [
+        {
+          "id": 0,
+          "text": "计时牌翻过来补光，侧身控球拍一张封面。",
+          "behavior": "nba-color",
+          "value": 3,
+          "cardNames": [
+            "只因你太美"
+          ],
+          "tags": [
+            "nba-color"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "用球声配原创报数，四个动作串成一条片。",
+          "behavior": "nba-show",
+          "value": 4,
+          "cardNames": [
+            "唱跳Rap篮球"
+          ],
+          "tags": [
+            "nba-show"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "按平时热身流程拍，计时牌照常记练习。",
+          "behavior": "nba-train",
+          "value": 1,
+          "cardNames": [
+            "练习两年半"
+          ],
+          "tags": [
+            "nba-train"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "拍大家轮流传球，最后一起给篮筐留空镜。",
+          "behavior": "nba-team",
+          "value": 2,
+          "cardNames": [],
+          "tags": [
+            "nba-team"
+          ]
+        }
+      ],
+      "personContext": "caixukun",
+      "enabled": true,
+      "importance": 1.25,
+      "editorialCategory": "life",
+      "review": {
+        "status": "v15_authored",
+        "reason": "从具体情境行动触发代表卡，不把人物名当答案。"
+      }
+    },
+    {
+      "id": "v15-369-q0",
+      "personId": "369",
+      "personContext": "369",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "v15-369",
+      "chapterName": "网吧日常 · 开局前的状态仪式",
+      "stage": 0,
+      "scene": "开局前的状态仪式",
+      "title": "网吧开黑刚坐下，朋友把练习入口和一颗状态骰推过来，你先？",
+      "enabled": true,
+      "importance": 1.25,
+      "editorialCategory": "life",
+      "tip": "骰子只是本作状态玩笑；酒桶是游戏英雄，按你会做的动作选，不考职业知识。",
+      "options": [
+        {
+          "id": 0,
+          "text": "先练一遍刚才失手的动作，手热了再开。",
+          "behavior": "mechanics",
+          "signals": {
+            "tilt": 28,
+            "greed": 45,
+            "risk": 48,
+            "team": 56,
+            "craft": 95,
+            "plan": 82
+          },
+          "tags": [
+            "mechanics"
+          ],
+          "cardNames": [
+            "酒桶补习班"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "先掷一次状态骰，点数够高我就敢开。",
+          "behavior": "chaos",
+          "signals": {
+            "tilt": 65,
+            "greed": 55,
+            "risk": 86,
+            "team": 48,
+            "craft": 52,
+            "plan": 20
+          },
+          "tags": [
+            "chaos"
+          ],
+          "cardNames": [
+            "摇骰子"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "先看大家准备好了没，把下机时间对齐。",
+          "behavior": "plan",
+          "signals": {
+            "tilt": 10,
+            "greed": 32,
+            "risk": 22,
+            "team": 92,
+            "craft": 55,
+            "plan": 96
+          },
+          "tags": [
+            "plan"
+          ],
+          "cardNames": []
+        },
+        {
+          "id": 3,
+          "text": "先试两步安全走位，留点距离再入场。",
+          "behavior": "poke",
+          "signals": {
+            "tilt": 18,
+            "greed": 42,
+            "risk": 28,
+            "team": 62,
+            "craft": 80,
+            "plan": 78
+          },
+          "tags": [
+            "poke"
+          ],
+          "cardNames": [
+            "拉扯一下"
+          ]
+        }
+      ],
+      "review": {
+        "status": "v15_authored",
+        "reason": "从具体情境行动触发代表卡，不把人物名当答案。"
+      }
+    },
+    {
+      "id": "v15-369-q1",
+      "personId": "369",
+      "personContext": "369",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "v15-369",
+      "chapterName": "网吧日常 · 开局前的状态仪式",
+      "stage": 1,
+      "scene": "对面突然追来",
+      "title": "开局后对面突然追来，你的椅子也顺势往后滑，你会？",
+      "enabled": true,
+      "importance": 1.25,
+      "editorialCategory": "life",
+      "tip": "骰子只是本作状态玩笑；酒桶是游戏英雄，按你会做的动作选，不考职业知识。",
+      "options": [
+        {
+          "id": 0,
+          "text": "先退半步再回头，让对面追着我的距离走。",
+          "behavior": "spin",
+          "signals": {
+            "tilt": 32,
+            "greed": 48,
+            "risk": 52,
+            "team": 62,
+            "craft": 88,
+            "plan": 76
+          },
+          "tags": [
+            "spin"
+          ],
+          "cardNames": [
+            "拉扯一下"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "开局状态正旺，喊上队友直接迎过去。",
+          "behavior": "engage",
+          "signals": {
+            "tilt": 58,
+            "greed": 54,
+            "risk": 92,
+            "team": 82,
+            "craft": 68,
+            "plan": 40
+          },
+          "tags": [
+            "engage"
+          ],
+          "cardNames": [
+            "摇骰子"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "先站稳把人拦一下，给队友留出回头空间。",
+          "behavior": "control",
+          "signals": {
+            "tilt": 18,
+            "greed": 28,
+            "risk": 40,
+            "team": 94,
+            "craft": 84,
+            "plan": 88
+          },
+          "tags": [
+            "control"
+          ],
+          "cardNames": []
+        },
+        {
+          "id": 3,
+          "text": "把刚练过的动作慢半拍按准，先接住这轮。",
+          "behavior": "mechanics",
+          "signals": {
+            "tilt": 25,
+            "greed": 42,
+            "risk": 54,
+            "team": 76,
+            "craft": 96,
+            "plan": 86
+          },
+          "tags": [
+            "mechanics"
+          ],
+          "cardNames": [
+            "酒桶补习班"
+          ]
+        }
+      ],
+      "branches": {
+        "0": "热身刚做完，对面就来追，椅子也跟着滑了一点，你会？",
+        "1": "骰子刚给足底气，对面却追过来了，椅子顺势后滑，你会？",
+        "2": "下机时间刚对齐，对面就来追，椅子也顺势后滑，你会？",
+        "3": "安全走位试完，对面继续追，椅子也顺势后滑，你会？"
+      },
+      "review": {
+        "status": "v15_authored",
+        "reason": "从具体情境行动触发代表卡，不把人物名当答案。"
+      }
+    },
+    {
+      "id": "v15-369-q2",
+      "personId": "369",
+      "personContext": "369",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "v15-369",
+      "chapterName": "网吧日常 · 开局前的状态仪式",
+      "stage": 2,
+      "scene": "椅子停在取水点",
+      "title": "网管理好线，椅子正停在饮水机旁；队友口渴又催着打完，你会？",
+      "enabled": true,
+      "importance": 1.25,
+      "editorialCategory": "life",
+      "tip": "骰子只是本作状态玩笑；酒桶是游戏英雄，按你会做的动作选，不考职业知识。",
+      "options": [
+        {
+          "id": 0,
+          "text": "先趁空档把四杯接齐，练习步骤顺手走一遍。",
+          "behavior": "protect",
+          "signals": {
+            "tilt": 12,
+            "greed": 18,
+            "risk": 24,
+            "team": 98,
+            "craft": 75,
+            "plan": 88
+          },
+          "tags": [
+            "protect"
+          ],
+          "cardNames": [
+            "酒桶补习班"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "把取水路留出来，回来照样走退一步再回头。",
+          "behavior": "spin",
+          "signals": {
+            "tilt": 25,
+            "greed": 35,
+            "risk": 46,
+            "team": 82,
+            "craft": 85,
+            "plan": 84
+          },
+          "tags": [
+            "spin"
+          ],
+          "cardNames": [
+            "拉扯一下"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "看看开局的状态牌，这么旺先争取打一波。",
+          "behavior": "chaos",
+          "signals": {
+            "tilt": 62,
+            "greed": 60,
+            "risk": 88,
+            "team": 44,
+            "craft": 60,
+            "plan": 28
+          },
+          "tags": [
+            "chaos"
+          ],
+          "cardNames": [
+            "摇骰子"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "杯子让旁边人先拿，我留在位置接稳下一轮。",
+          "behavior": "control",
+          "signals": {
+            "tilt": 14,
+            "greed": 30,
+            "risk": 34,
+            "team": 88,
+            "craft": 86,
+            "plan": 92
+          },
+          "tags": [
+            "control"
+          ],
+          "cardNames": []
+        }
+      ],
+      "branches": {
+        "0": "退到饮水机旁，网管刚把线束好；队友口渴又催下机，你会？",
+        "1": "迎上去后停回机位，网管把线束好；队友口渴又催下机，你会？",
+        "2": "队友退回来了，网管也束好线；椅子旁就是饮水机，你会？",
+        "3": "练过的动作做完，网管把线束好；队友口渴又催下机，你会？"
+      },
+      "review": {
+        "status": "v15_authored",
+        "reason": "从具体情境行动触发代表卡，不把人物名当答案。"
+      }
+    },
+    {
+      "id": "v15-369-q3",
+      "personId": "369",
+      "personContext": "369",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "v15-369",
+      "chapterName": "网吧日常 · 开局前的状态仪式",
+      "stage": 3,
+      "scene": "这一局就是最后一局",
+      "title": "水接完了，余额也只够这一局。最后一波你想怎么收尾？",
+      "enabled": true,
+      "importance": 1.25,
+      "editorialCategory": "life",
+      "tip": "骰子只是本作状态玩笑；酒桶是游戏英雄，按你会做的动作选，不考职业知识。",
+      "options": [
+        {
+          "id": 0,
+          "text": "退一步再找回头位置，让这一波按距离结束。",
+          "behavior": "spin",
+          "signals": {
+            "tilt": 22,
+            "greed": 40,
+            "risk": 48,
+            "team": 78,
+            "craft": 88,
+            "plan": 86
+          },
+          "tags": [
+            "spin"
+          ],
+          "cardNames": [
+            "拉扯一下"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "把练过那招按稳，回放明天看，今晚先打完。",
+          "behavior": "mechanics",
+          "signals": {
+            "tilt": 18,
+            "greed": 38,
+            "risk": 52,
+            "team": 86,
+            "craft": 98,
+            "plan": 92
+          },
+          "tags": [
+            "mechanics"
+          ],
+          "cardNames": [
+            "酒桶补习班"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "状态牌还亮着，喊队友一起上，把结算接来。",
+          "behavior": "engage",
+          "signals": {
+            "tilt": 55,
+            "greed": 54,
+            "risk": 90,
+            "team": 88,
+            "craft": 72,
+            "plan": 48
+          },
+          "tags": [
+            "engage"
+          ],
+          "cardNames": [
+            "摇骰子"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "先护住队友一起回来，等对面追完再决定。",
+          "behavior": "retreat",
+          "signals": {
+            "tilt": 12,
+            "greed": 22,
+            "risk": 15,
+            "team": 96,
+            "craft": 68,
+            "plan": 94
+          },
+          "tags": [
+            "retreat"
+          ],
+          "cardNames": []
+        }
+      ],
+      "branches": {
+        "0": "四杯水已到位，余额只够这一局；最后一波你想怎么收尾？",
+        "1": "取水路已留好，余额只够这一局；最后一波你想怎么收尾？",
+        "2": "状态牌还亮着，余额只够这一局；最后一波你想怎么收尾？",
+        "3": "下一轮已经接稳，余额只够这一局；最后一波你想怎么收尾？"
+      },
+      "review": {
+        "status": "v15_authored",
+        "reason": "从具体情境行动触发代表卡，不把人物名当答案。"
+      }
     }
   ],
   "characters": [
@@ -31626,6 +32284,228 @@
         "在「我的穿越故事」里选一条路线，让下一幕真正改变。"
       ],
       "spotlight": false
+    },
+    {
+      "id": "basket-caixukun",
+      "personId": "caixukun",
+      "theme": "basket",
+      "name": "蔡徐坤",
+      "nickname": "坤坤",
+      "aliases": [
+        "蔡徐坤",
+        "坤坤",
+        "KUN",
+        "Cai Xukun",
+        "caixukun"
+      ],
+      "number": "KUN",
+      "roles": [
+        1,
+        0,
+        2
+      ],
+      "roleType": "entertainer",
+      "basketballGroup": "跨界整活",
+      "sub": "唱跳舞台与篮球开场 / 跨界娱乐二创",
+      "line": "球还没进，摄影师先宣布封面有了。",
+      "vector": [
+        74,
+        78,
+        58,
+        72,
+        48,
+        96
+      ],
+      "behaviorWeights": {
+        "nba-show": 5,
+        "nba-color": 4,
+        "nba-train": 3,
+        "nba-spin": 3,
+        "nba-call": 3,
+        "nba-team": 2
+      },
+      "tier": "normal",
+      "exposureWeight": 1,
+      "spotlight": false,
+      "enabled": true,
+      "editorialStatus": "selected",
+      "sourceStatus": "indexed",
+      "universe": {
+        "title": "跨界练习生",
+        "arrival": "你穿过镜面，落在球馆侧边的排练区。球鞋旁摆着话筒，四个队友都在等这次开场。",
+        "mission": "把练习动作排成能与队友接上的一场表演，别让前奏比比赛还长。",
+        "passive": "听见节拍先踩准动作，球到了手上仍得抬头找队友。",
+        "teamHook": "负责开场和加练的人：唱跳可以有个人镜头，篮球得五个人传。"
+      },
+      "rosterOrder": 58,
+      "answerAffinities": {
+        "v15-caixukun-q0": {
+          "nba-color": 5,
+          "nba-show": 5,
+          "nba-train": 5
+        },
+        "v15-caixukun-q1": {
+          "nba-train": 5,
+          "nba-color": 5,
+          "nba-show": 5
+        },
+        "v15-caixukun-q2": {
+          "nba-show": 5,
+          "nba-train": 5,
+          "nba-color": 5
+        },
+        "v15-caixukun-q3": {
+          "nba-color": 5,
+          "nba-show": 5,
+          "nba-train": 5
+        }
+      },
+      "optionAffinities": {
+        "v15-caixukun-q0": {
+          "0": 5,
+          "1": 5,
+          "2": 5
+        },
+        "v15-caixukun-q1": {
+          "0": 5,
+          "1": 5,
+          "3": 5
+        },
+        "v15-caixukun-q2": {
+          "0": 5,
+          "1": 5,
+          "2": 5
+        },
+        "v15-caixukun-q3": {
+          "0": 5,
+          "1": 5,
+          "2": 5
+        }
+      },
+      "parallelStory": [
+        "坤坤，你已穿过镜面。",
+        "你穿过镜面，落在球馆侧边的排练区。球鞋旁摆着话筒，四个队友都在等这次开场。",
+        "这一次的开场，由你和四位队友一起完成。"
+      ],
+      "signaturePerks": [
+        "v15-caixukun-1",
+        "v15-caixukun-2",
+        "v15-caixukun-3"
+      ],
+      "tags": [
+        "练习两年半",
+        "唱跳Rap篮球",
+        "只因你太美"
+      ]
+    },
+    {
+      "id": "lol-369",
+      "personId": "369",
+      "theme": "lol",
+      "name": "369",
+      "nickname": "369",
+      "aliases": [
+        "369",
+        "白家浩",
+        "Bai Jiahao",
+        "骰子上单"
+      ],
+      "number": "369",
+      "roles": [
+        0
+      ],
+      "roleType": "player",
+      "sub": "上路摇号与拉扯 / 平行宇宙二创",
+      "line": "骰子判我状态拉满，网管判我余额不足。",
+      "vector": [
+        45,
+        48,
+        68,
+        64,
+        82,
+        65
+      ],
+      "behaviorWeights": {
+        "spin": 5,
+        "mechanics": 4,
+        "control": 4,
+        "chaos": 3,
+        "poke": 3,
+        "plan": 2
+      },
+      "tier": "normal",
+      "exposureWeight": 1,
+      "spotlight": false,
+      "enabled": true,
+      "editorialStatus": "selected",
+      "sourceStatus": "indexed",
+      "universe": {
+        "title": "上路摇号员",
+        "arrival": "你穿过镜面，落在网吧上路训练角。桌上的骰子、饮水杯和三脚椅都在等一次校准。",
+        "mission": "把手气留给节目效果，把拉扯和练习变成可重复的动作。",
+        "passive": "点数落下后先看看退路；再好的手气也替不了一次真正的练习。",
+        "teamHook": "独守一路的人，也要记得五个人同在一张地图。"
+      },
+      "rosterOrder": 59,
+      "answerAffinities": {
+        "v15-369-q0": {
+          "mechanics": 5,
+          "chaos": 5,
+          "poke": 5
+        },
+        "v15-369-q1": {
+          "spin": 5,
+          "engage": 5,
+          "mechanics": 5
+        },
+        "v15-369-q2": {
+          "protect": 5,
+          "spin": 5,
+          "chaos": 5
+        },
+        "v15-369-q3": {
+          "spin": 5,
+          "mechanics": 5,
+          "engage": 5
+        }
+      },
+      "optionAffinities": {
+        "v15-369-q0": {
+          "0": 5,
+          "1": 5,
+          "3": 5
+        },
+        "v15-369-q1": {
+          "0": 5,
+          "1": 5,
+          "3": 5
+        },
+        "v15-369-q2": {
+          "0": 5,
+          "1": 5,
+          "2": 5
+        },
+        "v15-369-q3": {
+          "0": 5,
+          "1": 5,
+          "2": 5
+        }
+      },
+      "parallelStory": [
+        "369，你已穿过镜面。",
+        "你穿过镜面，落在网吧上路训练角。桌上的骰子、饮水杯和三脚椅都在等一次校准。",
+        "这一次的开场，由你和四位队友一起完成。"
+      ],
+      "signaturePerks": [
+        "v15-369-1",
+        "v15-369-2",
+        "v15-369-3"
+      ],
+      "tags": [
+        "摇骰子",
+        "拉扯一下",
+        "酒桶补习班"
+      ]
     }
   ],
   "augments": {
@@ -40692,6 +41572,398 @@
         "sourceStatus": "legacy_preserved",
         "owners": [],
         "theme": "lol"
+      },
+      {
+        "id": "v15-369-1",
+        "name": "摇骰子",
+        "theme": "lol",
+        "owners": [
+          "369"
+        ],
+        "sourceMeme": "公开报道中的999状态称呼背景；摇骰子机制为本作原创，直接原梗出处未确认。",
+        "adaptation": "original",
+        "fanMade": true,
+        "sourceStatus": "partial_context_only",
+        "sources": [
+          {
+            "title": "淘汰赛再献单杀名场面，369被赞S12第一上单",
+            "url": "https://finance.sina.com.cn/jjxw/2022-10-21/doc-imqqsmrp3299341.shtml?from=pcsearch",
+            "status": "partial_context_only",
+            "contextOnly": true,
+            "originalVideoWatched": false,
+            "note": "公开新京报报道实际正文提到国外解说用「999」形容白家浩火热状态，可支持数字状态称呼背景；本轮多次公开检索未定位到可靠的「369摇骰子」直接视频标题。不要把这个报道写成摇骰子原梗出处，不伪造本人原话；卡片效果仍为本作二创。"
+          }
+        ],
+        "triggerScene": "每轮开局前决定信状态骰，掷一次后保留结果至本轮结束。",
+        "effect": "开局掷一次状态骰：333时头像先找退路，666时光标能进能退，999时人还没坐稳，你已喊完开了。三档属于同一张卡，本轮不能马上重掷；状态能变，网费照计，骰子不负责替你加钟。",
+        "punchline": "骰子负责三六九，网管只收真金白银。",
+        "line": "手感交给骰子，下机时间交给余额。",
+        "owner": "369",
+        "signatureFor": [
+          "369"
+        ],
+        "affinities": [
+          "369"
+        ],
+        "exclusive": true,
+        "personOnly": true,
+        "enabled": true,
+        "selected": true,
+        "editorialStatus": "selected",
+        "activationMode": "answers",
+        "category": "人物代表",
+        "rarity": "kPrismatic",
+        "kind": "chaos",
+        "vector": [
+          45,
+          48,
+          68,
+          64,
+          82,
+          65
+        ],
+        "bias": [
+          -0.1,
+          -0.04,
+          0.36,
+          0.28,
+          0.64,
+          0.3
+        ],
+        "behaviorWeights": {
+          "chaos": 5,
+          "engage": 5
+        },
+        "requires": [
+          "chaos",
+          "engage"
+        ],
+        "evidenceQuestionIds": [
+          "v15-369-q0",
+          "v15-369-q1",
+          "v15-369-q2",
+          "v15-369-q3"
+        ],
+        "answerEvidence": [
+          {
+            "questionId": "v15-369-q0",
+            "optionId": 1,
+            "behavior": "chaos"
+          },
+          {
+            "questionId": "v15-369-q1",
+            "optionId": 1,
+            "behavior": "engage"
+          },
+          {
+            "questionId": "v15-369-q2",
+            "optionId": 2,
+            "behavior": "chaos"
+          },
+          {
+            "questionId": "v15-369-q3",
+            "optionId": 2,
+            "behavior": "engage"
+          }
+        ],
+        "preferClassic": true,
+        "icon": 0,
+        "originalVideoWatched": false,
+        "sourceVerificationNote": "公开新京报报道实际正文提到国外解说用「999」形容白家浩火热状态，可支持数字状态称呼背景；本轮多次公开检索未定位到可靠的「369摇骰子」直接视频标题。不要把这个报道写成摇骰子原梗出处，不伪造本人原话；卡片效果仍为本作二创。",
+        "creation": "依据999状态比喻设计的原创骰子机制；未确认摇骰子直接原出处，不是本人原话。",
+        "classicSprite": {
+          "sheet": 6,
+          "cell": 3
+        },
+        "artReason": "V15专图：三颗分别呈现3、6、9的骰子，直接对应摇点数。",
+        "behaviorRules": {
+          "mode": "answers",
+          "behaviors": [
+            "chaos",
+            "engage"
+          ],
+          "questionIds": [
+            "v15-369-q0",
+            "v15-369-q1",
+            "v15-369-q2",
+            "v15-369-q3"
+          ],
+          "owners": [
+            "369"
+          ],
+          "note": "只有明确关联该卡的本题选项可作证据；同类行为在无关题不算，故事奖励另记。"
+        },
+        "storyRewardIds": [
+          "v15-story-369"
+        ]
+      },
+      {
+        "id": "v15-369-2",
+        "name": "拉扯一下",
+        "theme": "lol",
+        "owners": [
+          "369"
+        ],
+        "sourceMeme": "走位拉扯的公开网络二创",
+        "adaptation": "adapted",
+        "fanMade": true,
+        "sourceStatus": "indexed",
+        "sources": [
+          {
+            "title": "坏了兄弟们，真让369学会拉扯了。",
+            "url": "https://www.bilibili.com/zh-Hans/video/BV1vyZwBVEmk/",
+            "searchPage": "https://search.bilibili.com/all?keyword=369%E6%8B%89%E6%89%AF%E4%B8%80%E4%B8%8B",
+            "status": "indexed",
+            "checkedAt": "2026-10-24",
+            "note": "已在公开搜索结果索引看见标题和视频链接；未完整播放原视频，未核验逐字原话。",
+            "originalVideoWatched": false
+          },
+          {
+            "title": "369鳄鱼的“顶级”拉扯",
+            "url": "https://www.bilibili.com/zh-Hans/video/BV1UN411g7TW/",
+            "searchPage": "https://search.bilibili.com/all?keyword=369%E6%8B%89%E6%89%AF%E4%B8%80%E4%B8%8B",
+            "status": "indexed",
+            "checkedAt": "2026-10-24",
+            "note": "已在公开搜索结果索引看见标题和视频链接；未完整播放原视频，未核验逐字原话。",
+            "originalVideoWatched": false
+          }
+        ],
+        "triggerScene": "对面追来时选择回头走位，先退一步再找还手位置。",
+        "effect": "你一回头走位，电脑椅也跟着滑一格。对面还没追到，充电线先弹出长度不足；网管理好线后，椅子终点正好停在饮水机旁。你拉出了安全距离，也拉出了全队取水路线。",
+        "punchline": "对手还在追，饮水机已经进入我的射程。",
+        "line": "屏幕里拉开距离，屏幕外拉到取水点。",
+        "owner": "369",
+        "signatureFor": [
+          "369"
+        ],
+        "affinities": [
+          "369"
+        ],
+        "exclusive": true,
+        "personOnly": true,
+        "enabled": true,
+        "selected": true,
+        "editorialStatus": "selected",
+        "activationMode": "answers",
+        "category": "人物代表",
+        "rarity": "kPrismatic",
+        "kind": "chaos",
+        "vector": [
+          45,
+          48,
+          68,
+          64,
+          82,
+          65
+        ],
+        "bias": [
+          -0.1,
+          -0.04,
+          0.36,
+          0.28,
+          0.64,
+          0.3
+        ],
+        "behaviorWeights": {
+          "poke": 5,
+          "spin": 5
+        },
+        "requires": [
+          "poke",
+          "spin"
+        ],
+        "evidenceQuestionIds": [
+          "v15-369-q0",
+          "v15-369-q1",
+          "v15-369-q2",
+          "v15-369-q3"
+        ],
+        "answerEvidence": [
+          {
+            "questionId": "v15-369-q0",
+            "optionId": 3,
+            "behavior": "poke"
+          },
+          {
+            "questionId": "v15-369-q1",
+            "optionId": 0,
+            "behavior": "spin"
+          },
+          {
+            "questionId": "v15-369-q2",
+            "optionId": 1,
+            "behavior": "spin"
+          },
+          {
+            "questionId": "v15-369-q3",
+            "optionId": 0,
+            "behavior": "spin"
+          }
+        ],
+        "preferClassic": true,
+        "icon": 0,
+        "originalVideoWatched": false,
+        "sourceVerificationNote": "能核对公开传播中的369与拉扯主题关联；未核实「拉扯一下」为本人逐字台词。",
+        "creation": "本作基于公开流行梗创作的虚构效果，不是人物原话或现实职业履历。",
+        "classicSprite": {
+          "sheet": 6,
+          "cell": 4
+        },
+        "artReason": "V15专图：电竞椅、充电线与走位箭头，对应进退拉扯。",
+        "behaviorRules": {
+          "mode": "answers",
+          "behaviors": [
+            "poke",
+            "spin"
+          ],
+          "questionIds": [
+            "v15-369-q0",
+            "v15-369-q1",
+            "v15-369-q2",
+            "v15-369-q3"
+          ],
+          "owners": [
+            "369"
+          ],
+          "note": "只有明确关联该卡的本题选项可作证据；同类行为在无关题不算，故事奖励另记。"
+        },
+        "storyRewardIds": [
+          "v15-story-369"
+        ]
+      },
+      {
+        "id": "v15-369-3",
+        "name": "酒桶补习班",
+        "theme": "lol",
+        "owners": [
+          "369"
+        ],
+        "sourceMeme": "酒桶英雄训练及纪录片复盘的网络传播梗",
+        "adaptation": "adapted",
+        "fanMade": true,
+        "sourceStatus": "indexed",
+        "sources": [
+          {
+            "title": "369带队友看卡萨圣经：酒桶玩得跟屎一样！全员绷不住爆笑",
+            "url": "https://www.bilibili.com/zh-Hans/video/BV1yu4y197xx/",
+            "searchPage": "https://search.bilibili.com/all?keyword=369%E6%8B%89%E6%89%AF%E4%B8%80%E4%B8%8B",
+            "status": "indexed",
+            "checkedAt": "2026-10-24",
+            "note": "已在公开搜索结果索引看见标题和视频链接；未完整播放原视频，未核验逐字原话。",
+            "originalVideoWatched": false
+          },
+          {
+            "title": "纯净原版卡萨圣经",
+            "url": "https://www.bilibili.com/zh-Hans/video/BV1joSxYeELt/",
+            "searchPage": "https://search.bilibili.com/all?keyword=%E5%8D%A1%E8%90%A8%20369%20%E7%BA%AA%E5%BD%95%E7%89%87",
+            "status": "indexed",
+            "checkedAt": "2026-10-24",
+            "note": "已在公开搜索结果索引看见标题和视频链接；未完整播放原视频，未核验逐字原话。",
+            "originalVideoWatched": false
+          }
+        ],
+        "triggerScene": "开局前或收尾时，选择针对酒桶这位游戏英雄再练一遍。",
+        "effect": "酒桶是游戏英雄，补习不劝酒。你把练习拆得越来越细，队友等着看你把桶扔准，你却把接水、盖盖、递杯练成了一套连招：实战课尚未结业，饮水机售后先给你盖了优秀章。",
+        "punchline": "桶还没扔准，四杯水先一滴没洒。",
+        "line": "练习模式未通关，开黑补水已毕业。",
+        "owner": "369",
+        "signatureFor": [
+          "369"
+        ],
+        "affinities": [
+          "369"
+        ],
+        "exclusive": true,
+        "personOnly": true,
+        "enabled": true,
+        "selected": true,
+        "editorialStatus": "selected",
+        "activationMode": "answers",
+        "category": "人物代表",
+        "rarity": "kPrismatic",
+        "kind": "chaos",
+        "vector": [
+          45,
+          48,
+          68,
+          64,
+          82,
+          65
+        ],
+        "bias": [
+          -0.1,
+          -0.04,
+          0.36,
+          0.28,
+          0.64,
+          0.3
+        ],
+        "behaviorWeights": {
+          "mechanics": 5,
+          "protect": 5
+        },
+        "requires": [
+          "mechanics",
+          "protect"
+        ],
+        "evidenceQuestionIds": [
+          "v15-369-q0",
+          "v15-369-q1",
+          "v15-369-q2",
+          "v15-369-q3"
+        ],
+        "answerEvidence": [
+          {
+            "questionId": "v15-369-q0",
+            "optionId": 0,
+            "behavior": "mechanics"
+          },
+          {
+            "questionId": "v15-369-q1",
+            "optionId": 3,
+            "behavior": "mechanics"
+          },
+          {
+            "questionId": "v15-369-q2",
+            "optionId": 0,
+            "behavior": "protect"
+          },
+          {
+            "questionId": "v15-369-q3",
+            "optionId": 1,
+            "behavior": "mechanics"
+          }
+        ],
+        "preferClassic": true,
+        "icon": 0,
+        "originalVideoWatched": false,
+        "sourceVerificationNote": "「酒桶补习班」为本作原创卡名；仅按公开索引标题确认369、卡萨、酒桶训练梗有传播关联，不声称已完整观看纪录片，也不复制或伪造卡萨原话。",
+        "creation": "本作基于公开流行梗创作的虚构效果，不是人物原话或现实职业履历。",
+        "classicSprite": {
+          "sheet": 6,
+          "cell": 5
+        },
+        "artReason": "V15专图：酒桶饮水机与练习书，对应酒桶动作补习。",
+        "behaviorRules": {
+          "mode": "answers",
+          "behaviors": [
+            "mechanics",
+            "protect"
+          ],
+          "questionIds": [
+            "v15-369-q0",
+            "v15-369-q1",
+            "v15-369-q2",
+            "v15-369-q3"
+          ],
+          "owners": [
+            "369"
+          ],
+          "note": "只有明确关联该卡的本题选项可作证据；同类行为在无关题不算，故事奖励另记。"
+        },
+        "storyRewardIds": [
+          "v15-story-369"
+        ]
       }
     ],
     "basket": [
@@ -46166,6 +47438,339 @@
         "sourceStatus": "legacy_preserved",
         "owners": [],
         "theme": "basket"
+      },
+      {
+        "id": "v15-caixukun-1",
+        "name": "练习两年半",
+        "theme": "basket",
+        "owners": [
+          "caixukun"
+        ],
+        "sourceMeme": "公开练习生自我介绍与篮球热身二创",
+        "adaptation": "adapted",
+        "fanMade": true,
+        "sourceStatus": "pending_reference_join",
+        "sources": [],
+        "triggerScene": "热身时决定同一套动作再练一遍。",
+        "effect": "热身时选择再练一遍，计时牌立刻跳成“练习两年半”。你终于准备出手，摄影师已经换到第三块电池，下一位选手举着号码牌问：今天还轮不轮得到我？",
+        "punchline": "练习条拉满，摄影师的电量先归零。",
+        "line": "球没开打，热身先有了纪录片。",
+        "owner": "caixukun",
+        "signatureFor": [
+          "caixukun"
+        ],
+        "affinities": [
+          "caixukun"
+        ],
+        "exclusive": true,
+        "personOnly": true,
+        "enabled": true,
+        "selected": true,
+        "editorialStatus": "selected",
+        "activationMode": "answers",
+        "category": "人物代表",
+        "rarity": "kPrismatic",
+        "kind": "team",
+        "vector": [
+          74,
+          78,
+          58,
+          72,
+          48,
+          96
+        ],
+        "bias": [
+          0.48,
+          0.56,
+          0.16,
+          0.44,
+          -0.04,
+          0.92
+        ],
+        "behaviorWeights": {
+          "nba-train": 5
+        },
+        "requires": [
+          "nba-train"
+        ],
+        "evidenceQuestionIds": [
+          "v15-caixukun-q0",
+          "v15-caixukun-q1",
+          "v15-caixukun-q2",
+          "v15-caixukun-q3"
+        ],
+        "answerEvidence": [
+          {
+            "questionId": "v15-caixukun-q0",
+            "optionId": 2,
+            "behavior": "nba-train"
+          },
+          {
+            "questionId": "v15-caixukun-q1",
+            "optionId": 0,
+            "behavior": "nba-train"
+          },
+          {
+            "questionId": "v15-caixukun-q2",
+            "optionId": 1,
+            "behavior": "nba-train"
+          },
+          {
+            "questionId": "v15-caixukun-q3",
+            "optionId": 2,
+            "behavior": "nba-train"
+          }
+        ],
+        "preferClassic": true,
+        "icon": 0,
+        "originalVideoWatched": false,
+        "creation": "本作基于公开流行梗创作的虚构效果，不是人物原话或现实职业履历。",
+        "classicSprite": {
+          "sheet": 6,
+          "cell": 0
+        },
+        "artReason": "V15专图：练习闹钟与篮球。",
+        "behaviorRules": {
+          "mode": "answers",
+          "behaviors": [
+            "nba-train"
+          ],
+          "questionIds": [
+            "v15-caixukun-q0",
+            "v15-caixukun-q1",
+            "v15-caixukun-q2",
+            "v15-caixukun-q3"
+          ],
+          "owners": [
+            "caixukun"
+          ],
+          "note": "只有明确关联该卡的本题选项可作证据；同类行为在无关题不算，故事奖励另记。"
+        },
+        "storyRewardIds": [
+          "v15-story-caixukun"
+        ]
+      },
+      {
+        "id": "v15-caixukun-2",
+        "name": "唱跳Rap篮球",
+        "theme": "basket",
+        "owners": [
+          "caixukun"
+        ],
+        "sourceMeme": "公开自我介绍中的表演与篮球元素",
+        "adaptation": "adapted",
+        "fanMade": true,
+        "sourceStatus": "pending_reference_join",
+        "sources": [],
+        "triggerScene": "开球前选择把控球和自创节奏编成一次完整出场。",
+        "effect": "开球前主动安排出场，流程表自动展开唱、跳、Rap、篮球四栏。你才拍第一下球，灯光、麦克风和节拍器已全部到位；篮球那栏被挤到了翻页后，裁判先申请换一本记录册。",
+        "punchline": "四项全能已就位，篮球正在等翻页。",
+        "line": "主持人报了四项，裁判只负责最后一项。",
+        "owner": "caixukun",
+        "signatureFor": [
+          "caixukun"
+        ],
+        "affinities": [
+          "caixukun"
+        ],
+        "exclusive": true,
+        "personOnly": true,
+        "enabled": true,
+        "selected": true,
+        "editorialStatus": "selected",
+        "activationMode": "answers",
+        "category": "人物代表",
+        "rarity": "kPrismatic",
+        "kind": "team",
+        "vector": [
+          74,
+          78,
+          58,
+          72,
+          48,
+          96
+        ],
+        "bias": [
+          0.48,
+          0.56,
+          0.16,
+          0.44,
+          -0.04,
+          0.92
+        ],
+        "behaviorWeights": {
+          "nba-show": 5
+        },
+        "requires": [
+          "nba-show"
+        ],
+        "evidenceQuestionIds": [
+          "v15-caixukun-q0",
+          "v15-caixukun-q1",
+          "v15-caixukun-q2",
+          "v15-caixukun-q3"
+        ],
+        "answerEvidence": [
+          {
+            "questionId": "v15-caixukun-q0",
+            "optionId": 1,
+            "behavior": "nba-show"
+          },
+          {
+            "questionId": "v15-caixukun-q1",
+            "optionId": 3,
+            "behavior": "nba-show"
+          },
+          {
+            "questionId": "v15-caixukun-q2",
+            "optionId": 0,
+            "behavior": "nba-show"
+          },
+          {
+            "questionId": "v15-caixukun-q3",
+            "optionId": 1,
+            "behavior": "nba-show"
+          }
+        ],
+        "preferClassic": true,
+        "icon": 0,
+        "originalVideoWatched": false,
+        "creation": "本作基于公开流行梗创作的虚构效果，不是人物原话或现实职业履历。",
+        "classicSprite": {
+          "sheet": 6,
+          "cell": 1
+        },
+        "artReason": "V15专图：麦克风、耳机、运动鞋与篮球，对应四项舞台技能。",
+        "behaviorRules": {
+          "mode": "answers",
+          "behaviors": [
+            "nba-show"
+          ],
+          "questionIds": [
+            "v15-caixukun-q0",
+            "v15-caixukun-q1",
+            "v15-caixukun-q2",
+            "v15-caixukun-q3"
+          ],
+          "owners": [
+            "caixukun"
+          ],
+          "note": "只有明确关联该卡的本题选项可作证据；同类行为在无关题不算，故事奖励另记。"
+        },
+        "storyRewardIds": [
+          "v15-story-caixukun"
+        ]
+      },
+      {
+        "id": "v15-caixukun-3",
+        "name": "只因你太美",
+        "theme": "basket",
+        "owners": [
+          "caixukun"
+        ],
+        "sourceMeme": "背带裤控球画面的公开网络二创",
+        "adaptation": "adapted",
+        "fanMade": true,
+        "sourceStatus": "pending_reference_join",
+        "sources": [],
+        "triggerScene": "用背带裤造型登场，或主动要求侧身控球特写。",
+        "effect": "背带裤控球进入特写，机位立刻切成舞台定格，球还没投就先生成一张抢镜海报。裁判举起空白计分板提醒：封面完成，不等于进球完成；下一次出手须先等摄影师撤出画面。",
+        "punchline": "球可以再投一遍，封面必须先拍到。",
+        "line": "篮筐等进球，镜头等转身。",
+        "owner": "caixukun",
+        "signatureFor": [
+          "caixukun"
+        ],
+        "affinities": [
+          "caixukun"
+        ],
+        "exclusive": true,
+        "personOnly": true,
+        "enabled": true,
+        "selected": true,
+        "editorialStatus": "selected",
+        "activationMode": "answers",
+        "category": "人物代表",
+        "rarity": "kPrismatic",
+        "kind": "team",
+        "vector": [
+          74,
+          78,
+          58,
+          72,
+          48,
+          96
+        ],
+        "bias": [
+          0.48,
+          0.56,
+          0.16,
+          0.44,
+          -0.04,
+          0.92
+        ],
+        "behaviorWeights": {
+          "nba-color": 5
+        },
+        "requires": [
+          "nba-color"
+        ],
+        "evidenceQuestionIds": [
+          "v15-caixukun-q0",
+          "v15-caixukun-q1",
+          "v15-caixukun-q2",
+          "v15-caixukun-q3"
+        ],
+        "answerEvidence": [
+          {
+            "questionId": "v15-caixukun-q0",
+            "optionId": 0,
+            "behavior": "nba-color"
+          },
+          {
+            "questionId": "v15-caixukun-q1",
+            "optionId": 1,
+            "behavior": "nba-color"
+          },
+          {
+            "questionId": "v15-caixukun-q2",
+            "optionId": 2,
+            "behavior": "nba-color"
+          },
+          {
+            "questionId": "v15-caixukun-q3",
+            "optionId": 0,
+            "behavior": "nba-color"
+          }
+        ],
+        "preferClassic": true,
+        "icon": 0,
+        "originalVideoWatched": false,
+        "creation": "本作基于公开流行梗创作的虚构效果，不是人物原话或现实职业履历。",
+        "classicSprite": {
+          "sheet": 6,
+          "cell": 2
+        },
+        "artReason": "V15专图：灰背带裤、篮球和音符，对应出镜造型与循环副歌。",
+        "behaviorRules": {
+          "mode": "answers",
+          "behaviors": [
+            "nba-color"
+          ],
+          "questionIds": [
+            "v15-caixukun-q0",
+            "v15-caixukun-q1",
+            "v15-caixukun-q2",
+            "v15-caixukun-q3"
+          ],
+          "owners": [
+            "caixukun"
+          ],
+          "note": "只有明确关联该卡的本题选项可作证据；同类行为在无关题不算，故事奖励另记。"
+        },
+        "storyRewardIds": [
+          "v15-story-caixukun"
+        ]
       }
     ],
     "abstract": [
@@ -51495,32 +53100,32 @@
     "edition": "真实装备梗改 · 本作自制",
     "checkedAt": "2026-10-23",
     "note": "装备和召唤师技能图标来自 Riot Data Dragon 16.21.1；卡名、夸张效果、重复排布和剧情为本作恶搞创作，不是官方强化。名场面提供参考出处，题目为改编情境。",
-    "representativeCards": 137,
-    "representativeAssociations": 143
+    "representativeCards": 143,
+    "representativeAssociations": 149
   },
   "counts": {
-    "questions": 332,
-    "lolQuestions": 136,
-    "lolChapters": 34,
-    "people": 58,
-    "parodyCards": 174,
-    "representativeCards": 137,
-    "representativeAssociations": 143,
-    "exclusiveCards": 137,
-    "lolParodyCards": 83,
-    "stories": 58,
+    "questions": 340,
+    "lolQuestions": 140,
+    "lolChapters": 35,
+    "people": 60,
+    "parodyCards": 180,
+    "representativeCards": 143,
+    "representativeAssociations": 149,
+    "exclusiveCards": 143,
+    "lolParodyCards": 86,
+    "stories": 60,
     "byTheme": {
       "lol": {
-        "questions": 136,
-        "people": 21,
-        "cards": 83,
-        "exclusiveCards": 52
+        "questions": 140,
+        "people": 22,
+        "cards": 86,
+        "exclusiveCards": 55
       },
       "basket": {
-        "questions": 104,
-        "people": 20,
-        "cards": 48,
-        "exclusiveCards": 45
+        "questions": 108,
+        "people": 21,
+        "cards": 51,
+        "exclusiveCards": 48
       },
       "abstract": {
         "questions": 92,
@@ -51673,9 +53278,9 @@
     "flagshipBonus": 9,
     "note": "本作编辑出场优先级；仍按实际作答匹配，非实时流量榜，显示原始匹配分。"
   },
-  "releaseVersion": 14,
-  "edition": "V14 · 核心梗与分支故事",
-  "releaseNote": "58人 / 137代表海克斯 / 三主题可回溯分支故事；旧存档冻结保留。",
+  "releaseVersion": 15,
+  "edition": "V15坤坤与369联动",
+  "releaseNote": "篮球梦之队新增跨界娱乐角色蔡徐坤，联盟新增369：各3张代表海克斯、4道新情境题与可回溯穿越故事。",
   "branchStories": [
     {
       "id": "v14-story-luobenwei",
@@ -61294,6 +62899,328 @@
       "cardIds": [],
       "status": "authored",
       "fanMade": true
+    },
+    {
+      "id": "v15-story-caixukun",
+      "personId": "caixukun",
+      "theme": "basket",
+      "title": "篮球那一栏请翻到下一页",
+      "entry": "arrival",
+      "nodes": [
+        {
+          "id": "arrival",
+          "title": "球带来了，流程多了",
+          "text": "你穿越成社群趣味篮球赛的跨界娱乐嘉宾。你以为带球来就能开打，主持人却拿着四栏流程表等你出场。摄影师只租了一块电池，想拍完一条就收工；裁判已在篮下站好，等的仍是今晚第一球。",
+          "next": "choice-1",
+          "type": "scene"
+        },
+        {
+          "id": "choice-1",
+          "title": "先热身，还是先对镜头",
+          "text": "场边留着一块计时牌和一副三脚架，你可以先练熟控球，也可以先对镜头试一次转身。主持人一边试麦，一边偷偷给开场加项目。",
+          "choices": [
+            {
+              "id": "a",
+              "text": "先练一遍，把球感热起来",
+              "next": "trigger",
+              "flags": {
+                "route1": "a"
+              },
+              "effect": "你把三脚架借来架计时牌，摄影师只能抱相机蹲到边线。",
+              "grantCardNames": [
+                "练习两年半"
+              ],
+              "grantCardIds": [
+                "v15-caixukun-1"
+              ]
+            },
+            {
+              "id": "b",
+              "text": "先转个身，把机位对准确",
+              "next": "trigger",
+              "flags": {
+                "route1": "b"
+              },
+              "effect": "你对镜头试控球，摄影师把计时牌翻成反光板，计时暂停。",
+              "grantCardNames": [
+                "只因你太美"
+              ],
+              "grantCardIds": [
+                "v15-caixukun-3"
+              ]
+            }
+          ],
+          "type": "choice"
+        },
+        {
+          "id": "trigger",
+          "title": "道具开始兼职",
+          "text": "篮球还在你手里，计时和摄影已经各自找到新用途。下一位选手抱着球排在边线外，摄影师不许任何人碰刚调好的机位。",
+          "variants": [
+            {
+              "when": {
+                "route1": "a"
+              },
+              "text": "三脚架被你借去固定热身计时牌，摄影师改抱相机蹲拍，才发现所谓再练一次还有下一次。篮球还在你手里，计时和摄影已经各自找到新用途。下一位选手抱着球排在边线外，摄影师不许任何人碰刚调好的机位。"
+            },
+            {
+              "when": {
+                "route1": "b"
+              },
+              "text": "你把号码贴贴在背带裤前侧，计时牌被摄影师翻过来反光。球还没出手，海报的留白已经排好。篮球还在你手里，计时和摄影已经各自找到新用途。下一位选手抱着球排在边线外，摄影师不许任何人碰刚调好的机位。"
+            }
+          ],
+          "cardEvents": [
+            {
+              "cardName": "练习两年半",
+              "owned": "计时牌跳出练习两年半，摄影师先检查电池；你得把显示单位调回分钟。",
+              "unowned": "队友手动计时，等你把控球动作走完，摄影师顺势测试了两次快门。",
+              "cardId": "v15-caixukun-1"
+            },
+            {
+              "cardName": "只因你太美",
+              "owned": "侧身控球自动截成海报，球还没投，裁判先提醒封面不能登记成得分。",
+              "unowned": "摄影师拍下普通控球照，先留好标题位置，投不投进仍得等裁判看。",
+              "cardId": "v15-caixukun-3"
+            }
+          ],
+          "next": "backfire",
+          "type": "scene"
+        },
+        {
+          "id": "backfire",
+          "title": "主持人报了四个项目",
+          "text": "主持人终于举起流程表：唱、跳、Rap、篮球，原来要逐项报幕。裁判追问比赛何时开始，他却先问音乐有没有准备。摄影师看了眼存储，只够最后一条；你拍着球等发令，全场却开始等你转身。",
+          "next": "choice-2",
+          "type": "scene"
+        },
+        {
+          "id": "choice-2",
+          "title": "给片头收尾，还是给球赛开场",
+          "text": "灯光已经追到场边，队友仍在篮下招手。你要把这次入场演完，还是让主持人翻到篮球那一页，普通打一球？",
+          "choices": [
+            {
+              "id": "a",
+              "text": "把出场演完，球声当节奏",
+              "next": "ending",
+              "flags": {
+                "route2": "a"
+              },
+              "effect": "你用自创报数和拍球编一段出场，队友按节拍传球，裁判先等最后一栏。",
+              "grantCardNames": [
+                "唱跳Rap篮球"
+              ],
+              "grantCardIds": [
+                "v15-caixukun-2"
+              ]
+            },
+            {
+              "id": "b",
+              "text": "让音乐暂停，普通打一球",
+              "next": "ending",
+              "flags": {
+                "route2": "b"
+              },
+              "effect": "你请机位退到边线，接队友一次传球，出手后全场终于开始看篮筐。",
+              "grantCardNames": [],
+              "grantCardIds": []
+            }
+          ],
+          "type": "choice"
+        },
+        {
+          "id": "ending",
+          "title": "封面与比分各算各的",
+          "text": "计时牌被搬回场边，下一位选手终于能热身。摄影师收起相机，发现封面上最显眼的并非比分，而是裁判举着的那块空白板。",
+          "variants": [
+            {
+              "when": {
+                "route2": "a"
+              },
+              "title": "四项出场总编导",
+              "text": "四栏报幕终于走完，摄影师也恰好拍满存储。主持人宣布最佳片头已出炉，比分却还没开张；你把被当成麦克风的篮球要回来，队友正在喊下一球。计时牌被搬回场边，下一位选手终于能热身。摄影师收起相机，发现封面上最显眼的并非比分，而是裁判举着的那块空白板。"
+            },
+            {
+              "when": {
+                "route2": "b"
+              },
+              "title": "片头之后第一球",
+              "text": "球碰框落下，队友抢到篮板再传回来。裁判终于吹出开球后的第一声哨，摄影师想补一个转身，你已经追着传球跑进下一回合；反光板只能交还给计时员。计时牌被搬回场边，下一位选手终于能热身。摄影师收起相机，发现封面上最显眼的并非比分，而是裁判举着的那块空白板。"
+            }
+          ],
+          "type": "ending"
+        }
+      ],
+      "status": "authored",
+      "fanMade": true,
+      "cardIds": [
+        "v15-caixukun-1",
+        "v15-caixukun-2",
+        "v15-caixukun-3"
+      ]
+    },
+    {
+      "id": "v15-story-369",
+      "personId": "369",
+      "theme": "lol",
+      "title": "骰子判我999，网管判我该加钟",
+      "entry": "arrival",
+      "nodes": [
+        {
+          "id": "arrival",
+          "title": "三档状态，一张续费单",
+          "text": "你穿越成369，坐进网吧五连座。今晚状态由桌上一颗骰子解释：三档分别叫333、666和999，数字越高，开场越有底气。队友只想打完最后一局下机，网管拿着续费单，谁都没打算陪骰子通宵。",
+          "next": "choice-1",
+          "type": "scene"
+        },
+        {
+          "id": "choice-1",
+          "title": "先校准，还是先信骰子",
+          "text": "鼠标刚插好，队友把练习入口和骰子一起推来。先热身能校准手感，信骰子能省下这一步；电脑椅旁还有一根没理好的充电线，水杯则全空着。",
+          "choices": [
+            {
+              "id": "a",
+              "text": "先热身校准，练一遍再排",
+              "next": "trigger",
+              "flags": {
+                "route1": "a"
+              },
+              "effect": "你开练习接水给队友，骰子改当杯垫镇纸，饮水机成为临时补给点。",
+              "grantCardNames": [
+                "酒桶补习班"
+              ],
+              "grantCardIds": [
+                "v15-369-3"
+              ]
+            },
+            {
+              "id": "b",
+              "text": "先信骰子，状态好就开了",
+              "next": "trigger",
+              "flags": {
+                "route1": "b"
+              },
+              "effect": "骰子掷出999，你挪椅子准备开局，网管先来处理绷到边缘的线。",
+              "grantCardNames": [
+                "摇骰子"
+              ],
+              "grantCardIds": [
+                "v15-369-1"
+              ]
+            }
+          ],
+          "type": "choice"
+        },
+        {
+          "id": "trigger",
+          "title": "骰子与水杯各有新岗位",
+          "text": "网管检查了一眼理线槽，提醒椅子别滑出机位。队友把下机时间写在杯垫上，练习与仪式都得在这之前结束。",
+          "variants": [
+            {
+              "when": {
+                "route1": "a"
+              },
+              "text": "你先练游戏英雄酒桶，把饮水机当作临时接水点；骰子被拿来压住杯垫，终于不用满桌滚。网管检查了一眼理线槽，提醒椅子别滑出机位。队友把下机时间写在杯垫上，练习与仪式都得在这之前结束。"
+            },
+            {
+              "when": {
+                "route1": "b"
+              },
+              "text": "你信骰子，结果显示999，赶紧把椅子往前挪；充电线提示长度不足，网管只好过来重新理线。网管检查了一眼理线槽，提醒椅子别滑出机位。队友把下机时间写在杯垫上，练习与仪式都得在这之前结束。"
+            }
+          ],
+          "cardEvents": [
+            {
+              "cardName": "摇骰子",
+              "owned": "999状态亮在头像旁，本轮先不重掷，队友把开局按钮推到你面前。",
+              "unowned": "队友手写999给你壮胆，骰子继续压着杯垫，并没有替手感作保证。",
+              "cardId": "v15-369-1"
+            },
+            {
+              "cardName": "酒桶补习班",
+              "owned": "练习步骤变成接水、盖盖、递杯，桶还在屏幕里，四杯水先到了。",
+              "unowned": "你记下酒桶练习步骤，等空档顺手接水，没把递杯当成新学会的操作。",
+              "cardId": "v15-369-3"
+            }
+          ],
+          "next": "backfire",
+          "type": "scene"
+        },
+        {
+          "id": "backfire",
+          "title": "拉扯终点是饮水机",
+          "text": "对面一追，你回头找安全位置，自己的椅子也跟着滑了一点。网管把线重新束好，椅子却恰好停在饮水机旁。队友等桶扔出去，你顺手先接满了杯子；桶是游戏英雄的道具，这堂课最终却先练会接水。",
+          "next": "choice-2",
+          "type": "scene"
+        },
+        {
+          "id": "choice-2",
+          "title": "最后一波怎样收尾",
+          "text": "余额提示只剩这一局，队友也开始收耳机。你要靠走位把最后一波拉完，还是把练过的动作按稳，顺便结束这堂补习？",
+          "choices": [
+            {
+              "id": "a",
+              "text": "先退再回头，把距离拉完",
+              "next": "ending",
+              "flags": {
+                "route2": "a"
+              },
+              "effect": "你绕开线槽回头走位，网管顺着椅子轨迹贴好临时取水箭头。",
+              "grantCardNames": [
+                "拉扯一下"
+              ],
+              "grantCardIds": [
+                "v15-369-2"
+              ]
+            },
+            {
+              "id": "b",
+              "text": "把练过那招按稳，打完收工",
+              "next": "ending",
+              "flags": {
+                "route2": "b"
+              },
+              "effect": "你按练习节奏完成收尾，队友把没看完的回放改成接水教学。",
+              "grantCardNames": [
+                "酒桶补习班"
+              ],
+              "grantCardIds": [
+                "v15-369-3"
+              ]
+            }
+          ],
+          "type": "choice"
+        },
+        {
+          "id": "ending",
+          "title": "下机前各自结课",
+          "text": "网管收起续费单，桌上只剩被杯子压住的骰子。队友说下次再练，你摸了摸鼠标：手感明天再测，四只空杯已经不用补习。",
+          "variants": [
+            {
+              "when": {
+                "route2": "a"
+              },
+              "title": "饮水机射程管理师",
+              "text": "最后一波打完，网管要求撤掉那条绕机位的箭头。你说这是拉扯路线，他把它贴到饮水机旁，今晚来接水的人都按你的走位绕了一圈。网管收起续费单，桌上只剩被杯子压住的骰子。队友说下次再练，你摸了摸鼠标：手感明天再测，四只空杯已经不用补习。"
+            },
+            {
+              "when": {
+                "route2": "b"
+              },
+              "title": "酒桶补习班补水优秀生",
+              "text": "游戏结束，队友给你的训练记录盖章：接水优秀，英雄练习明日续课。网管送来一张四杯水的合照，要求别把饮水机剪成今晚的胜利画面。网管收起续费单，桌上只剩被杯子压住的骰子。队友说下次再练，你摸了摸鼠标：手感明天再测，四只空杯已经不用补习。"
+            }
+          ],
+          "type": "ending"
+        }
+      ],
+      "status": "authored",
+      "fanMade": true,
+      "cardIds": [
+        "v15-369-1",
+        "v15-369-2",
+        "v15-369-3"
+      ]
     }
   ],
   "representativeCatalog": [
@@ -62261,6 +64188,48 @@
         "nida",
         "yili"
       ]
+    },
+    {
+      "id": "v15-caixukun-1",
+      "name": "练习两年半",
+      "owners": [
+        "caixukun"
+      ]
+    },
+    {
+      "id": "v15-caixukun-2",
+      "name": "唱跳Rap篮球",
+      "owners": [
+        "caixukun"
+      ]
+    },
+    {
+      "id": "v15-caixukun-3",
+      "name": "只因你太美",
+      "owners": [
+        "caixukun"
+      ]
+    },
+    {
+      "id": "v15-369-1",
+      "name": "摇骰子",
+      "owners": [
+        "369"
+      ]
+    },
+    {
+      "id": "v15-369-2",
+      "name": "拉扯一下",
+      "owners": [
+        "369"
+      ]
+    },
+    {
+      "id": "v15-369-3",
+      "name": "酒桶补习班",
+      "owners": [
+        "369"
+      ]
     }
   ],
   "reviewCatalog": {
@@ -62639,10 +64608,11 @@
     "cardCount": 216
   },
   "migration": {
-    "legacySchema": 12,
-    "nativeSchema": 13,
-    "release": 14,
+    "legacySchema": 13,
+    "nativeSchema": 14,
+    "release": 15,
     "pendingStoryPersonIds": [],
     "sourceStatusNotice": "附录B公开链接仅编入索引，未自动认定观看原片或确认原话；卡片效果与故事均为本作二创。"
-  }
+  },
+  "description": "换个世界，看看另一个自己。三个梗宇宙、随机日常题，匹配你的平行身份与专属海克斯；拉起五人神人团，让每次选择改写后续故事，再把离谱人生印成海报。娱乐二创，按第一反应来接梗。"
 }

@@ -1,7 +1,8 @@
+// V15 regression executes the immutable V14 schema 13 source.
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path');
-const E=require('../src/engine.js');
+const E=require('../src/legacy-v13/engine.js');
 const catalog=JSON.parse(fs.readFileSync(path.join(__dirname,'../content/v14-catalog.json'),'utf8'));
 function fixture(){
  const cards=['alpha','beta','shared'].map(id=>({id,name:id,theme:'lol',enabled:true,owners:id==='shared'?['a','b']:['a']}));
@@ -66,7 +67,7 @@ test('same behavior label cannot substitute for the explicitly associated questi
  s.answers=[1];assert.equal(E.recommend(s,d,Array(6).fill(50),{personId:'a'})[0].id,'profit');
 });
 test('every integrated authored story has four playable route combinations, reversible rewards and distinct final events',()=>{
- const d=JSON.parse(fs.readFileSync(path.join(__dirname,'../src/data.json'),'utf8'));
+ const d=JSON.parse(fs.readFileSync(path.join(__dirname,'../src/legacy-v13/data.json'),'utf8'));
  if(d.version!==13)return;
  for(const story of d.branchStories){
   const endings=new Set();
@@ -87,7 +88,7 @@ test('every integrated authored story has four playable route combinations, reve
  }
 });
 test('the two new basketball identities use the documented names and unique canonical search aliases',()=>{
- const d=JSON.parse(fs.readFileSync(path.join(__dirname,'../src/data.json'),'utf8'));
+ const d=JSON.parse(fs.readFileSync(path.join(__dirname,'../src/legacy-v13/data.json'),'utf8'));
  const green=E.enabledPeople(d,'basket').find(p=>p.personId==='draymond-green'),ershu=E.enabledPeople(d,'basket').find(p=>p.personId==='ershu');
  assert.equal(green.name,'德雷蒙德·格林');assert.equal(green.nickname,'格林');
  assert.equal(ershu.name,'恶鼠');assert.equal(ershu.nickname,'恶鼠');
@@ -96,9 +97,9 @@ test('the two new basketball identities use the documented names and unique cano
  for(const alias of ['德雷蒙德·格林','格林','追梦','Draymond Green','draymond-green']){assert.ok(green.aliases.includes(alias));assert.deepEqual(E.searchPeople(d,'all',alias).map(p=>p.personId),['draymond-green']);}
 });
 test('complete V14 native data, deterministic quiz, bounded exposure and 58 reachability witnesses form a hashed release check',()=>{
- const crypto=require('node:crypto'),root=path.join(__dirname,'..'),D=JSON.parse(fs.readFileSync(path.join(root,'src/data.json'),'utf8'));
+ const crypto=require('node:crypto'),root=path.join(__dirname,'..'),D=JSON.parse(fs.readFileSync(path.join(root,'src/legacy-v13/data.json'),'utf8'));
  const sha=filename=>crypto.createHash('sha256').update(fs.readFileSync(path.join(root,filename))).digest('hex');
- const report={release:14,schema:D.version,dataSha256:sha('src/data.json'),engineSha256:sha('src/engine.js'),catalogSha256:sha('content/v14-catalog.json'),frozenV13DataSha256:sha('src/legacy-v12/data.json'),checks:[]};
+ const report={release:14,schema:D.version,dataSha256:sha('src/legacy-v13/data.json'),engineSha256:sha('src/legacy-v13/engine.js'),catalogSha256:sha('content/v14-catalog.json'),frozenV13DataSha256:sha('src/legacy-v12/data.json'),checks:[]};
  const check=(name,fn,details={})=>{fn();report.checks.push({name,status:'passed',...details});};
  const active=E.enabledPeople(D),cards=E.enabledCards(D),reps=cards.filter(c=>c.editorialStatus==='selected');
  check('exact-active-roster-58',()=>{assert.equal(D.version,13);assert.equal(D.releaseVersion,14);assert.equal(active.length,58);assert.deepEqual(active.map(p=>p.personId).slice().sort(),catalog.people.map(p=>p.personId).slice().sort());},{byTheme:{lol:21,basket:20,abstract:17}});
@@ -118,5 +119,5 @@ test('complete V14 native data, deterministic quiz, bounded exposure and 58 reac
  report.status='passed';report.counts=D.counts;report.proofSha256=sha('docs/v14-reachability.json');
  report.nativeEngineRegression={tests:9,passed:9,failed:0,note:'Includes the hashed release audit and exact new-identity alias regression; full-suite counts are recorded separately after completion.'};
 
- fs.writeFileSync(path.join(root,'docs/v14-unit-check.json'),JSON.stringify(report,null,2)+'\n');
+ const out=path.join(root,'dist/qa/v15/v14-frozen-unit-check.json');fs.mkdirSync(path.dirname(out),{recursive:true});report.executionScope='V14 frozen schema 13 regression during V15';fs.writeFileSync(out,JSON.stringify(report,null,2)+'\n');
 });

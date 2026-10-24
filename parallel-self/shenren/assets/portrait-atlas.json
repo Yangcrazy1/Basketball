@@ -214,6 +214,30 @@
       "generatedOriginalSha256": "880235e70d598cf4d53c8807dee094f2eb4410b1a2680485666652d98a4d87d8",
       "kind": "基于核对真人照片生成的原创漫画头像",
       "note": "本地 sheet 索引为 0；root 合并旧 atlas 时需整体偏移。上左格林，上右恶鼠，下左格林播客备用，下右恶鼠持球备用。"
+    },
+    {
+      "asset": "portraits-v15-kun.webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 2,
+      "rows": 2,
+      "sha256": "f25841b16f0f03198fcf311e56b5c491531e23e8171de1996e7e756456c95bea",
+      "generatedOriginalName": "exec-3b5fac26-0f6c-4296-a870-6b3f81437ca6.png",
+      "generatedOriginalSha256": "6d561628b9643e0bbc9831736808a84e0c144606a7453b7b756ad1c8311f7b43",
+      "kind": "基于核对蔡徐坤公开照片生成的原创漫画",
+      "note": "四格为同一蔡徐坤；左上银灰中分背带裤持球为默认头像，其余三格为唱歌、舞蹈练习和耳机练习装备用。未复用V14旧素材，未新增四个独立人物。"
+    },
+    {
+      "asset": "portraits-v15-369.webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 2,
+      "rows": 2,
+      "sha256": "043aa8a0e519ac27b061c1f40089234b57c8d0b1130c87905efcd272ef633035",
+      "generatedOriginalName": "exec-aaecc60f-d6d1-4e76-b544-cf9b1729291e.png",
+      "generatedOriginalSha256": "a6f86b82253d3a59564025fce1cc9000e3f730a1772583e010231e3c403d12ea",
+      "kind": "369／白家浩真实照片参考的原创漫画头像",
+      "note": "同一369四形态。上左默认肖像，上右骰子，下左耳机，下右练习笔记；不新增四位人物，不带战队标识或现役年份。"
     }
   ],
   "portraits": {
@@ -411,8 +435,8 @@
       "cell": 1
     },
     "369": {
-      "sheet": 12,
-      "cell": 2
+      "sheet": 31,
+      "cell": 0
     },
     "tian": {
       "sheet": 12,
@@ -656,6 +680,10 @@
     "ershu": {
       "sheet": 29,
       "cell": 1
+    },
+    "caixukun": {
+      "sheet": 30,
+      "cell": 0
     }
   }
 }

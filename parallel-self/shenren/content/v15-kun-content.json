@@ -1,0 +1,411 @@
+{
+  "releaseVersion": 15,
+  "person": {
+    "personId": "caixukun",
+    "name": "蔡徐坤",
+    "nickname": "坤坤",
+    "aliases": [
+      "蔡徐坤",
+      "坤坤",
+      "KUN"
+    ],
+    "theme": "basket",
+    "sub": "跨界娱乐嘉宾",
+    "description": "本作篮球梦之队的跨界娱乐角色，以公开表演、篮球画面及网络二创构建趣味设定，不作为职业球员履历。",
+    "tier": "normal",
+    "exposureWeight": 1,
+    "roles": [
+      0,
+      1
+    ],
+    "vector": [
+      74,
+      78,
+      58,
+      72,
+      48,
+      96
+    ],
+    "behaviorWeights": {
+      "nba-show": 5,
+      "nba-color": 4,
+      "nba-train": 3,
+      "nba-spin": 3,
+      "nba-call": 3,
+      "nba-team": 2
+    },
+    "line": "球还没进，摄影师先宣布封面有了。",
+    "enabled": true
+  },
+  "cards": [
+    {
+      "id": "v15-caixukun-1",
+      "name": "练习两年半",
+      "theme": "basket",
+      "owners": [
+        "caixukun"
+      ],
+      "sourceMeme": "公开练习生自我介绍与篮球热身二创",
+      "adaptation": "adapted",
+      "fanMade": true,
+      "sourceStatus": "pending_reference_join",
+      "sources": [],
+      "triggerScene": "热身时决定同一套动作再练一遍。",
+      "effect": "热身时选择再练一遍，计时牌立刻跳成“练习两年半”。你终于准备出手，摄影师已经换到第三块电池，下一位选手举着号码牌问：今天还轮不轮得到我？",
+      "punchline": "练习条拉满，摄影师的电量先归零。",
+      "line": "球没开打，热身先有了纪录片。"
+    },
+    {
+      "id": "v15-caixukun-2",
+      "name": "唱跳Rap篮球",
+      "theme": "basket",
+      "owners": [
+        "caixukun"
+      ],
+      "sourceMeme": "公开自我介绍中的表演与篮球元素",
+      "adaptation": "adapted",
+      "fanMade": true,
+      "sourceStatus": "pending_reference_join",
+      "sources": [],
+      "triggerScene": "开球前选择把控球和自创节奏编成一次完整出场。",
+      "effect": "开球前主动安排出场，流程表自动展开唱、跳、Rap、篮球四栏。你才拍第一下球，灯光、麦克风和节拍器已全部到位；篮球那栏被挤到了翻页后，裁判先申请换一本记录册。",
+      "punchline": "四项全能已就位，篮球正在等翻页。",
+      "line": "主持人报了四项，裁判只负责最后一项。"
+    },
+    {
+      "id": "v15-caixukun-3",
+      "name": "只因你太美",
+      "theme": "basket",
+      "owners": [
+        "caixukun"
+      ],
+      "sourceMeme": "背带裤控球画面的公开网络二创",
+      "adaptation": "adapted",
+      "fanMade": true,
+      "sourceStatus": "pending_reference_join",
+      "sources": [],
+      "triggerScene": "用背带裤造型登场，或主动要求侧身控球特写。",
+      "effect": "背带裤控球进入特写，机位立刻切成舞台定格，球还没投就先生成一张抢镜海报。裁判举起空白计分板提醒：封面完成，不等于进球完成；下一次出手须先等摄影师撤出画面。",
+      "punchline": "球可以再投一遍，封面必须先拍到。",
+      "line": "篮筐等进球，镜头等转身。"
+    }
+  ],
+  "story": {
+    "id": "v15-story-caixukun",
+    "personId": "caixukun",
+    "theme": "basket",
+    "title": "篮球那一栏请翻到下一页",
+    "entry": "arrival",
+    "nodes": [
+      {
+        "id": "arrival",
+        "title": "球带来了，流程多了",
+        "text": "你穿越成社群趣味篮球赛的跨界娱乐嘉宾。你以为带球来就能开打，主持人却拿着四栏流程表等你出场。摄影师只租了一块电池，想拍完一条就收工；裁判已在篮下站好，等的仍是今晚第一球。",
+        "next": "choice-1"
+      },
+      {
+        "id": "choice-1",
+        "title": "先热身，还是先对镜头",
+        "text": "场边留着一块计时牌和一副三脚架，你可以先练熟控球，也可以先对镜头试一次转身。主持人一边试麦，一边偷偷给开场加项目。",
+        "choices": [
+          {
+            "id": "a",
+            "text": "先练一遍，把球感热起来",
+            "next": "trigger",
+            "flags": {
+              "route1": "a"
+            },
+            "effect": "你把三脚架借来架计时牌，摄影师只能抱相机蹲到边线。",
+            "grantCardNames": [
+              "练习两年半"
+            ]
+          },
+          {
+            "id": "b",
+            "text": "先转个身，把机位对准确",
+            "next": "trigger",
+            "flags": {
+              "route1": "b"
+            },
+            "effect": "你对镜头试控球，摄影师把计时牌翻成反光板，计时暂停。",
+            "grantCardNames": [
+              "只因你太美"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trigger",
+        "title": "道具开始兼职",
+        "text": "篮球还在你手里，计时和摄影已经各自找到新用途。下一位选手抱着球排在边线外，摄影师不许任何人碰刚调好的机位。",
+        "variants": [
+          {
+            "when": {
+              "route1": "a"
+            },
+            "text": "三脚架被你借去固定热身计时牌，摄影师改抱相机蹲拍，才发现所谓再练一次还有下一次。篮球还在你手里，计时和摄影已经各自找到新用途。下一位选手抱着球排在边线外，摄影师不许任何人碰刚调好的机位。"
+          },
+          {
+            "when": {
+              "route1": "b"
+            },
+            "text": "你把号码贴贴在背带裤前侧，计时牌被摄影师翻过来反光。球还没出手，海报的留白已经排好。篮球还在你手里，计时和摄影已经各自找到新用途。下一位选手抱着球排在边线外，摄影师不许任何人碰刚调好的机位。"
+          }
+        ],
+        "cardEvents": [
+          {
+            "cardName": "练习两年半",
+            "owned": "计时牌跳出练习两年半，摄影师先检查电池；你得把显示单位调回分钟。",
+            "unowned": "队友手动计时，等你把控球动作走完，摄影师顺势测试了两次快门。"
+          },
+          {
+            "cardName": "只因你太美",
+            "owned": "侧身控球自动截成海报，球还没投，裁判先提醒封面不能登记成得分。",
+            "unowned": "摄影师拍下普通控球照，先留好标题位置，投不投进仍得等裁判看。"
+          }
+        ],
+        "next": "backfire"
+      },
+      {
+        "id": "backfire",
+        "title": "主持人报了四个项目",
+        "text": "主持人终于举起流程表：唱、跳、Rap、篮球，原来要逐项报幕。裁判追问比赛何时开始，他却先问音乐有没有准备。摄影师看了眼存储，只够最后一条；你拍着球等发令，全场却开始等你转身。",
+        "next": "choice-2"
+      },
+      {
+        "id": "choice-2",
+        "title": "给片头收尾，还是给球赛开场",
+        "text": "灯光已经追到场边，队友仍在篮下招手。你要把这次入场演完，还是让主持人翻到篮球那一页，普通打一球？",
+        "choices": [
+          {
+            "id": "a",
+            "text": "把出场演完，球声当节奏",
+            "next": "ending",
+            "flags": {
+              "route2": "a"
+            },
+            "effect": "你用自创报数和拍球编一段出场，队友按节拍传球，裁判先等最后一栏。",
+            "grantCardNames": [
+              "唱跳Rap篮球"
+            ]
+          },
+          {
+            "id": "b",
+            "text": "让音乐暂停，普通打一球",
+            "next": "ending",
+            "flags": {
+              "route2": "b"
+            },
+            "effect": "你请机位退到边线，接队友一次传球，出手后全场终于开始看篮筐。",
+            "grantCardNames": []
+          }
+        ]
+      },
+      {
+        "id": "ending",
+        "title": "封面与比分各算各的",
+        "text": "计时牌被搬回场边，下一位选手终于能热身。摄影师收起相机，发现封面上最显眼的并非比分，而是裁判举着的那块空白板。",
+        "variants": [
+          {
+            "when": {
+              "route2": "a"
+            },
+            "title": "四项出场总编导",
+            "text": "四栏报幕终于走完，摄影师也恰好拍满存储。主持人宣布最佳片头已出炉，比分却还没开张；你把被当成麦克风的篮球要回来，队友正在喊下一球。计时牌被搬回场边，下一位选手终于能热身。摄影师收起相机，发现封面上最显眼的并非比分，而是裁判举着的那块空白板。"
+          },
+          {
+            "when": {
+              "route2": "b"
+            },
+            "title": "片头之后第一球",
+            "text": "球碰框落下，队友抢到篮板再传回来。裁判终于吹出开球后的第一声哨，摄影师想补一个转身，你已经追着传球跑进下一回合；反光板只能交还给计时员。计时牌被搬回场边，下一位选手终于能热身。摄影师收起相机，发现封面上最显眼的并非比分，而是裁判举着的那块空白板。"
+          }
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "v15-caixukun-q0",
+      "personId": "caixukun",
+      "theme": "basket",
+      "dim": "express",
+      "scene": "球场入场试拍",
+      "title": "趣味球赛让你拍一段入场，镜头和篮筐都在等你，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "先做侧身控球，让摄影师留好封面位置。",
+          "behavior": "nba-color",
+          "value": 4,
+          "cardNames": [
+            "只因你太美"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "把拍球声当节拍，带队友完成一段出场。",
+          "behavior": "nba-show",
+          "value": 3,
+          "cardNames": [
+            "唱跳Rap篮球"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "在边线练熟动作，等镜头拍完再安静入场。",
+          "behavior": "nba-train",
+          "value": 1,
+          "cardNames": [
+            "练习两年半"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "按平时走进球场，给队友传一球就算开场。",
+          "behavior": "nba-team",
+          "value": 2,
+          "cardNames": []
+        }
+      ]
+    },
+    {
+      "id": "v15-caixukun-q1",
+      "personId": "caixukun",
+      "theme": "basket",
+      "dim": "action",
+      "scene": "只够拍最后一条",
+      "title": "摄影师说电池只够最后一条，你的控球热身还没结束，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "再练一次才收尾，顺手把计时牌架起来。",
+          "behavior": "nba-train",
+          "value": 2,
+          "cardNames": [
+            "练习两年半"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "立刻给转身特写，先把这一张封面定下来。",
+          "behavior": "nba-color",
+          "value": 4,
+          "cardNames": [
+            "只因你太美"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "先看一遍试拍，确认缺哪个动作再补录。",
+          "behavior": "nba-plan",
+          "value": 1,
+          "cardNames": []
+        },
+        {
+          "id": 3,
+          "text": "把出场压成一条，队友传球时一起踩拍子。",
+          "behavior": "nba-show",
+          "value": 3,
+          "cardNames": [
+            "唱跳Rap篮球"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v15-caixukun-q2",
+      "personId": "caixukun",
+      "theme": "basket",
+      "dim": "order",
+      "scene": "主持人把流程加长",
+      "title": "主持人把开球加成四项表演，队友还在篮下等传球，你会？",
+      "options": [
+        {
+          "id": 0,
+          "text": "把每项编好顺序，拍球节拍接进最后一栏。",
+          "behavior": "nba-show",
+          "value": 3,
+          "cardNames": [
+            "唱跳Rap篮球"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "保留一分钟练习，计时结束准时进入对局。",
+          "behavior": "nba-train",
+          "value": 4,
+          "cardNames": [
+            "练习两年半"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "哪个镜头好看先拍，比分留到入场之后再说。",
+          "behavior": "nba-color",
+          "value": 1,
+          "cardNames": [
+            "只因你太美"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "先把球传起来，让主持人跟着回合找空隙。",
+          "behavior": "nba-team",
+          "value": 2,
+          "cardNames": []
+        }
+      ]
+    },
+    {
+      "id": "v15-caixukun-q3",
+      "personId": "caixukun",
+      "theme": "basket",
+      "dim": "explore",
+      "scene": "计时牌临时改用途",
+      "title": "场边只有计时牌、球和手机，你想给趣味赛拍什么新开头？",
+      "options": [
+        {
+          "id": 0,
+          "text": "计时牌翻过来补光，侧身控球拍一张封面。",
+          "behavior": "nba-color",
+          "value": 3,
+          "cardNames": [
+            "只因你太美"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "用球声配原创报数，四个动作串成一条片。",
+          "behavior": "nba-show",
+          "value": 4,
+          "cardNames": [
+            "唱跳Rap篮球"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "按平时热身流程拍，计时牌照常记练习。",
+          "behavior": "nba-train",
+          "value": 1,
+          "cardNames": [
+            "练习两年半"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "拍大家轮流传球，最后一起给篮筐留空镜。",
+          "behavior": "nba-team",
+          "value": 2,
+          "cardNames": []
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "仅新增篮球梦之队的跨界娱乐角色蔡徐坤，其他58人的内容保持原稿。",
+    "故事、对话、卡片能力和选项均为原创游戏二创，不是本人原话或现实比赛记录。",
+    "卡名借用公开传播梗名；不复制歌曲歌词、旋律、音频或现成视频。来源由reference agent补入，pending_reference_join不表示已看完原片。",
+    "故事预览从0卡起步：第一选择奖励练习两年半或只因你太美；第二选择仅演出路线奖励唱跳Rap篮球，普通球赛路线不补卡。每条路径最多2张，不自动发全套。"
+  ]
+}

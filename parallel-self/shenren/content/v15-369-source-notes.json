@@ -1,0 +1,67 @@
+{
+  "personId": "369",
+  "name": "369",
+  "aliases": [
+    "白家浩",
+    "Bai Jiahao"
+  ],
+  "checkedAt": "2026-10-24",
+  "sources": [
+    {
+      "topic": "摇骰子",
+      "cardName": "摇骰子",
+      "status": "partial_context_only",
+      "sourceTitle": "淘汰赛再献单杀名场面，369被赞S12第一上单",
+      "url": "https://finance.sina.com.cn/jjxw/2022-10-21/doc-imqqsmrp3299341.shtml?from=pcsearch",
+      "note": "公开新京报报道实际正文提到国外解说用「999」形容白家浩火热状态，可支持数字状态称呼背景；本轮多次公开检索未定位到可靠的「369摇骰子」直接视频标题。不要把这个报道写成摇骰子原梗出处，不伪造本人原话；卡片效果仍为本作二创。"
+    },
+    {
+      "topic": "拉扯一下",
+      "cardName": "拉扯一下",
+      "status": "indexed_search_only",
+      "references": [
+        {
+          "title": "坏了兄弟们，真让369学会拉扯了。",
+          "url": "https://www.bilibili.com/zh-Hans/video/BV1vyZwBVEmk/",
+          "searchPage": "https://search.bilibili.com/all?keyword=369%E6%8B%89%E6%89%AF%E4%B8%80%E4%B8%8B",
+          "status": "indexed_search_only",
+          "checkedAt": "2026-10-24",
+          "note": "已在公开搜索结果索引看见标题和视频链接；未完整播放原视频，未核验逐字原话。"
+        },
+        {
+          "title": "369鳄鱼的“顶级”拉扯",
+          "url": "https://www.bilibili.com/zh-Hans/video/BV1UN411g7TW/",
+          "searchPage": "https://search.bilibili.com/all?keyword=369%E6%8B%89%E6%89%AF%E4%B8%80%E4%B8%8B",
+          "status": "indexed_search_only",
+          "checkedAt": "2026-10-24",
+          "note": "已在公开搜索结果索引看见标题和视频链接；未完整播放原视频，未核验逐字原话。"
+        }
+      ],
+      "note": "能核对公开传播中的369与拉扯主题关联；未核实「拉扯一下」为本人逐字台词。"
+    },
+    {
+      "topic": "酒桶训练／卡萨圣经",
+      "cardName": "酒桶补习班",
+      "status": "indexed_search_only",
+      "references": [
+        {
+          "title": "369带队友看卡萨圣经：酒桶玩得跟屎一样！全员绷不住爆笑",
+          "url": "https://www.bilibili.com/zh-Hans/video/BV1yu4y197xx/",
+          "searchPage": "https://search.bilibili.com/all?keyword=369%E6%8B%89%E6%89%AF%E4%B8%80%E4%B8%8B",
+          "status": "indexed_search_only",
+          "checkedAt": "2026-10-24",
+          "note": "已在公开搜索结果索引看见标题和视频链接；未完整播放原视频，未核验逐字原话。"
+        },
+        {
+          "title": "纯净原版卡萨圣经",
+          "url": "https://www.bilibili.com/zh-Hans/video/BV1joSxYeELt/",
+          "searchPage": "https://search.bilibili.com/all?keyword=%E5%8D%A1%E8%90%A8%20369%20%E7%BA%AA%E5%BD%95%E7%89%87",
+          "status": "indexed_search_only",
+          "checkedAt": "2026-10-24",
+          "note": "已在公开搜索结果索引看见标题和视频链接；未完整播放原视频，未核验逐字原话。"
+        }
+      ],
+      "note": "「酒桶补习班」为本作原创卡名；仅按公开索引标题确认369、卡萨、酒桶训练梗有传播关联，不声称已完整观看纪录片，也不复制或伪造卡萨原话。"
+    }
+  ]
+}

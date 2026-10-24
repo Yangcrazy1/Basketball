@@ -1,0 +1,80 @@
+{
+  "version": 15,
+  "indexMode": "local-sheet-index; add existing atlas sheet count when merging",
+  "sheets": [
+    {
+      "asset": "portraits-v15-369.webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 2,
+      "rows": 2,
+      "sha256": "043aa8a0e519ac27b061c1f40089234b57c8d0b1130c87905efcd272ef633035",
+      "generatedOriginalName": "exec-aaecc60f-d6d1-4e76-b544-cf9b1729291e.png",
+      "generatedOriginalSha256": "a6f86b82253d3a59564025fce1cc9000e3f730a1772583e010231e3c403d12ea",
+      "kind": "369／白家浩真实照片参考的原创漫画头像",
+      "note": "同一369四形态。上左默认肖像，上右骰子，下左耳机，下右练习笔记；不新增四位人物，不带战队标识或现役年份。"
+    }
+  ],
+  "portraits": {
+    "369": {
+      "sheet": 0,
+      "cell": 0
+    }
+  },
+  "alternatePortraits": {
+    "369-dice": {
+      "personId": "369",
+      "sheet": 0,
+      "cell": 1
+    },
+    "369-headset": {
+      "personId": "369",
+      "sheet": 0,
+      "cell": 2
+    },
+    "369-practice": {
+      "personId": "369",
+      "sheet": 0,
+      "cell": 3
+    }
+  },
+  "references": [
+    {
+      "id": "369",
+      "name": "369",
+      "aliases": [
+        "白家浩",
+        "Bai Jiahao"
+      ],
+      "sourcePage": "https://k.sina.com.cn/article_5688542967_1531046f7040015cgn.html?from=pcsearch",
+      "sourceTitle": "TES官宣369回归｜Score赛高公开转述俱乐部官宣（2023-12-08）",
+      "imageUrl": "https://k.sinaimg.cn/n/sinakd20231208ac/133/w2000h1333/20231208/a21e-54e814edc7764b1aa4f821b36aae1041.jpg/w700d1q75cms.jpg?by=cms_fixed_width",
+      "localPath": "/workspace/Basketball/parallel-self/shenren/assets/v15-references/369.image",
+      "asset": "v15-references/369.image",
+      "sha256": "9120b0211e6bc76f41880719014cbc79ca920c918afd8c0c59eb09441efe306d",
+      "bytes": 205201,
+      "verifiedReference": true,
+      "faceVerified": true,
+      "checkedAt": "2026-10-24",
+      "referencePersonPosition": "right",
+      "kind": "基于核对公开赛事及官宣照片生成的原创漫画",
+      "identityNote": "主参考为2023官宣合照右侧戴黑框眼镜、短寸发、圆脸微笑的白家浩；左侧另一个人未用于头像。另用新京报2022报道明确caption「白家浩（ID：369）状态拉满。拳头游戏供图」中的前景选手交叉核对。非Bin或Knight；未把旧图年份等同当前效力战队。",
+      "rights": "原照片仅作人物身份核对与创作参考，不推定为可自由商用素材。运行头像为漫画重绘；骰子、耳机及网吧练习装为本作二创形态。",
+      "supplementalReferences": [
+        {
+          "sourcePage": "https://finance.sina.com.cn/jjxw/2022-10-21/doc-imqqsmrp3299341.shtml?from=pcsearch",
+          "sourceTitle": "淘汰赛再献单杀名场面，369被赞S12第一上单｜新京报",
+          "imageUrl": "https://n.sinaimg.cn/spider20221021/240/w640h400/20221021/0390-953c97e0578a159e25b171fde08cb949.jpg",
+          "localPath": "/workspace/Basketball/parallel-self/shenren/assets/v15-references/369-match.image",
+          "asset": "v15-references/369-match.image",
+          "sha256": "2a6ae36abab9fd94393cc06f32c78ce971bd0ee8d8f89fb42092a4cb8c07e887",
+          "bytes": 44288,
+          "caption": "白家浩（ID：369）状态拉满。 拳头游戏供图",
+          "referencePersonPosition": "foreground left",
+          "verifiedReference": true,
+          "faceVerified": true
+        }
+      ]
+    }
+  ]
+}

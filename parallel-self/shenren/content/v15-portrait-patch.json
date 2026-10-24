@@ -1,0 +1,74 @@
+{
+  "version": 15,
+  "indexMode": "local-sheet-index; add existing atlas sheet count when merging",
+  "sheets": [
+    {
+      "asset": "portraits-v15-kun.webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 2,
+      "rows": 2,
+      "sha256": "f25841b16f0f03198fcf311e56b5c491531e23e8171de1996e7e756456c95bea",
+      "generatedOriginalName": "exec-3b5fac26-0f6c-4296-a870-6b3f81437ca6.png",
+      "generatedOriginalSha256": "6d561628b9643e0bbc9831736808a84e0c144606a7453b7b756ad1c8311f7b43",
+      "kind": "基于核对蔡徐坤公开照片生成的原创漫画",
+      "note": "四格为同一蔡徐坤；左上银灰中分背带裤持球为默认头像，其余三格为唱歌、舞蹈练习和耳机练习装备用。未复用V14旧素材，未新增四个独立人物。"
+    }
+  ],
+  "portraits": {
+    "caixukun": {
+      "sheet": 0,
+      "cell": 0
+    }
+  },
+  "alternatePortraits": {
+    "caixukun-singing": {
+      "personId": "caixukun",
+      "sheet": 0,
+      "cell": 1
+    },
+    "caixukun-dance": {
+      "personId": "caixukun",
+      "sheet": 0,
+      "cell": 2
+    },
+    "caixukun-rehearsal": {
+      "personId": "caixukun",
+      "sheet": 0,
+      "cell": 3
+    }
+  },
+  "references": [
+    {
+      "id": "caixukun",
+      "name": "蔡徐坤",
+      "nickname": "坤坤",
+      "sourcePage": "https://finance.sina.com.cn/tjhz/2026-10-21/doc-inivynsq8058039.shtml?from=pcsearch",
+      "sourceTitle": "美力城官宣蔡徐坤为全球品牌代言人｜新浪财经转载金昌日报公开品牌官宣",
+      "imageUrl": "https://n.sinaimg.cn/spider20261021/215/w650h365/20261021/3c63-714bef03375a233f63c13e908256b8a8.jpg",
+      "localPath": "/workspace/Basketball/parallel-self/shenren/assets/v15-references/caixukun.image",
+      "asset": "v15-references/caixukun.image",
+      "sha256": "4cd75acad4df7cd1b7852213a3a7f3806c89ed5c78321395f72503855fc71ee1",
+      "bytes": 30242,
+      "verifiedReference": true,
+      "faceVerified": true,
+      "checkedAt": "2026-10-24",
+      "kind": "公开品牌官宣照片参考后的原创漫画",
+      "identityNote": "正文及配图明确标注蔡徐坤；已目视核对主近脸图，并用同文正面全身配图交叉确认人物；未采用其他演员。漫画中的银灰中分、黑上衣、灰背带裤和篮球是经典舞台造型的本作二创重组，未宣称为篮球运动员履历。",
+      "rights": "原照片来自公开报道的品牌官宣物料，仅作人物身份核对与创作参考；不推定为可自由商用图片。运行头像为AI漫画重绘，公开发布仍需自行确认相关权利。",
+      "supplementalReferences": [
+        {
+          "sourcePage": "https://finance.sina.com.cn/tjhz/2026-10-21/doc-inivynsq8058039.shtml?from=pcsearch",
+          "imageUrl": "https://n.sinaimg.cn/spider20261021/337/w650h487/20261021/87b5-8824a0732fbc5320314c5585d7854eb7.jpg",
+          "localPath": "/workspace/Basketball/parallel-self/shenren/assets/v15-references/caixukun-frontal.image",
+          "asset": "v15-references/caixukun-frontal.image",
+          "sha256": "1cde6239842c3de0d2b4cfe773c9abe8484071adea6f14a32950521793ec7ae6",
+          "bytes": 46345,
+          "verifiedReference": true,
+          "faceVerified": true,
+          "note": "同一公开报道内两张正面站姿官宣图，用于正面脸部结构交叉核对。"
+        }
+      ]
+    }
+  ]
+}

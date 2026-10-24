@@ -1,0 +1,1083 @@
+{
+  "release": 15,
+  "schema": 14,
+  "person": {
+    "id": "lol-369",
+    "personId": "369",
+    "theme": "lol",
+    "name": "369",
+    "nickname": "369",
+    "aliases": [
+      "369",
+      "白家浩",
+      "Bai Jiahao",
+      "骰子上单"
+    ],
+    "number": "369",
+    "roles": [
+      0
+    ],
+    "roleType": "player",
+    "sub": "上路摇号与拉扯 / 平行宇宙二创",
+    "line": "骰子判我状态拉满，网管判我余额不足。",
+    "vector": [
+      45,
+      48,
+      68,
+      64,
+      82,
+      65
+    ],
+    "behaviorWeights": {
+      "spin": 5,
+      "mechanics": 4,
+      "control": 4,
+      "chaos": 3,
+      "poke": 3,
+      "plan": 2
+    },
+    "tier": "normal",
+    "exposureWeight": 1,
+    "spotlight": false,
+    "enabled": true,
+    "editorialStatus": "selected",
+    "sourceStatus": "indexed",
+    "universe": {
+      "title": "上路摇号员",
+      "arrival": "你穿过镜面，落在网吧上路训练角。桌上的骰子、饮水杯和三脚椅都在等一次校准。",
+      "mission": "把手气留给节目效果，把拉扯和练习变成可重复的动作。",
+      "passive": "点数落下后先看看退路；再好的手气也替不了一次真正的练习。",
+      "teamHook": "独守一路的人，也要记得五个人同在一张地图。"
+    },
+    "rosterOrder": 59,
+    "answerAffinities": {
+      "v15-369-q0": {
+        "mechanics": 5,
+        "chaos": 5,
+        "poke": 5
+      },
+      "v15-369-q1": {
+        "spin": 5,
+        "engage": 5,
+        "mechanics": 5
+      },
+      "v15-369-q2": {
+        "protect": 5,
+        "spin": 5,
+        "chaos": 5
+      },
+      "v15-369-q3": {
+        "spin": 5,
+        "mechanics": 5,
+        "engage": 5
+      }
+    },
+    "optionAffinities": {
+      "v15-369-q0": {
+        "0": 5,
+        "1": 5,
+        "3": 5
+      },
+      "v15-369-q1": {
+        "0": 5,
+        "1": 5,
+        "3": 5
+      },
+      "v15-369-q2": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      },
+      "v15-369-q3": {
+        "0": 5,
+        "1": 5,
+        "2": 5
+      }
+    },
+    "parallelStory": [
+      "369，你已穿过镜面。",
+      "你穿过镜面，落在网吧上路训练角。桌上的骰子、饮水杯和三脚椅都在等一次校准。",
+      "这一次的开场，由你和四位队友一起完成。"
+    ],
+    "signaturePerks": [
+      "v15-369-1",
+      "v15-369-2",
+      "v15-369-3"
+    ],
+    "tags": [
+      "摇骰子",
+      "拉扯一下",
+      "酒桶补习班"
+    ]
+  },
+  "cards": [
+    {
+      "id": "v15-369-1",
+      "name": "摇骰子",
+      "theme": "lol",
+      "owners": [
+        "369"
+      ],
+      "sourceMeme": "公开报道中的999状态称呼背景；摇骰子机制为本作原创，直接原梗出处未确认。",
+      "adaptation": "original",
+      "fanMade": true,
+      "sourceStatus": "partial_context_only",
+      "sources": [
+        {
+          "title": "淘汰赛再献单杀名场面，369被赞S12第一上单",
+          "url": "https://finance.sina.com.cn/jjxw/2022-10-21/doc-imqqsmrp3299341.shtml?from=pcsearch",
+          "status": "partial_context_only",
+          "contextOnly": true,
+          "originalVideoWatched": false,
+          "note": "公开新京报报道实际正文提到国外解说用「999」形容白家浩火热状态，可支持数字状态称呼背景；本轮多次公开检索未定位到可靠的「369摇骰子」直接视频标题。不要把这个报道写成摇骰子原梗出处，不伪造本人原话；卡片效果仍为本作二创。"
+        }
+      ],
+      "triggerScene": "每轮开局前决定信状态骰，掷一次后保留结果至本轮结束。",
+      "effect": "开局掷一次状态骰：333时头像先找退路，666时光标能进能退，999时人还没坐稳，你已喊完开了。三档属于同一张卡，本轮不能马上重掷；状态能变，网费照计，骰子不负责替你加钟。",
+      "punchline": "骰子负责三六九，网管只收真金白银。",
+      "line": "手感交给骰子，下机时间交给余额。",
+      "owner": "369",
+      "signatureFor": [
+        "369"
+      ],
+      "affinities": [
+        "369"
+      ],
+      "exclusive": true,
+      "personOnly": true,
+      "enabled": true,
+      "selected": true,
+      "editorialStatus": "selected",
+      "activationMode": "answers",
+      "category": "人物代表",
+      "rarity": "kPrismatic",
+      "kind": "chaos",
+      "vector": [
+        45,
+        48,
+        68,
+        64,
+        82,
+        65
+      ],
+      "bias": [
+        -0.1,
+        -0.04,
+        0.36,
+        0.28,
+        0.64,
+        0.3
+      ],
+      "behaviorWeights": {
+        "chaos": 5,
+        "engage": 5
+      },
+      "requires": [
+        "chaos",
+        "engage"
+      ],
+      "evidenceQuestionIds": [
+        "v15-369-q0",
+        "v15-369-q1",
+        "v15-369-q2",
+        "v15-369-q3"
+      ],
+      "answerEvidence": [
+        {
+          "questionId": "v15-369-q0",
+          "optionId": 1,
+          "behavior": "chaos"
+        },
+        {
+          "questionId": "v15-369-q1",
+          "optionId": 1,
+          "behavior": "engage"
+        },
+        {
+          "questionId": "v15-369-q2",
+          "optionId": 2,
+          "behavior": "chaos"
+        },
+        {
+          "questionId": "v15-369-q3",
+          "optionId": 2,
+          "behavior": "engage"
+        }
+      ],
+      "preferClassic": true,
+      "icon": 0,
+      "originalVideoWatched": false,
+      "sourceVerificationNote": "公开新京报报道实际正文提到国外解说用「999」形容白家浩火热状态，可支持数字状态称呼背景；本轮多次公开检索未定位到可靠的「369摇骰子」直接视频标题。不要把这个报道写成摇骰子原梗出处，不伪造本人原话；卡片效果仍为本作二创。",
+      "creation": "依据999状态比喻设计的原创骰子机制；未确认摇骰子直接原出处，不是本人原话。",
+      "classicSprite": {
+        "sheet": 6,
+        "cell": 3
+      },
+      "artReason": "V15专图：三颗分别呈现3、6、9的骰子，直接对应摇点数。",
+      "behaviorRules": {
+        "mode": "answers",
+        "behaviors": [
+          "chaos",
+          "engage"
+        ],
+        "questionIds": [
+          "v15-369-q0",
+          "v15-369-q1",
+          "v15-369-q2",
+          "v15-369-q3"
+        ],
+        "owners": [
+          "369"
+        ],
+        "note": "只有明确关联该卡的本题选项可作证据；同类行为在无关题不算，故事奖励另记。"
+      },
+      "storyRewardIds": [
+        "v15-story-369"
+      ]
+    },
+    {
+      "id": "v15-369-2",
+      "name": "拉扯一下",
+      "theme": "lol",
+      "owners": [
+        "369"
+      ],
+      "sourceMeme": "走位拉扯的公开网络二创",
+      "adaptation": "adapted",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "title": "坏了兄弟们，真让369学会拉扯了。",
+          "url": "https://www.bilibili.com/zh-Hans/video/BV1vyZwBVEmk/",
+          "searchPage": "https://search.bilibili.com/all?keyword=369%E6%8B%89%E6%89%AF%E4%B8%80%E4%B8%8B",
+          "status": "indexed",
+          "checkedAt": "2026-10-24",
+          "note": "已在公开搜索结果索引看见标题和视频链接；未完整播放原视频，未核验逐字原话。",
+          "originalVideoWatched": false
+        },
+        {
+          "title": "369鳄鱼的“顶级”拉扯",
+          "url": "https://www.bilibili.com/zh-Hans/video/BV1UN411g7TW/",
+          "searchPage": "https://search.bilibili.com/all?keyword=369%E6%8B%89%E6%89%AF%E4%B8%80%E4%B8%8B",
+          "status": "indexed",
+          "checkedAt": "2026-10-24",
+          "note": "已在公开搜索结果索引看见标题和视频链接；未完整播放原视频，未核验逐字原话。",
+          "originalVideoWatched": false
+        }
+      ],
+      "triggerScene": "对面追来时选择回头走位，先退一步再找还手位置。",
+      "effect": "你一回头走位，电脑椅也跟着滑一格。对面还没追到，充电线先弹出长度不足；网管理好线后，椅子终点正好停在饮水机旁。你拉出了安全距离，也拉出了全队取水路线。",
+      "punchline": "对手还在追，饮水机已经进入我的射程。",
+      "line": "屏幕里拉开距离，屏幕外拉到取水点。",
+      "owner": "369",
+      "signatureFor": [
+        "369"
+      ],
+      "affinities": [
+        "369"
+      ],
+      "exclusive": true,
+      "personOnly": true,
+      "enabled": true,
+      "selected": true,
+      "editorialStatus": "selected",
+      "activationMode": "answers",
+      "category": "人物代表",
+      "rarity": "kPrismatic",
+      "kind": "chaos",
+      "vector": [
+        45,
+        48,
+        68,
+        64,
+        82,
+        65
+      ],
+      "bias": [
+        -0.1,
+        -0.04,
+        0.36,
+        0.28,
+        0.64,
+        0.3
+      ],
+      "behaviorWeights": {
+        "poke": 5,
+        "spin": 5
+      },
+      "requires": [
+        "poke",
+        "spin"
+      ],
+      "evidenceQuestionIds": [
+        "v15-369-q0",
+        "v15-369-q1",
+        "v15-369-q2",
+        "v15-369-q3"
+      ],
+      "answerEvidence": [
+        {
+          "questionId": "v15-369-q0",
+          "optionId": 3,
+          "behavior": "poke"
+        },
+        {
+          "questionId": "v15-369-q1",
+          "optionId": 0,
+          "behavior": "spin"
+        },
+        {
+          "questionId": "v15-369-q2",
+          "optionId": 1,
+          "behavior": "spin"
+        },
+        {
+          "questionId": "v15-369-q3",
+          "optionId": 0,
+          "behavior": "spin"
+        }
+      ],
+      "preferClassic": true,
+      "icon": 0,
+      "originalVideoWatched": false,
+      "sourceVerificationNote": "能核对公开传播中的369与拉扯主题关联；未核实「拉扯一下」为本人逐字台词。",
+      "creation": "本作基于公开流行梗创作的虚构效果，不是人物原话或现实职业履历。",
+      "classicSprite": {
+        "sheet": 6,
+        "cell": 4
+      },
+      "artReason": "V15专图：电竞椅、充电线与走位箭头，对应进退拉扯。",
+      "behaviorRules": {
+        "mode": "answers",
+        "behaviors": [
+          "poke",
+          "spin"
+        ],
+        "questionIds": [
+          "v15-369-q0",
+          "v15-369-q1",
+          "v15-369-q2",
+          "v15-369-q3"
+        ],
+        "owners": [
+          "369"
+        ],
+        "note": "只有明确关联该卡的本题选项可作证据；同类行为在无关题不算，故事奖励另记。"
+      },
+      "storyRewardIds": [
+        "v15-story-369"
+      ]
+    },
+    {
+      "id": "v15-369-3",
+      "name": "酒桶补习班",
+      "theme": "lol",
+      "owners": [
+        "369"
+      ],
+      "sourceMeme": "酒桶英雄训练及纪录片复盘的网络传播梗",
+      "adaptation": "adapted",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "title": "369带队友看卡萨圣经：酒桶玩得跟屎一样！全员绷不住爆笑",
+          "url": "https://www.bilibili.com/zh-Hans/video/BV1yu4y197xx/",
+          "searchPage": "https://search.bilibili.com/all?keyword=369%E6%8B%89%E6%89%AF%E4%B8%80%E4%B8%8B",
+          "status": "indexed",
+          "checkedAt": "2026-10-24",
+          "note": "已在公开搜索结果索引看见标题和视频链接；未完整播放原视频，未核验逐字原话。",
+          "originalVideoWatched": false
+        },
+        {
+          "title": "纯净原版卡萨圣经",
+          "url": "https://www.bilibili.com/zh-Hans/video/BV1joSxYeELt/",
+          "searchPage": "https://search.bilibili.com/all?keyword=%E5%8D%A1%E8%90%A8%20369%20%E7%BA%AA%E5%BD%95%E7%89%87",
+          "status": "indexed",
+          "checkedAt": "2026-10-24",
+          "note": "已在公开搜索结果索引看见标题和视频链接；未完整播放原视频，未核验逐字原话。",
+          "originalVideoWatched": false
+        }
+      ],
+      "triggerScene": "开局前或收尾时，选择针对酒桶这位游戏英雄再练一遍。",
+      "effect": "酒桶是游戏英雄，补习不劝酒。你把练习拆得越来越细，队友等着看你把桶扔准，你却把接水、盖盖、递杯练成了一套连招：实战课尚未结业，饮水机售后先给你盖了优秀章。",
+      "punchline": "桶还没扔准，四杯水先一滴没洒。",
+      "line": "练习模式未通关，开黑补水已毕业。",
+      "owner": "369",
+      "signatureFor": [
+        "369"
+      ],
+      "affinities": [
+        "369"
+      ],
+      "exclusive": true,
+      "personOnly": true,
+      "enabled": true,
+      "selected": true,
+      "editorialStatus": "selected",
+      "activationMode": "answers",
+      "category": "人物代表",
+      "rarity": "kPrismatic",
+      "kind": "chaos",
+      "vector": [
+        45,
+        48,
+        68,
+        64,
+        82,
+        65
+      ],
+      "bias": [
+        -0.1,
+        -0.04,
+        0.36,
+        0.28,
+        0.64,
+        0.3
+      ],
+      "behaviorWeights": {
+        "mechanics": 5,
+        "protect": 5
+      },
+      "requires": [
+        "mechanics",
+        "protect"
+      ],
+      "evidenceQuestionIds": [
+        "v15-369-q0",
+        "v15-369-q1",
+        "v15-369-q2",
+        "v15-369-q3"
+      ],
+      "answerEvidence": [
+        {
+          "questionId": "v15-369-q0",
+          "optionId": 0,
+          "behavior": "mechanics"
+        },
+        {
+          "questionId": "v15-369-q1",
+          "optionId": 3,
+          "behavior": "mechanics"
+        },
+        {
+          "questionId": "v15-369-q2",
+          "optionId": 0,
+          "behavior": "protect"
+        },
+        {
+          "questionId": "v15-369-q3",
+          "optionId": 1,
+          "behavior": "mechanics"
+        }
+      ],
+      "preferClassic": true,
+      "icon": 0,
+      "originalVideoWatched": false,
+      "sourceVerificationNote": "「酒桶补习班」为本作原创卡名；仅按公开索引标题确认369、卡萨、酒桶训练梗有传播关联，不声称已完整观看纪录片，也不复制或伪造卡萨原话。",
+      "creation": "本作基于公开流行梗创作的虚构效果，不是人物原话或现实职业履历。",
+      "classicSprite": {
+        "sheet": 6,
+        "cell": 5
+      },
+      "artReason": "V15专图：酒桶饮水机与练习书，对应酒桶动作补习。",
+      "behaviorRules": {
+        "mode": "answers",
+        "behaviors": [
+          "mechanics",
+          "protect"
+        ],
+        "questionIds": [
+          "v15-369-q0",
+          "v15-369-q1",
+          "v15-369-q2",
+          "v15-369-q3"
+        ],
+        "owners": [
+          "369"
+        ],
+        "note": "只有明确关联该卡的本题选项可作证据；同类行为在无关题不算，故事奖励另记。"
+      },
+      "storyRewardIds": [
+        "v15-story-369"
+      ]
+    }
+  ],
+  "story": {
+    "id": "v15-story-369",
+    "personId": "369",
+    "theme": "lol",
+    "title": "骰子判我999，网管判我该加钟",
+    "entry": "arrival",
+    "nodes": [
+      {
+        "id": "arrival",
+        "title": "三档状态，一张续费单",
+        "text": "你穿越成369，坐进网吧五连座。今晚状态由桌上一颗骰子解释：三档分别叫333、666和999，数字越高，开场越有底气。队友只想打完最后一局下机，网管拿着续费单，谁都没打算陪骰子通宵。",
+        "next": "choice-1",
+        "type": "scene"
+      },
+      {
+        "id": "choice-1",
+        "title": "先校准，还是先信骰子",
+        "text": "鼠标刚插好，队友把练习入口和骰子一起推来。先热身能校准手感，信骰子能省下这一步；电脑椅旁还有一根没理好的充电线，水杯则全空着。",
+        "choices": [
+          {
+            "id": "a",
+            "text": "先热身校准，练一遍再排",
+            "next": "trigger",
+            "flags": {
+              "route1": "a"
+            },
+            "effect": "你开练习接水给队友，骰子改当杯垫镇纸，饮水机成为临时补给点。",
+            "grantCardNames": [
+              "酒桶补习班"
+            ],
+            "grantCardIds": [
+              "v15-369-3"
+            ]
+          },
+          {
+            "id": "b",
+            "text": "先信骰子，状态好就开了",
+            "next": "trigger",
+            "flags": {
+              "route1": "b"
+            },
+            "effect": "骰子掷出999，你挪椅子准备开局，网管先来处理绷到边缘的线。",
+            "grantCardNames": [
+              "摇骰子"
+            ],
+            "grantCardIds": [
+              "v15-369-1"
+            ]
+          }
+        ],
+        "type": "choice"
+      },
+      {
+        "id": "trigger",
+        "title": "骰子与水杯各有新岗位",
+        "text": "网管检查了一眼理线槽，提醒椅子别滑出机位。队友把下机时间写在杯垫上，练习与仪式都得在这之前结束。",
+        "variants": [
+          {
+            "when": {
+              "route1": "a"
+            },
+            "text": "你先练游戏英雄酒桶，把饮水机当作临时接水点；骰子被拿来压住杯垫，终于不用满桌滚。网管检查了一眼理线槽，提醒椅子别滑出机位。队友把下机时间写在杯垫上，练习与仪式都得在这之前结束。"
+          },
+          {
+            "when": {
+              "route1": "b"
+            },
+            "text": "你信骰子，结果显示999，赶紧把椅子往前挪；充电线提示长度不足，网管只好过来重新理线。网管检查了一眼理线槽，提醒椅子别滑出机位。队友把下机时间写在杯垫上，练习与仪式都得在这之前结束。"
+          }
+        ],
+        "cardEvents": [
+          {
+            "cardName": "摇骰子",
+            "owned": "999状态亮在头像旁，本轮先不重掷，队友把开局按钮推到你面前。",
+            "unowned": "队友手写999给你壮胆，骰子继续压着杯垫，并没有替手感作保证。",
+            "cardId": "v15-369-1"
+          },
+          {
+            "cardName": "酒桶补习班",
+            "owned": "练习步骤变成接水、盖盖、递杯，桶还在屏幕里，四杯水先到了。",
+            "unowned": "你记下酒桶练习步骤，等空档顺手接水，没把递杯当成新学会的操作。",
+            "cardId": "v15-369-3"
+          }
+        ],
+        "next": "backfire",
+        "type": "scene"
+      },
+      {
+        "id": "backfire",
+        "title": "拉扯终点是饮水机",
+        "text": "对面一追，你回头找安全位置，自己的椅子也跟着滑了一点。网管把线重新束好，椅子却恰好停在饮水机旁。队友等桶扔出去，你顺手先接满了杯子；桶是游戏英雄的道具，这堂课最终却先练会接水。",
+        "next": "choice-2",
+        "type": "scene"
+      },
+      {
+        "id": "choice-2",
+        "title": "最后一波怎样收尾",
+        "text": "余额提示只剩这一局，队友也开始收耳机。你要靠走位把最后一波拉完，还是把练过的动作按稳，顺便结束这堂补习？",
+        "choices": [
+          {
+            "id": "a",
+            "text": "先退再回头，把距离拉完",
+            "next": "ending",
+            "flags": {
+              "route2": "a"
+            },
+            "effect": "你绕开线槽回头走位，网管顺着椅子轨迹贴好临时取水箭头。",
+            "grantCardNames": [
+              "拉扯一下"
+            ],
+            "grantCardIds": [
+              "v15-369-2"
+            ]
+          },
+          {
+            "id": "b",
+            "text": "把练过那招按稳，打完收工",
+            "next": "ending",
+            "flags": {
+              "route2": "b"
+            },
+            "effect": "你按练习节奏完成收尾，队友把没看完的回放改成接水教学。",
+            "grantCardNames": [
+              "酒桶补习班"
+            ],
+            "grantCardIds": [
+              "v15-369-3"
+            ]
+          }
+        ],
+        "type": "choice"
+      },
+      {
+        "id": "ending",
+        "title": "下机前各自结课",
+        "text": "网管收起续费单，桌上只剩被杯子压住的骰子。队友说下次再练，你摸了摸鼠标：手感明天再测，四只空杯已经不用补习。",
+        "variants": [
+          {
+            "when": {
+              "route2": "a"
+            },
+            "title": "饮水机射程管理师",
+            "text": "最后一波打完，网管要求撤掉那条绕机位的箭头。你说这是拉扯路线，他把它贴到饮水机旁，今晚来接水的人都按你的走位绕了一圈。网管收起续费单，桌上只剩被杯子压住的骰子。队友说下次再练，你摸了摸鼠标：手感明天再测，四只空杯已经不用补习。"
+          },
+          {
+            "when": {
+              "route2": "b"
+            },
+            "title": "酒桶补习班补水优秀生",
+            "text": "游戏结束，队友给你的训练记录盖章：接水优秀，英雄练习明日续课。网管送来一张四杯水的合照，要求别把饮水机剪成今晚的胜利画面。网管收起续费单，桌上只剩被杯子压住的骰子。队友说下次再练，你摸了摸鼠标：手感明天再测，四只空杯已经不用补习。"
+          }
+        ],
+        "type": "ending"
+      }
+    ],
+    "status": "authored",
+    "fanMade": true,
+    "cardIds": [
+      "v15-369-1",
+      "v15-369-2",
+      "v15-369-3"
+    ]
+  },
+  "questions": [
+    {
+      "id": "v15-369-q0",
+      "personId": "369",
+      "personContext": "369",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "v15-369",
+      "chapterName": "网吧日常 · 开局前的状态仪式",
+      "stage": 0,
+      "scene": "开局前的状态仪式",
+      "title": "网吧开黑刚坐下，朋友把练习入口和一颗状态骰推过来，你先？",
+      "enabled": true,
+      "importance": 1.25,
+      "editorialCategory": "life",
+      "tip": "骰子只是本作状态玩笑；酒桶是游戏英雄，按你会做的动作选，不考职业知识。",
+      "options": [
+        {
+          "id": 0,
+          "text": "先练一遍刚才失手的动作，手热了再开。",
+          "behavior": "mechanics",
+          "signals": {
+            "tilt": 28,
+            "greed": 45,
+            "risk": 48,
+            "team": 56,
+            "craft": 95,
+            "plan": 82
+          },
+          "tags": [
+            "mechanics"
+          ],
+          "cardNames": [
+            "酒桶补习班"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "先掷一次状态骰，点数够高我就敢开。",
+          "behavior": "chaos",
+          "signals": {
+            "tilt": 65,
+            "greed": 55,
+            "risk": 86,
+            "team": 48,
+            "craft": 52,
+            "plan": 20
+          },
+          "tags": [
+            "chaos"
+          ],
+          "cardNames": [
+            "摇骰子"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "先看大家准备好了没，把下机时间对齐。",
+          "behavior": "plan",
+          "signals": {
+            "tilt": 10,
+            "greed": 32,
+            "risk": 22,
+            "team": 92,
+            "craft": 55,
+            "plan": 96
+          },
+          "tags": [
+            "plan"
+          ],
+          "cardNames": []
+        },
+        {
+          "id": 3,
+          "text": "先试两步安全走位，留点距离再入场。",
+          "behavior": "poke",
+          "signals": {
+            "tilt": 18,
+            "greed": 42,
+            "risk": 28,
+            "team": 62,
+            "craft": 80,
+            "plan": 78
+          },
+          "tags": [
+            "poke"
+          ],
+          "cardNames": [
+            "拉扯一下"
+          ]
+        }
+      ],
+      "review": {
+        "status": "v15_authored",
+        "reason": "从具体情境行动触发代表卡，不把人物名当答案。"
+      }
+    },
+    {
+      "id": "v15-369-q1",
+      "personId": "369",
+      "personContext": "369",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "v15-369",
+      "chapterName": "网吧日常 · 开局前的状态仪式",
+      "stage": 1,
+      "scene": "对面突然追来",
+      "title": "开局后对面突然追来，你的椅子也顺势往后滑，你会？",
+      "enabled": true,
+      "importance": 1.25,
+      "editorialCategory": "life",
+      "tip": "骰子只是本作状态玩笑；酒桶是游戏英雄，按你会做的动作选，不考职业知识。",
+      "options": [
+        {
+          "id": 0,
+          "text": "先退半步再回头，让对面追着我的距离走。",
+          "behavior": "spin",
+          "signals": {
+            "tilt": 32,
+            "greed": 48,
+            "risk": 52,
+            "team": 62,
+            "craft": 88,
+            "plan": 76
+          },
+          "tags": [
+            "spin"
+          ],
+          "cardNames": [
+            "拉扯一下"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "开局状态正旺，喊上队友直接迎过去。",
+          "behavior": "engage",
+          "signals": {
+            "tilt": 58,
+            "greed": 54,
+            "risk": 92,
+            "team": 82,
+            "craft": 68,
+            "plan": 40
+          },
+          "tags": [
+            "engage"
+          ],
+          "cardNames": [
+            "摇骰子"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "先站稳把人拦一下，给队友留出回头空间。",
+          "behavior": "control",
+          "signals": {
+            "tilt": 18,
+            "greed": 28,
+            "risk": 40,
+            "team": 94,
+            "craft": 84,
+            "plan": 88
+          },
+          "tags": [
+            "control"
+          ],
+          "cardNames": []
+        },
+        {
+          "id": 3,
+          "text": "把刚练过的动作慢半拍按准，先接住这轮。",
+          "behavior": "mechanics",
+          "signals": {
+            "tilt": 25,
+            "greed": 42,
+            "risk": 54,
+            "team": 76,
+            "craft": 96,
+            "plan": 86
+          },
+          "tags": [
+            "mechanics"
+          ],
+          "cardNames": [
+            "酒桶补习班"
+          ]
+        }
+      ],
+      "branches": {
+        "0": "热身刚做完，对面就来追，椅子也跟着滑了一点，你会？",
+        "1": "骰子刚给足底气，对面却追过来了，椅子顺势后滑，你会？",
+        "2": "下机时间刚对齐，对面就来追，椅子也顺势后滑，你会？",
+        "3": "安全走位试完，对面继续追，椅子也顺势后滑，你会？"
+      },
+      "review": {
+        "status": "v15_authored",
+        "reason": "从具体情境行动触发代表卡，不把人物名当答案。"
+      }
+    },
+    {
+      "id": "v15-369-q2",
+      "personId": "369",
+      "personContext": "369",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "v15-369",
+      "chapterName": "网吧日常 · 开局前的状态仪式",
+      "stage": 2,
+      "scene": "椅子停在取水点",
+      "title": "网管理好线，椅子正停在饮水机旁；队友口渴又催着打完，你会？",
+      "enabled": true,
+      "importance": 1.25,
+      "editorialCategory": "life",
+      "tip": "骰子只是本作状态玩笑；酒桶是游戏英雄，按你会做的动作选，不考职业知识。",
+      "options": [
+        {
+          "id": 0,
+          "text": "先趁空档把四杯接齐，练习步骤顺手走一遍。",
+          "behavior": "protect",
+          "signals": {
+            "tilt": 12,
+            "greed": 18,
+            "risk": 24,
+            "team": 98,
+            "craft": 75,
+            "plan": 88
+          },
+          "tags": [
+            "protect"
+          ],
+          "cardNames": [
+            "酒桶补习班"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "把取水路留出来，回来照样走退一步再回头。",
+          "behavior": "spin",
+          "signals": {
+            "tilt": 25,
+            "greed": 35,
+            "risk": 46,
+            "team": 82,
+            "craft": 85,
+            "plan": 84
+          },
+          "tags": [
+            "spin"
+          ],
+          "cardNames": [
+            "拉扯一下"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "看看开局的状态牌，这么旺先争取打一波。",
+          "behavior": "chaos",
+          "signals": {
+            "tilt": 62,
+            "greed": 60,
+            "risk": 88,
+            "team": 44,
+            "craft": 60,
+            "plan": 28
+          },
+          "tags": [
+            "chaos"
+          ],
+          "cardNames": [
+            "摇骰子"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "杯子让旁边人先拿，我留在位置接稳下一轮。",
+          "behavior": "control",
+          "signals": {
+            "tilt": 14,
+            "greed": 30,
+            "risk": 34,
+            "team": 88,
+            "craft": 86,
+            "plan": 92
+          },
+          "tags": [
+            "control"
+          ],
+          "cardNames": []
+        }
+      ],
+      "branches": {
+        "0": "退到饮水机旁，网管刚把线束好；队友口渴又催下机，你会？",
+        "1": "迎上去后停回机位，网管把线束好；队友口渴又催下机，你会？",
+        "2": "队友退回来了，网管也束好线；椅子旁就是饮水机，你会？",
+        "3": "练过的动作做完，网管把线束好；队友口渴又催下机，你会？"
+      },
+      "review": {
+        "status": "v15_authored",
+        "reason": "从具体情境行动触发代表卡，不把人物名当答案。"
+      }
+    },
+    {
+      "id": "v15-369-q3",
+      "personId": "369",
+      "personContext": "369",
+      "theme": "lol",
+      "series": "rift",
+      "chapter": "v15-369",
+      "chapterName": "网吧日常 · 开局前的状态仪式",
+      "stage": 3,
+      "scene": "这一局就是最后一局",
+      "title": "水接完了，余额也只够这一局。最后一波你想怎么收尾？",
+      "enabled": true,
+      "importance": 1.25,
+      "editorialCategory": "life",
+      "tip": "骰子只是本作状态玩笑；酒桶是游戏英雄，按你会做的动作选，不考职业知识。",
+      "options": [
+        {
+          "id": 0,
+          "text": "退一步再找回头位置，让这一波按距离结束。",
+          "behavior": "spin",
+          "signals": {
+            "tilt": 22,
+            "greed": 40,
+            "risk": 48,
+            "team": 78,
+            "craft": 88,
+            "plan": 86
+          },
+          "tags": [
+            "spin"
+          ],
+          "cardNames": [
+            "拉扯一下"
+          ]
+        },
+        {
+          "id": 1,
+          "text": "把练过那招按稳，回放明天看，今晚先打完。",
+          "behavior": "mechanics",
+          "signals": {
+            "tilt": 18,
+            "greed": 38,
+            "risk": 52,
+            "team": 86,
+            "craft": 98,
+            "plan": 92
+          },
+          "tags": [
+            "mechanics"
+          ],
+          "cardNames": [
+            "酒桶补习班"
+          ]
+        },
+        {
+          "id": 2,
+          "text": "状态牌还亮着，喊队友一起上，把结算接来。",
+          "behavior": "engage",
+          "signals": {
+            "tilt": 55,
+            "greed": 54,
+            "risk": 90,
+            "team": 88,
+            "craft": 72,
+            "plan": 48
+          },
+          "tags": [
+            "engage"
+          ],
+          "cardNames": [
+            "摇骰子"
+          ]
+        },
+        {
+          "id": 3,
+          "text": "先护住队友一起回来，等对面追完再决定。",
+          "behavior": "retreat",
+          "signals": {
+            "tilt": 12,
+            "greed": 22,
+            "risk": 15,
+            "team": 96,
+            "craft": 68,
+            "plan": 94
+          },
+          "tags": [
+            "retreat"
+          ],
+          "cardNames": []
+        }
+      ],
+      "branches": {
+        "0": "四杯水已到位，余额只够这一局；最后一波你想怎么收尾？",
+        "1": "取水路已留好，余额只够这一局；最后一波你想怎么收尾？",
+        "2": "状态牌还亮着，余额只够这一局；最后一波你想怎么收尾？",
+        "3": "下一轮已经接稳，余额只够这一局；最后一波你想怎么收尾？"
+      },
+      "review": {
+        "status": "v15_authored",
+        "reason": "从具体情境行动触发代表卡，不把人物名当答案。"
+      }
+    }
+  ],
+  "notes": [
+    "仅追加联盟上单369（白家浩），蔡徐坤文件与原有角色内容保持冻结。",
+    "摇骰子只有一个机制和一张卡，333、666、999是其三档状态，不拆成多张人物代表卡。",
+    "全部剧情、对话、卡片效果和题目为虚构游戏二创；不把任何新写话语标成卡萨或其他人的已核原话。",
+    "酒桶是游戏英雄；这里的补习与取水是舞台化笑话，不涉及劝酒。",
+    "来源待reference agent合并，pending_reference_join不代表已完整观看原片。",
+    "0卡预览按选择奖励：热身获酒桶补习班，信骰子获摇骰子；第二次选择拉扯获拉扯一下，训练获酒桶补习班。重复奖励由运行时去重，每条路径最多2张，不自动发全套。"
+  ],
+  "sourceFile": "content/v15-369-content.json"
+}

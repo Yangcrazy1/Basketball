@@ -1,0 +1,82 @@
+{
+  "release": 15,
+  "schema": 14,
+  "status": "passed",
+  "expectedChecks": 7,
+  "completedChecks": 7,
+  "dataSha256": "403f9386ce5a63b77c196e4c2ec3c44f2c8f381d248b9ccd5e65324a1f28e118",
+  "engineSha256": "4290a8772d1e8cf655fffa03f6cd2bb9e5d6e1a85da218cf165af2df9e51b2bf",
+  "frozenSchema13DataSha256": "df1149b6ff43e441e41b4aab65b005d6f7544c12e65a123987c25b7437c0d491",
+  "frozenSchema13EngineSha256": "4290a8772d1e8cf655fffa03f6cd2bb9e5d6e1a85da218cf165af2df9e51b2bf",
+  "reachabilitySha256": "0720f8d969bb429cbf39eb3feab0c444a5e04b73b2d3d0311a5b6034bb123e3b",
+  "counts": {
+    "questions": 340,
+    "lolQuestions": 140,
+    "lolChapters": 35,
+    "people": 60,
+    "parodyCards": 180,
+    "representativeCards": 143,
+    "representativeAssociations": 149,
+    "exclusiveCards": 143,
+    "lolParodyCards": 86,
+    "stories": 60,
+    "byTheme": {
+      "lol": {
+        "questions": 140,
+        "people": 22,
+        "cards": 86,
+        "exclusiveCards": 55
+      },
+      "basket": {
+        "questions": 108,
+        "people": 21,
+        "cards": 51,
+        "exclusiveCards": 48
+      },
+      "abstract": {
+        "questions": 92,
+        "people": 17,
+        "cards": 43,
+        "exclusiveCards": 40
+      }
+    }
+  },
+  "checks": [
+    {
+      "name": "V15 adds exactly Kun and 369 while all 58 previous scoring records, cards, questions, story actions and engine bytes remain frozen",
+      "status": "passed"
+    },
+    {
+      "name": "new identity aliases resolve uniquely, Kun is a cross-theme entertainer and both new people retain ordinary exposure",
+      "status": "passed"
+    },
+    {
+      "name": "six new representative cards have exact answer-option evidence, coherent ownership and the six dedicated V15 illustrations",
+      "status": "passed"
+    },
+    {
+      "name": "both new stories have four complete reversible routes, genuinely different endings and only explicit earned cards",
+      "status": "passed"
+    },
+    {
+      "name": "all 58 historical schema13 fixed inputs replay through the exact frozen engine with original identities, raw scores and bonuses",
+      "status": "passed"
+    },
+    {
+      "name": "all 60 current people, including separate legal eight-question Kun and 369 examples, can actually be returned by the native engine",
+      "status": "passed"
+    },
+    {
+      "name": "all nine native theme/mode combinations randomize, deterministic answers remain stable and common Collector wording stays intact",
+      "status": "passed"
+    }
+  ],
+  "combinedSuiteRun": {
+    "status": "passed",
+    "tests": 65,
+    "passed": 65,
+    "failed": 0,
+    "log": "dist/qa/v15/unit-all.tap",
+    "sha256": "3ef954f608f5ba0e9674d59dcceb77800d56088c756a2608a1284c9123cdfc55"
+  }
+}

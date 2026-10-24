@@ -1,0 +1,5952 @@
+{
+  "release": 15,
+  "schema": 14,
+  "dataSha256": "403f9386ce5a63b77c196e4c2ec3c44f2c8f381d248b9ccd5e65324a1f28e118",
+  "enabledPeople": 60,
+  "replayedV14Witnesses": 57,
+  "unreachable": [],
+  "failures": {},
+  "methodNote": "Synthetic legal witness search proves possibility, not user probabilities. Old witnesses keep identical deck and answer IDs with native schema version updated; historical results use the frozen schema13 engine.",
+  "examples": {
+    "369": {
+      "person": "369",
+      "raw": 79,
+      "bonus": 0,
+      "method": "target-semantic-evidence",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v15-369-q0",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v15-369-q1",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v15-369-q2",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v15-369-q3",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-theshy-q0",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-theshy-q1",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-theshy-q2",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-theshy-q3",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        ],
+        "answers": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          3,
+          0,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T00:00:00.000Z"
+      }
+    },
+    "luobenwei": {
+      "person": "luobenwei",
+      "raw": 53,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-vincent-q0",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-vincent-q1",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-vincent-q2",
+            "order": [
+              0,
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-vincent-q3",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-wangsicong-q0",
+            "order": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-wangsicong-q1",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-wangsicong-q2",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-wangsicong-q3",
+            "order": [
+              1,
+              2,
+              0,
+              3
+            ]
+          }
+        ],
+        "answers": [
+          0,
+          1,
+          0,
+          3,
+          1,
+          0,
+          2,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.154Z"
+      }
+    },
+    "xiaoxiao": {
+      "person": "xiaoxiao",
+      "raw": 49,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-clearlove-q0",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-clearlove-q1",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-clearlove-q2",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-clearlove-q3",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "rift-lane-basics-0",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "rift-lane-basics-1",
+            "order": [
+              2,
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "rift-lane-basics-2",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "rift-lane-basics-3",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          3,
+          3,
+          0,
+          0,
+          2,
+          0,
+          2,
+          1
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.168Z"
+      }
+    },
+    "dasima": {
+      "person": "dasima",
+      "raw": 46,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-xiaohu-q0",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-xiaohu-q1",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-xiaohu-q2",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-xiaohu-q3",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "hex-table-0",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "hex-table-1",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "hex-table-2",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "hex-table-3",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          2,
+          2,
+          2,
+          1,
+          1,
+          2,
+          0,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.175Z"
+      }
+    },
+    "xiaohu": {
+      "person": "xiaohu",
+      "raw": 48,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-pdd-q0",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-pdd-q1",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-pdd-q2",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-pdd-q3",
+            "order": [
+              3,
+              1,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v11-clip-0",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v11-clip-1",
+            "order": [
+              0,
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v11-clip-2",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v11-clip-3",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          }
+        ],
+        "answers": [
+          3,
+          1,
+          0,
+          0,
+          2,
+          1,
+          3,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.178Z"
+      }
+    },
+    "rookie": {
+      "person": "rookie",
+      "raw": 49,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v11-duo-0",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v11-duo-1",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v11-duo-2",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v11-duo-3",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v11-noodles-0",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v11-noodles-1",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v11-noodles-2",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v11-noodles-3",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          }
+        ],
+        "answers": [
+          3,
+          3,
+          3,
+          2,
+          3,
+          2,
+          0,
+          0
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.180Z"
+      }
+    },
+    "kid": {
+      "person": "kid",
+      "raw": 53,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v11-jungle-date-0",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v11-jungle-date-1",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v11-jungle-date-2",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v11-jungle-date-3",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "hex-office-0",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "hex-office-1",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "hex-office-2",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "hex-office-3",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.183Z"
+      }
+    },
+    "faker": {
+      "person": "faker",
+      "raw": 47,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "hex-collector-0",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "hex-collector-1",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "hex-collector-2",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "hex-collector-3",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-faker-q0",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-faker-q1",
+            "order": [
+              3,
+              1,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-faker-q2",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-faker-q3",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          2,
+          0,
+          3,
+          0,
+          1,
+          1,
+          1,
+          2
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.198Z"
+      }
+    },
+    "wangsicong": {
+      "person": "wangsicong",
+      "raw": 65,
+      "bonus": 4,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-baolan-q0",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-baolan-q1",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-baolan-q2",
+            "order": [
+              3,
+              1,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-baolan-q3",
+            "order": [
+              1,
+              2,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-wangsicong-q0",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-wangsicong-q1",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-wangsicong-q2",
+            "order": [
+              1,
+              2,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-wangsicong-q3",
+            "order": [
+              3,
+              1,
+              0,
+              2
+            ]
+          }
+        ],
+        "answers": [
+          2,
+          1,
+          0,
+          2,
+          0,
+          3,
+          1,
+          2
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.200Z"
+      }
+    },
+    "pdd": {
+      "person": "pdd",
+      "raw": 55,
+      "bonus": 4,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-pdd-q0",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-pdd-q1",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-pdd-q2",
+            "order": [
+              3,
+              1,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-pdd-q3",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-faker-q0",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-faker-q1",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-faker-q2",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-faker-q3",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          3,
+          3,
+          0,
+          3,
+          3,
+          1,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.201Z"
+      }
+    },
+    "uzi": {
+      "person": "uzi",
+      "raw": 45,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "hex-collector-0",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "hex-collector-1",
+            "order": [
+              0,
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "hex-collector-2",
+            "order": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "hex-collector-3",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v11-noodles-0",
+            "order": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v11-noodles-1",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v11-noodles-2",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v11-noodles-3",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          }
+        ],
+        "answers": [
+          2,
+          1,
+          2,
+          2,
+          0,
+          3,
+          0,
+          1
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.210Z"
+      }
+    },
+    "theshy": {
+      "person": "theshy",
+      "raw": 48,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-ming-q0",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-ming-q1",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-ming-q2",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-ming-q3",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "rift-lane-basics-0",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "rift-lane-basics-1",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "rift-lane-basics-2",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "rift-lane-basics-3",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          }
+        ],
+        "answers": [
+          2,
+          3,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.213Z"
+      }
+    },
+    "ming": {
+      "person": "ming",
+      "raw": 60,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-ming-q0",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-ming-q1",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-ming-q2",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-ming-q3",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-baolan-q0",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-baolan-q1",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-baolan-q2",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-baolan-q3",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          }
+        ],
+        "answers": [
+          3,
+          2,
+          0,
+          3,
+          0,
+          3,
+          3,
+          0
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.215Z"
+      }
+    },
+    "otto": {
+      "person": "otto",
+      "raw": 51,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-kid-q0",
+            "order": [
+              2,
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-kid-q1",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-kid-q2",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-kid-q3",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "hex-review-0",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "hex-review-1",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "hex-review-2",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "hex-review-3",
+            "order": [
+              3,
+              1,
+              0,
+              2
+            ]
+          }
+        ],
+        "answers": [
+          0,
+          1,
+          1,
+          3,
+          2,
+          3,
+          0,
+          2
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.250Z"
+      }
+    },
+    "doinb": {
+      "person": "doinb",
+      "raw": 54,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-ning-q0",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-ning-q1",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-ning-q2",
+            "order": [
+              2,
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-ning-q3",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v11-jungle-date-0",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v11-jungle-date-1",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v11-jungle-date-2",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v11-jungle-date-3",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          1,
+          3,
+          1,
+          3,
+          1,
+          0,
+          0
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.261Z"
+      }
+    },
+    "xika": {
+      "person": "xika",
+      "raw": 54,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "rift-lane-basics-0",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "rift-lane-basics-1",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "rift-lane-basics-2",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "rift-lane-basics-3",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-faker-q0",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-faker-q1",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-faker-q2",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-faker-q3",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          }
+        ],
+        "answers": [
+          0,
+          3,
+          0,
+          2,
+          1,
+          3,
+          2,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.267Z"
+      }
+    },
+    "clearlove": {
+      "person": "clearlove",
+      "raw": 61,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "hex-review-0",
+            "order": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "hex-review-1",
+            "order": [
+              3,
+              1,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "hex-review-2",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "hex-review-3",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-clearlove-q0",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-clearlove-q1",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-clearlove-q2",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-clearlove-q3",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          1,
+          3,
+          0,
+          0,
+          2,
+          1,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.283Z"
+      }
+    },
+    "zztai": {
+      "person": "zztai",
+      "raw": 54,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-clearlove-q0",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-clearlove-q1",
+            "order": [
+              0,
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-clearlove-q2",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-clearlove-q3",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-zztai-q0",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-zztai-q1",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-zztai-q2",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-zztai-q3",
+            "order": [
+              1,
+              2,
+              0,
+              3
+            ]
+          }
+        ],
+        "answers": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          2,
+          1,
+          2
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.299Z"
+      }
+    },
+    "jackeylove": {
+      "person": "jackeylove",
+      "raw": 49,
+      "bonus": 4,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-wangsicong-q0",
+            "order": [
+              0,
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-wangsicong-q1",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-wangsicong-q2",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-wangsicong-q3",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "hex-collector-0",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "hex-collector-1",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "hex-collector-2",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "hex-collector-3",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          }
+        ],
+        "answers": [
+          3,
+          0,
+          2,
+          0,
+          1,
+          1,
+          1,
+          2
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.334Z"
+      }
+    },
+    "baolan": {
+      "person": "baolan",
+      "raw": 63,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-baolan-q0",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-baolan-q1",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-baolan-q2",
+            "order": [
+              3,
+              1,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-baolan-q3",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-doinb-q0",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-doinb-q1",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-doinb-q2",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-doinb-q3",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          2,
+          0,
+          2,
+          3,
+          3,
+          0,
+          1
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.358Z"
+      }
+    },
+    "zhouqi": {
+      "person": "zhouqi",
+      "raw": 44,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-rodman-q3",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-lebron-q2",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-jordan-q1",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-xire-q2",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-wilt-q3",
+            "order": [
+              0,
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-doncic-q3",
+            "order": [
+              2,
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-wilt-q2",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "basket-explore-1",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          2,
+          2,
+          1,
+          3,
+          1,
+          1,
+          1
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.896Z"
+      }
+    },
+    "shaq": {
+      "person": "shaq",
+      "raw": 46,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-curry-q0",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "basket-express-2",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "basket-order-3",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "basket-explore-6",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-shaq-q0",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-jordan-q3",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-tmac-q2",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-lebron-q1",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          }
+        ],
+        "answers": [
+          3,
+          3,
+          2,
+          3,
+          3,
+          0,
+          2,
+          1
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.897Z"
+      }
+    },
+    "doncic": {
+      "person": "doncic",
+      "raw": 35,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-zhouqi-q2",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "basket-action-1",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "basket-social-2",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-harden-q0",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-xujingyu-q1",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-tmac-q3",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-yaoming-q3",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-lebron-q3",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          }
+        ],
+        "answers": [
+          0,
+          1,
+          1,
+          2,
+          3,
+          2,
+          2,
+          0
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.899Z"
+      }
+    },
+    "ershu": {
+      "person": "ershu",
+      "raw": 51,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-yaoming-q1",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-doncic-q1",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-durant-q1",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-doncic-q0",
+            "order": [
+              0,
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-jordan-q3",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "basket-social-1",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-ershu-q1",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-kobe-q2",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          }
+        ],
+        "answers": [
+          0,
+          2,
+          2,
+          3,
+          0,
+          2,
+          0,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.902Z"
+      }
+    },
+    "curry": {
+      "person": "curry",
+      "raw": 40,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "basket-empathy-3",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "basket-order-3",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-curry-q3",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-lebron-q1",
+            "order": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "basket-express-3",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "basket-action-4",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-rodman-q1",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-curry-q0",
+            "order": [
+              2,
+              3,
+              1,
+              0
+            ]
+          }
+        ],
+        "answers": [
+          2,
+          0,
+          1,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.904Z"
+      }
+    },
+    "tmac": {
+      "person": "tmac",
+      "raw": 40,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-zhouqi-q2",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "basket-action-2",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-rodman-q1",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-yaoming-q0",
+            "order": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-shaq-q2",
+            "order": [
+              2,
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "basket-social-2",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-zhouqi-q1",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-yaoming-q3",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          }
+        ],
+        "answers": [
+          3,
+          3,
+          1,
+          0,
+          3,
+          0,
+          1,
+          2
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.905Z"
+      }
+    },
+    "yangyi": {
+      "person": "yangyi",
+      "raw": 48,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-lebron-q1",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "basket-explore-4",
+            "order": [
+              1,
+              2,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-wilt-q2",
+            "order": [
+              1,
+              2,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-yangyi-q1",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "basket-order-2",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-draymond-green-q0",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-zhouqi-q1",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "basket-order-1",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          }
+        ],
+        "answers": [
+          2,
+          1,
+          2,
+          0,
+          2,
+          3,
+          2,
+          0
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.914Z"
+      }
+    },
+    "xujingyu": {
+      "person": "xujingyu",
+      "raw": 46,
+      "bonus": 4,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "basket-empathy-4",
+            "order": [
+              3,
+              1,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-lebron-q0",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-xujingyu-q2",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-wuyou-q0",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-draymond-green-q2",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-jordan-q0",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "basket-order-3",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-wuyou-q1",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          0,
+          0,
+          3,
+          1,
+          2,
+          0,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.914Z"
+      }
+    },
+    "yaoming": {
+      "person": "yaoming",
+      "raw": 59,
+      "bonus": 4,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-curry-q1",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-ershu-q0",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-xire-q3",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-draymond-green-q2",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "basket-order-4",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-draymond-green-q0",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-shaq-q2",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "basket-social-2",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          3,
+          0,
+          1,
+          2,
+          3,
+          2,
+          2,
+          1
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.917Z"
+      }
+    },
+    "kobe": {
+      "person": "kobe",
+      "raw": 47,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-zhouqi-q2",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-kobe-q0",
+            "order": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-kobe-q2",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-shaq-q3",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-shaq-q1",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-tmac-q2",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "basket-explore-6",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-xire-q0",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          2,
+          2,
+          2
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.928Z"
+      }
+    },
+    "shai": {
+      "person": "shai",
+      "raw": 42,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-wuyou-q0",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-yaoming-q2",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-zhouqi-q2",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "basket-order-3",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-wuyou-q3",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-shai-q3",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "basket-empathy-1",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-zhouqi-q1",
+            "order": [
+              0,
+              1,
+              3,
+              2
+            ]
+          }
+        ],
+        "answers": [
+          3,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.934Z"
+      }
+    },
+    "lebron": {
+      "person": "lebron",
+      "raw": 47,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-shai-q2",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-zhouqi-q0",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-durant-q1",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-wilt-q2",
+            "order": [
+              2,
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "basket-empathy-1",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "basket-order-3",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-kobe-q1",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "basket-social-1",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          }
+        ],
+        "answers": [
+          2,
+          3,
+          1,
+          3,
+          3,
+          1,
+          0,
+          2
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:56.985Z"
+      }
+    },
+    "draymond-green": {
+      "person": "draymond-green",
+      "raw": 54,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-xire-q1",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "basket-empathy-2",
+            "order": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-wilt-q2",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "basket-social-3",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-zhouqi-q1",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-yaoming-q1",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-shai-q2",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-harden-q3",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          2,
+          1,
+          0,
+          1,
+          2,
+          0,
+          2,
+          0
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.004Z"
+      }
+    },
+    "jordan": {
+      "person": "jordan",
+      "raw": 44,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "basket-explore-5",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "basket-empathy-3",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-kobe-q3",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-jordan-q2",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-jordan-q3",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-xujingyu-q3",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-zhouqi-q0",
+            "order": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-xire-q2",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          1,
+          2,
+          0,
+          2,
+          0,
+          1,
+          2
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.062Z"
+      }
+    },
+    "xire": {
+      "person": "xire",
+      "raw": 48,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-lebron-q1",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-yaoming-q2",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-xire-q1",
+            "order": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "basket-action-1",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-xire-q3",
+            "order": [
+              1,
+              2,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-yangyi-q1",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-xire-q2",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "basket-explore-6",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          }
+        ],
+        "answers": [
+          2,
+          0,
+          1,
+          0,
+          3,
+          3,
+          2,
+          2
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.101Z"
+      }
+    },
+    "rodman": {
+      "person": "rodman",
+      "raw": 48,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "basket-explore-1",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "basket-empathy-3",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-rodman-q0",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-xire-q1",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-rodman-q1",
+            "order": [
+              2,
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-yaoming-q0",
+            "order": [
+              0,
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-zhouqi-q0",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-wuyou-q0",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          0,
+          3,
+          0,
+          1,
+          0,
+          3,
+          1,
+          1
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.344Z"
+      }
+    },
+    "fengge": {
+      "person": "fengge",
+      "raw": 46,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-daoge-q0",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-yili-q1",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-fengge-q3",
+            "order": [
+              2,
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-fengge-q2",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-jensen-q1",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-leijun-q2",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-musk-q0",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-us-lecturer-q0",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          0,
+          1,
+          3,
+          0,
+          0,
+          2,
+          3,
+          0
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.555Z"
+      }
+    },
+    "trump": {
+      "person": "trump",
+      "raw": 45,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-fengge-q2",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-fengge-q1",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-huchenfeng-q2",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-luoyonghao-q0",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-luoyonghao-q3",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-yili-q2",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-trump-q2",
+            "order": [
+              0,
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-luoyonghao-q2",
+            "order": [
+              3,
+              1,
+              0,
+              2
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          1,
+          2,
+          3,
+          1,
+          3,
+          0,
+          1
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.556Z"
+      }
+    },
+    "dailanzi": {
+      "person": "dailanzi",
+      "raw": 55,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-daoge-q3",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-sunxiaochuan-q2",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-yaoshuige-q3",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-yujie-q3",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-dailanzi-q1",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-yaoshuige-q0",
+            "order": [
+              0,
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-us-lecturer-q2",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "abstract-action-1",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          3,
+          2,
+          3,
+          1,
+          3,
+          3,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.556Z"
+      }
+    },
+    "leijun": {
+      "person": "leijun",
+      "raw": 43,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-huge-q0",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-nida-q0",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "abstract-order-2",
+            "order": [
+              1,
+              2,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-luoyonghao-q1",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "abstract-action-4",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-dailanzi-q3",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-yuchengdong-q2",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-fengge-q2",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          3,
+          3,
+          3,
+          0,
+          1,
+          3,
+          0,
+          2
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.558Z"
+      }
+    },
+    "huchenfeng": {
+      "person": "huchenfeng",
+      "raw": 48,
+      "bonus": 4,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "abstract-action-3",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-huge-q1",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "abstract-social-3",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-luoyonghao-q2",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-daoge-q2",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-yuchengdong-q3",
+            "order": [
+              3,
+              1,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-yili-q0",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-huchenfeng-q0",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          1,
+          1,
+          0,
+          3,
+          0,
+          1,
+          1
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.558Z"
+      }
+    },
+    "yujie": {
+      "person": "yujie",
+      "raw": 57,
+      "bonus": 4,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-luoyonghao-q3",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-huge-q1",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-huchenfeng-q1",
+            "order": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "abstract-social-4",
+            "order": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "abstract-express-1",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-yujie-q2",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "abstract-empathy-2",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-us-lecturer-q3",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          1,
+          0,
+          2,
+          3,
+          0,
+          3,
+          1
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.560Z"
+      }
+    },
+    "musk": {
+      "person": "musk",
+      "raw": 55,
+      "bonus": 9,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-musk-q3",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-yili-q2",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "abstract-empathy-2",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-jensen-q3",
+            "order": [
+              0,
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-yujie-q1",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-luoyonghao-q2",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-musk-q1",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "abstract-social-2",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          3,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.561Z"
+      }
+    },
+    "jensen": {
+      "person": "jensen",
+      "raw": 50,
+      "bonus": 4,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-yuchengdong-q3",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-yujie-q1",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-dailanzi-q3",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-huchenfeng-q0",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-fengge-q0",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "abstract-action-2",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "abstract-order-3",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-jensen-q2",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          3,
+          0,
+          1,
+          0,
+          0,
+          2,
+          0
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.563Z"
+      }
+    },
+    "nida": {
+      "person": "nida",
+      "raw": 45,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-nida-q3",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "abstract-empathy-4",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-yujie-q2",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-yujie-q1",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-yili-q2",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-sunxiaochuan-q0",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-huge-q1",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-yili-q0",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          }
+        ],
+        "answers": [
+          2,
+          0,
+          1,
+          3,
+          0,
+          0,
+          1,
+          1
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.567Z"
+      }
+    },
+    "us-lecturer": {
+      "person": "us-lecturer",
+      "raw": 47,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "abstract-order-4",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-yili-q0",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-us-lecturer-q0",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "abstract-action-3",
+            "order": [
+              2,
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-trump-q2",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "abstract-empathy-1",
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "abstract-empathy-3",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-jensen-q1",
+            "order": [
+              3,
+              1,
+              0,
+              2
+            ]
+          }
+        ],
+        "answers": [
+          3,
+          1,
+          2,
+          1,
+          2,
+          2,
+          1,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.568Z"
+      }
+    },
+    "yili": {
+      "person": "yili",
+      "raw": 35,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-yili-q3",
+            "order": [
+              2,
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-dailanzi-q2",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "abstract-express-2",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-huge-q2",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "abstract-order-2",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-huchenfeng-q1",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-trump-q1",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-luoyonghao-q0",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          2,
+          0,
+          0,
+          1,
+          2,
+          3,
+          1
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.570Z"
+      }
+    },
+    "yuchengdong": {
+      "person": "yuchengdong",
+      "raw": 52,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "abstract-empathy-4",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-yuchengdong-q0",
+            "order": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-yuchengdong-q2",
+            "order": [
+              0,
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-fengge-q3",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-huchenfeng-q2",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "abstract-action-1",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-yujie-q1",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "abstract-action-4",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          3,
+          3,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.572Z"
+      }
+    },
+    "yaoshuige": {
+      "person": "yaoshuige",
+      "raw": 38,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-luoyonghao-q3",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "abstract-empathy-4",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-yaoshuige-q1",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "abstract-social-2",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-yili-q0",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-fengge-q1",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "abstract-order-1",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "abstract-social-4",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          }
+        ],
+        "answers": [
+          3,
+          1,
+          3,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.574Z"
+      }
+    },
+    "daoge": {
+      "person": "daoge",
+      "raw": 46,
+      "bonus": 4,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "abstract-action-2",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-daoge-q3",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-jensen-q1",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-huge-q0",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "abstract-empathy-3",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "abstract-order-3",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-luoyonghao-q1",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-huge-q1",
+            "order": [
+              1,
+              2,
+              0,
+              3
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          3,
+          1,
+          1,
+          3,
+          2,
+          0,
+          2
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.583Z"
+      }
+    },
+    "huge": {
+      "person": "huge",
+      "raw": 51,
+      "bonus": 4,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-huge-q1",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-yujie-q1",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-jensen-q1",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "abstract-empathy-2",
+            "order": [
+              0,
+              2,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-sunxiaochuan-q3",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-daoge-q3",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "abstract-action-4",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-trump-q1",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          }
+        ],
+        "answers": [
+          0,
+          1,
+          3,
+          1,
+          0,
+          2,
+          3,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T01:18:57.668Z"
+      }
+    },
+    "ning": {
+      "person": "ning",
+      "raw": 63,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-vincent-q0",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-vincent-q1",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-vincent-q2",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-vincent-q3",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-rookie-q0",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-rookie-q1",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v14-rookie-q2",
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-rookie-q3",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          0,
+          3,
+          3,
+          3,
+          2,
+          1,
+          0,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T00:00:00.000Z"
+      }
+    },
+    "vincent": {
+      "person": "vincent",
+      "raw": 81,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "lol",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-vincent-q0",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-vincent-q1",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-vincent-q2",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-vincent-q3",
+            "order": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "hex-collector-0",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "hex-collector-1",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "hex-collector-2",
+            "order": [
+              2,
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "hex-collector-3",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          2,
+          1,
+          2,
+          2,
+          2,
+          0,
+          2
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T00:00:00.000Z"
+      }
+    },
+    "durant": {
+      "person": "durant",
+      "raw": 47,
+      "bonus": 4,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-durant-q1",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-durant-q3",
+            "order": [
+              3,
+              1,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-wilt-q1",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "basket-action-3",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-curry-q2",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "basket-express-3",
+            "order": [
+              0,
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "basket-social-3",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "basket-empathy-4",
+            "order": [
+              3,
+              1,
+              0,
+              2
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          2,
+          1,
+          3,
+          2,
+          3,
+          0,
+          1
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T00:00:00.000Z"
+      }
+    },
+    "harden": {
+      "person": "harden",
+      "raw": 61,
+      "bonus": 4,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "basket-social-3",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-harden-q1",
+            "order": [
+              2,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "basket-empathy-3",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-harden-q3",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "basket-order-1",
+            "order": [
+              1,
+              2,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "basket-action-3",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "basket-action-1",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-harden-q2",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          0,
+          1,
+          2,
+          3,
+          2,
+          2,
+          0
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T00:00:00.000Z"
+      }
+    },
+    "wilt": {
+      "person": "wilt",
+      "raw": 75,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-draymond-green-q0",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-wilt-q1",
+            "order": [
+              1,
+              2,
+              0,
+              3
+            ]
+          },
+          {
+            "id": "v14-jordan-q0",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-wilt-q0",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-xujingyu-q3",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v14-tmac-q3",
+            "order": [
+              2,
+              0,
+              1,
+              3
+            ]
+          },
+          {
+            "id": "v14-yangyi-q2",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-wilt-q2",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          0,
+          3,
+          2,
+          0,
+          0,
+          3,
+          3,
+          2
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T00:00:00.000Z"
+      }
+    },
+    "sunxiaochuan": {
+      "person": "sunxiaochuan",
+      "raw": 79,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "abstract-action-2",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-huchenfeng-q2",
+            "order": [
+              2,
+              0,
+              3,
+              1
+            ]
+          },
+          {
+            "id": "v14-sunxiaochuan-q2",
+            "order": [
+              0,
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-sunxiaochuan-q1",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "v14-sunxiaochuan-q3",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-sunxiaochuan-q0",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-yaoshuige-q2",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-us-lecturer-q2",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          }
+        ],
+        "answers": [
+          2,
+          3,
+          1,
+          0,
+          3,
+          0,
+          1,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T00:00:00.000Z"
+      }
+    },
+    "luoyonghao": {
+      "person": "luoyonghao",
+      "raw": 79,
+      "bonus": 0,
+      "method": "V14-same-answer-native-version-replay",
+      "session": {
+        "version": 14,
+        "theme": "abstract",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-fengge-q1",
+            "order": [
+              0,
+              3,
+              1,
+              2
+            ]
+          },
+          {
+            "id": "abstract-express-4",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-luoyonghao-q2",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-luoyonghao-q3",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-huchenfeng-q0",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-us-lecturer-q2",
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-luoyonghao-q1",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-luoyonghao-q0",
+            "order": [
+              0,
+              2,
+              3,
+              1
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          2,
+          1,
+          1,
+          1,
+          3,
+          1,
+          0
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T00:00:00.000Z"
+      }
+    },
+    "wuyou": {
+      "person": "wuyou",
+      "raw": 78,
+      "bonus": 0,
+      "method": "target-semantic-evidence",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-zhouqi-q0",
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-wuyou-q1",
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ]
+          },
+          {
+            "id": "v14-xire-q3",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-wilt-q0",
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "v14-wuyou-q2",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-wuyou-q3",
+            "order": [
+              2,
+              3,
+              0,
+              1
+            ]
+          },
+          {
+            "id": "v14-doncic-q1",
+            "order": [
+              1,
+              0,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-wuyou-q0",
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ]
+          }
+        ],
+        "answers": [
+          1,
+          0,
+          3,
+          3,
+          0,
+          2,
+          2,
+          0
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T00:00:00.000Z"
+      }
+    },
+    "caixukun": {
+      "person": "caixukun",
+      "raw": 82,
+      "bonus": 0,
+      "method": "target-semantic-evidence",
+      "session": {
+        "version": 14,
+        "theme": "basket",
+        "series": "all",
+        "count": 8,
+        "deck": [
+          {
+            "id": "v14-tmac-q2",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v14-tmac-q1",
+            "order": [
+              3,
+              0,
+              2,
+              1
+            ]
+          },
+          {
+            "id": "v15-caixukun-q1",
+            "order": [
+              1,
+              2,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v15-caixukun-q3",
+            "order": [
+              0,
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "id": "v14-lebron-q2",
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ]
+          },
+          {
+            "id": "v15-caixukun-q0",
+            "order": [
+              3,
+              1,
+              2,
+              0
+            ]
+          },
+          {
+            "id": "v15-caixukun-q2",
+            "order": [
+              0,
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": "v14-durant-q2",
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ]
+          }
+        ],
+        "answers": [
+          2,
+          2,
+          3,
+          1,
+          3,
+          0,
+          0,
+          3
+        ],
+        "index": 7,
+        "phase": "complete",
+        "date": "2026-10-24T00:00:00.000Z"
+      }
+    }
+  }
+}

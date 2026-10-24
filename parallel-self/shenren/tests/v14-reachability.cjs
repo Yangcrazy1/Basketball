@@ -1,5 +1,6 @@
+// V15 regression executes the immutable V14 schema 13 source.
 // V14 native reachability proof. Synthetic counts are not claimed as user probabilities.
-const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),D=require('../src/data.json'),E=require('../src/engine.js');
+const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),D=require('../src/legacy-v13/data.json'),E=require('../src/legacy-v13/engine.js');
 const root=path.resolve(__dirname,'..');function rng(seed){return()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};}function complete(theme,n,random=rng(4)){const s=E.draw(D,theme,n,null,random);s.answers=s.deck.map(()=>Math.floor(random()*4));return s;}
 function optionAppeal(p,q,o){
  const behavior=(p.behaviorWeights[o.behavior]||0)/5*35,scene=(p.optionAffinities?((p.optionAffinities[q.id]&&p.optionAffinities[q.id][String(o.id)])||0):((p.answerAffinities&&p.answerAffinities[q.id]&&p.answerAffinities[q.id][o.behavior])||0))/5*25;
@@ -62,7 +63,13 @@ function proveReachability(){
  const ids=E.enabledPeople(D).map(p=>p.personId),unreachable=ids.filter(id=>!examples[id]);
  // Keep a replayable, engine-validated witness for every successful identity.
  for(const [id,x] of Object.entries(examples)){assert.ok(E.valid(x.session,D,true),id);const winner=E.analyze(x.session,D).identity;assert.equal(winner.personId,id);assert.ok(x.session.deck.every(d=>D.questions.find(q=>q.id===d.id).enabled),id);}
- return {version:14,schema:D.version,dataSha256:require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(root,'src/data.json'))).digest('hex'),enabledPeople:ids.length,randomRunsPerTheme:1500,methodNote:'Seeded uniform-choice synthetic simulations plus guided valid evidence sessions; counts are not measured user probabilities.',randomCounts,unreachable,failures,examples};
+ return {version:14,schema:D.version,dataSha256:require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(root,'src/legacy-v13/data.json'))).digest('hex'),enabledPeople:ids.length,randomRunsPerTheme:1500,methodNote:'Seeded uniform-choice synthetic simulations plus guided valid evidence sessions; counts are not measured user probabilities.',randomCounts,unreachable,failures,examples};
 }
 
-const report=proveReachability();fs.writeFileSync(path.join(root,'docs/v14-reachability.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({people:report.enabledPeople,proved:Object.keys(report.examples).length,unreachable:report.unreachable,failures:report.failures,dataSha256:report.dataSha256}));if(report.unreachable.length)process.exitCode=1;
+// Replay the immutable published V14 witnesses; do not regenerate its archived report.
+const report=JSON.parse(fs.readFileSync(path.join(root,'docs/v14-reachability.json'),'utf8'));
+assert.equal(report.dataSha256,require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(root,'src/legacy-v13/data.json'))).digest('hex'));
+assert.deepEqual(report.unreachable,[]);assert.equal(report.enabledPeople,58);assert.equal(Object.keys(report.examples).length,58);
+for(const p of E.enabledPeople(D)){const w=report.examples[p.personId];assert.ok(w,p.personId);assert.equal(w.session.count,8);assert.ok(E.valid(w.session,D,true));assert.equal(E.analyze(w.session,D).identity.personId,p.personId);}
+const proof={status:'passed',scope:'Archived V14 schema 13 witnesses replayed against exact frozen source; historical report unchanged',people:58,proved:58,reportSha256:require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join(root,'docs/v14-reachability.json'))).digest('hex'),dataSha256:report.dataSha256};
+const out=path.join(root,'dist/qa/v15/v14-frozen-reachability-check.json');fs.mkdirSync(path.dirname(out),{recursive:true});fs.writeFileSync(out,JSON.stringify(proof,null,2)+'\n');console.log(JSON.stringify(proof));

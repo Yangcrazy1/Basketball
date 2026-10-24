@@ -1,0 +1,28 @@
+{
+  "logo": {
+    "png": "branding/logo-v15.png",
+    "webp": "branding/logo-v15.webp",
+    "source": "原创AI绘制",
+    "originalName": "exec-e13e8d37-2560-450b-a93f-e9c8b06e1853.png",
+    "originalSha256": "51c0a9e6530ed4d3fdb2f87d30035f70490e5d84b57df823c51f676734cc531f",
+    "sha256": "25660bf158eec455264a2faeb06ede8a60456781e9f320360de96c354b652c32",
+    "pngSha256": "51c0a9e6530ed4d3fdb2f87d30035f70490e5d84b57df823c51f676734cc531f",
+    "width": 1080,
+    "height": 1080,
+    "note": "苔绿镜门与两片奶油金镜面，透明背景；不含人物或文字。"
+  },
+  "cover": {
+    "png": "branding/cover-v15.png",
+    "webp": "branding/cover-v15.webp",
+    "source": "原创AI绘制，V15独立中文封面海报",
+    "originalName": "exec-9e60ab7c-cd37-40c1-8ba7-93e45008443a.png",
+    "originalSha256": "8be95bf1e494392e9c551aeea7e2e186a64619497d9bcc22b89c93ea2b77f939",
+    "pngSha256": "8be95bf1e494392e9c551aeea7e2e186a64619497d9bcc22b89c93ea2b77f939",
+    "sha256": "c46517e5fc192944d1991917ea1065a8d61b89935a88ad25e857bd89d2493e30",
+    "width": 900,
+    "height": 1200,
+    "originalWidth": 1086,
+    "originalHeight": 1448,
+    "note": "3:4竖版，标题平行宇宙的另一个我，副标题换个世界你是哪一位，原创新青年隔镜触掌；不使用真人明星肖像。"
+  }
+}

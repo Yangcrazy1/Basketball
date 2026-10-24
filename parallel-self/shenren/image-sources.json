@@ -664,22 +664,6 @@
     "checkedAt": "2026-10-23"
   },
   {
-    "id": "369",
-    "name": "369",
-    "asset": "v10-references/369.image",
-    "sourcePage": "https://zh.moegirl.org.cn/%E7%99%BD%E5%AE%B6%E6%B5%A9",
-    "imageUrl": "https://storage.moegirl.org.cn/moegirl/commons/8/88/JDG369.png",
-    "sha256": "ef8011c4cf3c34d2841a6610e04d647b74a79e4739da6924a68e92e302711220",
-    "verifiedReference": true,
-    "kind": "公开照片参考的AI漫画重绘",
-    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
-    "atlas": {
-      "sheet": 12,
-      "cell": 2
-    },
-    "checkedAt": "2026-10-23"
-  },
-  {
     "id": "tian",
     "name": "Tian",
     "asset": "v10-references/tian.image",
@@ -1683,5 +1667,73 @@
     "identityNote": "用户文档所列新浪篮球报道明确写明恶鼠张梓祎发起百分大战；采用该文结尾单人近照，并与该文开头单人侧脸交叉目视。短脏辫、两侧剃短、棱角脸；未采用同文李青翔或孟铎配图。",
     "checkedAt": "2026-10-24",
     "asset": "v14-references/ershu.image"
+  },
+  {
+    "id": "caixukun",
+    "name": "蔡徐坤",
+    "nickname": "坤坤",
+    "sourcePage": "https://finance.sina.com.cn/tjhz/2026-10-21/doc-inivynsq8058039.shtml?from=pcsearch",
+    "sourceTitle": "美力城官宣蔡徐坤为全球品牌代言人｜新浪财经转载金昌日报公开品牌官宣",
+    "imageUrl": "https://n.sinaimg.cn/spider20261021/215/w650h365/20261021/3c63-714bef03375a233f63c13e908256b8a8.jpg",
+    "localPath": "/workspace/Basketball/parallel-self/shenren/assets/v15-references/caixukun.image",
+    "asset": "v15-references/caixukun.image",
+    "sha256": "4cd75acad4df7cd1b7852213a3a7f3806c89ed5c78321395f72503855fc71ee1",
+    "bytes": 30242,
+    "verifiedReference": true,
+    "faceVerified": true,
+    "checkedAt": "2026-10-24",
+    "kind": "公开品牌官宣照片参考后的原创漫画",
+    "identityNote": "正文及配图明确标注蔡徐坤；已目视核对主近脸图，并用同文正面全身配图交叉确认人物；未采用其他演员。漫画中的银灰中分、黑上衣、灰背带裤和篮球是经典舞台造型的本作二创重组，未宣称为篮球运动员履历。",
+    "rights": "原照片来自公开报道的品牌官宣物料，仅作人物身份核对与创作参考；不推定为可自由商用图片。运行头像为AI漫画重绘，公开发布仍需自行确认相关权利。",
+    "supplementalReferences": [
+      {
+        "sourcePage": "https://finance.sina.com.cn/tjhz/2026-10-21/doc-inivynsq8058039.shtml?from=pcsearch",
+        "imageUrl": "https://n.sinaimg.cn/spider20261021/337/w650h487/20261021/87b5-8824a0732fbc5320314c5585d7854eb7.jpg",
+        "localPath": "/workspace/Basketball/parallel-self/shenren/assets/v15-references/caixukun-frontal.image",
+        "asset": "v15-references/caixukun-frontal.image",
+        "sha256": "1cde6239842c3de0d2b4cfe773c9abe8484071adea6f14a32950521793ec7ae6",
+        "bytes": 46345,
+        "verifiedReference": true,
+        "faceVerified": true,
+        "note": "同一公开报道内两张正面站姿官宣图，用于正面脸部结构交叉核对。"
+      }
+    ]
+  },
+  {
+    "id": "369",
+    "name": "369",
+    "aliases": [
+      "白家浩",
+      "Bai Jiahao"
+    ],
+    "sourcePage": "https://k.sina.com.cn/article_5688542967_1531046f7040015cgn.html?from=pcsearch",
+    "sourceTitle": "TES官宣369回归｜Score赛高公开转述俱乐部官宣（2023-12-08）",
+    "imageUrl": "https://k.sinaimg.cn/n/sinakd20231208ac/133/w2000h1333/20231208/a21e-54e814edc7764b1aa4f821b36aae1041.jpg/w700d1q75cms.jpg?by=cms_fixed_width",
+    "localPath": "/workspace/Basketball/parallel-self/shenren/assets/v15-references/369.image",
+    "asset": "v15-references/369.image",
+    "sha256": "9120b0211e6bc76f41880719014cbc79ca920c918afd8c0c59eb09441efe306d",
+    "bytes": 205201,
+    "verifiedReference": true,
+    "faceVerified": true,
+    "checkedAt": "2026-10-24",
+    "referencePersonPosition": "right",
+    "kind": "基于核对公开赛事及官宣照片生成的原创漫画",
+    "identityNote": "主参考为2023官宣合照右侧戴黑框眼镜、短寸发、圆脸微笑的白家浩；左侧另一个人未用于头像。另用新京报2022报道明确caption「白家浩（ID：369）状态拉满。拳头游戏供图」中的前景选手交叉核对。非Bin或Knight；未把旧图年份等同当前效力战队。",
+    "rights": "原照片仅作人物身份核对与创作参考，不推定为可自由商用素材。运行头像为漫画重绘；骰子、耳机及网吧练习装为本作二创形态。",
+    "supplementalReferences": [
+      {
+        "sourcePage": "https://finance.sina.com.cn/jjxw/2022-10-21/doc-imqqsmrp3299341.shtml?from=pcsearch",
+        "sourceTitle": "淘汰赛再献单杀名场面，369被赞S12第一上单｜新京报",
+        "imageUrl": "https://n.sinaimg.cn/spider20221021/240/w640h400/20221021/0390-953c97e0578a159e25b171fde08cb949.jpg",
+        "localPath": "/workspace/Basketball/parallel-self/shenren/assets/v15-references/369-match.image",
+        "asset": "v15-references/369-match.image",
+        "sha256": "2a6ae36abab9fd94393cc06f32c78ce971bd0ee8d8f89fb42092a4cb8c07e887",
+        "bytes": 44288,
+        "caption": "白家浩（ID：369）状态拉满。 拳头游戏供图",
+        "referencePersonPosition": "foreground left",
+        "verifiedReference": true,
+        "faceVerified": true
+      }
+    ]
   }
 ]

@@ -1,0 +1,83 @@
+{
+  "logo": {
+    "png": "branding/logo-v15.png",
+    "webp": "branding/logo-v15.webp",
+    "source": "原创AI绘制",
+    "originalName": "exec-e13e8d37-2560-450b-a93f-e9c8b06e1853.png",
+    "originalSha256": "51c0a9e6530ed4d3fdb2f87d30035f70490e5d84b57df823c51f676734cc531f",
+    "sha256": "25660bf158eec455264a2faeb06ede8a60456781e9f320360de96c354b652c32",
+    "pngSha256": "51c0a9e6530ed4d3fdb2f87d30035f70490e5d84b57df823c51f676734cc531f",
+    "width": 1080,
+    "height": 1080,
+    "note": "苔绿镜门与两片奶油金镜面，透明背景；不含人物或文字。"
+  },
+  "cover": {
+    "png": "branding/cover-v15.png",
+    "webp": "branding/cover-v15.webp",
+    "source": "原创AI绘制，V15独立中文封面海报",
+    "originalName": "exec-9e60ab7c-cd37-40c1-8ba7-93e45008443a.png",
+    "originalSha256": "8be95bf1e494392e9c551aeea7e2e186a64619497d9bcc22b89c93ea2b77f939",
+    "pngSha256": "8be95bf1e494392e9c551aeea7e2e186a64619497d9bcc22b89c93ea2b77f939",
+    "sha256": "c46517e5fc192944d1991917ea1065a8d61b89935a88ad25e857bd89d2493e30",
+    "width": 900,
+    "height": 1200,
+    "originalWidth": 1086,
+    "originalHeight": 1448,
+    "note": "3:4竖版，标题平行宇宙的另一个我，副标题换个世界你是哪一位，原创新青年隔镜触掌；不使用真人明星肖像。"
+  },
+  "revealLol": {
+    "png": "branding/revealLol-v13.png",
+    "webp": "branding/revealLol-v13.webp",
+    "source": "原创AI绘制",
+    "originalName": "exec-23d9e2a5-2155-409a-9560-6db7f1de3916.png",
+    "sha256": "6205ebb82c412b2c27c2b769d6c3bfd518e94337f9c3a9c210c5c9169550e18d"
+  },
+  "revealBasket": {
+    "png": "branding/revealBasket-v13.png",
+    "webp": "branding/revealBasket-v13.webp",
+    "source": "原创AI绘制",
+    "originalName": "exec-6b559d69-d159-47d5-b9e7-7050f45f7ed6.png",
+    "sha256": "239df3b91df555ef9ddc2aab3635b9185da6282f59b26732fdd5b508485521c6"
+  },
+  "revealAbstract": {
+    "png": "branding/revealAbstract-v13.png",
+    "webp": "branding/revealAbstract-v13.webp",
+    "source": "原创AI绘制",
+    "originalName": "exec-ad608c08-2ac6-459f-9dc6-e15c9ce41b7b.png",
+    "sha256": "b9b3e490d9e95a49e3f4e03053750bf9c6be770dae85e4fc2604a561ce43ce44"
+  },
+  "uziEnding": {
+    "png": "branding/uzi-ending.png",
+    "webp": "branding/uzi-ending.webp"
+  },
+  "introRealLife": {
+    "png": "branding/intro-real-life-v14.png",
+    "webp": "branding/intro-real-life-v14.webp",
+    "source": "原创AI绘制，V14独立简约暖色绘本分镜",
+    "originalName": "exec-3b83b3db-f3a5-4fcd-a21f-be5198bf7fb2.png",
+    "originalSha256": "925bcf6fa6ac2068c53c1f927262afa4fb2c8fdb1f9aac6671e043b94f010e08",
+    "sha256": "17bd93019cfa32cea385e7ec5c350a5b0bc32178a3e65db47fbbfdc5d7d34b50",
+    "width": 800,
+    "height": 1000
+  },
+  "introMirror": {
+    "png": "branding/intro-mirror-v14.png",
+    "webp": "branding/intro-mirror-v14.webp",
+    "source": "原创AI绘制，V14独立简约暖色绘本分镜",
+    "originalName": "exec-d67aef93-0a6e-44ce-a6b1-02fdcb177911.png",
+    "originalSha256": "4dbe9ce085b6ab74308363ba6c7bb40827c8cae9db8e4e8dc7b59e14ccaeabea",
+    "sha256": "fb76c3474c97fa4dd5adf8cb7b495591fc34cc997ce7331f0d1ce057eaf37906",
+    "width": 800,
+    "height": 1000
+  },
+  "introNewWorld": {
+    "png": "branding/intro-new-world-v14.png",
+    "webp": "branding/intro-new-world-v14.webp",
+    "source": "原创AI绘制，V14独立简约暖色绘本分镜",
+    "originalName": "exec-b03952cc-05f6-4f07-b1a1-1e2b87c800cb.png",
+    "originalSha256": "f2d4c4f6e297e0adea7466ecfab33dd8b33b3b252caa432ec1bec301defe213f",
+    "sha256": "c5adbc978a394babdce9f249ab44ec050d860e4331431b101d0da265a370afcd",
+    "width": 800,
+    "height": 1000
+  }
+}

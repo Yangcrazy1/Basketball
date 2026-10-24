@@ -1,0 +1,57 @@
+{
+  "status": "static_checks_passed_native_acceptance_pending",
+  "zip": {
+    "bytes": 9380444,
+    "sha256": "ade151cdf3a37e52d01e12f89a98650cd95ff4aea994b7480b08fa83130cc057"
+  },
+  "zipFiles": 86,
+  "zipRootEntry": "index.html",
+  "auditDirectory": "WARN data.js 4.30 MiB. PASS: 86 files, 1 warning; finite current content and four exact historical snapshots reviewed.",
+  "auditZip": "WARN ZIP 8.95 MiB exceeds recommendation 2 MiB; data.js 4.30 MiB. PASS: 86 files, 2 warnings; below 10 MiB hard limit.",
+  "javascript": "Acorn ES2017 parse: all four packaged scripts passed",
+  "APIContract": {
+    "baseline": "skill js-api.md 2026-09-23",
+    "onlineURL": "https://miniapp-sandbox.xiaohongshu.com/minitool/doc",
+    "onlineChecked": "2026-10-24",
+    "onlineSha256": "ec9a46746cf6570136e91def7445db9acbeafd132ac2e714fe6ed11b12f3363b",
+    "used": [
+      "getStorage",
+      "setStorage",
+      "removeStorage",
+      "getLaunchOptions",
+      "getWindowInfo",
+      "writeTempFile",
+      "saveImageToPhotosAlbum"
+    ],
+    "nativeBrowserMock": "Documented Storage including preserved story.v14/style.v14 and current story.v15/style.v15; 70px capsule avoidance; temporary file then album save only on explicit click. Browser contract simulation only."
+  },
+  "compatibility": {
+    "script": "external classic scripts only",
+    "network": "all runtime assets local; no fetch/XHR",
+    "CSS": "grid-gap, flex gap behavioral probe/margin fallback, ratio boxes, safe area fallback",
+    "performance": "Current finite catalog60/180, images created on demand and pruned; native portrait/perk sheets resized to 960/1024, originals and review UI excluded. Actual device performance unmeasured.",
+    "nativeSafeArea": "High-specificity V14 header/dialog/intro/tabbar/dock fallbacks use container CSS variables; actual bounding boxes checked in SDK browser mock, not native acceptance."
+  },
+  "pending": [
+    "创服平台模拟器完整功能验证",
+    "Android 真机扫码验证相同 ZIP",
+    "iOS 真机扫码验证相同 ZIP",
+    "Chrome 61 CSS 与真实设备性能实测"
+  ],
+  "manualTextReview": {
+    "dataBytes": 4505528,
+    "totalUnpackedTextBytes": 4922533,
+    "cause": "Finite current 60-person/340-question/180-card/60-story dataset plus four exact frozen historical snapshots. No runtime compressed-data loader or large encoded seed; source review archive stays outside native package.",
+    "optimization": "Independent 800x1000 WebP opening panels; native portrait/perk sheets resized to 960/1024 at quality82 while preserving all historic cell mappings. Native excludes original PNGs, review UI and screenshots. No compressed runtime data loader or large Base64 seed.",
+    "devicePerformance": "unmeasured"
+  },
+  "portraitReferenceNote": "All current avatars have checked source bytes/mappings. nida and yili use officially linked public avatar references; not an independent verification of both faces.",
+  "schemaVersion": 14,
+  "releaseVersion": 15,
+  "historicalSchemas": [
+    10,
+    11,
+    12,
+    13
+  ]
+}

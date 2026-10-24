@@ -59,5 +59,18 @@
     "sha256": "ef6c06d378b7731b2ed36b9444565a337ed371234012f11c44ea3a8b6f99318b",
     "kind": "本作原创AI棱彩漫画图标",
     "generatedOriginalName": "exec-80077beb-ba8e-4779-a8d8-9d630b511299.png"
+  },
+  {
+    "asset": "parody-icons-v15.webp",
+    "width": 1254,
+    "height": 1254,
+    "columns": 4,
+    "rows": 4,
+    "sha256": "4a2367ff2eccc388cc82bbe2d3d919092f6ca98f18bb7f8e44b3b8dabd3f1664",
+    "kind": "本作原创AI棱彩漫画道具图标",
+    "generatedOriginalName": "exec-dfb20926-ba66-4d8e-8c19-d40bfbb7132b.png",
+    "generatedOriginalSha256": "45de60ac9de4e0fd5bece50bb687f93b6b2cad4c0e65c8036ae6846b4c1c7760",
+    "initialGeneratedOriginalName": "exec-a49dbdd3-d83a-4fe7-b713-49118e676477.png",
+    "note": "第一行第4格骰子已用imagegen修为3/6/9点，其他15格维持原有道具；RGB不透明深紫底，WebP质量90。"
   }
 ]
