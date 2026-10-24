@@ -1,0 +1,88 @@
+{
+  "status": "passed",
+  "checks": [
+    "published entry, HTML/ZIP hashes, review, separate artwork, screenshots and name/description TXT/Markdown downloads resolve",
+    "real HTTPS three-page story/replay and the restored Collector-only shop card with five real icon copies",
+    "public catalog uniquely resolves Kun and 369, separates Kun from NBA/folk groups, and exposes all eight authored question evidence records and six cards",
+    "four frozen histories preserve identity/squad/name, and schema13 preserves its completed branching ending and actually obtained cards",
+    "published lol quiz reveals the real-answer result, expanded setting, five-person squad and independent name reroll",
+    "published basket quiz reveals the real-answer result, expanded setting, five-person squad and independent name reroll",
+    "published abstract quiz reveals the real-answer result, expanded setting, five-person squad and independent name reroll",
+    "real public result/self-selected five-person PNG downloads and exact current offline HTML download",
+    "public Green/Ershu/Kun/369 direct story links start card-free, earn only explicit rewards, reach distinct endings and export real story PNGs",
+    "live-data review defaults to five samples plus Green/Ershu/Kun/369, shows all 60, preserves alias search and exposes real cards/branches/filters",
+    "no public page exceptions or failed HTTP runtime resource requests"
+  ],
+  "count": 11,
+  "url": "https://yangcrazy1.github.io/Basketball/v15/",
+  "sourceCommit": "a7dfa12e9ce09f0d56bae2f2cde6065168a93a3b",
+  "deploymentArtifactSHA256": "d7d8bacf2661d685b5b4c981f37ef896c690db0f72eac560dd2fa26094304770",
+  "checkedAt": "2026-10-24T02:22:53.055743+00:00",
+  "enabledPeople": 60,
+  "revealBackgroundSHA256": {
+    "lol": "6205ebb82c412b2c27c2b769d6c3bfd518e94337f9c3a9c210c5c9169550e18d",
+    "basket": "239df3b91df555ef9ddc2aab3635b9185da6282f59b26732fdd5b508485521c6",
+    "abstract": "b9b3e490d9e95a49e3f4e03053750bf9c6be770dae85e4fc2604a561ce43ce44"
+  },
+  "spotlightEvidence": {
+    "caixukun": {
+      "personId": "caixukun",
+      "questionIds": [
+        "v15-caixukun-q0",
+        "v15-caixukun-q1",
+        "v15-caixukun-q2",
+        "v15-caixukun-q3"
+      ],
+      "cardIds": [
+        "v15-caixukun-1",
+        "v15-caixukun-2",
+        "v15-caixukun-3"
+      ]
+    },
+    "369": {
+      "personId": "369",
+      "questionIds": [
+        "v15-369-q0",
+        "v15-369-q1",
+        "v15-369-q2",
+        "v15-369-q3"
+      ],
+      "cardIds": [
+        "v15-369-1",
+        "v15-369-2",
+        "v15-369-3"
+      ]
+    }
+  },
+  "brandingPNGHashes": {
+    "logo": "51c0a9e6530ed4d3fdb2f87d30035f70490e5d84b57df823c51f676734cc531f",
+    "cover": "8be95bf1e494392e9c551aeea7e2e186a64619497d9bcc22b89c93ea2b77f939"
+  },
+  "launchCopySHA256": "404ca8481e29c4392616761fc093e45368a12c8366c0c88d8b1be0dd90cee78a",
+  "launchMarkdownSHA256": "dff6f4b0c9c2ba2dce442ee77cfbb4a47fd8ab6fa1f5000a6511c7482fdd4b6a",
+  "partialContextTopCards": [
+    {
+      "id": "v15-369-1",
+      "name": "摇骰子"
+    }
+  ],
+  "historicalSchemas": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "archivedSchema13Story": {
+    "recordId": "public-legacy-13",
+    "version": 13,
+    "node": "ending",
+    "title": "规则说明会主讲人",
+    "text": "两位工作人员现场开起规则会，朋友被临时征用为翻页员。你拿着篮球站在讲台边，最后用发球动作给两本手册演示了同一个开始。 片尾朋友约你下次普通打个篮球，系统却自动加上铃声和彩排时间。追梦格林在虚构联动彩蛋里想先录播客，主持人干脆收走麦克风，宣布先调记分牌。",
+    "ownedCardIds": [
+      "v14-perk-12101bac64",
+      "v14-perk-a615ad1a62"
+    ],
+    "visitedNodes": 6
+  },
+  "device": "393×852 Chromium mobile viewport; not physical phone or XHS platform acceptance"
+}

@@ -1,0 +1,129 @@
+{
+  "url": "https://yangcrazy1.github.io/Basketball/v15/",
+  "deployment": "70dd125c7e30a118f7c2dca3161b2fb53753cc53",
+  "version": 15,
+  "schemaVersion": 14,
+  "historicalSchemas": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "entry_bytes": 2728,
+  "entry_sha256": "65bb7be02eb828b0279df766293b5c6ec8fc973f64c2b2dca4531848f382c002",
+  "core_bytes": 4908365,
+  "offline_html_bytes": 24405846,
+  "offline_html_sha256": "d7d8bacf2661d685b5b4c981f37ef896c690db0f72eac560dd2fa26094304770",
+  "core_files": [
+    "boot-83ffa9eee7c7.js",
+    "style-25d5f58cfbed.css",
+    "data-0ea2a16bc069.js",
+    "engine-4866f7924caa.js",
+    "app-07b6ba5a3c33.js"
+  ],
+  "mode": "split assets; portraits loaded on demand; offline export is a separate self-contained file",
+  "appName": "平行宇宙的另一个我",
+  "engineAndStorageTests": 65,
+  "dataSha256": "403f9386ce5a63b77c196e4c2ec3c44f2c8f381d248b9ccd5e65324a1f28e118",
+  "xhsValidation": "docs/xhs-validation-v15.json",
+  "edition": "V15坤坤与369联动",
+  "enabledPeople": 60,
+  "verifiedAvatars": 60,
+  "pendingAvatars": [],
+  "activeQuestions": 340,
+  "cards": 180,
+  "exclusiveCards": 143,
+  "byTheme": {
+    "lol": {
+      "people": 22,
+      "questions": 140,
+      "cards": 86
+    },
+    "basket": {
+      "people": 21,
+      "questions": 108,
+      "cards": 51
+    },
+    "abstract": {
+      "people": 17,
+      "questions": 92,
+      "cards": 43
+    }
+  },
+  "webURL": "https://yangcrazy1.github.io/Basketball/v15/",
+  "browserGroups": 26,
+  "browserDevice": "393×852 Chromium mobile viewport; not physical phone or XHS platform acceptance",
+  "nativeAcceptance": "pending: 创服平台模拟器、Android 真机扫码、iOS 真机扫码",
+  "verifiedAvatarSources": 60,
+  "avatarVerificationMeaning": "verifiedAvatarSources（旧字段 verifiedAvatars 同义）表示漫画头像均有已核对的公开原型来源与非占位绘图；不表示每张来源照片的真实面孔均已独立核验，也不表示取得商业授权。",
+  "faceVerificationCaveats": [
+    {
+      "personId": "nida",
+      "name": "尼达",
+      "sourceNote": "官方账号头像是车内穿黑色连帽外套的人，帽沿和侧身遮住大部分脸；可还原连帽姿态，不能据此编造已核实正面人脸。 保留公开头像的遮脸姿态，不声称已核对完整面容。",
+      "meaning": "已核对公开账号头像来源；不宣称真实面孔已独立核验。"
+    },
+    {
+      "personId": "yili",
+      "name": "伊利",
+      "sourceNote": "官方账号头像为戴黑色毛线帽、黑色外套的近距离单人自拍，脸部清楚。",
+      "meaning": "已核对公开账号头像来源；不宣称真实面孔已独立核验。"
+    }
+  ],
+  "appDescription": "换个世界，看看另一个自己。三个梗宇宙、随机日常题，匹配你的平行身份与专属海克斯；拉起五人神人团，让每次选择改写后续故事，再把离谱人生印成海报。娱乐二创，按第一反应来接梗。",
+  "representativeCards": 143,
+  "representativeAssociations": 149,
+  "branchStories": 60,
+  "disabledReviewCandidates": 26,
+  "frozenHistorySources": {
+    "10": {
+      "data.json": "8d89181cae6247ed0faf7a727c3a78f0f0dd1a1eb502c11377f97112ee604467",
+      "engine.js": "e91053c16614f75ece446e0a4a8d4f838a69f118d6a0f7897094a0e4aa42706e"
+    },
+    "11": {
+      "data.json": "920a24809b3d7e6f6859e9c73b65182d517dfb811a7f4dc858d56fcf64efc2e9",
+      "engine.js": "8da99987e320153b8ad80d51afb09be9f5ec3b8ae174eb7d3347348a62dabe2f"
+    },
+    "12": {
+      "data.json": "785c19aef9429ba9b1fdc3c67099bd1a6d111932fb52fe5da5d3bb109a730430",
+      "engine.js": "bd904fc4948836f5fcd2bbf5cb2691f65802bc25be48814478439c38d1bd4c08"
+    },
+    "13": {
+      "data.json": "df1149b6ff43e441e41b4aab65b005d6f7544c12e65a123987c25b7437c0d491",
+      "engine.js": "4290a8772d1e8cf655fffa03f6cd2bb9e5d6e1a85da218cf165af2df9e51b2bf"
+    }
+  },
+  "artifacts": {
+    "world-another-me-v15.html": {
+      "bytes": 24405846,
+      "sha256": "d7d8bacf2661d685b5b4c981f37ef896c690db0f72eac560dd2fa26094304770"
+    },
+    "world-another-me-v15-web.zip": {
+      "bytes": 40289659,
+      "sha256": "d1b0db4cf73d306df46fa82ba34e9180e0ad8c51703f5e508c9ee124e7912f55"
+    },
+    "world-another-me-v15-xhs.zip": {
+      "bytes": 9380444,
+      "sha256": "ade151cdf3a37e52d01e12f89a98650cd95ff4aea994b7480b08fa83130cc057"
+    }
+  },
+  "xhsFiles": 86,
+  "logoDownload": "./downloads/logo.png",
+  "logoDownloadSHA256": "51c0a9e6530ed4d3fdb2f87d30035f70490e5d84b57df823c51f676734cc531f",
+  "coverDownload": "./downloads/cover.png",
+  "coverDownloadSHA256": "8be95bf1e494392e9c551aeea7e2e186a64619497d9bcc22b89c93ea2b77f939",
+  "introRealLifeDownload": "./downloads/introRealLife.png",
+  "introRealLifeDownloadSHA256": "925bcf6fa6ac2068c53c1f927262afa4fb2c8fdb1f9aac6671e043b94f010e08",
+  "introMirrorDownload": "./downloads/introMirror.png",
+  "introMirrorDownloadSHA256": "4dbe9ce085b6ab74308363ba6c7bb40827c8cae9db8e4e8dc7b59e14ccaeabea",
+  "introNewWorldDownload": "./downloads/introNewWorld.png",
+  "introNewWorldDownloadSHA256": "f2d4c4f6e297e0adea7466ecfab33dd8b33b3b252caa432ec1bec301defe213f",
+  "launchCopyDownload": "./downloads/launch-copy-v15.txt",
+  "launchCopyDownloadSHA256": "404ca8481e29c4392616761fc093e45368a12c8366c0c88d8b1be0dd90cee78a",
+  "launchMarkdownDownload": "./downloads/launch-copy-v15.md",
+  "launchMarkdownDownloadSHA256": "dff6f4b0c9c2ba2dce442ee77cfbb4a47fd8ab6fa1f5000a6511c7482fdd4b6a",
+  "reviewScript": "review-v15-519e0c40a369.js",
+  "reviewDataScript": "data-0ea2a16bc069.js",
+  "source_commit": "a7dfa12e9ce09f0d56bae2f2cde6065168a93a3b",
+  "previous_entries_unchanged": true
+}

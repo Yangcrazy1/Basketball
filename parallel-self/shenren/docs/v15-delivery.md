@@ -42,7 +42,7 @@
 
 ## 已完成检查
 
-65 项逻辑／存储测试、26 组完整浏览器流程通过；涵盖九种主题／题量、新人真实答题证据、九条可选故事、四版旧记录（含 schema13 故事背包与结局）、离线、导出和原生 SDK 契约模拟。60／60 人均有合法可达作答。四个原生脚本通过 ES2017，目录与 ZIP 静态审计无错误，建议值警告已记录。
+65 项逻辑／存储测试、26 组完整浏览器流程、10 组实际审阅页检查、11 组公开 HTTPS 检查通过；涵盖九种主题／题量、新人真实答题证据、九条可选故事、四版旧记录（含 schema13 故事背包与结局）、离线、导出和原生 SDK 契约模拟。60／60 人均有合法可达作答。四个原生脚本通过 ES2017，目录与 ZIP 静态审计无错误，建议值警告已记录。
 
 ## 入口与文件
 
@@ -52,4 +52,10 @@
 - 网页部署包：`release/world-another-me-v15-web.zip`
 - 完整离线网页：`release/world-another-me-v15.html`
 
-实际记录：`docs/v15-unit-check.json`、`docs/v15-reachability.json`、`docs/browser-check-v15.json`、`docs/public-v15.json`；产物大小与 SHA256 见 `docs/v15-build-manifest.json`。截图为实际运行的手机视口模拟，未冒充实体手机。
+实际记录：`docs/v15-unit-check.json`、`docs/v15-reachability.json`、`docs/browser-check-v15.json`、`docs/v15-review-check.json`、`docs/public-v15.json`；产物大小与 SHA256 见 `docs/v15-build-manifest.json`。截图为实际运行的手机视口模拟，未冒充实体手机。
+
+## 发布指纹
+
+- 源码提交：`a7dfa12e9ce09f0d56bae2f2cde6065168a93a3b`。
+- Pages 产物提交：`70dd125c7e30a118f7c2dca3161b2fb53753cc53`。
+- 发布只新增 `/v15/`，其余旧入口的 Git 对象逐项保持不变。

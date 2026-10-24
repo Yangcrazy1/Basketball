@@ -34,7 +34,7 @@ python tools/package-v15.py
 - `release/world-another-me-v15-xhs.zip`：小红书待上传包，根目录 `index.html`。
 - `docs/v15-delivery.md`、`docs/v15-build-manifest.json`、`docs/browser-check-v15.json`、`docs/v15-unit-check.json` 与 `docs/xhs-validation-v15.json`：变更、哈希及校验记录。
 
-65 项逻辑／存储测试、26 组完整浏览器流程通过。小红书 ZIP 约 8.95 MiB，86 个本地文件，四个经典脚本通过 ES2017 解析；目录／ZIP 静态审计通过，体积建议值警告已记录。截图为手机视口模拟。静态检查与 SDK 契约模拟不代表原生验收或平台审核通过；**创服平台模拟器、Android 真机扫码、iOS 真机扫码仍待用户验证**；Chrome 61 CSS 与实际设备性能未实测。
+65 项逻辑／存储测试、26 组完整浏览器流程、10 组实际审阅页检查、11 组公开 HTTPS 检查通过。小红书 ZIP 约 8.95 MiB，86 个本地文件，四个经典脚本通过 ES2017 解析；目录／ZIP 静态审计通过，体积建议值警告已记录。截图为手机视口模拟。静态检查与 SDK 契约模拟不代表原生验收或平台审核通过；**创服平台模拟器、Android 真机扫码、iOS 真机扫码仍待用户验证**；Chrome 61 CSS 与实际设备性能未实测。
 
 `image-sources.json` 与 `docs/v14-portrait-references.md` 记录参考来源、实际字节指纹与漫画对应关系。尼达、伊利采用核对过的官方公开头像；头像归属核对不等于全部真人面部独立核验。王思聪热狗姿势为原创新绘。公开照片参考核对不等于商用授权；漫画人物、标签、剧情和海克斯为娱乐创作，不代表本人发言或背书。所有答案仅在设备保存，无登录、后端或在线推理。
 
