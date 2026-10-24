@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "checks": [
+    "published entry, complete HTML, both ZIP hashes, review page, separate logo/cover and actual screenshots resolve",
+    "real HTTPS three-page story/replay and the restored Collector-only shop card with five real icon copies",
+    "expanded public catalog has all verified portraits; basketball/abstract new characters expose settings and three cards",
+    "published lol quiz reveals the real-answer result, expanded setting, five-person squad and independent name reroll",
+    "published basket quiz reveals the real-answer result, expanded setting, five-person squad and independent name reroll",
+    "published abstract quiz reveals the real-answer result, expanded setting, five-person squad and independent name reroll",
+    "real public result/self-selected five-person PNG downloads and exact current offline HTML download",
+    "public Green/Ershu direct story links start card-free, earn only explicit rewards, reach distinct endings and export real story PNGs",
+    "live-data review defaults to five samples plus Green/Ershu, shows all 58, preserves alias search and exposes real cards/branches/filters",
+    "no public page exceptions or failed HTTP runtime resource requests"
+  ],
+  "count": 10,
+  "url": "https://yangcrazy1.github.io/Basketball/v14/",
+  "sourceCommit": "82df3bc6ad1ac2f3c9cb60be78e41a7a185d1e31",
+  "deploymentArtifactSHA256": "7de02af15fc2ac1c24186dc3d054efdc782adf7a7aa4013b926a449cec241b00",
+  "checkedAt": "2026-10-24T01:52:51.123102+00:00",
+  "enabledPeople": 58,
+  "revealBackgroundSHA256": {
+    "lol": "6205ebb82c412b2c27c2b769d6c3bfd518e94337f9c3a9c210c5c9169550e18d",
+    "basket": "239df3b91df555ef9ddc2aab3635b9185da6282f59b26732fdd5b508485521c6",
+    "abstract": "b9b3e490d9e95a49e3f4e03053750bf9c6be770dae85e4fc2604a561ce43ce44"
+  },
+  "device": "393×852 Chromium mobile viewport; not physical phone or XHS platform acceptance"
+}
