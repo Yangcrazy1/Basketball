@@ -7,3 +7,9 @@
 54929e09e98f85c7c16ed167676cca817e928243084c882edd6613ff1dd648a9  release/world-another-me-v13-xhs.zip
 3cef8ec1a4474921fd02dd72bcb50e5985cb52f85c53f7008b1c4d04c6f552f5  assets/branding/logo-v13.png
 1a4cfe52975d58176e6e0495eaa2fe743109ea44c11210a6abdeb0e37752936e  assets/branding/cover-v13.png
+7de02af15fc2ac1c24186dc3d054efdc782adf7a7aa4013b926a449cec241b00  release/world-another-me-v14.html
+fd9377a4d8587996011858dd793f7c8679d35af031fc5194c63dfd2f1dcf263a  release/world-another-me-v14-web.zip
+06f6563df29be23c12d89eb6a65e76de328f671638bc809b17938af49190f39a  release/world-another-me-v14-xhs.zip
+925bcf6fa6ac2068c53c1f927262afa4fb2c8fdb1f9aac6671e043b94f010e08  assets/branding/intro-real-life-v14.png
+4dbe9ce085b6ab74308363ba6c7bb40827c8cae9db8e4e8dc7b59e14ccaeabea  assets/branding/intro-mirror-v14.png
+f2d4c4f6e297e0adea7466ecfab33dd8b33b3b252caa432ec1bec301defe213f  assets/branding/intro-new-world-v14.png

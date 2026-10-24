@@ -1,0 +1,56 @@
+{
+  "status": "static_checks_passed_native_acceptance_pending",
+  "zip": {
+    "bytes": 8506480,
+    "sha256": "06f6563df29be23c12d89eb6a65e76de328f671638bc809b17938af49190f39a"
+  },
+  "zipFiles": 83,
+  "zipRootEntry": "index.html",
+  "auditDirectory": "WARN data.js 3.15 MiB. PASS: 83 files, 1 warning; manually reviewed finite activity data and three exact history snapshots.",
+  "auditZip": "WARN ZIP 8.11 MiB exceeds 2 MiB recommendation; data.js 3.15 MiB. PASS: 83 files, 2 warnings; below 10 MiB hard limit.",
+  "javascript": "Acorn ES2017 parse: all four packaged scripts passed",
+  "APIContract": {
+    "baseline": "skill js-api.md 2026-09-23",
+    "onlineURL": "https://miniapp-sandbox.xiaohongshu.com/minitool/doc",
+    "onlineChecked": "2026-10-24",
+    "onlineSha256": "ec9a46746cf6570136e91def7445db9acbeafd132ac2e714fe6ed11b12f3363b",
+    "used": [
+      "getStorage",
+      "setStorage",
+      "removeStorage",
+      "getLaunchOptions",
+      "getWindowInfo",
+      "writeTempFile",
+      "saveImageToPhotosAlbum"
+    ],
+    "nativeBrowserMock": "Documented Storage including story.v14/style.v14 and 70px capsule avoidance; temporary file then album save only on explicit click. Browser contract simulation only."
+  },
+  "compatibility": {
+    "script": "external classic scripts only",
+    "network": "all runtime assets local; no fetch/XHR",
+    "CSS": "grid-gap, flex gap behavioral probe/margin fallback, ratio boxes, safe area fallback",
+    "performance": "58 people / 174 active-card catalog; 26 disabled review records never enter recommendations. Active atlas definitions load on demand and prune on view change; actual low-end device performance unmeasured.",
+    "nativeSafeArea": "High-specificity V14 header/dialog/intro/tabbar/dock fallbacks use container CSS variables; actual bounding boxes checked in SDK browser mock, not native acceptance."
+  },
+  "pending": [
+    "创服平台模拟器完整功能验证",
+    "Android 真机扫码验证相同 ZIP",
+    "iOS 真机扫码验证相同 ZIP",
+    "Chrome 61 CSS 与真实设备性能实测"
+  ],
+  "manualTextReview": {
+    "dataBytes": 3304724,
+    "totalUnpackedTextBytes": 3678272,
+    "cause": "Current finite 58-person/332-question/174-card/58-story dataset plus three frozen legacy snapshots. Original full old review archive is source-only, not a runtime seed.",
+    "optimization": "Independent 800x1000 WebP opening panels; native portrait/perk sheets resized to 960/1024 at quality82 while preserving all historic cell mappings. Native excludes original PNGs, review UI and screenshots. No compressed runtime data loader or large Base64 seed.",
+    "devicePerformance": "unmeasured"
+  },
+  "portraitReferenceNote": "All current avatars have checked source bytes/mappings. nida and yili use officially linked public avatar references; not an independent verification of both faces.",
+  "schemaVersion": 13,
+  "releaseVersion": 14,
+  "historicalSchemas": [
+    10,
+    11,
+    12
+  ]
+}

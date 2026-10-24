@@ -1,6 +1,7 @@
+// V13 regression: execute the exact schema 12 snapshot, independently of current V14 data.
 // Popularity may break nearby evidence ties; it must not rewrite scores or old histories.
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
-const E=require('../src/engine.js'),D=require('../src/data.json'),OldE=require('../src/legacy-v11/engine.js'),OldD=require('../src/legacy-v11/data.json');
+const E=require('../src/legacy-v12/engine.js'),D=require('../src/legacy-v12/data.json'),OldE=require('../src/legacy-v11/engine.js'),OldD=require('../src/legacy-v11/data.json');
 const root=path.resolve(__dirname,'..');
 function rng(seed){return()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};}
 

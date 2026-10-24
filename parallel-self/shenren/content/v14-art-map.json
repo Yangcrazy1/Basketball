@@ -1,0 +1,1444 @@
+{
+  "version": 14,
+  "method": "逐张查看既有5图集后，按卡片物件与作用逐项选择；绝不按人物循环格子。proposedSprite 仅在新sheet已注册时启用。",
+  "cards": [
+    {
+      "id": "v14-perk-a4a507cf72",
+      "name": "红温",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 11
+      },
+      "reason": "淋浴、水流和温度计；对应水具与升温/离场洗脸情境",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-99ba1d5df4",
+      "name": "洗澡局",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 11
+      },
+      "reason": "淋浴、水流和温度计；对应水具与升温/离场洗脸情境",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-13b73367be",
+      "name": "春之虎帝",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 13
+      },
+      "reason": "暖色爱心与恢复气氛，呼应春季加成；并非冬日睡帽",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "double-laugh",
+      "name": "二段笑",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 7
+      },
+      "reason": "手机表情包中的夸张笑脸，直接呼应笑声/群聊表情包",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-2d648bfece",
+      "name": "一虎之力",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 15
+      },
+      "reason": "真实可见的长尺与距离标记，呼应长度单位/一厘米位移",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "not-a-loss",
+      "name": "这波不亏",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 14
+      },
+      "reason": "计算与讲台符号；东方弗洛伊德待V14理论书专图",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-20af99aa19",
+      "name": "正方形打野",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 9
+      },
+      "reason": "明确折线路径和鞋，呼应路线几何/退步找空间",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-16ecd7e758",
+      "name": "肉蛋葱鸡",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 0
+      },
+      "reason": "锅铲与炒锅，直接表现夜宵点单/上菜",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-da0df48172",
+      "name": "别吃！",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 12
+      },
+      "reason": "餐盒、食物与用餐计时，指向最后一口/补餐/早餐点单",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-eb999d5a32",
+      "name": "就两个人？",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 6
+      },
+      "reason": "双椅及对话气泡，指向人数、结伴、双人对谈；共享卡沿用同一图",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-dbfb1aaaab",
+      "name": "长手打短手",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 15
+      },
+      "reason": "真实可见的长尺与距离标记，呼应长度单位/一厘米位移",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-f18f95136a",
+      "name": "不死大魔王",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 6
+      },
+      "reason": "暂停/续局屏幕，表现不结束的对局与停在原处的交锋",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v11-faker-3",
+      "name": "切屏狂魔",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 10
+      },
+      "reason": "手机、摄影和场记板，表现屏幕检查、倒放、纸板拍摄与头像出镜",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-4c6c0882c1",
+      "name": "吨吨吨",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 3
+      },
+      "reason": "一排饮料瓶，表现喝水/狠话变饮料的补给物件",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-3d7f6d2902",
+      "name": "你的野区我养猪",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 0
+      },
+      "reason": "稻谷、饭碗与鼠标，表现资源农场与补给经营；不混用暴力物件",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-947b79cc2b",
+      "name": "4396",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 4
+      },
+      "reason": "大字屏幕与话筒，表现数字背景墙/发布字幕/超宽进度展示",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-216123af1a",
+      "name": "七酱",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 4
+      },
+      "reason": "大字屏幕与话筒，表现数字背景墙/发布字幕/超宽进度展示",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-66251b73b0",
+      "name": "接Q辣舞",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 3
+      },
+      "reason": "带导航的包裹与球，表现技能/甩锅接收和发球收件信息",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v11-jackeylove-1",
+      "name": "向前闪现",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 8
+      },
+      "reason": "带耳机的动态舞者，表现冲向镜头和鬼畜入场/跳舞",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-c2bb0083fc",
+      "name": "玛雅文明",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 2
+      },
+      "reason": "讲台与大段对话气泡，表现连贯发言、字幕与问题堆积",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-a123f0b929",
+      "name": "金咕咕",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 2
+      },
+      "reason": "讲台与大段对话气泡，表现连贯发言、字幕与问题堆积",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-e5bf0106ba",
+      "name": "四包二",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 10
+      },
+      "reason": "多人合照框表现协作人数与前后位置，不把所有人都标成选手",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-10f0e8c6bd",
+      "name": "反向抽烟",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 10
+      },
+      "reason": "手机、摄影和场记板，表现屏幕检查、倒放、纸板拍摄与头像出镜",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-cca62d3bad",
+      "name": "最骚骚猪",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 8
+      },
+      "reason": "带耳机的动态舞者，表现冲向镜头和鬼畜入场/跳舞",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-f95d3af3c2",
+      "name": "小轩在不在",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 7
+      },
+      "reason": "麦克风与回转气泡，表现变声/拨给老熟人的连麦回合",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-1246fd0b3d",
+      "name": "森明帮",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 6
+      },
+      "reason": "双椅及对话气泡，指向人数、结伴、双人对谈；共享卡沿用同一图",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-1febbcbaff",
+      "name": "变羊售后",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 8
+      },
+      "reason": "带红绳门禁与精致入口，表现保护拦截/公主入场；图不是羊本体",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-444cb7c123",
+      "name": "你什么冠军",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 11
+      },
+      "reason": "金色证件与篮球荣誉，指向冠军资历审查而非对局动作",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-ea1b878e8b",
+      "name": "宁王竞速",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 5
+      },
+      "reason": "高速运动与计时器，直接表现竞速、催结束与倒计时/漫长计分",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-fa6428887e",
+      "name": "AD身后有我",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 10
+      },
+      "reason": "多人合照框表现协作人数与前后位置，不把所有人都标成选手",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-1a3ff9c793",
+      "name": "蓝公主",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 8
+      },
+      "reason": "带红绳门禁与精致入口，表现保护拦截/公主入场；图不是羊本体",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-f494e35187",
+      "name": "十七张牌",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 15
+      },
+      "reason": "成叠卡牌；不是后宫含义，V14纸牌图将覆盖为十七手牌",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 8
+      }
+    },
+    {
+      "id": "v14-perk-306ca19d3a",
+      "name": "卡布奇诺",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 0
+      },
+      "reason": "明确咖啡杯与加浓蒸气，对应咖啡仪式",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 9
+      }
+    },
+    {
+      "id": "v11-luobenwei-3",
+      "name": "全体起立",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 14
+      },
+      "reason": "台下双手和演出舞台，表现起立/扩张手势；V14起立椅子将覆盖",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 10
+      }
+    },
+    {
+      "id": "v11-xiaoxiao-1",
+      "name": "琴女空大",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 14
+      },
+      "reason": "戏剧面具与笑声气泡，表现关键落空后的笑点",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-b679c412a5",
+      "name": "抗韩中年人",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 6
+      },
+      "reason": "双椅及对话气泡，指向人数、结伴、双人对谈；共享卡沿用同一图",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-cf6a39bb44",
+      "name": "镇江植物园",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 11
+      },
+      "reason": "明确竹叶植物与篮筐容器，指向植物园布置",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-6b88ab2c28",
+      "name": "尽力了",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 4
+      },
+      "reason": "麦克风与长卷清单，表现超量待办、长篇回顾和播客录制",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-3d7e2cf333",
+      "name": "先天院长",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 4
+      },
+      "reason": "麦克风与长卷清单，表现超量待办、长篇回顾和播客录制",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-c5202e23d6",
+      "name": "快推啊",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 5
+      },
+      "reason": "高速运动与计时器，直接表现竞速、催结束与倒计时/漫长计分",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-8eaad95ef1",
+      "name": "稳健中带点放肆",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 7
+      },
+      "reason": "旋转球与吸尘器形成失控运动，表现稳健宣言下的提前冲出",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-b3f4e3e976",
+      "name": "营养这块怎么补",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 12
+      },
+      "reason": "餐盒、食物与用餐计时，指向最后一口/补餐/早餐点单",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-a0c746ddd5",
+      "name": "吉吉国王",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 1
+      },
+      "reason": "王冠和战术笔记；指向国王点名/记仇本/公式白板，格林待V14专用白板覆盖",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-b81c2f2d99",
+      "name": "京城贵妇",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 12
+      },
+      "reason": "成排球衣与手机通讯，直接表现精致换装/换队决定",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-4cf05d6466",
+      "name": "严君泽想你了",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 7
+      },
+      "reason": "麦克风与回转气泡，表现变声/拨给老熟人的连麦回合",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-f15cd16e44",
+      "name": "他是我的替补",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 10
+      },
+      "reason": "多人合照框表现协作人数与前后位置，不把所有人都标成选手",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-75bbfc19cb",
+      "name": "戒网瘾",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 10
+      },
+      "reason": "双眼与进度条，表现正面对决/凝视等待；网瘾卡侧重对手休息眼睛",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-49e8b9be37",
+      "name": "双斧开工",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 1
+      },
+      "reason": "双向路径与球鞋脚步，表现双手轮接/先后节奏/急停",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-ac3e7b007d",
+      "name": "443",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 4
+      },
+      "reason": "大字屏幕与话筒，表现数字背景墙/发布字幕/超宽进度展示",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-efe13ba4e4",
+      "name": "一厘米摸眼",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 15
+      },
+      "reason": "真实可见的长尺与距离标记，呼应长度单位/一厘米位移",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-b80a2f5b9d",
+      "name": "吃热狗",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 8
+      },
+      "reason": "真实绘有热狗与奖杯，对应冠军看台进食",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-2519c210de",
+      "name": "百分百胜率AD",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 6
+      },
+      "reason": "暂停/续局屏幕，表现不结束的对局与停在原处的交锋",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-7a46ef361c",
+      "name": "把天赋带到……",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 12
+      },
+      "reason": "成排球衣与手机通讯，直接表现精致换装/换队决定",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-adab162b78",
+      "name": "这球没哨？",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 5
+      },
+      "reason": "哨子与护膝，对应找哨膝盖特写；战争践踏将在V14改为灯光踏板，不画踩人",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-7a559daaf6",
+      "name": "小学生",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 1
+      },
+      "reason": "运动鞋和闹钟，表现课外训练/清晨到场",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-4c28ae7aa6",
+      "name": "晚安",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 14
+      },
+      "reason": "睡帽、月亮和机票，直接表现晚安手势与就寝氛围",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-c5adcbaab5",
+      "name": "超远三分",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 13
+      },
+      "reason": "球停在车边的场外射程，表现超远投篮",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-1c49c20391",
+      "name": "这事我记下了",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 1
+      },
+      "reason": "王冠和战术笔记；指向国王点名/记仇本/公式白板，格林待V14专用白板覆盖",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-b245730508",
+      "name": "最后一投",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 0
+      },
+      "reason": "球与篮筐，表现最后出手与弹框篮板争夺",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-6c6f231aff",
+      "name": "凌晨四点",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 1
+      },
+      "reason": "运动鞋和闹钟，表现课外训练/清晨到场",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-c7d2103b14",
+      "name": "后仰美如画",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 4
+      },
+      "reason": "小腿与鞋的定格奖杯，表现漂亮出手构图；不主张旧最美小腿奖真实存在",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-ffa15049ea",
+      "name": "小帅",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 10
+      },
+      "reason": "手机、摄影和场记板，表现屏幕检查、倒放、纸板拍摄与头像出镜",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-63f59ebc75",
+      "name": "打不过就加入",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 12
+      },
+      "reason": "成排球衣与手机通讯，直接表现精致换装/换队决定",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-934ad7ffd6",
+      "name": "小号自评",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 10
+      },
+      "reason": "手机、摄影和场记板，表现屏幕检查、倒放、纸板拍摄与头像出镜",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "stepback-route",
+      "name": "后撤步",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 9
+      },
+      "reason": "明确折线路径和鞋，呼应路线几何/退步找空间",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-179e366c6f",
+      "name": "电动车也有哨",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 5
+      },
+      "reason": "哨子与护膝，对应找哨膝盖特写；战争践踏将在V14改为灯光踏板，不画踩人",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-4b09e693d7",
+      "name": "姚式笑容",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 7
+      },
+      "reason": "手机表情包中的夸张笑脸，直接呼应笑声/群聊表情包",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-1385c8763d",
+      "name": "姚鲨互怼",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 6
+      },
+      "reason": "双椅及对话气泡，指向人数、结伴、双人对谈；共享卡沿用同一图",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-66e5ed669c",
+      "name": "扣碎篮板",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 6
+      },
+      "reason": "明确破裂玻璃，分别表现篮板工程验收/展示玻璃裂纹",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-bd185383b6",
+      "name": "五大囧",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 2
+      },
+      "reason": "一堆闹钟与鞋形成密集失误回放节奏，待更多专用素材可升级",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v13-doncic-1",
+      "name": "汉堡王",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 8
+      },
+      "reason": "汉堡、球和暂停按钮，与暂停加配料完全一致",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-d762dcdce2",
+      "name": "你先跳我再投",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 1
+      },
+      "reason": "双向路径与球鞋脚步，表现双手轮接/先后节奏/急停",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-a0704418b6",
+      "name": "大虫抢板",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 0
+      },
+      "reason": "球与篮筐，表现最后出手与弹框篮板争夺",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-4928afba1c",
+      "name": "花大虫",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 13
+      },
+      "reason": "彩色头发、王冠与球，直接表现随机发色",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-cfc3b2e85c",
+      "name": "立棍单打",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 5
+      },
+      "reason": "耳机与声波表现解说复读，V14专用棍子将覆盖",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 11
+      }
+    },
+    {
+      "id": "v14-perk-1c477c25ac",
+      "name": "老1.5",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 14
+      },
+      "reason": "纪录簿和金色荣誉；分别表示排名记录/第三位数字/新开页，老1.5待专用半层领奖台",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 12
+      }
+    },
+    {
+      "id": "v14-perk-71b1bea6eb",
+      "name": "蹲坑中锋",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 3
+      },
+      "reason": "带翅膀的球与静态路径寓意防守位置差，V14可替换为小凳专图",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-f1ebf0c2e2",
+      "name": "有球必应",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 2
+      },
+      "reason": "讲台与大段对话气泡，表现连贯发言、字幕与问题堆积",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-650f8520f9",
+      "name": "杨侃开讲",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 4
+      },
+      "reason": "麦克风与长卷清单，表现超量待办、长篇回顾和播客录制",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-6d35973cd0",
+      "name": "鸡蛋灌饼",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 12
+      },
+      "reason": "餐盒、食物与用餐计时，指向最后一口/补餐/早餐点单",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-9ecefe1f08",
+      "name": "边线球",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 3
+      },
+      "reason": "带导航的包裹与球，表现技能/甩锅接收和发球收件信息",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-69e8e8badd",
+      "name": "35秒13分",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 5
+      },
+      "reason": "高速运动与计时器，直接表现竞速、催结束与倒计时/漫长计分",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-a78ff8eeee",
+      "name": "干拔美如画",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 4
+      },
+      "reason": "小腿与鞋的定格奖杯，表现漂亮出手构图；不主张旧最美小腿奖真实存在",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-daee11ced7",
+      "name": "东单小陀螺",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 0
+      },
+      "reason": "完整旋风围绕篮球，直接表现旋转入场",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-521aede329",
+      "name": "日落东单",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 2
+      },
+      "reason": "球场、指挥喇叭与路线，表现主场开场/教练指挥示范",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-95b3b37896",
+      "name": "主教练正在热身",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 2
+      },
+      "reason": "球场、指挥喇叭与路线，表现主场开场/教练指挥示范",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-ce5ceb7b17",
+      "name": "战术板自己打",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 2
+      },
+      "reason": "球场、指挥喇叭与路线，表现主场开场/教练指挥示范",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-17d8a5790e",
+      "name": "亚罚山大",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 10
+      },
+      "reason": "罚球场地上方的哨子，直接表现连续哨声与罚球工位",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-560eaf47cf",
+      "name": "节奏急刹",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 1
+      },
+      "reason": "双向路径与球鞋脚步，表现双手轮接/先后节奏/急停",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-0abe825cce",
+      "name": "单场100分",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 14
+      },
+      "reason": "纪录簿和金色荣誉；分别表示排名记录/第三位数字/新开页，老1.5待专用半层领奖台",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-dc81bdbbe1",
+      "name": "纪录簿不够用",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 14
+      },
+      "reason": "纪录簿和金色荣誉；分别表示排名记录/第三位数字/新开页，老1.5待专用半层领奖台",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-b47675dcad",
+      "name": "格林公式",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 1
+      },
+      "reason": "王冠和战术笔记；指向国王点名/记仇本/公式白板，格林待V14专用白板覆盖",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 13
+      }
+    },
+    {
+      "id": "v14-perk-c6e947ee9c",
+      "name": "战争践踏",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 5
+      },
+      "reason": "哨子与护膝，对应找哨膝盖特写；战争践踏将在V14改为灯光踏板，不画踩人",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 14
+      }
+    },
+    {
+      "id": "v14-perk-050630ef00",
+      "name": "播客开麦",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 4
+      },
+      "reason": "麦克风与长卷清单，表现超量待办、长篇回顾和播客录制",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-a615ad1a62",
+      "name": "八角笼见",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 3
+      },
+      "reason": "规则工具箱表现赛制确认，八角笼待V14专图，不伪装成汉堡",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 15
+      }
+    },
+    {
+      "id": "v14-perk-fd88956cdc",
+      "name": "百分大战",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 5
+      },
+      "reason": "高速运动与计时器，直接表现竞速、催结束与倒计时/漫长计分",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-12101bac64",
+      "name": "这回按哪套规则",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 3
+      },
+      "reason": "规则工具箱表现赛制确认，八角笼待V14专图，不伪装成汉堡",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-0de6fe1728",
+      "name": "东方弗洛伊德",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 14
+      },
+      "reason": "计算与讲台符号；东方弗洛伊德待V14理论书专图",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 6
+      }
+    },
+    {
+      "id": "v14-perk-b9006bdbd6",
+      "name": "3D鉴定",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 7
+      },
+      "reason": "放大镜和标签指向鉴定/分类审视；V14扫描器/手机/座机专图将覆盖",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 7
+      }
+    },
+    {
+      "id": "v14-perk-a022677397",
+      "name": "苹果安卓相对论",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 7
+      },
+      "reason": "放大镜和标签指向鉴定/分类审视；V14扫描器/手机/座机专图将覆盖",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 3
+      }
+    },
+    {
+      "id": "v14-perk-8a1924ecf6",
+      "name": "你什么手机",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 7
+      },
+      "reason": "放大镜和标签指向鉴定/分类审视；V14扫描器/手机/座机专图将覆盖",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 4
+      }
+    },
+    {
+      "id": "v14-perk-f737721bca",
+      "name": "全球购买力",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 14
+      },
+      "reason": "计算与讲台符号；东方弗洛伊德待V14理论书专图",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 5
+      }
+    },
+    {
+      "id": "v14-perk-eaa5eafa78",
+      "name": "好果汁",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 3
+      },
+      "reason": "一排饮料瓶，表现喝水/狠话变饮料的补给物件",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-be0b94277f",
+      "name": "东北往事",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 6
+      },
+      "reason": "地图与交通路线，表现街口出发、补给路径、出征及行程",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-8564d74736",
+      "name": "沈阳大街",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 6
+      },
+      "reason": "地图与交通路线，表现街口出发、补给路径、出征及行程",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-888c1e7611",
+      "name": "整点狠活",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 10
+      },
+      "reason": "手机、摄影和场记板，表现屏幕检查、倒放、纸板拍摄与头像出镜",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-9ad6820ddd",
+      "name": "儒雅随和",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 2
+      },
+      "reason": "讲台与大段对话气泡，表现连贯发言、字幕与问题堆积",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-765273e2e1",
+      "name": "带带大师兄",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 2
+      },
+      "reason": "讲台与大段对话气泡，表现连贯发言、字幕与问题堆积",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-f6b9edbcdb",
+      "name": "念诗之王",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 9
+      },
+      "reason": "麦克风与彩色声浪，直接表现朗读/洗脑节奏/音乐家务",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-6c3a1d8b8d",
+      "name": "水槽入场",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 11
+      },
+      "reason": "淋浴、水流和温度计；对应水具与升温/离场洗脸情境",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-47107c288f",
+      "name": "防弹玻璃翻车",
+      "classicSprite": {
+        "sheet": 3,
+        "cell": 6
+      },
+      "reason": "明确破裂玻璃，分别表现篮板工程验收/展示玻璃裂纹",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-37d95e34e8",
+      "name": "买得越多省得越多",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 14
+      },
+      "reason": "计算与讲台符号；东方弗洛伊德待V14理论书专图",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 5
+      }
+    },
+    {
+      "id": "v14-perk-68681045a9",
+      "name": "皮衣战甲",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 5
+      },
+      "reason": "黑皮衣和显卡芯片，直接表现皮衣口袋与厨房发布设备",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-e5eb051d3e",
+      "name": "厨房掏显卡",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 5
+      },
+      "reason": "黑皮衣和显卡芯片，直接表现皮衣口袋与厨房发布设备",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-2b7b6d60da",
+      "name": "赢麻了",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 2
+      },
+      "reason": "冠军杯与旗帜，直接表现所有结局都先获胜演讲",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-24b908d3c7",
+      "name": "手风琴演说",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 14
+      },
+      "reason": "台下双手和演出舞台，表现起立/扩张手势；V14起立椅子将覆盖",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-0ce22e857c",
+      "name": "魔性舞步",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 8
+      },
+      "reason": "带耳机的动态舞者，表现冲向镜头和鬼畜入场/跳舞",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "personal-leijun",
+      "name": "Are You OK",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 9
+      },
+      "reason": "麦克风与彩色声浪，直接表现朗读/洗脑节奏/音乐家务",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-839d9bdada",
+      "name": "连夜说服高管",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 15
+      },
+      "reason": "多人通讯与击掌，表现高管会面/交友砍价流程",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-a2f30f57d9",
+      "name": "交个朋友",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 15
+      },
+      "reason": "多人通讯与击掌，表现高管会面/交友砍价流程",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-ec0ae4e1ec",
+      "name": "真还传",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 5
+      },
+      "reason": "背包与金币清单，表现架空偿还进度与随身欠款小物件",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-b04876631f",
+      "name": "工匠精神",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 9
+      },
+      "reason": "相机与产品特写，表现普通物品电影级展示，不暗示别的真实履历",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-adc41b239c",
+      "name": "大专人大专魂",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 1
+      },
+      "reason": "成叠学士帽，表现学历梗；V14将分别覆盖帽子和逆向阶梯",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 0
+      }
+    },
+    {
+      "id": "v14-perk-01a95d9ee0",
+      "name": "本升专",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 1
+      },
+      "reason": "成叠学士帽，表现学历梗；V14将分别覆盖帽子和逆向阶梯",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 1
+      }
+    },
+    {
+      "id": "v14-perk-81831332cf",
+      "name": "吃饱喝足",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 9
+      },
+      "reason": "饭碗、睡意与安静话筒，直接表现饭后犯困",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-5d2c2aba5e",
+      "name": "兄弟们又要到饭了",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 8
+      },
+      "reason": "打开的餐盒与城市补给点，对应探索后展示加餐",
+      "reviewedBy": "atlas_visual_inspection",
+      "proposedSprite": {
+        "sheet": 5,
+        "cell": 2
+      }
+    },
+    {
+      "id": "v14-perk-4c1bc2fad3",
+      "name": "北美打野王",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 6
+      },
+      "reason": "地图与交通路线，表现街口出发、补给路径、出征及行程",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-a85a29963b",
+      "name": "您配吗",
+      "classicSprite": {
+        "sheet": 1,
+        "cell": 6
+      },
+      "reason": "暂停/续局屏幕，表现不结束的对局与停在原处的交锋",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v11-yaoshuige-1",
+      "name": "对视艺术",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 10
+      },
+      "reason": "双眼与进度条，表现正面对决/凝视等待；网瘾卡侧重对手休息眼睛",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-a6d9677e4c",
+      "name": "带派不老铁",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 0
+      },
+      "reason": "锅铲与炒锅，直接表现夜宵点单/上菜",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-db76e9621c",
+      "name": "老蒯呢",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 4
+      },
+      "reason": "麦克风与旅行联络，表现呼名寻找/临时叫人干活",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-d548b9747b",
+      "name": "大东北小曲",
+      "classicSprite": {
+        "sheet": 0,
+        "cell": 9
+      },
+      "reason": "麦克风与彩色声浪，直接表现朗读/洗脑节奏/音乐家务",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-c10897c383",
+      "name": "遥遥领先",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 4
+      },
+      "reason": "大字屏幕与话筒，表现数字背景墙/发布字幕/超宽进度展示",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-8d293cb21c",
+      "name": "那四个字不能说",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 4
+      },
+      "reason": "大字屏幕与话筒，表现数字背景墙/发布字幕/超宽进度展示",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-f4f4b02008",
+      "name": "轻舟已过万重山",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 6
+      },
+      "reason": "地图与交通路线，表现街口出发、补给路径、出征及行程",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-f7f7d2f55b",
+      "name": "金角银角",
+      "classicSprite": {
+        "sheet": 4,
+        "cell": 6
+      },
+      "reason": "双椅及对话气泡，指向人数、结伴、双人对谈；共享卡沿用同一图",
+      "reviewedBy": "atlas_visual_inspection"
+    },
+    {
+      "id": "v14-perk-da31e8ca0e",
+      "name": "双角出征",
+      "classicSprite": {
+        "sheet": 2,
+        "cell": 6
+      },
+      "reason": "地图与交通路线，表现街口出发、补给路径、出征及行程",
+      "reviewedBy": "atlas_visual_inspection"
+    }
+  ]
+}

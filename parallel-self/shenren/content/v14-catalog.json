@@ -1,0 +1,4633 @@
+{
+  "schemaVersion": 13,
+  "releaseVersion": 14,
+  "spec": "docs/v14-user-spec.md",
+  "counts": {
+    "people": 58,
+    "representativeCards": 137,
+    "representativeAssociations": 143,
+    "sharedCards": 6,
+    "candidateCards": 26
+  },
+  "people": [
+    {
+      "personId": "uzi",
+      "displayName": "Uzi／污渍",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-a4a507cf72",
+        "v14-perk-99ba1d5df4"
+      ],
+      "representativeCardNames": [
+        "红温",
+        "洗澡局"
+      ],
+      "storyOutline": "网吧五连坐，四个人把最好的机器留给你。第一局输掉，你说去洗把脸；回来全队已为你换了风扇，屏幕上却仍是“准备好了吗”。"
+    },
+    {
+      "personId": "xiaohu",
+      "displayName": "小虎／销户",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-13b73367be",
+        "double-laugh",
+        "v14-perk-2d648bfece"
+      ],
+      "representativeCardNames": [
+        "春之虎帝",
+        "二段笑",
+        "一虎之力"
+      ],
+      "storyOutline": "开黑定在冬夜，你先把空调调成春天。对局输了也没关系，你把战绩表改成天气预报；队友追问单位，二段笑抢先接管语音。"
+    },
+    {
+      "personId": "dasima",
+      "displayName": "大司马",
+      "theme": "lol",
+      "representativeCardIds": [
+        "not-a-loss",
+        "v14-perk-20af99aa19",
+        "v14-perk-16ecd7e758"
+      ],
+      "representativeCardNames": [
+        "这波不亏",
+        "正方形打野",
+        "肉蛋葱鸡"
+      ],
+      "storyOutline": "你在网吧讲一套稳赚路线，先绕四台机器取水、拿烟灰缸、找耳机、取夜宵。战局已经结束，你举起炒饭宣布这趟没白来。"
+    },
+    {
+      "personId": "theshy",
+      "displayName": "TheShy／Shy",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-da0df48172",
+        "v14-perk-eb999d5a32",
+        "v14-perk-dbfb1aaaab"
+      ],
+      "representativeCardNames": [
+        "别吃！",
+        "就两个人？",
+        "长手打短手"
+      ],
+      "storyOutline": "大家约好佛系娱乐，你先把零食区划成个人领地。两名队友来谈判，你嫌人少；等四个人全围过来，才看清你坐在唯一的插线板上。"
+    },
+    {
+      "personId": "faker",
+      "displayName": "Faker／飞科",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-f18f95136a",
+        "v11-faker-3",
+        "v14-perk-4c6c0882c1"
+      ],
+      "representativeCardNames": [
+        "不死大魔王",
+        "切屏狂魔",
+        "吨吨吨"
+      ],
+      "storyOutline": "网吧决胜局全员吵成一团，你切屏看完每个人的失误，慢慢拿起水杯。队友以为要听到最终战术，你只是示意让挡住饮水机的人让一让。"
+    },
+    {
+      "personId": "clearlove",
+      "displayName": "厂长／七酱",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-3d7f6d2902",
+        "v14-perk-947b79cc2b",
+        "v14-perk-216123af1a"
+      ],
+      "representativeCardNames": [
+        "你的野区我养猪",
+        "4396",
+        "七酱"
+      ],
+      "storyOutline": "你把开黑说成了资源经营，连夜宵都叫饲料。对手没来，队友先把你的农场吃空；复盘时大家不谈谁背锅，只问4396包间能不能续费。"
+    },
+    {
+      "personId": "jackeylove",
+      "displayName": "JackeyLove／阿水／哥哥",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-66251b73b0",
+        "v11-jackeylove-1"
+      ],
+      "representativeCardNames": [
+        "接Q辣舞",
+        "向前闪现"
+      ],
+      "storyOutline": "你说今晚玩稳一点，却把椅子直接闪到最前排。第一波失误大家还没开口，你先接完全部锅；第二波又问了一句“这波能不能上”。"
+    },
+    {
+      "personId": "doinb",
+      "displayName": "Doinb／金咕咕",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-c2bb0083fc",
+        "v14-perk-a123f0b929",
+        "v14-perk-e5bf0106ba"
+      ],
+      "representativeCardNames": [
+        "玛雅文明",
+        "金咕咕",
+        "四包二"
+      ],
+      "storyOutline": "本来只是有人下楼取两杯奶茶，你把任务讲成全队联动。四人同时下楼，一人留在电脑前听你继续报点；人齐了，奶茶反而忘拿。"
+    },
+    {
+      "personId": "pdd",
+      "displayName": "PDD／骚猪",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-10f0e8c6bd",
+        "v14-perk-cca62d3bad",
+        "v14-perk-f95d3af3c2"
+      ],
+      "representativeCardNames": [
+        "反向抽烟",
+        "最骚骚猪",
+        "小轩在不在"
+      ],
+      "storyOutline": "你准备匿名混进朋友的语音，先把变声器调得很甜。第一句还没说完就笑出原声，片头音乐开始循环；你把露馅解释成一次节目预热。"
+    },
+    {
+      "personId": "ming",
+      "displayName": "小明／史森明",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-1246fd0b3d",
+        "v14-perk-1febbcbaff"
+      ],
+      "representativeCardNames": [
+        "森明帮",
+        "变羊售后"
+      ],
+      "storyOutline": "你把熟人全拉进开黑群，五个位置排出了十几名候补。每当队友起身说“我去理论一下”，人就变成小羊坐回椅子；群公告最后写着“本帮不负责抢座”。"
+    },
+    {
+      "personId": "ning",
+      "displayName": "宁王",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-444cb7c123",
+        "v14-perk-ea1b878e8b"
+      ],
+      "representativeCardNames": [
+        "你什么冠军",
+        "宁王竞速"
+      ],
+      "storyOutline": "有人质疑你今晚的状态，你直接问他什么冠军。店长拿出营业执照后，你决定用取餐竞速挽回场面；冲到窗口才想起自己没下单。"
+    },
+    {
+      "personId": "baolan",
+      "displayName": "宝蓝",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-fa6428887e",
+        "v14-perk-1a3ff9c793"
+      ],
+      "representativeCardNames": [
+        "AD身后有我",
+        "蓝公主"
+      ],
+      "storyOutline": "你负责保着核心去领奖，核心负责请你先走。两人礼让到颁奖结束，最后在后台把合照站位讨论成了一场决赛。"
+    },
+    {
+      "personId": "luobenwei",
+      "displayName": "卢本伟",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-f494e35187",
+        "v14-perk-306ca19d3a",
+        "v11-luobenwei-3"
+      ],
+      "representativeCardNames": [
+        "十七张牌",
+        "卡布奇诺",
+        "全体起立"
+      ],
+      "storyOutline": "朋友说玩个不用动脑的小纸牌游戏，你看一眼手牌便开始点咖啡。对方还没出完，你已经让大家起立；最后全场站着看你继续解释。"
+    },
+    {
+      "personId": "xiaoxiao",
+      "displayName": "笑笑",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v11-xiaoxiao-1",
+        "v14-perk-b679c412a5"
+      ],
+      "representativeCardNames": [
+        "琴女空大",
+        "抗韩中年人"
+      ],
+      "storyOutline": "你和西卡录一段严肃教学，刚开讲便放出一次空大。你准备解释，西卡已切到陈年回放；整段片子没有学会操作，但片尾字幕有两套。"
+    },
+    {
+      "personId": "xika",
+      "displayName": "西卡",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-cf6a39bb44",
+        "v14-perk-b679c412a5"
+      ],
+      "representativeCardNames": [
+        "镇江植物园",
+        "抗韩中年人"
+      ],
+      "storyOutline": "你负责搭阵容，挑完一圈全是植物；笑笑负责讲解，开口便想起旧事。比赛还没开，直播标题已经从上分教学变成了园艺相声。"
+    },
+    {
+      "personId": "rookie",
+      "displayName": "Rookie／肉鸡",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-6b88ab2c28",
+        "v14-perk-3d7e2cf333",
+        "v14-perk-c5202e23d6"
+      ],
+      "representativeCardNames": [
+        "尽力了",
+        "先天院长",
+        "快推啊"
+      ],
+      "storyOutline": "五个人约好轻松娱乐，四个人轮流呼叫院长。你忙到夜宵快关门，Kid突然大喊快推；终于打完后，你还得挨个确认谁要加辣。"
+    },
+    {
+      "personId": "otto",
+      "displayName": "电棍／otto",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-8eaad95ef1",
+        "v14-perk-b3f4e3e976",
+        "v14-perk-a0c746ddd5"
+      ],
+      "representativeCardNames": [
+        "稳健中带点放肆",
+        "营养这块怎么补",
+        "吉吉国王"
+      ],
+      "storyOutline": "你先宣布今晚以稳健为主，随后因外卖少一个盒子与全场对线。电话挂断，队友把你的每一句话剪成快捷音效；国王发言被国民原声循环盖住。"
+    },
+    {
+      "personId": "zztai",
+      "displayName": "姿态",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-b81c2f2d99",
+        "v14-perk-4cf05d6466",
+        "v14-perk-f15cd16e44"
+      ],
+      "representativeCardNames": [
+        "京城贵妇",
+        "严君泽想你了",
+        "他是我的替补"
+      ],
+      "storyOutline": "你把解说间布置成精致会客厅，打完一局却急着给老队友打电话。刚强调完谁是谁的替补，队友就把键盘递过去：那正好，请他替一下。"
+    },
+    {
+      "personId": "vincent",
+      "displayName": "文森特",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-75bbfc19cb",
+        "v14-perk-49e8b9be37"
+      ],
+      "representativeCardNames": [
+        "戒网瘾",
+        "双斧开工"
+      ],
+      "storyOutline": "你答应带朋友体验一把轻松局，开场就把对方体验成了下机教学。大家正要庆祝，网管要求你先解释：为什么这排机器还没到钟就空了。"
+    },
+    {
+      "personId": "kid",
+      "displayName": "Kid／小孩游神",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-ac3e7b007d",
+        "v14-perk-efe13ba4e4",
+        "v14-perk-c5202e23d6"
+      ],
+      "representativeCardNames": [
+        "443",
+        "一厘米摸眼",
+        "快推啊"
+      ],
+      "storyOutline": "你说今晚给大家看一个极限操作，镜头却只能看到椅子轻轻挪了一厘米。Rookie正在替全队收尾，你一边催快推，一边把回放放大到看不见地图。"
+    },
+    {
+      "personId": "wangsicong",
+      "displayName": "王思聪",
+      "theme": "lol",
+      "representativeCardIds": [
+        "v14-perk-b80a2f5b9d",
+        "v14-perk-2519c210de"
+      ],
+      "representativeCardNames": [
+        "吃热狗",
+        "百分百胜率AD"
+      ],
+      "storyOutline": "大家请你再打一局，你先拿出胜率报告拒绝新增样本。舞台镜头追着你切，等来的却不是复出宣言，而是一份认真到不能打断的热狗品鉴。"
+    },
+    {
+      "personId": "lebron",
+      "displayName": "詹姆斯",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-7a46ef361c",
+        "v14-perk-adab162b78"
+      ],
+      "representativeCardNames": [
+        "把天赋带到……",
+        "这球没哨？"
+      ],
+      "storyOutline": "小区球赛临时换边，你郑重宣布把天赋带到对面半场。最后一球没等来哨声，队友端出相机申诉；镜头里却只有你赛前拍了二十分钟的决定发布会。"
+    },
+    {
+      "personId": "curry",
+      "displayName": "库里",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-7a559daaf6",
+        "v14-perk-4c28ae7aa6",
+        "v14-perk-c5adcbaab5"
+      ],
+      "representativeCardNames": [
+        "小学生",
+        "晚安",
+        "超远三分"
+      ],
+      "storyOutline": "你带着水壶来到社区赛，报名处把你分进家长陪同区。你在场外试投命中，做完晚安手势，场馆真把灯关了；决胜球只能借对手手机的手电筒完成。"
+    },
+    {
+      "personId": "jordan",
+      "displayName": "乔丹",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-1c49c20391",
+        "v14-perk-b245730508"
+      ],
+      "representativeCardNames": [
+        "这事我记下了",
+        "最后一投"
+      ],
+      "storyOutline": "友谊赛对面夸你鞋不错，你怀疑他是在挑战你。比赛早已结束，你仍给每个随口评论安排一球；工作人员最后只能把“闭馆”也写进你的恩怨本。"
+    },
+    {
+      "personId": "kobe",
+      "displayName": "科比",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-6c6f231aff",
+        "v14-perk-c7d2103b14"
+      ],
+      "representativeCardNames": [
+        "凌晨四点",
+        "后仰美如画"
+      ],
+      "storyOutline": "你四点到球馆，先把锁着的大门练成背景板。终于开场，每次后仰都有人暂停录像；最后球没记住进了几个，手机里已经存了九宫格。"
+    },
+    {
+      "personId": "durant",
+      "displayName": "杜兰特",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-ffa15049ea",
+        "v14-perk-63f59ebc75",
+        "v14-perk-934ad7ffd6"
+      ],
+      "representativeCardNames": [
+        "小帅",
+        "打不过就加入",
+        "小号自评"
+      ],
+      "storyOutline": "社区赛你发现对面传球太舒服，想申请体验一下。赛后群里出现一条“小帅其实打得不错”的匿名评价，头像却仍是刚拍的赛场自拍。"
+    },
+    {
+      "personId": "harden",
+      "displayName": "哈登",
+      "theme": "basket",
+      "representativeCardIds": [
+        "stepback-route",
+        "v14-perk-179e366c6f"
+      ],
+      "representativeCardNames": [
+        "后撤步",
+        "电动车也有哨"
+      ],
+      "storyOutline": "你想用最松弛的方式参加街球活动，骑着小电驴出发。进场后一个后撤步离镜头太远，摄影师催你向前；你刚靠近又听见哨，第一反应是寻找罚球线。"
+    },
+    {
+      "personId": "yaoming",
+      "displayName": "姚明",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-4b09e693d7",
+        "v14-perk-1385c8763d"
+      ],
+      "representativeCardNames": [
+        "姚式笑容",
+        "姚鲨互怼"
+      ],
+      "storyOutline": "你来为社区球场剪彩，主持人想让所有人挤进一张自拍。大家越挤越只拍到肩膀，奥尼尔在旁边补一句玩笑，你一笑，整场活动的海报素材就有了。"
+    },
+    {
+      "personId": "shaq",
+      "displayName": "奥尼尔",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-66e5ed669c",
+        "v14-perk-bd185383b6"
+      ],
+      "representativeCardNames": [
+        "扣碎篮板",
+        "五大囧"
+      ],
+      "storyOutline": "你被邀请主持趣味篮球晚会，先扣一球把舞台装置震进维修流程。等待修好时放起五大囧，第一段正是你刚才的试扣；你决定以主持身份点评自己。"
+    },
+    {
+      "personId": "doncic",
+      "displayName": "东契奇",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v13-doncic-1",
+        "v14-perk-d762dcdce2"
+      ],
+      "representativeCardNames": [
+        "汉堡王",
+        "你先跳我再投"
+      ],
+      "storyOutline": "社区快节奏比赛限时进攻，你却像慢放一样打完每个动作。暂停时队友追问战术，你指着五层汉堡讲空间；对手急得先跳了，你这时才抬手。"
+    },
+    {
+      "personId": "rodman",
+      "displayName": "罗德曼",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-a0704418b6",
+        "v14-perk-4928afba1c"
+      ],
+      "representativeCardNames": [
+        "大虫抢板",
+        "花大虫"
+      ],
+      "storyOutline": "你报名低分也能赢的挑战，整场专注抢所有弹出来的东西。中途换个发色回来，记分员以为你是新人；统计合并时，得分没变，篮板表超出了纸边。"
+    },
+    {
+      "personId": "xujingyu",
+      "displayName": "徐静雨",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-cfc3b2e85c",
+        "v14-perk-1c477c25ac",
+        "v14-perk-71b1bea6eb"
+      ],
+      "representativeCardNames": [
+        "立棍单打",
+        "老1.5",
+        "蹲坑中锋"
+      ],
+      "storyOutline": "小区球赛请你当解说，你把五分钟热身讲成了一部球员分类史。颁奖前发现没人接受1.5名，你决定现场加赛，选出“最能解释自己排名的人”。"
+    },
+    {
+      "personId": "yangyi",
+      "displayName": "杨毅",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-f1ebf0c2e2",
+        "v14-perk-650f8520f9"
+      ],
+      "representativeCardNames": [
+        "有球必应",
+        "杨侃开讲"
+      ],
+      "storyOutline": "社区球赛只租了半小时音响，你被请来做五分钟开场。讲到第一段历史，老板已把麦克风按小时计费；观众最后票选的不是MVP，而是谁能成功插进一句话。"
+    },
+    {
+      "personId": "zhouqi",
+      "displayName": "周琦",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-6d35973cd0",
+        "v14-perk-9ecefe1f08"
+      ],
+      "representativeCardNames": [
+        "鸡蛋灌饼",
+        "边线球"
+      ],
+      "storyOutline": "趣味赛要求最后一球由你发出，大家为防出错做了完整签收流程。你刚问谁是收件人，对手抢先按下确认；赛后补给照常到，灌饼上的名字却又写错了。"
+    },
+    {
+      "personId": "tmac",
+      "displayName": "麦迪",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-69e8e8badd",
+        "v14-perk-a78ff8eeee"
+      ],
+      "representativeCardNames": [
+        "35秒13分",
+        "干拔美如画"
+      ],
+      "storyOutline": "社区赛准备关灯，你表示还剩35秒足够。工作人员电闸拉到一半又推回去；等你终于投完，所有人都在问自己刚才为什么要提前收包。"
+    },
+    {
+      "personId": "wuyou",
+      "displayName": "吴悠",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-daee11ced7",
+        "v14-perk-521aede329"
+      ],
+      "representativeCardNames": [
+        "东单小陀螺",
+        "日落东单"
+      ],
+      "storyOutline": "你要给第一次来东单的朋友拍一条街球高光。一个转身把摄影师也晃走，成片只有夕阳和慢慢过马路的大爷；现场观众一致认为这条特别有生活气息。"
+    },
+    {
+      "personId": "xire",
+      "displayName": "西热力江",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-95b3b37896",
+        "v14-perk-ce5ceb7b17"
+      ],
+      "representativeCardNames": [
+        "主教练正在热身",
+        "战术板自己打"
+      ],
+      "storyOutline": "你作为教练安排社区赛战术，解释三遍发现大家只会点头。于是直接上场示范，替补席只剩一个还在拿战术板追着你问“下一步呢”的助教。"
+    },
+    {
+      "personId": "shai",
+      "displayName": "亚历山大／SGA",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-17d8a5790e",
+        "v14-perk-560eaf47cf"
+      ],
+      "representativeCardNames": [
+        "亚罚山大",
+        "节奏急刹"
+      ],
+      "storyOutline": "社区比赛配了一个很严肃的裁判，你每次停顿都让场上多一声哨。观众以为进入中场休息，转头发现你还在同一条线上办业务；最后摄影师先申请换人。"
+    },
+    {
+      "personId": "wilt",
+      "displayName": "张伯伦",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-0abe825cce",
+        "v14-perk-dc81bdbbe1"
+      ],
+      "representativeCardNames": [
+        "单场100分",
+        "纪录簿不够用"
+      ],
+      "storyOutline": "你参加怀旧篮球表演赛，工作人员为了省钱只租了两位数记分牌。得分逼近上限后，全场最紧张的变成器材组；颁奖时奖状背面写满了临时加页的申请。"
+    },
+    {
+      "personId": "draymond-green",
+      "displayName": "德雷蒙德·格林／追梦／Draymond Green",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-b47675dcad",
+        "v14-perk-c6e947ee9c",
+        "v14-perk-050630ef00"
+      ],
+      "representativeCardNames": [
+        "格林公式",
+        "战争践踏",
+        "播客开麦"
+      ],
+      "storyOutline": "社区赛你先与新队友论资历，再把气势演成灯光事故。坐到场边后立刻录播客，裁判和新队友轮流被邀请作嘉宾；比分还没公布，节目已经预告下一期。"
+    },
+    {
+      "personId": "ershu",
+      "displayName": "恶鼠／张梓祎",
+      "theme": "basket",
+      "representativeCardIds": [
+        "v14-perk-a615ad1a62",
+        "v14-perk-fd88956cdc",
+        "v14-perk-12101bac64"
+      ],
+      "representativeCardNames": [
+        "八角笼见",
+        "百分大战",
+        "这回按哪套规则"
+      ],
+      "storyOutline": "你带朋友参加挑战赛，报名表同时写着比分与回合数。先做入场仪式或先打百分局，会让后续分别变成规则说明会或摄影设备续航测试；最终只想再约一场普通篮球。"
+    },
+    {
+      "personId": "fengge",
+      "displayName": "峰哥亡命天涯",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "v14-perk-0de6fe1728",
+        "v14-perk-b9006bdbd6"
+      ],
+      "representativeCardNames": [
+        "东方弗洛伊德",
+        "3D鉴定"
+      ],
+      "storyOutline": "街头采访有人问晚饭吃什么，你把它解释成一次精神需求的投射。户子递来手机要你先分苹果安卓，你反问他为什么需要分类；鉴定器转回你本人，两个分析体系同时申请重启。"
+    },
+    {
+      "personId": "huchenfeng",
+      "displayName": "户晨风／户子",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "v14-perk-a022677397",
+        "v14-perk-8a1924ecf6",
+        "v14-perk-f737721bca"
+      ],
+      "representativeCardNames": [
+        "苹果安卓相对论",
+        "你什么手机",
+        "全球购买力"
+      ],
+      "storyOutline": "你参加手机品牌不设限的开黑团建，却坚持先按机型排座。途中借手机叫车，身份判定跟着借来的苹果来回切换；结账时黄仁勋说买多省多，你只好把时薪计算器开成第二块屏幕。"
+    },
+    {
+      "personId": "huge",
+      "displayName": "东北虎哥",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "v14-perk-eaa5eafa78",
+        "v14-perk-be0b94277f",
+        "v14-perk-8564d74736"
+      ],
+      "representativeCardNames": [
+        "好果汁",
+        "东北往事",
+        "沈阳大街"
+      ],
+      "storyOutline": "你和刀哥要拍一支气势拉满的街头大片，开场连说几句狠话，饮料单已经够全剧组喝三天。准备拍最终对峙时，便利店老板催你们先把果汁箱搬走。"
+    },
+    {
+      "personId": "daoge",
+      "displayName": "东北刀哥",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "v14-perk-888c1e7611",
+        "v14-perk-eaa5eafa78",
+        "v14-perk-be0b94277f"
+      ],
+      "representativeCardNames": [
+        "整点狠活",
+        "好果汁",
+        "东北往事"
+      ],
+      "storyOutline": "虎哥负责出场，你负责让下一幕比上一幕更狠。预算全花在了片头，现场只剩一张纸板和一箱果汁；你决定把扶纸板拍成兄弟情义的高潮。"
+    },
+    {
+      "personId": "sunxiaochuan",
+      "displayName": "孙笑川",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "v14-perk-9ad6820ddd",
+        "v14-perk-765273e2e1",
+        "v14-perk-f6b9edbcdb"
+      ],
+      "representativeCardNames": [
+        "儒雅随和",
+        "带带大师兄",
+        "念诗之王"
+      ],
+      "storyOutline": "社区活动请你朗读文明公约，你先强调自己非常儒雅随和。话筒突然接进群聊音效，观众边听边给你颁带带大师兄奖；结尾的失物招领被剪成了整场最有气势的一段。"
+    },
+    {
+      "personId": "musk",
+      "displayName": "马斯克",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "v14-perk-6c3a1d8b8d",
+        "v14-perk-47107c288f"
+      ],
+      "representativeCardNames": [
+        "水槽入场",
+        "防弹玻璃翻车"
+      ],
+      "storyOutline": "你为公司团建做科技感开场，先搬水槽再介绍新车。道具测试提前翻车，只好宣布今天测试的是极端条件；司机问去哪，你把火星填进了打车软件备注。"
+    },
+    {
+      "personId": "jensen",
+      "displayName": "黄仁勋",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "v14-perk-37d95e34e8",
+        "v14-perk-68681045a9",
+        "v14-perk-e5eb051d3e"
+      ],
+      "representativeCardNames": [
+        "买得越多省得越多",
+        "皮衣战甲",
+        "厨房掏显卡"
+      ],
+      "storyOutline": "你被请来参加节约预算大会，开场便建议批量采购。财务越听越觉得这套数学不对；到了吃饭时间，你走进厨房，全场不是怕菜凉，是怕又有新品端出来。"
+    },
+    {
+      "personId": "trump",
+      "displayName": "川普／特朗普",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "v14-perk-2b7b6d60da",
+        "v14-perk-24b908d3c7",
+        "v14-perk-0ce22e857c"
+      ],
+      "representativeCardNames": [
+        "赢麻了",
+        "手风琴演说",
+        "魔性舞步"
+      ],
+      "storyOutline": "你参加一场纯虚构的社区主持人大赛，规则写着先公布结果再表演。你先跳舞再讲获奖感言，主持人终于挤进来宣布比赛还没开始；你称这是提前锁定气氛奖。"
+    },
+    {
+      "personId": "leijun",
+      "displayName": "雷军",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "personal-leijun",
+        "v14-perk-839d9bdada"
+      ],
+      "representativeCardNames": [
+        "Are You OK",
+        "连夜说服高管"
+      ],
+      "storyOutline": "你帮朋友推销一场小区跳蚤市场，暖场问候意外成了全场BGM。一个旧键盘价格谈不拢，你宣布连夜开会；第二天高管集体出现，原来都是昨晚没抢到座的摊主。"
+    },
+    {
+      "personId": "luoyonghao",
+      "displayName": "罗永浩",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "v14-perk-a2f30f57d9",
+        "v14-perk-ec0ae4e1ec",
+        "v14-perk-b04876631f"
+      ],
+      "representativeCardNames": [
+        "交个朋友",
+        "真还传",
+        "工匠精神"
+      ],
+      "storyOutline": "你负责给一张摇晃的旧桌子做义卖，先从工艺讲到手感，再与所有围观者交朋友。桌子终于卖掉，收款时跳出一笔共享充电宝费用，片尾出现真还传续集预告。"
+    },
+    {
+      "personId": "dailanzi",
+      "displayName": "带篮子",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "v14-perk-adc41b239c",
+        "v14-perk-01a95d9ee0",
+        "v14-perk-81831332cf"
+      ],
+      "representativeCardNames": [
+        "大专人大专魂",
+        "本升专",
+        "吃饱喝足"
+      ],
+      "storyOutline": "你穿学士服去参加网吧战队招新，路过名校交流会便临时讲起本升专。讲到全场围观，才发现队友在隔壁等了半小时；你打包两份盒饭进门，以吃饱喝足宣布这趟不亏。"
+    },
+    {
+      "personId": "us-lecturer",
+      "displayName": "美国讲师／丁胖子金牌讲师",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "v14-perk-5d2c2aba5e",
+        "v14-perk-4c1bc2fad3"
+      ],
+      "representativeCardNames": [
+        "兄弟们又要到饭了",
+        "北美打野王"
+      ],
+      "storyOutline": "你被分配去陌生城市探索隐藏任务，回来没有稀有道具，只有装满餐盒的背包。队友质疑没进度，你直接打开全城补给地图；副本没过，大家都决定明天继续跟你走。"
+    },
+    {
+      "personId": "yaoshuige",
+      "displayName": "药水哥",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "v14-perk-a85a29963b",
+        "v11-yaoshuige-1"
+      ],
+      "representativeCardNames": [
+        "您配吗",
+        "对视艺术"
+      ],
+      "storyOutline": "你被邀请参加一分钟即兴表演，先与主持人认真对视。有人问这也算艺术吗，你反问您配吗；一分钟节目变成全场最长的续集，字幕员申请直接复制粘贴。"
+    },
+    {
+      "personId": "yujie",
+      "displayName": "东北雨姐",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "v14-perk-a6d9677e4c",
+        "v14-perk-db76e9621c",
+        "v14-perk-d548b9747b"
+      ],
+      "representativeCardNames": [
+        "带派不老铁",
+        "老蒯呢",
+        "大东北小曲"
+      ],
+      "storyOutline": "你要在院里办一场四菜晚宴，动静先把隔壁村的摄影师吸引来了。老蒯听见叫名以为要开饭，入镜才领到切菜、搬桌、打灯三份工；客人到齐时全场先完成一段节奏整齐的备菜舞。"
+    },
+    {
+      "personId": "yuchengdong",
+      "displayName": "余承东",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "v14-perk-c10897c383",
+        "v14-perk-8d293cb21c",
+        "v14-perk-f4f4b02008"
+      ],
+      "representativeCardNames": [
+        "遥遥领先",
+        "那四个字不能说",
+        "轻舟已过万重山"
+      ],
+      "storyOutline": "你参加社区科技展，投影幕还没展开就宣布进度领先。户子要求先看手机，雷军开始压价，黄仁勋建议多买；你为了不说那四个字，用整场沉默等观众替你喊出来。"
+    },
+    {
+      "personId": "nida",
+      "displayName": "尼达",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "v14-perk-f7f7d2f55b",
+        "v14-perk-da31e8ca0e"
+      ],
+      "representativeCardNames": [
+        "金角银角",
+        "双角出征"
+      ],
+      "storyOutline": "双人短片开拍，你在本作剧情里负责宣布出征，伊利负责迟迟不出现。片头一遍遍重放，观众从期待变成跟着背字幕；真正出门后才发现目的地就在楼下。"
+    },
+    {
+      "personId": "yili",
+      "displayName": "伊利",
+      "theme": "abstract",
+      "representativeCardIds": [
+        "v14-perk-f7f7d2f55b",
+        "v14-perk-da31e8ca0e"
+      ],
+      "representativeCardNames": [
+        "金角银角",
+        "双角出征"
+      ],
+      "storyOutline": "本作剧情让你在盛大出征片头里负责接话，尼达每喊一遍你都慢半拍。等你终于接上，他已开始第二轮；两个人把一段十秒开场对成了连续剧，街口的店先关门了。"
+    }
+  ],
+  "representatives": [
+    {
+      "id": "v14-perk-a4a507cf72",
+      "name": "红温",
+      "theme": "lol",
+      "owners": [
+        "uzi"
+      ],
+      "effect": "连输或被抢最后一口夜宵时，头像先于机箱进入红色警报。下一次嘴硬自带全屏特写；越强调没急，风扇越响。",
+      "sourceMeme": "红温",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1We411F7xD/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-99ba1d5df4",
+      "name": "洗澡局",
+      "theme": "lol",
+      "owners": [
+        "uzi"
+      ],
+      "effect": "说出“我离开一下”即可跳过一轮争论。回来发现四个队友已把复盘会开成浴室装修方案，下一局仍然等你点开始。",
+      "sourceMeme": "洗澡局",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1mi4y187LS/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-13b73367be",
+      "name": "春之虎帝",
+      "theme": "lol",
+      "owners": [
+        "xiaohu"
+      ],
+      "effect": "把现场季节强行改成春天，连胜时背景自动开花。有人说“今天都七月了”，系统立刻弹出你的气象解释权。",
+      "sourceMeme": "春之虎帝",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Ft4y1s7Db/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "double-laugh",
+      "name": "二段笑",
+      "theme": "lol",
+      "owners": [
+        "xiaohu"
+      ],
+      "effect": "第一声让队友以为你想通了，第二声直接触发集体笑场。比赛录音失去战术，只剩层层加速的笑声。",
+      "sourceMeme": "二段笑",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1mn4y197W9/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "reusedFromV13": "double-laugh",
+      "selected": true
+    },
+    {
+      "id": "v14-perk-2d648bfece",
+      "name": "一虎之力",
+      "theme": "lol",
+      "owners": [
+        "xiaohu"
+      ],
+      "effect": "争论输出时自动召唤一把以“虎”为单位的尺子。你刚说单位不重要，收银台就问今晚网费结几虎。",
+      "sourceMeme": "一虎之力",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.18183.com/yxlmsy/202001/2593357.html",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "not-a-loss",
+      "name": "这波不亏",
+      "theme": "lol",
+      "owners": [
+        "dasima"
+      ],
+      "effect": "每次失误都能生成一份盈利解释。连跪时解释越写越长，最后战绩0胜，复盘PPT已上市。",
+      "sourceMeme": "这波不亏",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1ZVd8BnEeq/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "reusedFromV13": "not-a-loss",
+      "selected": true
+    },
+    {
+      "id": "v14-perk-20af99aa19",
+      "name": "正方形打野",
+      "theme": "lol",
+      "owners": [
+        "dasima"
+      ],
+      "effect": "行动路线被画成一个端正方形。走完四条边刚好回到原点，零食却被你沿路买齐了。",
+      "sourceMeme": "正方形打野",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1ZVd8BnEeq/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-16ecd7e758",
+      "name": "肉蛋葱鸡",
+      "theme": "lol",
+      "owners": [
+        "dasima"
+      ],
+      "effect": "一套操作自动变成夜宵点单。队友没看懂连招，老板先把饭炒好了；这次“起飞”指外卖骑手进门。",
+      "sourceMeme": "肉蛋葱鸡",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1XJ41167j1/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-da0df48172",
+      "name": "别吃！",
+      "theme": "lol",
+      "owners": [
+        "theshy"
+      ],
+      "effect": "把最后一口资源圈成禁区。队友伸筷子的瞬间，连外卖盒都弹出红色警戒线；你自己却又去抢隔壁那一口。",
+      "sourceMeme": "别吃！",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1n64y117tV/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-eb999d5a32",
+      "name": "就两个人？",
+      "theme": "lol",
+      "owners": [
+        "theshy"
+      ],
+      "effect": "面对来找你的人，危险提示自动改成“来得不够”。第三、第四人随后入场，镜头才发现他们只是来搬你挡住门的椅子。",
+      "sourceMeme": "就两个人？",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1QsbV6eE56/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV18r396NEZH/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-dbfb1aaaab",
+      "name": "长手打短手",
+      "theme": "lol",
+      "owners": [
+        "theshy"
+      ],
+      "effect": "一米外的最后一块炸鸡也能被你夹走。反噬是桌上的盐、纸巾、账单都被推到你的长手负责区。",
+      "sourceMeme": "长手打短手",
+      "adaptation": "original",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "original_fan_creation",
+      "sources": [],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-f18f95136a",
+      "name": "不死大魔王",
+      "theme": "lol",
+      "owners": [
+        "faker"
+      ],
+      "effect": "对局输完仍能满血出现在“再来一局”按钮前。别人以为终于打败你，你只是把椅子往前推了一点。",
+      "sourceMeme": "不死大魔王",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1mfAdzcERv/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v11-faker-3",
+      "name": "切屏狂魔",
+      "theme": "lol",
+      "owners": [
+        "faker"
+      ],
+      "effect": "三秒看遍所有队友屏幕。侦察效果拉满，副作用是连别人开着的招聘页、外卖备注也一起看到了。",
+      "sourceMeme": "切屏狂魔",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1u4411E7T2/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "reusedFromV13": "v11-faker-3",
+      "selected": true
+    },
+    {
+      "id": "v14-perk-4c6c0882c1",
+      "name": "吨吨吨",
+      "theme": "lol",
+      "owners": [
+        "faker"
+      ],
+      "effect": "场面最吵时进入喝水特写，全场自动静音等你发言。你放下杯子只说“水没了”，所有人的豪言被卡在半空。",
+      "sourceMeme": "吨吨吨",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://k.sina.com.cn/article_5402373234_14201ac7202000t1hj.html",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.juksy.com/article/129341",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-3d7f6d2902",
+      "name": "你的野区我养猪",
+      "theme": "lol",
+      "owners": [
+        "clearlove"
+      ],
+      "effect": "敌方资源点自动挂上自家农场牌。正要收成时发现队友也来领饲料，战术频道变成养殖群。",
+      "sourceMeme": "你的野区我养猪",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/opus/192791701708882034",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-947b79cc2b",
+      "name": "4396",
+      "theme": "lol",
+      "owners": [
+        "clearlove"
+      ],
+      "effect": "一打开伤害面板，数字就变成专属背景墙。你试图关掉面板，队友却把它设成今晚包间号。",
+      "sourceMeme": "4396",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/opus/192791701708882034",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-216123af1a",
+      "name": "七酱",
+      "theme": "lol",
+      "owners": [
+        "clearlove"
+      ],
+      "effect": "任何编号都优先选7，七号机、七号位、七号套餐一路包圆。结账时老板提醒：包间实际上只有六个人。",
+      "sourceMeme": "七酱",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/opus/192791701708882034",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-66251b73b0",
+      "name": "接Q辣舞",
+      "theme": "lol",
+      "owners": [
+        "jackeylove"
+      ],
+      "effect": "沿途飞来的技能和甩来的锅都会自动吸向你。闪避教学录到最后，变成了全方位接收测试。",
+      "sourceMeme": "接Q辣舞",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Ju4y1x7yT/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1b94y1t76a/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v11-jackeylove-1",
+      "name": "向前闪现",
+      "theme": "lol",
+      "owners": [
+        "jackeylove"
+      ],
+      "effect": "犹豫时永远向前一步。帅起来直达高光镜头，翻车时比大家更早出现在复盘会第一排。",
+      "sourceMeme": "向前闪现",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://bbs.hupu.com/35059419.html",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "reusedFromV13": "v11-jackeylove-1",
+      "selected": true
+    },
+    {
+      "id": "v14-perk-c2bb0083fc",
+      "name": "玛雅文明",
+      "theme": "lol",
+      "owners": [
+        "doinb"
+      ],
+      "effect": "一句惊叹可连续盖出三座声浪金字塔。队友还没理解局势，语音转文字先达到篇幅上限。",
+      "sourceMeme": "玛雅文明",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1zcB7YSEzD/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-a123f0b929",
+      "name": "金咕咕",
+      "theme": "lol",
+      "owners": [
+        "doinb"
+      ],
+      "effect": "沉默三秒就自动补一段高密度报点。队友只回一个“嗯”，系统却已生成十二条待办。",
+      "sourceMeme": "金咕咕",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV15MuB69E6k/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-e5bf0106ba",
+      "name": "四包二",
+      "theme": "lol",
+      "owners": [
+        "doinb"
+      ],
+      "effect": "把四个朋友都叫去处理两个人的小事。外卖取餐也按包夹执行，最后只有老板留在原地等付款。",
+      "sourceMeme": "四包二",
+      "adaptation": "original",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "original_fan_creation",
+      "sources": [],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-10f0e8c6bd",
+      "name": "反向抽烟",
+      "theme": "lol",
+      "owners": [
+        "pdd"
+      ],
+      "effect": "耍帅镜头突然倒放，装杯成功条改成痛苦面具。全场都看到翻车，你坚持是摄像机拿反了。",
+      "sourceMeme": "反向抽烟",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Yb411u7sp/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1ax411J7Uw/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-cca62d3bad",
+      "name": "最骚骚猪",
+      "theme": "lol",
+      "owners": [
+        "pdd"
+      ],
+      "effect": "普通操作也能自带鬼畜出场，越想严肃介绍，背景节奏越起劲。对局还没开始，片头已循环三遍。",
+      "sourceMeme": "最骚骚猪",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.chinaz.com/game/lol/2016/0517/532160.shtml",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-f95d3af3c2",
+      "name": "小轩在不在",
+      "theme": "lol",
+      "owners": [
+        "pdd"
+      ],
+      "effect": "变声敲开一间语音房，成功隐藏本人声音。偏偏笑声使用原声，全房立刻完成身份验证。",
+      "sourceMeme": "小轩在不在",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.sohu.com/a/313727419_120099888",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-1246fd0b3d",
+      "name": "森明帮",
+      "theme": "lol",
+      "owners": [
+        "ming"
+      ],
+      "effect": "一发组队邀请，整排朋友自动入会。你想组五人局，帮派通讯录却先挤满了观众席。",
+      "sourceMeme": "森明帮",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.douyin.com/shipin/7322413421436291082",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://search.bilibili.com/all?keyword=%E6%A3%AE%E6%98%8E%E5%B8%AE%E5%86%85%E6%88%98",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-1febbcbaff",
+      "name": "变羊售后",
+      "theme": "lol",
+      "owners": [
+        "ming"
+      ],
+      "effect": "有人要冲动出门，先变成一只原地咩咩的羊。保护完成之后，语音里所有反对意见也跟着只剩“咩”。",
+      "sourceMeme": "变羊售后",
+      "adaptation": "original",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV117411Z7eA/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-444cb7c123",
+      "name": "你什么冠军",
+      "theme": "lol",
+      "owners": [
+        "ning"
+      ],
+      "effect": "争论快输时掏出冠军证件，话题立刻切换到资历审查。轮到网吧店长，他只回“我有营业执照”。",
+      "sourceMeme": "你什么冠军",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1wWXaYAEbd/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-ea1b878e8b",
+      "name": "宁王竞速",
+      "theme": "lol",
+      "owners": [
+        "ning"
+      ],
+      "effect": "连取餐都出现世界纪录计时器。为了省一秒抄近路，结果被未取号弹窗送回队尾。",
+      "sourceMeme": "宁王竞速",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/read/cv7459408",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-fa6428887e",
+      "name": "AD身后有我",
+      "theme": "lol",
+      "owners": [
+        "baolan"
+      ],
+      "effect": "队友向前走时你永远在身后提供保护。需要你先开门时，两个人却在门口互相做“你先请”的手势。",
+      "sourceMeme": "AD身后有我",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1dJ411U7q3/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-1a3ff9c793",
+      "name": "蓝公主",
+      "theme": "lol",
+      "owners": [
+        "baolan"
+      ],
+      "effect": "一坐下就自动铺好精致座位和出场灯。所有人准备完毕后，系统才发现谁也没带开团的门钥匙。",
+      "sourceMeme": "蓝公主",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1TJ411v7fN/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-f494e35187",
+      "name": "十七张牌",
+      "theme": "lol",
+      "owners": [
+        "luobenwei"
+      ],
+      "effect": "手牌越多越敢提前宣布胜利。对手刚出第一张，你的庆祝动画已经播放完，失败结算只好借用同一段掌声。",
+      "sourceMeme": "十七张牌",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Qx411p7QC/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-306ca19d3a",
+      "name": "卡布奇诺",
+      "theme": "lol",
+      "owners": [
+        "luobenwei"
+      ],
+      "effect": "翻车前自动送来一杯咖啡，给装杯加满仪式感。结算输掉的是面子，账单上还多一杯加浓。",
+      "sourceMeme": "卡布奇诺",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Rx411E72o/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v11-luobenwei-3",
+      "name": "全体起立",
+      "theme": "lol",
+      "owners": [
+        "luobenwei"
+      ],
+      "effect": "一句话让全场进入起立特写。你以为是为高光鼓掌，其实大家正在给取外卖的人让路。",
+      "sourceMeme": "全体起立",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Zx41137vg/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "reusedFromV13": "v11-luobenwei-3",
+      "selected": true
+    },
+    {
+      "id": "v11-xiaoxiao-1",
+      "name": "琴女空大",
+      "theme": "lol",
+      "owners": [
+        "xiaoxiao"
+      ],
+      "effect": "最关键的动作触发整齐的落空慢镜头。你打空了目标，却正好命中全场的笑点。",
+      "sourceMeme": "琴女空大",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1bs411i7AV/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "reusedFromV13": "v11-xiaoxiao-1",
+      "selected": true
+    },
+    {
+      "id": "v14-perk-b679c412a5",
+      "name": "抗韩中年人",
+      "theme": "lol",
+      "owners": [
+        "xiaoxiao",
+        "xika"
+      ],
+      "effect": "双人复盘进入老搭档模式，一人讲操作，一人把旧账补齐。战术暂停结束，往事才讲到第一集。",
+      "sourceMeme": "抗韩中年人",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Vs411r7Wc/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-cf6a39bb44",
+      "name": "镇江植物园",
+      "theme": "lol",
+      "owners": [
+        "xika"
+      ],
+      "effect": "把植物系阵容整成一座园区：别人介绍位置，你介绍树种。战术讨论最后变成“这盆该摆门口还是窗边”。",
+      "sourceMeme": "镇江植物园",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1GKRNY2Ekm/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-6b88ab2c28",
+      "name": "尽力了",
+      "theme": "lol",
+      "owners": [
+        "rookie"
+      ],
+      "effect": "每次结算自动递上一份超额工作单。别人还在查谁的锅，你已把全队漏掉的活补完，夜宵却凉了。",
+      "sourceMeme": "尽力了",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1XM4y1p7ns/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-3d7e2cf333",
+      "name": "先天院长",
+      "theme": "lol",
+      "owners": [
+        "rookie"
+      ],
+      "effect": "队友每出一个状况，桌面就多一张待处理单。你刚清完最后一张，新的“院长在吗”又从语音里弹出来。",
+      "sourceMeme": "先天院长",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1bLgWzdEVt/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-c5202e23d6",
+      "name": "快推啊",
+      "theme": "lol",
+      "owners": [
+        "rookie",
+        "kid"
+      ],
+      "effect": "倒计时突然响起，大家开始疯狂催结束。你以为要打最后一波，回头才发现夜宵店即将关门。",
+      "sourceMeme": "快推啊",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Uu411k7Va/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-8eaad95ef1",
+      "name": "稳健中带点放肆",
+      "theme": "lol",
+      "owners": [
+        "otto"
+      ],
+      "effect": "行动前先念一套稳健宣言。句子还没念完，人已冲到最前面；结算时你解释最后一步只是“不羁”。",
+      "sourceMeme": "稳健中带点放肆",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://search.bilibili.com/all?keyword=%E7%A8%B3%E5%81%A5%E6%A3%8D",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-b3f4e3e976",
+      "name": "营养这块怎么补",
+      "theme": "lol",
+      "owners": [
+        "otto"
+      ],
+      "effect": "夜宵少一项，就能启动跨部门补偿谈判。原本五分钟的吃饭，升级成关于韭菜盒子的圆桌论坛。",
+      "sourceMeme": "营养这块怎么补",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Pa4y1n7d8",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-a0c746ddd5",
+      "name": "吉吉国王",
+      "theme": "lol",
+      "owners": [
+        "otto"
+      ],
+      "effect": "一坐上椅子就开始点名国民。没人服从时自动换成鬼畜广播，最后全体只会用你的声音回答你。",
+      "sourceMeme": "吉吉国王",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1oX4y1u7dQ/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1QfbnzeEFZ/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-b81c2f2d99",
+      "name": "京城贵妇",
+      "theme": "lol",
+      "owners": [
+        "zztai"
+      ],
+      "effect": "开黑先完成一套精致入场流程。灯光、杯子、坐姿全部到位，战绩却选择走毛坯路线。",
+      "sourceMeme": "京城贵妇",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://lol.qq.com/news/detail_m.html?docid=11620648880460424374",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-4cf05d6466",
+      "name": "严君泽想你了",
+      "theme": "lol",
+      "owners": [
+        "zztai"
+      ],
+      "effect": "一遇到无法解释的场面，通讯录自动拨给老熟人。对方还没接，旁边人已经把你的话筒举到最大声。",
+      "sourceMeme": "严君泽想你了",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1J4411T7Y3/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-f15cd16e44",
+      "name": "他是我的替补",
+      "theme": "lol",
+      "owners": [
+        "zztai"
+      ],
+      "effect": "开口先强调前后辈关系。真正需要人救场时，座位牌却自动把“替补”翻成了“请他首发”。",
+      "sourceMeme": "他是我的替补",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1c64y197oU/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-75bbfc19cb",
+      "name": "戒网瘾",
+      "theme": "lol",
+      "owners": [
+        "vincent"
+      ],
+      "effect": "把对手的“再来一把”按钮打成“下机休息”。自己以为完成教学，网管却因对面提前退机少收一晚网费。",
+      "sourceMeme": "戒网瘾",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1jo4y1n71Q/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-49e8b9be37",
+      "name": "双斧开工",
+      "theme": "lol",
+      "owners": [
+        "vincent"
+      ],
+      "effect": "两只手同时接斧，也同时接下所有“帮我一下”。最后击杀没漏，外卖、充电器、账单也全接到了。",
+      "sourceMeme": "双斧开工",
+      "adaptation": "original",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/list/1430774824?bvid=BV1zN4y1Q7GW&oid=873355900",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-ac3e7b007d",
+      "name": "443",
+      "theme": "lol",
+      "owners": [
+        "kid"
+      ],
+      "effect": "每次展示战绩都会自动把443放大，其他数字缩成脚注。你想解释版本，队友却问这是不是机位密码。",
+      "sourceMeme": "443",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV16Ebb69EYB/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-efe13ba4e4",
+      "name": "一厘米摸眼",
+      "theme": "lol",
+      "owners": [
+        "kid"
+      ],
+      "effect": "位移距离缩成一厘米，但动作和配音仍按世界级救场规格播放。回放放大十次才看出你动了。",
+      "sourceMeme": "一厘米摸眼",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1ch7WzwEt8/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-b80a2f5b9d",
+      "name": "吃热狗",
+      "theme": "lol",
+      "owners": [
+        "wangsicong"
+      ],
+      "effect": "关键镜头永远切到你正在认真进食。全场等你的冠军感言，你先确认最后一口不会掉馅。",
+      "sourceMeme": "吃热狗",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV16b411F7mJ/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-2519c210de",
+      "name": "百分百胜率AD",
+      "theme": "lol",
+      "owners": [
+        "wangsicong"
+      ],
+      "effect": "只要不再新增对局，胜率就永远保持满格。队友点继续，你的按钮自动弹出“慎重破坏统计”。",
+      "sourceMeme": "百分百胜率AD",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1W4421Q7F5/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-7a46ef361c",
+      "name": "把天赋带到……",
+      "theme": "basket",
+      "owners": [
+        "lebron"
+      ],
+      "effect": "每次换队都强制召开一次决定发布会。你只是从东边球场换到西边球场，记者席却已摆满，球还留在旧场地。",
+      "sourceMeme": "把天赋带到……",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1THxez4EhM/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-adab162b78",
+      "name": "这球没哨？",
+      "theme": "basket",
+      "owners": [
+        "lebron"
+      ],
+      "effect": "争议回合立刻切到膝盖特写，身旁自动出现一位拿相机的队友。你刚想展示证据，相机先弹出“存储已满”。",
+      "sourceMeme": "这球没哨？",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://sports.sina.cn/nba/other/2024-01-29/detail-inafezcy3569213.d.html?vt=4",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-7a559daaf6",
+      "name": "小学生",
+      "theme": "basket",
+      "owners": [
+        "curry"
+      ],
+      "effect": "外表越像来参加课外活动，出手地点越像在校门口。对手要求先验学生证，你已经把球从门外投进来。",
+      "sourceMeme": "小学生",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://sports.sina.cn/nba/warriors/2016-08-31/detail-ifxvixer7560714.d.html?vt=4",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-4c28ae7aa6",
+      "name": "晚安",
+      "theme": "basket",
+      "owners": [
+        "curry"
+      ],
+      "effect": "关键球命中即触发枕头手势，全场灯光切成就寝模式。下一秒有人提醒：今晚球场电费还没交。",
+      "sourceMeme": "晚安",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1414y187Uc/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-c5adcbaab5",
+      "name": "超远三分",
+      "theme": "basket",
+      "owners": [
+        "curry"
+      ],
+      "effect": "过了场地大门就进入射程。庆祝太早会把背后命中的球漏看，摄像机只好追着你的后脑勺转。",
+      "sourceMeme": "超远三分",
+      "adaptation": "original",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "original_fan_creation",
+      "sources": [],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-1c49c20391",
+      "name": "这事我记下了",
+      "theme": "basket",
+      "owners": [
+        "jordan"
+      ],
+      "effect": "别人随口一句玩笑，你立即记进个人恩怨小本。最后对手只说了一句“今天风有点大”，你已为风安排加练。",
+      "sourceMeme": "这事我记下了",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://knowyourmeme.com/memes/michael-jordans-and-i-took-that-personally",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-b245730508",
+      "name": "最后一投",
+      "theme": "basket",
+      "owners": [
+        "jordan"
+      ],
+      "effect": "只要还没投进，就能重新定义什么叫“最后”。天黑后全场只剩一盏灯，标题仍叫最后一球。",
+      "sourceMeme": "最后一投",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1KY4y1v7oC/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-6c6f231aff",
+      "name": "凌晨四点",
+      "theme": "basket",
+      "owners": [
+        "kobe"
+      ],
+      "effect": "提前到场获得专属静音训练镜头。反噬是球馆六点开门，所有自律画面都拍在门外的塑料凳上。",
+      "sourceMeme": "凌晨四点",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1cG411M7dL/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-c7d2103b14",
+      "name": "后仰美如画",
+      "theme": "basket",
+      "owners": [
+        "kobe"
+      ],
+      "effect": "任何出手先奖励一张可做壁纸的定格。球没进也不影响构图，朋友复盘十分钟只夸了一句“真好看”。",
+      "sourceMeme": "后仰美如画",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1w7411r7LQ/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-ffa15049ea",
+      "name": "小帅",
+      "theme": "basket",
+      "owners": [
+        "durant"
+      ],
+      "effect": "任何尴尬现场都能先把自拍调成封面。你说自己只看球技，发布时却先选了半小时头像。",
+      "sourceMeme": "小帅",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1TD4y1c7Gf/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-63f59ebc75",
+      "name": "打不过就加入",
+      "theme": "basket",
+      "owners": [
+        "durant"
+      ],
+      "effect": "落后时弹出一张对面阵营体验券。刚穿好新队服，对手也用了同一张券，双方再次站反。",
+      "sourceMeme": "打不过就加入",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1TD4y1c7Gf/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-934ad7ffd6",
+      "name": "小号自评",
+      "theme": "basket",
+      "owners": [
+        "durant"
+      ],
+      "effect": "允许匿名给自己写一条好评。发送后名字切了，头像没切；全场沉默，你开始研究是谁暴露了小号。",
+      "sourceMeme": "小号自评",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.sportingnews.com/us/nba/news/kevin-durant-twitter-instagram-secret-account-search-feud-deleted-warriors-news-rumors/1rur3pcwxe3c316nb8hma5u90e",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "stepback-route",
+      "name": "后撤步",
+      "theme": "basket",
+      "owners": [
+        "harden"
+      ],
+      "effect": "遇到难题先后撤半步。球场上拉开空间，合照时也一路后撤，最后镜头里只剩一条胡子边。",
+      "sourceMeme": "后撤步",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV15x41197By/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "reusedFromV13": "stepback-route",
+      "selected": true
+    },
+    {
+      "id": "v14-perk-179e366c6f",
+      "name": "电动车也有哨",
+      "theme": "basket",
+      "owners": [
+        "harden"
+      ],
+      "effect": "把场内找哨模式带到出行，提示音响起才发现这次不是裁判。帅气入场被改成原地等队友。",
+      "sourceMeme": "电动车也有哨",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_3797640?hotComm=true",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-4b09e693d7",
+      "name": "姚式笑容",
+      "theme": "basket",
+      "owners": [
+        "yaoming"
+      ],
+      "effect": "听完一句离谱发言，自动生成全场可用的表情包。你还没回应，群里已经把你的脸刷了十遍。",
+      "sourceMeme": "姚式笑容",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1rK411K7uj/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-1385c8763d",
+      "name": "姚鲨互怼",
+      "theme": "basket",
+      "owners": [
+        "yaoming"
+      ],
+      "effect": "赛后麦克风解锁巨人互损模式。原本十秒的采访变成双人脱口秀，主持人的问题一直没说完。",
+      "sourceMeme": "姚鲨互怼",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV154411z7jb/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-66e5ed669c",
+      "name": "扣碎篮板",
+      "theme": "basket",
+      "owners": [
+        "shaq"
+      ],
+      "effect": "普通扣篮触发工程验收动画。分数还没加，维修队先在场边排队，工作人员把奖品换成了扳手。",
+      "sourceMeme": "扣碎篮板",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV17t411t7hc/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-bd185383b6",
+      "name": "五大囧",
+      "theme": "basket",
+      "owners": [
+        "shaq"
+      ],
+      "effect": "离谱失误自动配上回放和点评。想删掉自己那一段，系统提示：你同时拥有主持和入选资格。",
+      "sourceMeme": "五大囧",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://search.bilibili.com/all?keyword=%E5%8D%81%E5%A4%A7%E5%9B%A7",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://search.bilibili.com/all?keyword=NBA%E4%BA%94%E5%A4%A7%E5%9B%A7",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v13-doncic-1",
+      "name": "汉堡王",
+      "theme": "basket",
+      "owners": [
+        "doncic"
+      ],
+      "effect": "暂停界面会多出一层汉堡选择。你称之为补充战术层次，教练发现战术板上确实画了五层配料。",
+      "sourceMeme": "汉堡王",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV12r4y1s7RU/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "reusedFromV13": "v13-doncic-1",
+      "selected": true
+    },
+    {
+      "id": "v14-perk-d762dcdce2",
+      "name": "你先跳我再投",
+      "theme": "basket",
+      "owners": [
+        "doncic"
+      ],
+      "effect": "动作刻意慢半拍，等对手落地才开始认真出手。全场以为视频卡了，只有你说网速刚刚好。",
+      "sourceMeme": "你先跳我再投",
+      "adaptation": "original",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "original_fan_creation",
+      "sources": [],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-a0704418b6",
+      "name": "大虫抢板",
+      "theme": "basket",
+      "owners": [
+        "rodman"
+      ],
+      "effect": "球一弹框，全场椅子自动变成你的起跳点。队友还在找球，你已经把掉下来的帽子也一起抢走。",
+      "sourceMeme": "大虫抢板",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1ws4y1C7ww/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-4928afba1c",
+      "name": "花大虫",
+      "theme": "basket",
+      "owners": [
+        "rodman"
+      ],
+      "effect": "每次登场随机刷新发色，观众靠颜色点名。换一回发型，技术统计误以为你又换了一个替补。",
+      "sourceMeme": "花大虫",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1ws4y1C7ww/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-cfc3b2e85c",
+      "name": "立棍单打",
+      "theme": "basket",
+      "owners": [
+        "xujingyu"
+      ],
+      "effect": "只要有人拿球不传，旁边立刻长出一根解说专用棍。街边排队不挪的人也会被你纳入单打统计。",
+      "sourceMeme": "立棍单打",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV19Z4y1X7hB/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-1c477c25ac",
+      "name": "老1.5",
+      "theme": "basket",
+      "owners": [
+        "xujingyu"
+      ],
+      "effect": "所有排名都自动出现一个小数位。颁最佳球员时奖台突然多出半层，主持人不知把谁往哪儿站。",
+      "sourceMeme": "老1.5",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV19Z4y1X7hB/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-71b1bea6eb",
+      "name": "蹲坑中锋",
+      "theme": "basket",
+      "owners": [
+        "xujingyu"
+      ],
+      "effect": "防守过度保守时，身下自动长出一把固定小凳。对手绕过你一圈，镜头给了场边真正的看客。",
+      "sourceMeme": "蹲坑中锋",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1mY411s7oh/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-f1ebf0c2e2",
+      "name": "有球必应",
+      "theme": "basket",
+      "owners": [
+        "yangyi"
+      ],
+      "effect": "任何问题只要带个球字，自动获得抢答资格。有人问谁去买鱼丸，你已开始解释空间、节奏和时代变化。",
+      "sourceMeme": "有球必应",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1r9EyzfEzg/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-650f8520f9",
+      "name": "杨侃开讲",
+      "theme": "basket",
+      "owners": [
+        "yangyi"
+      ],
+      "effect": "一句“简单说两句”解锁长篇往事。嘉宾从现役聊到退役，主持人手上的提问卡还停在第一页。",
+      "sourceMeme": "杨侃开讲",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1JF411n7iW/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-6d35973cd0",
+      "name": "鸡蛋灌饼",
+      "theme": "basket",
+      "owners": [
+        "zhouqi"
+      ],
+      "effect": "训练补给自动切成灌饼点单页。队友讨论加量，你认真追问加蛋还是加肠，战术会变成早餐会。",
+      "sourceMeme": "鸡蛋灌饼",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Nb4y1v7RJ/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-9ecefe1f08",
+      "name": "边线球",
+      "theme": "basket",
+      "owners": [
+        "zhouqi"
+      ],
+      "effect": "越关键的发球，收件人信息栏越长。球已经举起来，系统还在索要姓名、地址和是否本人签收。",
+      "sourceMeme": "边线球",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://search.bilibili.com/all?keyword=%E6%B3%A2%E5%85%B0%E9%93%81%E9%B8%A1%E5%91%A8%E7%90%A6",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-69e8e8badd",
+      "name": "35秒13分",
+      "theme": "basket",
+      "owners": [
+        "tmac"
+      ],
+      "effect": "只剩35秒时突然获得完整主角镜头。对手以为快下班了，记分员却被迫把刚收起的笔重新打开。",
+      "sourceMeme": "35秒13分",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/opus/721211475464552472",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-a78ff8eeee",
+      "name": "干拔美如画",
+      "theme": "basket",
+      "owners": [
+        "tmac"
+      ],
+      "effect": "抬手瞬间自动进入海报构图。球还在空中，照片已经能当封面；旁边人连庆祝都得躲开画面。",
+      "sourceMeme": "干拔美如画",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV12Q4y1G7W5/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-daee11ced7",
+      "name": "东单小陀螺",
+      "theme": "basket",
+      "owners": [
+        "wuyou"
+      ],
+      "effect": "过人时转出一圈完整入场动画。对手还站在原地，你先检查自己转完后篮筐在哪个方向。",
+      "sourceMeme": "东单小陀螺",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1wW411i7oy/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-521aede329",
+      "name": "日落东单",
+      "theme": "basket",
+      "owners": [
+        "wuyou"
+      ],
+      "effect": "夕阳一到自动解锁街球主场介绍。没有观众也能给你足量欢呼，路过的遛狗大爷莫名当上了压轴嘉宾。",
+      "sourceMeme": "日落东单",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.sohu.com/a/620626161_121124646",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-95b3b37896",
+      "name": "主教练正在热身",
+      "theme": "basket",
+      "owners": [
+        "xire"
+      ],
+      "effect": "战术讲不明白时，画面自动切到教练脱外套准备上场。队员终于看懂了：这次换人换的就是教练本人。",
+      "sourceMeme": "主教练正在热身",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://finance.sina.cn/2022-05-18/detail-imcwiwst8026973.d.html?vt=4",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://i.ifeng.com/c/8G5rSUsxok2",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-ce5ceb7b17",
+      "name": "战术板自己打",
+      "theme": "basket",
+      "owners": [
+        "xire"
+      ],
+      "effect": "画在板上的路线会由画图者亲自示范。你边跑边讲，助教边追边擦，暂停结束战术板仍然在场上。",
+      "sourceMeme": "战术板自己打",
+      "adaptation": "original",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "original_fan_creation",
+      "sources": [],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-17d8a5790e",
+      "name": "亚罚山大",
+      "theme": "basket",
+      "owners": [
+        "shai"
+      ],
+      "effect": "连续哨声让罚球线刷出专属工位。你走得比回家还熟，工作人员问这条线是否也要给你装门牌。",
+      "sourceMeme": "亚罚山大",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV14NJrzfEbt/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1HodNYvEai/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-560eaf47cf",
+      "name": "节奏急刹",
+      "theme": "basket",
+      "owners": [
+        "shai"
+      ],
+      "effect": "动作一停，对手先飞出镜头。裁判还没判，摄像师已经被节奏晃得按下暂停。",
+      "sourceMeme": "节奏急刹",
+      "adaptation": "original",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "original_fan_creation",
+      "sources": [],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-0abe825cce",
+      "name": "单场100分",
+      "theme": "basket",
+      "owners": [
+        "wilt"
+      ],
+      "effect": "记分牌只有两位数，打满后系统要求临时采购第三块数字牌。对手看见暂停，以为战术调整，其实工作人员在借螺丝刀。",
+      "sourceMeme": "单场100分",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.nba.com/sixers/76ers-alumni/wilt-chamberlain",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-dc81bdbbe1",
+      "name": "纪录簿不够用",
+      "theme": "basket",
+      "owners": [
+        "wilt"
+      ],
+      "effect": "每做一件普通事，都有人搬来一本纪录簿。你刚伸手拿水，记录员已在争论该不该新开一页。",
+      "sourceMeme": "纪录簿不够用",
+      "adaptation": "original",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "original_fan_creation",
+      "sources": [],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-b47675dcad",
+      "name": "格林公式",
+      "theme": "basket",
+      "owners": [
+        "draymond-green"
+      ],
+      "effect": "只要讨论队伍贡献，就自动展开一张来之前与走之后的白板，结论永远指向本队早有底气。你正准备收尾，记录员提醒白板上填的是去年的趣味接力赛。",
+      "sourceMeme": "格林公式",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.ttplus.cn/publish/app/data/2022/06/17/428871/os_news.html",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-c6e947ee9c",
+      "name": "战争践踏",
+      "theme": "basket",
+      "owners": [
+        "draymond-green"
+      ],
+      "effect": "重重站稳准备震住场面，却踩中了灯光踏板，全场追光立刻照向你。气势刚拉满，裁判先递来T形暂停牌，工作人员请你去场边继续表演。",
+      "sourceMeme": "战争践踏",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1QP411S7Mj/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://pr.nba.com/draymond-green-suspension-48-23/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-050630ef00",
+      "name": "播客开麦",
+      "theme": "basket",
+      "owners": [
+        "draymond-green"
+      ],
+      "effect": "场上争论刚被打断，场边麦克风立即亮起录制灯。十秒小事被你讲成一整期，比赛已经换了两轮人，节目仍在说先交代一下背景。",
+      "sourceMeme": "播客开麦",
+      "adaptation": "original",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.iheart.com/podcast/867-the-draymond-green-show-89325078/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-a615ad1a62",
+      "name": "八角笼见",
+      "theme": "basket",
+      "owners": [
+        "ershu"
+      ],
+      "effect": "普通约球自动升级为八角形边界的盛大入场。朋友只问打几分，主持人却先问分几个回合；出场词念完，大家还没弄清站位。",
+      "sourceMeme": "八角笼见",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1gREuzGE8y/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1WHVMz7EzX/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-fd88956cdc",
+      "name": "百分大战",
+      "theme": "basket",
+      "owners": [
+        "ershu"
+      ],
+      "effect": "记分目标直接锁到100，刚说最后一球，记分员提醒才刚热身。摄影师先找充电宝，赛前花絮已经够剪成三期预告。",
+      "sourceMeme": "百分大战",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://k.sina.cn/article_6073579234_16a0376e2001020wx0.html",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://m.sohu.com/a/601670975_121389660",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-12101bac64",
+      "name": "这回按哪套规则",
+      "theme": "basket",
+      "owners": [
+        "ershu"
+      ],
+      "effect": "两本流程册同时翻页，裁判喊换边，计时员喊换回合，DJ把两种提示音一起放。球还没发出去，现场先开始一场规则说明会。",
+      "sourceMeme": "这回按哪套规则",
+      "adaptation": "original",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1WHVMz7EzX/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-0de6fe1728",
+      "name": "东方弗洛伊德",
+      "theme": "abstract",
+      "owners": [
+        "fengge"
+      ],
+      "effect": "任何日常问题先被套进“性压抑”理论。你说空调太热，他问为什么对“热”这么敏感；分析十分钟，遥控器显示暖气30度。",
+      "sourceMeme": "东方弗洛伊德",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1LB1gBTEpx/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.zaobao.com.sg/news/china/story20260513-9042336",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-b9006bdbd6",
+      "name": "3D鉴定",
+      "theme": "abstract",
+      "owners": [
+        "fengge"
+      ],
+      "effect": "给周围所有人启动分类扫描。机器绕一圈照回持有者，正要公布结果时，你先宣布今天设备需要校准。",
+      "sourceMeme": "3D鉴定",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Qs4y1c7tc",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1X24y1776w/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-a022677397",
+      "name": "苹果安卓相对论",
+      "theme": "abstract",
+      "owners": [
+        "huchenfeng"
+      ],
+      "effect": "同一段发言的评价随手机切换：拿安卓时“这说得不行”，借来苹果再说一遍就“有点道理”。最后发现手机是借的，判词原地重算。",
+      "sourceMeme": "苹果安卓相对论",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1JUJdzdEiL/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1jKHXz1EM8/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-8a1924ecf6",
+      "name": "你什么手机",
+      "theme": "abstract",
+      "owners": [
+        "huchenfeng"
+      ],
+      "effect": "任何争论都能插入一次机型盘问。对面掏出座机，二分法瞬间无处安放，系统新增一栏“未知文明”。",
+      "sourceMeme": "你什么手机",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1eJELz8EyN/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-f737721bca",
+      "name": "全球购买力",
+      "theme": "abstract",
+      "owners": [
+        "huchenfeng"
+      ],
+      "effect": "买一顿饭先换算成多少工作时间。算式越列越长，午餐排到晚餐；老板问还吃不吃，你先问老板时薪。",
+      "sourceMeme": "全球购买力",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1eJELz8EyN/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-eaa5eafa78",
+      "name": "好果汁",
+      "theme": "abstract",
+      "owners": [
+        "huge",
+        "daoge"
+      ],
+      "effect": "一句带火药味的狠话，现场自动翻译成饮料点单。话越狠，桌上果汁越多，最后镜头前只剩满满一排吸管。",
+      "sourceMeme": "好果汁",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1cb4y1U7dm/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1MU4y1m72Y/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-be0b94277f",
+      "name": "东北往事",
+      "theme": "abstract",
+      "owners": [
+        "huge",
+        "daoge"
+      ],
+      "effect": "普通出门自动套上江湖片头和回忆滤镜。你只是要去便利店买水，字幕已经写到“那年，风很大”。",
+      "sourceMeme": "东北往事",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1cb4y1U7dm/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-8564d74736",
+      "name": "沈阳大街",
+      "theme": "abstract",
+      "owners": [
+        "huge"
+      ],
+      "effect": "只要站到街口就能刷新一套压轴出场。气势铺满半条街，真正的路人只问你能不能让开公交站牌。",
+      "sourceMeme": "沈阳大街",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1QQAmeWEbx/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-888c1e7611",
+      "name": "整点狠活",
+      "theme": "abstract",
+      "owners": [
+        "daoge"
+      ],
+      "effect": "每次喊开拍，镜头都会切成大片规格。真正执行时道具只剩纸板，观众等来的狠活是你严肃地把纸板扶正。",
+      "sourceMeme": "整点狠活",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1kyoNYqEnZ/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-9ad6820ddd",
+      "name": "儒雅随和",
+      "theme": "abstract",
+      "owners": [
+        "sunxiaochuan"
+      ],
+      "effect": "开口前先挂上温文尔雅的字幕。语气一激动，字幕还在替你挽尊，观众开始只看字幕猜现场到底有多吵。",
+      "sourceMeme": "儒雅随和",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Up4y197Mp/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-765273e2e1",
+      "name": "带带大师兄",
+      "theme": "abstract",
+      "owners": [
+        "sunxiaochuan"
+      ],
+      "effect": "全场默认你最懂抽象，纷纷把奇怪问题递过来。你越强调不知道，问题越像找对人了。",
+      "sourceMeme": "带带大师兄",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1jJ411K7c9/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-f6b9edbcdb",
+      "name": "念诗之王",
+      "theme": "abstract",
+      "owners": [
+        "sunxiaochuan"
+      ],
+      "effect": "普通朗读也能进入高规格配乐。你只是读一份失物招领，全场却误以为这是晚会最终章。",
+      "sourceMeme": "念诗之王",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1qJ411B7zK/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-6c3a1d8b8d",
+      "name": "水槽入场",
+      "theme": "abstract",
+      "owners": [
+        "musk"
+      ],
+      "effect": "去任何新场地都先搬一个水槽。别人以为是谐音铺垫，物业先问你有没有提前申请改下水。",
+      "sourceMeme": "水槽入场",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.i21st.cn/article/translate/29650_1.html",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-47107c288f",
+      "name": "防弹玻璃翻车",
+      "theme": "abstract",
+      "owners": [
+        "musk"
+      ],
+      "effect": "演示前把可靠性宣传拉满；测试瞬间，玻璃与讲解稿一起出现裂纹。掌声没停，你把这一页改名叫压力测试。",
+      "sourceMeme": "防弹玻璃翻车",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1gJ411d72X/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-37d95e34e8",
+      "name": "买得越多省得越多",
+      "theme": "abstract",
+      "owners": [
+        "jensen"
+      ],
+      "effect": "采购清单每加一项，“节省金额”就会变大。预算清零后仪表盘仍显示节省成功，财务只能给你的算法鼓掌。",
+      "sourceMeme": "买得越多省得越多",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV16V4y1z79c/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-68681045a9",
+      "name": "皮衣战甲",
+      "theme": "abstract",
+      "owners": [
+        "jensen"
+      ],
+      "effect": "换场景不用换皮衣。董事会、夜市、厨房都能无缝开发布会，主持人唯一要确认的是这次从哪个口袋掏东西。",
+      "sourceMeme": "皮衣战甲",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1ox4y1D77u/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-e5eb051d3e",
+      "name": "厨房掏显卡",
+      "theme": "abstract",
+      "owners": [
+        "jensen"
+      ],
+      "effect": "厨房演示进入隐藏发布模式。观众以为晚饭来了，你端出的却是一块需要重新改预算的计算设备。",
+      "sourceMeme": "厨房掏显卡",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Tf4y1U7Qx/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.incgmedia.com/all-articles/nvidia-gtc2020-jenson",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-2b7b6d60da",
+      "name": "赢麻了",
+      "theme": "abstract",
+      "owners": [
+        "trump"
+      ],
+      "effect": "每种结局都能触发获胜演讲。比分落后时先宣布解释权领先，比赛取消时宣布连比赛都省了。",
+      "sourceMeme": "赢麻了",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1XUfbBEErM/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.bilibili.com/list/703186600?bvid=BV11RA6zUE13&oid=116136234582048",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-24b908d3c7",
+      "name": "手风琴演说",
+      "theme": "abstract",
+      "owners": [
+        "trump"
+      ],
+      "effect": "手势张开多大，现场论点就扩写多长。话筒还没递到嘴边，两只手已替你开完第一轮发布会。",
+      "sourceMeme": "手风琴演说",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV18p4y1C7VG/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-0ce22e857c",
+      "name": "魔性舞步",
+      "theme": "abstract",
+      "owners": [
+        "trump"
+      ],
+      "effect": "演讲结束直接进入招牌手势舞。主持人想报结果，观众已按舞步节奏给掌声，比分被安排在片尾字幕。",
+      "sourceMeme": "魔性舞步",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1gaD3YEEAo/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "personal-leijun",
+      "name": "Are You OK",
+      "theme": "abstract",
+      "owners": [
+        "leijun"
+      ],
+      "effect": "开场问候自动配出洗脑节奏。越想认真介绍参数，台下越按拍子等你重复；提词器最后只剩这三个词。",
+      "sourceMeme": "Are You OK",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1XE411q7Nj/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1va4y1E7Uq/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "reusedFromV13": "personal-leijun",
+      "selected": true
+    },
+    {
+      "id": "v14-perk-839d9bdada",
+      "name": "连夜说服高管",
+      "theme": "abstract",
+      "owners": [
+        "leijun"
+      ],
+      "effect": "遇到讨价还价，立刻召集一场背景灯全亮的深夜会议。高管刚坐下，镜头已拍好第二天宣布优惠的封面。",
+      "sourceMeme": "连夜说服高管",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.tmtpost.com/7319168.html",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-a2f30f57d9",
+      "name": "交个朋友",
+      "theme": "abstract",
+      "owners": [
+        "luoyonghao"
+      ],
+      "effect": "每次准备砍价先完成一次交朋友。朋友越交越多，通讯录爆满，交易却仍停在“咱们先认识一下”。",
+      "sourceMeme": "交个朋友",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1eQx1zvELE/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1ke411b7wY/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-ec0ae4e1ec",
+      "name": "真还传",
+      "theme": "abstract",
+      "owners": [
+        "luoyonghao"
+      ],
+      "effect": "每完成一笔虚构欠款，就解锁一集片尾预告。你以为到了大结局，系统提醒还有一个忘掉的共享充电宝。",
+      "sourceMeme": "真还传",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1h5s7e9EWm/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-b04876631f",
+      "name": "工匠精神",
+      "theme": "abstract",
+      "owners": [
+        "luoyonghao"
+      ],
+      "effect": "一件简单物品获得电影级展示。发布会讲完倒角和手感，观众发现这是今晚用来垫桌脚的那块小木片。",
+      "sourceMeme": "工匠精神",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1eQx1zvELE/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-adc41b239c",
+      "name": "大专人大专魂",
+      "theme": "abstract",
+      "owners": [
+        "dailanzi"
+      ],
+      "effect": "一戴学士帽，全场排面开始逆向升级。别人自报名校，你先要求他补修“大专气质”；最后检票员只认二维码，谁的帽子都不好使。",
+      "sourceMeme": "大专人大专魂",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Ps4y1w7Ru",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_14043056",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-01a95d9ee0",
+      "name": "本升专",
+      "theme": "abstract",
+      "owners": [
+        "dailanzi"
+      ],
+      "effect": "把升级路线倒过来读，获得一本一本正经的进修简章。你正准备给人开讲座，门口牌子却写着这里是招新，不是招生。",
+      "sourceMeme": "本升专",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_14043056",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-81831332cf",
+      "name": "吃饱喝足",
+      "theme": "abstract",
+      "owners": [
+        "dailanzi"
+      ],
+      "effect": "大事没办成也能触发结算：先宣布吃饱喝足，状态拉满。刚要展望宏图，下一页直接跳到饭后犯困。",
+      "sourceMeme": "吃饱喝足",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV14Y411L7ra/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-5d2c2aba5e",
+      "name": "兄弟们又要到饭了",
+      "theme": "abstract",
+      "owners": [
+        "us-lecturer"
+      ],
+      "effect": "每次探索归来先展示战利品餐盒。别人以为找到稀有装备，你打开背包，全是今天的加餐。",
+      "sourceMeme": "兄弟们又要到饭了",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1dT4y1H7FA/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1sp4y1Z7kr/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-4c1bc2fad3",
+      "name": "北美打野王",
+      "theme": "abstract",
+      "owners": [
+        "us-lecturer"
+      ],
+      "effect": "地图上的任务点都变成补给路线。你带队绕开战斗直奔餐点，最后副本通关数为零，饱腹状态却是全队第一。",
+      "sourceMeme": "北美打野王",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1dT4y1H7FA/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-a85a29963b",
+      "name": "您配吗",
+      "theme": "abstract",
+      "owners": [
+        "yaoshuige"
+      ],
+      "effect": "对话可原样反弹，双方都想说最后一句。计时器越走越久，后台员工已经换了两班，你们还在确认同一个问题。",
+      "sourceMeme": "您配吗",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Bb411W7mc/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1CK4y1a7WQ/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v11-yaoshuige-1",
+      "name": "对视艺术",
+      "theme": "abstract",
+      "owners": [
+        "yaoshuige"
+      ],
+      "effect": "沉默也能占满整块舞台。对视越久现场越像艺术展，保安最后来问这件作品是不是需要贴个价签。",
+      "sourceMeme": "对视艺术",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1N441187Co/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "reusedFromV13": "v11-yaoshuige-1",
+      "selected": true
+    },
+    {
+      "id": "v14-perk-a6d9677e4c",
+      "name": "带派不老铁",
+      "theme": "abstract",
+      "owners": [
+        "yujie"
+      ],
+      "effect": "每上一个菜都获得一轮气势评分。菜够不够另说，端上来的声量保证像一场压轴演出。",
+      "sourceMeme": "带派不老铁",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1tTtP6wE8d",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-db76e9621c",
+      "name": "老蒯呢",
+      "theme": "abstract",
+      "owners": [
+        "yujie"
+      ],
+      "effect": "一喊名字，镜头自动寻找老蒯。人还没出现，活已经排好三项；他刚入镜就先检查有没有退场通道。",
+      "sourceMeme": "老蒯呢",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Fx4y1i7mQ/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        },
+        {
+          "url": "https://www.bilibili.com/list/3546645729904771?bvid=BV1nU411o7Tz&oid=1905257167",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-d548b9747b",
+      "name": "大东北小曲",
+      "theme": "abstract",
+      "owners": [
+        "yujie"
+      ],
+      "effect": "干普通家务也有专属节拍。大家跟着节奏忙到飞起，最后发现锅还没点火，拍子倒是全踩准了。",
+      "sourceMeme": "大东北小曲",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/list/3546645729904771?bvid=BV1rfpKeTErt&oid=113082764428008",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-c10897c383",
+      "name": "遥遥领先",
+      "theme": "abstract",
+      "owners": [
+        "yuchengdong"
+      ],
+      "effect": "任何项目都能把进度条拉到画面外。别人问领先多少，你还在往右拖，系统先提示显示器不够长。",
+      "sourceMeme": "遥遥领先",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV17u4y117Dv/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-8d293cb21c",
+      "name": "那四个字不能说",
+      "theme": "abstract",
+      "owners": [
+        "yuchengdong"
+      ],
+      "effect": "每次要说经典句式，字幕自动改成四个方框。观众越不让你说，越整齐地替你把话补完。",
+      "sourceMeme": "那四个字不能说",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1bb421e7qN/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-f4f4b02008",
+      "name": "轻舟已过万重山",
+      "theme": "abstract",
+      "owners": [
+        "yuchengdong"
+      ],
+      "effect": "困难收尾自动切成诗意航拍。气势刚到最高处，船停了：下一段路得全员下来推。",
+      "sourceMeme": "轻舟已过万重山",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV16F411f7mC/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-f7f7d2f55b",
+      "name": "金角银角",
+      "theme": "abstract",
+      "owners": [
+        "nida",
+        "yili"
+      ],
+      "effect": "搭档同时出场即可获得完整双人片头。只来一个人时，字幕坚持等另一半，观众先看了两分钟“即将开始”。",
+      "sourceMeme": "金角银角",
+      "adaptation": "meme",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1cx42127SS/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    },
+    {
+      "id": "v14-perk-da31e8ca0e",
+      "name": "双角出征",
+      "theme": "abstract",
+      "owners": [
+        "nida",
+        "yili"
+      ],
+      "effect": "两人气势合并，目的地越小，出征仪式越大。只是去街口买东西，也要先让导航播一遍誓师词。",
+      "sourceMeme": "双角出征",
+      "adaptation": "adaptation",
+      "enabled": true,
+      "editorialStatus": "selected",
+      "fanMade": true,
+      "sourceStatus": "indexed",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1e2ngzWE9r/",
+          "status": "indexed",
+          "originalVideoWatched": false
+        }
+      ],
+      "originalVideoWatched": false,
+      "selected": true
+    }
+  ],
+  "candidates": [
+    {
+      "id": "v14-candidate-4e30628b03",
+      "name": "四保一",
+      "owners": [
+        "uzi"
+      ],
+      "theme": "lol",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-02ea52daad",
+      "name": "冰皇",
+      "owners": [
+        "jackeylove"
+      ],
+      "theme": "lol",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-e63ec5d95b",
+      "name": "嘻嘻嘻",
+      "owners": [
+        "ming"
+      ],
+      "theme": "lol",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "原声或归属待核",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-74f8fe8f69",
+      "name": "FMVP的自信",
+      "owners": [
+        "ning"
+      ],
+      "theme": "lol",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-719f771e31",
+      "name": "冠军辅助",
+      "owners": [
+        "baolan"
+      ],
+      "theme": "lol",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-68fe5bedf0",
+      "name": "德云色双声道",
+      "owners": [
+        "xiaoxiao",
+        "xika"
+      ],
+      "theme": "lol",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-bab182bf9e",
+      "name": "泉水提款机",
+      "owners": [
+        "vincent"
+      ],
+      "theme": "lol",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-fd85fe5cf7",
+      "name": "校长上场",
+      "owners": [
+        "wangsicong"
+      ],
+      "theme": "lol",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-88aac8321c",
+      "name": "Cleveland！",
+      "owners": [
+        "lebron"
+      ],
+      "theme": "basket",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-487b3a2392",
+      "name": "吐舌模式",
+      "owners": [
+        "jordan"
+      ],
+      "theme": "basket",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-5f45a8f33a",
+      "name": "打铁还得投",
+      "owners": [
+        "kobe"
+      ],
+      "theme": "basket",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-564411f2bf",
+      "name": "罚球线常驻",
+      "owners": [
+        "harden"
+      ],
+      "theme": "basket",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-a75d5a3fd9",
+      "name": "身高差合影",
+      "owners": [
+        "yaoming"
+      ],
+      "theme": "basket",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-13e90d500f",
+      "name": "罚球随缘",
+      "owners": [
+        "shaq"
+      ],
+      "theme": "basket",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-874267a0e6",
+      "name": "慢动作大师",
+      "owners": [
+        "doncic"
+      ],
+      "theme": "basket",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-c41afb6fa5",
+      "name": "零分也能Carry",
+      "owners": [
+        "rodman"
+      ],
+      "theme": "basket",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-daf1ca6d0b",
+      "name": "这段我得展开讲",
+      "owners": [
+        "yangyi"
+      ],
+      "theme": "basket",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-0da095f661",
+      "name": "发球请签收",
+      "owners": [
+        "zhouqi"
+      ],
+      "theme": "basket",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-57643632dc",
+      "name": "人球分过",
+      "owners": [
+        "wuyou"
+      ],
+      "theme": "basket",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-34133625c6",
+      "name": "欢迎来到我的主场",
+      "owners": [
+        "xire"
+      ],
+      "theme": "basket",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "原声或归属待核",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-fb2d726beb",
+      "name": "人类对峰哥的开发不足1%",
+      "owners": [
+        "fengge"
+      ],
+      "theme": "abstract",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-260a549874",
+      "name": "火星发车",
+      "owners": [
+        "musk"
+      ],
+      "theme": "abstract",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-fbc7843acd",
+      "name": "1999",
+      "owners": [
+        "leijun"
+      ],
+      "theme": "abstract",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-3f753c2a02",
+      "name": "野区刷新",
+      "owners": [
+        "us-lecturer"
+      ],
+      "theme": "abstract",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-a2a6c7c1bc",
+      "name": "复读机",
+      "owners": [
+        "yaoshuige"
+      ],
+      "theme": "abstract",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "本轮未采用的候补",
+      "fanMade": true
+    },
+    {
+      "id": "v14-candidate-3f5d04db6a",
+      "name": "我要抽烟·对喊版",
+      "owners": [
+        "nida",
+        "yili"
+      ],
+      "theme": "abstract",
+      "enabled": false,
+      "selected": false,
+      "editorialStatus": "not_selected",
+      "sourceStatus": "pending",
+      "reason": "原声或归属待核",
+      "fanMade": true
+    }
+  ],
+  "provenanceNotice": "附录B公开链接仅编入索引，未自动认定观看原片或确认原话；卡片效果与故事均为本作二创。"
+}

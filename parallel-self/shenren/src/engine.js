@@ -12,6 +12,7 @@ function artLayout(a){
  return icons.map((icon,i)=>({icon,x:points[i][0],y:points[i][1],size:points[i][2],rotation:points[i][3]}));
 }
 function enabledPeople(data,theme=null){return data.characters.filter(p=>p.enabled!==false&&(!theme||p.theme===theme)).sort((a,b)=>(a.rosterOrder||0)-(b.rosterOrder||0));}
+function cardOwners(card){return Array.isArray(card.owners)?card.owners.slice():Array.isArray(card.signatureFor)&&card.signatureFor.length?card.signatureFor.slice():card.owner?[card.owner]:[];}
 function enabledCards(data,theme=null){return [].concat(...Object.keys(data.augments).filter(t=>!theme||t===theme).map(t=>data.augments[t])).filter(a=>a.enabled!==false);}
 function searchPeople(data,theme,query=''){const q=query.trim().toLowerCase();return enabledPeople(data,theme==='all'?null:theme).filter(p=>[p.name,p.nickname].concat(p.aliases||[],p.tags||[]).join(' ').toLowerCase().includes(q));}
 function resolvePerson(data,value){const q=String(value).toLowerCase();return data.characters.find(p=>p.id===value||p.personId===value||(p.aliases||[p.name,p.nickname]).some(a=>a&&a.toLowerCase()===q))||null;}
@@ -67,14 +68,14 @@ function score(s,data){
 function similarity(a,b){return Math.round(100*(1-a.reduce((s,v,i)=>s+Math.abs(v-b[i]),0)/600));}
 function responseWeight(q){return q.importance||1;}
 function behaviorFit(rows,weights={}){const total=rows.reduce((sum,{q})=>sum+responseWeight(q),0);return total?100*rows.reduce((sum,{q,o})=>sum+(weights[o.behavior]||0)*responseWeight(q),0)/(5*total):0;}
-function cardEvidence(rows,card){return rows.map(({q,o},index)=>({id:q.id,scene:q.scene,choice:o.text,behavior:o.behavior,strength:((card.behaviorWeights&&card.behaviorWeights[o.behavior])||0)*responseWeight(q),index})).filter(e=>e.strength>0&&(!card.evidenceQuestionIds||!card.evidenceQuestionIds.length||card.evidenceQuestionIds.includes(e.id))).sort((a,b)=>b.strength-a.strength||a.index-b.index);}
-function rankPeople(s,data,vector){const rows=selections(s,data);return applyExposure(enabledPeople(data,s.theme).map(p=>{const v=similarity(vector,p.vector),b=behaviorFit(rows,p.behaviorWeights),scene=100*rows.reduce((sum,{q,o})=>sum+((p.answerAffinities&&p.answerAffinities[q.id]&&p.answerAffinities[q.id][o.behavior])||0),0)/(5*rows.length);return Object.assign({},p,{rawMatch:Math.round(.4*v+.35*b+.25*scene),matchBreakdown:{vector:v,behavior:b,scene}});}),data.rosterPolicy);}
+function cardEvidence(rows,card){return rows.map(({q,o},index)=>({id:q.id,scene:q.scene,choice:o.text,behavior:o.behavior,strength:((card.behaviorWeights&&card.behaviorWeights[o.behavior])||0)*responseWeight(q),index})).filter(e=>e.strength>0&&(!card.evidenceQuestionIds||!card.evidenceQuestionIds.length||card.evidenceQuestionIds.includes(e.id))&&(!Array.isArray(card.answerEvidence)||card.answerEvidence.some(a=>a.questionId===e.id&&a.optionId===rows[e.index].o.id))).sort((a,b)=>b.strength-a.strength||a.index-b.index);}
+function rankPeople(s,data,vector){const rows=selections(s,data);return applyExposure(enabledPeople(data,s.theme).map(p=>{const v=similarity(vector,p.vector),b=behaviorFit(rows,p.behaviorWeights),scene=100*rows.reduce((sum,{q,o})=>sum+(p.optionAffinities?((p.optionAffinities[q.id]&&p.optionAffinities[q.id][String(o.id)])||0):((p.answerAffinities&&p.answerAffinities[q.id]&&p.answerAffinities[q.id][o.behavior])||0)),0)/(5*rows.length);return Object.assign({},p,{rawMatch:Math.round(.4*v+.35*b+.25*scene),matchBreakdown:{vector:v,behavior:b,scene}});}),data.rosterPolicy);}
 
 function recommend(s,data,vector=score(s,data),identity=null){
  const rows=selections(s,data);if(!identity)identity=rankPeople(s,data,vector)[0];
- return enabledCards(data,s.theme).filter(a=>a.activationMode!=='identity').filter(a=>!a.personOnly||(a.signatureFor||[]).includes(identity.personId)).filter(a=>!(a.requires||[]).length||(a.requires||[]).some(b=>rows.some(({o})=>o.behavior===b))).map(a=>{
+ return enabledCards(data,s.theme).filter(a=>a.activationMode!=='identity').filter(a=>!a.personOnly||cardOwners(a).includes(identity.personId)).filter(a=>!(a.requires||[]).length||(a.requires||[]).some(b=>rows.some(({o})=>o.behavior===b))).map(a=>{
   const v=a.vector||a.bias.map(n=>Math.max(0,Math.min(100,50+n*40))),evidence=cardEvidence(rows,a);
-  const behavior=behaviorFit(rows,a.behaviorWeights),bonus=(a.affinities||[]).includes(identity.personId)?5:0;
+  const behavior=behaviorFit(rows,a.behaviorWeights),bonus=(cardOwners(a).includes(identity.personId)||(a.affinities||[]).includes(identity.personId))?5:0;
   const match=Math.round(.42*similarity(vector,v)+.53*behavior+bonus);
   return Object.assign({},a,{match,evidence:evidence.slice(0,2),hitCount:evidence.length,personLink:bonus>0});
  }).filter(a=>a.hitCount>0).sort((a,b)=>Number(Boolean(b.exclusive&&b.personLink))-Number(Boolean(a.exclusive&&a.personLink))||b.match-a.match||b.hitCount-a.hitCount||a.id.localeCompare(b.id));
@@ -168,8 +169,9 @@ function analyze(session,data){
  if(session.theme==='lol'){const hi=vector.indexOf(Math.max(...vector));profile=Object.assign({},profile,{name:['上头编剧','金币合伙人','雪球发车人','全队保护伞','基本功信徒','桥上运营师'][hi]});}
  const recommendations=recommend(session,data,vector,identity),augment=recommendations[0],rows=selections(session,data);
  const evidence=dimsFor(session.theme).map((dim,di)=>{const choices=[].concat(...rows.map(({q,o})=>{if(session.theme!=='lol'&&q.dim!==dim)return [];return [{id:q.id,scene:q.scene,title:q.title,choice:o.text,value:session.theme==='lol'?o.signals[dim]:(o.value-1)/3*100}];}));choices.sort((a,b)=>Math.abs(b.value-50)-Math.abs(a.value-50));return Object.assign({dim,coordinate:vector[di]},choices[0]);});
- const bond=recommendations.find(a=>(a.signatureFor||[]).includes(identity.personId))||null;
- return {inherentCards:(identity.signaturePerks||[]).map(id=>data.augments[session.theme].find(a=>a.id===id)).filter(Boolean),triggeredPersonal:recommendations.filter(a=>a.exclusive&&a.personLink),vector,identity,ranked,profile,augment,recommendations,bond,team:linkTeam(buildTeam(vector,ranked,identity,augment),augment,session.theme),story:narrative(identity,session.theme,profile,session.series,augment),signature:Object.entries(rows.reduce((sum,{o})=>{sum[o.behavior]=(sum[o.behavior]||0)+1;return sum;},{})).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,3).map(([id,count])=>({id,count,label:data.behaviorLabels[id]})),evidence,coverage:dimsFor(session.theme).map(dim=>session.theme==='lol'?session.count:rows.filter(({q})=>q.dim===dim).length)};
+ const bond=recommendations.find(a=>cardOwners(a).includes(identity.personId))||null;
+ const representativeCards=(identity.signaturePerks||[]).map(id=>data.augments[session.theme].find(a=>a.id===id&&a.enabled!==false)).filter(Boolean),obtainedCards=augment?[augment]:[];
+ return {representativeCards,obtainedCards,obtainedCardIds:obtainedCards.map(a=>a.id),inherentCards:data.version>=13?[]:representativeCards,triggeredPersonal:recommendations.filter(a=>a.exclusive&&a.personLink),vector,identity,ranked,profile,augment,recommendations,bond,team:linkTeam(buildTeam(vector,ranked,identity,augment),augment,session.theme),story:narrative(identity,session.theme,profile,session.series,augment),signature:Object.entries(rows.reduce((sum,{o})=>{sum[o.behavior]=(sum[o.behavior]||0)+1;return sum;},{})).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,3).map(([id,count])=>({id,count,label:data.behaviorLabels[id]})),evidence,coverage:dimsFor(session.theme).map(dim=>session.theme==='lol'?session.count:rows.filter(({q})=>q.dim===dim).length)};
 }
 function makeSquadName(theme,team,previous='',rng=random){
  if(!Array.isArray(team)||team.length!==5||new Set(team.map(p=>p.personId)).size!==5)throw Error('五位不同的队友到齐后才能起名');
@@ -179,5 +181,61 @@ function makeSquadName(theme,team,previous='',rng=random){
  const motto={lol:'上不上分先不说，今晚五个人必须整整齐齐。',basket:'投进算大家的，打铁就当替篮筐做体检。',abstract:'节目可以随缘，人和饭必须按时到齐。'}[theme];
  return {title,motto,ids:team.map(p=>p.id),theme};
 }
-return {makeSquadName,enabledPeople,enabledCards,searchPeople,resolvePerson,applyExposure,exposureSample,dimIds,lolDimIds,dimsFor,shuffle,draw,valid,score,similarity,analyze,buildTeam,narrative,recommend,context,selections,questionAt,rankPeople,behaviorFit,artLayout,recordAnswer,squadError,fillSquad,customSquad};
+// Branch stories are pure replayable state machines. Cached rewards and flags are
+// deliberately ignored: only validated seed cards and the recorded path are facts.
+function branchStory(personId,data){return (data.branchStories||[]).find(s=>s.personId===personId)||null;}
+function storyReplay(state,data){
+ if(!state||state.version!==data.version||!Array.isArray(state.seedCards)||!Array.isArray(state.history)||typeof state.originKey!=='string'||state.originKey.length>256)throw Error('穿越故事存档已失效');
+ const person=enabledPeople(data).find(p=>p.personId===state.personId),story=branchStory(state.personId,data);
+ if(!person||!story||state.storyId!==story.id||!Array.isArray(story.nodes)||state.history.length>story.nodes.length)throw Error('找不到这段穿越故事');
+ const cards=enabledCards(data,person.theme),byCard=new Map(cards.map(c=>[c.id,c]));
+ if(new Set(state.seedCards).size!==state.seedCards.length||state.seedCards.some(id=>!byCard.has(id)))throw Error('故事中的海克斯不属于当前版本');
+ const nodes=new Map(story.nodes.map(n=>[n.id,n]));
+ let node=nodes.get(story.entry);if(!node)throw Error('故事入口不存在');
+ const owned=new Set(state.seedCards),flags={},choices={},rewardLedger=[];
+ for(const action of state.history){
+  if(!action||action.nodeId!==node.id||node.type==='ending')throw Error('故事路线不完整');
+  let next=node.next;
+  if(node.type==='choice'){
+   const choice=(node.choices||[]).find(c=>c.id===action.choiceId);if(!choice)throw Error('故事选项不存在');
+   choices[node.id]=choice.id;
+   Object.assign(flags,choice.flags||{});
+   for(const id of choice.grantCardIds||[]){
+    const card=byCard.get(id);if(!card)throw Error('故事奖励不属于当前版本');
+    if(!owned.has(id)){owned.add(id);rewardLedger.push({cardId:id,name:card.name,nodeId:node.id,choiceId:choice.id,source:'story-choice'});}
+   }
+   next=choice.next;
+  }else if(action.choiceId!==null)throw Error('请使用当前故事按钮');
+  node=nodes.get(next);if(!node)throw Error('故事下一幕不存在');
+ }
+ return {story,person,node,flags,choices,ownedCardIds:Array.from(owned),rewardLedger};
+}
+function storySnapshot(base,data){const d=storyReplay(base,data);return Object.assign({},base,{seedCards:base.seedCards.slice(),history:base.history.map(a=>Object.assign({},a)),nodeId:d.node.id,flags:d.flags,choices:d.choices,ownedCardIds:d.ownedCardIds,rewardLedger:d.rewardLedger});}
+function storyStart(personId,data,seedCardIds=[],originKey=''){
+ const story=branchStory(personId,data);if(!story)throw Error('这个人物的穿越故事尚未开放');
+ return storySnapshot({version:data.version,storyId:story.id,personId,originKey:String(originKey||''),seedCards:seedCardIds.slice(),history:[]},data);
+}
+function storyValid(state,data){try{storyReplay(state,data);return true;}catch(_){return false;}}
+function storyView(state,data){
+ const d=storyReplay(state,data),node=d.node;
+ const variant=(node.variants||[]).find(v=>Object.keys(v.when||{}).every(k=>d.flags[k]===v.when[k]));
+ const own=new Set(d.ownedCardIds);
+ return {node:node.id,type:node.type,title:variant&&variant.title!==undefined?variant.title:node.title,
+  text:variant&&variant.text!==undefined?variant.text:node.text,
+  cardEvents:(node.cardEvents||[]).map(e=>({cardId:e.cardId,owned:own.has(e.cardId),text:own.has(e.cardId)?e.owned:e.unowned})),
+  choices:(node.choices||[]).map(c=>({id:c.id,text:c.text,effect:c.effect})),
+  ownedCardIds:d.ownedCardIds,rewardLedger:d.rewardLedger,canBack:state.history.length>0,
+  isEnding:node.type==='ending',endingId:node.type==='ending'?(variant&&variant.endingId||node.endingId||node.id+':'+(d.flags.route2||'default')):null,
+  progress:{current:state.history.length+1,total:d.story.nodes.length},flags:d.flags,storyId:d.story.id,personId:state.personId};
+}
+function storyChoose(state,nodeId,choiceId,data){
+ const d=storyReplay(state,data);if(d.node.id!==nodeId||d.node.type!=='choice'||!(d.node.choices||[]).some(c=>c.id===choiceId))throw Error('这一幕已经切换，请重新选择');
+ return storySnapshot(Object.assign({},state,{history:state.history.concat({nodeId,choiceId})}),data);
+}
+function storyAdvance(state,data){
+ const d=storyReplay(state,data);if(d.node.type==='choice'||d.node.type==='ending')throw Error('请先完成当前故事选择');
+ return storySnapshot(Object.assign({},state,{history:state.history.concat({nodeId:d.node.id,choiceId:null})}),data);
+}
+function storyBack(state,data){storyReplay(state,data);if(!state.history.length)return storySnapshot(state,data);return storySnapshot(Object.assign({},state,{history:state.history.slice(0,-1)}),data);}
+return {storyStart,storyView,storyChoose,storyAdvance,storyBack,storyValid,branchStory,cardOwners,makeSquadName,enabledPeople,enabledCards,searchPeople,resolvePerson,applyExposure,exposureSample,dimIds,lolDimIds,dimsFor,shuffle,draw,valid,score,similarity,analyze,buildTeam,narrative,recommend,context,selections,questionAt,rankPeople,behaviorFit,artLayout,recordAnswer,squadError,fillSquad,customSquad};
 });

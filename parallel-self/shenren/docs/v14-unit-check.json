@@ -1,0 +1,114 @@
+{
+  "release": 14,
+  "schema": 13,
+  "dataSha256": "df1149b6ff43e441e41b4aab65b005d6f7544c12e65a123987c25b7437c0d491",
+  "engineSha256": "4290a8772d1e8cf655fffa03f6cd2bb9e5d6e1a85da218cf165af2df9e51b2bf",
+  "catalogSha256": "627be98f52f2af5b6c7879f371904cae6e6196fffcdd4f77a144a29bde361629",
+  "frozenV13DataSha256": "785c19aef9429ba9b1fdc3c67099bd1a6d111932fb52fe5da5d3bb109a730430",
+  "checks": [
+    {
+      "name": "exact-active-roster-58",
+      "status": "passed",
+      "byTheme": {
+        "lol": 21,
+        "basket": 20,
+        "abstract": 17
+      }
+    },
+    {
+      "name": "137-representatives-143-owner-associations-six-shared",
+      "status": "passed"
+    },
+    {
+      "name": "26-disabled-candidates-never-enter-active-pools-tags-or-story-rewards",
+      "status": "passed"
+    },
+    {
+      "name": "removed-person-has-zero-runtime-references",
+      "status": "passed"
+    },
+    {
+      "name": "58-stories-four-routes-each-six-nodes-and-owned-only-events",
+      "status": "passed",
+      "routes": 232
+    },
+    {
+      "name": "three-themes-three-modes-randomized-decks-and-stable-fixed-answers",
+      "status": "passed",
+      "combinations": 9,
+      "samples": 270
+    },
+    {
+      "name": "exposure-priority-keeps-original-near-top-and-bonus-caps",
+      "status": "passed"
+    },
+    {
+      "name": "all-58-people-have-replayable-legal-eight-question-winning-witnesses",
+      "status": "passed",
+      "witnesses": 58,
+      "count": 8
+    },
+    {
+      "name": "collector-exact-text-and-five-real-icons-are-preserved-as-common",
+      "status": "passed"
+    },
+    {
+      "name": "quiz-headers-do-not-reveal-the-matched-person",
+      "status": "passed"
+    },
+    {
+      "name": "public-links-remain-indexed-rather-than-claimed-watched",
+      "status": "passed"
+    }
+  ],
+  "storyCardEventAssertions": 296,
+  "status": "passed",
+  "counts": {
+    "questions": 332,
+    "lolQuestions": 136,
+    "lolChapters": 34,
+    "people": 58,
+    "parodyCards": 174,
+    "representativeCards": 137,
+    "representativeAssociations": 143,
+    "exclusiveCards": 137,
+    "lolParodyCards": 83,
+    "stories": 58,
+    "byTheme": {
+      "lol": {
+        "questions": 136,
+        "people": 21,
+        "cards": 83,
+        "exclusiveCards": 52
+      },
+      "basket": {
+        "questions": 104,
+        "people": 20,
+        "cards": 48,
+        "exclusiveCards": 45
+      },
+      "abstract": {
+        "questions": 92,
+        "people": 17,
+        "cards": 43,
+        "exclusiveCards": 40
+      }
+    }
+  },
+  "proofSha256": "9ebaa67b20024c80df346546dff7a62a45011f424df8480f24ee25d1088830c9",
+  "nativeEngineRegression": {
+    "tests": 9,
+    "passed": 9,
+    "failed": 0,
+    "note": "Includes the hashed release audit and exact new-identity alias regression; full-suite counts are recorded separately after completion."
+  },
+  "combinedSuiteRun": {
+    "status": "passed",
+    "log": "dist/qa/v14/unit-all.tap",
+    "sha256": "4864c061eda36233497d9650328328b5207f42a04dbb5c03c75597d6b20e4b6e",
+    "tests": 58,
+    "passed": 58,
+    "failed": 0,
+    "note": "Parsed after the combined test process exited; exact completed TAP log retained."
+  }
+}

@@ -15,8 +15,8 @@ def pack_sheet(meta,kind):
   src=R/'assets'/name;dst=O/'assets'/name;dst.parent.mkdir(parents=True,exist_ok=True);im=Image.open(src).convert('RGB');bound=960 if kind=='portrait' else 1024;im.thumbnail((bound,bound),Image.Resampling.LANCZOS);im.save(dst,'WEBP',quality=82,method=6)
   packed_sheets[name]={'url':'./assets/'+name,'width':im.width,'height':im.height,'sha256':hashlib.sha256(dst.read_bytes()).hexdigest()}
  return dict(meta,sourceSha256=meta.get('sha256'),**packed_sheets[name])
-D=json.loads((R/'src/data.json').read_text());A=json.loads((R/'assets/portrait-atlas.json').read_text());sheets=[pack_sheet(s,'portrait') for s in A['sheets']];perk=json.loads((R/'assets/parody-icon-atlas.json').read_text());perk=pack_sheet(perk,'perk');icons={s['id']:dict(s,url=copy(s['asset']),sourceURL=s['url']) for s in json.loads((R/'assets/game-icon-sources.json').read_text())};branding={k:copy(v['webp']) for k,v in json.loads((R/'assets/branding/branding-v13.json').read_text()).items()}
-data=';'.join('window.'+k+'='+dump(v) for k,v in dict(WORLD_PERK_SHEETS=[pack_sheet(a,'perk') for a in json.loads((R/'assets/rich-perk-atlases.json').read_text())],WORLD_CARD_ART={a['id']:copy(a['artAsset']) for arr in D['augments'].values() for a in arr if a.get('enabled') and a.get('artAsset') and not a.get('preferClassic')},WORLD_V11_DATA=json.loads((R/'src/legacy-v11/data.json').read_text()),WORLD_LEGACY_DATA=json.loads((R/'src/legacy/data.json').read_text()),WORLD_DATA=D,WORLD_ATLASES=sheets,WORLD_PORTRAITS=A['portraits'],WORLD_PERK_SHEET=perk,WORLD_SOURCES=json.loads((R/'image-sources.json').read_text()),WORLD_GAME_ICONS=icons,WORLD_BRANDING=branding,WORLD_MEME_BANNER=copy('equipment-meme-banner-v8.webp')).items())+';\n';(O/'data.js').write_text(data)
+D=json.loads((R/'src/data.json').read_text());A=json.loads((R/'assets/portrait-atlas.json').read_text());sheets=[pack_sheet(s,'portrait') for s in A['sheets']];perk=json.loads((R/'assets/parody-icon-atlas.json').read_text());perk=pack_sheet(perk,'perk');icons={s['id']:dict(s,url=copy(s['asset']),sourceURL=s['url']) for s in json.loads((R/'assets/game-icon-sources.json').read_text())};branding={k:copy(v['webp']) for k,v in json.loads((R/'assets/branding/branding-v14.json').read_text()).items()}
+data=';'.join('window.'+k+'='+dump(v) for k,v in dict(WORLD_PERK_SHEETS=[pack_sheet(a,'perk') for a in json.loads((R/'assets/rich-perk-atlases.json').read_text())],WORLD_CARD_ART={a['id']:copy(a['artAsset']) for arr in D['augments'].values() for a in arr if a.get('enabled') and a.get('artAsset') and not a.get('preferClassic')},WORLD_V12_DATA=json.loads((R/'src/legacy-v12/data.json').read_text()),WORLD_V11_DATA=json.loads((R/'src/legacy-v11/data.json').read_text()),WORLD_LEGACY_DATA=json.loads((R/'src/legacy/data.json').read_text()),WORLD_DATA=D,WORLD_ATLASES=sheets,WORLD_PORTRAITS=A['portraits'],WORLD_PERK_SHEET=perk,WORLD_SOURCES=json.loads((R/'image-sources.json').read_text()),WORLD_GAME_ICONS=icons,WORLD_BRANDING=branding,WORLD_MEME_BANNER=copy('equipment-meme-banner-v8.webp')).items())+';\n';(O/'data.js').write_text(data)
 app=(R/'src/app.js').read_text();app=app.replace("(function(){'use strict';", "WORLD_PLATFORM.ready.then(function(){'use strict';").replace("const sourceHTML='<!DOCTYPE html>\\n'+document.documentElement.outerHTML,D=",'const D=')
 a=app.index('function read(');b=app.index('function notify(',a);app=app[:a]+"function read(k,f=null){return WORLD_PLATFORM.read(k,f);}\nfunction write(k,v){WORLD_PLATFORM.write(k,v);}\nfunction remove(k){WORLD_PLATFORM.remove(k);}\n"+app[b:]
 app=re.sub(r"function download\(url,name\)\{[^\n]+\}\nfunction downloadHTML\(\)\{[^\n]+\}\n",'',app)
@@ -25,17 +25,18 @@ app=app.replace("else if(a==='download-html')downloadHTML();",'').replace("else 
 app=re.sub(r'<a href="\$\{esc\((.*?)\)\}" target="_blank" rel="noreferrer">',r'<span class="source-citation">参考来源：${esc(\1)}<br>',app)
 app=app.replace('</a>','</span>').replace('（需联网）','（离线来源记录）')
 app=app.replace('<button class="secondary" data-action="download-html">下载完整离线网页 ↓</button>','')
-app=app.replace('长按图片保存，或下载完整 PNG。','点击下方按钮存入手机相册。').replace('<a class="primary download-png" href="${url}" download="平行宇宙的另一个我-V13-整活海报.png">下载 PNG 图片 ↓</span>','<button class="primary full-width" data-action="save-album">保存图片到相册 ↓</button>')
+app=app.replace('长按图片保存，或下载完整 PNG。','点击下方按钮存入手机相册。')
 app=re.sub(r'<a class="primary download-png"[^>]*>.*?</span>', '<button class="primary full-width" data-action="save-album">保存图片到相册 ↓</button>', app)
 app=app.replace("const url=c.toDataURL('image/png');open", "const url=c.toDataURL('image/png');WORLD_PLATFORM.setPoster(url);open")
 app=app.replace("function render(html){", "function render(html){persistent=WORLD_PLATFORM.isPersistent();")
 app=app.replace("$('#loading').hidden=true;", "$('#loading').hidden=true;WORLD_PLATFORM.afterRender();")
 app=app.replace('modal.scrollTop=0;', 'modal.scrollTop=0;WORLD_PLATFORM.afterRender();')
 assert app.rstrip().endswith('})();');app=app.rstrip()[:-5]+'});\n'
-for name,body in [('engine.js',(R/'src/legacy/engine.js').read_text().replace('root.ShenrenEngine','root.ShenrenLegacyEngine')+'\n'+(R/'src/legacy-v11/engine.js').read_text().replace('root.ShenrenEngine','root.ShenrenV11Engine')+'\n'+(R/'src/engine.js').read_text()),('app.js',app),('platform.js',(R/'src/xhs-platform.js').read_text())]:
+engines='\n'.join((R/('src/'+directory+'/engine.js')).read_text().replace('root.ShenrenEngine','root.'+name) for directory,name in [('legacy','ShenrenLegacyEngine'),('legacy-v11','ShenrenV11Engine'),('legacy-v12','ShenrenV12Engine')])+'\n'+(R/'src/engine.js').read_text()
+for name,body in [('engine.js',engines),('app.js',app),('platform.js',(R/'src/xhs-platform.js').read_text())]:
  assert not re.search(r'\?\.|\?\?|\.flatMap\(|\.flat\(|\{\s*\.\.\.',body),name
  (O/name).write_text(body);subprocess.run(['node','--check',str(O/name)],check=True)
-css=(R/'src/style.css').read_text();css=re.sub(r'(?<![-\w])gap:([^;}]+)',r'grid-gap:\1;gap:\1',css)
+css=(R/'src/style.css').read_text()+('\n'+(R/'src/v14.css').read_text() if (R/'src/v14.css').exists() else '');css=re.sub(r'(?<![-\w])gap:([^;}]+)',r'grid-gap:\1;gap:\1',css)
 def rgba(m):
  h=m.group(1);h=''.join(c*2 for c in h) if len(h)==4 else h;return 'rgba(%d,%d,%d,%.4f)'%(int(h[:2],16),int(h[2:4],16),int(h[4:6],16),int(h[6:8],16)/255)
 css=re.sub(r'#([0-9a-fA-F]{8}|[0-9a-fA-F]{4})(?![0-9a-fA-F])',rgba,css)
@@ -49,6 +50,18 @@ body{padding-left:0;padding-right:0;padding-left:var(--safe-area-inset-left,env(
 .source-citation{font-size:11px;color:var(--muted);line-height:1.9;word-break:break-all;-webkit-user-select:text;user-select:text}
 .source-citation img{width:44px;height:44px}.source-citation small{display:block}.dialog-fallback-open{overflow:hidden}dialog{display:none}dialog[open]{display:block;position:fixed;top:5%;left:5%;margin:0;width:90%;max-height:90%;z-index:50;overflow-y:auto;-webkit-overflow-scrolling:touch}
 .library-modal[open]{top:0;left:0;width:100%;height:100%;max-width:1100px;max-height:100%;padding:0 18px 36px}.library-people .portrait{height:auto}.library-cards .perk-art{height:auto}.original-card-art{height:auto}.original-card-art>img{object-fit:contain}#dialog-body{overflow-wrap:break-word} .squad-candidates>*{min-width:0}.squad-candidates .portrait{min-height:0}
+/* Match V14 selector specificity so native capsule offsets survive theme CSS. */
+body.v14-ui{padding-left:var(--safe-area-inset-left,0px);padding-right:var(--safe-area-inset-right,0px);padding-bottom:calc(82px + var(--safe-area-inset-bottom,0px))}
+body.v14-ui header{padding-top:calc(10px + var(--safe-area-inset-top,0px))}
+body.v14-ui.has-dock{padding-bottom:calc(110px + var(--safe-area-inset-bottom,0px))}
+body.v14-ui.focus-mode{padding-bottom:calc(24px + var(--safe-area-inset-bottom,0px))}
+body.v14-ui #tabbar{padding-bottom:calc(9px + var(--safe-area-inset-bottom,0px))}
+body.v14-ui .result-dock,body.v14-ui .v12-result .result-dock{bottom:calc(12px + var(--safe-area-inset-bottom,0px))}
+body.v14-ui #toast{bottom:calc(95px + var(--safe-area-inset-bottom,0px))}
+body.v14-ui.focus-mode #toast{bottom:calc(24px + var(--safe-area-inset-bottom,0px))}
+body.v14-ui dialog[open]{top:calc(12px + var(--safe-area-inset-top,0px));max-height:calc(100% - 24px - var(--safe-area-inset-top,0px) - var(--safe-area-inset-bottom,0px))}
+body.v14-ui dialog.library-modal[open]{top:var(--safe-area-inset-top,0px);left:0;width:100%;height:calc(100% - var(--safe-area-inset-top,0px));max-height:calc(100% - var(--safe-area-inset-top,0px));padding-bottom:calc(32px + var(--safe-area-inset-bottom,0px))}
+body.v14-ui .v14-intro .intro-figure{height:calc(100vh - 360px - var(--safe-area-inset-top,0px));max-height:calc(370px - var(--safe-area-inset-top,0px));min-height:160px}
 '''
 (O/'style.css').write_text(css)
 t=(R/'src/template.html').read_text();t=re.sub('<script>.*?</script>','',t,flags=re.S);t=t.replace('<style>__CSS__</style>','<link rel="stylesheet" href="./style.css">');t=re.sub('<button data-action="download-html">.*?</button>','',t);t=re.sub('<noscript>.*?</noscript>','<noscript>请启用小工具脚本。</noscript>',t,flags=re.S)
@@ -64,9 +77,13 @@ for path in files:
  assert not re.search(r'data:image/[^;]+;base64,[A-Za-z0-9+/=]{1000}',text),str(path)
 if args.stage:
  print(json.dumps({'staged':str(O),'files':len([p for p in files if p.is_file()]),'note':'preview stage only; no release ZIP generated'},ensure_ascii=False));raise SystemExit(0)
-zip_path=R/'release/world-another-me-v13-xhs.zip'
+zip_path=R/'release/world-another-me-v14-xhs.zip'
+zip_path.parent.mkdir(exist_ok=True)
 with zipfile.ZipFile(zip_path,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
  for path in sorted(O.rglob('*')):
   if path.is_file():z.write(path,path.relative_to(O).as_posix())
 assert zip_path.stat().st_size<=10*1024*1024
-print(json.dumps({'zip':str(zip_path),'bytes':zip_path.stat().st_size,'sha256':hashlib.sha256(zip_path.read_bytes()).hexdigest(),'files':len([p for p in files if p.is_file()]),'entry':'index.html','syntax':'ES2017 authored; Chrome 61/device compatibility NOT physically tested'},ensure_ascii=False,indent=2))
+text_files=[f for f in files if f.is_file() and f.suffix in ('.html','.css','.js','.json')]
+report={'version':14,'schemaVersion':D['version'],'historicalSchemas':[10,11,12],'zip':str(zip_path),'bytes':zip_path.stat().st_size,'sha256':hashlib.sha256(zip_path.read_bytes()).hexdigest(),'files':len([p for p in files if p.is_file()]),'entry':'index.html','unpackedTextBytes':sum(f.stat().st_size for f in text_files),'largeTextFiles':[{'path':f.relative_to(O).as_posix(),'bytes':f.stat().st_size} for f in text_files if f.stat().st_size>2*1024**2],'historyPolicy':'Exact schema 10/11/12 snapshots and their portrait mappings retained for existing local records; no runtime compressed-data loader.','syntax':'ES2017 authored; Chrome 61/device compatibility NOT physically tested'}
+(R/'dist/xhs-build-v14.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+print(json.dumps(report,ensure_ascii=False,indent=2))

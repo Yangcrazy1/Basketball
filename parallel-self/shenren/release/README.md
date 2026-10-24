@@ -1,4 +1,18 @@
-# 平行宇宙的另一个我 · V13
+# 平行宇宙的另一个我 · V14
+
+手机网页：https://yangcrazy1.github.io/Basketball/v14/
+
+内容审阅、上传包、独立原稿与截图：https://yangcrazy1.github.io/Basketball/v14/review.html
+
+- `world-another-me-v14-xhs.zip`：小红书最终待上传包，根目录 index.html，运行资源全部本地提供。
+- `world-another-me-v14.html`：完整图片和题库的离线网页；手机直接体验推荐 HTTPS 入口。
+- `world-another-me-v14-web.zip`：网页部署包。
+
+58 位人物、332 道题、58 条六幕故事；137 张人物代表卡去重共享，另有37张通用海克斯。默认浅暖纸色、两次故事选择、真实能力背包、五人合照。
+
+实际大小、SHA与检查见 `docs/v14-build-manifest.json`、`docs/xhs-validation-v14.json`。小红书 ZIP 低于 10 MiB 上限；**仍须将同一 ZIP 上传创服平台做模拟器完整验证，再分别用 Android 与 iOS 真机扫码验证**。Chrome 61 CSS 和真实设备性能未实测；静态检查和SDK模拟不代表平台验收或审核通过。
+
+## 以下为保留的 V13 历史交付
 
 手机直接打开：https://yangcrazy1.github.io/Basketball/v13/
 

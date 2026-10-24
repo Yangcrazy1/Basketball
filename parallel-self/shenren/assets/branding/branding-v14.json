@@ -1,0 +1,71 @@
+{
+  "logo": {
+    "png": "branding/logo-v13.png",
+    "webp": "branding/logo-v13.webp",
+    "source": "原创AI绘制",
+    "originalName": "exec-10a2ddcd-bd8b-46c8-bdaf-24ace3102e4d.png",
+    "sha256": "46efe9d3d115b8848ed96f911580aa75dac9fb03ceec254932f6b82b4fd35b8c"
+  },
+  "cover": {
+    "png": "branding/cover-v13.png",
+    "webp": "branding/cover-v13.webp",
+    "source": "原创AI绘制",
+    "originalName": "exec-bffe078b-86c1-4177-8c28-c1f83cb4e4bc.png",
+    "sha256": "ff2d5d0ec6d3341ef5dfb2b35754a391deea54dc251eff0e07fb20feac3b6435"
+  },
+  "revealLol": {
+    "png": "branding/revealLol-v13.png",
+    "webp": "branding/revealLol-v13.webp",
+    "source": "原创AI绘制",
+    "originalName": "exec-23d9e2a5-2155-409a-9560-6db7f1de3916.png",
+    "sha256": "6205ebb82c412b2c27c2b769d6c3bfd518e94337f9c3a9c210c5c9169550e18d"
+  },
+  "revealBasket": {
+    "png": "branding/revealBasket-v13.png",
+    "webp": "branding/revealBasket-v13.webp",
+    "source": "原创AI绘制",
+    "originalName": "exec-6b559d69-d159-47d5-b9e7-7050f45f7ed6.png",
+    "sha256": "239df3b91df555ef9ddc2aab3635b9185da6282f59b26732fdd5b508485521c6"
+  },
+  "revealAbstract": {
+    "png": "branding/revealAbstract-v13.png",
+    "webp": "branding/revealAbstract-v13.webp",
+    "source": "原创AI绘制",
+    "originalName": "exec-ad608c08-2ac6-459f-9dc6-e15c9ce41b7b.png",
+    "sha256": "b9b3e490d9e95a49e3f4e03053750bf9c6be770dae85e4fc2604a561ce43ce44"
+  },
+  "uziEnding": {
+    "png": "branding/uzi-ending.png",
+    "webp": "branding/uzi-ending.webp"
+  },
+  "introRealLife": {
+    "png": "branding/intro-real-life-v14.png",
+    "webp": "branding/intro-real-life-v14.webp",
+    "source": "原创AI绘制，V14独立简约暖色绘本分镜",
+    "originalName": "exec-3b83b3db-f3a5-4fcd-a21f-be5198bf7fb2.png",
+    "originalSha256": "925bcf6fa6ac2068c53c1f927262afa4fb2c8fdb1f9aac6671e043b94f010e08",
+    "sha256": "17bd93019cfa32cea385e7ec5c350a5b0bc32178a3e65db47fbbfdc5d7d34b50",
+    "width": 800,
+    "height": 1000
+  },
+  "introMirror": {
+    "png": "branding/intro-mirror-v14.png",
+    "webp": "branding/intro-mirror-v14.webp",
+    "source": "原创AI绘制，V14独立简约暖色绘本分镜",
+    "originalName": "exec-d67aef93-0a6e-44ce-a6b1-02fdcb177911.png",
+    "originalSha256": "4dbe9ce085b6ab74308363ba6c7bb40827c8cae9db8e4e8dc7b59e14ccaeabea",
+    "sha256": "fb76c3474c97fa4dd5adf8cb7b495591fc34cc997ce7331f0d1ce057eaf37906",
+    "width": 800,
+    "height": 1000
+  },
+  "introNewWorld": {
+    "png": "branding/intro-new-world-v14.png",
+    "webp": "branding/intro-new-world-v14.webp",
+    "source": "原创AI绘制，V14独立简约暖色绘本分镜",
+    "originalName": "exec-b03952cc-05f6-4f07-b1a1-1e2b87c800cb.png",
+    "originalSha256": "f2d4c4f6e297e0adea7466ecfab33dd8b33b3b252caa432ec1bec301defe213f",
+    "sha256": "c5adbc978a394babdce9f249ab44ec050d860e4331431b101d0da265a370afcd",
+    "width": 800,
+    "height": 1000
+  }
+}

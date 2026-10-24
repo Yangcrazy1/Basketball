@@ -1,9 +1,10 @@
+// V13 regression: execute the exact schema 12 snapshot, independently of current V14 data.
 // Domain checks for the authored supplement; this file never modifies live data.
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
-const E = require('../src/engine.js');
+const E = require('../src/legacy-v12/engine.js');
 const root = path.join(__dirname, '..');
 const patch = JSON.parse(fs.readFileSync(path.join(root, 'content/v13-roster-additions.json'), 'utf8'));
 const evidenceFix = JSON.parse(fs.readFileSync(path.join(root, 'content/v13-evidence-fix.json'), 'utf8'));
@@ -16,7 +17,7 @@ for (const v of evidenceFix.questions) {
   if (v.title) q.title = v.title;
   for (const o of v.options || []) Object.assign(q.options.find(x => x.id === o.id), o);
 }
-const base = JSON.parse(fs.readFileSync(path.join(root, 'src/data.json'), 'utf8'));
+const base = JSON.parse(fs.readFileSync(path.join(root, 'src/legacy-v12/data.json'), 'utf8'));
 const dims = ['social', 'explore', 'empathy', 'action', 'order', 'express'];
 const lolDims = ['tilt', 'greed', 'risk', 'team', 'craft', 'plan'];
 const expected = ['wuyou','xire','tmac','shaq','doncic','shai','rodman','wilt','yujie','musk','trump','renzhengfei','yuchengdong','jensen','nida','yili','wangsicong'];

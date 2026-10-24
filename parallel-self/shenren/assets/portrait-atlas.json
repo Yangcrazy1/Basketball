@@ -202,6 +202,18 @@
       "height": 1254,
       "sha256": "b7b225f8801590ea927d0741daf2136fed308c4043b212e3a91163ada3cc72e2",
       "generatedOriginalName": "exec-550da47a-3723-46d8-b851-d2c8d26e3556.png"
+    },
+    {
+      "asset": "portraits-v14-new.webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 2,
+      "rows": 2,
+      "sha256": "0b48c5b3fba903c6cde09cb7d60e030aaafebbfa4c10fbbdf7a6d4d00a2e2335",
+      "generatedOriginalName": "exec-6f30e605-2f9c-4fb9-bbbf-98550fab88b7.png",
+      "generatedOriginalSha256": "880235e70d598cf4d53c8807dee094f2eb4410b1a2680485666652d98a4d87d8",
+      "kind": "基于核对真人照片生成的原创漫画头像",
+      "note": "本地 sheet 索引为 0；root 合并旧 atlas 时需整体偏移。上左格林，上右恶鼠，下左格林播客备用，下右恶鼠持球备用。"
     }
   ],
   "portraits": {
@@ -635,6 +647,14 @@
     },
     "yili": {
       "sheet": 28,
+      "cell": 1
+    },
+    "draymond-green": {
+      "sheet": 29,
+      "cell": 0
+    },
+    "ershu": {
+      "sheet": 29,
       "cell": 1
     }
   }

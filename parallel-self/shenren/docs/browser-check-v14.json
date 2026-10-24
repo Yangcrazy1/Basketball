@@ -1,0 +1,156 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "id": "intro",
+      "text": "three new story pages, collapsed replay, small entry and six responsive widths"
+    },
+    {
+      "id": "new-art",
+      "text": "three independently packaged V14 4:5 story illustrations load as distinct actual bitmap assets"
+    },
+    {
+      "id": "replay-palette",
+      "text": "opening can be replayed every visit and from header; collapsed story and palette persistence"
+    },
+    {
+      "id": "navigation",
+      "text": "keyboard opening/focus trap/Escape focus return, bottom navigation and browser back close the gallery without leaving the app"
+    },
+    {
+      "id": "collector",
+      "text": "Collector effect restores four teammates leading to a Collector-only shop, with five real icon copies"
+    },
+    {
+      "id": "catalog",
+      "text": "dynamic expanded roster counts, resolved aliases, no placeholder portraits, nested back and restored scroll"
+    },
+    {
+      "id": "new-cast",
+      "text": "Green/Ershu have portraits, story entries and representative cards; NBA/folk groups stay separate and Zhang Ziyi resolves only to Ershu"
+    },
+    {
+      "id": "cards",
+      "text": "all enabled cards browseable, owner filter and full trigger/effect/punchline details preserved"
+    },
+    {
+      "id": "shared-cards",
+      "text": "six shared cards exist once and both owners open the same card through actual character tags"
+    },
+    {
+      "id": "automatic-advance",
+      "text": "a real random chapter, automatic advance, stale double-tap protection and back-edit still work"
+    },
+    {
+      "id": "reveal-portraits",
+      "text": "three distinct loaded theme backgrounds reveal the matched portrait at least 60% of scene width at four mobile widths; result portraits remain enlarged"
+    },
+    {
+      "id": "quiz",
+      "text": "all nine theme/count flows complete, show raw match evidence, and keep popularity priority within the answer-related score boundary"
+    },
+    {
+      "id": "posters",
+      "text": "custom lineup, independent team-name reroll/history persistence and both real 1080×1920 PNG exports"
+    },
+    {
+      "id": "html-download",
+      "text": "online HTML download is exactly the full current self-contained artifact"
+    },
+    {
+      "id": "stories",
+      "text": "five samples plus Green/Ershu run through real choices; acquired-only events, distinct endings, backtracking reward removal, refresh resume, record/card consistency and actual story PNG export work"
+    },
+    {
+      "id": "v10-history",
+      "text": "old schema 10 record keeps frozen-engine identity, original custom squad and saved team name"
+    },
+    {
+      "id": "v11-history",
+      "text": "old schema 11 record keeps frozen-engine identity, original custom squad and saved team name"
+    },
+    {
+      "id": "v12-history",
+      "text": "old schema 12 record keeps frozen-engine identity, original custom squad and saved team name"
+    },
+    {
+      "id": "standalone-squad",
+      "text": "self-selected five-person squad saves its distinct members/name and exports PNG without a quiz"
+    },
+    {
+      "id": "offline",
+      "text": "full standalone HTML runs with network/storage unavailable and completes a real eight-question quiz"
+    },
+    {
+      "id": "image-fallback",
+      "text": "failed first-panel bitmap keeps story text and continue/skip buttons functional at a narrow mobile viewport"
+    },
+    {
+      "id": "native-web-fallback",
+      "text": "staged XHS no-SDK web fallback loads local assets; platform/device acceptance remains pending"
+    },
+    {
+      "id": "native-contract",
+      "text": "mock SDK applies a 70px native capsule offset to real header/modal geometry without hiding intro CTA, then saves the team poster via temporary file and explicit album button"
+    },
+    {
+      "id": "runtime-clean",
+      "text": "no page JavaScript exceptions, HTTP failures or external runtime resource requests"
+    }
+  ],
+  "checkIds": [
+    "intro",
+    "new-art",
+    "replay-palette",
+    "navigation",
+    "collector",
+    "catalog",
+    "new-cast",
+    "cards",
+    "shared-cards",
+    "automatic-advance",
+    "reveal-portraits",
+    "quiz",
+    "posters",
+    "html-download",
+    "stories",
+    "v10-history",
+    "v11-history",
+    "v12-history",
+    "standalone-squad",
+    "offline",
+    "image-fallback",
+    "native-web-fallback",
+    "native-contract",
+    "runtime-clean"
+  ],
+  "count": 24,
+  "viewport": "393×852 Chromium mobile viewport; not physical phone or XHS platform acceptance",
+  "layoutWidths": [
+    320,
+    360,
+    390,
+    393,
+    430,
+    1280
+  ],
+  "html_sha256": "7de02af15fc2ac1c24186dc3d054efdc782adf7a7aa4013b926a449cec241b00",
+  "enabledPeople": 58,
+  "byThemePeople": {
+    "lol": 21,
+    "basket": 20,
+    "abstract": 17
+  },
+  "cards": 174,
+  "introIllustrationSHA256": {
+    "introRealLife": "17bd93019cfa32cea385e7ec5c350a5b0bc32178a3e65db47fbbfdc5d7d34b50",
+    "introMirror": "fb76c3474c97fa4dd5adf8cb7b495591fc34cc997ce7331f0d1ce057eaf37906",
+    "introNewWorld": "c5adbc978a394babdce9f249ab44ec050d860e4331431b101d0da265a370afcd"
+  },
+  "revealBackgroundSHA256": {
+    "lol": "6205ebb82c412b2c27c2b769d6c3bfd518e94337f9c3a9c210c5c9169550e18d",
+    "basket": "239df3b91df555ef9ddc2aab3635b9185da6282f59b26732fdd5b508485521c6",
+    "abstract": "b9b3e490d9e95a49e3f4e03053750bf9c6be770dae85e4fc2604a561ce43ce44"
+  },
+  "pendingAvatars": []
+}

@@ -1657,5 +1657,31 @@
       "cell": 1
     },
     "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "draymond-green",
+    "name": "德雷蒙德·格林",
+    "sourcePage": "https://en.wikipedia.org/wiki/Draymond_Green",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Draymond_Green_2022.jpg/500px-Draymond_Green_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "localPath": "/workspace/scratch/v14-research/references/draymond-green.image",
+    "sha256": "90cf4a3ad6b665df1da5e453c4939a2b91fbb30dfa74fe1adc030a8ab90b0d3b",
+    "verifiedReference": true,
+    "faceVerified": true,
+    "identityNote": "Draymond Green 人物页 infobox 的 Draymond_Green_2022.jpg；已目视确认本人宽脸、短发、厚胡须；非其他同姓 Green。",
+    "checkedAt": "2026-10-24",
+    "asset": "v14-references/draymond-green.image"
+  },
+  {
+    "id": "ershu",
+    "name": "恶鼠／张梓祎",
+    "sourcePage": "https://k.sina.cn/article_6073579234_16a0376e2001020wx0.html",
+    "imageUrl": "https://k.sinaimg.cn/n/sinakd20100/540/w640h700/20221129/7770-f25b12c7e5808374198f7fd574ccb04f.jpg/w700d1q75cms.jpg",
+    "localPath": "/workspace/scratch/v14-research/references/ershu-candidate-5.image",
+    "sha256": "01bbab1acb033f2a2d492b9e47cc9ba0e887ea91b6ace0e3fc16d1b42163440c",
+    "verifiedReference": true,
+    "faceVerified": true,
+    "identityNote": "用户文档所列新浪篮球报道明确写明恶鼠张梓祎发起百分大战；采用该文结尾单人近照，并与该文开头单人侧脸交叉目视。短脏辫、两侧剃短、棱角脸；未采用同文李青翔或孟铎配图。",
+    "checkedAt": "2026-10-24",
+    "asset": "v14-references/ershu.image"
   }
 ]
