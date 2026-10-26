@@ -1,0 +1,1 @@
+{ "desc": "娱乐测试，无公开用户档案", "rules": [{ "action": "allow", "page": "pages/home/index" }] }

@@ -1,0 +1,58 @@
+{
+  "productName": "整活NBA",
+  "createdAt": "2026-10-26",
+  "source": "Original AI-generated artwork via image_gen; not a film poster, real athlete portrait or league/team logo",
+  "visualDirection": "Purple-and-gold cosmic comic, black hole and gravitational-lensing basketball motif",
+  "logo": {
+    "original": {
+      "path": "branding/logo.png",
+      "bytes": 1178299,
+      "sha256": "573695b3659a831eb7aa259ef4e9389fd8d39e0b1b95dc0a473bf138b8093061",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA"
+    },
+    "runtime": {
+      "path": "assets/logo.webp",
+      "bytes": 14398,
+      "sha256": "6c5a1037de779e43f8a3b9b5c11ee5202027964c9aa7ddd37fbb590b3a22028d",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA"
+    },
+    "sourceOriginal": "/workspace/generated_images/exec-7da76a75-3f4c-43aa-acd6-c00531766141.png",
+    "transparentBackground": true,
+    "alphaRange": [
+      0,
+      255
+    ],
+    "visuallyReviewed": true,
+    "review": "Black-hole center, purple/gold accretion ring, subtle basketball seams; no words or trademark marks."
+  },
+  "cover": {
+    "original": {
+      "path": "branding/cover.png",
+      "bytes": 3323098,
+      "sha256": "bfc026b62485d153df145af7a0d246106dda4daa09e9ee06a0a65ece678e0f71",
+      "width": 1086,
+      "height": 1448,
+      "mode": "RGB"
+    },
+    "compressed": {
+      "path": "branding/cover.webp",
+      "bytes": 284620,
+      "sha256": "c37f1fdcf587d256d88122c6dc48c0bda36bad43fdf243f53e43cc73a931d418",
+      "width": 900,
+      "height": 1200,
+      "mode": "RGB"
+    },
+    "sourceOriginal": "/workspace/generated_images/exec-c4d80b10-eaab-43b8-bab1-447b6980fb5b.png",
+    "aspectRatio": "3:4",
+    "title": "整活NBA",
+    "subtitle": "换个宇宙，你是哪位球星？",
+    "runtimeIncluded": false,
+    "visuallyReviewed": true,
+    "review": "Correct full Chinese title and subtitle; original adult young man in two parallel basketball timelines, black hole, purple/gold cosmic court and illustrated polaroids."
+  },
+  "technicalProcessing": "PNG originals copied without modification. Only proportional resizing and WebP compression performed; no programmatic drawing or creative image editing."
+}

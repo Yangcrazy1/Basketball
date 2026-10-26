@@ -1,0 +1,21 @@
+<view class="page">
+  <view class="hero">
+    <view class="blackhole" aria-hidden="true"></view>
+    <text class="eyebrow">平行球场 · 娱乐测试</text>
+    <text class="title">整活NBA</text>
+    <text class="subtitle">换个球场，看看另一个自己。 几个日常选择，测出你的球星人设与专属海克斯。</text>
+  </view>
+  <view class="section-head">先选这次的题量</view>
+  <view class="grid3">
+    <button wx:for="{{modes}}" wx:key="*this" class="mode {{count === item ? 'selected' : ''}}" data-count="{{item}}" bindtap="choose"><view>{{item}}题</view><text class="tiny">{{item === 8 ? '轻松接梗' : item === 16 ? '多点细节' : '完整体验'}}</text></button>
+  </view>
+  <button class="primary" bindtap="start">开始娱乐测试 →</button>
+  <text class="tiny">点选自动下一题 · 每次随机 · 可以返回改选</text>
+  <button wx:if="{{draft}}" class="secondary" bindtap="resume">继续上次测试 · {{draft.answered}}/{{draft.count}}题</button>
+  <view class="section-head">这个球场，可能遇到</view>
+  <view class="grid3">
+    <view wx:for="{{samples}}" wx:key="personId" class="card" data-pid="{{item.personId}}" bindtap="person"><image class="portrait" mode="aspectFill" src="{{item.avatar}}"/><view class="person-name">{{item.name}}</view></view>
+  </view>
+  <view class="nav-links"><button class="secondary" bindtap="people">球星与海克斯图鉴</button><button class="secondary" bindtap="diy">DIY 我的整活球星</button><button wx:if="{{latest}}" class="secondary" bindtap="result">上次的平行身份</button></view>
+  <view class="notice">{{people}}位人物 · {{questions}}道场景题 · {{cards}}张海克斯 娱乐二创，不是心理或篮球能力测评。答案与DIY只保存在本机。</view>
+</view>

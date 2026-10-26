@@ -1,0 +1,21 @@
+<view class="page">
+  <block wx:if="{{ready}}">
+    <text class="eyebrow">穿越完成 · 这是本轮真实作答匹配</text>
+    <view class="result-hero"><image class="portrait" mode="aspectFill" src="{{identity.avatar}}"/><text class="tiny">在另一个球场，你成为了</text><text class="result-name">{{identity.nickname || identity.name}}</text><text class="muted">{{identity.sub}}</text><view class="tags"><text class="pill">原始匹配 {{identity.match}}%</text><text class="pill">{{result.profile.name}}</text></view></view>
+    <view class="hex-card"><text class="hex-label">你的本命整活海克斯</text><image wx:if="{{augment.image}}" class="portrait" mode="aspectFit" src="{{augment.image}}"/><text class="hex-name">{{augment.name}}</text><text class="hex-effect">{{augment.displayEffect}}</text><text class="muted">{{augment.punchline}}</text></view>
+    <view class="card"><text class="person-name">{{result.story[0]}}</text><text class="story-text">{{result.story[1]}}</text><button class="primary" bindtap="story">走进会被选择改变的平行人生</button></view>
+    <view class="section-head">五个人，凑不出一个正常队</view><view class="card"><text class="hex-name">{{result.teamName.title}}</text><text class="muted">{{result.teamName.motto}}</text><button class="secondary" bindtap="reroll">随机换个离谱队名</button></view>
+    <view class="team-grid"><view wx:for="{{team}}" wx:key="personId" class="team-item" data-pid="{{item.personId}}" bindtap="person"><text class="team-role">{{roles[index]}} {{item.isYou ? ' / 就是我' : item.isDIY ? ' / DIY队友' : ''}}</text><view wx:if="{{item.isDIY}}" class="jersey" style="background:{{item.avatarColor}}">{{item.number}}</view><image wx:else class="portrait" mode="aspectFill" src="{{item.avatar}}"/><text class="person-name">{{item.displayName}}</text><text class="tiny">{{item.displayLine}}</text><text wx:if="{{item.isDIY}}" class="tiny">专属整活：{{item.signature.name}} · {{item.signature.effect}}</text></view></view>
+    <button class="secondary" bindtap="editTeam">{{editingTeam ? '收起阵容选择' : '自选这五个人'}}</button>
+    <view wx:if="{{editingTeam}}" class="card"><text class="notice">自由整活，不限制现实位置；五个人不能重复。自选阵容不改变你的原始匹配身份。</text><picker wx:for="{{roles}}" wx:key="*this" range="{{peopleNames}}" value="{{teamSelection[index]}}" data-slot="{{index}}" bindchange="pickTeam"><view class="field input">{{item}} → {{peopleNames[teamSelection[index]]}} ▾</view></picker><button class="primary" bindtap="saveTeam">保存五人阵容</button><button class="secondary" bindtap="resetTeam">恢复自动匹配队友</button></view>
+    <button class="secondary" bindtap="toggleDIY">{{hasDIY ? (diyIncluded ? '移出DIY队友，恢复原阵容' : '加入我创建的DIY球星') : '先创建一个DIY球星'}}</button>
+    <view class="section-head">本轮六维整活面板</view><view class="card"><view wx:for="{{dimensions}}" wx:key="label" class="dimension"><text>{{item.label}}</text><view class="dimension-track"><view class="dimension-fill" style="width:{{item.value}}%"></view></view><text class="dimension-value">{{item.value}}</text></view><text class="tiny">本轮反应刻度，不是人群常模或心理诊断。</text></view>
+    <view class="section-head">这张卡为什么盯上你</view><view class="card"><view wx:for="{{augment.evidence}}" wx:key="id"><text class="tiny">{{item.scene}}</text><text class="story-text">你选了「{{item.choice}}」</text></view><text wx:if="{{!augment.evidence.length}}" class="muted">这张主题补给与你本轮的风格接近。</text></view>
+    <button class="primary" bindtap="poster" loading="{{posterBusy}}" disabled="{{posterBusy}}">生成五人合照海报</button>
+    <view id="poster-output" wx:if="{{posterPath}}"><image class="poster" src="{{posterPath}}" mode="widthFix" bindtap="preview"/><button class="primary" bindtap="savePoster">保存图片到相册</button><button class="secondary" bindtap="preview">预览完整海报</button></view>
+    <button class="secondary" bindtap="restart">再测一局，换一组题</button><button class="secondary" bindtap="home">返回平行球场</button><button class="secondary" open-type="share">邀请朋友来测</button>
+    <view class="notice">身份按本轮答案计算。角色、剧情与海克斯均为娱乐二创；DIY是你自建的队友，没有改写测试结果。</view>
+  </block>
+  <block wx:else><view class="empty">还没有完成的测试记录</view><button class="primary" bindtap="home">去首页开始测试</button></block>
+  <canvas class="poster-canvas" canvas-id="posterCanvas" style="width:540px;height:960px"></canvas>
+</view>

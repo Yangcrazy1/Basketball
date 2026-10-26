@@ -1,0 +1,7 @@
+dist/
+__pycache__/
+*.pyc
+wechat/miniprogram/lib/*
+!wechat/miniprogram/lib/native.js
+!wechat/miniprogram/lib/poster.js
+wechat/miniprogram/assets/

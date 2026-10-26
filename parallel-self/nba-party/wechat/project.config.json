@@ -1,0 +1,16 @@
+{
+  "appid": "touristappid",
+  "projectname": "zhenghuo-nba",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "miniprogram/",
+  "libVersion": "3.8.7",
+  "setting": {
+    "es6": true,
+    "enhance": true,
+    "minified": true,
+    "postcss": true,
+    "urlCheck": true,
+    "compileHotReLoad": true
+  },
+  "packOptions": { "ignore": [], "include": [] }
+}

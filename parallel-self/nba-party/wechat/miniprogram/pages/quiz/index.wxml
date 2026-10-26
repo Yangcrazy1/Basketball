@@ -1,0 +1,8 @@
+<view class="page" wx:if="{{question}}">
+  <view class="row"><text class="eyebrow">球场日常 · 第一反应</text><text>{{index}} / {{count}}</text></view>
+  <view class="progress-track"><view class="progress-fill" style="width:{{percent}}%"></view></view>
+  <view class="hero"><text class="pill">{{question.scene}}</text><text class="title" style="font-size:44rpx;margin-top:28rpx">{{question.title}}</text></view>
+  <button wx:for="{{question.options}}" wx:key="id" class="option {{busy ? 'disabled' : ''}}" disabled="{{busy}}" data-question="{{question.id}}" data-option="{{item.id}}" bindtap="answer"><text class="option-letter">{{index === 0 ? 'A' : index === 1 ? 'B' : index === 2 ? 'C' : 'D'}}</text><text class="option-text">{{item.text}}</text></button>
+  <text class="tiny">{{busy ? '已记录，下一题正在路上…' : '选中即跳转，凭第一反应就好。'}}</text>
+  <button class="secondary" bindtap="previous" disabled="{{busy}}">{{index > 1 ? '← 上一题，改个选择' : '← 返回首页'}}</button>
+</view>

@@ -1,0 +1,10 @@
+<view class="page" wx:if="{{view}}">
+  <view class="row"><text class="eyebrow">{{person.name}}的平行人生</text><text>{{view.progress.current}} / {{view.progress.total}} 幕</text></view>
+  <view class="card row"><image class="portrait" mode="aspectFill" src="{{person.avatar}}"/><view><view class="person-name">{{view.title}}</view><text class="tiny">{{view.isEnding ? '这条时间线的结局' : '这一次，由你来选'}}</text></view></view>
+  <view class="card"><text class="story-text">{{view.text}}</text><view wx:for="{{view.cardEvents}}" wx:key="cardId" class="notice"><text>{{item.owned ? '✦ 已获得能力发动' : '这个回合'}}</text><text class="story-text">{{item.text}}</text></view></view>
+  <button wx:for="{{view.choices}}" wx:key="id" class="primary" data-choice="{{item.id}}" bindtap="choice">{{item.text}} →</button>
+  <block wx:if="{{!view.isEnding}}"><button wx:if="{{!view.choices.length}}" class="primary" bindtap="next">继续故事 →</button></block>
+  <button wx:if="{{view.canBack}}" class="secondary" bindtap="previous">← 上一幕，换个选择</button><button wx:if="{{view.isEnding}}" class="primary" bindtap="restart">再走一次这条人生</button>
+  <view class="section-head">这条故事实际获得的能力 · {{owned.length}}</view><view class="tags"><text wx:for="{{owned}}" wx:key="id" class="pill">{{item.name}}</text></view>
+  <view class="notice">故事与对白是娱乐二创。只有实际获得的卡才会发动，返回改选会重算后续能力。</view>
+</view>

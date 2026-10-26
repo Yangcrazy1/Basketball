@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "count": 10,
+  "checks": [
+    "NBA-only purple/gold home, final content counts and five responsive widths",
+    "real eight-question result, automatic advance, double-tap guard, back-edit and refresh resume",
+    "real answer evidence, distinct random team name and five-person custom team with duplicate rejection",
+    "DIY create/edit, safe literal text, snapshot teammate persistence and real five-person 1080×1920 PNG",
+    "six-scene story branches, actual acquired-card triggers, distinct endings, backtracking and PNG export",
+    "complete sixteen- and twenty-four-question flows retain real basketball results and five teammates",
+    "full 21-person catalog, Kun alias search and all 51 actual comic card icons",
+    "standalone HTML completes a quiz with network and persistent storage unavailable",
+    "XHS SDK simulation avoids capsule and saves a temporary poster only after explicit user action",
+    "no page exceptions or failed runtime resources"
+  ],
+  "dataSHA256": "249ee20a45478be4d33fa569186c12e708d0b84c1e0af836584e2017a34ddef8",
+  "appSHA256": "72fc69e40dc6e79d66a92f4e9a2beeee1f26c33bb849a48bff7a6be7eda07832",
+  "device": "393×852 Chromium viewport emulation, not native or physical phone acceptance",
+  "standaloneDelivery": "Served the self-contained HTML over local HTTP; all additional network requests blocked and localStorage denied. file: navigation is blocked by managed browser policy."
+}

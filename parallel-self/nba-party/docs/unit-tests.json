@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "tests": 7,
+  "failures": 0,
+  "log": "docs/unit-tests.tap",
+  "sha256": "f8bfd5810cea6a00a7fb08e039f3774a4cb1f736de8702813dcb04d06de69e6d",
+  "nativeScope": "Node API/state simulation, not WeChat Developer Tools or physical-device acceptance"
+}

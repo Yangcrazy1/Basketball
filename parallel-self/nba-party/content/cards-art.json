@@ -1,0 +1,770 @@
+{
+  "version": 1,
+  "cards": {
+    "v14-perk-7a46ef361c": {
+      "src": "assets/cards/v14-perk-7a46ef361c.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "5c62496a4e46016efb63367d85d6c7ac7c1fd54b15776180b9566966051801ca",
+      "bytes": 5522,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v12-basket.webp",
+      "sourceAssetSHA256": "b910948362c91b99952d5ae9b505bef89f013f6bebe2d179af766ac0b0c72a43",
+      "sourceSprite": {
+        "sheet": 1,
+        "cell": 12
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-adab162b78": {
+      "src": "assets/cards/v14-perk-adab162b78.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "e2680255d4520634f57395f73e12b4f83d394dfcc6381a82403c704554e10823",
+      "bytes": 4268,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v9.webp",
+      "sourceAssetSHA256": "9b6b60714fddd5d41cada92ce7af49bc91334a526b549274c5e3797cc05e023c",
+      "sourceSprite": {
+        "sheet": 0,
+        "cell": 5
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-7a559daaf6": {
+      "src": "assets/cards/v14-perk-7a559daaf6.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "73d0de6937c90603329ec03d81238ec580fc3d80d1984ff832dadbf494dabaee",
+      "bytes": 3892,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v9.webp",
+      "sourceAssetSHA256": "9b6b60714fddd5d41cada92ce7af49bc91334a526b549274c5e3797cc05e023c",
+      "sourceSprite": {
+        "sheet": 0,
+        "cell": 1
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-4c28ae7aa6": {
+      "src": "assets/cards/v14-perk-4c28ae7aa6.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "b044c286d11578c12635e573aa3629930277a270eef39f66fcea388c9eb1eb23",
+      "bytes": 4892,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v12-basket.webp",
+      "sourceAssetSHA256": "b910948362c91b99952d5ae9b505bef89f013f6bebe2d179af766ac0b0c72a43",
+      "sourceSprite": {
+        "sheet": 1,
+        "cell": 14
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-c5adcbaab5": {
+      "src": "assets/cards/v14-perk-c5adcbaab5.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "f63d538eddc9ecba3125043a1d84c656c17e2ffec5717fe53f8f499b8ebc9baf",
+      "bytes": 5278,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v12-basket.webp",
+      "sourceAssetSHA256": "b910948362c91b99952d5ae9b505bef89f013f6bebe2d179af766ac0b0c72a43",
+      "sourceSprite": {
+        "sheet": 1,
+        "cell": 13
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-1c49c20391": {
+      "src": "assets/cards/v14-perk-1c49c20391.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "d3b48b357be230f53fd65015bf0103cc734eb94e83bd329b0a688787208542dd",
+      "bytes": 5220,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v12-basket.webp",
+      "sourceAssetSHA256": "b910948362c91b99952d5ae9b505bef89f013f6bebe2d179af766ac0b0c72a43",
+      "sourceSprite": {
+        "sheet": 1,
+        "cell": 1
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-b245730508": {
+      "src": "assets/cards/v14-perk-b245730508.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "22451bb6a586763999476f960c2e18f32ea5331f7f76b6be20a94e8b3cde895e",
+      "bytes": 4604,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v9.webp",
+      "sourceAssetSHA256": "9b6b60714fddd5d41cada92ce7af49bc91334a526b549274c5e3797cc05e023c",
+      "sourceSprite": {
+        "sheet": 0,
+        "cell": 0
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-6c6f231aff": {
+      "src": "assets/cards/v14-perk-6c6f231aff.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "73d0de6937c90603329ec03d81238ec580fc3d80d1984ff832dadbf494dabaee",
+      "bytes": 3892,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v9.webp",
+      "sourceAssetSHA256": "9b6b60714fddd5d41cada92ce7af49bc91334a526b549274c5e3797cc05e023c",
+      "sourceSprite": {
+        "sheet": 0,
+        "cell": 1
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-c7d2103b14": {
+      "src": "assets/cards/v14-perk-c7d2103b14.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "c1b373913f8e005415739aa3a184e144dbd37412be3eeac461b5e0267c871594",
+      "bytes": 5056,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-basket.webp",
+      "sourceAssetSHA256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+      "sourceSprite": {
+        "sheet": 3,
+        "cell": 4
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-ffa15049ea": {
+      "src": "assets/cards/v14-perk-ffa15049ea.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "62128eb714b7852d91aa30a6239d35f8d2950df3ceff03a3a7091d68c876afa1",
+      "bytes": 4328,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v9.webp",
+      "sourceAssetSHA256": "9b6b60714fddd5d41cada92ce7af49bc91334a526b549274c5e3797cc05e023c",
+      "sourceSprite": {
+        "sheet": 0,
+        "cell": 10
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-63f59ebc75": {
+      "src": "assets/cards/v14-perk-63f59ebc75.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "5c62496a4e46016efb63367d85d6c7ac7c1fd54b15776180b9566966051801ca",
+      "bytes": 5522,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v12-basket.webp",
+      "sourceAssetSHA256": "b910948362c91b99952d5ae9b505bef89f013f6bebe2d179af766ac0b0c72a43",
+      "sourceSprite": {
+        "sheet": 1,
+        "cell": 12
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-934ad7ffd6": {
+      "src": "assets/cards/v14-perk-934ad7ffd6.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "62128eb714b7852d91aa30a6239d35f8d2950df3ceff03a3a7091d68c876afa1",
+      "bytes": 4328,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v9.webp",
+      "sourceAssetSHA256": "9b6b60714fddd5d41cada92ce7af49bc91334a526b549274c5e3797cc05e023c",
+      "sourceSprite": {
+        "sheet": 0,
+        "cell": 10
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "stepback-route": {
+      "src": "assets/cards/stepback-route.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "4210467d86fe725175977f333e32e63a3d371bdbef8baa56e842a7dfce396e39",
+      "bytes": 5244,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v12-basket.webp",
+      "sourceAssetSHA256": "b910948362c91b99952d5ae9b505bef89f013f6bebe2d179af766ac0b0c72a43",
+      "sourceSprite": {
+        "sheet": 1,
+        "cell": 9
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-179e366c6f": {
+      "src": "assets/cards/v14-perk-179e366c6f.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "e2680255d4520634f57395f73e12b4f83d394dfcc6381a82403c704554e10823",
+      "bytes": 4268,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v9.webp",
+      "sourceAssetSHA256": "9b6b60714fddd5d41cada92ce7af49bc91334a526b549274c5e3797cc05e023c",
+      "sourceSprite": {
+        "sheet": 0,
+        "cell": 5
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-4b09e693d7": {
+      "src": "assets/cards/v14-perk-4b09e693d7.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "f109f4fc2e1e29639418f6070cfb1891a00f586d70e24333dbf9b0913053818a",
+      "bytes": 5094,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v12-basket.webp",
+      "sourceAssetSHA256": "b910948362c91b99952d5ae9b505bef89f013f6bebe2d179af766ac0b0c72a43",
+      "sourceSprite": {
+        "sheet": 1,
+        "cell": 7
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-1385c8763d": {
+      "src": "assets/cards/v14-perk-1385c8763d.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "1b5e246503721194aedfb513380ffd62eef35ca1be0015ed9cc1e7401fe83efc",
+      "bytes": 5584,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-memes.webp",
+      "sourceAssetSHA256": "36a9435904570c8469511d9bfcab37b7b29faba23beb5c1dc7a3f30e04e27b38",
+      "sourceSprite": {
+        "sheet": 4,
+        "cell": 6
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-66e5ed669c": {
+      "src": "assets/cards/v14-perk-66e5ed669c.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "1d0fd5c2efbc4b5e31f4701ac162eb5c1eeba6d114df1b35bb6c09b3432a3dda",
+      "bytes": 6564,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-basket.webp",
+      "sourceAssetSHA256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+      "sourceSprite": {
+        "sheet": 3,
+        "cell": 6
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-bd185383b6": {
+      "src": "assets/cards/v14-perk-bd185383b6.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "edb68f92d428a9237b3caaf08909d17e45c8567e3b25a33351d144a9e2b165bd",
+      "bytes": 6582,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v12-basket.webp",
+      "sourceAssetSHA256": "b910948362c91b99952d5ae9b505bef89f013f6bebe2d179af766ac0b0c72a43",
+      "sourceSprite": {
+        "sheet": 1,
+        "cell": 2
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v13-doncic-1": {
+      "src": "assets/cards/v13-doncic-1.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "dbfd05b891de5444da422f6d0e494a2d9c52ee874a58e9c09129a45d12d167cf",
+      "bytes": 5850,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-basket.webp",
+      "sourceAssetSHA256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+      "sourceSprite": {
+        "sheet": 3,
+        "cell": 8
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-d762dcdce2": {
+      "src": "assets/cards/v14-perk-d762dcdce2.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "849fe2577bc9c6b83f43ae180c06182af96b1f4244db576e30f39db909cd9b35",
+      "bytes": 5186,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-basket.webp",
+      "sourceAssetSHA256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+      "sourceSprite": {
+        "sheet": 3,
+        "cell": 1
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-a0704418b6": {
+      "src": "assets/cards/v14-perk-a0704418b6.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "22451bb6a586763999476f960c2e18f32ea5331f7f76b6be20a94e8b3cde895e",
+      "bytes": 4604,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v9.webp",
+      "sourceAssetSHA256": "9b6b60714fddd5d41cada92ce7af49bc91334a526b549274c5e3797cc05e023c",
+      "sourceSprite": {
+        "sheet": 0,
+        "cell": 0
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-4928afba1c": {
+      "src": "assets/cards/v14-perk-4928afba1c.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "496fdc7ef8a53da32aa141488d1d582d1083a5c10c77321ea6f6055545a15505",
+      "bytes": 6372,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-basket.webp",
+      "sourceAssetSHA256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+      "sourceSprite": {
+        "sheet": 3,
+        "cell": 13
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-cfc3b2e85c": {
+      "src": "assets/cards/v14-perk-cfc3b2e85c.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "1b9b22af8d38675e7074aa0863b4f38817a7bc4d6dec34f51f26cb0a23a2f8b0",
+      "bytes": 2528,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v14.webp",
+      "sourceAssetSHA256": "ef6c06d378b7731b2ed36b9444565a337ed371234012f11c44ea3a8b6f99318b",
+      "sourceSprite": {
+        "sheet": 5,
+        "cell": 11
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-1c477c25ac": {
+      "src": "assets/cards/v14-perk-1c477c25ac.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "440c68eb881ad75f9d7cefc9a2d1eb1fd0651c38aa9a64974aa7c48a9d65f92a",
+      "bytes": 3410,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v14.webp",
+      "sourceAssetSHA256": "ef6c06d378b7731b2ed36b9444565a337ed371234012f11c44ea3a8b6f99318b",
+      "sourceSprite": {
+        "sheet": 5,
+        "cell": 12
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-71b1bea6eb": {
+      "src": "assets/cards/v14-perk-71b1bea6eb.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "e72223bdb45b0782dcd315e31559d34ee2f2f37a27d041af80886bd93aad5d54",
+      "bytes": 3430,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v9.webp",
+      "sourceAssetSHA256": "9b6b60714fddd5d41cada92ce7af49bc91334a526b549274c5e3797cc05e023c",
+      "sourceSprite": {
+        "sheet": 0,
+        "cell": 3
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-f1ebf0c2e2": {
+      "src": "assets/cards/v14-perk-f1ebf0c2e2.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "abc583514bb276d5e6c287652bd10e8d96d2d0f98cd7592eeb05a8a2a26cedab",
+      "bytes": 4152,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v12-abstract.webp",
+      "sourceAssetSHA256": "913565eb8e82d369161719925252138829e4a1018f20da53b3164a10b6890694",
+      "sourceSprite": {
+        "sheet": 2,
+        "cell": 2
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-650f8520f9": {
+      "src": "assets/cards/v14-perk-650f8520f9.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "04873e158dfefdae164ad88e9a268971639c21ea6725f30548dcdd9ac2fa45b7",
+      "bytes": 4764,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v12-basket.webp",
+      "sourceAssetSHA256": "b910948362c91b99952d5ae9b505bef89f013f6bebe2d179af766ac0b0c72a43",
+      "sourceSprite": {
+        "sheet": 1,
+        "cell": 4
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-6d35973cd0": {
+      "src": "assets/cards/v14-perk-6d35973cd0.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "35f9571e4d2c2653e1919d0bde5cf6eb145210a0e12a6166667b8147988a1408",
+      "bytes": 4744,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v9.webp",
+      "sourceAssetSHA256": "9b6b60714fddd5d41cada92ce7af49bc91334a526b549274c5e3797cc05e023c",
+      "sourceSprite": {
+        "sheet": 0,
+        "cell": 12
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-9ecefe1f08": {
+      "src": "assets/cards/v14-perk-9ecefe1f08.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "7d72e4dd18fce7382ebf93e26b28fbd81608dfc0f1dc42fd03175a64349d3f4e",
+      "bytes": 4714,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v12-basket.webp",
+      "sourceAssetSHA256": "b910948362c91b99952d5ae9b505bef89f013f6bebe2d179af766ac0b0c72a43",
+      "sourceSprite": {
+        "sheet": 1,
+        "cell": 3
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-69e8e8badd": {
+      "src": "assets/cards/v14-perk-69e8e8badd.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "923181662946fbd4df04c286067fa5f1e85129704780e73f01c99df5682887c3",
+      "bytes": 5908,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-basket.webp",
+      "sourceAssetSHA256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+      "sourceSprite": {
+        "sheet": 3,
+        "cell": 5
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-a78ff8eeee": {
+      "src": "assets/cards/v14-perk-a78ff8eeee.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "c1b373913f8e005415739aa3a184e144dbd37412be3eeac461b5e0267c871594",
+      "bytes": 5056,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-basket.webp",
+      "sourceAssetSHA256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+      "sourceSprite": {
+        "sheet": 3,
+        "cell": 4
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-daee11ced7": {
+      "src": "assets/cards/v14-perk-daee11ced7.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "1d588744c31b6c4cdf1d3e0bc36fa18d10cf0b8c09f0eb1211e6c8f5d2094c9a",
+      "bytes": 6190,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-basket.webp",
+      "sourceAssetSHA256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+      "sourceSprite": {
+        "sheet": 3,
+        "cell": 0
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-521aede329": {
+      "src": "assets/cards/v14-perk-521aede329.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "1406595d3e268b2d662f0e2fd5925a2d3547b88ab355c7f70c90b9eb31328cef",
+      "bytes": 5252,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-basket.webp",
+      "sourceAssetSHA256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+      "sourceSprite": {
+        "sheet": 3,
+        "cell": 2
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-95b3b37896": {
+      "src": "assets/cards/v14-perk-95b3b37896.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "1406595d3e268b2d662f0e2fd5925a2d3547b88ab355c7f70c90b9eb31328cef",
+      "bytes": 5252,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-basket.webp",
+      "sourceAssetSHA256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+      "sourceSprite": {
+        "sheet": 3,
+        "cell": 2
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-ce5ceb7b17": {
+      "src": "assets/cards/v14-perk-ce5ceb7b17.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "1406595d3e268b2d662f0e2fd5925a2d3547b88ab355c7f70c90b9eb31328cef",
+      "bytes": 5252,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-basket.webp",
+      "sourceAssetSHA256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+      "sourceSprite": {
+        "sheet": 3,
+        "cell": 2
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-17d8a5790e": {
+      "src": "assets/cards/v14-perk-17d8a5790e.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "76b0fc936ba0371eca301d146791926cfa2c56e27e46ca52c1a3f6155c3cffc2",
+      "bytes": 4880,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-basket.webp",
+      "sourceAssetSHA256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+      "sourceSprite": {
+        "sheet": 3,
+        "cell": 10
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-560eaf47cf": {
+      "src": "assets/cards/v14-perk-560eaf47cf.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "849fe2577bc9c6b83f43ae180c06182af96b1f4244db576e30f39db909cd9b35",
+      "bytes": 5186,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-basket.webp",
+      "sourceAssetSHA256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+      "sourceSprite": {
+        "sheet": 3,
+        "cell": 1
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-0abe825cce": {
+      "src": "assets/cards/v14-perk-0abe825cce.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "8b2b24528a736d12610826df2dc4aef4de52d0de1097c66dfa3f8d67cfd6e9f5",
+      "bytes": 6396,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-basket.webp",
+      "sourceAssetSHA256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+      "sourceSprite": {
+        "sheet": 3,
+        "cell": 14
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-dc81bdbbe1": {
+      "src": "assets/cards/v14-perk-dc81bdbbe1.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "8b2b24528a736d12610826df2dc4aef4de52d0de1097c66dfa3f8d67cfd6e9f5",
+      "bytes": 6396,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-basket.webp",
+      "sourceAssetSHA256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+      "sourceSprite": {
+        "sheet": 3,
+        "cell": 14
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-b47675dcad": {
+      "src": "assets/cards/v14-perk-b47675dcad.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "615b56bcfe40b688a9921b1cc60e356e453027bd5bb8e4360243ef827023c1fd",
+      "bytes": 3124,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v14.webp",
+      "sourceAssetSHA256": "ef6c06d378b7731b2ed36b9444565a337ed371234012f11c44ea3a8b6f99318b",
+      "sourceSprite": {
+        "sheet": 5,
+        "cell": 13
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-c6e947ee9c": {
+      "src": "assets/cards/v14-perk-c6e947ee9c.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "cd8643a3dd398c8ee6f9eb36b4960fb652327e7f2b90a1556bf545718cb49d30",
+      "bytes": 3506,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v14.webp",
+      "sourceAssetSHA256": "ef6c06d378b7731b2ed36b9444565a337ed371234012f11c44ea3a8b6f99318b",
+      "sourceSprite": {
+        "sheet": 5,
+        "cell": 14
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-050630ef00": {
+      "src": "assets/cards/v14-perk-050630ef00.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "04873e158dfefdae164ad88e9a268971639c21ea6725f30548dcdd9ac2fa45b7",
+      "bytes": 4764,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v12-basket.webp",
+      "sourceAssetSHA256": "b910948362c91b99952d5ae9b505bef89f013f6bebe2d179af766ac0b0c72a43",
+      "sourceSprite": {
+        "sheet": 1,
+        "cell": 4
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-a615ad1a62": {
+      "src": "assets/cards/v14-perk-a615ad1a62.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "1d1d68d832652afba51aefc4524241d18986f4313901124d4e23a814f618fa53",
+      "bytes": 3734,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v14.webp",
+      "sourceAssetSHA256": "ef6c06d378b7731b2ed36b9444565a337ed371234012f11c44ea3a8b6f99318b",
+      "sourceSprite": {
+        "sheet": 5,
+        "cell": 15
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-fd88956cdc": {
+      "src": "assets/cards/v14-perk-fd88956cdc.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "923181662946fbd4df04c286067fa5f1e85129704780e73f01c99df5682887c3",
+      "bytes": 5908,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-basket.webp",
+      "sourceAssetSHA256": "5da49e08e6d8cb31c06cfebccb6d28a23f01d096d328c757c5171f54d7d128a0",
+      "sourceSprite": {
+        "sheet": 3,
+        "cell": 5
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v14-perk-12101bac64": {
+      "src": "assets/cards/v14-perk-12101bac64.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "b672368c05c94e22f573e018297602a9d99c450873760931d8460f7b0d73f626",
+      "bytes": 5182,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v13-memes.webp",
+      "sourceAssetSHA256": "36a9435904570c8469511d9bfcab37b7b29faba23beb5c1dc7a3f30e04e27b38",
+      "sourceSprite": {
+        "sheet": 4,
+        "cell": 3
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "street-pass": {
+      "src": "assets/cards/street-pass.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "22451bb6a586763999476f960c2e18f32ea5331f7f76b6be20a94e8b3cde895e",
+      "bytes": 4604,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v9.webp",
+      "sourceAssetSHA256": "9b6b60714fddd5d41cada92ce7af49bc91334a526b549274c5e3797cc05e023c",
+      "sourceSprite": {
+        "sheet": 0,
+        "cell": 0
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "shot-retry": {
+      "src": "assets/cards/shot-retry.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "22451bb6a586763999476f960c2e18f32ea5331f7f76b6be20a94e8b3cde895e",
+      "bytes": 4604,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v9.webp",
+      "sourceAssetSHA256": "9b6b60714fddd5d41cada92ce7af49bc91334a526b549274c5e3797cc05e023c",
+      "sourceSprite": {
+        "sheet": 0,
+        "cell": 0
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "court-replay": {
+      "src": "assets/cards/court-replay.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "22451bb6a586763999476f960c2e18f32ea5331f7f76b6be20a94e8b3cde895e",
+      "bytes": 4604,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v9.webp",
+      "sourceAssetSHA256": "9b6b60714fddd5d41cada92ce7af49bc91334a526b549274c5e3797cc05e023c",
+      "sourceSprite": {
+        "sheet": 0,
+        "cell": 0
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v15-caixukun-1": {
+      "src": "assets/cards/v15-caixukun-1.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "bf81ba408a6e2a9e222e66379518154b5508d52671c704f97d5ae6593da2527b",
+      "bytes": 4384,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v15.webp",
+      "sourceAssetSHA256": "4a2367ff2eccc388cc82bbe2d3d919092f6ca98f18bb7f8e44b3b8dabd3f1664",
+      "sourceSprite": {
+        "sheet": 6,
+        "cell": 0
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v15-caixukun-2": {
+      "src": "assets/cards/v15-caixukun-2.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "5f695f0cba355f8f65369280cff178f3f0f40c25ada0f78e59bd81aa9d0eb89f",
+      "bytes": 4954,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v15.webp",
+      "sourceAssetSHA256": "4a2367ff2eccc388cc82bbe2d3d919092f6ca98f18bb7f8e44b3b8dabd3f1664",
+      "sourceSprite": {
+        "sheet": 6,
+        "cell": 1
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    },
+    "v15-caixukun-3": {
+      "src": "assets/cards/v15-caixukun-3.webp",
+      "width": 128,
+      "height": 128,
+      "sha256": "a704a6ebf424bab01de3942707a8ef436304ecdbedcf2f00224dbb11944344d2",
+      "bytes": 4008,
+      "sourceType": "classicSprite",
+      "sourceAsset": "parody-icons-v15.webp",
+      "sourceAssetSHA256": "4a2367ff2eccc388cc82bbe2d3d919092f6ca98f18bb7f8e44b3b8dabd3f1664",
+      "sourceSprite": {
+        "sheet": 6,
+        "cell": 2
+      },
+      "transform": "Exact existing artwork crop and technical 128px WebP compression; no redrawing."
+    }
+  }
+}

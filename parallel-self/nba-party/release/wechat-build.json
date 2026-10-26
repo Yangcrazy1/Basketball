@@ -1,0 +1,605 @@
+{
+  "name": "整活NBA",
+  "format": "native WXML/WXSS/JS project; not a web-view wrapper",
+  "runtimeFiles": 101,
+  "mainPackageUncompressedBytes": 1469552,
+  "conservativeMainPackageLimitBytes": 2097152,
+  "sourceSchema": 14,
+  "enabledPeople": 21,
+  "activeQuestions": 132,
+  "activeCards": 51,
+  "dataSHA256": "249ee20a45478be4d33fa569186c12e708d0b84c1e0af836584e2017a34ddef8",
+  "engineSHA256": "4290a8772d1e8cf655fffa03f6cd2bb9e5d6e1a85da218cf165af2df9e51b2bf",
+  "sharedGameSHA256": "43e0d69a88ced766ff6c19dc951e4f3dad2eeca0dac9322c6666727a57d46177",
+  "portraitDistribution": [
+    {
+      "id": "lebron",
+      "source": "assets/portraits/lebron.webp",
+      "sourceSHA256": "c281d9b0645c8b4fbac82070fd902cc8e2de5daf44cbe85ad0bcdb7d1f94f1d3",
+      "path": "assets/portraits/lebron.jpg",
+      "bytes": 17561,
+      "sha256": "20e4d0ea7efda5a90573fd54f402f7bdc2e02dd2e507f326d9876087b66412d1"
+    },
+    {
+      "id": "curry",
+      "source": "assets/portraits/curry.webp",
+      "sourceSHA256": "43c0aaf088db5d0f8eee901f1befcc4180a6b144a0109abbd37cd9c75db5733a",
+      "path": "assets/portraits/curry.jpg",
+      "bytes": 13765,
+      "sha256": "94bfc3fa67dbc5f7709740b1424d41766fef1d4aaf4758fc43562aa1a539f372"
+    },
+    {
+      "id": "jordan",
+      "source": "assets/portraits/jordan.webp",
+      "sourceSHA256": "1bc3eab66ef59f80b580dac277b207ab97680a96388c755ff09184832087e0d7",
+      "path": "assets/portraits/jordan.jpg",
+      "bytes": 15830,
+      "sha256": "5bd60e590486f6456eaae3dd5c32974517cc6b8f6e09b6af6c4ecfaf907515f5"
+    },
+    {
+      "id": "kobe",
+      "source": "assets/portraits/kobe.webp",
+      "sourceSHA256": "d1f8cdf7c18109eef239c83fdacf2eeb8362e8f4d02883d16e419cf4a53cc7f5",
+      "path": "assets/portraits/kobe.jpg",
+      "bytes": 16273,
+      "sha256": "97f8410ec8927e02801ce7da407a85588dcfff3c6bb8525227dc094f46c58fd4"
+    },
+    {
+      "id": "durant",
+      "source": "assets/portraits/durant.webp",
+      "sourceSHA256": "ae325dbe9ecc2191ea501ea96ba9275b8cca698c9ee99cda4ae9143773c6f1de",
+      "path": "assets/portraits/durant.jpg",
+      "bytes": 17375,
+      "sha256": "9f9e7534008670a09a691dea86e4334239f27286213c4cb712fbc5137bd4d838"
+    },
+    {
+      "id": "harden",
+      "source": "assets/portraits/harden.webp",
+      "sourceSHA256": "757b0f25ad633056b16c2258a0d4370a4e612064a36c71d702d3166caec60f44",
+      "path": "assets/portraits/harden.jpg",
+      "bytes": 18924,
+      "sha256": "4814e111b119ce649f203f200099b6ab6f40758aa64660f8db1dac272911436f"
+    },
+    {
+      "id": "yaoming",
+      "source": "assets/portraits/yaoming.webp",
+      "sourceSHA256": "ec9c0958b916f221aca736b005e7c889589aa114567d0fdbfa17fb31038b935f",
+      "path": "assets/portraits/yaoming.jpg",
+      "bytes": 16098,
+      "sha256": "155442bbcaba588efe1fd81fd7541b72b08c1418b346c85b619b5a7c1569f645"
+    },
+    {
+      "id": "shaq",
+      "source": "assets/portraits/shaq.webp",
+      "sourceSHA256": "3ddc1341e15db5b61d79b8c776d180d5c3bfb595a01974d4b95e5dc74f5f1e46",
+      "path": "assets/portraits/shaq.jpg",
+      "bytes": 15298,
+      "sha256": "6e2e3a3815a0d11fbf9f7a59d62e6f7fe74511632cd91f5ee412958f1f1f6e44"
+    },
+    {
+      "id": "doncic",
+      "source": "assets/portraits/doncic.webp",
+      "sourceSHA256": "c2417cf95cb4123aabb6878f1f11bc8e36918a0788afd0890f93df5d71f0ce78",
+      "path": "assets/portraits/doncic.jpg",
+      "bytes": 16419,
+      "sha256": "3b4d0b36b22b693880fdc9949672a6acffc742ce1ca012d39817064b7da979e9"
+    },
+    {
+      "id": "rodman",
+      "source": "assets/portraits/rodman.webp",
+      "sourceSHA256": "6f47faa6d0d7974ffc2266f919de35651139795b279f22450047b6d57e99330e",
+      "path": "assets/portraits/rodman.jpg",
+      "bytes": 17673,
+      "sha256": "58b80375e157697d50d77bbb048435acc6794977205ab6367d8c3be0fedad679"
+    },
+    {
+      "id": "xujingyu",
+      "source": "assets/portraits/xujingyu.webp",
+      "sourceSHA256": "85d6672c4c11ab0c299656615d90b3bdb6cc5d2736c1dcb363ae94183721f9c1",
+      "path": "assets/portraits/xujingyu.jpg",
+      "bytes": 17665,
+      "sha256": "15139df26aeeb629afd6d57690028140293cb921e2e302a64e3dcd09fa403109"
+    },
+    {
+      "id": "yangyi",
+      "source": "assets/portraits/yangyi.webp",
+      "sourceSHA256": "26919c051b6b2f4130dda901d057310528127600ae48b7bc00516b2cb1314661",
+      "path": "assets/portraits/yangyi.jpg",
+      "bytes": 15948,
+      "sha256": "d28b52cbaaf825685f09e5081b22d288c13131211f18f9aaed44c323c900d18f"
+    },
+    {
+      "id": "zhouqi",
+      "source": "assets/portraits/zhouqi.webp",
+      "sourceSHA256": "56d4403d55b7c6e503a5557515304a15e3c049d164f53e8b1a19982d820df6a9",
+      "path": "assets/portraits/zhouqi.jpg",
+      "bytes": 17735,
+      "sha256": "3cf30f9dfe91f255bfdc563082399625100e20881d67ef988dddc4c347aa668b"
+    },
+    {
+      "id": "tmac",
+      "source": "assets/portraits/tmac.webp",
+      "sourceSHA256": "148fb064ceba30ea7ecf911547839efb667260a0edddbf03fc6c192f67a187ba",
+      "path": "assets/portraits/tmac.jpg",
+      "bytes": 15918,
+      "sha256": "6e6298e9f49452b57127ccee57b7a41f457e771e13c9b718ac76c11207631156"
+    },
+    {
+      "id": "wuyou",
+      "source": "assets/portraits/wuyou.webp",
+      "sourceSHA256": "c9396677db81ee7a52d7cb3d8962eb282d55de3a177388b062e03a6ef0976497",
+      "path": "assets/portraits/wuyou.jpg",
+      "bytes": 20216,
+      "sha256": "8dca2e768f94acd35e49dda08b451be72c2cfa4ce2cb286c2b2807e0513291e1"
+    },
+    {
+      "id": "xire",
+      "source": "assets/portraits/xire.webp",
+      "sourceSHA256": "cac5957ac2e685fe458130ec939b0c7ceb64b628ffa308ade13111ad14ba862f",
+      "path": "assets/portraits/xire.jpg",
+      "bytes": 16089,
+      "sha256": "2122472cb9f8f454705a8131875601e2a9588cc5555f8aa25c8fcbdea9520fb9"
+    },
+    {
+      "id": "shai",
+      "source": "assets/portraits/shai.webp",
+      "sourceSHA256": "75572f7fefe606d3953d1521c7539a261c3273bac8434ff16f6754410db8194d",
+      "path": "assets/portraits/shai.jpg",
+      "bytes": 20348,
+      "sha256": "e9d312b3476142c124e17bc4317a42d6ce388458da9e991d0fe577b91cfc93de"
+    },
+    {
+      "id": "wilt",
+      "source": "assets/portraits/wilt.webp",
+      "sourceSHA256": "b4ee9cd8c225d3a20d1be272e62c5c9a433ca7e84b1e165a21e8eec7390a59e3",
+      "path": "assets/portraits/wilt.jpg",
+      "bytes": 19500,
+      "sha256": "94f1c81b56537840e55bdc8e69a07e4e7b89c3e0608616b8c9f491445b90f2d3"
+    },
+    {
+      "id": "draymond-green",
+      "source": "assets/portraits/draymond-green.webp",
+      "sourceSHA256": "5e0a8a68b5a004f95da11627382576f792e8d31197b46629d84b081384146a79",
+      "path": "assets/portraits/draymond-green.jpg",
+      "bytes": 22429,
+      "sha256": "711bc487f7891bb7d00e7460dcd6062e3e73aa91cd2ec1ec5069ea4f3d8eec86"
+    },
+    {
+      "id": "ershu",
+      "source": "assets/portraits/ershu.webp",
+      "sourceSHA256": "6c98a2d148fa6e052bf3687aba6e01d5b725501dc7181c4b636dbcc50cee5ba2",
+      "path": "assets/portraits/ershu.jpg",
+      "bytes": 21256,
+      "sha256": "d55df73efb0447516598978c2fa06239dec28357f917d6e762aa4222a9355cf9"
+    },
+    {
+      "id": "caixukun",
+      "source": "assets/portraits/caixukun.webp",
+      "sourceSHA256": "24323e432bb4bc48b369a9cf655196f5dfb019045a5a85e1e944fc387cf6c64e",
+      "path": "assets/portraits/caixukun.jpg",
+      "bytes": 22307,
+      "sha256": "91e51a87038607010d169cb92436f52da0df4fb72389a371bcd367c116038cbb"
+    }
+  ],
+  "cardDistribution": [
+    {
+      "id": "v14-perk-7a46ef361c",
+      "source": "assets/cards/v14-perk-7a46ef361c.webp",
+      "sourceSHA256": "5c62496a4e46016efb63367d85d6c7ac7c1fd54b15776180b9566966051801ca",
+      "path": "assets/cards/v14-perk-7a46ef361c.jpg",
+      "bytes": 7523,
+      "sha256": "e4d8fec8f29f1a90fa8669707c1706776e14d5ca2ca633bc9dfb575277280822"
+    },
+    {
+      "id": "v14-perk-adab162b78",
+      "source": "assets/cards/v14-perk-adab162b78.webp",
+      "sourceSHA256": "e2680255d4520634f57395f73e12b4f83d394dfcc6381a82403c704554e10823",
+      "path": "assets/cards/v14-perk-adab162b78.jpg",
+      "bytes": 6522,
+      "sha256": "103396564b6ede13c47ee1e312cdce42094dc1ba8ccf6022a73e4d94dd2e3352"
+    },
+    {
+      "id": "v14-perk-7a559daaf6",
+      "source": "assets/cards/v14-perk-7a559daaf6.webp",
+      "sourceSHA256": "73d0de6937c90603329ec03d81238ec580fc3d80d1984ff832dadbf494dabaee",
+      "path": "assets/cards/v14-perk-7a559daaf6.jpg",
+      "bytes": 5840,
+      "sha256": "ca56a643d87a940360e35dafb485ec7dde1a3cd4db72b910b271facec3dccf99"
+    },
+    {
+      "id": "v14-perk-4c28ae7aa6",
+      "source": "assets/cards/v14-perk-4c28ae7aa6.webp",
+      "sourceSHA256": "b044c286d11578c12635e573aa3629930277a270eef39f66fcea388c9eb1eb23",
+      "path": "assets/cards/v14-perk-4c28ae7aa6.jpg",
+      "bytes": 7339,
+      "sha256": "e3a9d1711cae24c164a7d62f3ee65c6a88c5140e1f3c1da333a9c443bcdd68f4"
+    },
+    {
+      "id": "v14-perk-c5adcbaab5",
+      "source": "assets/cards/v14-perk-c5adcbaab5.webp",
+      "sourceSHA256": "f63d538eddc9ecba3125043a1d84c656c17e2ffec5717fe53f8f499b8ebc9baf",
+      "path": "assets/cards/v14-perk-c5adcbaab5.jpg",
+      "bytes": 7203,
+      "sha256": "89c008d0e6938133f537c24f3515332792ac91de0a4f88122085227a905cd0ad"
+    },
+    {
+      "id": "v14-perk-1c49c20391",
+      "source": "assets/cards/v14-perk-1c49c20391.webp",
+      "sourceSHA256": "d3b48b357be230f53fd65015bf0103cc734eb94e83bd329b0a688787208542dd",
+      "path": "assets/cards/v14-perk-1c49c20391.jpg",
+      "bytes": 7375,
+      "sha256": "119fa285d96329de01139b6109581fa6d62da6f920b7b5753d6c05db693e2218"
+    },
+    {
+      "id": "v14-perk-b245730508",
+      "source": "assets/cards/v14-perk-b245730508.webp",
+      "sourceSHA256": "22451bb6a586763999476f960c2e18f32ea5331f7f76b6be20a94e8b3cde895e",
+      "path": "assets/cards/v14-perk-b245730508.jpg",
+      "bytes": 6500,
+      "sha256": "2de34c317cca9eaed32fd4289e623780da89271f5991d300fecea5b1f86287eb"
+    },
+    {
+      "id": "v14-perk-6c6f231aff",
+      "source": "assets/cards/v14-perk-6c6f231aff.webp",
+      "sourceSHA256": "73d0de6937c90603329ec03d81238ec580fc3d80d1984ff832dadbf494dabaee",
+      "path": "assets/cards/v14-perk-6c6f231aff.jpg",
+      "bytes": 5840,
+      "sha256": "ca56a643d87a940360e35dafb485ec7dde1a3cd4db72b910b271facec3dccf99"
+    },
+    {
+      "id": "v14-perk-c7d2103b14",
+      "source": "assets/cards/v14-perk-c7d2103b14.webp",
+      "sourceSHA256": "c1b373913f8e005415739aa3a184e144dbd37412be3eeac461b5e0267c871594",
+      "path": "assets/cards/v14-perk-c7d2103b14.jpg",
+      "bytes": 7264,
+      "sha256": "32f573da715865c9211feec9ca70aa2a08a9ebda8c160f4bf8a3195d47839ff8"
+    },
+    {
+      "id": "v14-perk-ffa15049ea",
+      "source": "assets/cards/v14-perk-ffa15049ea.webp",
+      "sourceSHA256": "62128eb714b7852d91aa30a6239d35f8d2950df3ceff03a3a7091d68c876afa1",
+      "path": "assets/cards/v14-perk-ffa15049ea.jpg",
+      "bytes": 6475,
+      "sha256": "085985f2b6aa11fd8e41cfc48081f69b0c98fa8db612394fffe3ef42f8160285"
+    },
+    {
+      "id": "v14-perk-63f59ebc75",
+      "source": "assets/cards/v14-perk-63f59ebc75.webp",
+      "sourceSHA256": "5c62496a4e46016efb63367d85d6c7ac7c1fd54b15776180b9566966051801ca",
+      "path": "assets/cards/v14-perk-63f59ebc75.jpg",
+      "bytes": 7523,
+      "sha256": "e4d8fec8f29f1a90fa8669707c1706776e14d5ca2ca633bc9dfb575277280822"
+    },
+    {
+      "id": "v14-perk-934ad7ffd6",
+      "source": "assets/cards/v14-perk-934ad7ffd6.webp",
+      "sourceSHA256": "62128eb714b7852d91aa30a6239d35f8d2950df3ceff03a3a7091d68c876afa1",
+      "path": "assets/cards/v14-perk-934ad7ffd6.jpg",
+      "bytes": 6475,
+      "sha256": "085985f2b6aa11fd8e41cfc48081f69b0c98fa8db612394fffe3ef42f8160285"
+    },
+    {
+      "id": "stepback-route",
+      "source": "assets/cards/stepback-route.webp",
+      "sourceSHA256": "4210467d86fe725175977f333e32e63a3d371bdbef8baa56e842a7dfce396e39",
+      "path": "assets/cards/stepback-route.jpg",
+      "bytes": 7301,
+      "sha256": "f33fcfb7a8eeeb9d9cb817222aba18cc91c532ac17612ae152e5eb9b2797093b"
+    },
+    {
+      "id": "v14-perk-179e366c6f",
+      "source": "assets/cards/v14-perk-179e366c6f.webp",
+      "sourceSHA256": "e2680255d4520634f57395f73e12b4f83d394dfcc6381a82403c704554e10823",
+      "path": "assets/cards/v14-perk-179e366c6f.jpg",
+      "bytes": 6522,
+      "sha256": "103396564b6ede13c47ee1e312cdce42094dc1ba8ccf6022a73e4d94dd2e3352"
+    },
+    {
+      "id": "v14-perk-4b09e693d7",
+      "source": "assets/cards/v14-perk-4b09e693d7.webp",
+      "sourceSHA256": "f109f4fc2e1e29639418f6070cfb1891a00f586d70e24333dbf9b0913053818a",
+      "path": "assets/cards/v14-perk-4b09e693d7.jpg",
+      "bytes": 7393,
+      "sha256": "b580ca58b4346a8f9bcd8c3fe8b098ad5b4ce3829420f12b4f03766a8b15f73b"
+    },
+    {
+      "id": "v14-perk-1385c8763d",
+      "source": "assets/cards/v14-perk-1385c8763d.webp",
+      "sourceSHA256": "1b5e246503721194aedfb513380ffd62eef35ca1be0015ed9cc1e7401fe83efc",
+      "path": "assets/cards/v14-perk-1385c8763d.jpg",
+      "bytes": 7831,
+      "sha256": "f35d8f51ede9c80052166c8c781a38250974515d1d2d3ab7effab7784f4340fa"
+    },
+    {
+      "id": "v14-perk-66e5ed669c",
+      "source": "assets/cards/v14-perk-66e5ed669c.webp",
+      "sourceSHA256": "1d0fd5c2efbc4b5e31f4701ac162eb5c1eeba6d114df1b35bb6c09b3432a3dda",
+      "path": "assets/cards/v14-perk-66e5ed669c.jpg",
+      "bytes": 9019,
+      "sha256": "c777c3c81b61acbb2e8a739e34a6b263ab68f20505d48412d99718c94374ce82"
+    },
+    {
+      "id": "v14-perk-bd185383b6",
+      "source": "assets/cards/v14-perk-bd185383b6.webp",
+      "sourceSHA256": "edb68f92d428a9237b3caaf08909d17e45c8567e3b25a33351d144a9e2b165bd",
+      "path": "assets/cards/v14-perk-bd185383b6.jpg",
+      "bytes": 8697,
+      "sha256": "469cade0414929138103ebafb78a8ab1470eb1c5f178d3409c0ac70bdee1f9a8"
+    },
+    {
+      "id": "v13-doncic-1",
+      "source": "assets/cards/v13-doncic-1.webp",
+      "sourceSHA256": "dbfd05b891de5444da422f6d0e494a2d9c52ee874a58e9c09129a45d12d167cf",
+      "path": "assets/cards/v13-doncic-1.jpg",
+      "bytes": 7962,
+      "sha256": "325841a3083db80ee595c3622c7734a67c9ebae3e974ed2637a0fd1e70bcd2b2"
+    },
+    {
+      "id": "v14-perk-d762dcdce2",
+      "source": "assets/cards/v14-perk-d762dcdce2.webp",
+      "sourceSHA256": "849fe2577bc9c6b83f43ae180c06182af96b1f4244db576e30f39db909cd9b35",
+      "path": "assets/cards/v14-perk-d762dcdce2.jpg",
+      "bytes": 7342,
+      "sha256": "4017415ac5c6cfcb7afa4801c1a12bee5cc34d31cc5acb5610ac84caa2935a21"
+    },
+    {
+      "id": "v14-perk-a0704418b6",
+      "source": "assets/cards/v14-perk-a0704418b6.webp",
+      "sourceSHA256": "22451bb6a586763999476f960c2e18f32ea5331f7f76b6be20a94e8b3cde895e",
+      "path": "assets/cards/v14-perk-a0704418b6.jpg",
+      "bytes": 6500,
+      "sha256": "2de34c317cca9eaed32fd4289e623780da89271f5991d300fecea5b1f86287eb"
+    },
+    {
+      "id": "v14-perk-4928afba1c",
+      "source": "assets/cards/v14-perk-4928afba1c.webp",
+      "sourceSHA256": "496fdc7ef8a53da32aa141488d1d582d1083a5c10c77321ea6f6055545a15505",
+      "path": "assets/cards/v14-perk-4928afba1c.jpg",
+      "bytes": 8288,
+      "sha256": "8cd587aea3442da77328937ea6132faf8248706c7a48abd63cba330c76531ee8"
+    },
+    {
+      "id": "v14-perk-cfc3b2e85c",
+      "source": "assets/cards/v14-perk-cfc3b2e85c.webp",
+      "sourceSHA256": "1b9b22af8d38675e7074aa0863b4f38817a7bc4d6dec34f51f26cb0a23a2f8b0",
+      "path": "assets/cards/v14-perk-cfc3b2e85c.jpg",
+      "bytes": 4376,
+      "sha256": "233a792a08e9e455f661f4f4e47bdb5385a061c227533037be17086448462895"
+    },
+    {
+      "id": "v14-perk-1c477c25ac",
+      "source": "assets/cards/v14-perk-1c477c25ac.webp",
+      "sourceSHA256": "440c68eb881ad75f9d7cefc9a2d1eb1fd0651c38aa9a64974aa7c48a9d65f92a",
+      "path": "assets/cards/v14-perk-1c477c25ac.jpg",
+      "bytes": 5617,
+      "sha256": "eeb695bdf12eedcc06148707e3c77d42c016043483112216fba374e4b4b7cc2a"
+    },
+    {
+      "id": "v14-perk-71b1bea6eb",
+      "source": "assets/cards/v14-perk-71b1bea6eb.webp",
+      "sourceSHA256": "e72223bdb45b0782dcd315e31559d34ee2f2f37a27d041af80886bd93aad5d54",
+      "path": "assets/cards/v14-perk-71b1bea6eb.jpg",
+      "bytes": 5599,
+      "sha256": "792cc69c0e54724afc5735427edf557d63ae78aa6fbb50ba4cb33050b7e54a2f"
+    },
+    {
+      "id": "v14-perk-f1ebf0c2e2",
+      "source": "assets/cards/v14-perk-f1ebf0c2e2.webp",
+      "sourceSHA256": "abc583514bb276d5e6c287652bd10e8d96d2d0f98cd7592eeb05a8a2a26cedab",
+      "path": "assets/cards/v14-perk-f1ebf0c2e2.jpg",
+      "bytes": 6398,
+      "sha256": "cae4ea4ba78147945ed9d526a1654674899c8ad73530c76c378531666819167e"
+    },
+    {
+      "id": "v14-perk-650f8520f9",
+      "source": "assets/cards/v14-perk-650f8520f9.webp",
+      "sourceSHA256": "04873e158dfefdae164ad88e9a268971639c21ea6725f30548dcdd9ac2fa45b7",
+      "path": "assets/cards/v14-perk-650f8520f9.jpg",
+      "bytes": 7023,
+      "sha256": "605fa779d8af6cb9d42aede158a4d12f013c0f68e5f8f25611e3b0c2824dd961"
+    },
+    {
+      "id": "v14-perk-6d35973cd0",
+      "source": "assets/cards/v14-perk-6d35973cd0.webp",
+      "sourceSHA256": "35f9571e4d2c2653e1919d0bde5cf6eb145210a0e12a6166667b8147988a1408",
+      "path": "assets/cards/v14-perk-6d35973cd0.jpg",
+      "bytes": 6832,
+      "sha256": "909768ec0a8ccffe9263d568937fe26390bcc2b6ba8088e4c5d05cc9da0c79fd"
+    },
+    {
+      "id": "v14-perk-9ecefe1f08",
+      "source": "assets/cards/v14-perk-9ecefe1f08.webp",
+      "sourceSHA256": "7d72e4dd18fce7382ebf93e26b28fbd81608dfc0f1dc42fd03175a64349d3f4e",
+      "path": "assets/cards/v14-perk-9ecefe1f08.jpg",
+      "bytes": 6939,
+      "sha256": "8e8df5a9591deec8505ff4761df9f931536008e9f16ee4ed052d1d93f3566baf"
+    },
+    {
+      "id": "v14-perk-69e8e8badd",
+      "source": "assets/cards/v14-perk-69e8e8badd.webp",
+      "sourceSHA256": "923181662946fbd4df04c286067fa5f1e85129704780e73f01c99df5682887c3",
+      "path": "assets/cards/v14-perk-69e8e8badd.jpg",
+      "bytes": 7895,
+      "sha256": "f73b7de0ad548b7e40182b452246d8af3bfd87e4c4c17590c34f72c88f394ac9"
+    },
+    {
+      "id": "v14-perk-a78ff8eeee",
+      "source": "assets/cards/v14-perk-a78ff8eeee.webp",
+      "sourceSHA256": "c1b373913f8e005415739aa3a184e144dbd37412be3eeac461b5e0267c871594",
+      "path": "assets/cards/v14-perk-a78ff8eeee.jpg",
+      "bytes": 7264,
+      "sha256": "32f573da715865c9211feec9ca70aa2a08a9ebda8c160f4bf8a3195d47839ff8"
+    },
+    {
+      "id": "v14-perk-daee11ced7",
+      "source": "assets/cards/v14-perk-daee11ced7.webp",
+      "sourceSHA256": "1d588744c31b6c4cdf1d3e0bc36fa18d10cf0b8c09f0eb1211e6c8f5d2094c9a",
+      "path": "assets/cards/v14-perk-daee11ced7.jpg",
+      "bytes": 8254,
+      "sha256": "d0efe44c4e99aca254c773ae37c3ccc890a38a748a0abb9467fb4cc862c4caf7"
+    },
+    {
+      "id": "v14-perk-521aede329",
+      "source": "assets/cards/v14-perk-521aede329.webp",
+      "sourceSHA256": "1406595d3e268b2d662f0e2fd5925a2d3547b88ab355c7f70c90b9eb31328cef",
+      "path": "assets/cards/v14-perk-521aede329.jpg",
+      "bytes": 7436,
+      "sha256": "0346bf6cbdcc6852daf77aefcdabc70692b80006bbdd174cd3eb47db6b34b362"
+    },
+    {
+      "id": "v14-perk-95b3b37896",
+      "source": "assets/cards/v14-perk-95b3b37896.webp",
+      "sourceSHA256": "1406595d3e268b2d662f0e2fd5925a2d3547b88ab355c7f70c90b9eb31328cef",
+      "path": "assets/cards/v14-perk-95b3b37896.jpg",
+      "bytes": 7436,
+      "sha256": "0346bf6cbdcc6852daf77aefcdabc70692b80006bbdd174cd3eb47db6b34b362"
+    },
+    {
+      "id": "v14-perk-ce5ceb7b17",
+      "source": "assets/cards/v14-perk-ce5ceb7b17.webp",
+      "sourceSHA256": "1406595d3e268b2d662f0e2fd5925a2d3547b88ab355c7f70c90b9eb31328cef",
+      "path": "assets/cards/v14-perk-ce5ceb7b17.jpg",
+      "bytes": 7436,
+      "sha256": "0346bf6cbdcc6852daf77aefcdabc70692b80006bbdd174cd3eb47db6b34b362"
+    },
+    {
+      "id": "v14-perk-17d8a5790e",
+      "source": "assets/cards/v14-perk-17d8a5790e.webp",
+      "sourceSHA256": "76b0fc936ba0371eca301d146791926cfa2c56e27e46ca52c1a3f6155c3cffc2",
+      "path": "assets/cards/v14-perk-17d8a5790e.jpg",
+      "bytes": 7186,
+      "sha256": "ec5398dd1149e7bfb447062ef93b51b3f08c31532e9cff09fbd2f65af2014b6d"
+    },
+    {
+      "id": "v14-perk-560eaf47cf",
+      "source": "assets/cards/v14-perk-560eaf47cf.webp",
+      "sourceSHA256": "849fe2577bc9c6b83f43ae180c06182af96b1f4244db576e30f39db909cd9b35",
+      "path": "assets/cards/v14-perk-560eaf47cf.jpg",
+      "bytes": 7342,
+      "sha256": "4017415ac5c6cfcb7afa4801c1a12bee5cc34d31cc5acb5610ac84caa2935a21"
+    },
+    {
+      "id": "v14-perk-0abe825cce",
+      "source": "assets/cards/v14-perk-0abe825cce.webp",
+      "sourceSHA256": "8b2b24528a736d12610826df2dc4aef4de52d0de1097c66dfa3f8d67cfd6e9f5",
+      "path": "assets/cards/v14-perk-0abe825cce.jpg",
+      "bytes": 8463,
+      "sha256": "1de56bc611f9a4ff28751828429e53b85daef5c1a8567ad550eb270a6fa7403e"
+    },
+    {
+      "id": "v14-perk-dc81bdbbe1",
+      "source": "assets/cards/v14-perk-dc81bdbbe1.webp",
+      "sourceSHA256": "8b2b24528a736d12610826df2dc4aef4de52d0de1097c66dfa3f8d67cfd6e9f5",
+      "path": "assets/cards/v14-perk-dc81bdbbe1.jpg",
+      "bytes": 8463,
+      "sha256": "1de56bc611f9a4ff28751828429e53b85daef5c1a8567ad550eb270a6fa7403e"
+    },
+    {
+      "id": "v14-perk-b47675dcad",
+      "source": "assets/cards/v14-perk-b47675dcad.webp",
+      "sourceSHA256": "615b56bcfe40b688a9921b1cc60e356e453027bd5bb8e4360243ef827023c1fd",
+      "path": "assets/cards/v14-perk-b47675dcad.jpg",
+      "bytes": 5331,
+      "sha256": "b1b501a2ab9c462bc253affcd2efec8631ce5bdb1db93520573fc55ac02b6f1a"
+    },
+    {
+      "id": "v14-perk-c6e947ee9c",
+      "source": "assets/cards/v14-perk-c6e947ee9c.webp",
+      "sourceSHA256": "cd8643a3dd398c8ee6f9eb36b4960fb652327e7f2b90a1556bf545718cb49d30",
+      "path": "assets/cards/v14-perk-c6e947ee9c.jpg",
+      "bytes": 5719,
+      "sha256": "cbec23dd001e8eec5b6ffaca50607327592e5d088ef8c846075fb92b46018bbe"
+    },
+    {
+      "id": "v14-perk-050630ef00",
+      "source": "assets/cards/v14-perk-050630ef00.webp",
+      "sourceSHA256": "04873e158dfefdae164ad88e9a268971639c21ea6725f30548dcdd9ac2fa45b7",
+      "path": "assets/cards/v14-perk-050630ef00.jpg",
+      "bytes": 7023,
+      "sha256": "605fa779d8af6cb9d42aede158a4d12f013c0f68e5f8f25611e3b0c2824dd961"
+    },
+    {
+      "id": "v14-perk-a615ad1a62",
+      "source": "assets/cards/v14-perk-a615ad1a62.webp",
+      "sourceSHA256": "1d1d68d832652afba51aefc4524241d18986f4313901124d4e23a814f618fa53",
+      "path": "assets/cards/v14-perk-a615ad1a62.jpg",
+      "bytes": 5945,
+      "sha256": "93f641b79e53b67bb33110e3b0dfa1a9d2c1210e45a6fdcf16f9568028e3d5d0"
+    },
+    {
+      "id": "v14-perk-fd88956cdc",
+      "source": "assets/cards/v14-perk-fd88956cdc.webp",
+      "sourceSHA256": "923181662946fbd4df04c286067fa5f1e85129704780e73f01c99df5682887c3",
+      "path": "assets/cards/v14-perk-fd88956cdc.jpg",
+      "bytes": 7895,
+      "sha256": "f73b7de0ad548b7e40182b452246d8af3bfd87e4c4c17590c34f72c88f394ac9"
+    },
+    {
+      "id": "v14-perk-12101bac64",
+      "source": "assets/cards/v14-perk-12101bac64.webp",
+      "sourceSHA256": "b672368c05c94e22f573e018297602a9d99c450873760931d8460f7b0d73f626",
+      "path": "assets/cards/v14-perk-12101bac64.jpg",
+      "bytes": 7205,
+      "sha256": "99e836c9f06214461e783106804b8a9407342b387bd7608b4ecbede8c0c72a5e"
+    },
+    {
+      "id": "street-pass",
+      "source": "assets/cards/street-pass.webp",
+      "sourceSHA256": "22451bb6a586763999476f960c2e18f32ea5331f7f76b6be20a94e8b3cde895e",
+      "path": "assets/cards/street-pass.jpg",
+      "bytes": 6500,
+      "sha256": "2de34c317cca9eaed32fd4289e623780da89271f5991d300fecea5b1f86287eb"
+    },
+    {
+      "id": "shot-retry",
+      "source": "assets/cards/shot-retry.webp",
+      "sourceSHA256": "22451bb6a586763999476f960c2e18f32ea5331f7f76b6be20a94e8b3cde895e",
+      "path": "assets/cards/shot-retry.jpg",
+      "bytes": 6500,
+      "sha256": "2de34c317cca9eaed32fd4289e623780da89271f5991d300fecea5b1f86287eb"
+    },
+    {
+      "id": "court-replay",
+      "source": "assets/cards/court-replay.webp",
+      "sourceSHA256": "22451bb6a586763999476f960c2e18f32ea5331f7f76b6be20a94e8b3cde895e",
+      "path": "assets/cards/court-replay.jpg",
+      "bytes": 6500,
+      "sha256": "2de34c317cca9eaed32fd4289e623780da89271f5991d300fecea5b1f86287eb"
+    },
+    {
+      "id": "v15-caixukun-1",
+      "source": "assets/cards/v15-caixukun-1.webp",
+      "sourceSHA256": "bf81ba408a6e2a9e222e66379518154b5508d52671c704f97d5ae6593da2527b",
+      "path": "assets/cards/v15-caixukun-1.jpg",
+      "bytes": 6544,
+      "sha256": "1d8d460a0b38f5b76611b1c9c7f583a541d163038dfd260e1f529bd69f3aab00"
+    },
+    {
+      "id": "v15-caixukun-2",
+      "source": "assets/cards/v15-caixukun-2.webp",
+      "sourceSHA256": "5f695f0cba355f8f65369280cff178f3f0f40c25ada0f78e59bd81aa9d0eb89f",
+      "path": "assets/cards/v15-caixukun-2.jpg",
+      "bytes": 7179,
+      "sha256": "25045035061267c9786b210fffa9ff45c6a45de75dfa5024e712a92ff50fea0d"
+    },
+    {
+      "id": "v15-caixukun-3",
+      "source": "assets/cards/v15-caixukun-3.webp",
+      "sourceSHA256": "a704a6ebf424bab01de3942707a8ef436304ecdbedcf2f00224dbb11944344d2",
+      "path": "assets/cards/v15-caixukun-3.jpg",
+      "bytes": 6139,
+      "sha256": "d864ad32cc369206d0cdc7add0da3c70dc3690562a87c1df720deba90d14104d"
+    }
+  ],
+  "appid": "touristappid placeholder; replace with the actual WeChat mini-program AppID before platform upload",
+  "pending": [
+    "微信开发者工具完整功能验证",
+    "Android 微信真机验证",
+    "iOS 微信真机验证",
+    "真实 AppID 配置与平台审核"
+  ],
+  "acceptance": "Only Node/static/package checks are available here; no WeChat Developer Tools or physical device result.",
+  "zip": "release/zhenghuo-nba-wechat.zip",
+  "zipBytes": 888395,
+  "zipSHA256": "d3c4ee42e1c940fa077505674b83c897dc62dc2e108501297de4cf775656f26a"
+}

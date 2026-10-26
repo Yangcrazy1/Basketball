@@ -1,0 +1,345 @@
+[
+  {
+    "id": "lebron",
+    "asset": "v6-references/lebron.jpg",
+    "sourcePage": "https://imgflip.com/meme/140080740/lebron-james--jr-smith",
+    "rights": "Unverified. User-uploaded meme template host is not proof of commercial reuse rights. Keep source provenance and do not distribute original as licensed stock.",
+    "kind": "AI卡通重绘",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 3,
+      "cell": 0
+    },
+    "sha256": "f84ca5569b349ed04f7f5c3172c9eb3f3de168dbfd8a922c315fbc5d2068ee46"
+  },
+  {
+    "id": "curry",
+    "name": "库里",
+    "asset": "v6-references/curry.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Stephen_Curry",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Stephen_Curry%2C_Olympic_Games_2024_%28cropped%29.jpg/250px-Stephen_Curry%2C_Olympic_Games_2024_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "ba016c1f8efb6998fd4976de3306aea2d2aee34aa83afb281f20faaafe523020",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 3,
+      "cell": 1
+    }
+  },
+  {
+    "id": "jordan",
+    "name": "乔丹",
+    "asset": "v6-references/jordan.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Michael_Jordan",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Michael_jordan_admad_rashad_%2851276390562%29_%28cropped%29.jpg/250px-Michael_jordan_admad_rashad_%2851276390562%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "ac6806faf84d6a11f6b4b311eb01822faad10fd9ed9ddb294f1ee8a4355b1126",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 3,
+      "cell": 2
+    }
+  },
+  {
+    "id": "kobe",
+    "name": "科比",
+    "asset": "v6-references/kobe.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Kobe_Bryant",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Kobe_Bryant_Dec_2014.jpg/250px-Kobe_Bryant_Dec_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "fc03b5ff9cb1ed1623a5af6034f5d0bc7e68adbc7bfdf0ec8d64d2aad09a1f83",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 3,
+      "cell": 3
+    }
+  },
+  {
+    "id": "durant",
+    "name": "杜兰特",
+    "asset": "v6-references/durant.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Kevin_Durant",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Kevin_Durant%2C_Paris_2024_%28cropped%29.jpg/250px-Kevin_Durant%2C_Paris_2024_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "4902998748e941e376077eb395cbe07758ffc4ec4d9c2dd859872af4cc69bd9f",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 4,
+      "cell": 0
+    }
+  },
+  {
+    "id": "harden",
+    "name": "哈登",
+    "asset": "v6-references/harden.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/James_Harden",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Harden_dribbling_midcourt%2C_Cavaliers_vs_Nets_on_January_17%2C_2022_%28cropped%29.jpg/250px-Harden_dribbling_midcourt%2C_Cavaliers_vs_Nets_on_January_17%2C_2022_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "1e31722b21c683a6606516142125fabe437bdab6379b96875b0be39208557a70",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 4,
+      "cell": 3
+    }
+  },
+  {
+    "id": "yaoming",
+    "name": "姚明",
+    "asset": "v6-references/yaoming.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Yao_Ming",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Yao_Ming_in_2014_%28cropped%29.jpg/250px-Yao_Ming_in_2014_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "a3adbf52ba2d2d2fa59e937876433aed9c7e31bde4ff204ad57386248e714db2",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 5,
+      "cell": 0
+    }
+  },
+  {
+    "id": "shaq",
+    "name": "奥尼尔",
+    "asset": "v6-references/shaq.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Shaquille_O%27Neal",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/TechCrunch_Disrupt_2023_-_Day_1_%28cropped%29.jpg/250px-TechCrunch_Disrupt_2023_-_Day_1_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "26b4c325c9a655cdc071815ed44ba761fbeb2a0ec939b6da9050751a023e6057",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 5,
+      "cell": 1
+    }
+  },
+  {
+    "id": "doncic",
+    "name": "东契奇",
+    "asset": "v6-references/doncic.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Luka_Don%C4%8Di%C4%87",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Luka_Don%C4%8Di%C4%87_and_Marines%2C_2026_%28cropped%29.jpg/250px-Luka_Don%C4%8Di%C4%87_and_Marines%2C_2026_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "80f4fec5d013e30587a56bec0ab9a8a53c61126ed647dfce9ad29ec8d3954144",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 6,
+      "cell": 0
+    }
+  },
+  {
+    "id": "rodman",
+    "name": "罗德曼",
+    "asset": "v6-references/rodman.jpg",
+    "sourcePage": "https://en.wikipedia.org/wiki/Dennis_Rodman",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Dennis_Rodman_02_%2834649289162%29_%28cropped%29.jpg/250px-Dennis_Rodman_02_%2834649289162%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "rights": "原始参考图商用授权尚未全部核实，原型体验不代表官方背书",
+    "kind": "AI卡通重绘",
+    "sha256": "8f839f693f5f19212da62eb50a9b31af35fee88d34edede1c274246fae310133",
+    "verifiedReference": true,
+    "atlas": {
+      "sheet": 6,
+      "cell": 2
+    }
+  },
+  {
+    "id": "tmac",
+    "name": "麦迪",
+    "asset": "v10-references/tmac.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Tracy_McGrady",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Tracy_McGrady_1.jpg",
+    "sha256": "04836eed93abb458bff2a2788d45e9baaa5ce1c040a2fad96bcfcec57388086f",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 16,
+      "cell": 2
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "zhouqi",
+    "name": "zhouqi",
+    "asset": "v10-references/zhouqi.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Zhou_Qi",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/ZhouQi2017.png",
+    "sha256": "1ed07993f819b2f3c136a9b8ae0b9ef27bcbf7dfc3a1fb466ac755c38522b392",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 19,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "xujingyu",
+    "name": "徐静雨",
+    "asset": "v10-references/xujingyu.image",
+    "sourcePage": "https://newsa.html5.qq.com/v1/share-video?vid=6633041994983820651",
+    "imageUrl": "http://qqpublic.qpic.cn/qq_public/0/1-2421295517-60F4E6F36F8C73E596F9F6D12B3B9728/0",
+    "sha256": "afe59dbf63711e2417b70efc1f9597e67e123649f7d5426f2efe424c6c7c8e8e",
+    "verifiedReference": true,
+    "kind": "公开照片参考的AI漫画重绘",
+    "rights": "公开照片仅作漫画原型参考；商业图片权利仍需核实，不代表本人或官方背书。",
+    "atlas": {
+      "sheet": 21,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-23"
+  },
+  {
+    "id": "yangyi",
+    "name": "杨毅",
+    "verifiedReference": true,
+    "status": "verified",
+    "kind": "核对节目正面参考后的AI漫画重绘",
+    "note": "新浪收录腾讯节目清晰正面画面，保留矩形眼镜、短发、下巴小胡须；排除同组图中的董路及其他同名人士。",
+    "rights": "公开节目照片仅作漫画原型参考，未获得节目照片商业授权，不代表本人或节目背书。",
+    "asset": "v12-references/yangyi.image",
+    "sourcePage": "https://k.sina.com.cn/article_6592540240_p188f22e5002702678g.html",
+    "imageUrl": "https://n.sinaimg.cn/sinakd20117/532/w852h480/20260707/e0b5-291017e65698e2b35a9ab2d7d60ce0bf.jpg",
+    "sha256": "09f18584d5953ca2510b073c78801f76166efa6ee9d208748f54512cafd12107",
+    "atlas": {
+      "sheet": 25,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "shai",
+    "name": "亚历山大",
+    "asset": "v13-references/shai.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Shai_Gilgeous-Alexander",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/2023-08-09_Deutschland_gegen_Kanada_%28Basketball-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93109.jpg/500px-2023-08-09_Deutschland_gegen_Kanada_%28Basketball-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93109.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "sha256": "ae68251130079760455ba5e0dd82215c85fdbea9411979122940a701eca5a77e",
+    "verifiedReference": true,
+    "faceVerified": true,
+    "kind": "已核对照片原型的漫画再创作",
+    "rights": "公开照片仅作原型参考；具体图片授权与人物权益需按源页核实，不代表本人背书。",
+    "note": "加拿大队红色球衣、黑色发带，保留五官与发型；不取队旗或编辑图标。",
+    "atlas": {
+      "sheet": 26,
+      "cell": 0
+    },
+    "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "wilt",
+    "name": "张伯伦",
+    "asset": "v13-references/wilt.image",
+    "sourcePage": "https://en.wikipedia.org/wiki/Wilt_Chamberlain",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Wilt_Chamberlain_1960_%28cropped%29_%28cropped%29.jpg/500px-Wilt_Chamberlain_1960_%28cropped%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "sha256": "4322098338b7b3c8a74cf08019ad6d71086cfbe595fbac76f380ce5576419486",
+    "verifiedReference": true,
+    "faceVerified": true,
+    "kind": "已核对照片原型的漫画再创作",
+    "rights": "公开照片仅作原型参考；具体图片授权与人物权益需按源页核实，不代表本人背书。",
+    "note": "1960年青年肖像，PHILA13号，短发与小胡须；可作经典篮球时期原型。",
+    "atlas": {
+      "sheet": 26,
+      "cell": 1
+    },
+    "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "xire",
+    "name": "西热力江",
+    "asset": "v13-references/xire.image",
+    "sourcePage": "https://k.sina.com.cn/article_1352367147_509b7c2b00101jzo6.html",
+    "imageUrl": "https://n.sinaimg.cn/sinakd20109/399/w1280h719/20260515/ee64-bb2559a6a3fd7a4cd0d0d5ef1f6b760a.jpg",
+    "sha256": "397a9fc3ec5bea0d003a4960f5a487f48b09c31179184fd705832e5bfc554592",
+    "verifiedReference": true,
+    "faceVerified": true,
+    "kind": "已核对照片原型的漫画再创作",
+    "rights": "公开照片仅作原型参考；未将新闻照片视为商用授权或本人背书。",
+    "note": "青色西装黑色Polo，寸头、下巴浅胡须。画面中央本人，排除边缘旁人。",
+    "atlas": {
+      "sheet": 26,
+      "cell": 2
+    },
+    "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "wuyou",
+    "name": "吴悠",
+    "asset": "v13-references/wuyou.image",
+    "sourcePage": "https://k.sina.com.cn/article_6450484379_1807a949b02001dyoe.html",
+    "imageUrl": "https://k.sinaimg.cn/n/sinakd20260610s/505/w640h665/20260610/04e0-3f04d7f7f52b1a00e5a833f7420ed94c.jpg/w700d1q75cms.jpg?by=cms_fixed_width",
+    "sha256": "19a8ec2477478dbe841fab0f063d22d8c5fa76c1c86171f2b35ba0c3da33f975",
+    "verifiedReference": true,
+    "faceVerified": true,
+    "kind": "已核对照片原型的漫画再创作",
+    "rights": "公开照片仅作原型参考；未将新闻照片视为商用授权或本人背书。",
+    "note": "合影右侧/前景灰色无袖上衣男性为街球吴悠，保留高蓬黑色短发和面部；排除后方戴红帽眼镜的妻子。文章明确讲述吴悠街球生涯并说明夫妻合照。",
+    "atlas": {
+      "sheet": 26,
+      "cell": 3
+    },
+    "checkedAt": "2026-10-24"
+  },
+  {
+    "id": "draymond-green",
+    "name": "德雷蒙德·格林",
+    "sourcePage": "https://en.wikipedia.org/wiki/Draymond_Green",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Draymond_Green_2022.jpg/500px-Draymond_Green_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+    "localPath": "/workspace/scratch/v14-research/references/draymond-green.image",
+    "sha256": "90cf4a3ad6b665df1da5e453c4939a2b91fbb30dfa74fe1adc030a8ab90b0d3b",
+    "verifiedReference": true,
+    "faceVerified": true,
+    "identityNote": "Draymond Green 人物页 infobox 的 Draymond_Green_2022.jpg；已目视确认本人宽脸、短发、厚胡须；非其他同姓 Green。",
+    "checkedAt": "2026-10-24",
+    "asset": "v14-references/draymond-green.image"
+  },
+  {
+    "id": "ershu",
+    "name": "恶鼠／张梓祎",
+    "sourcePage": "https://k.sina.cn/article_6073579234_16a0376e2001020wx0.html",
+    "imageUrl": "https://k.sinaimg.cn/n/sinakd20100/540/w640h700/20221129/7770-f25b12c7e5808374198f7fd574ccb04f.jpg/w700d1q75cms.jpg",
+    "localPath": "/workspace/scratch/v14-research/references/ershu-candidate-5.image",
+    "sha256": "01bbab1acb033f2a2d492b9e47cc9ba0e887ea91b6ace0e3fc16d1b42163440c",
+    "verifiedReference": true,
+    "faceVerified": true,
+    "identityNote": "用户文档所列新浪篮球报道明确写明恶鼠张梓祎发起百分大战；采用该文结尾单人近照，并与该文开头单人侧脸交叉目视。短脏辫、两侧剃短、棱角脸；未采用同文李青翔或孟铎配图。",
+    "checkedAt": "2026-10-24",
+    "asset": "v14-references/ershu.image"
+  },
+  {
+    "id": "caixukun",
+    "name": "蔡徐坤",
+    "nickname": "坤坤",
+    "sourcePage": "https://finance.sina.com.cn/tjhz/2026-10-21/doc-inivynsq8058039.shtml?from=pcsearch",
+    "sourceTitle": "美力城官宣蔡徐坤为全球品牌代言人｜新浪财经转载金昌日报公开品牌官宣",
+    "imageUrl": "https://n.sinaimg.cn/spider20261021/215/w650h365/20261021/3c63-714bef03375a233f63c13e908256b8a8.jpg",
+    "localPath": "/workspace/Basketball/parallel-self/shenren/assets/v15-references/caixukun.image",
+    "asset": "v15-references/caixukun.image",
+    "sha256": "4cd75acad4df7cd1b7852213a3a7f3806c89ed5c78321395f72503855fc71ee1",
+    "bytes": 30242,
+    "verifiedReference": true,
+    "faceVerified": true,
+    "checkedAt": "2026-10-24",
+    "kind": "公开品牌官宣照片参考后的原创漫画",
+    "identityNote": "正文及配图明确标注蔡徐坤；已目视核对主近脸图，并用同文正面全身配图交叉确认人物；未采用其他演员。漫画中的银灰中分、黑上衣、灰背带裤和篮球是经典舞台造型的本作二创重组，未宣称为篮球运动员履历。",
+    "rights": "原照片来自公开报道的品牌官宣物料，仅作人物身份核对与创作参考；不推定为可自由商用图片。运行头像为AI漫画重绘，公开发布仍需自行确认相关权利。",
+    "supplementalReferences": [
+      {
+        "sourcePage": "https://finance.sina.com.cn/tjhz/2026-10-21/doc-inivynsq8058039.shtml?from=pcsearch",
+        "imageUrl": "https://n.sinaimg.cn/spider20261021/337/w650h487/20261021/87b5-8824a0732fbc5320314c5585d7854eb7.jpg",
+        "localPath": "/workspace/Basketball/parallel-self/shenren/assets/v15-references/caixukun-frontal.image",
+        "asset": "v15-references/caixukun-frontal.image",
+        "sha256": "1cde6239842c3de0d2b4cfe773c9abe8484071adea6f14a32950521793ec7ae6",
+        "bytes": 46345,
+        "verifiedReference": true,
+        "faceVerified": true,
+        "note": "同一公开报道内两张正面站姿官宣图，用于正面脸部结构交叉核对。"
+      }
+    ]
+  }
+]

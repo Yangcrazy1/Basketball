@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/quiz/index",
+    "pages/result/index",
+    "pages/diy/index",
+    "pages/people/index",
+    "pages/story/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "整活NBA",
+    "navigationBarBackgroundColor": "#171225",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#171225",
+    "backgroundTextStyle": "light"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

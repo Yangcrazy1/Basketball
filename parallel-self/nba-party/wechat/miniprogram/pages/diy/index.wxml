@@ -1,0 +1,15 @@
+<view class="page">
+  <text class="eyebrow">DIY · 我的球场分身</text><text class="title" style="font-size:50rpx">自建一位整活球星</text>
+  <text class="subtitle">自己写人设，自己点能力。可以加入自选阵容；不会混进默认题库冒充你的匹配结果。</text>
+  <view class="result-hero" style="margin-top:30rpx"><view class="jersey" style="background:{{form.avatarColor}}">{{form.number}}</view><view class="person-name">{{form.name || '新来的整活球星'}}</view><text class="muted">{{form.line || '请给这位球星一句开场白'}}</text></view>
+  <view class="field"><text class="label">球星名字（1—12字）</text><input class="input" value="{{form.name}}" maxlength="12" data-key="name" bindinput="input" placeholder="例：小区罚球王"/></view>
+  <view class="field"><text class="label">球衣号码（0—99）</text><input class="input" type="number" value="{{form.number}}" maxlength="2" data-key="number" bindinput="input"/></view>
+  <view class="field"><text class="label">球场口头禅（40字以内）</text><input class="input" value="{{form.line}}" maxlength="40" data-key="line" bindinput="input" placeholder="例：这一球进不进，表情先拉满。"/></view>
+  <view class="field"><text class="label">球衣配色</text><view class="grid3"><button wx:for="{{colors}}" wx:key="*this" class="mode {{form.avatarColor === item ? 'selected' : ''}}" style="background:{{item}};min-height:88rpx" data-color="{{item}}" bindtap="color">{{form.avatarColor === item ? '✓' : '○'}}</button></view></view>
+  <view class="section-head">给分身点六维能力</view>
+  <view wx:for="{{dimensions}}" wx:key="*this" class="slider-row"><text>{{item}} · {{form.vector[index]}}</text><slider min="0" max="100" step="1" value="{{form.vector[index]}}" show-value="{{false}}" activeColor="#bb99e9" backgroundColor="#483451" block-color="#ffdda4" data-index="{{index}}" bindchange="vector"/></view>
+  <view class="field"><text class="label">DIY专属海克斯名（12字以内）</text><input class="input" value="{{form.hexName}}" maxlength="12" data-key="hexName" bindinput="input" placeholder="例：我先喊个好球"/></view>
+  <view class="field"><text class="label">这张卡怎么整（60字以内）</text><textarea class="textarea" value="{{form.hexEffect}}" maxlength="60" data-key="hexEffect" bindinput="input" placeholder="例：每次打铁，场边自动播放一次欢呼。"/></view>
+  <button class="primary" bindtap="save">保存我的DIY球星</button><button wx:if="{{exists}}" class="danger" bindtap="remove">删除这位DIY球星</button><button class="secondary" bindtap="back">返回球场</button>
+  <view class="notice">DIY内容是你的本机创作，不代表真实球星经历或官方天赋。</view>
+</view>

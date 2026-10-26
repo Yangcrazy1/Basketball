@@ -1,0 +1,23 @@
+{
+  "status": "node_and_static_checks_passed_native_acceptance_pending",
+  "tests": 2,
+  "checks": [
+    "six complete native routes and every WXML event handler is present",
+    "21 portraits and 51 card illustrations resolve to local distribution images",
+    "all page JavaScript passes node --check",
+    "duplicate tap protection, resume, back-edit and real eight-question completion",
+    "five distinct self-selected team validation rejects duplicates",
+    "DIY persists, adds only as a teammate, deletes cleanly, preserves matched identity and score",
+    "Canvas export requests PNG at1080x1920; album called only after explicit user action",
+    "denied album permission produces a message; no settings dialog opened",
+    "actual earned story card, ending and saved story resume follow shared engine"
+  ],
+  "mainPackageUncompressedBytes": 1469552,
+  "verificationType": "Node/WeChat API mock/static. Does not run WXML compiler, WeChat Developer Tools or a physical phone.",
+  "pending": [
+    "微信开发者工具完整功能验证",
+    "Android 微信真机验证",
+    "iOS 微信真机验证",
+    "真实 AppID 配置与平台审核"
+  ]
+}

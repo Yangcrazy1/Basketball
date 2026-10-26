@@ -1,0 +1,94 @@
+{
+  "product": "整活NBA",
+  "sourceCommit": "349320079855d5f1ea2c4d4bb896951aa4ceefdb",
+  "sourceProduct": "平行宇宙的另一个我",
+  "sourceReleaseVersion": 15,
+  "schemaVersion": 14,
+  "sourceDataSHA256": "403f9386ce5a63b77c196e4c2ec3c44f2c8f381d248b9ccd5e65324a1f28e118",
+  "sourceEngineSHA256": "4290a8772d1e8cf655fffa03f6cd2bb9e5d6e1a85da218cf165af2df9e51b2bf",
+  "derivedDataSHA256": "249ee20a45478be4d33fa569186c12e708d0b84c1e0af836584e2017a34ddef8",
+  "counts": {
+    "questions": 132,
+    "people": 21,
+    "parodyCards": 51,
+    "exclusiveCards": 48,
+    "representativeCards": 48,
+    "representativeAssociations": 48,
+    "stories": 21,
+    "originalQuestions": 108,
+    "newCourtQuestions": 24,
+    "byTheme": {
+      "basket": {
+        "questions": 132,
+        "people": 21,
+        "cards": 51,
+        "exclusiveCards": 48
+      }
+    }
+  },
+  "originalContentPreserved": {
+    "characters": 21,
+    "questions": 108,
+    "cards": 51,
+    "stories": 21,
+    "engine": "exact source bytes",
+    "scoringFields": "unchanged",
+    "questionAndCardSemantics": "unchanged"
+  },
+  "addedContent": {
+    "courtQuestions": 24,
+    "dimensions": {
+      "social": 4,
+      "explore": 4,
+      "empathy": 4,
+      "action": 4,
+      "order": 4,
+      "express": 4
+    }
+  },
+  "portraitCount": 21,
+  "portraitBytes": 322754,
+  "portraitTransform": "Technical crop of the exact original 2x2 cell, resize to 256x256, WebP quality84; no redrawing or face substitution.",
+  "cardArtCount": 51,
+  "cardArtBytes": 249036,
+  "cardArtTransform": "Technical crop of exact existing sprite or artAsset, at most 128x128 and 8KiB per image.",
+  "checks": {
+    "status": "passed",
+    "drawAnswerAnalyzeRuns": 36,
+    "questionCounts": [
+      8,
+      16,
+      24
+    ],
+    "courtOnlyRuns": 4,
+    "allPeopleResolve": 21,
+    "allStoryStartsValid": 21,
+    "observedWinnerCount": 9,
+    "observedWinners": [
+      "curry",
+      "doncic",
+      "ershu",
+      "shai",
+      "shaq",
+      "tmac",
+      "wuyou",
+      "yaoming",
+      "zhouqi"
+    ],
+    "checks": [
+      "unique random question deck",
+      "previous first question avoided",
+      "legal four-option answers",
+      "six finite score dimensions",
+      "actual card evidence",
+      "five distinct legal-position teammates",
+      "all 21 source identities resolve",
+      "new court-only runs earn common cards"
+    ],
+    "limits": [
+      "Observed winners are a smoke sample, not a proof that all 21 identities are reachable.",
+      "DIY characters are not quiz identities and are not added to the candidate pool."
+    ]
+  },
+  "diyPolicy": "Self-created DIY characters may be manually selected for a team; excluded from quiz candidate identities."
+}

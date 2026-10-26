@@ -1,0 +1,57 @@
+{
+  "name": "整活NBA",
+  "version": 1,
+  "core": "entertainment personality quiz",
+  "people": 21,
+  "questions": 132,
+  "newCourtQuestions": 24,
+  "cards": 51,
+  "dataSHA256": "249ee20a45478be4d33fa569186c12e708d0b84c1e0af836584e2017a34ddef8",
+  "engineSHA256": "4290a8772d1e8cf655fffa03f6cd2bb9e5d6e1a85da218cf165af2df9e51b2bf",
+  "webURL": "https://yangcrazy1.github.io/Basketball/nba/",
+  "wechatAcceptance": "pending: WeChat Developer Tools, AppID and physical-device validation",
+  "xhsAcceptance": "pending: 创服平台模拟器、Android 与 iOS 真机扫码",
+  "artifacts": {
+    "zhenghuo-nba-web.zip": {
+      "bytes": 854090,
+      "sha256": "5b90ade3f86f92108c5e424e5fbea6213ab98599e737c2637287b35fd8d7cfae"
+    },
+    "zhenghuo-nba-xhs.zip": {
+      "bytes": 854608,
+      "sha256": "3a207f014ea41f154445fb3811e952d232b1d356a43e996d7137d2f92ebcca81"
+    },
+    "zhenghuo-nba-offline.html": {
+      "bytes": 1504800,
+      "sha256": "4447aaa17552dc194be83b7c783b7e669192564fdc519a2180de933caab56f1f"
+    },
+    "zhenghuo-nba-wechat.zip": {
+      "bytes": 888395,
+      "sha256": "d3c4ee42e1c940fa077505674b83c897dc62dc2e108501297de4cf775656f26a"
+    }
+  },
+  "runtimeFiles": {
+    "index.html": "846713ca5f8a5d15d6f2bbb72221a1d4b2719608583bf992df69e1c5603dd5ac",
+    "style.css": "8bd449cf46fc5e2d1db5f6c90dedbd10cf0467c9f37c5ff062cf1ea424c6106d",
+    "app.js": "72fc69e40dc6e79d66a92f4e9a2beeee1f26c33bb849a48bff7a6be7eda07832",
+    "engine.js": "4290a8772d1e8cf655fffa03f6cd2bb9e5d6e1a85da218cf165af2df9e51b2bf",
+    "game.js": "43e0d69a88ced766ff6c19dc951e4f3dad2eeca0dac9322c6666727a57d46177",
+    "platform.js": "994340a23d29c2c195c071ef709059060aa7592d5b643ddd942128a4930a44ee",
+    "data.js": "850f519bfc2a82e7b6621b8af13c63c5fc108b558632daaa7704bfb75ea96c94"
+  },
+  "browserChecks": 10,
+  "nativeWeChatVerified": false,
+  "nativeXhsVerified": false,
+  "screenshots": [
+    "diy.png",
+    "home.png",
+    "question.png",
+    "result.png",
+    "story-poster.png",
+    "story.png",
+    "team-poster.png"
+  ],
+  "logoDownload": "./downloads/logo.png",
+  "logoSHA256": "573695b3659a831eb7aa259ef4e9389fd8d39e0b1b95dc0a473bf138b8093061",
+  "coverDownload": "./downloads/cover.png",
+  "coverSHA256": "bfc026b62485d153df145af7a0d246106dda4daa09e9ee06a0a65ece678e0f71"
+}

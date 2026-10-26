@@ -1,0 +1,17 @@
+<view class="page">
+  <block wx:if="{{selected}}">
+    <button class="secondary" bindtap="back">← 返回图鉴</button><view class="result-hero"><image class="portrait" mode="aspectFill" src="{{selected.avatar}}"/><text class="result-name">{{selected.name}}</text><text class="muted">{{selected.sub}}</text><view class="tags"><text wx:for="{{selected.tags}}" wx:key="*this" class="pill">{{item}}</text></view></view>
+    <view wx:if="{{selected.universe}}" class="card"><view class="person-name">{{selected.universe.title}}</view><text class="story-text">{{selected.universe.arrival}}</text><text class="story-text">{{selected.universe.mission}}</text></view>
+    <button class="primary" bindtap="story">试玩这条平行人生</button><text class="tiny">图鉴试玩从空背包开始，不冒充已答题获得。</text>
+    <view class="section-head">人物代表海克斯</view>
+    <view wx:for="{{selectedCards}}" wx:key="id" class="hex-card"><image wx:if="{{item.image}}" class="portrait" mode="aspectFit" src="{{item.image}}"/><text class="hex-name">{{item.name}}</text><text class="hex-effect">{{item.displayEffect}}</text><text class="muted">{{item.punchline}}</text></view>
+  </block>
+  <block wx:else>
+    <text class="eyebrow">同一个球场，各有各的离谱</text><text class="title" style="font-size:50rpx">球星与海克斯图鉴</text>
+    <view class="grid2" style="margin-top:28rpx"><button class="mode {{mode === 'people' ? 'selected' : ''}}" data-mode="people" bindtap="mode">人物</button><button class="mode {{mode === 'cards' ? 'selected' : ''}}" data-mode="cards" bindtap="mode">海克斯</button></view>
+    <input class="input" style="margin:24rpx 0" placeholder="搜名字、别名或卡名" value="{{query}}" bindinput="search"/>
+    <view wx:if="{{mode === 'people'}}" class="grid2"><view wx:for="{{people}}" wx:key="personId" class="card" data-pid="{{item.personId}}" bindtap="person"><image class="portrait" mode="aspectFill" src="{{item.avatar}}"/><view class="person-name">{{item.name}}</view><text class="tiny">{{item.sub}}</text></view></view>
+    <view wx:else><view wx:for="{{cards}}" wx:key="id" class="hex-card"><image wx:if="{{item.image}}" class="portrait" mode="aspectFit" src="{{item.image}}"/><text class="hex-name">{{item.name}}</text><text class="hex-effect">{{item.displayEffect}}</text><text class="muted">{{item.punchline}}</text></view></view>
+    <view class="notice">全部卡片与角色剧情为娱乐二创；图鉴标签不代表本轮已获得的能力。</view>
+  </block>
+</view>
