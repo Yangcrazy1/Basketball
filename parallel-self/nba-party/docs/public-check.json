@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "count": 6,
+  "checks": [
+    "exact HTTPS runtime and all four downloadable artifact hashes, including a real six-page native WeChat project",
+    "separate original brand artwork downloads match final source images",
+    "original V13 XHS download remains accessible with its unchanged historical hash",
+    "real public eight-question quiz automatically reveals its actual matched identity, card and five-person team",
+    "live DIY teammate, original match preservation, real PNG export and persisted team reload",
+    "no public page exceptions or failed runtime resource responses"
+  ],
+  "url": "https://yangcrazy1.github.io/Basketball/nba/",
+  "sourceCommit": "acd14ac9c10254f10837117c996d784237cb79f3",
+  "checkedAt": "2026-10-26T08:53:50.851334+00:00",
+  "device": "Chromium 393×852 mobile viewport simulation; not physical phone or native platform acceptance"
+}

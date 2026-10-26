@@ -45,7 +45,9 @@ for name, info in meta['artifacts'].items():
         assert len(app['pages']) == 6
         assert sum(i.file_size for i in z.infolist() if i.filename.startswith('miniprogram/')) < 2 * 1024 ** 2
         assert not any(b'<web-view' in z.read(n) for n in z.namelist() if n.endswith('.wxml'))
-assert b'zhenghuo-nba-wechat.zip' in read(BASE + 'download.html')
+download_page = read(BASE + 'download.html?source=' + deployment['sourceCommit'])
+assert b'zhenghuo-nba-wechat.zip' in download_page
+assert meta['artifacts']['zhenghuo-nba-wechat.zip']['sha256'][:12].encode() in download_page
 passed('exact HTTPS runtime and all four downloadable artifact hashes, including a real six-page native WeChat project')
 
 for name in ['logo', 'cover']:

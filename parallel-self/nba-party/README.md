@@ -36,6 +36,10 @@ python scripts/package.py
 
 用户提供的另一个对话 ID 不能直接读取，仓库中球场页面返回403；用户已选择用“球场场景题＋DIY自建整活球星”落地，未声称复制了不可访问页面。
 
+## 已完成验证
+
+7项逻辑／微信API状态模拟、10组本地浏览器、6组公开HTTPS流程通过。大小、指纹及交付入口见 `docs/build-manifest.json`、`docs/delivery.md`；真实线上结果见 `docs/public-check.json`。
+
 ## 验证边界
 
 普通浏览器截图是手机视口模拟。原生微信工程通过静态与 API 状态模拟不等于开发者工具或真机验收，仍待正式 AppID、开发者工具编译及 Android／iOS 微信真机验证。
