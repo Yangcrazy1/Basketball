@@ -30,10 +30,10 @@ Page({
     try {
       const ids = this.data.teamSelection.map(function (index) { return N.G.people[index].id; });
       N.G.customTeam(N.G.result(this.record.session), ids);
-      this.record.customIds = ids; N.write('latest', this.record); this.refresh(); this.setData({ editingTeam: false, posterPath: '' }); N.toast('五人阵容已保存');
+      this.record.customIds = ids; this.record.diyIncluded = false; N.write('latest', this.record); this.refresh(); this.setData({ editingTeam: false, posterPath: '' }); N.toast('五人阵容已保存');
     } catch (e) { N.toast(e.message || '请选五个不同的人'); }
   },
-  resetTeam: function () { delete this.record.customIds; N.write('latest', this.record); this.refresh(); this.setData({ editingTeam: false, posterPath: '' }); },
+  resetTeam: function () { delete this.record.customIds; this.record.diyIncluded = false; N.write('latest', this.record); this.refresh(); this.setData({ editingTeam: false, posterPath: '' }); },
   story: function () { wx.navigateTo({ url: '/pages/story/index?from=result' }); },
   restart: function () { wx.navigateTo({ url: '/pages/quiz/index?count=' + this.record.session.count }); },
   home: function () { wx.reLaunch({ url: '/pages/home/index' }); },

@@ -2,43 +2,43 @@ TAP version 13
 # Subtest: three quiz lengths produce distinct random questions, valid real results and five unique basketball teammates
 ok 1 - three quiz lengths produce distinct random questions, valid real results and five unique basketball teammates
   ---
-  duration_ms: 61.057359
+  duration_ms: 47.158971
   type: 'test'
   ...
 # Subtest: stale double tap cannot answer a different question and previous editing remains valid
 ok 2 - stale double tap cannot answer a different question and previous editing remains valid
   ---
-  duration_ms: 3.299379
+  duration_ms: 5.063018
   type: 'test'
   ...
 # Subtest: DIY and self-selected team never replace the actual matched identity or score
 ok 3 - DIY and self-selected team never replace the actual matched identity or score
   ---
-  duration_ms: 13.992554
+  duration_ms: 11.461549
   type: 'test'
   ...
 # Subtest: DIY validation blocks malformed ability values, invalid jersey numbers and oversized text
 ok 4 - DIY validation blocks malformed ability values, invalid jersey numbers and oversized text
   ---
-  duration_ms: 0.73718
+  duration_ms: 0.357714
   type: 'test'
   ...
 # Subtest: all 21 existing branching stories start without invented acquired cards
 ok 5 - all 21 existing branching stories start without invented acquired cards
   ---
-  duration_ms: 3.139562
+  duration_ms: 2.55839
   type: 'test'
   ...
 # Subtest: importable native project has six complete routes, local art and no web-view wrapper
 ok 6 - importable native project has six complete routes, local art and no web-view wrapper
   ---
-  duration_ms: 278.207251
+  duration_ms: 269.280148
   type: 'test'
   ...
 # Subtest: native quiz rejects stale double taps, resumes/back-edits and keeps identity through self-selected/DIY teams
 ok 7 - native quiz rejects stale double taps, resumes/back-edits and keeps identity through self-selected/DIY teams
   ---
-  duration_ms: 3810.959628
+  duration_ms: 3069.60968
   type: 'test'
   ...
 1..7
@@ -49,4 +49,4 @@ ok 7 - native quiz rejects stale double taps, resumes/back-edits and keeps ident
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 4246.84954
+# duration_ms 3427.565762

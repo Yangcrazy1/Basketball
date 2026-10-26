@@ -150,6 +150,15 @@ test('native quiz rejects stale double taps, resumes/back-edits and keeps identi
   result.savePoster(); assert.equal(env.calls.filter(x => x[0] === 'album').length, 1);
   env.wx.saveImageToPhotosAlbum = value => { env.calls.push(['album-denied']); value.fail({ errMsg: 'auth denied' }); };
   result.savePoster(); assert(env.calls.some(x => x[0] === 'toast' && /未保存/.test(x[1])));
+  result.setData({ teamSelection: [0, 1, 2, 3, 4] }); result.saveTeam();
+  assert.equal(result.result.team.some(p => p.personId === 'diy-me'), false);
+  assert.deepEqual(result.result.team.map(p => p.id), game.people.slice(0, 5).map(p => p.id));
+  assert.equal(N.read('latest').diyIncluded, false);
+  result.toggleDIY(); result.resetTeam();
+  assert.equal(result.result.team.some(p => p.personId === 'diy-me'), false);
+  assert.deepEqual(result.result.team.map(p => p.id), game.result(record.session).team.map(p => p.id));
+  assert.equal(result.result.identity.personId, identity);
+  result.toggleDIY();
   const story = loadPage('story'); story.onLoad({ from: 'result' });
   assert(story.data.view.ownedCardIds.includes(result.result.augment.id));
   for (let i = 0; !story.data.view.isEnding && i < 12; i++) {

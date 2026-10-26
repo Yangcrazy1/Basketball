@@ -37,7 +37,7 @@ assert meta['name'] == '整活NBA' and (meta['people'], meta['questions'], meta[
 for name, digest in meta['runtimeFiles'].items():
     assert sha(read(BASE + name)) == digest, name
 for name, info in meta['artifacts'].items():
-    raw = read(BASE + 'downloads/' + name)
+    raw = read(BASE + 'downloads/' + name + '?v=' + info['sha256'][:12])
     assert len(raw) == info['bytes'] and sha(raw) == info['sha256'], name
     if name.endswith('-wechat.zip'):
         z = zipfile.ZipFile(io.BytesIO(raw))

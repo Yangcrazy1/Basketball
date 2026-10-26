@@ -2,7 +2,7 @@
   "name": "整活NBA",
   "format": "native WXML/WXSS/JS project; not a web-view wrapper",
   "runtimeFiles": 101,
-  "mainPackageUncompressedBytes": 1469552,
+  "mainPackageUncompressedBytes": 1469672,
   "conservativeMainPackageLimitBytes": 2097152,
   "sourceSchema": 14,
   "enabledPeople": 21,
@@ -600,6 +600,6 @@
   ],
   "acceptance": "Only Node/static/package checks are available here; no WeChat Developer Tools or physical device result.",
   "zip": "release/zhenghuo-nba-wechat.zip",
-  "zipBytes": 888395,
-  "zipSHA256": "d3c4ee42e1c940fa077505674b83c897dc62dc2e108501297de4cf775656f26a"
+  "zipBytes": 888423,
+  "zipSHA256": "4937489c5be9928e937893949a62c478e341b112a343cb3e7b8c8918b0f41d7d"
 }

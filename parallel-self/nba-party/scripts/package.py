@@ -38,7 +38,7 @@ labels = {'zhenghuo-nba-wechat.zip': '微信原生小程序工程 ZIP', 'zhenghu
           'zhenghuo-nba-web.zip': '网页部署 ZIP', 'zhenghuo-nba-offline.html': '完整离线网页 HTML'}
 for name in names:
     info = manifest['artifacts'][name]
-    buttons += '<article><a class="button" href="./downloads/' + name + '" download>' + labels[name] + ' ↓</a><p>' + str(round(info['bytes'] / 1024)) + ' KiB</p><code>SHA256 ' + info['sha256'] + '</code></article>'
+    buttons += '<article><a class="button" href="./downloads/' + name + '?v=' + info['sha256'][:12] + '" download>' + labels[name] + ' ↓</a><p>' + str(round(info['bytes'] / 1024)) + ' KiB</p><code>SHA256 ' + info['sha256'] + '</code></article>'
 branding_buttons = ''
 for name, label in [('logo','透明黑洞 Logo PNG'), ('cover','整活NBA宇宙封面 PNG')]:
     source = ROOT / 'branding' / (name + '.png')
