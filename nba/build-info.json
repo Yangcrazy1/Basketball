@@ -25,8 +25,8 @@
       "sha256": "4447aaa17552dc194be83b7c783b7e669192564fdc519a2180de933caab56f1f"
     },
     "zhenghuo-nba-wechat.zip": {
-      "bytes": 888395,
-      "sha256": "d3c4ee42e1c940fa077505674b83c897dc62dc2e108501297de4cf775656f26a"
+      "bytes": 888423,
+      "sha256": "4937489c5be9928e937893949a62c478e341b112a343cb3e7b8c8918b0f41d7d"
     }
   },
   "runtimeFiles": {
@@ -54,5 +54,5 @@
   "logoSHA256": "573695b3659a831eb7aa259ef4e9389fd8d39e0b1b95dc0a473bf138b8093061",
   "coverDownload": "./downloads/cover.png",
   "coverSHA256": "bfc026b62485d153df145af7a0d246106dda4daa09e9ee06a0a65ece678e0f71",
-  "sourceCommit": "74d7cbad37280cbbcb2f043cce7a5a03fec45ed4"
+  "sourceCommit": "acd14ac9c10254f10837117c996d784237cb79f3"
 }
